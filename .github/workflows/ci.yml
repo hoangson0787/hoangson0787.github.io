@@ -32,8 +32,12 @@ jobs:
       - run: pip install markdown-exec
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-categories-plugin 
+      - run: pip install mkdocs-mermaid2-plugin
       - run: mkdocs build
       - name: Insert Google AdSense code
         run: |
           find site -name '*.html' -exec sed -i 's|</head>|<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1440105407870599" crossorigin="anonymous"></script></head>|' {} \;
+      - name: Copy ads.txt to output directory 
+        run: | 
+          cp ads.txt site/
       - run: mkdocs gh-deploy --force
