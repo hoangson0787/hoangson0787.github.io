@@ -32,6 +32,7 @@ jobs:
       - run: pip install markdown-exec
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-categories-plugin 
+      - run: pip install mermaid2
       - run: mkdocs build
       - name: Insert Google AdSense code
         run: |
