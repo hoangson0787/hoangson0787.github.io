@@ -3,6 +3,7 @@ site_url: 'https://hoangson0787.github.io/CSDL-duoc-lieu/'
 repo_url: 'https://github.com/hoangson0787/CSDL-duoc-lieu'
 theme: 
   name: material
+  custom_dir: overrides
   font: 
     text: Merriweather
     code: Red Hat Mono
