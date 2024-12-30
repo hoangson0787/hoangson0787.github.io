@@ -39,8 +39,8 @@ jobs:
           find site -name '*.html' -exec sed -i 's|</head>|<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1440105407870599" crossorigin="anonymous"></script></head>|' {} \;
       - name: Copy ads.txt to output directory 
         run: | 
-          cp ads.txt site/ 
+          cp ./ads.txt site/ 
       - name: Copy robots.txt to output directory 
         run: | 
-          cp robots.txt site/
+          if [ -f ./robots.txt ]; then cp ./robots.txt site/; else echo "robots.txt not found"; fi
       - run: mkdocs gh-deploy --force
