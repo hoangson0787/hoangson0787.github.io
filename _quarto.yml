@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 4000
+    browser: false
+
+
+website:
+  title: "Kỹ thuật chiết xuất các hợp chất từ tự nhiên"
+  description: "Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên."
+  site-url: https://hoangson0787.github.io 
+  repo-url: https://github.com/hoangson0787/hoangson0787
+  repo-branch: main
+  repo-actions: [edit, source, issue]
+  reader-mode: true
+  twitter-card: true
+  page-navigation: true
+  open-graph: true
+  page-footer:
+    background: light
+    left: 
+      - text: "Về tôi"
+        href: about.qmd
+    right: 
+      - text: "Y học thực chứng"  
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: Home
+        href: index.qmd
+      - text: "Sách"
+        href: Book/index.qmd
+      - text: "Bài giảng"
+        href: Presentation/index.qmd
+      - icon: github
+        href: https://github.com/hoangson0787/
+        aria-label: Github
+  sidebar: 
+    search: true
+    style: docked
+    contents: auto
+  comments: 
+    giscus: 
+      repo: hoangson0787/hoangson0787.github.io
+
+
+format: 
+  html: 
+    theme: sandstone
+    css: styles.css
+    toc: true
+    linestretch: 1.5
+    light: flatly
+    dark: darkly

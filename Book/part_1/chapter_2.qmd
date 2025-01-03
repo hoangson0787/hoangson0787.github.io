@@ -1,0 +1,432 @@
+---
+title: "Chương 2: Phương pháp chiết xuất thường quy"
+author: "TS. Hoàng Lê Sơn"
+toc: true
+bibliography: ../references/BookExtraction.bib
+csl: ../references/natural-product-reports.csl
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+  docx: default
+---
+::: {.left}
+## Tóm tắt
+:::
+
+Cao chiết từ thực vật có thể được chiết xuất bằng nhiều phương pháp khác
+nhau. Theo cách phân loại hiện tại, các phương pháp này chia thành hai
+nhóm gồm các phương pháp thường quy và các phương pháp mới. Chương này
+đề cập tới các phương pháp thường quy trong chiết xuất gồm chiết
+Shoxlet, chiết ngâm, cất kéo hơi nước. Các phương pháp này sử dụng dung
+môi hữu cơ hoặc nước tại áp suất khí quyển. Dung môi được lựa chọn hướng
+tới thu được nhóm hoạt chất mong muốn cao nhất và ít tạp chất. Nguyên
+tắc chung là dung môi phân cực có thể chiết được nhóm hợp chất phân cực
+trong khi dung môi không phân cực có thể chọn được nhóm không phân cực.
+Tuy nhiên trong thực tế phức tạp hơn do đa dạng thành phần trong dược
+liệu với tương tác giữa nhiều yếu tố khác nhau. Dung môi trong phương
+pháp chiết Shoxlet có thể là nước hoặc dung môi hữu cơ trong khi cất kéo
+hơi nước chỉ dùng nước làm dung môi. Chương này sẽ cung cấp khái niệm
+cũng như ưu nhược điểm từng phương pháp vừa đề cập.
+
+## 2.1 Chiết Soxhlet và một số thiết bị được cải tiến
+
+### 2.1.1. Khái quát về chiết Shoxlet
+
+Chiết xuất bằng Soxhlet là một kỹ thuật thường quy được sử dụng phổ biến
+nhất để chiết xuất các hợp chất từ thực vật. Đây là quá trình chiết
+lỏng-rắn. Quy trình này dựa trên sự qua trình trao đổi các nhóm chất mục
+tiêu từ mẫu chất rắn sang pha lỏng với dung môi lựa chọn phù hợp. Quá
+trình này yêu cầu dung môi (pha lỏng) tiếp xúc nhiều nhất với dược liệu
+(pha rắn). [@castroBacterialCelluloseProduced2012] Ban đầu, hệ thống
+chiết bằng Shoxlet được sử dụng để chiết xuất các lipid nhưng ngày nay
+được sử dụng với hầu hết các nhóm chất trong thực vật và từ các bộ phận
+khác nhau của cây cỏ. [@yangSelectiveExtractionRecovery2013] Một số cái
+tiến của thiết bị này được phát triển nhưng nhìn chung mô hình chung vẫn
+được giữa nguyên. Hiệu quả của phương pháp chiết bằng Shoxlet phụ thuộc
+vào khả năng hòa tan của hoạt chất đích trong dung môi sử dụng với kỳ
+vọng các tạp chất sẽ không hòa tan.
+[@punincrespoComparisonSupercriticalFluid2006]
+**Mô tả thiết bị và quá trình chiết:**
+Shoxlet là thiết bị phòng thí nghiệm được nhà hóa học người Đức Franz
+von Soxhlet phát minh ra năm 1879. [@jensenOriginSoxhletExtractor2007]
+Hệ thống chiết xuất Shoxlet gồm một hệ thống đỡ, một bình chưng cất, xi
+phông hình chữ U ngược (tiếng Hy Lạp viết là syphon ) và sinh hàn. Hoạt
+động của thiết bị khá đơn giản, một lượng mẫu được gói vào trong giấy
+lọc sau đó đặt ở bình chiết trong khi đó dung môi được đổ vào bình hứng.
+Quá trình gia nhiệt bắt đầu, dung môi sẽ bốc hơi khi đạt nhiệt độ tại
+bình hứng sẽ ngưng tụ tại bình chiết do phía trên có sinh hàn. Các hoạt
+chất trong mẫu sẽ hòa tan vào dung môi tại bình chiết và khi dung môi
+tại bình chiết đầy sẽ rút xuống bình hứng thông qua syphon. Quá trình
+dung môi từ bình hứng bốc hơi và ngưng tụ tại bình chiết diễn ra liên
+tục. Hệ quả là nồng độ của hoạt chất trong bình chiết tại thời điểm ban
+đầu sẽ cao hơn nồng độ hoạt chất tại thời điểm sau và ngược lại khi xem
+xét nồng độ của hoạt chất trong bình hứng. Quá trình chiết xuất sẽ dừng
+lại khi các chất mục tiêu đã chiết kiệt khỏi mẫu. Dung dịch mẫu cuối
+cùng không cần lọc sau khi quá trình chiết suất kết thúc.
+[@bimakrComparisonDifferentExtraction2011; @arthurSoxhletExtractorSolid]
+
+::: {#fig-shoxlet}
+![](../graphics/Shoxlet%20Extractor.png)
+
+Hệ thống chiết Soxhlet được cấu tạo gồm hệ thống giá đỡ, một bình chưng cất, syphon và sinh hàn. Dung môi chiết được lựa chọn phù hợp với
+chất mục tiêu. Nồng độ chất chiết được trong bình chiết sẽ giảm theo
+thời gian trong khi trong bình hứng sẽ ngược lại.
+:::
+
+
+
+**Một số cải tiến trong hệ thống chiết Shoxlet:**
+Do hạn chế nhất định, một số cải tiến đã được đề xuất để cải thiện hiệu
+quả của quá trình chiết suất. [@subramanianDoubleBypassesSoxhlet2016]
+Subramanian và cộng sự đã phát triển một hệ thống mới làm giảm thời gian
+chiết xuất piperine piperine từ hạt của *Piper nigrum* (hạt tiêu) xuống
+so với thiết bị chiết Shoxlet truyền thống khi thêm nhánh dẫn dung môi
+bốc hơi từ bình hứng tới bình chiết. (Hình
+[1.1](#fig:DBSA extraction){reference-type="ref"
+reference="fig:DBSA extraction"}) Shuangqin Ma và cộng sự năm 2015 cũng
+đã đề xuất kỹ thuật chiết Shoxlet mới trong đó thay vì mẫu được gói
+trong giấy lọc sẽ được hấp thụ trên bề mặt Silica-gel. Kết quả là có
+hiệu quả trong chiết suất flavonoid từ phấn hoa loài *Brassica
+campestris* (cây cải dầu). (Hình
+[1.1](#fig:DBSA extraction){reference-type="ref"
+reference="fig:DBSA extraction"})[@maSoxhletassistedMatrixSolid2015]
+
+::: {#fig-shoxlet}
+![A](../graphics/DBSA extraction.jpg)
+![B](../graphics/SA-MSPD method.png)
+
+Một số cải tiến hệ thống chiết Shoxlet: (a) Hệ thống cải
+tiến thiết bị chiết Shoxlet của Subramanian và cộng sự giúp giảm thời
+gian chiết piperine từ *Piper nigrum* khi thêm nhánh
+dẫn dung môi bốc hơi từ bình hứng tới bình chiết; (b) Shuangqin Ma và
+cộng sự đã phát triển phương pháp chuẩn bị mẫu mới trong chiết Shoxlet
+không cần dùng giấy lọc. Kết quả giúp tăng hiệu suất chiết flavonoid từ
+phấn hoa loài *Brassica campestris* (cây cải
+dầu).
+:::
+
+
+
+**Ưu điểm và nhược điểm của phương pháp:**\
+Phương pháp chiết Shoxlet đơn giản, cần ít thời gian đào tạo nhân công
+hơn so với các phương pháp khác. Phổ ứng dụng phương pháp phù hợp trên
+nhiều lớp hợp chất tự nhiên. Nếu so với phương pháp chiết ngâm, dung môi
+sử dụng ít hơn trong một mẻ chiết xuất. Nhưng nhược điểm là phương pháp
+không phù hợp với hoạt chất không bền với nhiệt do thời gian chiết xuất
+dài. Thêm nữa, kỹ thuật này có liên quan đến một số đặc điểm bất lợi khi
+sử dụng một lượng lớn dung môi hữu cơ nguy hiểm và dễ xảy ra cháy nổ.
+Đồng thời, dung môi đòi hỏi có độ tinh khiết cao, chi phí lớn.
+[@maSoxhletassistedMatrixSolid2015] Việc sử dụng một lượng lớn dung môi
+độc hại làm cho phương pháp này kém thân thiện với môi trường hơn so với
+chiết siêu tới hạn.
+[@bussNaturalProductChemistry2009; @punincrespoComparisonSupercriticalFluid2005]
+Hơn nữa, đây là một kỹ thuật tốn nhiều thời gian.
+[@nnReviewExtractionMethods2015] Điều này dẫn tới phương pháp này không
+phù hợp để nâng cấp tới quy mô công nghiệp.
+
+### 2.1.2 Chiết Soxhlet áp suất cao
+
+Chiết bằng chất lỏng siêu tới hạn kết hợp với chiết Shoxlet có bán trên
+thị trường hoặc các phòng thí nghiệm khi yêu cầu lắp bộ chiết trong nồi
+hấp hình cầu bằng thép không gỉ sẽ thu được thiết bị chiết Shoxlet ở áp
+suất cao. (Hình
+[1.4](#fig:High-pressure Shoxlet Extractor){reference-type="ref"
+reference="fig:High-pressure Shoxlet Extractor"}) Mặc dù kết hợp với bộ
+chiết siêu tới hạn nhưng điều kiện đạt được sẽ không thu được dung môi
+siêu tới hạn. Các dung môi hoặc chất khí sử dụng sẽ có đặc điểm nhiệt độ
+sôi thấp ở áp suất và nhiệt độ bình thường, nhưng khi áp suất và nhiệt
+độ tăng cao sẽ ở thể lỏng (1000-1500 psi). Với quy trình chiết bằng áp
+suất cao, thời gian và lượng dung môi sử dụng giảm một nửa. Ban đầu, kỹ
+thuật này được sử dụng để chiết suất một số mẫu thuốc trừ sâu như
+organochlorines và polychlorinated biphenyls nhưng sau này chuyển sang
+chiết mẫu từ cà rốt, khoai tây và dâu ô liu. Dung môi sử dụng phổ biến
+nhất là Carbon dioxide . Quá trình ngưng tụ chất chiết được bằng cách sử
+dụng nhiệt độ tại 0$^oC$ Nhược điểm chính của phương pháp này là quá
+trình vận hành phức tạp cộng thêm độ bền của bộ phận chiết suất khi hoạt
+động ở áp suất cao.
+[@luquedecastroSoxhletExtractionPresent2010; @bernalUseHighpressureSoxhlet1992]
+
+:::{}
+![](../graphics/hpesoxhlet.png)
+Hệ thống chiết suất Shoxlet áp suất cao của Walter G. JenningsRobert
+H. WohlebNorman W. Wohlers theo bản quyền số US4265860A của Hoa kỳ. Hệ
+thống này có thể sử dụng $CO_2$ làm dung môi chiết
+suất.
+:::
+
+### 2.1.3 Chiết Shoxlet có trợ giúp bởi siêu âm
+
+, Chiết Shoxlet có sự giúp bởi siêu âm là hệ thống ban đầu được phát
+triển để chiết chất béo từ hạt có dầu như hạt hướng dương hay hạt đậu
+tương. Kỹ thuật này sử dụng hệ thống chiết Shoxlet truyền thống nhưng
+buồng chiết được đặt trong bề điều nhiệt có đầu do siêu âm. Không có
+khác biệt đáng kể về siệu suất sữ chiết Shoxlet thông thường nhưng chiết
+với sự trợ giúp siêu ẩm làm giảm đáng kể chu kỳ chiết suất. Sóng siêu âm
+làm tăng tốc độ giải phóng hoạt chất ra khỏi màng tế bào. Quá trình này
+hiệu quả đối với các hoạt chất cần thời gian chiết ngắn ví dụ như ảnh
+hưởng bởi tác động của oxy đến độ bền hoạt chất. \[9,11\].
+
+### 2.1.4 Chiết Shoxlet có sự trợ giúp bởi vi sóng
+
+Phương pháp chiết Shoxlet có sự trợ giúp bởi vi sóng là kỹ thuật thu
+được hiệu quả chiết suất cao nhất. Sự khác biệt giữa chiết Shoxlet có sự
+trợ giúp bởi vi sóng và phương pháp chiết Shoxlet thông thường ở các
+điểm sau: (a) áp suất được giữ bình thường khi bình được mở, (b) vi sóng
+tập trung tại ngăn chứa dược liệu, (c) như trong chiết Shoxlet thông
+thường , giai đoạn chiết xuất được hoàn thành toàn bộ hoặc một phần và
+(d) không bao gồm quá trình lọc. Kết quả là, các phương pháp này duy trì
+các ưu điểm của chiết Shoxlet thông thường đồng thời khắc phục các hạn
+chế. Đáng chú ý các lợi điểm gồm tốc độ, khả năng tự động hóa và cũng
+như khả năng chiết kiệt hoạt chất cần quan tâm \[8\].
+
+::: {#fig:Microwave-assisted Soxhlet extraction}
+![](../graphics/Microwave-assisted%20Soxhlet%20extraction.png)
+Hệ thống chiết suất Shoxlet có trợ giúp của vi sóng theo bản quyền số
+EP1955748A1 tại châu âu. Tác giả bản quyền này là của Farid Universitè
+d'Avignon et des Pays de Vaucluse ChematValérie Universitè d'Avignon et
+des Pays de Vaucluse TomaoFranco
+Visinoni
+:::
+
+## 2.2 Chiết ngâm
+
+### 2.2.1 Khái quát về chiết ngâm
+
+Chiết ngâm là phương pháp ban đầu để chế rượu thuốc nhưng sau này được
+sử dụng để chiết dược liệu. Đây là kỹ thuật phổ biến, đơn giản và rẻ
+tiền để chiết suất.\
+**Mô tả thiết bị và quá trình chiết suất**\
+Nguyên liệu được nghiền thô cho vật chứa có nắp , sau đó bổ sung thêm
+dung môi. Quá trình chiết có yêu cầu khuấy trộn thường xuyên và thời
+gian thường diễn tra trong khoảng 3-4 ngày. (Hình
+[1.6](#fig:La_maceration){reference-type="ref"
+reference="fig:La_maceration"}) Nguyên liệu được nghiền thành bột sẽ
+tăng diện tích tiếp xúc với dung môi. Ngoài ra, khuấy trộn thường xuyên
+cũng tăng khuyếch tan do loại bỏ dung môi đậm đặc khỏi bề mặt mẫu và
+chuyển dung môi mới tới bề mặt mẫu. Bước cuối cùng, quá trình lọc là cần
+thiết để loại bỏ tạp ra khỏi dung dịch.
+[@nabeelagulbadanEvaluationDifferentTechniques2015; @farnsworthMedicinalPlantsTherapy1985]
+Điều này làm tăng tốc độ chiết suất.
+[@azmirTechniquesExtractionBioactive2013]\
+
+
+::: {#fig:La_maceration}
+![](../graphics/La_maceration.jpg)
+Chiết ngâm là phương pháp chiết dược liệu đơn giản nhất với thiết bị
+chỉ cần có nắp đậy.
+:::
+
+
+**Ưu điểm và giới hạn**\
+Với hợp chất nhạy cảm với nhiệt, phương pháp này hiệu quả để chiết suất.
+Đây cũng là phương pháp đòi hỏi kỹ thuật đơn giản nhất, rẻ tiền khi
+trang thiết bị không cần đầu tư nhiều và phổ biến. Tuy nhiên, phương
+pháp này đòi hỏi một lượng lớn dung mỗi dẫn tới nếu dung mỗi hữu cơ sẽ
+tạo ra vấn đề về môi trường. Trường hợp quá trình chiết suất có sử dụng
+nhiệt độ sẽ làm giảm thể tích dung môi chiết xuất.
+
+### 2.2.2 Sắc thuốc và pha trà thảo mộc
+
+Đây là phương pháp cơ bản để chiết suất các thành phần có hoạt tính sinh
+học giống phương pháp chiết ngâm. Nguyên liệu được chiết bằng dung môi
+nước có gia nhiệt hoặc không. Sự khác biệt duy nhất là thời gian ngắn
+hơn và lượng dung môi ít hơn. Tỷ lệ rắn lỏng thường khoảng 1:4 đến 1:16.
+Phương pháp này thích hợp để chiết suất thành phần ở định với nhiệt và
+nguyên liệu dạng rắn như cành hay rễ. Thêm nữa, dung môi là nước dẫn tới
+hoạt chất thu được thuộc nhóm thân nước. Phương pháp này không đòi hỏi
+thiết bị đắt tiền.
+[@nnReviewExtractionMethods2015; @bimakrComparisonDifferentExtraction2011]\
+
+### 2.2.3 Chiết lọc có nhiệt
+
+Phương pháp này có thể hình dung giống như pha cafe phin truyền thống
+của Việt nam khi quá trình chiết suất giống như quá trình ngâm nhưng có
+thêm bộ phận lọc. Mẫu được nghiền mịn cho vào thiết bị, sau đó bổ sung
+nước sôi ngâm trong 2 giờ. Quá trình này diễn ra với tốc độ vừa phải
+(thường 6 giọt trên phút) cho đến khi chiết suất hoàn toàn. Dịch lọc
+cuối cùng sẽ được bay hơi để thu được cao dịch chiết dạng cô đặc.
+[@rathiEvaluationAqueousLeaves2006] Kỹ thuật này sử dụng thiết bị độc
+đáo được gọi là máy lọc màu và tuân theo cùng một nguyên tắc cơ bản của
+quá trình ngâm. Mẫu đã nghiền mịn được đổ vào máy lọc màu; sau đó, nước
+sôi được cho vào và ngâm trong 2 giờ. Quá trình này được thực hiện với
+tốc độ vừa phải (sáu giọt mỗi phút) cho đến khi chiết xuất hoàn toàn.
+Cuối cùng, quá trình bay hơi được thực hiện để thu được dịch chiết ở
+dạng cô đặc.
+
+## 2.3 Phương pháp cất kéo hơi nước
+
+### 2.3.1 Khái quát về phương pháp cất kéo hơi nước
+
+Cất kéo hơi nước là kỹ thuật chiết xuất thường quy để thu được các tinh
+dầu (dầu bay hơi) từ thực vật. , Đặc trưng của phương pháp này sẽ sử
+dụng dược liệu trước khi khô và không sử dụng dung môi hữu
+cơ.[@vankarEssentialOilsFragrances2004] Ba phương pháp cất kéo hơi nước
+gồm sử dụng chưng cất nước, nước và hơi nước và cất kéo bằng nước trực
+tiếp.
+[@suchanPressurizedLiquidExtraction2004; @vankarEssentialOilsFragrances2004]\
+**Mô tả thiết bị và quá trình chiết suất**\
+Với phương pháp cất kéo hơi nước, nguyên liệu được đưa vào một bình sau
+đó thêm một lượng nước vừa đủ. Quá trình gia nhiệt bắt đầu làm nước sôi
+và hơi nước dẫn vào dược liệu. Sự tiếp xúc hơi nước và dược liệu tăng
+tăng giải phóng các hoạt chất từ mô thực vật. Qua trình phân lập tinh
+dầu cũng được tiến hành với 3 phương pháp đề cập ở trên. Và cuối cùng là
+tách dầu ra khỏi nước dựa trên quá trình làm mát gián tiếp thông qua
+sinh hàn. Một cách khác, hỗn hợp ngưng tụ có thể chuyển vào bộ phận
+chiết lỏng lỏng để tách lấy tinh dầu. Ví dụ nghiên cứu của Ma và cộng sự
+đã đề xuất tách tinh dầu từ cây trầm hương sử dụng dung môi aceton sẽ
+cho hiệu suất cao nhất. Cũng trong nghiên cứu này cho thấy không có sự
+khác biệt giữa quy mô phòng thí nghiệm và công nghiệp.\
+Phương pháp cất kéo hơi nước được so sánh với hai phương pháp thường quy
+gồm chiết Shoxlet và chiết ngâm được trình bầy trong bảng.
+
+
+:::{}
+![Phương pháp cất kéo hơi nước.](../graphics/hydrodistillation.png)
+Hình ảnh thiết bị cất kéo hơi nước trong phòng thí nghiệm.
+:::
+
+
+**Ưu điểm và nhược điểm**\
+Cất kéo bằng hơi nước được coi là phương pháp thân thiện với môi trường
+vì không sử dụng dung môi hữu cơ. Tuy nhiên, hiệu quả kinh tế cũng không
+phải tuyệt đối do quá trình cất kéo cần thời gian dài sẽ dẫn tới vấn đề
+về nhiên liệu. Ngoài ra, phương pháp không phù hợp với trường hợp hoạt
+chất có nhiệt độ sôi cao, nguyên liệu cứng và thân gỗ. Với hợp chất
+không bền với nhiệt cũng không áp dụng được phương pháp này.
+
+
+::: {#fig-distillation}
+![A](../graphics/Water%20distillation.png)
+![B](../graphics/Water%20and%20steam%20distillation.png)
+![C](../graphics/Direct%20steam%20distillation.png)
+Hình ảnh 3 thiết bị sử dụng trong công nghiệp để cất kéo hơi nước thu lấy tinh dầu.
+:::
+### 2.3.2 Chưng cất thu tinh dầu
+
+Dược liệu được ngập trong nước, sau đó, đun sôi trong bình tạo ra hơi
+nước bốc hơi. Đặc điểm cơ bản của phương pháp này là nước sôi tiếp xúc
+trực tiếp với dược liệu. Khi nước nóng lên, cần khuấy ở dược liệu nếu
+không dược liệu sẽ tích tụ ở đấy nồi và ảnh hưởng bởi nhiệt. Nếu dược
+liệu chứa nhiều chất nhày ví dụ vỏ quế thì phải nghiền thành bột trước
+khi chưng cất. Khi nhiệt độ nóng lên, chất nhầy sẽ được chiết ra, tạo độ
+nhớt cho dung môi. Đây cũng là một lợi thế của phương pháp. Nếu sử dụng
+phương pháp trực tiếp sử dụng hơi nước dẫn vào dược liệu, dược liệu sẽ
+tạo ra lớp áo và vón cục ngăn cách dược liệu với hơi nước. Đây chính là
+lợi thế của phương pháp này. Tuy nhiên, phương pháp nàu cũng có nhược
+điểm là không chiết kiệt được. Thêm nữa, do tiếp xúc trực tiếp với nước
+một số thành phần như Aldehyd hay ester của tinh dầu sẽ bị thủy phân.
+Phương pháp này được lựa chọn sau cùng khi hai phương pháp sau đây không
+phù hợp.
+
+### 2.3.3 Nước và hơi nước
+
+Khác biệt so với phương pháp chưng cất nước là phương pháp dược liệu
+không tiếp xúc trực tiếp với nước mà được treo trên dàn đặt ngay phía
+trên vùng nước. Sự kết hợp giữa phương pháp chưng cất nước và phương
+pháp này trở lên phổ biến tại các cơ sở sản xuất nhỏ lẻ. Tuy nhiên, chất
+lượng tinh dầu thu được bằng phương pháp kết hợp này thường không được
+đánh giá cao. Để giải quyết, một sự thay đổi nhỏ của phương pháp chưng
+cất nước là nguyên liệu sẽ được treo nổi trên bề mặt nước. Cách làm này
+làm giảm công suất nhưng chất lượng tinh dầu lại cao hơn. Phương pháp
+nước và hơi nước đảm bảo lượng nước sẽ không bị cạn do có thể tái bổ
+sung nước theo cách thủ công.
+
+### 2.3.4 Hơi nước trực tiếp
+
+Phương pháp này một nồi hơi tạo hơi nước được tách biệt với bộ phận để
+nguyên liệu. Nguyên liệu sẽ để trên một giàn lưới sao cho hơi nước có
+thể đi qua. Với việc điều chỉnh lượng hơi nước đi qua là một lợi thế của
+phương pháp này. Nồi hơi có thể tạo ra nhiệt độ tới $100^oC$ nhưng không
+ảnh hưởng tới dược liệu và hạn chế quá trình thủy phân. Phương pháp này
+thường được sử dụng để chiết tinh dầu ở quy mô công nghiệp và với ngành
+kinh doanh hương liệu và hương thơm đây chính là thiết bị tiêu chuẩn.
+Nhược điểm lớn nhất phương pháp này là vốn đầu tư lớn trong khi nếu chỉ
+sản xuất các loại tinh dầu giá trị thấp (như sả và oải hương) có thể sẽ
+không thu hồi được vốn bỏ ra trong vòng 10 năm.
+
+## 2.4 Giới hạn của phương pháp thường quy
+
+Trong chiết xuất, có nhiều phương pháp chiết xuất và mỗi cách sẽ có một
+mục đích nhất định để chiết một nhóm chất nhất định. Cải thiện hiệu suất
+chiết có thể thể sử dụng các biện pháp như gia nhiệt hoặc khuấy. Phần
+dưới đây đề cập tới từng phương pháp, thông số, ưu điểm và nhược điểm.
+
+1.  Chiết Shoxlet
+
+    Thông số:
+
+    :   Tỷ lệ chất rắn/dung môi, nhiệt độ, thời gian chiết
+
+    Ưu điểm:
+
+    :   Phương pháp đơn giản, nhiệt độ có thể tăng để cải thiện hiệu
+        suất.
+
+    Nhược điểm:
+
+    :   Hiệu quả trong khai thác thấp, năng lượng sử dụng nhiều và tốn
+        thời gian.
+
+2.  Chiết ngâm
+
+    Thông số:
+
+    :   Tốc độ dung môi vào, tốc độ rút dung môi, tốc độ hòa tan.
+
+    Ưu điểm:
+
+    :   Đầu tư ban đầu thấp, có thể điều chỉnh chọn lọc hoạt chất dựa
+        trên dung môi.
+
+    Nhược điểm:
+
+    :   Nếu dùng nhiệt để tăng tốc độ sẽ không phù hợp với hoạt chất
+        không bền.
+
+3.  Cất kéo hơi nước
+
+    Thông số:
+
+    :   Nhiệt độ, thời gian.
+
+    Ưu điểm:
+
+    :   Nước tách các hợp chất hoạt tính sinh học khỏi nguyên liệu;
+        không sử dụng dung môi hữu cơ.
+
+    Nhược điểm:
+
+    :   Nhiệt độ chiết cao có thể làm mất hoạt chất.
+
+Khi so sánh với các quy trình khác, chẳng hạn như với chiết ngâm, phương
+pháp chiết Shoxhlet sử dụng ít dung môi hơn tuy nhiên lại có nhược điểm
+phát sinh khí độc hại và dung môi có khả năng gây cháy. Lựa chọn dung
+môi có độ tinh khiết cao có thể làm tăng chi phí sản xuất. So với phương
+pháp hiện đại hơn như chiết siêu tới hạn thì phương pháp này lại coi là
+không thân thiện với môi trường. Kích thước tiểu phân của mẫu dạng bột
+mịn được xem là cách chuẩn bị tốt nhất cho chiết bằng Shoxlet bên cạnh
+cần xem xét các yếu tố như nhiệt độ, tỷ lệ rắn/lỏng, tốc độ khuấy và
+thời gian. Chiết ngâm trở lên phổ biến với nghiên cứu dược liệu. Phương
+pháp này làm mềm dược liệu, hòa tan thành tế bào và giải phóng hoạt
+chất. Phương pháp này có ưu điểm như quá trình đơn giản, không sử dụng
+dung môi hữu cơ và thời gian chiết nhanh. Nhưng hạn chế có một số nhóm
+hoạt chất nhạy cảm với nhiệt. Tương tự với sắc thuốc hay chiết nhỏ giọt.
+Phương pháp cất kéo hơi nước có thể có một số nhược điểm như dược liệu
+tiếp xúc ở đáy nồi có thể bị cháy, tạo ra mùi khó chịu. Hơn nữa điều
+chỉnh nhiệt độ sẽ ảnh hưởng tới tốc độ cất kéo.
+
+## 2.5 Tổng kết
+
+Chiết xuất là bước đầu tiên trong việc phân lập và tinh chế các hợp chất
+từ tự nhiện. Do bản chất không hòa tan, các chất chuyển hóa thứ cấp bao
+gồm acid phenolic và flavonoid rất khó chiết xuất. Mặc dù, các phương
+pháp chiết xuất thường quy cụ thể là chiết Shoxhlet, chiết ngâm, cất kéo
+hơi nước là những cách hiệu quả để chiết xuất nhưng có nhiều loại trang
+thiết bị khác nhau. Nhưng nhìn chung các phương pháp này có nhược điểm
+không phù hợp với chất nhạy cảm với nhiệt, tốn thời gian, tính chọn lọc
+kém và có thể gây ô nhiễm. Khi đề cập tới chiết xuất, mục tiêu phải chọn
+được phương pháp phù hợp để chiết nhóm có hoạt tính, hiệu quả trong vận
+hành, chi phí sản xuất thấp. Do đó, gần đây các cải tiến phương pháp
+liên tục được đề xuất song vẫn cần tiếp tục nghiên cứu thêm để giải
+quyết nhu cầu thị trường ngày càng tăng.

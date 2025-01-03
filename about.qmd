@@ -1,0 +1,25 @@
+---
+title: About
+about:
+  template: solana
+  image: profile.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+---
+
+TS. Hoàng Lê Sơn sinh năm 1987, tốt nghiệp chuyên ngành dược học tại trường Đại học thiên chúa giáo Daegu năm 2018. Ông chuyển công tác từ Viện Dược liệu (2010-2021) sang bộ môn Dược liệu và Dược cổ truyền trường Đại học Y Dược, Đại học Quốc gia Hà nội từ năm 2021. Tại bộ môn, một số học phần được tham gia giảng dậy gồm Dược liệu, Dược cổ truyền.  
+
+## Lĩnh vực quan tâm:
+    
+    
+- Nghiên cứu phát triển các kỹ thuật sàng lọc các hợp chất từ tự nhiên *in silico* như molecular docking, QSAR, text mining; in vitro như NO assay, AchE, DPPH.
+- Nghiên cứu phát triển các kỹ thuật tách chiết các hợp chất có tiềm năng sinh học ở quy mô công nghiệp.
+- Nghiên cứu bào chế cải thiện sinh khả dựng của các chợp chất từ tự nhiên.   
+
+## Kỹ năng 
+
+- Thành thạo các phương pháp cơ bản trong phân lập và xác định cấu trúc hóa học bằng cột hở, MPLC, HPLC, NMR, IR, UV.
+- Thành thạo các mô hình dược lý in vitro, in vivo như chống oxy hóa, chống viêm, đái tháo đường.
+- Thành thạo tin học văn phòng, ngôn ngữ lập trình python và sử dụng phần mềm workflow KNIME. 

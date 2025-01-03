@@ -1,0 +1,42 @@
+---
+title: "Kỹ thuật chiết xuất các hợp chất từ tự nhiên"
+author: "TS. Hoàng Lê Sơn"
+date: "2025-01-01"
+format:
+  revealjs:
+    logo: logo.png
+    footer: "Footer text"
+---
+
+# Nội dung
+
+- Một số khái niệm
+- Quá trình xảy ra khi chiết xuất 
+- Các phương pháp chiết xuất
+- Các trang thiết bị chiết xuất
+
+
+---
+# Một số khái niệm
+---
+
+## Hợp chất có hoạt tính sinh học
+
+- Điểm chính thứ nhất
+- Điểm chính thứ hai
+- Điểm chính thứ ba
+
+---
+## Quá trình chiết suất
+
+
+---
+## Một số dung môi dùng trong chiết suất
+
+---
+## Phân doạn bằng phương pháp chiết lỏng-lỏng
+
+---
+## Ứng dụng cao chiết trong ngành dược
+
+

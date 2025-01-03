@@ -1,0 +1,12 @@
+---
+title: "Kỹ thuật chiết xuất"
+author: "TS. Hoàng Lê Sơn"
+format: html
+---
+
+
+## Giới thiệu
+
+## Nội dung
+- [Sách](book/index.qmd)
+- [Bài giảng](presentation/index.qmd)

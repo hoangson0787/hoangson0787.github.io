@@ -1,0 +1,93 @@
+{
+  "about.qmd": {
+    "about.html": "d6d567ea"
+  },
+  "Book/index.qmd": {
+    "index.html": "4ef99d71",
+    "index.tex": "b3325fb5",
+    "index.typ": "c10c509f"
+  },
+  "index.qmd": {
+    "index.html": "be5d3d79"
+  },
+  "Presentation/index.qmd": {
+    "index.html": "754f2d8e"
+  },
+  "Book/part_1/chapter_1.qmd": {
+    "chapter_1.html": "ef8b8002",
+    "chapter_1.tex": "c3c75b7c",
+    "chapter_1.docx": "c77eef8d",
+    "chapter_1.typ": "25ffa1dc"
+  },
+  "Book/copyright.qmd": {
+    "copyright.html": "da58c69a"
+  },
+  "Book/Danh_muc_thuat_ngu.qmd": {
+    "Danh_muc_thuat_ngu.html": "819bf4e9"
+  },
+  "Book/Dedication.qmd": {
+    "Dedication.html": "50f8beba"
+  },
+  "Book/intro.qmd": {
+    "intro.html": "64308995"
+  },
+  "Book/part_1/chapter_2.qmd": {
+    "chapter_2.html": "7b393d2a",
+    "chapter_2.docx": "964c9b05",
+    "chapter_2.tex": "69b9e5a8"
+  },
+  "Book/part_1/chapter_3.qmd": {
+    "chapter_3.html": "c9026adf",
+    "chapter_3.docx": "537e4131",
+    "chapter_3.tex": "4f0c1c62"
+  },
+  "Book/part_1/index.qmd": {
+    "index.html": "96a25dee",
+    "index.docx": "f4309533"
+  },
+  "Book/part_2/chapter_4.qmd": {
+    "chapter_4.html": "91df899a",
+    "chapter_4.docx": "51059f8f"
+  },
+  "Book/part_2/Chapter_5.qmd": {
+    "Chapter_5.html": "d2c7026e",
+    "Chapter_5.docx": "b3c40873"
+  },
+  "Book/part_2/Chapter_6.qmd": {
+    "Chapter_6.html": "6247bc70",
+    "Chapter_6.docx": "2b89195c"
+  },
+  "Book/part_2/index.qmd": {
+    "index.html": "7de6cbf9"
+  },
+  "Book/references/references.qmd": {
+    "references.html": "4114b225"
+  },
+  "Book/summary.qmd": {
+    "summary.html": "3bc065ab"
+  },
+  "Book/Trangbia.qmd": {
+    "Trangbia.html": "054662d7"
+  },
+  "Presentation/presentation_1.qmd": {
+    "presentation_1.html": "e877ec4f"
+  },
+  "Presentation/slide-template.qmd": {
+    "slide-template.html": "80bd74ff"
+  },
+  "docs/Presentation/index.qmd": {
+    "index.html": "332b2f33"
+  },
+  "Presentation/presentation_2.qmd": {
+    "presentation_2.html": "c53614f0"
+  },
+  "Presentation/presentation_3.qmd": {
+    "presentation_3.html": "d521b3fa"
+  },
+  "Presentation/presentation_4.qmd": {
+    "presentation_4.html": "d1ff474d"
+  },
+  "Presentation/presentation_5.qmd": {
+    "presentation_5.html": "939d38fa"
+  }
+}
