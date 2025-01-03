@@ -89,5 +89,52 @@
   },
   "Presentation/presentation_5.qmd": {
     "presentation_5.html": "939d38fa"
+  },
+  "Book/part_2/chapter_5.qmd": {
+    "chapter_5.html": "d8100386",
+    "chapter_5.docx": "195f7bfc"
+  },
+  "Book/part_2/chapter_6.qmd": {
+    "chapter_6.html": "4a7471c2",
+    "chapter_6.docx": "d4182d65"
+  },
+  "Presentation/Chiet_xuat/index.qmd": {
+    "index.html": "f3beab65"
+  },
+  "Presentation/Chiet_xuat/presentation_1.qmd": {
+    "presentation_1.html": "07873995"
+  },
+  "Presentation/Chiet_xuat/presentation_2.qmd": {
+    "presentation_2.html": "5361df71"
+  },
+  "Presentation/Chiet_xuat/presentation_3.qmd": {
+    "presentation_3.html": "8a2c971d"
+  },
+  "Presentation/Chiet_xuat/presentation_4.qmd": {
+    "presentation_4.html": "0b3f34e8"
+  },
+  "Presentation/Chiet_xuat/presentation_5.qmd": {
+    "presentation_5.html": "519616ac"
+  },
+  "Presentation/Chiet_xuat/slide-template.qmd": {
+    "slide-template.html": "acf64379"
+  },
+  "Presentation/VTM/index.qmd": {
+    "index.html": "13d0af03"
+  },
+  "scripts/builds website from database.ipynb": {
+    "builds website from database.html": "d301762c"
+  },
+  "docs/Book/index.qmd": {
+    "index.html": "8c9ef7b2"
+  },
+  "docs/Presentation/Chiet_xuat/index.qmd": {
+    "index.html": "fc0008fd"
+  },
+  "docs/Presentation/VTM/index.qmd": {
+    "index.html": "2af40668"
+  },
+  "Presentation/Duoc_lieu/index.qmd": {
+    "index.html": "42ab9099"
   }
 }

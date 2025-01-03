@@ -7,7 +7,7 @@ project:
 
 
 website:
-  title: "Kỹ thuật chiết xuất các hợp chất từ tự nhiên"
+  title: "Tài liệu dược liệu"
   description: "Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên."
   site-url: https://hoangson0787.github.io 
   repo-url: https://github.com/hoangson0787/hoangson0787
@@ -48,9 +48,10 @@ website:
 
 format: 
   html: 
-    theme: sandstone
+    theme: 
+      light: Materia
+      dark: Materia
     css: styles.css
     toc: true
     linestretch: 1.5
-    light: flatly
-    dark: darkly
+

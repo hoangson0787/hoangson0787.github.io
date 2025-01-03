@@ -27,7 +27,7 @@ format:
 
 ## Tóm tắt các chương
 ### Phần 1: Đại cương về chiết suất
-#### [Chương 1: Đại cương về cao chiết và hợp chất tự nhiên](part_1/chapter_1.qmd)
+#### [Chương 1: Đại cương về cao chiết và hợp chất tự nhiên](../Book/part_1/chapter_1.qmd)
 
 :::{.callout-note}
 ## Tóm tắt
@@ -50,7 +50,7 @@ sẽ đề cập tới các nhóm hoạt chất có tác dụng sinh học và v
 chiết từ thực vật trong lĩnh vực Dược - Mỹ phẩm.
 :::
 
-### [Chương 2: Phương pháp chiết suất thường quy](part_1/chapter_2.qmd)
+### [Chương 2: Phương pháp chiết suất thường quy](../Book/part_1/chapter_2.qmd)
 
 :::{.callout-note}
 ## Tóm tắt
@@ -70,7 +70,7 @@ hơi nước chỉ dùng nước làm dung môi. Chương này sẽ cung cấp k
 cũng như ưu nhược điểm từng phương pháp vừa đề cập.
 :::
 
-### [Chương 3: Các phương pháp chiết suất mới](part_1/chapter_3.qmd)
+### [Chương 3: Các phương pháp chiết suất mới](../Book/part_1/chapter_3.qmd)
 
 :::{.callout-note}
 ## Tóm tắt
@@ -91,7 +91,7 @@ thấp.
 :::
 ## Phần 2: Các chuyên đề nâng cao
 
-### [Chương 4: Dung môi trong chiết suất](part_2/chapter_4.qmd)
+### [Chương 4: Dung môi trong chiết suất](../Book/part_2/chapter_4.qmd)
 
 :::{.callout-note}
 ## Tóm tắt
@@ -110,7 +110,7 @@ tính và các thông số hóa lý, bao gồm nhiệt độ sôi, độ nhớt 
 phân tử. Chương này đề cập tới các loại dung môi đang được nghiên cứu phát triển ứng dụng trong quá trình chiết suất.
 :::
 
-### [Chương 5: Kỹ thuật làm khô](part_2/chapter_5.qmd)
+### [Chương 5: Kỹ thuật làm khô](../Book/part_2/chapter_5.qmd)
 
 :::{.callout-note}
 ## Tóm tắt
@@ -121,7 +121,7 @@ tinh dầu trong cùng một thiết bị nhưng quá trình xử lý dược li
 ảnh hưởng đến chất lượng sản phẩm.
 :::
 
-### [Chương 6: Một số quy trình chiết suất](part_2/chapter_6.qmd)
+### [Chương 6: Một số quy trình chiết suất](../Book/part_2/chapter_6.qmd)
 
 :::{.callout-note}
 ## Tóm tắt

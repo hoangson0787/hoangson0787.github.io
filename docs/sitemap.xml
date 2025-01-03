@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hoangson0787.github.io/Presentation/slide-template.html</loc>
-    <lastmod>2025-01-01T23:49:32.319Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hoangson0787.github.io/Presentation/presentation_4.html</loc>
-    <lastmod>2025-01-02T03:06:02.100Z</lastmod>
-  </url>
-  <url>
-    <loc>https://hoangson0787.github.io/Presentation/presentation_2.html</loc>
-    <lastmod>2025-01-02T03:05:46.429Z</lastmod>
+    <loc>https://hoangson0787.github.io/scripts/builds website from database.html</loc>
+    <lastmod>2025-01-03T00:40:50.510Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Presentation/index.html</loc>
+    <lastmod>2025-01-03T06:22:04.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/slide-template.html</loc>
+    <lastmod>2025-01-01T23:49:32.319Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/presentation_4.html</loc>
+    <lastmod>2025-01-02T03:06:02.100Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/presentation_2.html</loc>
+    <lastmod>2025-01-02T03:05:46.429Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/index.html</loc>
     <lastmod>2025-01-02T07:30:12.003Z</lastmod>
   </url>
   <url>
@@ -21,12 +29,12 @@
     <lastmod>2024-12-31T17:05:56.134Z</lastmod>
   </url>
   <url>
-    <loc>https://hoangson0787.github.io/Book/part_2/Chapter_6.html</loc>
+    <loc>https://hoangson0787.github.io/Book/part_2/chapter_6.html</loc>
     <lastmod>2025-01-02T13:54:24.676Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Book/part_2/chapter_4.html</loc>
-    <lastmod>2025-01-02T23:58:25.460Z</lastmod>
+    <lastmod>2025-01-03T03:08:54.118Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Book/part_1/chapter_3.html</loc>
@@ -34,7 +42,7 @@
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Book/part_1/chapter_1.html</loc>
-    <lastmod>2025-01-02T13:53:39.202Z</lastmod>
+    <lastmod>2025-01-03T03:08:34.065Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/about.html</loc>
@@ -42,7 +50,7 @@
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Book/index.html</loc>
-    <lastmod>2025-01-02T13:48:17.187Z</lastmod>
+    <lastmod>2025-01-03T04:56:42.796Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Book/part_1/chapter_2.html</loc>
@@ -50,30 +58,30 @@
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Book/part_1/index.html</loc>
-    <lastmod>2025-01-02T13:54:32.981Z</lastmod>
+    <lastmod>2025-01-03T04:41:20.222Z</lastmod>
   </url>
   <url>
-    <loc>https://hoangson0787.github.io/Book/part_2/Chapter_5.html</loc>
-    <lastmod>2025-01-02T13:54:13.283Z</lastmod>
+    <loc>https://hoangson0787.github.io/Book/part_2/chapter_5.html</loc>
+    <lastmod>2025-01-03T06:13:33.504Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Book/part_2/index.html</loc>
-    <lastmod>2025-01-02T07:36:14.086Z</lastmod>
+    <lastmod>2025-01-03T04:40:33.082Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/index.html</loc>
-    <lastmod>2025-01-02T07:13:24.359Z</lastmod>
+    <lastmod>2025-01-03T06:57:43.466Z</lastmod>
   </url>
   <url>
-    <loc>https://hoangson0787.github.io/Presentation/presentation_1.html</loc>
+    <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/presentation_1.html</loc>
     <lastmod>2025-01-02T04:16:59.424Z</lastmod>
   </url>
   <url>
-    <loc>https://hoangson0787.github.io/Presentation/presentation_3.html</loc>
+    <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/presentation_3.html</loc>
     <lastmod>2025-01-02T03:05:54.831Z</lastmod>
   </url>
   <url>
-    <loc>https://hoangson0787.github.io/Presentation/presentation_5.html</loc>
+    <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/presentation_5.html</loc>
     <lastmod>2025-01-02T03:06:08.730Z</lastmod>
   </url>
 </urlset>

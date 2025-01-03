@@ -57,7 +57,7 @@ cháy nổ trong quá trình sử dụng. Ngoài ra, do có đặc tính dược
 dẫn tới người sử dụng có thể bị ảnh hưởng tới sức khỏe. Tác động môi
 trường của các VOC là cần xem xét tới khi lựa chọn để sản xuất. Nếu dung
 môi hữu cơ là chất lỏng siêu tới hạn là $CO_2$ thì đây là nguyên nhân
-gây ra hiện tượng biến đổi khí hậu.\
+gây ra hiện tượng biến đổi khí hậu.
 ::: {#Fig:Q3CICH}
 ![](../graphics/Fig51.png)
 Bảng phân loại dung môi theo khuyến cao trong hướng dẫn Q3C của hiệp

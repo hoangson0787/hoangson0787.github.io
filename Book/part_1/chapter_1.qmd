@@ -9,7 +9,6 @@ format:
     code-fold: true
     html-math-method: katex
   docx: default
-
 ---
 
 ::: {.left}

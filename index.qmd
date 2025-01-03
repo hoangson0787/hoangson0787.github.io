@@ -1,12 +1,37 @@
 ---
-title: "Kỹ thuật chiết xuất"
+title: "Lời giới thiệu"
 author: "TS. Hoàng Lê Sơn"
 format: html
 ---
+:::: {.columns}
+::: {.column width="70%"}
+Từ "Dược liệu" (*Pharmacognosy*) được ghép từ hai từ tiếng Hy Lạp là từ *φάρμακον pharmakon* (nghĩa là thuốc), và *γνῶσις gnosid* (nghĩa là kiến thức). Dược liệu học được hiểu là môn nghiên cứu về tính chất vật lý, hóa học, sinh hóa và sinh học của thuốc, tìm ra dược chất mới có nguồn gốc từ tự nhiên và ứng dụng trong điều trị. Dược liệu học là môn cơ bản phục vụ cho một số chuyên ngành nghiên cứu chuyên sâu liên quan như thực vật dược, dược dân tộc học, chiết suất, phân lập hợp chất tự nhiên, nghiên cứu tác dụng sinh học, bào chế đông dược, cảnh báo dược liệu. Tại Việt nam, dược cổ truyền là môn học riêng biệt ứng dụng nguyên lý y học cổ truyền phương Đông để giải thích tác dụng cũng như xây dựng công thức thuốc, tuy nhiên, cách tiếp cận hiện đại trong giảng dậy và nghiên cứu học phần này chính là khác thác dữ liệu và y học thực chứng để thuốc y học cổ truyền đạt tiêu chuẩn. Điều này dẫn tới, dược liệu là một phần quan trọng của dược cổ truyền. 
+Với mục tiêu cung cấp nội dung liên quan đến dược liệu dành cho đối tượng sinh viên Dược cũng như các nhà nghiên cứu, một số tài liệu được biên soạn được đăng tải trên website này giúp các bạn đọc tiện tra cứu. Đồng thời, chúng tôi kỳ vọng nhận được góp ý chuyên sâu của cộng đồng nhằm hoàn thiện hơn nội dung.
+Hiện tại nội dung trên wesite này gồm:
+
+- Sách (dự thảo):
+    - [Sách kỹ thuật chiết suất](book/index.qmd)
+- Bài giảng: 
+    - [Bài giảng dược liệu](Presentation/Duoc_lieu/index.qmd)
+    - [Bài giảng kỹ thuật chiết suất](presentation/Chiet_xuat/index.qmd)
+    - [Bài giảng dược cổ truyền](presentation/VTM/index.qmd)
+
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="25%"}
+
+![Thuật ngữ "Pharmacognosy" được sử dụng lần đầu tiên bởi Johann Adam Schmidt (1759–1809) trong cuốn sách Lehrbuch der Materia Medica vào năm 1811, và bởi Anotheus Seydler năm 1815, trong cuốn Analecta Pharmacognostica.](images/Johann_Adam_Schmidt.jpg)
+::: 
 
 
-## Giới thiệu
+::::
 
-## Nội dung
-- [Sách](book/index.qmd)
-- [Bài giảng](presentation/index.qmd)
+Trong tương lai, chúng tôi cố gắng hoàn thiện để có thể có bản cứng dành cho bạn đọc có nhu cầu lưu trữ, tra cứu.  
+*Trân trọng cảm ơn!* 
+
+
+**Giới thiệu:** Cơ sở dữ liệu Dược liệu- Dược dân tộc học - Vị thuốc cổ truyền
+
+Vì lý do kỹ thuật, nhóm nghiên cứu có tách riêng ra một cơ sở dữ liệu dược liệu. Tại đây, các bạn có thể dễ dàng tìm kiếm các thông tin liên quan đến một dược liệu cụ thể. Hiện tại, chúng tôi đã tạo được cơ sở dữ liệu của khoảng 240 dược liệu trong Dược điển Việt Nam V, 274 họ thực vật với hơn 6000 loại dược liệu trên khắp thế được sử dụng làm thuốc. 
+Nếu các bạn quan tâm, có thể truy cập vào đường link sau: [Cơ sở dữ liệu dược liệu](https://duoclieu.github.io/)
