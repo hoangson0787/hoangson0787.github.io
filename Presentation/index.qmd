@@ -1,0 +1,21 @@
+---
+title: "Bài giảng"
+author: "TS. Hoàng Lê Sơn"
+format: html
+---
+
+## [Bài 1: Đại cương về chiết xuất](presentation_1.qmd)
+- 1.1 Hợp chất có hoạt tính sinh học từ thực vật
+- 1.2 Phân loại các hợp chất từ tự nhiên
+- 1.3 Tầm quan trọng của quá trình chiết xuất
+- 1.4 Một số dung môi phổ biến dùng trong chiết suất
+- 1.5 Phân đoạn bằng phương pháp chiết lỏng-lỏng
+- 1.6 Ứng dụng cao chiết trong ngành dược
+
+## [Bài 2: Các phương pháp chiết suất thường quy](presentation_2.qmd)
+
+## [Bài 3: Các phương pháp chiết suất mới](presentation_3.qmd) 
+
+## [Bài 4: Các phương pháp làm khô dược liệu và cao dược liệu](presentation_4.qmd)
+
+## [Bài 5: Một số ví dụ trong thực tế](presentation_5.qmd) 

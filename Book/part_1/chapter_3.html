@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="TS. Hoàng Lê Sơn">
+
+<title>Chương 3: Các phương pháp chiết xuất mới – Kỹ thuật chiết xuất các hợp chất từ tự nhiên</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../Book/part_2/index.html" rel="next">
+<link href="../../Book/part_1/chapter_2.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Chương 3: Các phương pháp chiết xuất mới – Kỹ thuật chiết xuất các hợp chất từ tự nhiên">
+<meta property="og:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
+<meta property="og:site_name" content="Kỹ thuật chiết xuất các hợp chất từ tự nhiên">
+<meta name="twitter:title" content="Chương 3: Các phương pháp chiết xuất mới – Kỹ thuật chiết xuất các hợp chất từ tự nhiên">
+<meta name="twitter:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Kỹ thuật chiết xuất các hợp chất từ tự nhiên</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../Book/index.html" aria-current="page"> 
+<span class="menu-text">Sách</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../Presentation/index.html"> 
+<span class="menu-text">Bài giảng</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hoangson0787/"> <i class="bi bi-github" role="img" aria-label="Github">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../Book/index.html">Sách: Tài liệu các kỹ thuật chiết suất các hợp chất từ tự nhiên</a></li><li class="breadcrumb-item"><a href="../../Book/part_1/index.html">Phần 1: Đại cương về chiết xuất</a></li><li class="breadcrumb-item"><a href="../../Book/part_1/chapter_3.html">Chương 3: Các phương pháp chiết xuất mới</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../Book/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sách: Tài liệu các kỹ thuật chiết suất các hợp chất từ tự nhiên</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../Book/part_1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phần 1: Đại cương về chiết xuất</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Book/part_1/chapter_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 1: Đại cương về kỹ thuật chiết suất</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Book/part_1/chapter_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 2: Phương pháp chiết xuất thường quy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Book/part_1/chapter_3.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Chương 3: Các phương pháp chiết xuất mới</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../Book/part_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phần 2: Các chuyên đề nâng cao</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Book/part_2/chapter_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 4: Dung môi mới ứng dụng trong chiết suất</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Book/part_2/Chapter_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 5: Kỹ thuật làm khô dược liệu và cô đặc cao dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Book/part_2/Chapter_6.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 6: Một số quy trình chiết suất</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">References</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Book/references/references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../Presentation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bài giảng</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/presentation_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kỹ thuật chiết xuất các hợp chất từ tự nhiên</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/presentation_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/presentation_3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/presentation_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/presentation_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/slide-template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Slide Template</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tóm-tắt" id="toc-tóm-tắt" class="nav-link active" data-scroll-target="#tóm-tắt">Tóm tắt</a></li>
+  <li><a href="#phương-pháp-chiết-siêu-âm" id="toc-phương-pháp-chiết-siêu-âm" class="nav-link" data-scroll-target="#phương-pháp-chiết-siêu-âm">3.1 Phương pháp chiết siêu âm</a></li>
+  <li><a href="#phương-pháp-chiết-với-trợ-giúp-vi-sóng" id="toc-phương-pháp-chiết-với-trợ-giúp-vi-sóng" class="nav-link" data-scroll-target="#phương-pháp-chiết-với-trợ-giúp-vi-sóng">3.2 Phương pháp chiết với trợ giúp vi sóng</a></li>
+  <li><a href="#phương-pháp-chiết-xuất-bằng-xung-điện-trường" id="toc-phương-pháp-chiết-xuất-bằng-xung-điện-trường" class="nav-link" data-scroll-target="#phương-pháp-chiết-xuất-bằng-xung-điện-trường">3.3 Phương pháp chiết xuất bằng xung điện trường</a></li>
+  <li><a href="#phương-pháp-chiết-siêu-tới-hạn" id="toc-phương-pháp-chiết-siêu-tới-hạn" class="nav-link" data-scroll-target="#phương-pháp-chiết-siêu-tới-hạn">3.4 Phương pháp chiết siêu tới hạn</a></li>
+  <li><a href="#phương-pháp-chiết-áp-suất-cao" id="toc-phương-pháp-chiết-áp-suất-cao" class="nav-link" data-scroll-target="#phương-pháp-chiết-áp-suất-cao">3.5 Phương pháp chiết áp suất cao</a></li>
+  <li><a href="#chiết-suất-với-sự-trợ-giúp-của-enzyem" id="toc-chiết-suất-với-sự-trợ-giúp-của-enzyem" class="nav-link" data-scroll-target="#chiết-suất-với-sự-trợ-giúp-của-enzyem">3.6 Chiết suất với sự trợ giúp của enzyem</a></li>
+  <li><a href="#chiết-suất-sử-dụng-nhiệt-điện-trở-ohmic" id="toc-chiết-suất-sử-dụng-nhiệt-điện-trở-ohmic" class="nav-link" data-scroll-target="#chiết-suất-sử-dụng-nhiệt-điện-trở-ohmic">3.7 Chiết suất sử dụng nhiệt điện trở (Ohmic)</a></li>
+  <li><a href="#tổng-kết" id="toc-tổng-kết" class="nav-link" data-scroll-target="#tổng-kết">3.8 Tổng kết</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/hoangson0787/hoangson0787/edit/main/Book/part_1/chapter_3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/blob/main/Book/part_1/chapter_3.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="chapter_3.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../Book/index.html">Sách: Tài liệu các kỹ thuật chiết suất các hợp chất từ tự nhiên</a></li><li class="breadcrumb-item"><a href="../../Book/part_1/index.html">Phần 1: Đại cương về chiết xuất</a></li><li class="breadcrumb-item"><a href="../../Book/part_1/chapter_3.html">Chương 3: Các phương pháp chiết xuất mới</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Chương 3: Các phương pháp chiết xuất mới</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>TS. Hoàng Lê Sơn </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="tóm-tắt" class="level2 left">
+<h2 class="anchored" data-anchor-id="tóm-tắt">Tóm tắt</h2>
+</section>
+<p>Các phương pháp chiết xuất thông thường đang dần được thay thế bằng các phương pháp mới để khắc phục một số nhược điểm như chí phí cao, thời gian chiết xuất dài, ảnh hưởng tới các hợp chất không bền với nhiệt, độ chọn lọc thấp, dung môi cần tinh khiết. Các phương pháp chiết xuất mới được phát triển hơn 50 năm qua hứa hẹn khác phục các vấn đề của phương pháp truyền thống. Một số nhược điểm đã được cải thiện như thời gian chiết xuất ngắn hơn, chất lượng đồng nhất, hiệu suất cao hơn. Đặc biệt, dung môi hữu cơ và tổng hợp sử dụng ít hơn. Các phương pháp chiết mới của hợp chất tự nhiên được đề xuất trong tài liệu này gồm siêu âm, gia nhiệt, chiết bằng gia nhiệt bằng điện trở, gia nhiệt bằng vi sóng, điện trường xung, chiết suất có sự hỗ trợ bằng áp suất, chất lỏng siêu tới hạn, và hộ trợ chiết bằng enzym. Đích tới của các phương pháp này thường sẽ hướng tới giảm thiểu ô nhiễm môi trường và tốn phí năng lượng trong tổng quá trình thấp.</p>
+<section id="phương-pháp-chiết-siêu-âm" class="level2">
+<h2 class="anchored" data-anchor-id="phương-pháp-chiết-siêu-âm">3.1 Phương pháp chiết siêu âm</h2>
+<p>Sóng siêu âm nằm ngoài khả năng nghe của con người trong dải tần số từ 20 kHz đến 100 MHz. Kết hợp sóng siêu âm với các phương pháp cổ điển khác có thể làm tăng hiệu quả chiết suất ví dụ với phương pháp chiết xuất Shoxhlet, cất kéo hơi nước với thiết bị Clevenger.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a></sup></span> Hơn nữa, sóng siêu âm có thể kết hợp với phương pháp chiết MAE và SFE.<span class="citation" data-cites="samaramUltrasoundAssistedExtractionUAE2013"><sup><a href="#ref-samaramUltrasoundAssistedExtractionUAE2013" role="doc-biblioref">2</a></sup></span> Sóng siêu âm làm phá vỡ thành tế bào thực vật dẫn tới dung môi thâm nhập dễ hơn và tăng cao hiệu suất chiết suất.<span class="citation" data-cites="trendafilovaUltrasoundassistedExtractionAlantolactone2010"><sup><a href="#ref-trendafilovaUltrasoundassistedExtractionAlantolactone2010" role="doc-biblioref">3</a></sup></span><br>
+<strong>Mô tả thiết bị và quy trình</strong><br>
+Sóng siêu âm là sóng dọc lan truyền về phía trước trong môi trường giãn nở tạo ra sức ép làm thay đổi áp lực mô trường. Tại một vị trí nào đó trong môi trường, nửa chu kỳ đầu của sóng, áp lực này tăng và nửa chu kỳ sau áp lực giảm tạo ra hiệu ứng cơ học co và giãn lên môi trường, hệ quả là hình thành bong bóng. Áp lực của sóng siêu âm lên môi trường cũng tác động lên các bong bóng vừa hình thành kết hợp với lực cản môi trường làm chuyển đổi động năng của chuyển động sang bong bóng với một lượng lớn năng lượng. Bong bóng sẽ có nhiệt độ cao và áp suất lớn. Nhiệt độ có thể đạt tới 5000<span class="math inline">o^K</span> và áp suất khoảng 1000atm, thời gian tăng nhiệt có thể đạt <span class="math inline">1010\o^K.s^{-1}</span>. (Hình <a href="#fig:UAE%20method" data-reference-type="ref" data-reference="fig:UAE method">1.1</a>) Dựa trên nguyên tắc này, nguyên tắc UAE được phát minh. Phương pháp UAE tạo ra hai hiện tượng vật lý như có khả năng khuyếch tán dung môi qua thành tế bào vào trong và hòa tan thành phần trong tế bao sau khi thành tế bào bị phá vỡ.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a></sup></span> Kích thước mẫu, hàm lượng, độ ẩm của mẫu, phân bố về kích thước và dung môi đóng vai trò quan trọng đến hiệu quả của phương pháp.<br>
+Samram và cộng sự đã chứng minh rằng UAE hiệu quả để thu hồi dầu từ hạt đu đủ.<span class="citation" data-cites="samaramUltrasoundAssistedExtractionUAE2013"><sup><a href="#ref-samaramUltrasoundAssistedExtractionUAE2013" role="doc-biblioref">2</a></sup></span> Cũng trong nghiên cứu này cho thấy acid béo thu được với thời gian chiết ngắn hơn và nhiệt độ thấp hơn. Phương pháp chiết sóng siêu âm (UAE) là một trong những phương pháp hiệu quả để chiết nhóm phenolic từ thực vật bên cạnh các phương pháp chiết Soxhlet, chiết ngâm và hồi lưu gia nhiệt. Altemimi và cộng sự đã chiết nhóm phenolic từ hạt bí ngô và hạt đào cho thấy hiệu quả của phương pháp này.<span class="citation" data-cites="altemimiUltrasoundAssistedExtraction2016"><sup><a href="#ref-altemimiUltrasoundAssistedExtraction2016" role="doc-biblioref">4</a></sup></span> Zhang <em>et al.</em> sử dụng UAE chiết xuất các hợp chất phenolic từ <em>Inula helenium</em> đã thu được cao giàu phenolic và đề nghị rằng đây là phương pháp hiệu quả để chiết nhóm này.<span class="citation" data-cites="zhangUltrasoundassistedExtractionTotal2012"><sup><a href="#ref-zhangUltrasoundassistedExtractionTotal2012" role="doc-biblioref">5</a></sup></span></p>
+<p>::: {#fig:UAE method} <img src="../graphics/UAE Method.png" class="img-fluid"> Quá trình nén và giải nén tạo bong bóng trong chiết suất bắng sóng siêu âm. :::</p>
+<p><strong>Ưu điểm và nhược điểm</strong><br>
+Phương pháp UAE có vài ưu điểm như thiết bị dễ dàng sử dụng, chi phí thấp khi so sánh với các nguyên tắc khác. Lượng dung môi sử dụng, nhiệt độ và thời gian chiết giảm. Một ưu điểm đặc biển của phương pháp này là có thể sử dụng với chất nhạy cảm với nhiệt và không bền.<span class="citation" data-cites="tiwariUltrasoundCleanGreen2015"><sup><a href="#ref-tiwariUltrasoundCleanGreen2015" role="doc-biblioref">6</a></sup></span> Tuy nhiên, năng lượng siêu âm cao hơn 20 kHz có thể ảnh hưởng tới giải phóng hợp chất ra khỏi dược liệu. Khảo sát quá trình chiết nhóm polyphenol từ lá cafe tại 3 mức 20, 35 và 50 kHz, Dayl Ji và cộng sự phát hiện thấy giảm nồng độ tổng polyphenol giải phóng khi tăng mức tần số.<span class="citation" data-cites="jiEffectsUltrasonicationPhytochemicals2022"><sup><a href="#ref-jiEffectsUltrasonicationPhytochemicals2022" role="doc-biblioref">7</a></sup></span><br>
+<strong>Thông số ảnh hưởng tới quá trình chiết xuất</strong><br>
+Các thông số bên trong thiết bị (bao gồm bước sóng, tần số và biên độ của sóng), cường độ và công suất siêu âm có ảnh hưởng đến quá trình chiết xuất và có thể nghiên cứu để cải tiến thiết bị. Hình dạng của bình chiết cũng như đầu dò phát sóng siêu âm có thể ảnh hưởng tới quá trình. Thời gian chiết, nhiệt độ và loại dung môi đều có thể ảnh hưởng tới hiệu suất và thành phần hoạt chất trong cao chiết. Vì vậy, đây là các yếu tố quan trọng cần nghiên cứu để tối ưu hóa quy trình chiết suất. Nguyên liệu đầu vào và cấu trúc hoạt chất cần chiết cũng là một thông số cần xem xét kỹ lưỡng khi lựa chọn phương pháp UAE. Các yếu tố có thể điều chỉnh trong thiết bị đóng vai trò quan trọng của quá trình chiết suất. Việc xem xét tỉ mỉ các thông số ảnh hưởng vừa đề cập giúp thiết kế thí nghiệm sao cho đạt được mức hiệu quả chiết suất tối đa và khai thác toàn bộ năng suất của thiết bị. Mặc dù vậy, đôi khi hiệu quả chiết suất tối đa lại không phải mục tiêu duy nhất của quá trình chiết mà cần xem xét về khía cạnh tài nguyên và năng lượng sử dụng ít nhất. Hệ quả là, khi chuyển tiếp nghiên cứu trong phòng thí nghiệm sang quy mô công nghiệp, các thông số quan trọng cần phải được tối ưu. Bản chất sóng siêu âm là sóng cơ học, bước sóng, tần số và biên độ của sóng đều có thể ảnh hưởng đến các bong bóng. pH cũng là một yếu tố quan tọng ảnh hưởng đến hiệu suất và đặc tính của các hợp chất trong suốt quá trình chiết suất. Ví dụ, các pectin chiết suất từ vỏ quả thường pH lựa chọn trong khoảng từ 1-5. Khi pH ở mức thấp sẽ thu được hàm lượng pectin cao. Nguyên nhân do quá trình phá hủy tế bào, quá trình thủy phân bằng pH diễn ra và pectin có khối lượng phân tử thấp có khả năng hòa tan trong dung môi dễ hơn. Bên cạnh đó, pectin có hiện tượng vón cục tạo lớp màng bao bọc bên ngoài ngăn cản quá trình giải phóng khi ở pH cao. Do đó, pH=1.2 tối ưu chiết pectin từ vỏ quả lưu, pH= 1.5 được xác định đối với chiết pectin từ vỏ cam, vỏ hạt quả lựu trong khi pH=3.2 ghi nhận với chiết xuất từ vỏ chuối và hoa hướng dương.<span class="citation" data-cites="chematUltrasoundAssistedExtraction2017"><sup><a href="#ref-chematUltrasoundAssistedExtraction2017" role="doc-biblioref">8</a></sup></span></p>
+</section>
+<section id="phương-pháp-chiết-với-trợ-giúp-vi-sóng" class="level2">
+<h2 class="anchored" data-anchor-id="phương-pháp-chiết-với-trợ-giúp-vi-sóng">3.2 Phương pháp chiết với trợ giúp vi sóng</h2>
+<p>Phương pháp chiết xuất với trợ giúp sóng vi ba được triển khai từ những năm 1980 và dần trở nên phổ biến do ưu điểm hơn so với phương pháp truyền sống. Sóng vi ba có tần số trong khoảng từ 300 MHz đến 300 GHz trong quan phổ điện tự. Khi sử dụng lò vi sóng, dung môi được làm nóng cả bên trong và bên ngoài mô thực vật làm tăng hiệu quả quá trình chiết xuất.<span class="citation" data-cites="routrayMicrowaveAssistedExtractionFlavonoids2012 zhangMicrowaveAssistedExtraction2011"><sup><a href="#ref-routrayMicrowaveAssistedExtractionFlavonoids2012" role="doc-biblioref">9</a>,<a href="#ref-zhangMicrowaveAssistedExtraction2011" role="doc-biblioref">10</a></sup></span> Quá trình chiết xuất khi kết hợp với MẢ làm giảm thời gian chiết xuất so với phương pháp Shoxhlet hoặc siêu âm nhưng nhiệt độ và áp suất cao hơn.<span class="citation" data-cites="sarkerNaturalProductsIsolation2012"><sup><a href="#ref-sarkerNaturalProductsIsolation2012" role="doc-biblioref">11</a></sup></span> Một số tiên bộ về kỹ thuật giúp cải tiến thiết bị như chiết vi sóng kèm theo áp suất hoặc chiết vi sóng không dung môi.<br>
+::: {#fig-microwave} <img src="../graphics/Microwave.png" class="img-fluid" alt="Sơ đồ thiết bị chiết suất siêu âm"> ::: <strong>Mô tả thiết bị và quy trình</strong><br>
+Cơ chế chiết xuất vi sóng bao gồm ba bước chính: Hợp chất được tách ra khỏi mô khi nhiệt độ và áp suất tăng lên; Khuếch tán dung môi vào mô thực vật; Và hòa tan hợp chất vào trong dung môi.<span class="citation" data-cites="alupuluiMicrowaveExtractionActive2012"><sup><a href="#ref-alupuluiMicrowaveExtractionActive2012" role="doc-biblioref">12</a></sup></span> Quá trình chiết MAE cần thiết phải có dung môi và gia nhiệt có kiểm soát. Dung môi lựa chọn dựa vào độ hòa tan của hợp chất cần chiết suất và sự tương tác của dung môi với vi sóng.<span class="citation" data-cites="sarkerNaturalProductsIsolation2012"><sup><a href="#ref-sarkerNaturalProductsIsolation2012" role="doc-biblioref">11</a></sup></span> Nhìn chung, phương pháp MAE chiết xuất các hợp chất từ tự nhiên đơn giản và hiệu quả. Ví dụ, Alupului và cộng sự đã tập trung chiết cao giàu phenolic từ lá Cynarascolymus, một loại thảo mộc giàu flavonoid và acid phenolic. Kết quả cao chiết thu được có độ tinh khiết cao hơn so với phương pháp cổ điển.<span class="citation" data-cites="alupuluiMicrowaveExtractionActive2012"><sup><a href="#ref-alupuluiMicrowaveExtractionActive2012" role="doc-biblioref">12</a></sup></span> Ngoài ra, phương pháp này còn ứng dụng trong chuẩn bị mẫu trong định lượng giám sát chất lượng dược liệu.<span class="citation" data-cites="chanMicrowaveassistedExtractionsActive2011"><sup><a href="#ref-chanMicrowaveassistedExtractionsActive2011" role="doc-biblioref">13</a></sup></span><br>
+<strong>Ưu và nhược điểm</strong><br>
+Kỹ thuật MAE có nhiều ưu điểm như thời gian chiết ngắn hơn, yêu cầu dung môi ít hơn, tốc độ chiết cao hơn và chi phí thấp hơn so với các phương pháp truyền thống. Một trong những cách tiếp cận chính là tạo ra thiết bị chiết vi sóng không dung môi. Điều này làm cho MAE trở thành một phương pháp chiết xuất xanh đặc biệt đối với tinh dầu và một số hợp chất tự nhiên dễ bay hơi.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013 zhangMicrowaveAssistedExtraction2011"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a>,<a href="#ref-zhangMicrowaveAssistedExtraction2011" role="doc-biblioref">10</a></sup></span><br>
+<strong>Thông số quan trọng</strong><br>
+Lần đầu tiên ứng dụng vi sóng để gia nhiệt suất các hợp chất hữu cơ lần đầu tiên công bố năm 1986. Các mẫu đất, thực phẩm, hạt giống hay thức ăn chăn nuôi đều được chiết với vài ml dung môi trong khoảng 30 giây trong một lò vi sóng gia đình với công suất khoảng 1140 W. Sau đó, các phương pháp thiết kế thí nghiệm được triển khai để tối ưu hóa nghiên cứu như thiết kế Box-Behnken và hỗn hợp giai thừa và trung tâm, hoặc phương pháp đáp ứng bề mặt. Kết quả số lượng thí nghiệm giảm xuống cũng nhanh chóng xác định yếu tố ảnh hưởng trong quá trình chiết suất. Quy trình chiết suất bằng MAE thường bị ảnh hưởng bởi các yếu tố gồm loại dung môi, tỷ lệ rắn/dung môi, công suất thiết bị, nhiệt độ chiết, kích thước và độ ẩm của nguyên liệu. Đo hòa tan, khả năng bay hơi hay độ ổn định của hoạt chất sẽ ảnh hưởng đến lựa chọn thông số và mức giá trị của chúng. Quá trình chiết MAE cũng ảnh hưởng tương tác giữa dung môi và nguyên liệu.<span class="citation" data-cites="nabeelagulbadanEvaluationDifferentTechniques2015"><sup><a href="#ref-nabeelagulbadanEvaluationDifferentTechniques2015" role="doc-biblioref">14</a></sup></span><br>
+Các phương pháp chiết xuất nhìn chung đều có gia nhiệt và đây là một trong những thông số quan trọng để nâng cao hiệu suất. Khi tăng nhiệt độ, khả năng hòa tan của hoạt chất, sức căng bề mặt và độ nhớt dung môi giảm, dẫn đến quá trình thấm ướt và hòa tan của hoạt chất được cải thiện. Hiệu quả chiết xuất cũng liên quan đến việc giải phóng các hoạt chất trong tế bào. Hằng số điện môi của dung môi trong MAE giúp xác định khả năng dung môi hấp thụ vi sóng và năng lượng vi sóng truyền qua. Nhiệt đôi sôi của dung môi có thể đạt được khi đây kín bình. Khi nhiệt độ tăng trên điểm sôi của dung môi và áp suất trở thành yếu tố để tăng tốc quá trình chiết suất. Thường các bình thiết kế kín để tránh dung môi bay hơi hoặc tràn ra ngoài nhưng có thể kéo dài thời gian chiết xuất. Khi lựa chọn bình kín, công suất thiết bị phải lựa chọn sao cho nhiệt độ tăng trong khoảng thời gian ngắn đồng thời tránh hiện tượng quá nhiệt và áp suất lớn gây nổ thiết bị. Đây là vấn đề cần đặc biệt quan tâm. Đối với hệ kín, mức điện năng tiêu thụ có thể nằm trong khoảng 600-1000W trong khi đối với hệ mở chỉ khoảng 250 W.<span class="citation" data-cites="hemwimonMicrowaveassistedExtractionAntioxidative2007"><sup><a href="#ref-hemwimonMicrowaveassistedExtractionAntioxidative2007" role="doc-biblioref">15</a></sup></span> Độ ẩm của nguyên liệu cũng ảnh hưởng đáng kể tới hiệu suất chiết. Bức xạ vi sóng được hấp thu mạnh bởi các phân tử nước dù nguồn gốc từ nguyên liệu hay bên ngoài đưa vào. Phân tử nước có cấu trúc là một momen lưỡng cực. Khả năng tăng độ phân cực của dung môi chiết có hoặc không tác động tới quá trình tăng nhiệt của mẫu được tạo ra bởi ảnh hưởng của nước trong khả năng hấp thụ vi sóng. Thông thường khả năng chiết được cải thiện đáng kể nếu nguyên liệu có độ ẩm cao hơn. Các tương tác trong lớp mô tế bào thực vật có thể bị ảnh hưởng bởi độ giãn nở lớp mô, làm cho các hoạt chất dễ tiếp xúc với dung môi chiết hơn. Các đặc tính điện môi của nguyên liệu có thể thể thay đổi bằng cách thêm nước trước khi chiết suất để tăng tốc quá trình gia nhiệt và tăng hiệu quả chiết. Mẫu có thể ngâm trong nước với khoảng thời gian khác nhau tùy thuộc chất lượng. Khi đó, tốc độ chiết xuất có thể tăng trong khoảng từ 10 phút đến 24 giờ.<span class="citation" data-cites="sparreskilssonAnalyticalscaleMicrowaveassistedExtraction2000"><sup><a href="#ref-sparreskilssonAnalyticalscaleMicrowaveassistedExtraction2000" role="doc-biblioref">16</a></sup></span> Hiệu quả quá trình chiết xuất bằng MAE cũng bị ảnh hưởng bới kích thước và phân bố kích thuốc. Kích thước nguyên liệu thường khoảng từ 100 đến 2mm. Bước khuyếch tán hoạt chất từ tế bào sang dung môi thường là bước hạn chế của quá trình chiết xuất. Vì vậy, nếu bột nguyên liệu mịn có thể hỗ trợ quá trình chiết xuất. Bột min làm tăng diện tích tiếp xúc bề mặt so với bột thô đồng thời vi sóng thâm nhập vào các hạt nhiều hơn so với mô tế bào, hệ quả là quá trình tiếp xúc ví sóng đều hơn.</p>
+</section>
+<section id="phương-pháp-chiết-xuất-bằng-xung-điện-trường" class="level2">
+<h2 class="anchored" data-anchor-id="phương-pháp-chiết-xuất-bằng-xung-điện-trường">3.3 Phương pháp chiết xuất bằng xung điện trường</h2>
+<p>, Phương pháp chiết xuất xung điện trường (PEF-Pulse electric field extraction method) được chú ý do khả năng <em>chiết xanh</em> trong lĩnh vực công nghiệp thực phẩm, nông nghiệp và cả dược phẩm.<span class="citation" data-cites="yanHighIntensityPulsed2017"><sup><a href="#ref-yanHighIntensityPulsed2017" role="doc-biblioref">17</a></sup></span> Nhìn chung, phương pháp PEF không sử dụng nhiệt, thêm nữa xung điện trường sinh ra có khả năng ức chế sự hoạt động của vi sinh vật và enzyme tại nhiệt độ phòng. Từ đó, điện trường xung ngắn giúp nâng cao chết lượng và bảo quản cao chiết lẫn dược liệu.<br>
+<strong>Mô tả thiết bị và quy trình</strong><br>
+Phương pháp PEF dựa trên nguyên tắc cơ bản là dòng điện một chiều có cường độ điện trường cao (10-80 kV/cm) chạy qua buồng chứa dược liệu giữa hai điện cực trong khỏang thời gian ngắn từ mirco giây đến mili giây. Lớp màng tế bào thực vật ở trạng thái bình thường tồn tại lớp điện tích trong và ngoài tạo ra cân bằng áp suất giữa trong và ngoài tế bào, giúp tế bào bền vững. Khi nằng trong điện trường tạo ra thay đổi điện tích trên màng tạo ra thế phụ trong và ngoài màng tế bào. Thế phụ này phụ thuộc vào lực điện trường do chênh lệch điện tích. Sự chênh lệch này tác động tới lớp màng, gây biến dạng tạo ra một số vị trí trên màng tế bào mỏng hơn. Hệ quả nếu vượt ngưỡng sẽ gây lỗ xốp nhỏ trên màng tế bào. Để đạt mức này, chênh lệch điện tích giữa trong và ngoài khoảng 1V. Nếu màng tế bào không khôi phục được sẽ dẫn tới vỡ tế bào thực vật giải phóng ra các hoạt chất.<span class="citation" data-cites="calleja-gomezEvaluationPulsedElectric2022"><sup><a href="#ref-calleja-gomezEvaluationPulsedElectric2022" role="doc-biblioref">18</a></sup></span> Abenoza <em>et al.</em> nghiên cứu chiết xuất dầu ô liu bằng PEF cho thấy đây là phương pháp tốt để giảm năng lượng và nhiệt độ trong công nghiệp sản xuất dầu ô liu.<span class="citation" data-cites="abenozaEffectsPulsedElectric2013"><sup><a href="#ref-abenozaEffectsPulsedElectric2013" role="doc-biblioref">19</a></sup></span> Một nghiên cứu khác được thực hiện để chiết xuất anthocyanin từ khoai tây ruột tím bằng PEF cho thấy phương pháp này phù hợp để cải thiện năng suất chiết xuất anthocyanin và có thể được sử dụng để giảm nhiệt độ chiết xuất. Ngoài ra, phương pháp này có thể loại bỏ hoặc giảm việc sử dụng các dung môi hữu cơ trong quá trình loại bỏ dung môi.<span class="citation" data-cites="abenozaEffectsPulsedElectric2013"><sup><a href="#ref-abenozaEffectsPulsedElectric2013" role="doc-biblioref">19</a></sup></span></p>
+<div id="fig-PEF" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-PEF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../graphics/PEF method.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-PEF-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+<p><strong>Ưu điểm và nhược điểm</strong><br>
+Phương pháp PEF làm tăng khả năng giải phóng hoạt chất khởi tế bào do khả năng phá vỡ cấu trúc màng của nguyên liệu thực vật. Điều này giúp giảm thời gian chiết xuất và tăng hiệu quả.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a></sup></span> Quá trình này diễn ra ở điện trường khoảng 500 và 1000 V/cm trong 104102 giây với mức tăng nhiệt độ nhỏ. Hệ quả là phương pháp PEF phù hợp để chiết xuất các hợp chất không bền với nhiệt độ. Tuy nhiên để nâng cấp ở quy mô công nghiệp khó hơn do quy mô mẻ thấp cộng thêm phải kết hợp với phương pháp khác để thu lấy hoạt chất vừa giải phóng ra khỏi màng tế bào.</p>
+</section>
+<section id="phương-pháp-chiết-siêu-tới-hạn" class="level2">
+<h2 class="anchored" data-anchor-id="phương-pháp-chiết-siêu-tới-hạn">3.4 Phương pháp chiết siêu tới hạn</h2>
+<p>, Năm 1879, Hannay và Hogarth đã khám pha ra hiện tượng chất lỏng siêu tới hạn đã dẫn tới phát minh ra phương pháp chiết siêu tới hạn (SPE- Supercritical Fluid Extraction). Ứng dụng dầu tiên của phương pháp này trong chiết xuất từ thập niên 1960 từ nghiên cứu của Kurt Zosel tại viện nghiên cứu Max Planck (Đức) trong việc loại caffein trong hạt cà phê.<span class="citation" data-cites="emmerichCoffeeWithdrawal2014"><sup><a href="#ref-emmerichCoffeeWithdrawal2014" role="doc-biblioref">20</a></sup></span> Kể từ đó, phương pháp này được xem là phương pháp chiết xanh đáng chú ý để thay thế các phương pháp chiết truyền thống.<span class="citation" data-cites="akandaApplicationsSupercriticalFluid2012"><sup><a href="#ref-akandaApplicationsSupercriticalFluid2012" role="doc-biblioref">21</a></sup></span></p>
+<div id="fig-CO2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-CO2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../graphics/Kurt Zosel.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-CO2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2
+</figcaption>
+</figure>
+</div>
+<p><strong>Thiết bị và quy trình</strong><br>
+Trạng thái lỏng siêu tới hạn của một vật chất là một dạng vật lý tồn tại trong điều kiện áp suất và nhiệt độ nhất định, cao hơn điểm tới hạn.<span class="citation" data-cites="raiSupercriticalExtractionSunflower2016"><sup><a href="#ref-raiSupercriticalExtractionSunflower2016" role="doc-biblioref">22</a></sup></span> Thường sẽ được được gọi là chất lỏng siêu tới hạn. Ở điều kiện này, mật độ các phân tử có sự thay đổi lớn so với dạng lỏng và khí. Dẫn tới, vật chất có trạng thái đặc biệt vừa thể hiện đặc trưng của dạng lỏng vừa của dạng khí. Ví dụ như khuyếch tán nhanh như dạng khí lại có thể thấm qua vật chất như chất lỏng dẫn tới các lợi thế trong chiết suất thảo mộc.<span class="citation" data-cites="herreroSubSupercriticalFluid2006"><sup><a href="#ref-herreroSubSupercriticalFluid2006" role="doc-biblioref">23</a></sup></span> Carbon dioxide và nước là những chất lỏng siêu tới hạn được sử dụng phổ biến nhất.<span class="citation" data-cites="raiSupercriticalExtractionSunflower2016"><sup><a href="#ref-raiSupercriticalExtractionSunflower2016" role="doc-biblioref">22</a></sup></span> <span class="math inline">CO_2</span> là phân tử không phân cực, đây là dung môi lý tưởng cho chất béo, lipid và các chất không phân cực, tuy nhiên sẽ có hạn chế nhất định trong việc chiết xuất các chất phân cực trong dược phẩm và thảo dược.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a></sup></span> Đề giải quyết, đồng dung môi thường được sử dụng và một lượng nhỏ chất này có thể thay đổi đáng kể độ phân cực của hỗn hợp dung môi với <span class="math inline">CO_2</span>. Ví dụ: 0.5 mL dichloromethane (<span class="math inline">CH_2Cl_2</span>) có thể tăng cường quá trình chiết xuất. Nhiệt độ tới hạn của carbon dioxide là <span class="math inline">31,1^oC</span>, dẫn tới các hoạt chất không bền với nhiệt có thể áp dụng phương pháp này. Quá trình chiết xuất sẽ không phát sinh dung môi do khí <span class="math inline">CO_2</span> bay hơi, tiết kiện được quá trình loại bỏ so với phương pháp khác.<span class="citation" data-cites="dasilvaSupercriticalFluidExtraction2016"><sup><a href="#ref-dasilvaSupercriticalFluidExtraction2016" role="doc-biblioref">24</a></sup></span> Dung môi Ethanol và propanol cũng được sử dụng làm dung môi trong chiết siêu tới hạn. Độ hòa tan các hợp chất tự nhiên của chúng tốt hơn so với <span class="math inline">CO_2</span> tùy nhiên dung môi này dễ cháy và tốn kém. Để nâng cao hiệu suất của phương pháp có thể phải tính đến nhiệt độ, áp suất, kích thước hạt và độ ẩm của phương pháp.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a></sup></span><br>
+Một hệ thống SFE nhìn chung phải có một bể chứa dung môi siêu tới hạn (<span class="math inline">CO_2</span>), một máy bơm, một buồng áp suất chứa mẫu, một bình hứng và hệ thống kiểm soát áp suất.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a></sup></span> Chất lỏng siêu tới hạn được đưa đến vùng tạo ra dạng siêu tới hạn. Sau đó chuyển tới bình chiết nói chứa nguyên liệu. Sau khi chiết sẽ đưa tới vùng phân tách với điều kiện áp suất thấp để thu lấy cao. Cuối cùng <span class="math inline">CO_2</span> được làm mát, nén lại và tá chế hoặc loại bỏ. Phương pháp chiết siêu tới hạn được quan tâm ứng dụng nhiều trong chiết suất đặc biệt tinh dầu từ thảo mộc. Giannuzzo <em>et al.</em> năm 2003 sử dụng SFE để chiết xuất dầu hướng dương với <span class="math inline">CO_2</span> cho thấy hiệu quả khi tăng 54.37%. Và phương này này được thu hút được ngành công nghiệp sản xuất dầu cọ quan tâm khi nhiều nghiên cứu cho thấy hiệu quả đến 100% và an toàn hơn sử dụng dung môi hữu cơ. Dandekar <em>et al</em> cũng ứng dụng phương pháp để chiết xuất nhóm limonoid từ hạt bưởi và kết quả có khả năng áp dụng trong sản xuất thương mại.<span class="citation" data-cites="yuSupercriticalFluidExtraction2006"><sup><a href="#ref-yuSupercriticalFluidExtraction2006" role="doc-biblioref">25</a></sup></span> <strong>Ưu điểm và nhược điểm</strong><br>
+Ưu điển của phương này dựa trên các đặc điểm của trạng thái siêu tới hạn của dung môi như mật độ, độ khuyếch tán, độ nhớt và hằng số điện môi. Độ nhớt thấp và độ khuyếch tán xuyên mang cao giúp hiệu suất chiết cao hơn. Từ đó, gián tiếp ảnh hưởng làm giảm thời gian chiết.<span class="citation" data-cites="dasilvaSupercriticalFluidExtraction2016"><sup><a href="#ref-dasilvaSupercriticalFluidExtraction2016" role="doc-biblioref">24</a></sup></span><br>
+<strong>Thông số quan trọng</strong><br>
+Tại trạng thái siêu tới hạn, <span class="math inline">CO_2</span> nhạy cảm với sự thay đổi áp suất. Mật độ các phân tử liên quan mật thiết tới độ tan của cát hoạt chất và hệ quả là hiệu suất cao tại bất cứ nhiệt độ nào. Nồng độ các carotenoid trong sản phẩm từ vỏ chanh Sudachi (<em>Citrus sudachi</em>) chiết sẽ tăng theo áp suất thông qua nghiên cứu của Ndayishimiye <em>et al</em>. Hiệu suất chiết sẽ giảm khi áp suất tăng tới 300 bar. Đây cũng là hệ quả của quá trình chiết xuất kèm theo các nhóm khác trong thực vật, mỗi nhóm sẽ có một áp suất chiết khác nhau.<span class="citation" data-cites="ndayishimiyeOptimizationCarotenoidsAntioxidant2017"><sup><a href="#ref-ndayishimiyeOptimizationCarotenoidsAntioxidant2017" role="doc-biblioref">26</a></sup></span> Nghiên cứu của Zkal <em>et al</em> cho thấy khi tăng áp suất tới khoảng 600 bar có khả năng tăng thu hồi dầu hạt lanh.<span class="citation" data-cites="confortinExtractionCompositionExtracts2017"><sup><a href="#ref-confortinExtractionCompositionExtracts2017" role="doc-biblioref">27</a></sup></span><br>
+Trong quá trình đẳng áp, nhiệt độ tăng có thể làm giảm khả năng hòa tan của chất lỏng siêu tới hạn <span class="math inline">CO_2</span>. Điều cần lưu ý ở đây là khi áp suất tăng và nhiệt độ tăng thì mật độ phân tử sẽ giảm. Cần lưu ý rằng, nhiệt độ tăng có thể tác động làm tăng áp suất khi tới ngưỡng. Hiện tượng này gọi là áp suất đảo ngược. Trong nghiên cứu chiết xuất từ loài <em>Lupinus albescens</em>, Confortin <em>et al.</em> nhận thấy hiệu suất tăng khi áp suất thấp hơn áp suất đảo ngược. Nhiệt độ tăng làm tăng tốc độ chiết xuất nhưng nếu đạt tới điểm áp suất đảo ngược thị hiệu quả lại giảm, thường gặp nếu dung môi là <span class="math inline">H_2O</span>. Do đó, các nghiên cứu phải chú trọng đạt được nhiệt độ thích hợp vừa tăng hiệu suất nhưng cũng phải giữa áp suất không đảo ngược.<span class="citation" data-cites="confortinExtractionCompositionExtracts2017"><sup><a href="#ref-confortinExtractionCompositionExtracts2017" role="doc-biblioref">27</a></sup></span><br>
+Hiệu suất chiết có thể ảnh hưởng với đồng dung môi làm thay đổi độ phân cực của <span class="math inline">CO_2</span>. Lima <em>et al.</em> cho thấy nếu thêm 5% methanol có tăng hiệu quả chiết pipercallosidine từ lá tiêu (<em>Piper klotzschianum</em>) lên 40%.<span class="citation" data-cites="limaExtractionLeavesPiper2019"><sup><a href="#ref-limaExtractionLeavesPiper2019" role="doc-biblioref">28</a></sup></span> Dung môi Ethanol cũng được lựa chọn là đồng dung môi với lợi thế ít độc, dễ loại bỏ nhưng đồng tan với <span class="math inline">CO_2</span> không tốt. Hiện tại chưa có nghiên cứu nào công bố ảnh hưởng của pH tạo ra từ đồng dung môi tới hiệu suất và hàm lượng hoạt chất trong cao. Bên cạnh các yếu tố vừa đề cập, kích thước hạt, tốc độ dòng và thời gian có thể ảnh hưởng tới quá trình.</p>
+</section>
+<section id="phương-pháp-chiết-áp-suất-cao" class="level2">
+<h2 class="anchored" data-anchor-id="phương-pháp-chiết-áp-suất-cao">3.5 Phương pháp chiết áp suất cao</h2>
+<p>Chiết áp suất cao (PLE-Pressurized Liquid Extraction) là kỹ thuật chiết xuất mới sử dụng dung môi hữu cơ tại áp suất và nhiệt độ cao hơn điểm sôi thông thường của chúng.<span class="citation" data-cites="alonso-salcesPressurizedLiquidExtraction2001"><sup><a href="#ref-alonso-salcesPressurizedLiquidExtraction2001" role="doc-biblioref">29</a></sup></span> Phương pháp này còn gọi là chiết bằng nước nóng có áp suất nếu dung môi lựa chọn là nước. So với phương pháp Shoxlet, phương pháp này đòi hỏi thời gian chiết ngắn hơn, cần ít dung môi hơn và khả năng khuếch tán dung môi vào mẫu cao hơn. Việc sử dụng ít dung môi hơn dẫn tới phương pháp PLE trở thành phương pháp chiết xuất xanh.<span class="citation" data-cites="janghelSupercriticalFluidExtraction2015"><sup><a href="#ref-janghelSupercriticalFluidExtraction2015" role="doc-biblioref">30</a></sup></span> Phương pháp này thành công trong việc chiết xuất trong lĩnh vực công nghệ thực phẩm và dược phẩm.<span class="citation" data-cites="benthinPressurizedLiquidExtraction1999"><sup><a href="#ref-benthinPressurizedLiquidExtraction1999" role="doc-biblioref">31</a></sup></span><br>
+<strong>Mô tả thiết bị và quy trình chiết suất</strong><br>
+Trong phương pháp PLE, mẫu được đặt trong bộ phận chiết chịu lực. Quá trình chiết với dung môi thích hợp diễn ra tại áp suất cao (500-3000psi) và nhiệt độ cao (40-200<span class="math inline">^oC</span>) trong thời gian ngắn (tầm 5-15 phút). Sau khi kết thúc, khí nén được đẩy qua để thu gom dịch chiết.<span class="citation" data-cites="alonso-salcesPressurizedLiquidExtraction2001 suchanPressurizedLiquidExtraction2004"><sup><a href="#ref-alonso-salcesPressurizedLiquidExtraction2001" role="doc-biblioref">29</a>,<a href="#ref-suchanPressurizedLiquidExtraction2004" role="doc-biblioref">32</a></sup></span> PLE được coi là phương pháp hàng đầu để tách các chất gây ô nhiễm môi trường nếu như các chất đó khó phân hủy, tồn tại trong thời gian dài (POP). Đó là lý do tại sao Suchan <em>et al.</em> chiết polychlorinated biphenyls và organochlorinetỏng các mẫu cá và cho thấy phương pháp này tốt hơn phương pháp Shoxlet. Một nghiên cứu khác cho thấy nếu áp dụng chiết các isoflavone từ đậu nành khi được tối ưu hóa mà không ảnh hưởng đến hoạt chất. Hiện tại, nhiều nghiên cứu sử dụng phương pháp PLE trong chiết xuất cao thảo mộc.</p>
+<div id="fig-PLE" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-PLE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../graphics/Pressurized Liquid Extraction.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-PLE-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3
+</figcaption>
+</figure>
+</div>
+<p>Hơn hai thập kỷ vừa qua, PLE tiếp tục được cải tiến để nâng cao hiệu suất, chất lượng sản phẩm và giới hạn ảnh hưởng tới môi trường. Thiết bị PLE gần đây có thể chịu áp lực cực cao (ultra high pressure extraction (UHPE)) giúp phá vỡ màng tế bào dễ dàng hơn. Khi màng tế bào bị vỡ, các dung môi dễ dàng thâm nhập hòa tan các hoạt chất. Nhiệt độ có thể ở trong mức <span class="math inline">25-50^oC</span> giúp chiết được các thành phần không bền với nhiệt. Kết hợp giữa UHPE với dung điện trường giúp tạo lỗ tràng màng tế bào trước cùng với bất hoạt enzymes có thể hiệu quả chiết suất tăng lên. Ví dụ như chiết các anthocyanins từ vỏ nho có thể cải thiện hiệu quả tới 17% và gấp đôi khả năng chống oxy hóa của sản phẩm tại điện trường 3kV <span class="math inline">cm^{-1}</span> và 70<span class="math inline">^oC</span>. UHPE tại áp suất 600 MPa có thể chiết tổng phenolic tăng gấp ba lần so với chiết nóng trong khi chiết siêu âm chỉ có thể tăng gấp 2 lần.<br>
+Một số thiết bị mới thuộc nhóm này là chiết lỏng rắn tốc độ cao dưới áp lực tuần hoàn (Rapid solid-liquid dynamic extraction-RSLDE). Đây là một kỹ chiết áp suất thân thiện khi áp suất tuần hoàn tạo ra áp lực chiết trên nền rắn. RSLDE cơ bản giúp chiết nhanh hơn ở nhiệt độ phòng. Kỹ thuật mới này duy trì lợi thế về hiệu suất và thời gian chiết mà vẫn giữ được áp suất cao giúp giải phóng các polyphenol ít thay đổi cấu trúc dưới nhiệt độ thấp. RSLDE được đề xuất như một giải pháp thay thế cho quá trình ngâm, cho phép chiết xuất xanh với ít nhu cầu năng lượng và hoạt chất ít bị tác động bởi nhiệt.<br>
+<strong>Ưu và nhược điểm</strong> Lượng dung môi trong phương pháp PLE cần khoảng 15 ml trong khi chiết Shoxlet đòi hỏi khoảng 500 ml. Việc giảm lượng dung môi nguyên nhân do hiệu quả sử dụng. Trong khi đó toàn bộ quy trình từ khâu chuẩn bị đến dọn dẹp vệ sinh diễn ra trong vòng 30 phút, các phương pháp thường quy có thể tốn khoảng 10-16 giờ. Tuy nhiên, phương pháp này khuyến nghị cần nghiên cứu để xem nhiệt độ có ảnh hưởng đến hoạt chất không. Một nhược điểm nữa của phương pháp chính là chi phí ban đầu mua thiết bị có khả năng chịu áp lớn.<span class="citation" data-cites="janghelSupercriticalFluidExtraction2015"><sup><a href="#ref-janghelSupercriticalFluidExtraction2015" role="doc-biblioref">30</a></sup></span> <strong>Thông số quan trọng</strong><br>
+Áp suất và nhiệt độ có thể ảnh hưởng đến độ phân cực của dung môi. Khi nghiên cứu quy trình chiết xuất nguyên liệu từ thực vật cần đặc biệt quan tâm tương tác giữa dung môi, áp suất và nhiệt độ. Hỗn hợp dung môi nước, Ethanol và (hoặc) Methanol thường sẽ được lựa chọn do khả năng hòa tan, tính chọn lọc nhóm hoạt chất và thân thiện với môi trường. Nước dạng lỏng nhưng ít phân cực hơn khi ở áp suất và nhiệt độ cao hơn điểm sôi do khả năng phá vỡ liên kết hydro giữa các phân tử. (khoảng <span class="math inline">200-275^oC</span>). Hệ quả là sẽ hòa tan các phân tử ít phân cực hơn nếu so tại áp suất khí quyển bình thường. Hơn nữa, áp lực tạo ra giúp phá vỡ màng tế bào giúp dung môi khuyến tán dễ hơn và tăng khả năng chiết xuất nhóm cần thiết. Phương pháp này phù hợp sử dụng dung môi nước để chiết các phenolic từ thực vật. Ví dụ, chiết các pheonlic từ vỏ quả lựu (<em>Punica granatum)</em> hiệu quả với phương pháp này tại nhiệt độ <span class="math inline">70^oC</span> với dung môi nước.<span class="citation" data-cites="sumereCombiningPressurizedLiquids2018"><sup><a href="#ref-sumereCombiningPressurizedLiquids2018" role="doc-biblioref">33</a></sup></span> Hệ dung môi nước có thêm Ethanol có độ phân cực giảm giúp tăng quá trình hòa tan các polyphenolvào hỗn hợp trong khi nước gây áp lực tăng quá trình giải phóng hoạt chất khỏi màng tế bào, kết quả hiệu suất tăng. Mặt khác, ethanol có thể giúp giảm quá trình thủy phân. Hệ thống này có thể kết hợp với siêu âm, vi sóng hoặc công nghệ khác để tăng quá trình chiết suất. Như trường hợp chiết nhóm phenol từ bã mã đã khử đường tăng hiệu suất tới 60% khi kết hợp với siêu âm.<span class="citation" data-cites="viganoExtractionBioactiveCompounds2020"><sup><a href="#ref-viganoExtractionBioactiveCompounds2020" role="doc-biblioref">34</a></sup></span> Sự kết hợp có thể theo giai đoạn, giai đoạn đầu có thể sử dụng PLE để chiết phân đoạn từ nam việt quất thu các polypheolic và chất thân nước, bã tiếp tục được chiết siêu tới hạn với <span class="math inline">CO_2</span>. Toàn bộ quy trình được thiết kế liên thông theo đáp ứng bề mặt (RSM) hệ quả là các thông số đầu vào được tối ưu theo đầu ra giúp nâng cao năng suất đồng thời sản phẩm cuối không chất thải giúp sản xuất ở quy mô công nghiệp.<br>
+</p>
+</section>
+<section id="chiết-suất-với-sự-trợ-giúp-của-enzyem" class="level2">
+<h2 class="anchored" data-anchor-id="chiết-suất-với-sự-trợ-giúp-của-enzyem">3.6 Chiết suất với sự trợ giúp của enzyem</h2>
+<p>Phương pháp chiết xuất có sự hỗ trợ của enzyme cũng đang được chú ý do nhu cầu của các phương pháp chiết xuất xanh.<span class="citation" data-cites="puriEnzymeassistedExtractionBioactives2012"><sup><a href="#ref-puriEnzymeassistedExtractionBioactives2012" role="doc-biblioref">35</a></sup></span> Một số hoạt chất trong thực vật bị lưu giữa trong các phưc hợp polysaccharid-ligin thông qua liên kết hydro hoặc thân nước, dẫn tới nhóm này không dễ dàng chiết xuất bằng dung môi thông thường.<span class="citation" data-cites="azmirTechniquesExtractionBioactive2013"><sup><a href="#ref-azmirTechniquesExtractionBioactive2013" role="doc-biblioref">1</a></sup></span> Điều này cần tới enzyem để tăng hiệu suất chiết. Các enzyem được lựa chọn thuộc các nhóm cellulose, hemiaellulose và pectinase giúp phân hủy thành tế bào.<span class="citation" data-cites="puriEnzymeassistedExtractionBioactives2012"><sup><a href="#ref-puriEnzymeassistedExtractionBioactives2012" role="doc-biblioref">35</a></sup></span> Nguồn cung cấp các enzyem này từ vi khuẩn, nấm, nội tạng động vật hoặc từ rau củ và trái cây. Điều quan trọng khi lựa chọn phương pháp này phải hiểu rõ về đặc tính xúc tác, cách thức hoạt hóa và điệu kiện lý tưởng để enzyem hoạt động.<br>
+<strong>Mô tả thiết bị và quy trình</strong><br>
+Hai kỹ thuật chính trong phương pháp chiết enzyem là chiết nước có hỗ trợ enzyme (EAAE) và ép lanh có hỗ trợ enzyme (EACP). Trong kỹ thuật EAAE, thành tế bào bị vỡ ra, giải phóng các polysaccharid-protein tạo ra dung dịch nhũ tương, hệ quả là hiệu suất kỹ thuật này thấp. Trong khi đó, kỹ thuật EACP không hình thành nhũ tương do thành tế bào bị thủy phân thành hạt.<span class="citation" data-cites="latifPhysicochemicalStudiesHemp2009"><sup><a href="#ref-latifPhysicochemicalStudiesHemp2009" role="doc-biblioref">36</a></sup></span> Gần đây, phương pháp này có kết hợp thêm siêu âm, vi sóng hay siêu tới hạn để nâng cao hiệu suất chiết. Kết hợp giữa enzyme và sóng siêu âm đã được nghiên cứu và ứng dụng trên nhiều loại dược liệu để chiết xuất các sản phẩm tự nhiên. Sóng siêu âm giúp cải thiện khả năng hoạt động enzyme và đồng thời giúp phân bố đều enzyem.<span class="citation" data-cites="chengAdvancesEnzymeAssisted2015"><sup><a href="#ref-chengAdvancesEnzymeAssisted2015" role="doc-biblioref">37</a></sup></span> Hơn nữa, các phản ứng dựa trên enzyme cần tiến hành ở nhiệt độ rất thấp (tức là khoảng <span class="math inline">15–45^oC</span>), điều này cho thấy lợi thế của phương pháp này trong việc chiết xuất các hợp chất nhạy cảm với nhiệt. Điều cần lưu ý, nhiệt độ cao (trên <span class="math inline">60^oC</span>) ảnh hưởng tới hoạt tính của enzyme và các thay đổi này không thể đảo ngược. Điều này được giải thích nhiệt độ thay đổi về hình dạng, nếp gấp và liên kết ngang trong chuỗi polypeptide.<span class="citation" data-cites="sowbhagyaEnzymeAssistedExtractionFlavorings2010"><sup><a href="#ref-sowbhagyaEnzymeAssistedExtractionFlavorings2010" role="doc-biblioref">38</a></sup></span> Các hợp chất như polysaccharide, dầu, sắc tố tự nhiên, hương vị và các hợp chất tự nhiên có thể chiết xuất với số lượng lớn bằng cách sử dụng phương pháp chiết xuất có sự hỗ trợ của enzyme.<span class="citation" data-cites="latifPhysicochemicalStudiesHemp2009"><sup><a href="#ref-latifPhysicochemicalStudiesHemp2009" role="doc-biblioref">36</a></sup></span> Thi <em>et al.</em> tập trung vào việc cải thiện sản lượng chiết xuất dầu từ màng quả gấc (<em>Momordica cochinchinensis</em> Spreng) bằng phương pháp chiết xuất có sự hỗ trợ của enzyme.<span class="citation" data-cites="thiyennhiEnzymeAssistedExtraction2016"><sup><a href="#ref-thiyennhiEnzymeAssistedExtraction2016" role="doc-biblioref">39</a></sup></span> Nghiên cứu đã chứng minh rằng việc sử dụng Viscozyme L giúp tăng hiệu suất thu hồi dầu và tổng hàm lượng carotenoid trong dầu. Kulshreshtha <em>et al.</em> đã sử dụng enzyem được thương mại hóa như protease và carbohydrate để tăng hiệu suất chiết cao từ rong biển màu xanh <em>Codium mong manh</em> và đỏ và <em>Chondrus crispus</em> tại bờ biển Bắc Đại Tây Dương so với chiết nước. Cao chiết được cải thiện về mặt hoạt tính khi tăng khả năng ức chế một số virus gây bệnh như viêm gan, cúm, HIV/AID, ebola và mụn nước.<span class="citation" data-cites="kulshreshthaEnzymeAssistedExtractionBioactive2015"><sup><a href="#ref-kulshreshthaEnzymeAssistedExtractionBioactive2015" role="doc-biblioref">40</a></sup></span><br>
+<strong>Ưu điểm và nhược điểm</strong><br>
+Phương pháp chiết enzyem thu hút được nhiều nhà nghiên cứu quan tâm do ưu thế cụ thể. Cao chiết có hoạt tính sinh học cao do thành tế bào bị vỡ và giải phóng ra các hoạt chất mong muốn. Do đó, sản phẩm có chất lượng cao. Phương pháp sử dụng dung môi là nước ít ảnh hưởng đến môi trường. Thời gian chiết, dung môi và mức năng lượng tiêu thụ có giảm so với các phương pháp khác.<span class="citation" data-cites="puriEnzymeassistedExtractionBioactives2012"><sup><a href="#ref-puriEnzymeassistedExtractionBioactives2012" role="doc-biblioref">35</a></sup></span> Tuy nhiên, phương pháp này có giá thành cao so với sản xuất công nghiệp vì enzyem giới hạn hoạt động đòi hỏi môi trường ủ chuyên biệt đồng thời enzyme có thể không vỡ hoàn toàn thành tế bào thực vật.<span class="citation" data-cites="chengAdvancesEnzymeAssisted2015"><sup><a href="#ref-chengAdvancesEnzymeAssisted2015" role="doc-biblioref">37</a></sup></span><br>
+<strong>Thông số quan trọng</strong><br>
+Quy trình chiết xuất hỗ trợ bởi enzyem ảnh hưởng bởi nhiều yếu tố như loại enzyme sử dụng, hỗn hợp enzyme, thời gian ủ cũng nhiệt độ. Các hỗn hợp enzyme tác động lớn đến khả năng thủy phân thông qua loại enzyme, hoạt tính enzyme và tỷ lệ các enzyme. Để phân mảnh hoàn toàn màng tế bào, các enzyme lựa chọn phải có hoạt tính bổ sung. Tăng nhiệt độ có thể tăng khả năng hoạt động của enzyme. Ngoài ra, nhiệt độ tăng giúp độ nhớt của môi trường chiết xuất giảm dẫn tới hòa tan các hóa chất hoạt tính sinh học dễ dàng hơn. Tuy nhiên, một vấn đề cần lưu tâm về hạn chế phương pháp đó thời gian ủ có thể dài dẫn tới hoạt chất tiếp xúc với nhiệt độ cao và quá trình oxy hóa có thể làm phân hủy các hoạt chất.<span class="citation" data-cites="gligorEnzymeassistedExtractionsPolyphenols2019"><sup><a href="#ref-gligorEnzymeassistedExtractionsPolyphenols2019" role="doc-biblioref">41</a></sup></span> Nhiệt độ tăng cũng chỉ ở mức nhất định. Nhiệt độ quá cao có thể phá vỡ cấu trúc ba chiều của enzyme, ngăn chặn quá trình thủy phân. Một thông số nữa cần quan tâm là pH của môi trường. Ví dụ, môi trường chiết xuất có tính acid làm mất ổn định các liên kết hydro, dẫn đến thành tế bào linh hoạt hơn và dễ phá vỡ hơn. Thêm nữa, enzyem cần hoạt động được tại pH acid giúp thay đổi cấu trúc protein và tăng khả năng liên kết với cơ chất.<span class="citation" data-cites="chematAlternativeSolventsNatural2014"><sup><a href="#ref-chematAlternativeSolventsNatural2014" role="doc-biblioref">42</a></sup></span></p>
+</section>
+<section id="chiết-suất-sử-dụng-nhiệt-điện-trở-ohmic" class="level2">
+<h2 class="anchored" data-anchor-id="chiết-suất-sử-dụng-nhiệt-điện-trở-ohmic">3.7 Chiết suất sử dụng nhiệt điện trở (Ohmic)</h2>
+<p>Gia nhiệt Ohmic hay còn gọi là gia nhiệt điện dẫn sử dụng khả năng cản trở dòng điện của nguyên liệu để tạo nhiệt.<span class="citation" data-cites="wangApplicationTwostageOhmic2007"><sup><a href="#ref-wangApplicationTwostageOhmic2007" role="doc-biblioref">43</a></sup></span> Hầu hết dược liệu đều chứa nước và chất điện lý như acid và muối cho phép chúng dẫn điện. Hiện tượng này giúp dòng điện đi qua nguyên liệu nhưng độ dẫn điện kém giúp phát sinh nhiệt lượng ngay trong lòng vật liệu. Quá trình chuyển đồi giữa điện năng thành nhiệt năng diễn ra với tốc độ cực nhanh mà không cần nguồn cung cấp nhiệt bên ngoài. Quy trình này giúp giảm thiểu tác động của nhiệt độ tới hoạt chất nhạy cảm với nhiệt như các vitamin hay <span class="math inline">\beta</span>-carotenoid. Hệ quả là sản phẩm có chất lượng cao khi về cảm quan, dinh dưỡng hay cấu trúc hóa học của sản phẩm vượt trội so với phương pháp khác.<span class="citation" data-cites="knirschOhmicHeatingReview2010"><sup><a href="#ref-knirschOhmicHeatingReview2010" role="doc-biblioref">44</a></sup></span> Ngoài ra đây cũng là phương pháp thân thiện với môi trường thông qua việc tăng cường hiệu quả sử dụng năng lượng khi nhiệt được tăng nhanh, đồng nhất và chính xác tại bất cứ điểm nào trong buồng chiết. Hiện tại, phương pháp này được triển khai hiệu quả trong lĩnh vực công nghiệp thực phẩm.<span class="citation" data-cites="lakkakulaRiceBranStabilization2004 loypimaiOhmicHeatingassistedExtraction2015"><sup><a href="#ref-lakkakulaRiceBranStabilization2004" role="doc-biblioref">45</a>,<a href="#ref-loypimaiOhmicHeatingassistedExtraction2015" role="doc-biblioref">46</a></sup></span></p>
+<div class="{fig-ohmic}">
+<p><img src="../graphics/Ohmic heating.png" class="img-fluid"> Sơ đồ thiết bị chiết suất Ohmic Heating</p>
+</div>
+</section>
+<section id="tổng-kết" class="level2">
+<h2 class="anchored" data-anchor-id="tổng-kết">3.8 Tổng kết</h2>
+<p>Các phương pháp chiết xuất mới được ứng dụng trong thực tế ngày càng tăng đồng thời các cải tiến thiết bị liên tục xuất hiện. Tuy nhiên, mỗi phương pháp đều có những giới hạn riêng cần khác phục. Ví dụ, sự phân tán sóng không đồng đều đồng thời hình thành gốc tự do và nhiễm kim loại vào sản phẩm cuối nếu sử dụng sóng siêu âm để chiết xuất. Trong khi đó, phương pháp chiết với sự trợ giúp bởi enzyme không đơn giản khi phải chiết sản phẩm bằng nước, đặc biệt là chi phí enzyme lớn ở quy mô công nghiệp. Đồng thời đảm bảo môi trường tối ưu về nhiệt độ, pH ở quy mô công nghiệp là khác biệt với phòng thí nghiệm. Với phương pháp vi sóng MAE, thay đổi cấu trúc hóa học có thể ảnh hưởng đến hoạt tính cũng như sử dụng trong tương lai. Các phương pháp khác như chiết siêu tới hạn hay từ trường đều cần phải phân tích giữa lợi ích và chi phí cho cơ sở công nghiệp. Các phòng thí nghiệm phải đảm bảo tối ưu hóa kỹ thuật và khi đó đòi hỏi người nghiên cứu phải biết cách thiết kế nghiên cứu cũng như nắm bắt được tính chất hóa học và vật lý của nhóm chất mục tiêu. Đồng thời, đây cũng là quá trình mô hình hóa để có thể giám sát, quản lý và dự báo sự thay đổi. Việc phát triển liên tục các công nghệ khai thác hiệu quả được thúc đẩy bởi nhu cầu ngày càng tăng đối với sản phẩm từ tự nhiên. Trong vài thập kỷ trước, các tiến bộ về quy trình sản xuất xuất hiện ngày càng nhiều với tập trung chủ yếu vào tăng hiệu quả chiết xuất. Điều này dẫn tới cần cung cấp đầy đủ các thông số đề tạo mối liên hệ giữa đầu vào và đầu ra. Tuy nhiên, một số quy trình chuẩn đã tạo ra giới hạn và ảnh hưởng đến đánh giá hiệu quả của quy trình chiết xuất cụ thể. Mặt khác, hiệu quả kinh tế trong bối cảnh cạnh tranh có thể dẫn tới các công nghệ chiết xuất phức tạp hơn trong tương lai.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-azmirTechniquesExtractionBioactive2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.jfoodeng.2013.01.014">J. Azmir, I. S. M. Zaidul, M. M. Rahman, K. M. Sharif, A. Mohamed, F. Sahena, M. H. A. Jahurul, K. Ghafoor, N. A. N. Norulaini and A. K. M. Omar, <em>Journal of Food Engineering</em>, 2013, <strong>117</strong>, 426–436</a>.</div>
+</div>
+<div id="ref-samaramUltrasoundAssistedExtractionUAE2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2 </div><div class="csl-right-inline"><a href="https://doi.org/10.3390/molecules181012474">S. Samaram, H. Mirhosseini, C. Tan and H. Ghazali, <em>Molecules</em>, 2013, <strong>18</strong>, 12474–12487</a>.</div>
+</div>
+<div id="ref-trendafilovaUltrasoundassistedExtractionAlantolactone2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3 </div><div class="csl-right-inline"><a href="https://doi.org/10.4103/0973-1296.66942">A. Trendafilova, C. Chanev and M. Todorova, <em>Phcog Mag</em>, 2010, <strong>6</strong>, 234</a>.</div>
+</div>
+<div id="ref-altemimiUltrasoundAssistedExtraction2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4 </div><div class="csl-right-inline"><a href="https://doi.org/10.1371/journal.pone.0148758">A. Altemimi, D. G. Watson, R. Choudhary, M. R. Dasari and D. A. Lightfoot, <em>PLoS ONE</em>, 2016, <strong>11</strong>, e0148758</a>.</div>
+</div>
+<div id="ref-zhangUltrasoundassistedExtractionTotal2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5 </div><div class="csl-right-inline"><a href="https://doi.org/10.4103/0973-1296.96581">D.-S. Zhang, J. Wang, C.-Y. Guo, S.-M. Zhang, C.-L. Liu, X.-M. Bai and Y.-M. Zhao, <em>Phcog Mag</em>, 2012, <strong>8</strong>, 166</a>.</div>
+</div>
+<div id="ref-tiwariUltrasoundCleanGreen2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.trac.2015.04.013">B. K. Tiwari, <em>TrAC Trends in Analytical Chemistry</em>, 2015, <strong>71</strong>, 100–109</a>.</div>
+</div>
+<div id="ref-jiEffectsUltrasonicationPhytochemicals2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.foodchem.2021.131480">D. Ji, Q. Wang, T. Lu, H. Ma and X. Chen, <em>Food Chemistry</em>, 2022, <strong>373</strong>, 131480</a>.</div>
+</div>
+<div id="ref-chematUltrasoundAssistedExtraction2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.ultsonch.2016.06.035">F. Chemat, N. Rombaut, A.-G. Sicaire, A. Meullemiestre, A.-S. Fabiano-Tixier and M. Abert-Vian, <em>Ultrasonics Sonochemistry</em>, 2017, <strong>34</strong>, 540–560</a>.</div>
+</div>
+<div id="ref-routrayMicrowaveAssistedExtractionFlavonoids2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9 </div><div class="csl-right-inline"><a href="https://doi.org/10.1007/s11947-011-0573-z">W. Routray and V. Orsat, <em>Food Bioprocess Technol</em>, 2012, <strong>5</strong>, 409–424</a>.</div>
+</div>
+<div id="ref-zhangMicrowaveAssistedExtraction2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.tifs.2011.07.003">H.-F. Zhang, X.-H. Yang and Y. Wang, <em>Trends in Food Science &amp; Technology</em>, 2011, <strong>22</strong>, 672–688</a>.</div>
+</div>
+<div id="ref-sarkerNaturalProductsIsolation2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11 </div><div class="csl-right-inline">S. D. Sarker, <em>Natural products isolation</em>, <span>Springer</span>, <span>New York</span>, 2012.</div>
+</div>
+<div id="ref-alupuluiMicrowaveExtractionActive2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12 </div><div class="csl-right-inline">A. ALUPULUI, I. Călinescu and V. Lavric, <em>U.P.B. Sci. Bull.</em></div>
+</div>
+<div id="ref-chanMicrowaveassistedExtractionsActive2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">13 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.chroma.2011.07.040">C.-H. Chan, R. Yusoff, G.-C. Ngoh and F. W.-L. Kung, <em>Journal of Chromatography A</em>, 2011, <strong>1218</strong>, 6213–6225</a>.</div>
+</div>
+<div id="ref-nabeelagulbadanEvaluationDifferentTechniques2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">14 </div><div class="csl-right-inline"><a href="https://doi.org/10.5829/idosi.aejaes.2015.15.4.12604">D. Nabeela Gulbadan, H. Arshad, P. Ghulam Muhayyudin and Saeed, <em>J. Agric. &amp; Environ. Sci.</em>, 2015, <strong>4</strong>, 676–682</a>.</div>
+</div>
+<div id="ref-hemwimonMicrowaveassistedExtractionAntioxidative2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">15 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.seppur.2006.08.014">S. Hemwimon, P. Pavasant and A. Shotipruk, <em>Separation and Purification Technology</em>, 2007, <strong>54</strong>, 44–50</a>.</div>
+</div>
+<div id="ref-sparreskilssonAnalyticalscaleMicrowaveassistedExtraction2000" class="csl-entry" role="listitem">
+<div class="csl-left-margin">16 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/S0021-9673(00)00921-3">C. Sparr Eskilsson and E. Björklund, <em>Journal of Chromatography A</em>, 2000, <strong>902</strong>, 227–250</a>.</div>
+</div>
+<div id="ref-yanHighIntensityPulsed2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">17 </div><div class="csl-right-inline"><a href="https://doi.org/10.1080/10408398.2015.1077193">L.-G. Yan, L. He and J. Xi, <em>Critical Reviews in Food Science and Nutrition</em>, 2017, <strong>57</strong>, 2877–2888</a>.</div>
+</div>
+<div id="ref-calleja-gomezEvaluationPulsedElectric2022" class="csl-entry" role="listitem">
+<div class="csl-left-margin">18 </div><div class="csl-right-inline"><a href="https://doi.org/10.3390/separations9100302">M. Calleja-Gómez, J. M. Castagnini, E. Carbó, E. Ferrer, H. Berrada and F. J. Barba, <em>Separations</em>, 2022, <strong>9</strong>, 302</a>.</div>
+</div>
+<div id="ref-abenozaEffectsPulsedElectric2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">19 </div><div class="csl-right-inline"><a href="https://doi.org/10.1007/s11947-012-0817-6">M. Abenoza, M. Benito, G. Saldaña, I. Álvarez, J. Raso and A. C. Sánchez-Gimeno, <em>Food Bioprocess Technol</em>, 2013, <strong>6</strong>, 1367–1373</a>.</div>
+</div>
+<div id="ref-emmerichCoffeeWithdrawal2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">20 </div><div class="csl-right-inline">M. Emmerich, <em>Max Planck Society</em>.</div>
+</div>
+<div id="ref-akandaApplicationsSupercriticalFluid2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">21 </div><div class="csl-right-inline"><a href="https://doi.org/10.3390/molecules17021764">M. J. H. Akanda, M. Z. I. Sarker, S. Ferdosh, M. Y. A. Manap, N. N. N. Ab Rahman and M. O. Ab Kadir, <em>Molecules</em>, 2012, <strong>17</strong>, 1764–1794</a>.</div>
+</div>
+<div id="ref-raiSupercriticalExtractionSunflower2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">22 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.foodchem.2015.07.070">A. Rai, B. Mohanty and R. Bhargava, <em>Food Chemistry</em>, 2016, <strong>192</strong>, 647–659</a>.</div>
+</div>
+<div id="ref-herreroSubSupercriticalFluid2006" class="csl-entry" role="listitem">
+<div class="csl-left-margin">23 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.foodchem.2005.05.058">M. Herrero, A. Cifuentes and E. Ibanez, <em>Food Chemistry</em>, 2006, <strong>98</strong>, 136–148</a>.</div>
+</div>
+<div id="ref-dasilvaSupercriticalFluidExtraction2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">24 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.trac.2015.11.013">R. P. F. F. da Silva, T. A. P. Rocha-Santos and A. C. Duarte, <em>TrAC Trends in Analytical Chemistry</em>, 2016, <strong>76</strong>, 40–51</a>.</div>
+</div>
+<div id="ref-yuSupercriticalFluidExtraction2006" class="csl-entry" role="listitem">
+<div class="csl-left-margin">25 </div><div class="csl-right-inline"><a href="https://doi.org/10.1021/jf060382d">J. Yu, D. V. Dandekar, R. T. Toledo, R. K. Singh and B. S. Patil, <em>J. Agric. Food Chem.</em>, 2006, <strong>54</strong>, 6041–6045</a>.</div>
+</div>
+<div id="ref-ndayishimiyeOptimizationCarotenoidsAntioxidant2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">26 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.biombioe.2017.08.014">J. Ndayishimiye and B. S. Chun, <em>Biomass and Bioenergy</em>, 2017, <strong>106</strong>, 1–7</a>.</div>
+</div>
+<div id="ref-confortinExtractionCompositionExtracts2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">27 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.supflu.2017.06.006">T. C. Confortin, I. Todero, J. F. Soares, T. Brun, L. Luft, G. A. Ugalde, V. D. Prá, M. A. Mazutti, G. L. Zabot and M. V. Tres, <em>The Journal of Supercritical Fluids</em>, 2017, <strong>128</strong>, 395–403</a>.</div>
+</div>
+<div id="ref-limaExtractionLeavesPiper2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">28 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.supflu.2018.11.006">R. N. Lima, A. S. Ribeiro, L. Cardozo-Filho, D. Vedoy and P. B. Alves, <em>The Journal of Supercritical Fluids</em>, 2019, <strong>147</strong>, 205–212</a>.</div>
+</div>
+<div id="ref-alonso-salcesPressurizedLiquidExtraction2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">29 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/S0021-9673(01)01212-2">R. M. Alonso-Salces, E. Korta, A. Barranco, L. A. Berrueta, B. Gallo and F. Vicente, <em>Journal of Chromatography A</em>, 2001, <strong>933</strong>, 37–43</a>.</div>
+</div>
+<div id="ref-janghelSupercriticalFluidExtraction2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">30 </div><div class="csl-right-inline"><a href="https://doi.org/10.5958/0974-360X.2015.00125.0">A. Janghel, S. Deo, P. Raut, D. Bhosle, C. Verma, S. S. Kumar, M. Agrawal, N. Amit, M. Sharma, T. Giri, D. K. Tripathi, Ajazuddin and A. Alexander, <em>Rese. Jour. of Pharm. and Technol.</em>, 2015, <strong>8</strong>, 775</a>.</div>
+</div>
+<div id="ref-benthinPressurizedLiquidExtraction1999" class="csl-entry" role="listitem">
+<div class="csl-left-margin">31 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/S0021-9673(99)00071-0">B. Benthin, H. Danz and M. Hamburger, <em>Journal of Chromatography A</em>, 1999, <strong>837</strong>, 211–219</a>.</div>
+</div>
+<div id="ref-suchanPressurizedLiquidExtraction2004" class="csl-entry" role="listitem">
+<div class="csl-left-margin">32 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.aca.2004.02.061">P. Suchan, J. Pulkrabová, J. Hajšlová and V. Kocourek, <em>Analytica Chimica Acta</em>, 2004, <strong>520</strong>, 193–200</a>.</div>
+</div>
+<div id="ref-sumereCombiningPressurizedLiquids2018" class="csl-entry" role="listitem">
+<div class="csl-left-margin">33 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.ultsonch.2018.05.028">B. R. Sumere, M. C. de Souza, M. P. dos Santos, R. M. N. Bezerra, D. T. da Cunha, J. Martinez and M. A. Rostagno, <em>Ultrasonics Sonochemistry</em>, 2018, <strong>48</strong>, 151–162</a>.</div>
+</div>
+<div id="ref-viganoExtractionBioactiveCompounds2020" class="csl-entry" role="listitem">
+<div class="csl-left-margin">34 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.ultsonch.2020.104999">J. Viganó, B. F. de P. Assis, G. Náthia-Neves, P. dos Santos, M. A. A. Meireles, P. C. Veggi and J. Martínez, <em>Ultrasonics Sonochemistry</em>, 2020, <strong>64</strong>, 104999</a>.</div>
+</div>
+<div id="ref-puriEnzymeassistedExtractionBioactives2012" class="csl-entry" role="listitem">
+<div class="csl-left-margin">35 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.tibtech.2011.06.014">M. Puri, D. Sharma and C. J. Barrow, <em>Trends in Biotechnology</em>, 2012, <strong>30</strong>, 37–44</a>.</div>
+</div>
+<div id="ref-latifPhysicochemicalStudiesHemp2009" class="csl-entry" role="listitem">
+<div class="csl-left-margin">36 </div><div class="csl-right-inline"><a href="https://doi.org/10.1002/ejlt.200900008">S. Latif and F. Anwar, <em>Eur. J. Lipid Sci. Technol.</em>, 2009, <strong>111</strong>, 1042–1048</a>.</div>
+</div>
+<div id="ref-chengAdvancesEnzymeAssisted2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">37 </div><div class="csl-right-inline"><a href="https://doi.org/10.2991/ic3me-15.2015.72">X. Cheng, L. Bi, Z. Zhao and Y. Chen, in <em>Proceedings of the 3rd <span>International Conference</span> on <span>Material</span>, <span>Mechanical</span> and <span>Manufacturing Engineering</span></em>, <span>Atlantis Press</span>, <span>Guangzhou, China</span>, 2015</a>.</div>
+</div>
+<div id="ref-sowbhagyaEnzymeAssistedExtractionFlavorings2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">38 </div><div class="csl-right-inline"><a href="https://doi.org/10.1080/10408390802248775">H. B. Sowbhagya and V. N. Chitra, <em>Critical Reviews in Food Science and Nutrition</em>, 2010, <strong>50</strong>, 146–161</a>.</div>
+</div>
+<div id="ref-thiyennhiEnzymeAssistedExtraction2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">39 </div><div class="csl-right-inline"><a href="https://doi.org/10.11648/j.jfns.20160401.11">T. Thi Yen Nhi, <em>JFNS</em>, 2016, <strong>4</strong>, 1</a>.</div>
+</div>
+<div id="ref-kulshreshthaEnzymeAssistedExtractionBioactive2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">40 </div><div class="csl-right-inline"><a href="https://doi.org/10.3390/md13010558">G. Kulshreshtha, A.-S. Burlot, C. Marty, A. Critchley, J. Hafting, G. Bedoux, N. Bourgougnon and B. Prithiviraj, <em>Marine Drugs</em>, 2015, <strong>13</strong>, 558–580</a>.</div>
+</div>
+<div id="ref-gligorEnzymeassistedExtractionsPolyphenols2019" class="csl-entry" role="listitem">
+<div class="csl-left-margin">41 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.tifs.2019.03.029">O. Gligor, A. Mocan, C. Moldovan, M. Locatelli, G. Crișan and I. C. F. R. Ferreira, <em>Trends in Food Science &amp; Technology</em>, 2019, <strong>88</strong>, 302–315</a>.</div>
+</div>
+<div id="ref-chematAlternativeSolventsNatural2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">42 </div><div class="csl-right-inline">F. Chemat and M. A. Vian, Eds., <em><a href="https://doi.org/10.1007/978-3-662-43628-8">Alternative <span>Solvents</span> for <span>Natural Products Extraction</span></a></em>, <span>Springer Berlin Heidelberg</span>, <span>Berlin, Heidelberg</span>, 2014.</div>
+</div>
+<div id="ref-wangApplicationTwostageOhmic2007" class="csl-entry" role="listitem">
+<div class="csl-left-margin">43 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.cep.2006.06.017">L.-J. Wang, D. Li, E. Tatsumi, Z.-S. Liu, X. D. Chen and L.-T. Li, <em>Chemical Engineering and Processing: Process Intensification</em>, 2007, <strong>46</strong>, 486–490</a>.</div>
+</div>
+<div id="ref-knirschOhmicHeatingReview2010" class="csl-entry" role="listitem">
+<div class="csl-left-margin">44 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.tifs.2010.06.003">M. C. Knirsch, C. Alves dos Santos, A. A. Martins de Oliveira Soares Vicente and T. C. Vessoni Penna, <em>Trends in Food Science &amp; Technology</em>, 2010, <strong>21</strong>, 436–441</a>.</div>
+</div>
+<div id="ref-lakkakulaRiceBranStabilization2004" class="csl-entry" role="listitem">
+<div class="csl-left-margin">45 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.biortech.2003.08.010">N. R. Lakkakula, M. Lima and T. Walker, <em>Bioresource Technology</em>, 2004, <strong>92</strong>, 157–161</a>.</div>
+</div>
+<div id="ref-loypimaiOhmicHeatingassistedExtraction2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">46 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.ifset.2014.12.009">P. Loypimai, A. Moongngarm, P. Chottanom and T. Moontree, <em>Innovative Food Science &amp; Emerging Technologies</em>, 2015, <strong>27</strong>, 102–110</a>.</div>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/hoangson0787\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="hoangson0787/hoangson0787.github.io" data-repo-id="R_kgDONbMRNA" data-category="General" data-category-id="DIC_kwDONbMRNM4ClkiJ" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../Book/part_1/chapter_2.html" class="pagination-link" aria-label="Chương 2: Phương pháp chiết xuất thường quy">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Chương 2: Phương pháp chiết xuất thường quy</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../Book/part_2/index.html" class="pagination-link" aria-label="Phần 2: Các chuyên đề nâng cao">
+        <span class="nav-page-text">Phần 2: Các chuyên đề nâng cao</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+<p>Về tôi</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/hoangson0787/hoangson0787/edit/main/Book/part_1/chapter_3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/blob/main/Book/part_1/chapter_3.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Y học thực chứng
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -1,0 +1,13 @@
+/* css styles */
+.justify {
+    text-align: justify !important
+  }
+.right {
+    text-align: right !important
+  }
+.left {
+    text-align: left !important
+  }
+body {
+    text-align: justify;
+}
