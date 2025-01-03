@@ -1,140 +1,78 @@
 {
   "about.qmd": {
-    "about.html": "d6d567ea"
+    "about.html": "6e3c4bcc"
   },
   "Book/index.qmd": {
-    "index.html": "4ef99d71",
-    "index.tex": "b3325fb5",
-    "index.typ": "c10c509f"
-  },
-  "index.qmd": {
-    "index.html": "be5d3d79"
-  },
-  "Presentation/index.qmd": {
-    "index.html": "754f2d8e"
+    "index.html": "3c72f968"
   },
   "Book/part_1/chapter_1.qmd": {
-    "chapter_1.html": "ef8b8002",
-    "chapter_1.tex": "c3c75b7c",
-    "chapter_1.docx": "c77eef8d",
-    "chapter_1.typ": "25ffa1dc"
-  },
-  "Book/copyright.qmd": {
-    "copyright.html": "da58c69a"
-  },
-  "Book/Danh_muc_thuat_ngu.qmd": {
-    "Danh_muc_thuat_ngu.html": "819bf4e9"
-  },
-  "Book/Dedication.qmd": {
-    "Dedication.html": "50f8beba"
-  },
-  "Book/intro.qmd": {
-    "intro.html": "64308995"
+    "chapter_1.html": "6f5dbfc1",
+    "chapter_1.docx": "5b1dc1e0"
   },
   "Book/part_1/chapter_2.qmd": {
-    "chapter_2.html": "7b393d2a",
-    "chapter_2.docx": "964c9b05",
-    "chapter_2.tex": "69b9e5a8"
+    "chapter_2.html": "23fd14a4",
+    "chapter_2.docx": "94de7f15"
   },
   "Book/part_1/chapter_3.qmd": {
-    "chapter_3.html": "c9026adf",
-    "chapter_3.docx": "537e4131",
-    "chapter_3.tex": "4f0c1c62"
+    "chapter_3.html": "d7d1b998",
+    "chapter_3.docx": "301abebc"
   },
   "Book/part_1/index.qmd": {
-    "index.html": "96a25dee",
-    "index.docx": "f4309533"
+    "index.html": "e84f4082",
+    "index.docx": "d9e3e43e"
   },
   "Book/part_2/chapter_4.qmd": {
-    "chapter_4.html": "91df899a",
-    "chapter_4.docx": "51059f8f"
-  },
-  "Book/part_2/Chapter_5.qmd": {
-    "Chapter_5.html": "d2c7026e",
-    "Chapter_5.docx": "b3c40873"
-  },
-  "Book/part_2/Chapter_6.qmd": {
-    "Chapter_6.html": "6247bc70",
-    "Chapter_6.docx": "2b89195c"
-  },
-  "Book/part_2/index.qmd": {
-    "index.html": "7de6cbf9"
-  },
-  "Book/references/references.qmd": {
-    "references.html": "4114b225"
-  },
-  "Book/summary.qmd": {
-    "summary.html": "3bc065ab"
-  },
-  "Book/Trangbia.qmd": {
-    "Trangbia.html": "054662d7"
-  },
-  "Presentation/presentation_1.qmd": {
-    "presentation_1.html": "e877ec4f"
-  },
-  "Presentation/slide-template.qmd": {
-    "slide-template.html": "80bd74ff"
-  },
-  "docs/Presentation/index.qmd": {
-    "index.html": "332b2f33"
-  },
-  "Presentation/presentation_2.qmd": {
-    "presentation_2.html": "c53614f0"
-  },
-  "Presentation/presentation_3.qmd": {
-    "presentation_3.html": "d521b3fa"
-  },
-  "Presentation/presentation_4.qmd": {
-    "presentation_4.html": "d1ff474d"
-  },
-  "Presentation/presentation_5.qmd": {
-    "presentation_5.html": "939d38fa"
+    "chapter_4.html": "32a343ad",
+    "chapter_4.docx": "193779ab"
   },
   "Book/part_2/chapter_5.qmd": {
-    "chapter_5.html": "d8100386",
-    "chapter_5.docx": "195f7bfc"
+    "chapter_5.html": "f363978a",
+    "chapter_5.docx": "51f21d24"
   },
   "Book/part_2/chapter_6.qmd": {
-    "chapter_6.html": "4a7471c2",
-    "chapter_6.docx": "d4182d65"
+    "chapter_6.html": "1a1b08b0",
+    "chapter_6.docx": "fd0f010e"
+  },
+  "Book/part_2/index.qmd": {
+    "index.html": "cc2c2192"
+  },
+  "Book/references/references.qmd": {
+    "references.html": "db1d1337"
+  },
+  "index.qmd": {
+    "index.html": "57c3fcee"
   },
   "Presentation/Chiet_xuat/index.qmd": {
-    "index.html": "f3beab65"
+    "index.html": "6bfae3cd"
   },
   "Presentation/Chiet_xuat/presentation_1.qmd": {
-    "presentation_1.html": "07873995"
+    "presentation_1.html": "ecfffe09"
   },
   "Presentation/Chiet_xuat/presentation_2.qmd": {
-    "presentation_2.html": "5361df71"
+    "presentation_2.html": "743937c6"
   },
   "Presentation/Chiet_xuat/presentation_3.qmd": {
-    "presentation_3.html": "8a2c971d"
+    "presentation_3.html": "45b4bb1d"
   },
   "Presentation/Chiet_xuat/presentation_4.qmd": {
-    "presentation_4.html": "0b3f34e8"
+    "presentation_4.html": "927ca5eb"
   },
   "Presentation/Chiet_xuat/presentation_5.qmd": {
-    "presentation_5.html": "519616ac"
+    "presentation_5.html": "58b36112"
   },
   "Presentation/Chiet_xuat/slide-template.qmd": {
-    "slide-template.html": "acf64379"
-  },
-  "Presentation/VTM/index.qmd": {
-    "index.html": "13d0af03"
-  },
-  "scripts/builds website from database.ipynb": {
-    "builds website from database.html": "d301762c"
-  },
-  "docs/Book/index.qmd": {
-    "index.html": "8c9ef7b2"
-  },
-  "docs/Presentation/Chiet_xuat/index.qmd": {
-    "index.html": "fc0008fd"
-  },
-  "docs/Presentation/VTM/index.qmd": {
-    "index.html": "2af40668"
+    "slide-template.html": "35d3e004"
   },
   "Presentation/Duoc_lieu/index.qmd": {
-    "index.html": "42ab9099"
+    "index.html": "19bcb45e"
+  },
+  "Presentation/index.qmd": {
+    "index.html": "11ec95fe"
+  },
+  "Presentation/VTM/index.qmd": {
+    "index.html": "4c78f4f7"
+  },
+  "scripts/builds website from database.ipynb": {
+    "builds website from database.html": "5b837c20"
   }
 }
