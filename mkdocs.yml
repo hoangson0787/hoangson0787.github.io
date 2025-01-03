@@ -1,0 +1,663 @@
+site_name: Dược liệu Việt nam
+site_url: 'https://hoangson0787.github.io/CSDL-duoc-lieu/'
+repo_url: 'https://github.com/hoangson0787/CSDL-duoc-lieu'
+theme: 
+  name: material
+  custom_dir: overrides
+  font: 
+    text: Merriweather
+    code: Red Hat Mono
+  icon: 
+    logo: fontawesome/solid/house
+    favicon: fontawesome/solid/star
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: deep purple
+      accent: deep purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - Search.share
+    - navigation.path
+    - navigation.footer
+    - toc.follow
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+
+  - Dược liệu:
+    - Dược liệu/index.md 
+    - Bồ Bồ (Thân, Cành Mang Lá Và Hoa): Dược liệu/Bồ Bồ (Thân, Cành Mang Lá Và Hoa)/Bồ Bồ (Thân, Cành Mang Lá Và Hoa).md
+    - Kinh Giới (Thân Cây Trên Mặt Đất): Dược liệu/Kinh Giới (Thân Cây Trên Mặt Đất)/Kinh Giới (Thân Cây Trên Mặt Đất).md
+    - Thạch Xương Bồ (Thân Rễ): Dược liệu/Thạch Xương Bồ (Thân Rễ)/Thạch Xương Bồ (Thân Rễ).md
+    - Vọng Cách (Lá): Dược liệu/Vọng Cách (Lá)/Vọng Cách (Lá).md
+    - Actisô (Lá): Dược liệu/Actisô (Lá)/Actisô (Lá).md
+    - Ba Kích (Rễ): Dược liệu/Ba Kích (Rễ)/Ba Kích (Rễ).md
+    - Bá Tử Nhân: Dược liệu/Bá Tử Nhân/Bá Tử Nhân.md
+    - Bạc Hà: Dược liệu/Bạc Hà/Bạc Hà.md
+    - Bách Bệnh (Rễ): Dược liệu/Bách Bệnh (Rễ)/Bách Bệnh (Rễ).md
+    - Bách Bộ (Rễ): Dược liệu/Bách Bộ (Rễ)/Bách Bộ (Rễ).md
+    - Bạch Cập (Thân Rễ): Dược liệu/Bạch Cập (Thân Rễ)/Bạch Cập (Thân Rễ).md
+    - Bạch Đồng Nữ (Cành Mang Lá): Dược liệu/Bạch Đồng Nữ (Cành Mang Lá)/Bạch Đồng Nữ (Cành Mang Lá).md
+    - Bạch Giới Tử: Dược liệu/Bạch Giới Tử/Bạch Giới Tử.md
+    - Bạch Hoa Xà Thiệt Thảo (Toàn Cây): Dược liệu/Bạch Hoa Xà Thiệt Thảo (Toàn Cây)/Bạch Hoa Xà Thiệt Thảo (Toàn Cây).md
+    - Bách Hợp (Thân Hành): Dược liệu/Bách Hợp (Thân Hành)/Bách Hợp (Thân Hành).md
+    - Bạch Tật Lê (Quả): Dược liệu/Bạch Tật Lê (Quả)/Bạch Tật Lê (Quả).md
+    - Bạch Thược (Rễ): Dược liệu/Bạch Thược (Rễ)/Bạch Thược (Rễ).md
+    - Bạch Truật (Thân Rễ): Dược liệu/Bạch Truật (Thân Rễ)/Bạch Truật (Thân Rễ).md
+    - Bán Biên Liên (Toàn Cây Phơi Hoặc Sấy Khô): Dược liệu/Bán Biên Liên (Toàn Cây Phơi Hoặc Sấy Khô)/Bán Biên Liên (Toàn Cây Phơi Hoặc Sấy Khô).md
+    - Bán Chi Liên (Phơi Hoặc Sấy Khô Toàn Cây): Dược liệu/Bán Chi Liên (Phơi Hoặc Sấy Khô Toàn Cây)/Bán Chi Liên (Phơi Hoặc Sấy Khô Toàn Cây).md
+    - Bán Hạ: Dược liệu/Bán Hạ/Bán Hạ.md
+    - Bán Hạ Nam: Dược liệu/Bán Hạ Nam/Bán Hạ Nam.md
+    - Bìm Bìm Biếc (Hạt): Dược liệu/Bìm Bìm Biếc (Hạt)/Bìm Bìm Biếc (Hạt).md
+    - Bình Vôi(Củ): Dược liệu/Bình Vôi(Củ)/Bình Vôi(Củ).md
+    - Bồ Công Anh (Lá, Toàn Cây Trừ Rễ): Dược liệu/Bồ Công Anh (Lá, Toàn Cây Trừ Rễ)/Bồ Công Anh (Lá, Toàn Cây Trừ Rễ).md
+    - Bổ Cốt Chỉ (Quả): Dược liệu/Bổ Cốt Chỉ (Quả)/Bổ Cốt Chỉ (Quả).md
+    - Bồ Kết (Gai): Dược liệu/Bồ Kết (Gai)/Bồ Kết (Gai).md
+    - Bồ Kết (Quả): Dược liệu/Bồ Kết (Quả)/Bồ Kết (Quả).md
+    - Bối Mẫu: Dược liệu/Bối Mẫu/Bối Mẫu.md
+    - Cả Củ (Hạt): Dược liệu/Cả Củ (Hạt)/Cả Củ (Hạt).md
+    - Cà Độc Dược (Hoa): Dược liệu/Cà Độc Dược (Hoa)/Cà Độc Dược (Hoa).md
+    - Cà Độc Dược (Lá): Dược liệu/Cà Độc Dược (Lá)/Cà Độc Dược (Lá).md
+    - Cà Gai Leo (Rễ, Thân Lá): Dược liệu/Cà Gai Leo (Rễ, Thân Lá)/Cà Gai Leo (Rễ, Thân Lá).md
+    - Cam Thảo (Rễ Và Thân Rễ): Dược liệu/Cam Thảo (Rễ Và Thân Rễ)/Cam Thảo (Rễ Và Thân Rễ).md
+    - Cam Thảo Nam (Toàn Cây): Dược liệu/Cam Thảo Nam (Toàn Cây)/Cam Thảo Nam (Toàn Cây).md
+    - Cần Tây (Quả): Dược liệu/Cần Tây (Quả)/Cần Tây (Quả).md
+    - Cánh Kiến Trắng (Nhựa): Dược liệu/Cánh Kiến Trắng (Nhựa)/Cánh Kiến Trắng (Nhựa).md
+    - Cát Cánh (Rễ): Dược liệu/Cát Cánh (Rễ)/Cát Cánh (Rễ).md
+    - Cát Cánh (Rễ): Dược liệu/Cát Cánh (Rễ)/Cát Cánh (Rễ).md
+    - Cát Sâm (Rễ): Dược liệu/Cát Sâm (Rễ)/Cát Sâm (Rễ).md
+    - Cau (Hạt): Dược liệu/Cau (Hạt)/Cau (Hạt).md
+    - Cau (Vỏ): Dược liệu/Cau (Vỏ)/Cau (Vỏ).md
+    - Câu Kỷ Tử (Quả): Dược liệu/Câu Kỷ Tử (Quả)/Câu Kỷ Tử (Quả).md
+    - Cẩu Tích (Thân Rễ): Dược liệu/Cẩu Tích (Thân Rễ)/Cẩu Tích (Thân Rễ).md
+    - Cây Hoa Súng (Củ Súng): Dược liệu/Cây Hoa Súng (Củ Súng)/Cây Hoa Súng (Củ Súng).md
+    - Cây Kim Ngân (Nụ Hoa): Dược liệu/Cây Kim Ngân (Nụ Hoa)/Cây Kim Ngân (Nụ Hoa).md
+    - Cây Kim Tiền Thảo (Phần Trên Mặt Đất): Dược liệu/Cây Kim Tiền Thảo (Phần Trên Mặt Đất)/Cây Kim Tiền Thảo (Phần Trên Mặt Đất).md
+    - Cây Ổi (Lá): Dược liệu/Cây Ổi (Lá)/Cây Ổi (Lá).md
+    - Chè Đắng (Lá): Dược liệu/Chè Đắng (Lá)/Chè Đắng (Lá).md
+    - Chè Dây (Lá): Dược liệu/Chè Dây (Lá)/Chè Dây (Lá).md
+    - Chè Vằng (Lá): Dược liệu/Chè Vằng (Lá)/Chè Vằng (Lá).md
+    - Chi Tử (Quả): Dược liệu/Chi Tử (Quả)/Chi Tử (Quả).md
+    - Chỉ Xác (Quả): Dược liệu/Chỉ Xác (Quả)/Chỉ Xác (Quả).md
+    - Chiêu Liêu (Vỏ Thân): Dược liệu/Chiêu Liêu (Vỏ Thân)/Chiêu Liêu (Vỏ Thân).md
+    - Cỏ Cứt Lợn( Cây): Dược liệu/Cỏ Cứt Lợn( Cây)/Cỏ Cứt Lợn( Cây).md
+    - Cỏ Mần Trầu ( Cây ): Dược liệu/Cỏ Mần Trầu ( Cây )/Cỏ Mần Trầu ( Cây ).md
+    - Cỏ Ngọt (Lá): Dược liệu/Cỏ Ngọt (Lá)/Cỏ Ngọt (Lá).md
+    - Cỏ Nhọ Nồi (Phần Cây Trên Mặt Đất): Dược liệu/Cỏ Nhọ Nồi (Phần Cây Trên Mặt Đất)/Cỏ Nhọ Nồi (Phần Cây Trên Mặt Đất).md
+    - Cỏ Tranh (Thân Rễ): Dược liệu/Cỏ Tranh (Thân Rễ)/Cỏ Tranh (Thân Rễ).md
+    - Cỏ Xước (Rễ): Dược liệu/Cỏ Xước (Rễ)/Cỏ Xước (Rễ).md
+    - Cóc Mẳn: Dược liệu/Cóc Mẳn/Cóc Mẳn.md
+    - Cốc Tinh Thảo: Dược liệu/Cốc Tinh Thảo/Cốc Tinh Thảo.md
+    - Cối Xay (Phần Trên Mặt Đất Đã Phơi, Sấy Khô): Dược liệu/Cối Xay (Phần Trên Mặt Đất Đã Phơi, Sấy Khô)/Cối Xay (Phần Trên Mặt Đất Đã Phơi, Sấy Khô).md
+    - Cơm Cháy (Hoa): Dược liệu/Cơm Cháy (Hoa)/Cơm Cháy (Hoa).md
+    - Cơm Cháy (Lá): Dược liệu/Cơm Cháy (Lá)/Cơm Cháy (Lá).md
+    - Cúc Gai (Quả): Dược liệu/Cúc Gai (Quả)/Cúc Gai (Quả).md
+    - Cúc Hoa Vàng (Cụm Hoa): Dược liệu/Cúc Hoa Vàng (Cụm Hoa)/Cúc Hoa Vàng (Cụm Hoa).md
+    - Dạ Cầm (Toàn Cây): Dược liệu/Dạ Cầm (Toàn Cây)/Dạ Cầm (Toàn Cây).md
+    - Đại (Hoa): Dược liệu/Đại (Hoa)/Đại (Hoa).md
+    - Đại Hoàng (Thân Rễ): Dược liệu/Đại Hoàng (Thân Rễ)/Đại Hoàng (Thân Rễ).md
+    - Dâm Dương Hoắc: Dược liệu/Dâm Dương Hoắc/Dâm Dương Hoắc.md
+    - Đan Sâm (Rễ Và Thân Rễ): Dược liệu/Đan Sâm (Rễ Và Thân Rễ)/Đan Sâm (Rễ Và Thân Rễ).md
+    - Đảng Sâm (Rễ): Dược liệu/Đảng Sâm (Rễ)/Đảng Sâm (Rễ).md
+    - Đảng Sâm Việt Nam (Rễ): Dược liệu/Đảng Sâm Việt Nam (Rễ)/Đảng Sâm Việt Nam (Rễ).md
+    - Đảng Sâm Việt Nam Chế: Dược liệu/Đảng Sâm Việt Nam Chế/Đảng Sâm Việt Nam Chế.md
+    - Đăng Tâm Thảo (Ruột Thân): Dược liệu/Đăng Tâm Thảo (Ruột Thân)/Đăng Tâm Thảo (Ruột Thân).md
+    - Đào (Hạt): Dược liệu/Đào (Hạt)/Đào (Hạt).md
+    - Dâu (Cành): Dược liệu/Dâu (Cành)/Dâu (Cành).md
+    - Dâu (Lá): Dược liệu/Dâu (Lá)/Dâu (Lá).md
+    - Dâu (Quả): Dược liệu/Dâu (Quả)/Dâu (Quả).md
+    - Dâu (Vỏ Rễ): Dược liệu/Dâu (Vỏ Rễ)/Dâu (Vỏ Rễ).md
+    - Đậu Đen (Hạt): Dược liệu/Đậu Đen (Hạt)/Đậu Đen (Hạt).md
+    - Đậu Ván Trắng (Hạt): Dược liệu/Đậu Ván Trắng (Hạt)/Đậu Ván Trắng (Hạt).md
+    - Đậu Xanh (Hạt): Dược liệu/Đậu Xanh (Hạt)/Đậu Xanh (Hạt).md
+    - Dây Đau Xương (Thân): Dược liệu/Dây Đau Xương (Thân)/Dây Đau Xương (Thân).md
+    - Dây Thìa Canh (Dây, Lá): Dược liệu/Dây Thìa Canh (Dây, Lá)/Dây Thìa Canh (Dây, Lá).md
+    - Địa Cốt Bì (Vỏ Rễ): Dược liệu/Địa Cốt Bì (Vỏ Rễ)/Địa Cốt Bì (Vỏ Rễ).md
+    - Địa Du (Rễ): Dược liệu/Địa Du (Rễ)/Địa Du (Rễ).md
+    - Địa Liền (Thân Rễ): Dược liệu/Địa Liền (Thân Rễ)/Địa Liền (Thân Rễ).md
+    - Diếp Cá: Dược liệu/Diếp Cá/Diếp Cá.md
+    - Diệp Hạ Châu (Toàn Cây): Dược liệu/Diệp Hạ Châu (Toàn Cây)/Diệp Hạ Châu (Toàn Cây).md
+    - Diệp Hạ Châu Đắng (Toàn Cây): Dược liệu/Diệp Hạ Châu Đắng (Toàn Cây)/Diệp Hạ Châu Đắng (Toàn Cây).md
+    - Đỗ Trọng (Vỏ Thân): Dược liệu/Đỗ Trọng (Vỏ Thân)/Đỗ Trọng (Vỏ Thân).md
+    - Độc Hoạt (Rễ): Dược liệu/Độc Hoạt (Rễ)/Độc Hoạt (Rễ).md
+    - Đơn Kim (Lá): Dược liệu/Đơn Kim (Lá)/Đơn Kim (Lá).md
+    - Đơn Lá Đỏ: Dược liệu/Đơn Lá Đỏ/Đơn Lá Đỏ.md
+    - Dừa Cạn (Rễ): Dược liệu/Dừa Cạn (Rễ)/Dừa Cạn (Rễ).md
+    - Đương Quy (Rễ): Dược liệu/Đương Quy (Rễ)/Đương Quy (Rễ).md
+    - Gấc (Áo Hạt): Dược liệu/Gấc (Áo Hạt)/Gấc (Áo Hạt).md
+    - Gấc (Hạt): Dược liệu/Gấc (Hạt)/Gấc (Hạt).md
+    - Gai (Rễ): Dược liệu/Gai (Rễ)/Gai (Rễ).md
+    - Giảo Cổ Lam: Dược liệu/Giảo Cổ Lam/Giảo Cổ Lam.md
+    - Gừng (Thân Rễ): Dược liệu/Gừng (Thân Rễ)/Gừng (Thân Rễ).md
+    - Hạ Khô Thảo (Cụm Quả): Dược liệu/Hạ Khô Thảo (Cụm Quả)/Hạ Khô Thảo (Cụm Quả).md
+    - Hà Thủ Ô Đỏ (Rễ): Dược liệu/Hà Thủ Ô Đỏ (Rễ)/Hà Thủ Ô Đỏ (Rễ).md
+    - Hà Thủ Ô Trắng (Rễ): Dược liệu/Hà Thủ Ô Trắng (Rễ)/Hà Thủ Ô Trắng (Rễ).md
+    - Hậu Phác (Vỏ): Dược liệu/Hậu Phác (Vỏ)/Hậu Phác (Vỏ).md
+    - Hồ Tiêu (Quả): Dược liệu/Hồ Tiêu (Quả)/Hồ Tiêu (Quả).md
+    - Hoắc Hương: Dược liệu/Hoắc Hương/Hoắc Hương.md
+    - Hoài Sơn: Dược liệu/Hoài Sơn/Hoài Sơn.md
+    - Hoàng Bá (Vỏ Thân): Dược liệu/Hoàng Bá (Vỏ Thân)/Hoàng Bá (Vỏ Thân).md
+    - Hoàng Cầm (Rễ): Dược liệu/Hoàng Cầm (Rễ)/Hoàng Cầm (Rễ).md
+    - Hoàng Đằng (Thân Và Rễ): Dược liệu/Hoàng Đằng (Thân Và Rễ)/Hoàng Đằng (Thân Và Rễ).md
+    - Hoàng Kỳ (Rễ): Dược liệu/Hoàng Kỳ (Rễ)/Hoàng Kỳ (Rễ).md
+    - Hoàng Liên (Thân Rễ): Dược liệu/Hoàng Liên (Thân Rễ)/Hoàng Liên (Thân Rễ).md
+    - Hoàng Nàn (Vỏ Thân, Vỏ Cành): Dược liệu/Hoàng Nàn (Vỏ Thân, Vỏ Cành)/Hoàng Nàn (Vỏ Thân, Vỏ Cành).md
+    - Hoàng Tinh (Thân Rễ): Dược liệu/Hoàng Tinh (Thân Rễ)/Hoàng Tinh (Thân Rễ).md
+    - Hòe (Nụ Hoa): Dược liệu/Hòe (Nụ Hoa)/Hòe (Nụ Hoa).md
+    - Hồng Hoa (Hoa): Dược liệu/Hồng Hoa (Hoa)/Hồng Hoa (Hoa).md
+    - Húng Chanh (Lá): Dược liệu/Húng Chanh (Lá)/Húng Chanh (Lá).md
+    - Hương Gia Bì (Vỏ Rễ): Dược liệu/Hương Gia Bì (Vỏ Rễ)/Hương Gia Bì (Vỏ Rễ).md
+    - Hương Nhu Tía: Dược liệu/Hương Nhu Tía/Hương Nhu Tía.md
+    - Hương Nhu Trắng (Đoạn Đầu Cành Có Hoặc Không Có Hoa: Dược liệu/Hương Nhu Trắng (Đoạn Đầu Cành Có Hoặc Không Có Hoa/Hương Nhu Trắng (Đoạn Đầu Cành Có Hoặc Không Có Hoa.md
+    - Hương Phụ (Thân Rễ): Dược liệu/Hương Phụ (Thân Rễ)/Hương Phụ (Thân Rễ).md
+    - Huyền Sâm (Rễ): Dược liệu/Huyền Sâm (Rễ)/Huyền Sâm (Rễ).md
+    - Huyết Giác (Lõi Gỗ): Dược liệu/Huyết Giác (Lõi Gỗ)/Huyết Giác (Lõi Gỗ).md
+    - Hy Thiêm (Bộ Phận Trên Mặt Đất): Dược liệu/Hy Thiêm (Bộ Phận Trên Mặt Đất)/Hy Thiêm (Bộ Phận Trên Mặt Đất).md
+    - Ích Mẫu (Phần Trên Mặt Đất): Dược liệu/Ích Mẫu (Phần Trên Mặt Đất)/Ích Mẫu (Phần Trên Mặt Đất).md
+    - Ích Trí (Quả): Dược liệu/Ích Trí (Quả)/Ích Trí (Quả).md
+    - Ké Đầu Ngựa (Quả): Dược liệu/Ké Đầu Ngựa (Quả)/Ké Đầu Ngựa (Quả).md
+    - Kê Huyết Đằng (Thân): Dược liệu/Kê Huyết Đằng (Thân)/Kê Huyết Đằng (Thân).md
+    - Kê Nội Kim: Dược liệu/Kê Nội Kim/Kê Nội Kim.md
+    - Kha Tử (Quả): Dược liệu/Kha Tử (Quả)/Kha Tử (Quả).md
+    - Khiếm Thực (Hạt): Dược liệu/Khiếm Thực (Hạt)/Khiếm Thực (Hạt).md
+    - Khổ Hạnh Nhân: Dược liệu/Khổ Hạnh Nhân/Khổ Hạnh Nhân.md
+    - Khoản Đông Hoa (Cụm Hoa Chưa Nở Đã Phơi Sấy Khô): Dược liệu/Khoản Đông Hoa (Cụm Hoa Chưa Nở Đã Phơi Sấy Khô)/Khoản Đông Hoa (Cụm Hoa Chưa Nở Đã Phơi Sấy Khô).md
+    - Kim Anh ( Quả): Dược liệu/Kim Anh ( Quả)/Kim Anh ( Quả).md
+    - Kim Ngân (Cuộng): Dược liệu/Kim Ngân (Cuộng)/Kim Ngân (Cuộng).md
+    - Kim Ngân (Hoa): Dược liệu/Kim Ngân (Hoa)/Kim Ngân (Hoa).md
+    - Lá Hen (Dùng Lá): Dược liệu/Lá Hen (Dùng Lá)/Lá Hen (Dùng Lá).md
+    - Lá Lốt (Phần Trên Mặt Đất Tươi Hay Phơi, Sấy Khô): Dược liệu/Lá Lốt (Phần Trên Mặt Đất Tươi Hay Phơi, Sấy Khô)/Lá Lốt (Phần Trên Mặt Đất Tươi Hay Phơi, Sấy Khô).md
+    - Lá Móng: Dược liệu/Lá Móng/Lá Móng.md
+    - Lạc Tiên: Dược liệu/Lạc Tiên/Lạc Tiên.md
+    - Liên Kiều (Quả): Dược liệu/Liên Kiều (Quả)/Liên Kiều (Quả).md
+    - Linh Chi: Dược liệu/Linh Chi/Linh Chi.md
+    - Lô Hội (Nhựa): Dược liệu/Lô Hội (Nhựa)/Lô Hội (Nhựa).md
+    - Long Đởm (Rễ Và Thân Rễ): Dược liệu/Long Đởm (Rễ Và Thân Rễ)/Long Đởm (Rễ Và Thân Rễ).md
+    - Long Nha Thảo( Phần Trên Mặt Đất): Dược liệu/Long Nha Thảo( Phần Trên Mặt Đất)/Long Nha Thảo( Phần Trên Mặt Đất).md
+    - Long Nhãn (Cùi): Dược liệu/Long Nhãn (Cùi)/Long Nhãn (Cùi).md
+    - Mã Đề (Hạt): Dược liệu/Mã Đề (Hạt)/Mã Đề (Hạt).md
+    - Mã Đề (Lá): Dược liệu/Mã Đề (Lá)/Mã Đề (Lá).md
+    - Ma Hoàng (Bộ Phận Trên Mặt Đất): Dược liệu/Ma Hoàng (Bộ Phận Trên Mặt Đất)/Ma Hoàng (Bộ Phận Trên Mặt Đất).md
+    - Mã Tiền (Hạt): Dược liệu/Mã Tiền (Hạt)/Mã Tiền (Hạt).md
+    - Mạch Môn (Rễ): Dược liệu/Mạch Môn (Rễ)/Mạch Môn (Rễ).md
+    - Mâm Xôi (Quả): Dược liệu/Mâm Xôi (Quả)/Mâm Xôi (Quả).md
+    - Mạn Kinh Tử (Quả): Dược liệu/Mạn Kinh Tử (Quả)/Mạn Kinh Tử (Quả).md
+    - Măng Cụt (Vỏ Quả): Dược liệu/Măng Cụt (Vỏ Quả)/Măng Cụt (Vỏ Quả).md
+    - Mộc Hương (Rễ): Dược liệu/Mộc Hương (Rễ)/Mộc Hương (Rễ).md
+    - Mộc Qua (Quả): Dược liệu/Mộc Qua (Quả)/Mộc Qua (Quả).md
+    - Mộc Tặc (Phần Trên Mặt Đất): Dược liệu/Mộc Tặc (Phần Trên Mặt Đất)/Mộc Tặc (Phần Trên Mặt Đất).md
+    - Mướp Đắng (Quả): Dược liệu/Mướp Đắng (Quả)/Mướp Đắng (Quả).md
+    - Nân Nghệ (Thân Rễ): Dược liệu/Nân Nghệ (Thân Rễ)/Nân Nghệ (Thân Rễ).md
+    - Náng Hoa Trắng (Lá): Dược liệu/Náng Hoa Trắng (Lá)/Náng Hoa Trắng (Lá).md
+    - Nga Truật (Thân Rễ): Dược liệu/Nga Truật (Thân Rễ)/Nga Truật (Thân Rễ).md
+    - Ngải Cứu: Dược liệu/Ngải Cứu/Ngải Cứu.md
+    - Ngành Ngạnh (Lá): Dược liệu/Ngành Ngạnh (Lá)/Ngành Ngạnh (Lá).md
+    - Nghệ (Thân Rễ): Dược liệu/Nghệ (Thân Rễ)/Nghệ (Thân Rễ).md
+    - Ngọc Trúc (Thân Rễ): Dược liệu/Ngọc Trúc (Thân Rễ)/Ngọc Trúc (Thân Rễ).md
+    - Ngoi (Lá): Dược liệu/Ngoi (Lá)/Ngoi (Lá).md
+    - Ngũ Gia Bì Chân Chim (Vỏ Thân, Vỏ Cành): Dược liệu/Ngũ Gia Bì Chân Chim (Vỏ Thân, Vỏ Cành)/Ngũ Gia Bì Chân Chim (Vỏ Thân, Vỏ Cành).md
+    - Ngũ Gia Bì Gai (Vỏ Rễ, Vỏ Thân): Dược liệu/Ngũ Gia Bì Gai (Vỏ Rễ, Vỏ Thân)/Ngũ Gia Bì Gai (Vỏ Rễ, Vỏ Thân).md
+    - Ngũ Gia Bì Hương (Vỏ Rễ, Vỏ Thân): Dược liệu/Ngũ Gia Bì Hương (Vỏ Rễ, Vỏ Thân)/Ngũ Gia Bì Hương (Vỏ Rễ, Vỏ Thân).md
+    - Ngũ Vị Tử ( Quả): Dược liệu/Ngũ Vị Tử ( Quả)/Ngũ Vị Tử ( Quả).md
+    - Nhân Sâm (Thân Rễ Và Rễ): Dược liệu/Nhân Sâm (Thân Rễ Và Rễ)/Nhân Sâm (Thân Rễ Và Rễ).md
+    - Nhân Trần (Thân, Cành, Lá, Hoa): Dược liệu/Nhân Trần (Thân, Cành, Lá, Hoa)/Nhân Trần (Thân, Cành, Lá, Hoa).md
+    - Nhân Trần Tía (Thân, Cành, Lá, Hóa): Dược liệu/Nhân Trần Tía (Thân, Cành, Lá, Hóa)/Nhân Trần Tía (Thân, Cành, Lá, Hóa).md
+    - Nhàu (Quả): Dược liệu/Nhàu (Quả)/Nhàu (Quả).md
+    - Nhàu (Rễ): Dược liệu/Nhàu (Rễ)/Nhàu (Rễ).md
+    - Nhục Đậu Khấu (Hạt): Dược liệu/Nhục Đậu Khấu (Hạt)/Nhục Đậu Khấu (Hạt).md
+    - Nhục Thung Dung (Thân): Dược liệu/Nhục Thung Dung (Thân)/Nhục Thung Dung (Thân).md
+    - Núc Nác (Vỏ Thân): Dược liệu/Núc Nác (Vỏ Thân)/Núc Nác (Vỏ Thân).md
+    - Ô Đầu (Rễ Củ): Dược liệu/Ô Đầu (Rễ Củ)/Ô Đầu (Rễ Củ).md
+    - Ô Dược (Rễ): Dược liệu/Ô Dược (Rễ)/Ô Dược (Rễ).md
+    - Phòng Kỷ (Rễ): Dược liệu/Phòng Kỷ (Rễ)/Phòng Kỷ (Rễ).md
+    - Phòng Phong (Rễ): Dược liệu/Phòng Phong (Rễ)/Phòng Phong (Rễ).md
+    - Phụ Tử (Rễ Củ Nhánh Đã Phơi Hay Sấy Khô Của Cầy Ô Đầu ): Dược liệu/Phụ Tử (Rễ Củ Nhánh Đã Phơi Hay Sấy Khô Của Cầy Ô Đầu )/Phụ Tử (Rễ Củ Nhánh Đã Phơi Hay Sấy Khô Của Cầy Ô Đầu ).md
+    - Qua Lâu (Quả): Dược liệu/Qua Lâu (Quả)/Qua Lâu (Quả).md
+    - Quế (Cành): Dược liệu/Quế (Cành)/Quế (Cành).md
+    - Rau Đắng Đất (Toàn Cây): Dược liệu/Rau Đắng Đất (Toàn Cây)/Rau Đắng Đất (Toàn Cây).md
+    - Rau Má (Toàn Cây): Dược liệu/Rau Má (Toàn Cây)/Rau Má (Toàn Cây).md
+    - Râu Ngô (Râu Ngô): Dược liệu/Râu Ngô (Râu Ngô)/Râu Ngô (Râu Ngô).md
+    - Rẻ Quạt (Thân Rễ): Dược liệu/Rẻ Quạt (Thân Rễ)/Rẻ Quạt (Thân Rễ).md
+    - Riềng (Thân Rễ): Dược liệu/Riềng (Thân Rễ)/Riềng (Thân Rễ).md
+    - Sa Nhân (Quả): Dược liệu/Sa Nhân (Quả)/Sa Nhân (Quả).md
+    - Sài Hồ (Rễ): Dược liệu/Sài Hồ (Rễ)/Sài Hồ (Rễ).md
+    - Sen (Cây Mầm): Dược liệu/Sen (Cây Mầm)/Sen (Cây Mầm).md
+    - Sen (Hạt): Dược liệu/Sen (Hạt)/Sen (Hạt).md
+    - Sen (Lá): Dược liệu/Sen (Lá)/Sen (Lá).md
+    - Thăng Ma (Thân Rễ): Dược liệu/Thăng Ma (Thân Rễ)/Thăng Ma (Thân Rễ).md
+    - Thanh Bì (Vỏ Quả Xanh): Dược liệu/Thanh Bì (Vỏ Quả Xanh)/Thanh Bì (Vỏ Quả Xanh).md
+    - Thanh Cao Hoa Vàng (Lá): Dược liệu/Thanh Cao Hoa Vàng (Lá)/Thanh Cao Hoa Vàng (Lá).md
+    - Thảo Quả (Quả): Dược liệu/Thảo Quả (Quả)/Thảo Quả (Quả).md
+    - Thảo Quyết Minh (Hạt): Dược liệu/Thảo Quyết Minh (Hạt)/Thảo Quyết Minh (Hạt).md
+    - Thị Đế: Dược liệu/Thị Đế/Thị Đế.md
+    - Thiên Ma (Thân Rễ): Dược liệu/Thiên Ma (Thân Rễ)/Thiên Ma (Thân Rễ).md
+    - Thiên Môn Đông (Rễ): Dược liệu/Thiên Môn Đông (Rễ)/Thiên Môn Đông (Rễ).md
+    - Thiên Trúc Hoàng: Dược liệu/Thiên Trúc Hoàng/Thiên Trúc Hoàng.md
+    - Thổ Hoàng Liên (Thân Rễ): Dược liệu/Thổ Hoàng Liên (Thân Rễ)/Thổ Hoàng Liên (Thân Rễ).md
+    - Thổ Phục Linh (Thân Rễ): Dược liệu/Thổ Phục Linh (Thân Rễ)/Thổ Phục Linh (Thân Rễ).md
+    - Thỏ Ty Tử: Dược liệu/Thỏ Ty Tử/Thỏ Ty Tử.md
+    - Thông Thảo (Lõi Thân): Dược liệu/Thông Thảo (Lõi Thân)/Thông Thảo (Lõi Thân).md
+    - Thương Truật (Thân Rễ): Dược liệu/Thương Truật (Thân Rễ)/Thương Truật (Thân Rễ).md
+    - Tía Tô (Lá): Dược liệu/Tía Tô (Lá)/Tía Tô (Lá).md
+    - Tía Tô (Quả): Dược liệu/Tía Tô (Quả)/Tía Tô (Quả).md
+    - Tía Tô( Thân): Dược liệu/Tía Tô( Thân)/Tía Tô( Thân).md
+    - Tiền Hồ (Rễ): Dược liệu/Tiền Hồ (Rễ)/Tiền Hồ (Rễ).md
+    - Tô Mộc: Dược liệu/Tô Mộc/Tô Mộc.md
+    - Tỏi (Củ): Dược liệu/Tỏi (Củ)/Tỏi (Củ).md
+    - Trạch Tả (Thân Rễ): Dược liệu/Trạch Tả (Thân Rễ)/Trạch Tả (Thân Rễ).md
+    - Tràm (Cành Và Lá): Dược liệu/Tràm (Cành Và Lá)/Tràm (Cành Và Lá).md
+    - Tri Mẫu (Thân Rễ): Dược liệu/Tri Mẫu (Thân Rễ)/Tri Mẫu (Thân Rễ).md
+    - Trinh Nữ Hoàng Cung (Lá): Dược liệu/Trinh Nữ Hoàng Cung (Lá)/Trinh Nữ Hoàng Cung (Lá).md
+    - Tục Đoạn (Rễ): Dược liệu/Tục Đoạn (Rễ)/Tục Đoạn (Rễ).md
+    - Tỳ Giải (Thân Rễ): Dược liệu/Tỳ Giải (Thân Rễ)/Tỳ Giải (Thân Rễ).md
+    - Uy Linh Tiên (Rễ Và Thân Rễ): Dược liệu/Uy Linh Tiên (Rễ Và Thân Rễ)/Uy Linh Tiên (Rễ Và Thân Rễ).md
+    - Vàng Đắng (Thân): Dược liệu/Vàng Đắng (Thân)/Vàng Đắng (Thân).md
+    - Viễn Chí (Rễ): Dược liệu/Viễn Chí (Rễ)/Viễn Chí (Rễ).md
+    - Vối ( Nụ Hoa ): Dược liệu/Vối ( Nụ Hoa )/Vối ( Nụ Hoa ).md
+    - Vối (Lá): Dược liệu/Vối (Lá)/Vối (Lá).md
+    - Vông Nem ( Lá): Dược liệu/Vông Nem ( Lá)/Vông Nem ( Lá).md
+    - Vừng Đen (Hạt): Dược liệu/Vừng Đen (Hạt)/Vừng Đen (Hạt).md
+    - Xà Sàng (Quả): Dược liệu/Xà Sàng (Quả)/Xà Sàng (Quả).md
+    - Xích Đồng Nam (Rễ): Dược liệu/Xích Đồng Nam (Rễ)/Xích Đồng Nam (Rễ).md
+    - Xích Thược (Rễ): Dược liệu/Xích Thược (Rễ)/Xích Thược (Rễ).md
+    - Xương Bồ: Dược liệu/Xương Bồ/Xương Bồ.md
+    - Xuyên Khung (Thân Rễ): Dược liệu/Xuyên Khung (Thân Rễ)/Xuyên Khung (Thân Rễ).md
+    - Xuyên Tâm Liên: Dược liệu/Xuyên Tâm Liên/Xuyên Tâm Liên.md
+    - Xuyên Tiêu (Quả): Dược liệu/Xuyên Tiêu (Quả)/Xuyên Tiêu (Quả).md
+  - Dược dân tộc:
+    - Dược dân tộc/index.md 
+    - Marsileaceae: Dược dân tộc/Marsileaceae/Marsileaceae.md
+    - Plumbaginaceae: Dược dân tộc/Plumbaginaceae/Plumbaginaceae.md
+    - Portulacaceae: Dược dân tộc/Portulacaceae/Portulacaceae.md
+    - Myrtaceae: Dược dân tộc/Myrtaceae/Myrtaceae.md
+    - Nymphaeaceae: Dược dân tộc/Nymphaeaceae/Nymphaeaceae.md
+    - Symplocaceae: Dược dân tộc/Symplocaceae/Symplocaceae.md
+    - Cactaceae: Dược dân tộc/Cactaceae/Cactaceae.md
+    - Onagraceae: Dược dân tộc/Onagraceae/Onagraceae.md
+    - Oxalidaceae: Dược dân tộc/Oxalidaceae/Oxalidaceae.md
+    - Santalaceae: Dược dân tộc/Santalaceae/Santalaceae.md
+    - Thymelaeaceae: Dược dân tộc/Thymelaeaceae/Thymelaeaceae.md
+    - Fouquieriaceae: Dược dân tộc/Fouquieriaceae/Fouquieriaceae.md
+    - Ginkgoaceae: Dược dân tộc/Ginkgoaceae/Ginkgoaceae.md
+    - Elaeagnaceae: Dược dân tộc/Elaeagnaceae/Elaeagnaceae.md
+    - Acanthaceae: Dược dân tộc/Acanthaceae/Acanthaceae.md
+    - Scrophulariaceae: Dược dân tộc/Scrophulariaceae/Scrophulariaceae.md
+    - Arecaceae: Dược dân tộc/Arecaceae/Arecaceae.md
+    - Nyctaginaceae: Dược dân tộc/Nyctaginaceae/Nyctaginaceae.md
+    - Nelumbonaceae: Dược dân tộc/Nelumbonaceae/Nelumbonaceae.md
+    - Ptaeroxylaceae: Dược dân tộc/Ptaeroxylaceae/Ptaeroxylaceae.md
+    - Sarraceniaceae: Dược dân tộc/Sarraceniaceae/Sarraceniaceae.md
+    - Tropaeolaceae: Dược dân tộc/Tropaeolaceae/Tropaeolaceae.md
+    - Asclepiadaceae: Dược dân tộc/Asclepiadaceae/Asclepiadaceae.md
+    - Xyridaceae: Dược dân tộc/Xyridaceae/Xyridaceae.md
+    - Calycanthaceae: Dược dân tộc/Calycanthaceae/Calycanthaceae.md
+    - Rafflesiaceae: Dược dân tộc/Rafflesiaceae/Rafflesiaceae.md
+    - Verbenaceae: Dược dân tộc/Verbenaceae/Verbenaceae.md
+    - Poaceae: Dược dân tộc/Poaceae/Poaceae.md
+    - Globulariaceae: Dược dân tộc/Globulariaceae/Globulariaceae.md
+    - Bombacaceae: Dược dân tộc/Bombacaceae/Bombacaceae.md
+    - Platanaceae: Dược dân tộc/Platanaceae/Platanaceae.md
+    - Burseraceae: Dược dân tộc/Burseraceae/Burseraceae.md
+    - Malvaceae: Dược dân tộc/Malvaceae/Malvaceae.md
+    - Sterculiaceae: Dược dân tộc/Sterculiaceae/Sterculiaceae.md
+    - Hernandiaceae: Dược dân tộc/Hernandiaceae/Hernandiaceae.md
+    - Asteraceae: Dược dân tộc/Asteraceae/Asteraceae.md
+    - Illiciaceae: Dược dân tộc/Illiciaceae/Illiciaceae.md
+    - Erythroxylaceae: Dược dân tộc/Erythroxylaceae/Erythroxylaceae.md
+    - Grossulariaceae: Dược dân tộc/Grossulariaceae/Grossulariaceae.md
+    - Connaraceae: Dược dân tộc/Connaraceae/Connaraceae.md
+    - Aleniaceae: Dược dân tộc/Aleniaceae/Aleniaceae.md
+    - Krameriaceae: Dược dân tộc/Krameriaceae/Krameriaceae.md
+    - Boraginaceae: Dược dân tộc/Boraginaceae/Boraginaceae.md
+    - Alismataceae: Dược dân tộc/Alismataceae/Alismataceae.md
+    - Meliaceae: Dược dân tộc/Meliaceae/Meliaceae.md
+    - Opiliaceae: Dược dân tộc/Opiliaceae/Opiliaceae.md
+    - Phytolaccaceae: Dược dân tộc/Phytolaccaceae/Phytolaccaceae.md
+    - Coriariaceae: Dược dân tộc/Coriariaceae/Coriariaceae.md
+    - Crassulaceae: Dược dân tộc/Crassulaceae/Crassulaceae.md
+    - Epacridaceae: Dược dân tộc/Epacridaceae/Epacridaceae.md
+    - Lauraceae: Dược dân tộc/Lauraceae/Lauraceae.md
+    - Casuarinaceae: Dược dân tộc/Casuarinaceae/Casuarinaceae.md
+    - Flacourtiaceae: Dược dân tộc/Flacourtiaceae/Flacourtiaceae.md
+    - Blechnaceae: Dược dân tộc/Blechnaceae/Blechnaceae.md
+    - Picramniaceae: Dược dân tộc/Picramniaceae/Picramniaceae.md
+    - Hamamelidaceae: Dược dân tộc/Hamamelidaceae/Hamamelidaceae.md
+    - Zingiberaceae: Dược dân tộc/Zingiberaceae/Zingiberaceae.md
+    - Agavaceae: Dược dân tộc/Agavaceae/Agavaceae.md
+    - Capparaceae: Dược dân tộc/Capparaceae/Capparaceae.md
+    - Loranthaceae: Dược dân tộc/Loranthaceae/Loranthaceae.md
+    - Dicksoniaceae: Dược dân tộc/Dicksoniaceae/Dicksoniaceae.md
+    - Juncaceae: Dược dân tộc/Juncaceae/Juncaceae.md
+    - Myoporaceae: Dược dân tộc/Myoporaceae/Myoporaceae.md
+    - Marantaceae: Dược dân tộc/Marantaceae/Marantaceae.md
+    - Araliaceae: Dược dân tộc/Araliaceae/Araliaceae.md
+    - Rubiaceae: Dược dân tộc/Rubiaceae/Rubiaceae.md
+    - Dilleniaceae: Dược dân tộc/Dilleniaceae/Dilleniaceae.md
+    - Ranunculaceae: Dược dân tộc/Ranunculaceae/Ranunculaceae.md
+    - Cabombaceae: Dược dân tộc/Cabombaceae/Cabombaceae.md
+    - Chloranthaceae: Dược dân tộc/Chloranthaceae/Chloranthaceae.md
+    - Aceraceae: Dược dân tộc/Aceraceae/Aceraceae.md
+    - Iridaceae: Dược dân tộc/Iridaceae/Iridaceae.md
+    - Cycadaceae: Dược dân tộc/Cycadaceae/Cycadaceae.md
+    - Berberidaceae: Dược dân tộc/Berberidaceae/Berberidaceae.md
+    - Geraniaceae: Dược dân tộc/Geraniaceae/Geraniaceae.md
+    - Taxaceae: Dược dân tộc/Taxaceae/Taxaceae.md
+    - Zamiaceae: Dược dân tộc/Zamiaceae/Zamiaceae.md
+    - Winteraceae: Dược dân tộc/Winteraceae/Winteraceae.md
+    - Hydrocharitaceae: Dược dân tộc/Hydrocharitaceae/Hydrocharitaceae.md
+    - Apiaceae: Dược dân tộc/Apiaceae/Apiaceae.md
+    - Hymenophyllaceae: Dược dân tộc/Hymenophyllaceae/Hymenophyllaceae.md
+    - Caryophyllaceae: Dược dân tộc/Caryophyllaceae/Caryophyllaceae.md
+    - Cuscutaceae: Dược dân tộc/Cuscutaceae/Cuscutaceae.md
+    - Lecythidaceae: Dược dân tộc/Lecythidaceae/Lecythidaceae.md
+    - Araceae: Dược dân tộc/Araceae/Araceae.md
+    - Molluginaceae: Dược dân tộc/Molluginaceae/Molluginaceae.md
+    - Bixaceae: Dược dân tộc/Bixaceae/Bixaceae.md
+    - Datiscaceae: Dược dân tộc/Datiscaceae/Datiscaceae.md
+    - Lemnaceae: Dược dân tộc/Lemnaceae/Lemnaceae.md
+    - Saxifragaceae: Dược dân tộc/Saxifragaceae/Saxifragaceae.md
+    - Sonneratiaceae: Dược dân tộc/Sonneratiaceae/Sonneratiaceae.md
+    - Achatocarpaceae: Dược dân tộc/Achatocarpaceae/Achatocarpaceae.md
+    - Typhaceae: Dược dân tộc/Typhaceae/Typhaceae.md
+    - Thelypteridaceae: Dược dân tộc/Thelypteridaceae/Thelypteridaceae.md
+    - Gesneriaceae: Dược dân tộc/Gesneriaceae/Gesneriaceae.md
+    - Lamiaceae: Dược dân tộc/Lamiaceae/Lamiaceae.md
+    - Salvadoraceae: Dược dân tộc/Salvadoraceae/Salvadoraceae.md
+    - Gleicheniaceae: Dược dân tộc/Gleicheniaceae/Gleicheniaceae.md
+    - Apocynaceae: Dược dân tộc/Apocynaceae/Apocynaceae.md
+    - Menyanthaceae: Dược dân tộc/Menyanthaceae/Menyanthaceae.md
+    - Oleaceae: Dược dân tộc/Oleaceae/Oleaceae.md
+    - Sargentodoxaceae: Dược dân tộc/Sargentodoxaceae/Sargentodoxaceae.md
+    - Taxodiaceae: Dược dân tộc/Taxodiaceae/Taxodiaceae.md
+    - Pittooraceae: Dược dân tộc/Pittooraceae/Pittooraceae.md
+    - Polypodiaceae: Dược dân tộc/Polypodiaceae/Polypodiaceae.md
+    - Monimiaceae: Dược dân tộc/Monimiaceae/Monimiaceae.md
+    - Balanitaceae: Dược dân tộc/Balanitaceae/Balanitaceae.md
+    - Cucurbitaceae: Dược dân tộc/Cucurbitaceae/Cucurbitaceae.md
+    - Polemoniaceae: Dược dân tộc/Polemoniaceae/Polemoniaceae.md
+    - Passifloraceae: Dược dân tộc/Passifloraceae/Passifloraceae.md
+    - Acoraceae: Dược dân tộc/Acoraceae/Acoraceae.md
+    - Cistaceae: Dược dân tộc/Cistaceae/Cistaceae.md
+    - Clusiaceae: Dược dân tộc/Clusiaceae/Clusiaceae.md
+    - Dipsacaceae: Dược dân tộc/Dipsacaceae/Dipsacaceae.md
+    - Cyatheaceae: Dược dân tộc/Cyatheaceae/Cyatheaceae.md
+    - Theophrastaceae: Dược dân tộc/Theophrastaceae/Theophrastaceae.md
+    - Ericaceae: Dược dân tộc/Ericaceae/Ericaceae.md
+    - Aloaceae: Dược dân tộc/Aloaceae/Aloaceae.md
+    - Hydrangeaceae: Dược dân tộc/Hydrangeaceae/Hydrangeaceae.md
+    - Tamaricaceae: Dược dân tộc/Tamaricaceae/Tamaricaceae.md
+    - Violaceae: Dược dân tộc/Violaceae/Violaceae.md
+    - Convolvulaceae: Dược dân tộc/Convolvulaceae/Convolvulaceae.md
+    - Bignoniaceae: Dược dân tộc/Bignoniaceae/Bignoniaceae.md
+    - Cyperaceae: Dược dân tộc/Cyperaceae/Cyperaceae.md
+    - Ephedraceae: Dược dân tộc/Ephedraceae/Ephedraceae.md
+    - Celastraceae: Dược dân tộc/Celastraceae/Celastraceae.md
+    - Cunoniaceae: Dược dân tộc/Cunoniaceae/Cunoniaceae.md
+    - Valerianaceae: Dược dân tộc/Valerianaceae/Valerianaceae.md
+    - Chrysobalanaceae: Dược dân tộc/Chrysobalanaceae/Chrysobalanaceae.md
+    - Balanophoraceae: Dược dân tộc/Balanophoraceae/Balanophoraceae.md
+    - Begoniaceae: Dược dân tộc/Begoniaceae/Begoniaceae.md
+    - Papaveraceae: Dược dân tộc/Papaveraceae/Papaveraceae.md
+    - Commelinaceae: Dược dân tộc/Commelinaceae/Commelinaceae.md
+    - Garryaceae: Dược dân tộc/Garryaceae/Garryaceae.md
+    - Cupressaceae: Dược dân tộc/Cupressaceae/Cupressaceae.md
+    - Droseraceae: Dược dân tộc/Droseraceae/Droseraceae.md
+    - Melianthaceae: Dược dân tộc/Melianthaceae/Melianthaceae.md
+    - Hippocastanaceae: Dược dân tộc/Hippocastanaceae/Hippocastanaceae.md
+    - Tiliaceae: Dược dân tộc/Tiliaceae/Tiliaceae.md
+    - Rutaceae: Dược dân tộc/Rutaceae/Rutaceae.md
+    - Posidoniaceae: Dược dân tộc/Posidoniaceae/Posidoniaceae.md
+    - Solanaceae: Dược dân tộc/Solanaceae/Solanaceae.md
+    - Dichapetalaceae: Dược dân tộc/Dichapetalaceae/Dichapetalaceae.md
+    - Basellaceae: Dược dân tộc/Basellaceae/Basellaceae.md
+    - Myristicaceae: Dược dân tộc/Myristicaceae/Myristicaceae.md
+    - Viscaceae: Dược dân tộc/Viscaceae/Viscaceae.md
+    - Plantaginaceae: Dược dân tộc/Plantaginaceae/Plantaginaceae.md
+    - Strelitziaceae: Dược dân tộc/Strelitziaceae/Strelitziaceae.md
+    - Surianaceae: Dược dân tộc/Surianaceae/Surianaceae.md
+    - Balsaminaceae: Dược dân tộc/Balsaminaceae/Balsaminaceae.md
+    - arganiaceae: Dược dân tộc/arganiaceae/arganiaceae.md
+    - Davalliaceae: Dược dân tộc/Davalliaceae/Davalliaceae.md
+    - Hanguanaceae: Dược dân tộc/Hanguanaceae/Hanguanaceae.md
+    - Simmondsiaceae: Dược dân tộc/Simmondsiaceae/Simmondsiaceae.md
+    - Pontederiaceae: Dược dân tộc/Pontederiaceae/Pontederiaceae.md
+    - Goodeniaceae: Dược dân tộc/Goodeniaceae/Goodeniaceae.md
+    - Resedaceae: Dược dân tộc/Resedaceae/Resedaceae.md
+    - Liliaceae: Dược dân tộc/Liliaceae/Liliaceae.md
+    - Myrsinaceae: Dược dân tộc/Myrsinaceae/Myrsinaceae.md
+    - Annonaceae: Dược dân tộc/Annonaceae/Annonaceae.md
+    - Bataceae: Dược dân tộc/Bataceae/Bataceae.md
+    - Caricaceae: Dược dân tộc/Caricaceae/Caricaceae.md
+    - Aizoaceae: Dược dân tộc/Aizoaceae/Aizoaceae.md
+    - Gnetaceae: Dược dân tộc/Gnetaceae/Gnetaceae.md
+    - Piperaceae: Dược dân tộc/Piperaceae/Piperaceae.md
+    - Saururaceae: Dược dân tộc/Saururaceae/Saururaceae.md
+    - Haemodoraceae: Dược dân tộc/Haemodoraceae/Haemodoraceae.md
+    - Meniermaceae: Dược dân tộc/Meniermaceae/Meniermaceae.md
+    - Vitaceae: Dược dân tộc/Vitaceae/Vitaceae.md
+    - Betulaceae: Dược dân tộc/Betulaceae/Betulaceae.md
+    - Dennstaedtiaceae: Dược dân tộc/Dennstaedtiaceae/Dennstaedtiaceae.md
+    - Campanulaceae: Dược dân tộc/Campanulaceae/Campanulaceae.md
+    - Pedaliaceae: Dược dân tộc/Pedaliaceae/Pedaliaceae.md
+    - Equisetaceae: Dược dân tộc/Equisetaceae/Equisetaceae.md
+    - Cyrillaceae: Dược dân tộc/Cyrillaceae/Cyrillaceae.md
+    - Ebenaceae: Dược dân tộc/Ebenaceae/Ebenaceae.md
+    - Trapaceae: Dược dân tộc/Trapaceae/Trapaceae.md
+    - Frankeniaceae: Dược dân tộc/Frankeniaceae/Frankeniaceae.md
+    - Musaceae: Dược dân tộc/Musaceae/Musaceae.md
+    - Pandanaceae: Dược dân tộc/Pandanaceae/Pandanaceae.md
+    - Lardizabalaceae: Dược dân tộc/Lardizabalaceae/Lardizabalaceae.md
+    - Pinaceae: Dược dân tộc/Pinaceae/Pinaceae.md
+    - Amaranthaceae: Dược dân tộc/Amaranthaceae/Amaranthaceae.md
+    - Dipterocarpaceae: Dược dân tộc/Dipterocarpaceae/Dipterocarpaceae.md
+    - Heliconiaceae: Dược dân tộc/Heliconiaceae/Heliconiaceae.md
+    - Marcgraviaceae: Dược dân tộc/Marcgraviaceae/Marcgraviaceae.md
+    - Primulaceae: Dược dân tộc/Primulaceae/Primulaceae.md
+    - Ochnaceae: Dược dân tộc/Ochnaceae/Ochnaceae.md
+    - Polygalaceae: Dược dân tộc/Polygalaceae/Polygalaceae.md
+    - Sapotaceae: Dược dân tộc/Sapotaceae/Sapotaceae.md
+    - Stemonaceae: Dược dân tộc/Stemonaceae/Stemonaceae.md
+    - Caryocaraceae: Dược dân tộc/Caryocaraceae/Caryocaraceae.md
+    - Ophioglossaceae: Dược dân tộc/Ophioglossaceae/Ophioglossaceae.md
+    - Lycopodiaceae: Dược dân tộc/Lycopodiaceae/Lycopodiaceae.md
+    - Hydrophyllaceae: Dược dân tộc/Hydrophyllaceae/Hydrophyllaceae.md
+    - Eucommiaceae: Dược dân tộc/Eucommiaceae/Eucommiaceae.md
+    - Orchidaceae: Dược dân tộc/Orchidaceae/Orchidaceae.md
+    - Anacardiaceae: Dược dân tộc/Anacardiaceae/Anacardiaceae.md
+    - Gentianaceae: Dược dân tộc/Gentianaceae/Gentianaceae.md
+    - Moringaceae: Dược dân tộc/Moringaceae/Moringaceae.md
+    - Linaceae: Dược dân tộc/Linaceae/Linaceae.md
+    - Irvingiaceae: Dược dân tộc/Irvingiaceae/Irvingiaceae.md
+    - Selaginellaceae: Dược dân tộc/Selaginellaceae/Selaginellaceae.md
+    - Simaroubaceae: Dược dân tộc/Simaroubaceae/Simaroubaceae.md
+    - Costaceae: Dược dân tộc/Costaceae/Costaceae.md
+    - Schizaeaceae: Dược dân tộc/Schizaeaceae/Schizaeaceae.md
+    - Loasaceae: Dược dân tộc/Loasaceae/Loasaceae.md
+    - Urticaceae: Dược dân tộc/Urticaceae/Urticaceae.md
+    - Theaceae: Dược dân tộc/Theaceae/Theaceae.md
+    - Canellaceae: Dược dân tộc/Canellaceae/Canellaceae.md
+    - Aquifoliaceae: Dược dân tộc/Aquifoliaceae/Aquifoliaceae.md
+    - Zygophyllaceae: Dược dân tộc/Zygophyllaceae/Zygophyllaceae.md
+    - Dryopteridaceae: Dược dân tộc/Dryopteridaceae/Dryopteridaceae.md
+    - Ancistrocladaceae: Dược dân tộc/Ancistrocladaceae/Ancistrocladaceae.md
+    - Moraceae: Dược dân tộc/Moraceae/Moraceae.md
+    - Icacinaceae: Dược dân tộc/Icacinaceae/Icacinaceae.md
+    - Orobanchaceae: Dược dân tộc/Orobanchaceae/Orobanchaceae.md
+    - Leeaceae: Dược dân tộc/Leeaceae/Leeaceae.md
+    - Polygonaceae: Dược dân tộc/Polygonaceae/Polygonaceae.md
+    - Elaeocarpaceae: Dược dân tộc/Elaeocarpaceae/Elaeocarpaceae.md
+    - Styracaceae: Dược dân tộc/Styracaceae/Styracaceae.md
+    - Rhamnaceae: Dược dân tộc/Rhamnaceae/Rhamnaceae.md
+    - Juglandaceae: Dược dân tộc/Juglandaceae/Juglandaceae.md
+    - Cornaceae: Dược dân tộc/Cornaceae/Cornaceae.md
+    - Brassicaceae: Dược dân tộc/Brassicaceae/Brassicaceae.md
+    - Psilotaceae: Dược dân tộc/Psilotaceae/Psilotaceae.md
+    - Cneoraceae: Dược dân tộc/Cneoraceae/Cneoraceae.md
+    - Sapindaceae: Dược dân tộc/Sapindaceae/Sapindaceae.md
+    - Buxaceae: Dược dân tộc/Buxaceae/Buxaceae.md
+    - Myricaceae: Dược dân tộc/Myricaceae/Myricaceae.md
+    - Olacaceae: Dược dân tộc/Olacaceae/Olacaceae.md
+    - Schisandraceae: Dược dân tộc/Schisandraceae/Schisandraceae.md
+    - Turneraceae: Dược dân tộc/Turneraceae/Turneraceae.md
+    - Loganiaceae: Dược dân tộc/Loganiaceae/Loganiaceae.md
+    - Rhizophoraceae: Dược dân tộc/Rhizophoraceae/Rhizophoraceae.md
+    - Pandaceae: Dược dân tộc/Pandaceae/Pandaceae.md
+    - Rosaceae: Dược dân tộc/Rosaceae/Rosaceae.md
+    - Alangiaceae: Dược dân tộc/Alangiaceae/Alangiaceae.md
+    - Proteaceae: Dược dân tộc/Proteaceae/Proteaceae.md
+    - Euphorbiaceae: Dược dân tộc/Euphorbiaceae/Euphorbiaceae.md
+    - Fagaceae: Dược dân tộc/Fagaceae/Fagaceae.md
+    - Ulmaceae: Dược dân tộc/Ulmaceae/Ulmaceae.md
+    - Cecropiaceae: Dược dân tộc/Cecropiaceae/Cecropiaceae.md
+    - Malpighiaceae: Dược dân tộc/Malpighiaceae/Malpighiaceae.md
+    - Cannabaceae: Dược dân tộc/Cannabaceae/Cannabaceae.md
+    - Lentibulariaceae: Dược dân tộc/Lentibulariaceae/Lentibulariaceae.md
+    - Bromeliaceae: Dược dân tộc/Bromeliaceae/Bromeliaceae.md
+    - Magnoliaceae: Dược dân tộc/Magnoliaceae/Magnoliaceae.md
+    - Melastomataceae: Dược dân tộc/Melastomataceae/Melastomataceae.md
+    - Fabaceae: Dược dân tộc/Fabaceae/Fabaceae.md
+    - Dioscoreaceae: Dược dân tộc/Dioscoreaceae/Dioscoreaceae.md
+    - Oleandraceae: Dược dân tộc/Oleandraceae/Oleandraceae.md
+    - Chenopodiaceae: Dược dân tộc/Chenopodiaceae/Chenopodiaceae.md
+    - Pteridaceae: Dược dân tộc/Pteridaceae/Pteridaceae.md
+    - Punicaceae: Dược dân tộc/Punicaceae/Punicaceae.md
+    - Daphniphyllaceae: Dược dân tộc/Daphniphyllaceae/Daphniphyllaceae.md
+    - Osmundaceae: Dược dân tộc/Osmundaceae/Osmundaceae.md
+    - Smilacaceae: Dược dân tộc/Smilacaceae/Smilacaceae.md
+    - Empetraceae: Dược dân tộc/Empetraceae/Empetraceae.md
+    - Salicaceae: Dược dân tộc/Salicaceae/Salicaceae.md
+    - Flagellariaceae: Dược dân tộc/Flagellariaceae/Flagellariaceae.md
+    - Paeoniaceae: Dược dân tộc/Paeoniaceae/Paeoniaceae.md
+    - Vochysiaceae: Dược dân tộc/Vochysiaceae/Vochysiaceae.md
+    - Combretaceae: Dược dân tộc/Combretaceae/Combretaceae.md
+    - Lythraceae: Dược dân tộc/Lythraceae/Lythraceae.md
+    - Aristolochiaceae: Dược dân tộc/Aristolochiaceae/Aristolochiaceae.md
+    - Potamogetonaceae: Dược dân tộc/Potamogetonaceae/Potamogetonaceae.md
+    - Actinidiaceae: Dược dân tộc/Actinidiaceae/Actinidiaceae.md
+    - Cannaceae: Dược dân tộc/Cannaceae/Cannaceae.md
+    - Eriocaulaceae: Dược dân tộc/Eriocaulaceae/Eriocaulaceae.md
+    - Caprifoliaceae: Dược dân tộc/Caprifoliaceae/Caprifoliaceae.md
+    - Taccaceae: Dược dân tộc/Taccaceae/Taccaceae.md
+
+
+  - Blog: 
+    - blog/index.md
+  - About: 
+    - About me: About/AboutMe.md
+    - About website: About/AboutProject.md
+  - Tags: tags.md
+  - Categories: categories.md
+
+plugins: 
+  - search
+  - mermaid2
+  - tags:
+      tags_file: tags.md
+  - blog:
+        blog_toc: true
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 500%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: false
+       caption_position: bottom
+       background: white
+       shadow: true
+       manual: false  
+  - social
+  - mkdocstrings
+  - markdown-exec
+  - awesome-pages
+  - categories:
+        generate_index: true
+        verbose: false
+        base_name: 'categories'
+        section_title: 'Categories'
+        no_nav: false
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+  - pymdownx.tabbed:
+      alternate_style: true
+  - codehilite: 
+      guess_lang: false
+  - toc: 
+      permalink: true
+
+
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+  - https://giscus.app/client.js
+
+ 
