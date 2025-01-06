@@ -74,5 +74,23 @@
   },
   "scripts/builds website from database.ipynb": {
     "builds website from database.html": "5b837c20"
+  },
+  "Presentation/VTM/Part_A_Ly_Luan.qmd": {
+    "Part_A_Ly_Luan.html": "6778f3dd"
+  },
+  "Presentation/VTM/Part_B_Dai cuong vè thuoc YHCT.qmd": {
+    "Part_B_Dai cuong vè thuoc YHCT.html": "f469fe5a"
+  },
+  "Presentation/VTM/Part_C_Bai Che bien.qmd": {
+    "Part_C_Bai Che bien.html": "3b8b7b17"
+  },
+  "scripts/partA.md": {
+    "partA.html": "e0b4580e"
+  },
+  "Presentation/Duoc_lieu/Tinhdau.qmd": {
+    "Tinhdau.html": "ae11b0c6"
+  },
+  "Presentation/Duoc_lieu/flavonoids.qmd": {
+    "flavonoids.html": "7a52ad47"
   }
 }

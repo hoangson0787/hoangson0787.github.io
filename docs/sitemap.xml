@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hoangson0787.github.io/scripts/builds website from database.html</loc>
-    <lastmod>2025-01-03T00:40:50.510Z</lastmod>
+    <loc>https://hoangson0787.github.io/scripts/partA.html</loc>
+    <lastmod>2025-01-03T14:07:17.959Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/VTM/Part_C_Bai Che bien.html</loc>
+    <lastmod>2025-01-03T07:40:56.766Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/VTM/Part_A_Ly_Luan.html</loc>
+    <lastmod>2025-01-05T13:42:37.814Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Presentation/index.html</loc>
     <lastmod>2025-01-03T06:22:04.988Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/Duoc_lieu/index.html</loc>
+    <lastmod>2025-01-06T07:18:02.514Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/slide-template.html</loc>
@@ -70,7 +82,7 @@
   </url>
   <url>
     <loc>https://hoangson0787.github.io/index.html</loc>
-    <lastmod>2025-01-03T07:14:43.276Z</lastmod>
+    <lastmod>2025-01-06T07:25:58.851Z</lastmod>
   </url>
   <url>
     <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/presentation_1.html</loc>
@@ -83,5 +95,25 @@
   <url>
     <loc>https://hoangson0787.github.io/Presentation/Chiet_xuat/presentation_5.html</loc>
     <lastmod>2025-01-02T03:06:08.730Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/Duoc_lieu/flavonoids.html</loc>
+    <lastmod>2025-01-06T07:15:35.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/Duoc_lieu/Tinhdau.html</loc>
+    <lastmod>2025-01-06T01:29:52.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/VTM/index.html</loc>
+    <lastmod>2025-01-05T13:11:51.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/Presentation/VTM/Part_B_Dai cuong vè thuoc YHCT.html</loc>
+    <lastmod>2025-01-05T07:26:29.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://hoangson0787.github.io/scripts/builds website from database.html</loc>
+    <lastmod>2025-01-03T00:40:50.510Z</lastmod>
   </url>
 </urlset>

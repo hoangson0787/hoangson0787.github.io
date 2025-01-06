@@ -1,0 +1,423 @@
+---
+title: "Dược liệu "
+subtitle: "Dược liệu chứa tinh dầu"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+format: 
+  revealjs:
+    slide-number: true
+    logo: "../VTM/Images/kanagawa.jpg"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: "../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../VTM/Images/kanagawa.jpg"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+## Mục tiêu học tập
+
+-  Khái niệm về cấu trúc hóa học của Flavonoid
+-  Phân loại được các nhóm Flavonoid
+-  So sánh được công thức cấu tạo Flavonoid
+-  Lựa chọn phương pháp chiết xuất Flavonoid dựa vào tính chất lý hóa.
+-  Tác dụng sinh học và chỉ định của Flavonoid
+
+
+## Tài liệu tham khảo
+	
+-  Dược điển Việt Nam V
+-  Bài giảng Dược liệu, Đại học Dược Hà nội
+-  Medicinal Natural Products: A Biosynthesis Approach
+-  CARBON-13 NMR OF FLAVONOIDS
+-  TEXTBOOK OF PHARMACOGNOSY AND PHYTOCHEMISTRY
+-  Fundamentals of Pharmacognosy and phytotherapy
+-  https://www.ipni.org (Tra mã dược liệu- tên loài, tên họ)
+-  https://lotus.naturalproducts.net
+-  https://pubchem.com
+	
+
+# Glycoside
+## Khái niệm
+::: {.callout-important title="Khái niệm"}
+A glycoside is any molecule in which a sugar group is bonded through its anomeric carbon to another group via glycosidic bond. A glycosidic bond is a certain type of chemical bond that joins a sugar molecule to another mol- ecule. Specifically, a glycosidic bond is formed between the hemiacetal group of a saccharide (or a molecule derived from a saccharide) and the hydroxyl group of an alcohol. A substance containing a glycosidic bond is a glycoside. The glycone and aglycone portions can be chemically separated by hydrolysis in the presence of acid. There are also numerous enzymes that can form and break glycosidic bonds.
+:::
+
+## Phân loại
+
+:::: {.columns}
+::: {.column width="50%" .nonincremental}
+::: {.callout-note title="Các cách phân loại"}
+-  Dựa vào glycone
+-  Dựa vào liên kết glycosidic
+-  Dựa vào Aglycone	
+:::
+:::
+
+::: {.column width="50%" .nonincremental}
+::: {.callout-note title="Dựa vào khung aglycone"}
+- Anthraquinone Glycosides
+- Saponin Glycosides
+- Steroid and Triterpenoid Glycosides
+- **Flavonoid Glycosides**
+  - *O-glycoside*
+  - *C-glycoside*
+- Cardiac Glycosides
+- Coumarin Glycosides
+- Cynophoric Glycosides
+:::
+:::
+
+::::
+
+
+![glycoside](../Duoc_lieu/Images/glycoside.png)
+
+
+
+
+# Flavonoid Glycoside
+
+## Khái niệm
+::: {.callout-note title="Khái niệm"}
+Flavonoids là các hợp chất từ tự nhiên có cấu trúc hóa học chứa khung aglycone dạng C6-C3-C6. 
+:::
+
+## Phân loại
+##  Phân loại tại một số tài liệu tại Việt Nam
+
+![](../Duoc_lieu/Images/Phan%20loai%20flavonoid%20o%20Viet%20nam.png){width="70%"}
+
+
+## Phân loại dựa trên Aglycone of Flavonoid
+
+![](../Duoc_lieu/Images/Flavonoid%20skeleton.png){width="100%"}
+
+
+
+##  1,3-diphenyl-propane
+
+![a 1,3-diphenyl-propane skeleton](../Duoc_lieu/Images/a%201,3-diphenyl-propane%20skeleton.png){width="40%"}
+
+
+
+##  1,2-diphenyl-propane
+
+![1,2-diphenylpropane skeleton](../Duoc_lieu/Images/1,2-diphenylpropane%20skeleton.png){width="70%"}
+
+
+##  1,1-diphenylpropane
+
+![1,1-diphenylpropane skeleton](../Duoc_lieu/Images/1,1-diphenylpropane%20skeleton.png){width="70%"}
+
+
+
+##  Homoflavonoids
+
+![homoflavonoids](../Duoc_lieu/Images/homoflavonoids.png){width="50%"}
+
+
+##  Biosynthesis
+
+![Figure 2.1](../Duoc_lieu/Images/Figure%202.1.png){width="50%"}
+
+
+##  THE SHIKIMATE PATHWAY
+
+![Figure 4.41](../Duoc_lieu/Images/Figure%204.41.png){width="50%"}
+
+
+##  THE SHIKIMATE PATHWAY
+
+![Figure 4.43](../Duoc_lieu/Images/Figure%204.43.png){width="50%"}
+
+
+
+## Phân bố 
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![*Loài bướm* **Polyommatus icarus** *và hoa* **Lotus corniculatus**](../Duoc_lieu/Images/Polyommatus.jpg){width="100%"}
+:::
+
+::: {.column width="50%"}
+
+![Flavonoid có thể tìm thấy trong một số ngành thực vật gồm Thực vật hạt kín (Angiosperms), Thực vật hạt trần (Gymnospermae), Ngành dương sỉ (Ferns), Ngành thạch tùng (Lycophytes), Ngành rêu sừng (Hornworts), Ngành rêu (Mosses) và Ngành rêu tản (Liverworts)](../Duoc_lieu/Images/Flavonoid%20distribution.jpg){width="80%"}
+	
+:::
+
+::::
+
+# Tính chất Hóa lý
+
+## Đặc tính hóa lý <br> Màu sắc
+	
+-  Flavon: Vàng rất nhạt có khi không màu 
+-  Flavonol: Vàng nhạt đến vàng
+-  Chalcon và auron: Vàng đậm đến đỏ cam
+-  Các chất thuộc nhóm isoflavon, flavanon, isoflavanon, flavanonol, leuco-anthocyanidin, flavan-3-ol: Không màu
+-  Anthocyanidin: Màu thay đổi theo pH môi trường(màu đỏ trong môi trường acid, màu xanh trong môi trường base)
+	
+Flavonoid ở trong các bộ phận của cây thì còn phụ thuộc vào hỗn hợp với các sắc tố khác 
+
+
+
+## Đặc tính hóa lý <br> Độ tan
+	
+-  Dạng Glucoside: dễ tan trong nước và dung môi phân cực
+-  Dạng Aglycone: Tan trong dung môi hữu cơ, khó tan trong nước
+	
+
+
+## INFRA-RED SPECTROSCOPY
+The IR spectra of all the flavonoids and isoflavonoids show absorption bands in the region 1500-1600 $cm^{-1$} due to aromatic rings, along with a carbonyl band at 1620-1670 $cm^{-1$} . The carbonyl absorption does not appear in flavanoids, isoflavanoids pterocarpanoids and chalcanoids. The presence of hydroxyl groups in hydroxyflavonoids is evidenced by absorption in the region 3300-3450 $cm^{-1$} . An absorption at  925 $cm^{-1$} is indicative of a methylenecioxy group and the presence of a gem-dimethyl group is indicated by the appearance of a band at 1400 $cm^-1$ . The glycosidic nature of a flavonoid is reflected by broad bands at  3250 and 1060 $cm^{-1$}. However, although these absorption bands are present in most flavonoid glycoside.
+
+
+## UV-Vis SPECTROSCOPY
+	
+
+![ijms-11-00595f10](../Duoc_lieu/Images/ijms-11-00595f10.png)
+
+	
+
+
+## UV-Vis SPECTROSCOPY
+| Band II    | Band I      | Flavonoid Type                          |
+|------------|-------------|-----------------------------------------|
+| 250-280    | 304-350     | Flavones                                |
+| 250-280    | 328-360     | Flavonols (3-OH substituted)            |
+| 250-280    | 350-385     | Flavonols (3-OH free)                   |
+| 245-275    | 310-330     | Isoflavones                             |
+| 245-275    | 320 peak    | Isoflavones (5-deoxy, 6,7-dioxygenated) |
+| 230-270    | 340-390     | Chalcones (low intensity)               |
+| 230-270    | 380-430     | Aurones (low intensity)                 |
+| 270-280    | 465-560     | Anthocyanidins and anthocyanins         |
+
+
+
+## Luteolin and derivatives$\rhd$UV spectrum
+	
+
+![luteolin 1 and derivatives](../Duoc_lieu/Images/luteolinandderivatives.png)
+	
+
+
+## Anthocyanidins ^[Int. J. Mol. Sci. 2010, 11(2), 595-621]
+	
+
+![ijms-11-00595f11](../Duoc_lieu/Images/ijms-11-00595f11.png)
+	
+
+
+## Anthocyanidins ^[Int. J. Mol. Sci. 2010, 11(2), 595-621]
+	
+
+![ijms-11-00595f13](../Duoc_lieu/Images/ijms-11-00595f13.png)
+
+
+# Định tính bằng phản ứng hóa học
+
+	-  Phản ứng Cyanidin (Shinoda): Tác dụng với tác nhân khử như hydro, vòng $\gamma $- pyron bị khử thành nhân pyrilium có màu đỏ tươi 
+	-  Phản ứng với kim loại nặng:
+	
+-  Với muối $Fe^{3+$ tạo phức màu đen, xanh tím 
+-  Với muối $Al^{3+$ tạo phức màu vàng
+	
+	-  Phảm ứng với kiễm loãng
+	-  Phản ứng với muối diazoni 
+	-  Các phản ứng khác
+
+
+## Phản ứng tạo màu Cyanidin (Shinoda)
+	
+
+![Phan ung Cyanidine](../Duoc_lieu/Images/Phan%20ung%20Cyanidine.jpeg)
+
+	
+
+## Tạo màu với $Fe^{3+$
+	
+
+![Phan ung Fe](../Duoc_lieu/Images/Phan%20ung%20Fe.jpeg)
+
+## Các phản ứng khác
+	
+![Tao phan ung khac](../Duoc_lieu/Images/Tao%20phan%20ung%20khac.png)
+
+	
+
+## Định tính bằng TLC
+	
+-  So với chất chuẩn
+-  So với dược liệu đối chiếu (???)
+	
+
+## Phương pháp định tính Flavonoid ^[Chromatographic Fingerprint Analysis of Herbal Medicines]
+    
+        -  Chiết bằng MeOH
+        -  Silica gel/HPTLC Silica gel
+        -  Ethyl acetate-Formic acid-Glacial acetic acid- Water (10 + 1.1 + 1.1 + 2.6)
+        -  Thuốc thử hiện màu
+    
+
+
+## Phương pháp định tính Flavonoid ^[Thuốc thử aluminium(III)chloride-reagent]
+    
+        
+![P. lobata and P. thomsonii. 5 \% AlCl3 x 6 H2O dissolved in ethanol 80 \%). The plate is intensively sprayed with 10 ml solution and then exposed to UV 366 nm for 30 minutes.](../Duoc_lieu/Images/P.%20lobata%20and%20P.%20thomsonii.png)
+
+
+    
+
+
+## Phương pháp định tính Flavonoid ^[Thuốc thử fast blue salt-reagent]
+    
+        
+![(I:) 0.5 \% fast blue salt B # $3,3^\prime-dimethoxybiphenyl–4,4^\prime bis (diazonium)-dichloride$ is dissolved in methanol 80 \%. (II:) 5 \% potassiumhydroxid in methanol 80 \%.The plate is intensively sprayed with 10 ml solution I and then immediately sprayed with 10 ml solution II. The evaluation is carried out in VIS.](../Duoc_lieu/Images/Fast%20blue%20salt-reagent.png)
+
+
+
+## Phương pháp định tính Flavonoid ^[Natural products-polyethylene glycol reagent (NP/PEG)]
+    
+        
+![Sophora flower buds Flavonoid. (I:) 1 \% diphenylboric acid-$\beta$-ethylamino ester (#diphenylboryloxyethylamine, NP) in methanol. (II:) 5 \% polyethylene glycol-4000 (PEG) in ethanol. The plate is sprayed first with solution I and then with solution II.](../Duoc_lieu/Images/Sophora%20flower%20buds%20Flavonoid.png)
+
+    
+
+
+## Định tính bằng HPLC 
+
+::: {layout-nrow=3}
+![Sophorae flos – Huaihua Fingeprint](../Duoc_lieu/Images/Sophorae%20flos%20–%20Huaihua%20Fingeprint.png)
+![Sophora japonica-UV](../Duoc_lieu/Images/Sophora%20japonica-UV.png)
+![Sophorae flos – Huaihua Retation time](../Duoc_lieu/Images/Sophorae%20flos%20–%20Huaihua%20Retation%20time.png)
+ Fingerprint của Hòe Hoa
+:::
+
+	
+
+# Định lượng
+	
+-  Phương pháp cân 
+-  Phương pháp đo quang 
+-  Phương pháp HPLC
+	
+
+## Định lượng bằng phương pháp cân
+Ứng dụng đối với nguyên liệu giàu flavonoid và dịch chiết ít tạp chất, ví dụ.
+
+-  Định lượng flavonoid trong thịt quả mơ *Prunus armeniaca* bằng phương pháp cân: Bột dược liệu chiết bằng CHCl3 trên bình Soxhlet để loại tạp, sấy khô. Chiết bằng EtOH 96\% trên bình Soxhlet thu lấy dịch, sau đó bốc hơi dung môi. Chiết lại bằng nước nóng sau đó chiết bằng EtOAc bay hơi dung môi. Thu được cắn. Cân cắn để xác định lượng flavonoid toàn phần. 
+-  Định lượng rutin trong nụ hoa hòe *Sophora japonica*: loại tạp bằng HCl 0.5\%, chiết bằng EtOH 96\% nóng, thủy phân bằng $H_2SO_4$ , quercetin rất ít tan được lọc và cân rồi tính ra rutin. 
+
+Phương pháp này có ưu điểm là thực hiện nhanh, dễ thực hiện tuy nhiên sai số 
+mắc phải lớn. 
+
+## Phương pháp đo quang UV-Vis ^[Petr Struchkov et al, 2018]
+	
+
+![Flavonoid UV](../Duoc_lieu/Images/Flavonoid%20UV.png)
+
+-  Nitrozation
+-  Complex formation with aluminum chloride (Method 1)
+-  Nitrozation and complex formation with aluminum chloride (Method 2)
+-  Reaction with dinitrophenylhydrazine
+	
+	
+
+## Phương pháp đo quang UV-Vis ^[Petr Struchkov et al, 2018]
+
+![Flavonoid UV](../Duoc_lieu/Images/Flavonoid%20UV.png)
+![Flavonoid UV Results](../Duoc_lieu/Images/Flavonoid%20UV%20Results.png)
+
+
+## Định lượng bằng phương pháp HPLC
+**Detertor:** UV, FID, MS
+	
+-  Xây dựng phương pháp phân tích
+    -  Thời gian lưu
+	-  Hệ số phân giải
+	-  Hệ số đối xứng
+
+-  Thẩm định phương pháp phân tích
+
+	-  Độ đặc hiệu (Tính chọn lọc) 
+	-  Độ tích hợp hệ thống ($RSD$<2.0)
+	-  Khoảng tuyến tính và đường chuẩn ($R^2$>0.995)
+	-  Độ lặp lại ($RSD$<2.0) (Trong ngày và khác ngày)
+	-  Độ thu hồi (Độ đúng) (Khác biệt với thuốc tây)
+
+	
+	
+
+# Tác dụng sinh học của Flavonoid
+	
+-  Tác dụng như vitamin P làm biền thành mạch, giảm tính giòn và tăng tính thấm của mao mạch. Tác dụng được làm tăng khi kết hợp với acid ascorbic.
+-  Tác dụng chống oxy hóa: Do khả năng dọn gốc tự do, tạo phức với kim loại, ức chế phản ứng peroxy hóa lipid. Ngăn chặn nguy cơ xơ vữa đọng mạch, cao huyết áp, ung thư, stress, tiều đường và chống lão hóa.
+-  Bảo vệ gan khi gan bị tổn thương do một số độc chất.
+-  Tăng cường tuần hoàn động mạch và mao mạch: dành cho người bị rối loại trí nhớ.
+-  Tác dụng kháng khuẩn, kháng varus.
+-  Tác dụng chống ung thư do cơ chế chống oxy hóa 
+-  Chống dị ứng 
+-  Chống viêm loét và lành vết thương 
+-  Lợi tiểu 
+-  An thần 
+-  Diệt côn trùng
+
+
+# Phân lập và xác định cấu trúc
+	
+-  Không có phương pháp chung cho chiết xuất flavonoid vì tính tan khác nhau 
+-  Thường loại tạp chất bằng n-hexan sau đó chiết nóng bằng EtOH, MeOH.
+-  Tủ flavonodi bằng muối chì sau đó tác chì bằng cách sục dihydrosulfid
+-  Phân lập flavonoid bằng cột sắc ký
+	
+
+## Chiết xuất và tinh chế quy mô công nghiệp
+Không có phương pháp chung
+-  Chất tinh khiết  để làm thuốc 
+-  Chất tinh khiết để làm chất chuẩn 
+-  Cao dược liệu giàu hàm lượng hoạt chất 
+-  Cao dược liệu có hoạt tính sinh học
+-  Cao dược liệu chuẩn 
+-  Cao dược liệu định chuẩn 
+	
+Một số kỹ thuật chung 
+	
+-  Chiết hồi lưu
+-  Chiết siêu âm 
+-  Chiết ngâm lạnh 
+-  Chiết siêu tới hạn
+	
+
+
+# Dược liệu chứa Flavonoid
+
+
+| Tên dược liệu       | Việt Nam | Hồng Kông | Tên dược liệu        | Việt Nam | Hồng Kông |
+|---------------------|----------|-----------|----------------------|----------|-----------|
+| Actiso              | X        |           | Bạch Quả             |          | X         |
+| Cát căn             | X        | X         | Cúc gai              | X        |           |
+| Mạch môn            | X        | X         | Chè dây              | X        |           |
+| Hòe                 | X (Nụ hoa) | X (Quả)  | Xạ Can               | X        | X         |
+| Râu mèo             | X        |           | Dây mật              |          |           |
+| Núc Nác             | X (Vỏ thân) | X (Quả) | Tô mộc               | X        |           |
+| Kim Ngân            | X        | X         | Citrus               | X        | X         |
+| Dâu tằm             | X        | X         | Hoàng cầm            | X        | X         |
+| Diếp cá             | X        | X         | Bạch quả             | X        | X         |
+| Kim tiền thảo       | X        | X         | Hồng hoa             | X        | X         |
+
+[1] Thông tư 06/VBHN-BYT về QUY ĐỊNH VỀ CHẤT LƯỢNG THUỐC, NGUYÊN LIỆU LÀM THUỐC
+

@@ -1,0 +1,41 @@
+---
+title: "Bài giảng dược liệu"
+author: "TS. Hoàng Lê Sơn"
+format: 
+    html: 
+        toc: true
+        toc-depth: 3
+        lightbox: true
+---
+## Tài liệu tham khảo học phần 
+
+1. Dược điển Việt Nam V
+2. Bài giảng Dược liệu, Đại học Dược Hà nội
+3. Medicinal Natural Products: A Biosynthesis Approach
+4. TEXTBOOK OF PHARMACOGNOSY AND PHYTOCHEMISTRY
+5. Fundamentals of Pharmacognosy and phytotherapy
+6. https://www.ipni.org (Tra mã dược liệu- tên loài, tên họ)
+7. https://lotus.naturalproducts.net
+8. pubchem
+
+## Slide bài giảng 
+
+- [Tinh dầu và các dược liệu chứa tinh dầu](../Duoc_lieu/Tinhdau.qmd)
+- [Flavonoid và các dược liệu chứa flavonoid](../Duoc_lieu/flavonoids.qmd)
+
+## Bài tập 
+
+### Tiểu luận theo nhóm- một nhóm 4 người
+**Mục tiêu:** Phân tích được tiềm năng phát triển sản phẩm chăm sóc sức khỏe của một dược liệu tại Việt nam
+**Hướng dẫn thực hiện:**
+
+- Chọn một dược liệu có trong dược điển việt nam V.
+- Truy cập vào pubmed, nghiên cứu abstract các nghiên cứu liên quan đến tác dụng dược lý của thành phần hóa học hoặc cao chiết của dược liệu.
+    - Xây dựng cơ sở dữ liệu về dược lý: 
+        Bệnh- Mô hình dược lý đã thực hiện- Hoạt chất/Cao chiết- Kết luận tác dụng dược lý
+- Truy cập vào https://clinicaltrials.gov/ để tìm kiếm các nghiên cứu liên quan đến hiệu quả điều trị trên lâm sàng của dược liệu
+    - Xây dựng cơ sở dữ liệu về dược lâm sàng: 
+        Bệnh- Mô tả đối tượng nghiên cứu (chấp nhận và không chấp nhận) - Mô tả dạng bào chế - Đơn độc hay phối hợp - Đơn vị liều- Cách dùng - Kết quả thu được  
+
+- Truy cập vào website: www.duoclieu.github.io phân tích thông tin đã có gồm tên khoa học, phân bố trên thế giới và việt nam, thành phần hóa học, tiêu chuẩn dược điển. Hiệu chỉnh lại thông tin: Đăng nhập, nhập tên sinh viên, MSV. Các lỗi phát hiện dược. 
+- Phân tích thông tin thu được viết tóm tắt các hướng nghiên cứu dược lý và dược lâm sàng đã có. Từ đó đưa đến kết luận có sử dụng hoạt chất hoặc cao chiết để phát triển dạng sản phẩm điều trị bệnh.

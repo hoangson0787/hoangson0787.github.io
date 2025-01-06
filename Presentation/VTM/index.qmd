@@ -1,0 +1,49 @@
+---
+title: "Bài giảng dược cổ truyền"
+author: "TS. Hoàng Lê Sơn"
+format: 
+    html: 
+        toc: true
+        toc-depth: 3
+        lightbox: true
+---
+## Tài liệu tham khảo học phần 
+
+1.  Giáo trình Dược học cổ truyền, Trường Đại học Dược Hà nội.
+2.  Dược điển Việt nam V, Bộ y tế.
+3.  Chinese Herbal Medicines: Comparisons and Characteristics
+4.  Chinese Herbal Formulas: Treatment Principles and Composition Strategies
+5.  Chinese Traditional Herbal Medicine
+6.  Combining Western Herbs and Chinese Medicine: Principles, Practice
+    and Materia Medica
+7.  The foundations of Chinese Medicine: A comprehensive text
+
+## Slide bài giảng 
+
+- [Part A-Các lý thuyết trong y học cổ truyền](../VTM/Part_A_Ly_Luan.qmd)
+- [Part B Các vị thuốc trong y học cổ truyền](../VTM/Part_B_Dai%20cuong%20v%C3%A8%20thuoc%20YHCT.qmd)
+- [Part C-Chế biến thuốc theo nguyen lý y học cổ truyền](../VTM/Part_C_Bai%20Che%20bien.qmd)
+
+## Bài tập 
+
+### Tiểu luận theo nhóm 
+
+**Mục tiêu:** Quan điểm đông y về một bệnh theo tây y, cách trị bệnh và các dược liệu
+
+**Các nội dung cần có**
+
+1. Định nghĩa bệnh theo Bộ Y tế Việt Nam
+2. Dịch nghĩa bệnh theo Đông Y: *Chinese Herbal Formulas: Treatment Principles and Composition Strategies*
+3. Giải thích các thuật ngữ xuất hiện: *The foundations of Chinese Medicine: A comprehensive text*
+4. Các dược liệu chữa bệnh này: Chinese Herbal Formulas: *Treatment Principles and Composition Strategies*
+
+
+### Tiểu luận cá nhân 
+
+**Mục tiêu** Cung cấp thông tin về cách sử dụng một vị thuốc giữa phương Tây, Trung Hoa và Việt nam
+
+**Các nội dung cần có**
+
+-   Trong Dược điển Việt Nam V
+-   *Combining Western Herbs and Chinese Medicine: Principles, Practice and Materia Medica*
+-   *Chinese Herbal Formulas: Treatment Principles and Composition Strategies*
