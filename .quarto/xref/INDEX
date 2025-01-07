@@ -76,7 +76,8 @@
     "builds website from database.html": "5b837c20"
   },
   "Presentation/VTM/Part_A_Ly_Luan.qmd": {
-    "Part_A_Ly_Luan.html": "6778f3dd"
+    "Part_A_Ly_Luan.html": "6778f3dd",
+    "Part_A_Ly_Luan.pptx": "d62af706"
   },
   "Presentation/VTM/Part_B_Dai cuong vè thuoc YHCT.qmd": {
     "Part_B_Dai cuong vè thuoc YHCT.html": "f469fe5a"
@@ -92,5 +93,18 @@
   },
   "Presentation/Duoc_lieu/flavonoids.qmd": {
     "flavonoids.html": "7a52ad47"
+  },
+  "Presentation/BaoCheCacDangDacBiet/Bai1.qmd": {
+    "Bai1.pptx": "3eaf9c38",
+    "Bai1.html": "1502a736"
+  },
+  "Presentation/BaoCheCacDangDacBiet/Bai2.qmd": {
+    "Bai2.html": "f7a41b23"
+  },
+  "Presentation/BaoCheCacDangDacBiet/Bai3.qmd": {
+    "Bai3.html": "951436bc"
+  },
+  "Presentation/BaoCheCacDangDacBiet/index.qmd": {
+    "index.html": "bed4941e"
   }
 }

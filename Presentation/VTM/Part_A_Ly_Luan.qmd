@@ -9,6 +9,7 @@ date: last-modified
 toc: true
 toc-depth: 1
 lightbox: true
+
 format: 
   revealjs:
     slide-number: true
@@ -17,12 +18,12 @@ format:
     footer: "Bộ môn Dược liệu- Dược cổ truyền"
     width: 100%
     height: 100%
-    incremental: true
+    incremental: false
     smaller: false
     auto-stretch: false
     chalkboard: true
     highlight-style: github-dark
-    theme: "../coeos.scss"
+    theme: [default, ../custom.scss] #"../coeos.scss"
 title-slide-attributes: 
   data-background-image: "../VTM/Images/kanagawa.jpg"
   data-background-size: 15%
@@ -186,10 +187,6 @@ Tam bảo đại diện cho ba trạng thái ngưng tụ hoặc tổng hợp c�
 ::: aside
 Qi trong tiếng Anh còn có thể dịch là...
 :::
-
-
-
-
 
 
 ## qi trong cơ thể
@@ -822,12 +819,12 @@ including five zang organs, six fu organs and extraordinary organs.
 
 
 ## Tạng Tâm
-
-
+::: {.callout-important title="Tạng tâm"}
 Tạng TâmLà quân hỏa, trung tâm hoạt động sống của cơ thể 
+:::
 **Đặc điểm:**
 Hành Hỏa, mùi khét, màu đỏ, vị đắng, nóng nhiệt, tiếng cười, vui mừng;
-liên quan đến giấc mơ và nói chuyện\
+liên quan đến giấc mơ và nói chuyện.
 **Chức năng sinh lý**
 
 **Bệnh lý của tạng Tâm**
@@ -843,10 +840,10 @@ liên quan đến giấc mơ và nói chuyện\
     thủy, an thần
 
 ## Tạng Can
-
+::: {.callout-important title="Tạng can"}
 Hành Mộc, mùi tanh, màu xanh, vị chua, gió, la hét, giận dữ,
 nước mắt 
-
+:::
 **Chức năng sinh lý:**
 
 
@@ -858,9 +855,9 @@ nước mắt
 -   Can hỏa thượng viêm: đau đầu, mắt đỏ, mặt đỏ, miệng đắng, chảy máu cam thanh nhiệt giải biểu nhiệt, chỉ huyết
 
 ## Tạng Tỳ
-
+::: {.callout-important title="Tạng tỳ"}
 Hành Thổ, mùi thơm, màu vàng, vị ngọt, thấp ẩm, suy tư, nước bọt
-
+:::
 **Chức năng sinh lý**
 -   Tỳ chủ vận hóa (chuyển vận và tiêu hóa thủy cốc, thủy dịch): Tốt
     dinh dưỡng cơ thể tốt, thủy dịch điều hòa, kém dinh dưỡng thiếu, phù
@@ -896,80 +893,83 @@ Hành Thổ, mùi thơm, màu vàng, vị ngọt, thấp ẩm, suy tư, nước 
 
 
 ## Tạng phế
-Hành Kim, mùi hôi, màu trắng, vị cay, khí hậu táo, ưu tư, nước
-mũi 
+::: {.callout-important title="Tạng phế"}
+Hành Kim, mùi hôi, màu trắng, vị cay, khí hậu táo, ưu tư, nước mũi 
+:::
 **Chức năng sinh lý**
 
 **Bệnh lý**
 
 - Phong tà nhập phế: Sợ lạnh, sốt cao, đau đầu, ho, sổ mũi, đau toàn thân giải biểu + chỉ khái
--   Phế âm hư: Ho, ít đờm, có tia máu, lưỡng quyền hồng, sốt về chiều, nóng âm ỉ trong xương bổ âm, chỉ ho, hóa đờm, chỉ huyết
--   Đờm phế thấp nhiệt: ho, đờm đặc vàng, mùi hôi, đau ngực, sốt hóa đờm hàn, chỉ khái, bình suyễn, thanh nhiệt
--   Khí phế hư: ho nhiều, đờm nhiều loãng, đoản hơi, nhiều mồ hôi, tiếng yếu, mệt mỏi bổ khí, chỉ khái, hóa đờm, cố biểu liễm hãn
+- Phế âm hư: Ho, ít đờm, có tia máu, lưỡng quyền hồng, sốt về chiều, nóng âm ỉ trong xương bổ âm, chỉ ho, hóa đờm, chỉ huyết
+- Đờm phế thấp nhiệt: ho, đờm đặc vàng, mùi hôi, đau ngực, sốt hóa đờm hàn, chỉ khái, bình suyễn, thanh nhiệt
+- Khí phế hư: ho nhiều, đờm nhiều loãng, đoản hơi, nhiều mồ hôi, tiếng yếu, mệt mỏi bổ khí, chỉ khái, hóa đờm, cố biểu liễm hãn
 
 
 
 ## Tạng thận
-
+::: {.callout-important title="Tạng tâm"}
 Tạng thận Hành Thủy, mùi thối, màu đen, vị mặn, khí hậu hàn 
+:::
 **Chức năng sinh lý**
 
 **Bệnh lý**
 - Thận Dương hư nhược: Lưng đau, mỏi gối, chân tay lạnh, liệt Dương, vô sinh bổ Thận Dương + bổ khí
 - Thận Âm bất túc: Tai ù, mờ mắt, mồ hôi trộm, tiểu tiện đục bổ Âm + liễm hãn
-
 - Thận khí hư: Đau lưng, chân tay vô lực, tiểu nhiều, di tinh, đoản hơi, suyễn tức bổ Dương, bổ khí, cố tinh sáp niệu
 
 
 ## Phủ đởm
+::: {.callout-important title="Tạng tâm"}
+Phủ đởm là phủ trung tinh, chứa chất dịch thanh khiết là mật, khí dư của can tiết vào đởm tụ lại mà thành tinh Tính cương trực, công năng quyết đoán chức năng trung chính = giữ thăng bằng chuẩn xác đối với sự hoạt động của tạng phủ khác 
+:::
+**Chức năng sinh lý** Cùng can làm chức năng sơ tiết Thuốc thanh nhiệt táo thấp, hành khí giải uất, sơ can lý khí, lợi thấp
+**Bệnh lý**
+Suy kém tinh thần tổn thương, đởm khí suy nhược bệnh: can đởm uất trệ thấp nhiệt ngưng đọng ảnh hưởng sơ tiết mật hoàng đản (vàng da); đởm hỏa can Dương thịnh cáu giận, đau đầu, cao huyết áp.
 
-Là phủ trung tinh, chứa chất dịch thanh khiết là mật, khí dư của
-can tiết vào đởm tụ lại mà thành tinh Tính cương trực, công năng quyết
-đoán chức năng trung chính = giữ thăng bằng chuẩn xác đối với sự hoạt
-động của tạng phủ khác Suy kém tinh thần tổn thương, đởm khí suy nhược
-bệnh: can đởm uất trệ thấp nhiệt ngưng đọng ảnh hưởng sơ tiết mật hoàng
-đản (vàng da); đởm hỏa can Dương thịnh cáu giận, đau đầu, cao huyết áp.\
-Cùng can làm chức năng sơ tiết Thuốc thanh nhiệt táo thấp, hành khí giải
-uất, sơ can lý khí, lợi thấp
 
 
 ## Phủ vị
-
-thu nạp, làm nhừ thủy cốc, sơ bộ tiêu hóa thức ăn (vị khí) Khí vị
-hòa giáng tiêu hóa thủy cốc tiểu tràng kém lưu trệ thủy cốc, vị khí
+::: {.callout-important title="Tạng tâm"}
+thu nạp, làm nhừ thủy cốc, sơ bộ tiêu hóa thức ăn (vị khí) 
+:::
+**Bệnh lý**
+Khí vị hòa giáng tiêu hóa thủy cốc tiểu tràng kém lưu trệ thủy cốc, vị khí
 thượng nghịch nôn mửa Kém đau bụng, sôi bụng, đầy trướng, nuột chua, nôn
 lợm (vị thực tích); sôi bụng nôn đờm dãi (vị hàn); đau bụng miệng khô
 khát, nuốt chua, hôi miệng (vị nhiệt)
-Thuốc liên quan: kiện vị, tiêu đạo, hành khí, giáng nghịch, thanh nhiệt
+
+>Thuốc liên quan: kiện vị, tiêu đạo, hành khí, giáng nghịch, thanh nhiệt
 
 
 ## Phủ tiêu trường
+::: {.callout-important title="Tạng tâm"}
+Tiếp nhận thức ăn được sơ bộ tiêu hóa từ vị. Phân thanh trọc (thăng thanh, giáng trọc) xuống đại tràng Thanh huyết
+tâm. Thủy dịch cặn bã thận bàng quang nước tiểu
+:::
 
-
-Tiếp nhận thức ăn được sơ bộ tiêu hóa từ vị
-Phân thanh trọc (thăng thanh, giáng trọc) xuống đại tràng Thanh huyết
-tâm
-Thủy dịch cặn bã thận bàng quang nước tiểu
-Thuốc liên quan: thanh nhiệt táo thấp, kiện tỳ, tiêu đạo
+>Thuốc liên quan: thanh nhiệt táo thấp, kiện tỳ, tiêu đạo
 
 
 
 ## Phủ đại trường
-
-
+::: {.callout-important title="Tạng tâm"}
 Tiếp nhận cặn bã từ tiểu tràng xuống hấp thu 1 phần nước
+:::
 kém (hư hàn): sôi bụng, đau bụng, phân nát lỏng; nhiệt thực: quá mức táo
 kết nhiệt kết bàng lưu (lâu ngày, phân tròn rắn có nhày bao quanh)\
 Tống thải cặn bã ra ngoài\
 Kinh đại trường liên quan phế bệnh phế đại tràng: đoản hơi táo bón; phế
 đoản khí tiết tả\
-Thuốc liên quan: thanh nhiệt táo\
+>Thuốc liên quan: thanh nhiệt táo\
 
 
 ## Phủ bàng quang 
-Chứa đựng và thải trừ nước tiểu: Thủy dịch qua thận phân
-thanh trọc (thanh trở lại cơ thể, trọc đi vào bàng quang thành nước tiểu
-khí hóa thận dương)\
+::: {.callout-important title="Tạng tâm"}
+Chứa đựng và thải trừ nước tiểu: Thủy dịch qua thận phân thanh trọc (thanh trở lại cơ thể, trọc đi vào bàng quang thành nước tiểu
+khí hóa thận dương)
+:::
+
 Bệnh: bàng quang thấp nhiệt, tiểu tiện vàng đỏ, buốt rắt, sỏi bàng
 quang\
 Thuốc liên quan: lợi thủy thẩm thấp , thanh nhiệt táo thấp\
@@ -1000,18 +1000,23 @@ cơ quan độc lập
 
 ## Phủ kỳ hằng
 
-- Não: Trong hộp so thông với tủy não vi tủy chi hải. liên quan mật thiết
+> Não: Trong hộp so thông với tủy não vi tủy chi hải. liên quan mật thiết
 xương tủy não tủy tốt sinh lực dồi dào. không tốt đau đầu, ù tai hoa
-mắt, mệt mỏi vô lực. tủy: Sinh ra do thận, tàng trong xương là chất dinh
+mắt, mệt mỏi vô lực. 
+
+> tủy: Sinh ra do thận, tàng trong xương là chất dinh
 dưỡng của chát dinh dưỡng của xương. Não tủy chứa trong khoa xương nhưng
 liên quan toàn thân chất dinh dưỡng vào nuôi não Tủy Tổn thương dịch ảnh
 hưỡng dịch não tủy Thương tân vong dịch co duỗi gân cốt khó khăn ù tai,
-tủy thiếu Cốt/xương: Bộ khung cơ thể giữ hình thế khỏe đẹp được nuôi bởi
+tủy thiếu 
+> Cốt/xương: Bộ khung cơ thể giữ hình thế khỏe đẹp được nuôi bởi
 tủy tủy quyết định tính bền chắc tủy hư hao xương thiếu dinh dưỡng. Còi
-xương giòn xương Mạch: Đường vận hành khí huyết tâm phế Phân bố toàn
+xương giòn xương 
+> Mạch: Đường vận hành khí huyết tâm phế Phân bố toàn
 thân 2 công năng Khí huyết tuần hoàn theo 1 chiều hướng nhất định Vận
 chuyển tinh hoa thủy cốc dinh Dương toàn thân Vận hành bởi khí Mạch là
-phủ của huyết, lấy khí làm gốc Bào cung:Chủ về kinh nguyệt và Dưỡng dục
+phủ của huyết, lấy khí làm gốc 
+> Bào cung:Chủ về kinh nguyệt và Dưỡng dục
 thai nhi Quan hệ mật thiết với thận, nhâm mạch, xung mạch khởi nguồn từ
 bào cung Thận khí vượng bào cung phát dục tốt kinh nguyệt tốt thụ thai
 tốt Thận khí, mạch xung nhâm kém bế kinh, khả năng sinh con kém, vô sinh
@@ -1073,9 +1078,6 @@ organs both in terms of physiology and pathology.
 | Spleen        | Stomach          | Earth          |
 | Kidneys       | Bladder          | Water          |
 | Pericardium   | Triple Burner    | Minister Fire  |
-
-
-
 
 -   Heart Qi
 -   Heart blood

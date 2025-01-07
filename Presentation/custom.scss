@@ -1,0 +1,80 @@
+/*-- scss:defaults --*/
+$jet: #131516;
+$accent: #107895;
+$accent2: #9a2515;
+// $accent2: #e64173;
+//$right-arrow: "\2192"; // Unicode character for right arrow
+$presentation-font-size-root: 32px;
+/*-- scss:rules --*/
+// Custom colours and variables
+
+#title-slide {
+  text-align: left;
+
+  .title {
+    color: $body-color;
+    font-size: 80px !important;
+    // font-weight: 350;
+    font-weight: lighter;
+  }
+
+  .subtitle {
+    color: $accent;
+    font-size: 100pt !important;
+    font-style: italic;
+    margin-top: 0em;
+    font-weight: lighter;
+  }
+
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    font-style: italic;
+    // font-size: 80%;
+    // color: #7F7F7F;
+  }
+
+  .author,
+  .quarto-title-author-name {
+    color: $body-color;
+  }
+
+  .quarto-title-authors {
+    display: flex;
+    justify-content: left;
+
+    .quarto-title-author {
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  }
+
+}
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    padding: 16px;
+    margin: 8px;
+    flex-basis: calc(33.333% - 16px); /* Chia đều không gian cho 3 cột */
+    box-sizing: border-box;
+    font-size: 18pt;
+  }
+  
+  .card-title {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  

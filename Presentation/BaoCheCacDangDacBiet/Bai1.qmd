@@ -1,0 +1,86 @@
+---
+title: "Các dạng bào chế đặc biệt"
+subtitle: "Viên nén đặc biệt"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+format:
+  #pptx: default
+  revealjs:
+    slide-number: true
+    css: "../styles.css"
+    logo: "../VTM/Images/kanagawa.jpg"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: [default, ../custom.scss] #"../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../VTM/Images/kanagawa.jpg"
+  data-background-size: 15%
+  data-background-position: 2% 2%
+---
+
+
+# Giới thiệu chung
+## Nội dung môn học
+    - Viên sủi bọt
+    - Viên nhai
+    - Viên ngậm
+    - Viên đặt
+    - Các viên nén đặc biệt khác
+## Tài liệu tham khảo
+1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
+2. Công nghệ nano và ứng dụng trong sản xuất thuốc, Bộ môn công nghiệp dược- Đại học Dược Hà nội (2019), Nhà xuất bản Y học Hà nội.
+3. Viên nén đặc biệt và dạng bào chế hiện đại, Bộ môn bào chế- công nghệ Dược- Trường Đại học Đại nam (2022), Nhà xuất bản Y học Hà nội.
+
+
+## Các khái niệm
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-warning title="Viên nén"}
+Viên nén là dạng thuốc rắn, mỗi viên là một đơn vị phân liều, dùng để uống, nhai, ngậm, đặt hoặc hòa với nước để uống, để súc miệng, để rửa…. Viên nén chứa một hoặc nhiều dược chất, có thể thêm các tá dược độn, tá dược rã, tá dược dính, tá dược trơn, tá dược bao, tá dược màu… được nén thành khối hình trụ dẹt; thuôn (caplet) hoặc các hình dạng khác. Viên có thể được bao.
+:::
+
+::: {.callout-important title="Viên sủi bọt"}
+Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi bọt gồm các acid hữu cơ và muối carbonat hoặc  PL-28  hydrocarbonat, phản ứng khi có nước giải phóng khí carbon dioxyd. Viên được hòa tan hoặc phân tán trong nước trước khi dùng.
+:::
+
+::: {.callout-important title="Viên ngậm"}
+Viên ngậm thường là viên nén không bao được điều chế để dược chất giải phóng tại khoang miệng gây tác dụng tại chỗ hay hấp thu qua niêm mạc dưới lưỡi.
+:::
+
+::: {.callout-important title="Viên nhai"}
+Viên nén không bao 
+> Viên nhai không phải thử độ rã 
+:::
+
+
+:::
+
+::: {.column width="50%"}
+::: {.callout-warning title="Thuốc đặt"}
+Thuốc đặt là dạng thuốc rắn, chứa một hoặc nhiều dược chất, dùng để đặt vào các hốc tự nhiên của cơ thể. Thuốc có thể có tác dụng tại chỗ hoặc toàn thân.
+Khi đặt vào vị trí trên cơ thể, thuốc đặt thường chảy ra, mềm ở thân nhiệt hoặc hòa tan dần trong niêm dịch để giải phóng dược chất.
+Tá dược dùng cho thuốc đặt bao gồm: Bơ cacao và chế phẩm của bơ cacao, hỗn hợp gelatin – glycerin – nước, dầu thực vật hydrogen hóa, glycerid bán tổng hợp, hỗn hợp polyethylen glycol khối lượng phân tử khác nhau (PEG 400, PEG 1500, PEG 1540, PEG 3000, PEG 4000), este của acid béo với PEG.
+:::
+::: {.callout-important title="Viên đặt"}
+Viên nén đặt ở các hôc tự nhiên
+:::
+
+
+::::
+
+
+::: {.callout-important title="Viên nén đặc biệt khác"}
+CÁc viên nén đặc biệt khác
+:::

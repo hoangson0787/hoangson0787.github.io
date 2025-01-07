@@ -1,0 +1,44 @@
+---
+title: "Bài giảng các dạng bào chế đặc biệt"
+author: "TS. Hoàng Lê Sơn"
+format: 
+    html: 
+        toc: true
+        toc-depth: 3
+        lightbox: true
+---
+## Lời giới thiệu
+Thật kỳ lạ tại sao một website về dược liệu lại có phần bào chế. Một nhược điểm cố hữu của thuốc từ dược liệu (cao chiết và cả hoạt chất tự nhiên) đó chính là vấn đề sinh khả dụng. Việc áp dụng các phương pháp bào chế hiện đại để cải thiện sinh khả dụng là cần thiết. Trong phần này, tôi có cung cấp các nội dung xung quanh liên quan đến bào chế các dạng đặc biệt nói chung. Việc áp dụng trong dược liệu tùy thuộc vào sức sáng tạo của các bạn. 
+## Tài liệu tham khảo học phần 
+
+1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
+2. Công nghệ nano và ứng dụng trong sản xuất thuốc, Bộ môn công nghiệp dược- Đại học Dược Hà nội (2019), Nhà xuất bản Y học Hà nội.
+3. Viên nén đặc biệt và dạng bào chế hiện đại, Bộ môn bào chế- công nghệ Dược- Trường Đại học Đại nam (2022), Nhà xuất bản Y học Hà nội
+## Slide bài giảng 
+
+- [Viên nén đặc biệt](../BaoCheCacDangDacBiet/Bai1.qmd)
+    - Viên sủi bọt
+    - Viên nhai
+    - Viên ngậm
+    - Viên đặt
+    - Các viên nén đặc biệt khác
+- [Đại cương về các hệ thuốc giải phóng kiểm soát](../BaoCheCacDangDacBiet/Bai2.qmd)
+    - Định nghĩa, phân loại
+    - Ưu nhược điểm 
+    - Mô hình giải phóng dược chất
+    - Hệ màng bao không tan
+    - Hệ màng bao hòa tan
+    - Hệ cốt không tan
+    - Hệ cốt thân nước hòa tan
+    - Hệ bơm thẩm thấu
+    - Đánh giá một số tính chất đặc trưng của hệ thuốc
+- [Hệ thuốc giải phong theo nhịp](../BaoCheCacDangDacBiet/Bai3.qmd)
+    - Đại cương
+    - Các hệ thuốc giải phóng theo nhịp
+    - Đánh giá một số chỉ tiêu đặc trưng của thuốc giải phóng theo nhịp
+- [Hệ thuốc giải phóng tại đích](../BaoCheCacDangDacBiet/Bai4.qmd)
+    - Hệ thuốc nano
+    - Hệ thuốc liposome
+    - Một số kỹ thuật áp dụng trong bào chế hệ nano và liposome
+    - Đánh giá một số chỉ tiêu đặc trưng của hệ thuốc nano và liposome
+## Bài tập 
