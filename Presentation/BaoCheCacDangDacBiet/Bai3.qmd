@@ -1,0 +1,122 @@
+---
+title: "Các dạng bào chế đặc biệt"
+subtitle: "Các hệ thuốc giải phóng kiểm soát nồng độ dược chất theo thời gian"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+format:
+  #pptx: default
+  revealjs:
+    slide-number: true
+    css: "../styles.css"
+    logo: "../../images/9.png"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: [default, ../custom.scss] #"../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../../images/9.png"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+
+# Hệ thuốc màng bao không tan kiểm soát giải phóng hoạt chất
+
+## Đặc điểm thành phần, cấu trúc hệ
+**Cấu trúc hệ thuốc:** được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày crua màng khi tiếp xúc trực tiếp với môi trường sinh học.
+
+**Thành phần hệ thuốc:**
+*Dược chất:* dạng muối dễ tan trong nước hoặc được cải thiện độ tan nhờ tạo hệ phân tán rắn, tạo dẫn chất, thêm chất diện hoạt
+*Tá dược:* Avicel, lactose hay muối carbonat không tan tạo kênh dẫn nước. Dược chất có thể tạo pellet, hạt
+*Màng bao:* 
+
+-polymer tạo màng thường không tan trong nước 
+  - EC(Ethyl cellulose): EC thường phối hợp với HPMC, PEG. Pha sẵn như Aquacoat ECD
+  - Polymethacrylat: Eudragit RS, Eudragit RL, eudragit NE
+- Chất hóa dẻo
+- Chất màu
+- Chất tạo đục TiO2, talc
+
+## Cơ chế và mô hình động học giải phóng dược chất từ màng bao không tan
+
+Nước từ môi trường sinh học thẩm thấu qua màng vào trong hệ thuốc có chứa dược chất, dược chất trong hệ được hòa tan, dược chất đã hòa tan trong hệ khuyếch tán qua màng bao ra môi trường
+Mô hình bậc 0
+
+## Ví dụ 
+# Hệ màng bao hòa tan ăn mòn kiểm soát giải phóng dược chất
+## Đặc điểm thành phần cấu trúc của hệ 
+Cấu trúc hệ thuốc: Hệ thuốc chứa dược chất được bao màng polymer chậm hòa tan bị mòn dân trong môi trường dịch sinh học, màng polymer thân nước trương nở gel tạo ra hàng rao kiểm soát làm chậm và kéo dài quá trình giải phóng. Màng bao có thể có độ dày mỏng khác nhau: 1 lớp bao ngoài hệ chưa dược chất hoặc bao từng lớp màng xen kẽ lớp dược chất tọa ra sự giải phóng ngắt quãng.
+Thành phần hệ thuốc
+Tá dược bao hòa tan mòn dần:
+    - polymer thân nước: HPMC, HPC
+    - Tá dược rắn không tan như tio2, Talc, Megnesi stearat
+## Cơ chế và mô hình động học giải phóng dược chất 
+Cơ chế giải phóng dược chất
+Nước trương nở màng bao tạo lớp gel và lớp dịch polymer có độ nhớt cao.
+Phần phần dược chất trong lớp màng gel được hòa tan khuy ếch tán chậm qua hàng rào gel và lớp dịch có độ nhớt cao và được giải phóng ra môi trường cùng sự hòa tan dần của lớp gel, lớp dịch đậm đặc polymer
+Dược chất được hòa tan ở giai đoạn cuối cùng lớp dịch polymer đã hòa tan khuyêsch tán vào môi trường sin học
+Mô hình động học
+Mô hình bậc 1 hoặc bậc khác, không theo bậc 0
+
+# Hệ thuốc cốt không tan kiểm soát giải phóng dược chất
+## Đặc điểm thành phần cấu trúc hệ thuốc
+Cấu trúc hệ thuốc: Dược chất phân tán trong cốt không tan trong môi trường sinh học. Cốt đóng vai trò như khung giá mang thuốc. Sau khi tiếp xúc với nước của môi trường. dược chất được hòa tan trong các kênh nước được tạo ra trong cốt và khuyếch tán giải phóng ra khỏi hệ thuosc. Cốt sơ nước có thể bị ăn mòn trong đường tiêu hóa để giải phóng dược chất. 
+Thành phần
+Dược chất là dẫn chất hoặc muối dễ tan. Dược chất có thể hòa tan trong dung môi thích hợp trước khi phân tán vào cốt.
+GTas dược là polymer không tan trong nước như ethyl cellulose, poly vinyl chlorid 
+Một số tá dược vô cơ như dicalci phosphat, calci sulphat. 
+Tá dược sơ nước bị ăn mòn trong đường tiêu hóa dưới tác dụng của hệ enzyme, ph bao gồm saps, alcol béo, các acid béo
+## Cơ chế và mô hình động học giải phóng dược chất
+Cơ chế giả phóng dược chất
+Hệ polymer không tan: nước thâm nhập vào hệ theo các kênh khuyếch tán có trong cốt, dược chất hòa tan trong nước có trong kênh, sau đó khuyếch tán ra môi trường từ bề mặt cốt.
+Hệ cố sơ nước ăn mòn, dược chất hòa tan trên bề mặt cốt cùng với quá trình ăn mòn cốt trong đường tiêu hóa.
+Mô hình dược chất: Mô hình higuchi
+# Hệ thuốc giải phóng kiểm soát cốt thân nước hòa tan 
+## Đặc điểm thành phần cáu trúc hệ thuốc
+Cấu trúc hệ thuốc: Dược chất được phân tán trong cốt thân nước, trương nở hòa tan mòn dần trong môi trường sinh học trong quá trình giải phóng dược chất
+thành phần
+dược chất: dệ tan trong nước 
+Tá dược: HPMC hoặc kết  hợp
+HPMC dòng K và E 
+## Cơ chế và mô hình giải phóng dược chất
+Cơ chế giải phóng dược chất
+Nước trong môi trường thấm vào hệ cốt làm trương nở cốt gel, sau đó dược chất hòa tan trong nước có trong hệ cốt đã trương nở, khuyêch tán ra môi trường qua hàng rào kiểm soát là lớp gel, đồng thời giải phóng ra môi trường khi lớp gel bị hòa tan ăn mòn dân
+Mô hình động học giải phóng dược chất
+Động học bậc 1 theo phương trình Noyes-Whitney
+## Hệ thuốc bơm thẩm thấu giải phóng kiểm soát 
+Cấu trúc hệ thuốc
+Dược chất được bao trong một màng bao bán thấm có lỗ giải phóng dược chất. Màng này chỉ cho dung môi thấm vào hòa tan dược chất. áp suất thẩm thấu tạo ra trong hệ là động lực đẩy dung dịch dược chất qua miệng giếng giải phóng dược chất.
+Phân loại
+- Hệ bơm thẩm thấu 1 ngăn: Hệ bơm thẩm thấu quy ước, hệ bơm thẩm thấu tự tạo lỗ xốp, hệ bơm thẩm thấu đơn thành phần, hệ bơm thẩm thấu tự nhũ hóa
+- Hệ bơm thẩm thấu 2 ngăn: hệ bơm thẩm thấu đẩy kéo, hệ bơm thẩm thấu đẩy dính, hệ bơm thẩm thấu kiểu sandwich, hệ bởm thảm thấu chất lỏng.
+Thành phần
+Dược chất: bệnh mạn tính như nifedipin, glipzid, famotidin, tramadol, carbamazepin, diliazem, metoprolol
+Tá dược thẩm thấu: muối vô cơ như natri clorid, kali clorid, muối natri kali sulfat hoặc carbonat, các loại đường như glucose, sorbitol, sucrose
+Tá dược trương nở: polymer hút nước như tinh bột biến tính, crossarmelose, cellulose vi tinh thể, carbopol, HPLC, NaCMC
+Tá dược trơn: Magesi stearat, titan dioxd, aerosil, bột talcs
+Tá dược tạo kênh: có thể trương nở hoặc không trương nỏ: kaolin, silic dioxyd, natri lauryl sulfat, polyvinyl pryrrrolidon, bentonit, polyester, 
+Thành phần tạo màng:
+màng bán thấm: cellulose acetatm cellulose acetat butylra, cellulose triacetat
+tá dược tạo lỗ xốp: tự tạo lỗ xốp hoặc hệ nhiều bơm thẩm thấu: NaCl, NaBr, KCl, KHSO4, CaCl2, CaNitrat, manitol, lactose, sorbitol
+Dung môi bao: Dung mỗi hưu cơ như aceton, methanol, ethanol, 
+Chất hóa dẻo: PG, triethyl citrat, diethyl tartarat, deiacetin,
+## Cơ chế giải phóng dược chất
+- Hệ bơm thẩm thấu quy ước:
+nước qua màng bán thấm vào trong thuốc, dược chất hòa tan tạo ra dung dịch có áp suát thẩm thấu lớn trong hệ, dung dịch dược chất được bơm đẩy ra môi trường sinh học dựa trên các lô giải phóng dược chất đến khi cân bằng áp suất trong ngoài màng
+- Hệ thơm thẩm thấy tự tạo lỗ xốp:
+Nươc tieeos xuasc màng bao, hòa tan các chất tan là tá dược tạo lỗ xốp trong bằng bao, tạo hệ vi lỗ. Nước qua màng bán thấm và vi lỗ xốp vào trong hệ hòa tan dược chất và chất tan có trong hệ thuốc tạo áp suất thẩm thấu lớn. Dung dịch được bơm đẩy ra môi trường qua hệ vi miệng lỗ giải phóng đên skhi cần 
+- Hệ bơm thẩm thấu kéo-đẩy:
+Nước thẩm thấu, hòa tan dược chất tạo dịch, gây trương nở tá dược polymer làm lớp đẩy. Dung dịch thuốc giải phóng ra khỏi thuốc dựa trên áp suất tạo ra trong hệ do trương nở polymer và áp suất thẩm thấu
+- Hệ bơm thẩm thấu kiểu sandwich; tương tự kiểu kéo đẩy
+- Hệ bơm thẩm thấu lỏng: hệ thuốc dược chất lỏng thân dầu hoặc dung dịch dầu có thêm chất như hóa đóng trong nang mềm hoặc nang cứng
+Nước thấm thấm qua màng vào trong, nước hòa tan dược chất dễ tan tạo ra áp suất thẩm thấu. dược chất lỏng hoặc dung dịch đẩy nhờ áp suất tring hệ qua miện lỗ giải phóng. 

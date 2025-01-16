@@ -14,14 +14,16 @@ Thật kỳ lạ tại sao một website về dược liệu lại có phần b�
 1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
 2. Công nghệ nano và ứng dụng trong sản xuất thuốc, Bộ môn công nghiệp dược- Đại học Dược Hà nội (2019), Nhà xuất bản Y học Hà nội.
 3. Viên nén đặc biệt và dạng bào chế hiện đại, Bộ môn bào chế- công nghệ Dược- Trường Đại học Đại nam (2022), Nhà xuất bản Y học Hà nội
+
 ## Slide bài giảng 
 
 - [Viên nén đặc biệt](../BaoCheCacDangDacBiet/Bai1.qmd)
     - Viên sủi bọt
     - Viên nhai
     - Viên ngậm
-    - Viên đặt
+    - Viên đặt dưới lưỡi
     - Các viên nén đặc biệt khác
+
 - [Đại cương về các hệ thuốc giải phóng kiểm soát](../BaoCheCacDangDacBiet/Bai2.qmd)
     - Định nghĩa, phân loại
     - Ưu nhược điểm 
@@ -41,4 +43,5 @@ Thật kỳ lạ tại sao một website về dược liệu lại có phần b�
     - Hệ thuốc liposome
     - Một số kỹ thuật áp dụng trong bào chế hệ nano và liposome
     - Đánh giá một số chỉ tiêu đặc trưng của hệ thuốc nano và liposome
+
 ## Bài tập 

@@ -14,8 +14,8 @@ format:
   revealjs:
     slide-number: true
     css: "../styles.css"
-    logo: "../VTM/Images/kanagawa.jpg"
-    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    logo: "../../images/9.png"
+    footer: "Các dạng bào chế đặc biệt"
     width: 100%
     height: 100%
     incremental: false
@@ -25,62 +25,478 @@ format:
     highlight-style: github-dark
     theme: [default, ../custom.scss] #"../coeos.scss"
 title-slide-attributes: 
-  data-background-image: "../VTM/Images/kanagawa.jpg"
-  data-background-size: 15%
-  data-background-position: 2% 2%
+  data-background-image: "../../images/9.png"
+  data-background-size: 100%
+  data-background-position: 0% 0%
 ---
 
 
 # Giới thiệu chung
-## Nội dung môn học
-    - Viên sủi bọt
-    - Viên nhai
-    - Viên ngậm
-    - Viên đặt
-    - Các viên nén đặc biệt khác
+## Nội dung bài học
+
+- Viên sủi bọt Effervescent tablets
+- Viên nhai Chewable tablets
+- Viên ngậm Buccal tablets
+- Viên đặt dưới lưỡi Sublingual tablets
+
 ## Tài liệu tham khảo
+
 1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
 2. Công nghệ nano và ứng dụng trong sản xuất thuốc, Bộ môn công nghiệp dược- Đại học Dược Hà nội (2019), Nhà xuất bản Y học Hà nội.
 3. Viên nén đặc biệt và dạng bào chế hiện đại, Bộ môn bào chế- công nghệ Dược- Trường Đại học Đại nam (2022), Nhà xuất bản Y học Hà nội.
 
 
-## Các khái niệm
+# Viên nén đặc biệt <br> Các khái niệm
+## Khái niệm viên nén <br> Viên nén đặc biệt
 :::: {.columns}
-::: {.column width="50%"}
+::: {.column width="40%"}
 ::: {.callout-warning title="Viên nén"}
 Viên nén là dạng thuốc rắn, mỗi viên là một đơn vị phân liều, dùng để uống, nhai, ngậm, đặt hoặc hòa với nước để uống, để súc miệng, để rửa…. Viên nén chứa một hoặc nhiều dược chất, có thể thêm các tá dược độn, tá dược rã, tá dược dính, tá dược trơn, tá dược bao, tá dược màu… được nén thành khối hình trụ dẹt; thuôn (caplet) hoặc các hình dạng khác. Viên có thể được bao.
 :::
 
-::: {.callout-important title="Viên sủi bọt"}
-Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi bọt gồm các acid hữu cơ và muối carbonat hoặc  PL-28  hydrocarbonat, phản ứng khi có nước giải phóng khí carbon dioxyd. Viên được hòa tan hoặc phân tán trong nước trước khi dùng.
+
+>Các loại tá dược:
+> 1. Tá dược độn, 2. Tá dược rã, 3. Tá dược dính, 4. Tá dược đệm, 5. Tá dược hút, 6. Tá dược làm ẩm, 7. Tá dược màu, 8. Tá dược điều hương, vị, 9. Tá dược kiểm soát giải phóng dược chất
+
+>Phương pháp sản xuất:
+
+- Tạo hạt ướt
+- Tạo hạt khô
+- Dập thẳng
+
 :::
 
-::: {.callout-important title="Viên ngậm"}
+::: {.column width="60%"}
+
+> Trừ viên sủi bọt có thể dành cho đường dùng khác, các dạng viên nén đặc biệt này đều giải phóng tại khoang miệng. Vấn đề mùi và vị cần phải được xem xét.
+
+::: {.callout-important title="Viên sủi bọt Effervescent tablets"}
+Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi bọt gồm các acid hữu cơ và muối carbonat hoặc  hydrocarbonat, phản ứng khi có nước giải phóng khí carbon dioxyd. Viên được hòa tan hoặc phân tán trong nước trước khi dùng.
+:::
+
+::: {.callout-important title="Viên ngậm Buccal tablets"}
 Viên ngậm thường là viên nén không bao được điều chế để dược chất giải phóng tại khoang miệng gây tác dụng tại chỗ hay hấp thu qua niêm mạc dưới lưỡi.
 :::
-
-::: {.callout-important title="Viên nhai"}
-Viên nén không bao 
+::: {.callout-important title="Viên nhai Chewable tablets"}
+Theo dược điển việt nam V- Viên nén không bao 
 > Viên nhai không phải thử độ rã 
+Theo dược điển Mỹ, Viên nhai là dạng viên được nhai hoạc nghiền nát trong miệng trước khi nuốt. Viên nhai thường chứa các dược chất tác dụng tại chỗ ở dạ dày (antacid) hoặc các dược chất hấp thu để gây tác dụng toàn thân (vitamin, aspirin)
+:::
+::: {.callout-important title="Viên đặt dưới lưỡi Sublingual tablets"}
+Viên đặt dưới lưỡi
+:::
+:::
+::::
+
+
+# Viên sủi bọt
+## Khái niệm 
+::: {.callout-important title="Viên sủi bọt Effervescent tablets"}
+Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi bọt gồm các acid hữu cơ và muối carbonat hoặc  hydrocarbonat, phản ứng khi có nước giải phóng khí carbon dioxyd. Viên được hòa tan hoặc phân tán trong nước trước khi dùng.
 :::
 
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="Ưu điểm"}
+- Thích hợp cho người khó nuốt viên nén
+- Giảm kích ứng niêm mạc
+- Tăng sinh khả dụng (giải phóng, hòa tan trước, CO2 làm tăng nhu động ruột)
+- Ché dấu mùi vị của dược chất
+:::
+Phân loại:
+
+- Viên sủi dùng để pha dung dịch đường uống
+- Viên sủi dùng ngoài
+
+Yêu cầu chất lượng 
+
+- Phải rã trong thời gian 5 phút với lượng nước nhỏ 200 ml, nhiệt độ phòng $15-25^oC$.
+- Khi rã sinh ra bọt
+- Sau khi sủi bọt cần thu được dạng dung dịch hoặc hỗn dịch đồng nhất.
+:::
+::: {.column width="1%"}
+:::
+::: {.column width="49%"}
+
+::: {.callout-warning title="Nhược điểm"}
+- Phải bào chế môi trường có giám sát độ ẩm
+- Không dùng cho người kiêng muố, bệnh nhận suy thận (do có lượng muối kiềm lớn)
+:::
+{{< video https://www.youtube.com/embed/pFN4GXcQkIQ width="100%" height="600">}}
+
+:::
+::::
+
+
+
+
+
+## Thành phần 
+
+**Hoạt chất**
+
+> Giảm đau, hạ sốt, kháng histamin, vitamin và khoáng chất, các antacid hoặc các tác nhân oxy hóa như natri perborat, kali monoperrsulfat trong viên sủi vệ sinh răng giả.
+
+**Tá dược**
+
+1. Tá tạo sủi bọt
+  - Acid hữu cơ
+    - acid thực phẩm: acid citric, acid tartaric, acid malic, acid fumaric, acid succinic và acid adipic
+    - acid anhydrid: Anhudride succinic
+    - Các muối acid: Natri dihydrophosphat, dinatri dihydro pyrophoisphate, muối của acid citric, natri sulfit
+  - Các carbonat: Natri bicarrbonate, Natri carbonate, Kali Bicarrbonate, Natri sesquicarbonate, Natri glycine carbonate, L-lysince, Arginin carbonat, calci carbonate
+  - Nguồn sửi bọt khác: Natri perborate khan 
+2. Tá dược dính: Tá dược dính khô như lactose, dextrose, manitol dùng ít.Polyvinyl pyrolidone thường được sử dụng.
+3. Tá dược độn: Tá dược đợn hay sử dụng là natri bicarbonate, NaCl, NS2SO4
+4. Tá dược trơn: 
+  - Không tan trong nước: Magnesi stearate, calci stearate, kẽm sterate, talc, polytetrafloroethylene
+  - Tan trong nước: natri benoate, PEG8000, chất diện hoạt như natri laurisulfat, magensi laurifulfat
+5. Thành phần khác:
+  - Chất màu, chất thơm
+
+## Kỹ thuật sản xuất 
+
+
+Nguyên tắc: Giống như bào chế quy ước nhưng phải đảm bảo:
+
+- Kiểm soát nhiệt độ <$25^OC$, độ ẩm nhỏ hơn 25%.
+- Nguyên liệu cũng đảm bảo độ ẩm nếu mở ra phải bảo quản trong điều kiện độ ẩm thấp tránh hấp thụ ẩm từ không khí. 
+
+{{< video https://www.youtube.com/embed/SLPDTeFtbJc width="70%" height="70%">}}
+
+## Kiểm soát chất lượng 
+
+
+
+# Viên ngậm Lozenges
+## Khái niệm
+::: {.callout-important title="Viên ngậm"}
+Viên ngậm thường là viên nén không bao được điều chế để dược chất giải phóng tại khoang miệng gây tác dụng tại chỗ hay hấp thu qua niêm mạc dưới lưỡi.
+
+:::
+
+:::: {.columns}
+:::{.column width="30%"}
+Tiêu chí: 
+
+- Giải phóng dược chất từ từ, kéo dài: thời gian rã khoảng 4 giờ
+- Mùi vị dễ chịu
+
+Phân loại:
+
+- Kẹo ngậm cứng
+- Kẹo ngậm cứng nhân mềm
+- Viên nén ngậm
+:::
+
+:::{.column width="70%"}
+{{< video https://www.youtube.com/embed/SLPDTeFtbJc width="100%" height="800">}}
+:::
+::::
+
+
+## Thành phần
+
+**Hoạt chất**
+- Đông dược: Cao dược liệu, tinh dầu bạc hà
+- Hoạt chất: Vitamin C, Menthol, Benzydamine hydrochloride Cetylpyridinium chloride
+
+**Tá dược**
+
+Tinh bột sắn
+Glucose
+calci carbonat
+natri clorid
+acid citric
+aspartam
+aerosil 
+magnesi stearat
+đường trắng
+
+## Kỹ thuật sản xuất <br> Viên ngậm cứng
+
+{{< video https://www.youtube.com/embed/GiMJ4vcuTLw width="90%" height="900">}}
+
+## Kỹ thuật sản xuất <br> Viên nén ngậm
+
+{{< video https://www.youtube.com/embed/_1c2d6T8x2I width="100%" height="900">}}
+
+## Kỹ thuật sản xuất <br> Viên ngậm gelatin
+
+{{< video https://www.youtube.com/embed/Dm6xMw8rr2A width="100%" height="900">}}
+
+## Kỹ thuật sản xuất <br> Viên ngậm PEG
+
+{{< video https://www.youtube.com/embed/0wntBYwQ7uA width="100%" height="900">}}
+
+
+
+## Kiểm soát chất lượng
+
+
+# Viên nhai <br> Chewable tablets
+:::{.callout-important title="Khái niệm"}
+Theo dược điển việt nam V- Viên nén không bao 
+> Viên nhai không phải thử độ rã 
+Theo dược điển Mỹ, Viên nhai là dạng viên được nhai hoạc nghiền nát trong miệng trước khi nuốt. Viên nhai thường chứa các dược chất tác dụng tại chỗ ở dạ dày (antacid) hoặc các dược chất hấp thu để gây tác dụng toàn thân (vitamin, aspirin)
+:::
+:::: {.columns}
+:::{.column width=30%}
+
+Phân loại:
+
+- Viên nén phải nhai
+- Viên nén phải được nhai hoặc nghiền nát trước khi dùng
+- Viên nén có thể được nhai hoặc phân tán trong nước trước khi dùng
+- Viên nén có thể nhai hoặc nuốt cả viên 
+- Viên nén không có hướng dẫn cụ thể về cách nhai. 
+:::
+:::{.column width="70%"}
+{{< video https://www.youtube.com/embed/nTZg-XU3nDA width="100%" height="600">}}
+
+:::
+::::
+
+
+
+## Ưu nhược điểm 
+::::{.columns}
+:::{.column width="50%"}
+:::{.callout-note title="Ưu điểm"}
+
+- sinh khả dụng cao hơn viên nén thường
+- Tiện dụng không cần nước
+- Có thể thay thế dạng thuốc lỏng khi cần cho tác dụng nhanh
+- Tăng sự chấp thuận của bệnh nhân: Vị dễ chịu, dễ nuốt
+- Tạo sự cạnh tranh trên thị trường
+
+:::
+:::
+
+:::{.column width="50%"}
+:::{.callout-note title="Nhược điểm"}
+
+- Không phù hợp cho dược chất có vị khó chịu
+- Không thích hợp đối với dược chất cần sử dụng liều cao
+
+:::
+:::
+::::
+
+:::: {.columns}
+:::{.column width="40%"}
+
+**Yêu cầu:**
+
+- Mùi vị
+- Màu sắc
+- Dư vị
+- Khả năng nhai
+
+---
+
+- Độ cứng < 12kp
+- Độ rã: đáp ứng tiêu chuẩn độ rã của viên nén giải phóng ngay
+- Độ hòa tan: Tương tự viên nén giả phóng ngay trừ viên phải nhai để giải phóng hoạt chất
+
+:::
+::: {.column width="1%"}
+:::
+::: {.column width="59%"}
+**Tá dược**
+
+- Độn: lactose, cellulose vi tinh thể, mannitol
+- Dính: gelatin, glucose, acaia, ethyl cellulose, hydroxypropulmethyl cellulose, tinh bột
+- Siêu rã: Crosmaellose sodium, crospovidone, sodium starch glycolate, starch
+- Trơn: magenisi stearat, talc, paraffin, natri lauryl sulfate
+- Điều hòa sự chảy: Aerosil, tinh bột ngô
+- Điều vị: sucros, saccharin, aspartame
+- Điều hương: bạc hà, vanilla, cam, quế, xoài, cherry
+- Màu: sunset yellow, sắt oxyd
+:::
+::::
+
+## Kỹ thuật sản xuất <br> Viên nhai
+
+{{< video https://www.youtube.com/embed/_AMmtwaR51c width="90%" height="900">}}
+
+
+# Viên nén đặt dưới lưỡi Sublingual tablets
+## Khái niệm
+::: {.callout-important title="Viên đặt dưới lưỡi và viên kết dính niêm mạc"}
+Viên đặt dưới lưỡi và viên kết dính niêm mạc cũng là các dạng thuốc dùng ở khoang miệng.\
+Viên đặt dưới lưỡi là dạng viên được đặt ở mặt dưới của lưỡi, bên trên thềm miệng nhanh chóng đưa dược chất thấm qua niêm mạc nhờ lưỡi và niêm mạc thềm miệng vào tuần hoàn, không qua gan.\
+Viên kết dính niêm mạc miệng là viên được giữ ở má và nướu cho dược chất hấp thu từ từ vào tuần hoàn qua niêm mạc miệng.
+:::
+::::{.columns}
+:::{.column width="40%"}
+**Hấp thu tại khoang miệng**
+
+- pH khoang miệng bằng 5.6-7.6 ít ảnh hưởng đến độ ổn định của hoạt nhất nhạy với pH.
+- Hệ thống mao mạch nhiều giúp thuốc dễ hấp thu.
+- Hấp thu thằng vào hệ tuần hoàn không qua gan.
+
+|Dược chất| D/N | Tỷ lệ hấp thu|
+|---------|-----|--------------|
+|Apomorphin|20  |2             |
+|Strychnin| 21  |4            |
+|Thebain  | 12  |4            |
+|Emetin   |9    |6            |
+|Atropin  |7    |8            |
+|Morphin  |0.15 |10           |
+|Hydromorphin HCl | 0.2       |
+|Codein   | 2     |15         | 
+
+:::
+
+:::{.column width="30%"}
+![Viên đặt dính niêm mạc miệng](./Images/Mucoadhesive.png)
+:::
+:::{.column width="30%"}
+{{< video https://www.youtube.com/embed/AUpyrvsCPv8 width="90%" height="600">}}
+
+:::
+::::
+
+## Thành phần viên 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Viên đặt dưới lưỡi**
+
+*Hoạt chất:* Thường nhóm hormon hoặc niêm mạc miệng
+
+- Không gây loét niêm mạc miệng
+- Dễ dàng hấp thu tại niêm mạc miệng
+- Liều sử dụng nhỏ 1-15mg
+
+*Tá dược:* Yêu cầu rã nhanh trong vòng 1-2 phút
+
+- Tá dược độn: các loại đường Lactose, saccarose, glucose, manitol, sorbitpl
+- Tá dược dính: PVP, ethanol
+- Tá dược siêu rã 
+- Tá dược trơn: Ưu tiên loại tan trong nước
+- Tá dược điều hương, điều vị
+
+*Kiểm soát chất lượng:* 
+
+- Rã nhỏ hơn 2 phút theo phép thử độ rã viên không bao
 
 :::
 
 ::: {.column width="50%"}
-::: {.callout-warning title="Thuốc đặt"}
-Thuốc đặt là dạng thuốc rắn, chứa một hoặc nhiều dược chất, dùng để đặt vào các hốc tự nhiên của cơ thể. Thuốc có thể có tác dụng tại chỗ hoặc toàn thân.
-Khi đặt vào vị trí trên cơ thể, thuốc đặt thường chảy ra, mềm ở thân nhiệt hoặc hòa tan dần trong niêm dịch để giải phóng dược chất.
-Tá dược dùng cho thuốc đặt bao gồm: Bơ cacao và chế phẩm của bơ cacao, hỗn hợp gelatin – glycerin – nước, dầu thực vật hydrogen hóa, glycerid bán tổng hợp, hỗn hợp polyethylen glycol khối lượng phân tử khác nhau (PEG 400, PEG 1500, PEG 1540, PEG 3000, PEG 4000), este của acid béo với PEG.
-:::
-::: {.callout-important title="Viên đặt"}
-Viên nén đặt ở các hôc tự nhiên
-:::
 
+**Viên kết dính niêm mạc**
+
+*Hoạt chất:* 
+
+- Thường là hormon nhưng không cần hấp thu nhanh như viên đặt dưới lưỡi
+- Thời gian lưu thuốc ở niêm mạc từ 30-60 phút.
+- Không nên có hương vị và tá dược TTTP nhỏ tránh tạo cảm giác sạn
+
+*Tá dược:* 
+
+- Thường thêm polymers kết dính sinh học như HPMC, HPC, EC, NaCMC, Carbopol.
+
+*Kiểm soát chất lượng*
+
+- Độ rã nhỏ hơn 4 phút theo phép thử độ rã viên nén không bao
+:::
 
 ::::
 
 
-::: {.callout-important title="Viên nén đặc biệt khác"}
-CÁc viên nén đặc biệt khác
+# Viên nén đặt trực tràng
+
+## Khái niệm
+
+:::{.callout-note title="Viên nén đặt âm đạo, trực tràng"}
+Đây là dạng viên đặt tại các hốc tự nhiên nhưng được bào chế dưới dạng viên nén. Viên nén loại này chỉ đặt được trực tràng, âm đạo nhằm có tác dụng toàn thân hay tác dụng tại chỗ.
 :::
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+**Viên đặt âm đạo**
+
+*Hoạt chất:* Thường là kháng sinh tại chỗ như nystatin, clotrimazole, các sulfamid
+
+*Tá dược:* Như viên nén thông thường
+
+*Kiểm soát chất lượng:* 
+
+- Độ rã nhỏ hơn 20 phút thử theo phép thử độ rã của viên nén không bao (dược điểm Mỹ)
+
+:::
+
+::: {.column width="50%"}
+
+**Viên nén đặt trực tràng**
+
+*Hoạt chất:* 
+
+*Tá dược:* 
+
+- Tá dược siêu rã: ntrai crossmarmelose, povidon liên kết chéo
+- Viên có thể bao bằng màng mỏng HPLC
+
+*Kiểm soát chất lượng*
+
+:::
+
+::::
+
+# Taste and Appearance: Selecting the Right Excipients
+
+[Lựa chọn tá dược chính xác](https://www.pharmtech.com/view/taste-and-appearance-selecting-the-right-excipients)
+
+## Xây dựng công thức lấy bệnh nhân là trung tâm
+
+>“Different patient groups based on their ages, disease states, cultures, and demographic locations may require certain taste, flavor, texture/mouthfeel, and drug product appearance properties, such as tablet size, color, and shape for solid products and the viscosity and grittiness of liquid formulations,” Tocce asserts.
+
+>“This information can and does help formulators and brand/product managers to make smarter decisions for taste and appearance as it relates to the intended patient or therapeutic group,”
+
+>“Such a patient-centric approach definitely benefits patients, but it does present manufacturing challenges,” Guy states. “For example, it can be difficult when producing tablets that are 2 mm in diameter or smaller to achieve good flow through production equipment for APIs and excipients, which in turn impacts the ability to achieve good content uniformity and acceptable taste,” he says.
+
+>For pediatric medicines, factors to be considered include the fat and water content along with relevant genetic information. It is a tricky area from a regulatory standpoint, but it does help guide the selection of excipients by taking into consideration their potential impacts on young developing bodies,” observes Guy.
+
+## Xung quanh vấn đề lựa chọn tá dược
+::::{.columns}
+::: {.column width="40%"}
+**Các lợi ích**
+
+- Lợi ích và hiệu quả điều trị 
+- Dễ sử dụng cho bệnh nhân
+- Khả năng sản xuất 
+
+**Các vấn đề**
+
+- 60% các hoạt chất đang phát triển làm thuốc được phân loại vào nhóm có vị đắng
+- Dự đoán thị hiếu của người sử dụng vẫn dựa trên khảo sát trên người
+  - BitterDB dự đoán được mùi vị của khoảng 1000 hoạt chất tự nhiên và bán tổng hợp
+  - Lưỡi điện tử vấn thiếu chính xác cũng như đắt đỏ 
+  - Người tình nguyện thử nghiệm vẫn là người khỏe mạnh nhưng yếu tố tác dụng phụ phải xem xét.
+
+:::
+
+::: {.column width="60%"}
+**Yếu tố cần xem xét**
+
+- Đặc điểm Hoạt chất: Hoạt chất hòa tan trong nước khó che mùi vị hơn hoạt chất kém hòa tan
+- Hình dạng hạt và kích thước hạt: Hạt dạng cầu dễ bao che mùi vị hơn hạt có hình dạng bất thường
+- Đảm bảo hòa tan hấp thu thuốc hoàn toàn nếu bao để che dấu mùi vị
+- Màu sắc và hình dạng có thể tạo ra nhận diện thương hiệu phù hợp với người cao tuổi nhưng với trẻ nhỏ cần xem xét.
+
+**Các kỹ thuật cải thiện hương vi**
+- Vị chua có thể giúp che lấp vị đắng như nếu dùng acid có thể ảnh hưởng đến men răng
+- Vị ngọt như đường có thể làm tăng vấn đề răng miệng
+- Bao xung quanh hạt cần xem xét việc không tan tại pH dịch vị 6.2-7.4 nhưng phải giải phóng hoạt chất tại pH dạ dày. methacrylate như Kollicoat Smartseal hoặc Eudragit E-PO thường được xem xét.
+:::
+
+::::
+
+

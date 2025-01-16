@@ -1,0 +1,770 @@
+---
+title: "Dược học cổ truyền"
+subtitle: "Khí (Qi) trong y học cổ truyền"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+
+format: 
+  revealjs:
+    slide-number: true
+    css: "../styles.css"
+    logo: "../VTM/Images/kanagawa.jpg"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: [default, ../custom.scss] #"../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../VTM/Images/kanagawa.jpg"
+  data-background-size: 15%
+  data-background-position: 2% 2%
+---
+# Thông tin chung
+## Tài liệu tham khảo
+
+1.  Giáo trình Dược học cổ truyền, Trường Đại học Dược Hà nội.
+2.  Dược điển Việt nam V, Bộ y tế.
+3.  Chinese Herbal Medicines: Comparisons and Characteristics
+4.  Chinese Herbal Formulas: Treatment Principles and Composition Strategies
+5.  Chinese Traditional Herbal Medicine
+6.  Combining Western Herbs and Chinese Medicine: Principles, Practice
+    and Materia Medica
+7.  The foundations of Chinese Medicine: A comprehensive text
+
+
+## Tiểu luận theo nhóm 
+
+::: {.callout-important title="Mục tiêu"}
+Quan điểm đông y về một bệnh bất kỳ, cách trị bệnh và các thuốc
+:::
+
+
+**Các nội dung cần có**
+
+1. Định nghĩa bệnh theo Bộ Y tế Việt Nam
+2. Dịch nghĩa bệnh theo Đông Y: *Chinese Herbal Formulas: Treatment Principles and Composition Strategies*
+3. Giải thích các thuật ngữ xuất hiện: *The foundations of Chinese Medicine: A comprehensive text*
+4. Các dược liệu chữa bệnh này: Chinese Herbal Formulas: *Treatment Principles and Composition Strategies*
+
+
+## Tiểu luận cá nhân 
+::: {.callout-important title="Mục tiêu"}
+ Cung cấp thông tin về cách sử dụng một vị thuốc giữa phương Tây, Trung Hoa và Việt nam
+:::
+**Các nội dung cần có**
+
+-   Trong Dược điển Việt Nam V
+-   *Combining Western Herbs and Chinese Medicine: Principles, Practice and Materia Medica*
+-   *Chinese Herbal Formulas: Treatment Principles and Composition Strategies*
+
+# Vật chất cơ bản theo y học cổ truyền
+The vital substances
+
+::: {.alert}
+QI, BLOOD, FLUID ESSENCE AND SHEN 
+:::
+
+
+Tinh-Khí-Thần-Huyết-Tân dịch 
+
+
+![Hán tự](../VTM/Images/Qi.png){width=80%}
+
+
+
+## Qi - Khí - *vital energy*^[*vital force*, *material energy*, hoặc *energy*]
+### Qi trong triết học Trung hoa
+::: {.callout-important title="Nhị nguyên và Nhất nguyên" .nonincremental}
+- Triết học phương Tây luôn đề cập tới tính nhị nguyên như vật chất ý thức, linh hồn và thể xác.
+- Qi được coi là hiện tượng cơ bản của thế giới, cung cấp tính chất liên tục giữa vật chất và ý thức.
+:::
+
+:::: {.columns}
+::: {.column width="15%"}
+
+![The ancient Chinese view of the body-mind.](../VTM/Images/Qi%20A%20and%20D.png){width="100%"}
+
+:::
+
+::: {.column width="30%"}
+
+::: {.callout-note title="Xun Kuang (c.313-238 bc) said" .nonincremental}
+Water and Fire have Qi but not life; plants and trees have life, but not knowledge; birds and animals have knowledge, but no sense of what are rights
+:::
+
+::: {.callout-note title="Lie Zi, a Daoist text from around 300 bc, said:" .nonincremental}
+The purer and lighter [elements], tending upwards, made the heaven; the grosser and heavier [elements], tending downwards, made the earth
+:::
+
+::: {.callout-note title="Huai Nan Zi (c.122 bc), another Daoist text,says:" .nonincremental}
+Dao originated from Emptiness and Emptiness produced the universe. The universe produced Qi. That which was clear and light drifted up to become heaven, and that which was heavy and turbid solidified to form earth.
+:::
+
+:::
+::: {.column width="3%"}
+:::
+
+::: {.column width="50%"}
+
+::: {.callout-note title="Wang Chong (ad 27-97)" .nonincremental}
+Qi produces the human body just as water becomes ice. As water freezes into ice, so Qi coagulates to form the human body. When ice melts, it becomes water. When a person dies, he or she becomes spirit [shen] again. It is called spirit, just as melted ice changes its name to water.When it came to separation and differentiation, the pure [elements] formed heaven, and the turbid ones formed earth.
+:::
+
+::: {.callout-note title="Zhang Zai (ad 1020-1077)" .nonincremental}
+Every birth is a condensation, every death a dispersal. Birth is not a gain, death not a loss ... when condensed, Qi becomes a living being, when dispersed, it is the substratum of mutation
+:::
+
+::: {.callout-note title="Wang Fu Zhi (1619-1692):" .nonincremental}
+Life is not creation from nothing, and death is not complete dispersion and destruction. [Despite the condensation and dispersion of Qi] its original substance can neither be added nor be lessened. All that is void and empty is full of Qi which, in its state of condensation and thus visible, is called being, but in its state of dispersion and thus no longer visible, is called non-being. When dispersing Qi makes the Great Void, only regaining its original misty feature but not perishing; when condensing, it becomes the origin of all beings.
+:::
+:::
+
+::::
+
+
+
+
+## Qi - Khí - *vital energy*^[*vital force*, *material energy*, hoặc *energy*]
+### Qi trong y dược cổ truyền
+
+:::: {.columns}
+
+::: {.column width="45%"}
+
+::: {.callout-note title="Qi is the root of a human being" .nonincremental}
+-   Qi is in a constant state of flux and in varying states of aggregation. When condensed, Qi gives rise to physical shape; when dispersed, Qi gives rise to subtle forms of energy.
+-   Qi is an energy which manifests simultaneously on the physical and emotional-mental-spiritual level.
+:::
+::: {.callout-note title="Ý nghĩa của Qi với cơ thể" .nonincremental}
+- The refined energy produced by the Internal Organs, assuming different forms in different places.
+- The functional activity of an Internal Organ (e.g. Liver-Qi, Lung-Qi).
+- It is a part of Yang and includes motivation and warmth for the body.
+- Qi transforms, transports, holds, protects, raises up, and warms.
+:::
+
+:::
+
+::: {.column width="45%"}
+
+::: {.callout-important title="Tam bảo gồm Tinh (ESSENCE)- Khí (Qi)- Thần (SHEN)"}
+Tam bảo đại diện cho ba trạng thái ngưng tụ hoặc tổng hợp của khí, Tinh (ESSENCE) dày đặc nhất, Khí (QI) tinh khiết hơn và Thần (SHEN) tinh tế và phi vật chất nhất.
+:::
+::: {.callout-note title="Qi and qi" .nonincremental}
+-   Các vật chất cần thiết cho sự sống giúp tạng, phủ, kinh lạc hoạt động.
+-   Tam bảo gồm Tinh, Khí, Thần là 3 vật chất cơ bản của sinh mệnh con người không thể tách rời, phân chia. Cùng tồn tại và cùng diệt vong
+-   Tinh là gốc của thần, có tinh mới có thần
+-   Tinh là mẹ của khí.
+-   Không có khí người không sống được
+:::
+:::
+
+::: {.column width="10%"}
+
+![Zhang Jie Bin says: *If the Essence is strong, Qi flourishes; if Qi flourishes, the Mind is whole.*](../VTM/Images/The%20Three%20Treasures.png)
+
+:::
+
+::::
+
+:::: {.columns}
+::: {.column width="70%"}
+> Khí là thành phần cấu tạo cơ thể. Chất cơ bản duy trì sự sống (khí của thủy cốc, khí hô hấp). Năng lượng hoạt động của các tổ chức (ngũ tạng, lục phủ), khí của kinh mạch. Có ở khắp cơ thể, có tác dụng chung và riêng ở nơi trú ngụ (thận khí, can khí).
+:::
+::: {.column width="30%"}
+![](../VTM/Images/Types%20of%20Qi.png){width="100%"}
+:::
+::::
+::: aside
+Qi trong tiếng Anh còn có thể dịch là...
+:::
+
+
+## qi trong cơ thể
+
+> It is a part of Yang and includes motivation and warmth for the body. Qi transforms, transports, holds, protects, raises up and warms.
+
+::: {.callout-important title="Chức năng"}
+Là thành phần cấu tạo cơ thể. Chất cơ bản duy trì sự sống (khí của thủy cốc, khí hô hấp). Năng lượng hoạt động của các tổ chức (ngũ tạng, lục phủ), Khí của kinh mạch. Có ở khắp cơ thể, có tác dụng chung và riêng ở nơi trú ngụ (thận khí, can khí).
+:::
+
+:::: {.columns}
+
+:::{.column width="65%"}
+
+> *Phân loại theo nguồn gốc:*
+
+::: {.nonincremental}
+
+- Khí tiên thiên (nguyên khí): Được hình thành từ bào thai, truyền từ cha mẹ, bổ sung bởi khí hậu thiên.
+- Khí hậu thiên: Từ khí trời, khí đồ ăn, nuôi dưỡng khí tiên thiên, cung cấp năng lượng cho hoạt động tạng phủ.
+
+:::
+:::
+
+:::{.column width="35%"}
+
+> *Phân loại theo chức năng:* 
+
+::: {.nonincremental}
+
+- Nguyên khí (Yuan Qi (Original Qi))
+- Tông khí (Zong Qi (Pectoral/Ancestral Qi))
+- Vệ khí (Wei Qi (Defensive Qi))
+- Sinh khí (Ying Qi (Nutritive Qi))
+
+:::
+:::
+
+::::
+
+![](../VTM/Images/The%20Origin%20of%20Qi.png){fig-align="center" width="40%"}
+
+
+## Chi tiết các loại khí
+
+:::: {.card-container}
+::: {.card}
+::: {.card-title} 
+Nguyên khí ORIGINAL QI (YUAN QI)
+:::
+*Nguồn gốc:* Tinh tiên thiên và bổ sung bởi khí hậu thiên bao gồm nguyên dương và nguyên âm.
+
+Bắt nguồn từ Thận, tàng ở Đan điền nhờ Tam tiêu vận hành tuần hoàn cơ thể.
+
+*Chức năng:* Cung cấp năng lượng cho hoạt động của lục phủ ngũ tạng, các hoạt động sinh lý cơ thể, điều hoà các hoạt động liên quan đến sinh trưởng, phát triển và sinh dục.
+Nguyên khí đầy đủ cơ thể khỏe mạnh và ngược lại.
+:::
+
+::: {.card}
+::: {.card-title} 
+Tông khí-GATHERING QI (ZONG QI)
+:::
+
+*Nguồn gốc* Từ hai nguồn là cốc khí (food) sau khi tỳ vị vận hóa thủy cốc (water)cộng thêm khí trời (phổi) (air) tạo tông khí tích tụ ở ngực
+
+*Chức năng*
+-   Từ phế theo đường hô hấp và hầu họng để thực hiện hô hấp. Vào tâm mạch để vận hành khí huyết.
+-   Đi xuống dưới qua tam tiêu vào đan điền.
+-   Từ đan điền, khí vận hành tuần hoàn toàn thân.
+:::
+
+::: {.card}
+::: {.card-title} 
+Dinh khí- NUTRITIVE QI (YING QI)
+:::
+
+*Nguồn gốc*: Từ thủy cốc
+
+*Chức năng* Vi hành trong mạch, sinh hóa huyết-dịch
+
+*Công năng* dinh dưỡng toàn thân, lục phủ ngũ tạng phát tán ra ngoài nuôi
+dưỡng da lông
+
+*Dinh khí* vào trung tiêu, tàng tại thủ thái âm phế kinh tuần hoàn 14
+đường kinh vận hành liên tục.
+:::
+
+::: {.card}
+
+::: {.card-title} 
+Nguyên khí ORIGINAL QI (YUAN QI)
+:::
+*It is a dynamic and rarefied form of Essence having its origin in the Kidneys. Original Qi is also often said to include the Original Yin (Yuan Yin) and Original Yang (Yuan Yang): this means that Original Qi is the foundation of all the Yin andYang energies of the body Original Qi, like Essence, relies on nourishment from the Post-Heaven Essence.*
+:::
+
+::: {.card}
+::: {.card-title} 
+Tông khí-GATHERING QI (ZONG QI)
+:::
+
+*the Gathering Qi derives from the interaction of Food-Qi with air. The Spleen sends Food-Qi up to the Lungs where, combining with air, it is transformed into Gathering Qi Gathering Qi is a more subtle and refined form of Qi than Food-Qi, and it is usable by the body.*
+:::
+
+::: {.card}
+::: {.card-title} 
+Dinh khí- NUTRITIVE QI (YING QI)
+:::
+*Nutritive Qi is extracted from food and water, it regulates the 5 Yin organs, moistens the 6 Yang organs, it enters the blood vessels, it circulates in the channels above and below, is linked with the 5 Yin organs and connects with the 6 Yang organs*
+1.  Nourishes the Internal Organs
+2.  Is closely linked to Blood
+3.  Flows in channels and blood vessel
+:::
+
+::::
+
+## Chi tiết các loại khí (tiếp)
+
+:::: {.card-container}
+
+::: {.card}
+::: {.card-title} 
+Vệ khí- DEFENSIVE QI (WEI QI)
+:::
+
+Nguồn gốc Từ thủy cốc
+Chức năng Bắt nguồn từ Tỳ, Vị; vận hành ngoài Mạch. Bên trong phân bố ở
+các màng có màu đen ở ngực bụng, ngoài tuần hoàn giữa cơ nhục và bì
+phu. Vệ khí vào thượng tiêu, công năng ôn dưỡng cơ nhục bì phu,làm ấm nội
+tạng, cơ nhục, da lông, đóng mở tấu lý (lỗ chân lông). Bảo vệ cơ thể
+chống ngoại tà xâm nhập.
+:::
+::: {.card}
+::: {.card-title} 
+Vệ khí- DEFENSIVE QI (WEI QI)
+:::
+
+*The human being receives Qi from food: this enters the stomach, is transported to the Lungs i.e. the Food-Qi it is transformed into Qi, the refined part becomes Nutritive Qi, the coarse part becomes Defensive Qi. Nutritive Qi flows in the blood vessels and channels, Defensive Qi flows outside the channels. Defensive Qi is derived from the coarse part of food and water, it is slippery in nature, hence it cannot enter the channels. It therefore circulates under the skin, in between the muscles, it vapourizes in between membranes and diffuses over the chest and abdomen*
+:::
+::: {.card title="Một số loại khí khác"}
+-   Central Qi (Zhong Qi)
+-   Upright Qi (Zheng Qi)
+-   True Qi (Zhen Qi)
+-   Food-Qi (Gu Qi)
+:::
+
+::::
+## Chi tiết về Nguyên khí 
+::: {.callout-important title="ORIGINAL QI (YUAN QI)"}
+It is a dynamic and rarefied form of Essence having its origin in the Kidneys. Original Qi is also of ten said to include the Original Yin (Yuan Yin) and Original Yang (Yuan Yang): this means that Original Qi is the foundation of all the Yin andYang energies of the body.
+Original Qi, like Essence, relies on nourishment from the  Post-Heaven Essence.
+::: 
+:::: {.card-container}
+
+::: {.card}
+
+:::
+
+::: {.card}
+::: {.card-title} 
+Motive force
+:::
+Original Qi can be seen as the dynamic motive force that arouses and moves the functional activity of all the organs. It does so because, like the Essence, it is the foundation of vitality and stamina. As aform of Qi, it circulates all over the body, in the channels. It could be said to be the link between Essence, which is more fluid like and related to slow, long-term cycles and changes, and the day-to-day Qi, which is Qi-like and is re lated to short-term cycles and changes
+:::
+
+::: {.card}
+::: {.card-title} 
+Basis of Kidney-Qi
+:::
+Original Qi is the basis for Kidney-Qi and is closely related to all the Kidneys functional activities. Original Qi dwells between the two Kidneys below the umbilicus, at the Gate of Life. Thus, Original Qi is closely related to the Gate of Life and shares its role of provid ing the heat necessary to all the bodys functional activities
+:::
+
+::: {.card}
+
+::: {.card-title} 
+Facilitates the transformation of Qi
+:::
+Original Qi acts as the agent of change in the transformation of Gathering Qi(Zong Qi) intoTrue Qi (Zhen Qi). This is one way in which the Kidneys (where the Original Qi arises from) participate in the production of Qi
+:::
+
+::: {.card}
+::: {.card-title}
+Facilitates the transformation of Blood
+::: 
+Original Qi acts as the agent of change in the transformation of Gathering Qi (Zong Qi) intoTrue Qi (Zhen Qi). This is one way in which the Kidneys (where the Original Qi arises from) participate in the production of Qi
+:::
+
+::: {.card}
+::: {.card-title}
+Facilitates the transformation of Blood
+::: 
+Original Qi acts as the agent of change in the transformation of Gathering Qi(Zong Qi) intoTrue Qi (Zhen Qi). This is one way in which the Kidneys (where the Original Qi arises from) participate in the production of Qi
+:::
+
+::::
+
+##  NUTRITIVE QI (YING QI) - Chi tiết
+::: {.callout-important title="ORIGINAL QI (YUAN QI)"}
+Nutritive Qi is extracted from food and water, it regulates the 5 Yin organs, moistens the 6 Yang organs, it enters the blood vessels, it circu
+lates in the channels above and below, is linked with the 5 Yin organs and connects with the 6 Yang organs
+::: 
+
+
+:::: {.card-container}
+::: {.card}
+::: {.card-title}
+:::
+1. Nourishes the Internal Organs
+2. Is closely linked to Blood
+3. Flows in channels and blood vessel
+:::
+
+::::
+
+## Tông khí-GATHERING QI (ZONG QI) - Chi tiết
+
+:::: {.card-container}
+::: {.card}
+::: {.card-title}
+:::
+
+:::
+
+::::
+
+
+
+
+
+## Functions of Qi
+
+:::: {.card-container}
+
+::: {.card}
+::: {.card-title} 
+Transforming
+:::
+Qi (Yang in nature) is essential for the transfor mation of food and fluids (Yin in nature) into clear (Yang) and turbid (Yin) parts. This process of trans
+formation is anotheraspectof thechangeinthesta teof aggregation/ dispersion of Qi mentioned above. Material, dense forms of matter such as food and fluids need the power of Qi to be transformed into more subtle forms of matter, e.g. food is transformed into Food-Qi which is, in turn, trans formed into True Qi
+:::
+
+::: {.card}
+::: {.card-title} 
+Transporting
+:::
+Transportation, closely linked to transformation, is another essential function of Qi. In the process of transformation of various substances, Qi transports them in and out of various body structures. This transportation movement may be upwards, downwards,inwards or outwards. The as cending/descending and entering/exiting of Qi in the body constitutes what is called the Qi Mechanism (Qi Ji)
+:::
+
+
+::: {.card}
+::: {.card-title} 
+Holding
+:::
+Holding means that Qi (Yang in nature) holds fluids and Blood (Yin in nature) in their proper places. This is essential so that fluids or blood do not leak out.
+:::
+
+
+::: {.card}
+::: {.card-title} 
+Raising
+:::
+Qi ensures that the body structures are held in their proper place. If Qi is deficient, particularly in its raising function, it is said to be not only deficient but also sinking
+:::
+
+::: {.card}
+::: {.card-title} 
+Protecting
+:::
+Qi protects the body from invasion of exterior pathogenic factors. This is primarily (but not exclusively) a function of Defensive Qi. Defensive Qi irrigates the space between the skin and muscles which constitutes the exterior energetic layer of the body. The strength of Defensive Qi in this space determines our resistance to external pathogenic factors such as Wind, Cold and Dampness. Defensive Qi is closely linked to the Lungs which spread it in the space between skin and muscles and therefore Lung-Qi protects the body from exterior pathogenic factors. However, our overall resistance to external pathogenic factors does not dependonly onthestrength of Defensive Qi but partlyalso on that of Nutritive Qi and Kidney-Essenc
+:::
+
+::: {.card}
+::: {.card-title} 
+Warming
+:::
+This is a function of Yang-Qi. Warming is an essential role for Qi as all physiological processes depend on warmth: this is especially crucial with fluids, as they are Yin in nature and therefore need Yang (warmth) to promote their transformation, transportation and excretion. The source of Yang and warmth in the body is primarily Kidney-Yang and the Minister Fire. Spleen Yang also warms the body but it, in turn, derives its warmth primarily from Kidney-Yang.
+:::
+
+:::
+
+
+
+
+## Direction of Qi movement
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-size: 2em; line-height: 1.5; text-align: left;">
+
+> Without exiting-entering of Qi, there would be no birth, growth, maturity and decline. 
+> Without ascending-descending, there would be no birth, growth, transformation, receiving and storage. 
+> All organs rely on the ascending-descending and exiting-entering of Qi.
+</div>
+
+## Qi Mechanism
+:::: {.columns}
+::: {.column width="50%"}
+- Qi Mechanism indicates the flow of Qi in all organs of the  body, all Triple Burner cavities, joints, skin, muscles, diaphragm, Fat Tissue, Membranes
+- The movement of Qi in the Qi Mechanism comprises the ascending-descending and entering-exiting of Qi in every part of the body
+- The Qi Mechanism is like a vast system of roads and motorways (freeways) where traffic needs to be regulated by one-way streets
+- The smooth movement of Qi in the Qi Mechanism relies on the proper ascending and descending of Qi in various  organs and structures and also on the entering and exiting of Qi in and out of various structures
+
+:::
+
+::: {.column width="50%"}
+- The balance of Yin and Yang is crucial for the smooth movement of Qi, as ascending and exiting are Yang movements while descending and entering are Yin movements
+- An excess of Yang will imply excessive ascending and exiting of Qi, while an excess of Yin will imply excessive descending and entering of Qi
+- When the Qi Mechanism is disrupted, there will be Qi stagnation or Qi rebelliou
+:::
+::::
+
+
+
+
+::: {#fig-Qi layout-ncol=3}
+![Kidney](../VTM/Images/Directions%20of%20Kidney-Qi.png){width="100%"}
+
+![Liver](../VTM/Images/Directions%20of%20Liver-Qi.png){width="100%"}
+
+![Lung](../VTM/Images/Directions%20of%20Lung-Qi.png){width="100%"}
+:::
+
+
+## Tinh - ESSENCE
+::: {.callout-important title="Chức năng"}
+Vật chất khởi nguồn của sinh mệnh và các hoạt động của cơ thể;
+là cơ sở vật chất của nguyên khí con người chân âm và nguyên âm
+:::
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+::: {.nonincremental}
+- Tinh tiên thiên (Pre-Heaven Essence): Bố mẹ sinh ra đã có tàng ở thận
+- Tinh hậu thiên (Post-Heaven Essence): từ thực phẩm nuôi dưỡng cơ thể nuôi dưỡng tinh tiên thiên và lục phủ ngũ tạng, bì mao gân cốt. Dư thừa trữ tại thận
+- Tinh thận: Tinh tiên thiên và tinh hậu thiên giúp sinh trưởng phát triển, phát dục, di truyền
+:::
+
+:::
+::: {.column width=60%}
+::: {#fig-essence layout-ncol=3}
+![Tinh tiên thiên](../VTM/Images/Union%20of%20Essence%20to%20form%20mind.png){width="200px"}
+
+![Tinh hậu thiên](../VTM/Images/Yang%20and%20Yin%20aspects%20of%20the%20Prenatal%20Essence.png){width="200px"}
+
+![Tinh thận](../VTM/Images/The%20Fire%20of%20the%20Gate%20of%20Life%20and%20the%20Pre-Heaven%20Essenc.png){width="200px"}
+
+Zhang Jie Bin says: *The two Essences, one Yin, one Yang, unite to form life; the Essences of mother and father unite to form the Mind.*
+:::
+:::
+
+::::
+> **Essence** is the basis of reproduction, development, growth, sexual power, conception, pregnancy and decay in the body. It also forms the basic constitutional strength and vitality. When it manifests as Qi, it is known as Original Qi. Essence also includes semen and the reproductive capacity of the body. In its most broad and comprehensive sense, *Essence* refers to the overall hormonal strength that regulates normal growth, metabolism and sexuality. Although not a Fluid, it is Fluid-like and so is considered a part of Yin. It is stored in the
+Kidney-adrenals.
+
+
+
+## 
+:::: {.columns}
+::: {.column width=30% .nonincremental}
+### Tinh tiên thiên (The Pre-Heaven Essence)
+- The Pre-Heaven Essence originates from the parents.
+- Essence and the Kidneys as the Root of the Pre-Heaven Essence.
+:::
+::: {.column width=3%}
+:::
+::: {.column width=30% .nonincremental}
+### Tinh hậu thiên (The Post-Heaven Essence)
+- The Post-Heaven Essence originates from food
+- Lungs, Stomach and Spleen start functioning to produce Qi from food, drink and air
+- The Stomach and Spleen are also known as the Root of the Post-Heaven 
+:::
+::: {.column width=3%}
+:::
+::: {.column width=30% .nonincremental}
+### Thận tinh (The Kidney-Essence)
+- Unlike the Pre-Heaven Essence, however, the Kidney Essence interacts with the Post-Heaven Essence and is replenished by it. Kidney therefore partakes of both the Pre-Heaven and the Post-Heaven Essences.
+- This Essence is stored in the Kidneys, but it also circulates all over the body, particularly in the Eight Extraordinary Vessels
+:::
+
+::::
+::: {#fig-essence layout-ncol=3}
+![Tinh tiên thiên](../VTM/Images/Union%20of%20Essence%20to%20form%20mind.png){width="200px"}
+
+![Tinh hậu thiên](../VTM/Images/Yang%20and%20Yin%20aspects%20of%20the%20Prenatal%20Essence.png){width="200px"}
+
+![Tinh thận](../VTM/Images/The%20Fire%20of%20the%20Gate%20of%20Life%20and%20the%20Pre-Heaven%20Essenc.png){width="200px"}
+
+Zhang Jie Bin says: *The two Essences, one Yin, one Yang, unite to form life; the Essences of mother and father unite to form the Mind.* {.center}
+:::
+
+## Some differences between Essence and Qi in the human body
+:::{.nonincremental}
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-size: 2em; line-height: 1.5; text-align: left;">
+- Essence is primarily derived from the parents before birth, whilst Qi is formed after birth
+- Essence is replenished only with difficulty, Qi can easily be replenished on a day-to-day basis
+- Essence follows very long cycles of 7 or 8 years, whereas Qi follows briefer cycles, some yearly, some circadian, some even shorter
+- Qi moves and changes quickly from moment to moment, whereas the Essence changes only slowly and gradually over long periods of time
+</div>
+
+:::
+
+## Thần - Shen Mind or Spirit ^[translate Shen as 'Mind' and use 'Spirit' for the complex of Ethereal Soul (Hun), Corporeal Soul (Po), Intellect (Yi), Will-power (Zhi) and Mind (Shen) itself] Liên quan mật thiết Tạng Tim
+
+::: {.callout-important title="Chức năng" .nonincremental}
+Thần Là tinh thần, ý thức, tri giác, tư duy, chi phối tất cả hoạt động. Được sinh ra từ tinh tiên thiên và nuôi dưỡng bởi tinh hậu thiên. Thần sung túc cơ thể khỏe mạnh, Thần suy nhược cơ thể yếu đuối.
+:::
+> The Heart is the Monarch of the five Yin organs and six Yang organs and it is the residence of the Mind
+
+
+:::: {.columns}
+
+::: {.column width=50% }
+![](../VTM/Images/The%20coordinating%20and%20integrating%20function%20of%20the%20Mind%20(Shen%20).png){width="40%"}
+
+>Shen encompasses both the Mind and the Spirit. It reflects the entire physical, emotional, mental and spiritual health of the body. It includes the capacity to think and act coherently, the force of the human personality, and the joy to live. It also includes the spiritual aspects ofall the organs, especially the Yin organs. It is distinguished by the sparkle in the eyes, an overall vivaciousness and the will to live. Shen is housed in the Heart. Because of its active nature, it is a part of Yang.
+
+:::
+::: {.column width=25% .nonincremental}
+![](../VTM/Images/Affliction%20of%20the%20Heart%20by%20all%20emotions.png){width="70%"}
+
+-   Can tàng Hồn
+-   Phế tàng Phách
+-   Tỳ tàng Ý
+-   Thận tàng Trí
+:::
+
+::: {.column width=25% .nonincremental}
+-   Consciousness (Ý thức)
+-   Thinking (Suy nghĩ)
+-   Memory (Nhớ)
+-   Insight (Minh mẫn)
+-   Cognition (nhận thức)
+-   Sleep (Ngủ)
+-   Intelligence (Trí tuệ)
+-   Wisdom (Trải nghiệm)
+-   Ideas (Ý tưởng)
+-   Affections (Cảm giác)
+-   Feelings (Cảm nhận)
+-   Senses (Giác quan)
+:::
+
+::::
+
+
+
+
+
+## Quan niệm Qi ^[The idealist and pragmatist view of qi in tai chi and qigong: A narrative commentary and review, George Chengxi Bao, 2020]
+### Chinese Traditional Herbal Medicine
+
+> Just as science has discovered that the DNA molecule is the all-
+> pervasive code of life manifesting as different tissues and organs
+> throughout the body, Qi, which is essentially one, manifests in
+> different forms and qualities depending upon its functions within the
+> body. In TCM, Qi has two major aspects in the body. In one, it
+> represents a refined aspect, or Essence, which nourishes the body-mind
+> complex. This Essence is expressed in different forms according to its
+> location and function in the body. In its second aspect, Qi indicates
+> the functional activities of the internal organs themselves.
+
+### Các cách tiếp cận về Qi
+
+>Liệu Qi có phải là một Pseudoscientific 
+
+::: {.callout-caution title="Góc nhìn khoa học" .nonincremental}
+- Hiện tại chưa có bằng chứng về tồn tại của QI.
+- Năm1998, Viện Y tế quốc gia Hoa kỳ đã có sự đồng thuận liên quan đến châm cứu với lưu ý rất khó để dung hòa Qi với thông tin y sinh đương thời.
+:::
+
+::: {.callout-tip title="Cách nhìn" .nonincremental}
+1. Epistemological-Thuyết bất khả tri: Chủ thể khách quan có thể tồn tại nhưng chúng ta sẽ không bao giờ tiếp cận được. Quan niệm của chúng ta chỉ là thực tế chủ quan.
+2. Ontological-Thuyết duy tâm bản thể luận: Thế giới vật chất không thực tế tồn tại và mọi thứ đơn thuần chỉ là ý tưởng và cấu trúc chủ quan của tâm trí.
+:::
+
+## Cách tiếp cận lấy bệnh nhân làm trung tâm
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-size: 2em; line-height: 1.5; text-align: left;">
+
+1. Phương pháp nghiên cứu hiện đại rốt cuộc cốt lõi đem lại tiến bộ trong chăm sóc sức khỏe.
+2. Cần thận trọng áp dụng phương pháp cổ truyền khi luôn cân nhắc giữa lợi ích và nguy cơ.
+3. Liệu Qi có phải là hiệu quả của phương pháp giả dược cần phải được cân nhắc và khai thác một cách khôn ngoan. Mặc dù, theo quan niệm chính thống từ Descartes cho rằng tâm trí không tác động được đến thể chất.
+</div>
+
+
+
+
+
+
+
+## Huyết (BLOOD)
+
+
+
+> If Qi is not exhausted, it returns essences to the Kidneys to be
+> transformed into Essence; if the Essence is not depleted, it returns
+> Essence to the Liver to be transformed into Blood.
+
+:::: {.columns}
+
+::: {.column width="60%" .nonincremental}
+
+::: {.callout-important title="Blood"}
+A part of Yin, The concept of Blood is similar, though broader in definition to, Western medicine and includes circulation, stagnation and hemorrhage.
+:::
+- The Spleen and Stomach are the main source of Blood.
+- Lung-Qi plays an important role in pushing Food-Qi to the Heart:
+  this is an example of the general principle that Qi makes Blood move.
+- Food-Qi is transformed into Blood in the Heart: this is one aspect
+  of the principle that the Heart governs Blood.
+
+::: {.callout-note title="Blood"}
+**Nguồn gốc:** Vật chất sắc đỏ, tạo thành từ tinh của thủy cốc và tinh thận
+thông quá trình khí hòa nhờ chức năng của tỳ, vị, tâm, phế và thận
+:::
+
+- Huyết chứa chất dinh dưỡng, vận hành trong mạch, đi nuôi dưỡng toàn thân.
+- Huyết thiếu, huyết hư: Tê mỏi bộ phận.
+- Huyết tắc, Huyết ứ: Tê liệt bộ phận.
+- Khí, Huyết đầy đủ: Tinh thần minh mẫn, vui vẻ sảng khoái, khỏe khoắn.
+
+
+:::
+
+::: {.column width="40%"}
+
+**Relation of Blood with internal organs and Qui**
+
+::: {#fig-blood layout-ncol=2}
+
+![A](../VTM/Images/Origin%20of%20Blood.png)
+
+![B](../VTM/Images/Relationship_of_Heart_Spleen_and_Liver_with_Blood)
+
+![C](../VTM/Images/Functions%20of%20Liver-Blood.png)
+
+![D](../VTM/Images/Qi%20and%20Blood.png)
+
+
+:::
+
+
+:::
+
+::::
+
+
+
+## Tân dịch - Body Fluids a part of Yin
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important title="Body Fluids"}
+Fluids describe all the various fluidic substances including saliva, sweat, urine, tears, lymph and other secretions. 
+:::
+:::
+
+::: {.column width="50%"}
+![Mối liên hệ giữa tân dịch và dịch trong cơ thể](../VTM/Images/Relationship%20between%20Internal%20Organs%20and%20Body%20Fluids.png)
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-note title="Tân dịch" .nonincremental}
+Tân dịch là tất cả các dịch trong cơ thể bao gồm cả dịch trong tạng phủ trừ tinh và huyết.
+
+- Tân dịch có nguồn gốc từ thủy cốc.
+- Tân loãng, nhẹ như tấu lý (mồ hôi), bàng quang (nước tiểu): Ôn dưỡng cơ nhục nhuận da lông.
+- Dịch đặc nhớt như dịch não, tủy, nhuận khớp, nhuận tạng bổ não tủy.
+- Tân dịch không dùng hết dư thừa sẽ đi vào mạch. Dịch trong cơ thể ở trạng thái cân bằng.
+:::
+:::
+
+::: {.column width="50%"}
+![Thay đổi và trao đổi chất trong cơ thể](../VTM/Images/Origin_transformation_and_excretion_of_Body_Fluids.png)
+:::
+
+::::
+
+

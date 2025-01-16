@@ -1,5 +1,5 @@
 ---
-title: "Kỹ thuật chiết xuất các hợp chất từ tự nhiên"
+title: ""
 author: "TS. Hoàng Lê Sơn"
 date: "2025-01-01"
 format:

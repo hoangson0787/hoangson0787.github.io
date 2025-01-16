@@ -1,0 +1,22 @@
+---
+title: "Các thuật ngữ trong y dược học cổ truyền Trung Quốc theo WHO"
+author: "TS. Hoàng Lê Sơn"
+embed-resources: true
+format: 
+    html: 
+        toc: true
+        toc-depth: 3
+        lightbox: true
+---
+## Giới thiệu tài liệu 
+
+Tiếng Việt là một ngôn ngữ đẹp với khoảng 85% dân cư Việt nam cùng hơn 4 triệu người Việt kiều chọn là ngôn ngữ mẹ đẻ. Ngôn ngữ tiếng Việt thuộc ngữ hệ Nam Á và tiếng Việt là ngôn ngữ nhiều người nói nhất trong ngữ hệ này. Nhóm ngôn ngữ Việt-Mường ở thời kỳ khoảng đầu Công nguyên là phương ngữ không thanh điệu. Sau này giao thoa với Hoa ngữ nhất là các ngữ thuộc hệ Tai-Kadai vốn có hệ thống thanh điệu phát triển cao hơn đã làm cho tiếng Việt xuất hiện thanh điệu giống giai đoạn ngày nay.  Vào khoảng thế kỷ thứ VI với 3 thanh điệu và đến thời nhà Lý xuất hiện 6 thành điệu. Quá trình biến đổi này giúp thay đổi kết thúc âm tiết và phụ âm từ đó lẫn lộn vô thanh với hữu thanh sang tách biệt. [Theo A.G. Haudricourt giải thích năm 1954]
+
+### Trước thời Pháp thuộc: 
+
+Tiếng Việt thời này ảnh hưởng bởi tiếng Trung thông qua nhiều con đường với nhiều giai đoạn. Hệ thống từ Hán việt trong tiếng Việt bằng cách đọc các chữ Hán theo ngữ âm hiện có của tiếng Việt. Cách này, tiếng Việt có thể sẽ giữ nguyên nghĩa nhưng cách đọc khác và có thể xuất hiện trường hợp nghĩa được thay đổi hoàn toan. Theo ước lượng có khoảng 70% vốn từ tiếng Hán Việt xuất hiện trong chính luận và khoa học. 
+
+Hệ thống chữ Viết của việt nam cũng là được xây dựng tạo điều kiện cho các từ Hán Việt nhằm hướng tới phổ cập kiến thức cho đại chúng. Đó là cách dùng cách viết chữ Hán để ghi lại các âm điệu tiếng Việt. Khi đó, người dân có thể dễ dàng tiếp cận 
+
+
+

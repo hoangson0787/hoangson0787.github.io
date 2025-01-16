@@ -1,0 +1,304 @@
+---
+title: "Dược học cổ truyền"
+subtitle: "Học thuyết tạng tượng"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+
+format: 
+  revealjs:
+    slide-number: true
+    css: "../styles.css"
+    logo: "../VTM/Images/kanagawa.jpg"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: [default, ../custom.scss] #"../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../VTM/Images/kanagawa.jpg"
+  data-background-size: 15%
+  data-background-position: 2% 2%
+---
+
+
+# Học thuyết tạng tượng <br> Zang-xiang theory <br> Học thuyết tạng phủ
+
+
+
+## Khái niệm chung
+
+:::: {.columns}
+
+:::{.column width="50%" .nonincremental}
+::: {.callout-note title="Học thuyết tạng tượng"}
+Học thuyết tạng tượng Nghiên cứu về kết cấu hình thái, quy luật hoạt
+động sinh lý và quá trình biến hóa bệnh lý của cơ quan, tổ chức tạng phủ
+trong cơ thể; là quy luật hoạt động của các bộ phận trong cơ thể theo
+nguyên lý của y học cổ truyền
+:::
+- **Tạng:** là các cơ quan trong cơ thể.
+- **Tượng:** Biểu hiện hình thái, sinh lý, bệnh lý của nội tạng phản ánh bên ngoài cơ thể.
+- Tạng có tên gọi trùng giải phẫu của phương tây nhưng khác biết về cách tiếp cận.
+- Cấu tạo theo đông y
+  - **Ngũ tạng:** Tâm, Can, Tỳ (Lách), Phế, Thận
+  - **Lục phủ:** Tiểu Tràng, Đại Tràng, Bàng Quang, Tam Tiêu, Vị, Đởm
+  - **Phủ kỳ hằng:** Não, Tủy, Mạch, Tử cung
+  - **Các thành phần khác:** Cơ nhục, tứ chi, cân cốt, Tinh, Khí, Thần, Huyết, Tân Dịch
+-   Vai trò chức năng
+  - Tạng: Hóa sinh và tàng trữ vật chất tinh: Tinh Khí (Tinh, Khí, Huyết và Tân Dịch) để duy trì hoạt động sống phức tạp của cơ thể
+  - Phủ: Thu nạp và chuyển hóa thủy cốc sinh ra tinh khí. Tinh khí có sẽ được chuyển đến các tạng, còn phủ chỉ bài xuất mà không tàng trữ lại bên trong
+  - Phủ kỳ hằng: Hình thái, kết cấu của phủ kỳ hằng phần lớn là rỗng như phủ nhưng công năng lại là tàng trữ tinh khí giống như tạng
+
+:::
+
+:::{.column width="50%" .nonincremental}
+::: {.callout-note title="Theory of zang-fu organs"}
+The theory of zang-fu organs discusses the
+physiological functions and pathological changes of the zang-fu organs
+as well as their relationships with each other.
+:::
+Zang-xiang The word zang means the internal organs; and the word xiang
+means the outward manifestations of physiological functions and
+pathological changes of the internal organs.
+Zang fu A collective term for the internal organs of human beings,
+including five zang organs, six fu organs and extraordinary organs.
+
+- Five zang organs: A collective term for the five internal organsthe heart, liver, spleen/pancreas, lung and kidney.
+- Six fu organs: A collective term for the six internal organs: gallbladder, stomach, large intestine, small intestine, urinary bladder, and sanjiao (literally translated into triple energizer).
+- Extraordinary fu organs: A collective term for brain, marrow, bone, vessels, gallbladder and uterus. These organs are extraordinary because they store like zang organs.
+
+:::
+
+::::
+
+
+## Tạng Tâm
+::: {.callout-important title="Tạng tâm"}
+Tạng TâmLà quân hỏa, trung tâm hoạt động sống của cơ thể 
+:::
+**Đặc điểm:**
+Hành Hỏa, mùi khét, màu đỏ, vị đắng, nóng nhiệt, tiếng cười, vui mừng;
+liên quan đến giấc mơ và nói chuyện.
+**Chức năng sinh lý**
+
+**Bệnh lý của tạng Tâm**
+-   Tâm dương hư: Tim đập nhanh (tâm quý), khí đoản (hơi thở ngắn), khó
+    thở, trắng bệch, lưỡi nhợt nhạt, môi tím tái, sợ lạnh, hoa mắt,
+    chóng mặt, mạch vi tế dưỡng tâm an thần, hóa đờm, bổ khí, bổ huyết
+-   Tâm huyết bất túc: Huyết thiếu, tim đập nhanh, hay quên, mất ngủ,
+    mộng, da xanh xao, lưỡi trắng nhợt, thân nhiệt hạ bổ huyết, an thần
+-   Tâm huyết ứ trệ: đau vùng tim, tim đạp nhanh, mặt môi móng tay thâm
+    hành khí, hành huyết
+-   Tâm hỏa vượng: mặt đỏ, miệng đắng, niêm mạc miệng lưỡi phồng rộp,
+    đầu lưỡi đỏ, tiểu tiện nóng đỏ, lòng tay chân nóng thanh nhiệt, lợi
+    thủy, an thần
+
+## Tạng Can
+::: {.callout-important title="Tạng can"}
+Hành Mộc, mùi tanh, màu xanh, vị chua, gió, la hét, giận dữ,
+nước mắt 
+:::
+**Chức năng sinh lý:**
+
+
+**Tạng can**
+
+-   Can khí uất kết: đau sườn, đau lồng ngực bụng, kinh nguyệt không đều sơ can, giải uất, hành khí, hành huyết
+-   Can đởm thấp nhiệt: da vàng, tiểu tiện vàng đỏ, sườn đau căng thanh nhiệt táo thấp, giải độc, lợi thấp
+-   Can phong nội động: ngã đột ngột, hôn mê bất tỉnh, miệng méo xệch, động kinh bình can tắt phong, trọng trấn an thần, sơ can giải uất
+-   Can hỏa thượng viêm: đau đầu, mắt đỏ, mặt đỏ, miệng đắng, chảy máu cam thanh nhiệt giải biểu nhiệt, chỉ huyết
+
+## Tạng Tỳ
+::: {.callout-important title="Tạng tỳ"}
+Hành Thổ, mùi thơm, màu vàng, vị ngọt, thấp ẩm, suy tư, nước bọt
+:::
+**Chức năng sinh lý**
+-   Tỳ chủ vận hóa (chuyển vận và tiêu hóa thủy cốc, thủy dịch): Tốt
+    dinh dưỡng cơ thể tốt, thủy dịch điều hòa, kém dinh dưỡng thiếu, phù
+    nề bụng thiếu albumin, tiết tả
+
+-   Tỳ ích khí sinh huyết: Tốt khí dồi dào, cơ thể khỏe mạch. Kém mệt
+    mỏi đoản hơi, vô lực, da xanh xao
+
+-   Tỳ khí chủ thăng (lên thượng tiêu) = Tỳ chủ thăng thanh: đưa cốc khí
+    lên Tâm Phế; giữ cho phủ tạng ở vị trí tự nhiên. Tỳ khí hư chứng sa
+    giáng
+
+-   Tỳ chủ nhiếp huyết, thống huyết: Tốt Huyết lưu thông lòng mạch.
+    Không tốt huyết loạn, tràn lòng mạch (xuất huyết)
+
+-   Tỳ chủ cơ nhục, tứ chi: Tốt béo tốt, hồng nhuận; Kém còi xương, cơ
+    nhục teo nhẽo, chậm biết đi, suy dinh dưỡng
+
+-   Tỳ vinh nhuận ra môi, khai khiếu ra miệng: Khỏe muốn ăn, ăn ngon,
+    tiêu hóa tốt. Kém chán ăn, ăn không ngon
+**Bệnh lý**
+-   Tỳ khí hư nhược: kém ăn, hấp thu kém, gầy yếu, da xanh, đại tiện
+    lỏng, bụng chướng đầy, sa giáng kiện tỳ, ích khí, hành khí, tiêu đạo
+
+-   Tỳ dương hư: ăn kém, bụng sôi, chướng, đại tiện lỏng, co quắp, phù
+    thũng kiện tỳ, bổ Dương + hóa thấp
+
+-   Tỳ thấp nhiệt: vàng da, bụng chướng, kém ăn, đại tiện táo kết thanh
+    nhiệt, táo thấp, lợi thủy, nhuận tràng
+
+-   Hàn thấp khuẩn tỳ: bụng ngực đầy, toán than mệt mỏi, đại tiện lỏng
+    hóa thấp + hành khí
+
+
+## Tạng phế
+::: {.callout-important title="Tạng phế"}
+Hành Kim, mùi hôi, màu trắng, vị cay, khí hậu táo, ưu tư, nước mũi 
+:::
+**Chức năng sinh lý**
+
+**Bệnh lý**
+
+- Phong tà nhập phế: Sợ lạnh, sốt cao, đau đầu, ho, sổ mũi, đau toàn thân giải biểu + chỉ khái
+- Phế âm hư: Ho, ít đờm, có tia máu, lưỡng quyền hồng, sốt về chiều, nóng âm ỉ trong xương bổ âm, chỉ ho, hóa đờm, chỉ huyết
+- Đờm phế thấp nhiệt: ho, đờm đặc vàng, mùi hôi, đau ngực, sốt hóa đờm hàn, chỉ khái, bình suyễn, thanh nhiệt
+- Khí phế hư: ho nhiều, đờm nhiều loãng, đoản hơi, nhiều mồ hôi, tiếng yếu, mệt mỏi bổ khí, chỉ khái, hóa đờm, cố biểu liễm hãn
+
+
+
+## Tạng thận
+::: {.callout-important title="Tạng tâm"}
+Tạng thận Hành Thủy, mùi thối, màu đen, vị mặn, khí hậu hàn 
+:::
+**Chức năng sinh lý**
+
+**Bệnh lý**
+- Thận Dương hư nhược: Lưng đau, mỏi gối, chân tay lạnh, liệt Dương, vô sinh bổ Thận Dương + bổ khí
+- Thận Âm bất túc: Tai ù, mờ mắt, mồ hôi trộm, tiểu tiện đục bổ Âm + liễm hãn
+- Thận khí hư: Đau lưng, chân tay vô lực, tiểu nhiều, di tinh, đoản hơi, suyễn tức bổ Dương, bổ khí, cố tinh sáp niệu
+
+
+## Phủ đởm
+::: {.callout-important title="Tạng tâm"}
+Phủ đởm là phủ trung tinh, chứa chất dịch thanh khiết là mật, khí dư của can tiết vào đởm tụ lại mà thành tinh Tính cương trực, công năng quyết đoán chức năng trung chính = giữ thăng bằng chuẩn xác đối với sự hoạt động của tạng phủ khác 
+:::
+**Chức năng sinh lý** Cùng can làm chức năng sơ tiết Thuốc thanh nhiệt táo thấp, hành khí giải uất, sơ can lý khí, lợi thấp
+**Bệnh lý**
+Suy kém tinh thần tổn thương, đởm khí suy nhược bệnh: can đởm uất trệ thấp nhiệt ngưng đọng ảnh hưởng sơ tiết mật hoàng đản (vàng da); đởm hỏa can Dương thịnh cáu giận, đau đầu, cao huyết áp.
+
+
+
+## Phủ vị
+::: {.callout-important title="Tạng tâm"}
+thu nạp, làm nhừ thủy cốc, sơ bộ tiêu hóa thức ăn (vị khí) 
+:::
+**Bệnh lý**
+Khí vị hòa giáng tiêu hóa thủy cốc tiểu tràng kém lưu trệ thủy cốc, vị khí
+thượng nghịch nôn mửa Kém đau bụng, sôi bụng, đầy trướng, nuột chua, nôn
+lợm (vị thực tích); sôi bụng nôn đờm dãi (vị hàn); đau bụng miệng khô
+khát, nuốt chua, hôi miệng (vị nhiệt)
+
+>Thuốc liên quan: kiện vị, tiêu đạo, hành khí, giáng nghịch, thanh nhiệt
+
+
+## Phủ tiêu trường
+::: {.callout-important title="Tạng tâm"}
+Tiếp nhận thức ăn được sơ bộ tiêu hóa từ vị. Phân thanh trọc (thăng thanh, giáng trọc) xuống đại tràng Thanh huyết
+tâm. Thủy dịch cặn bã thận bàng quang nước tiểu
+:::
+
+>Thuốc liên quan: thanh nhiệt táo thấp, kiện tỳ, tiêu đạo
+
+
+
+## Phủ đại trường
+::: {.callout-important title="Tạng tâm"}
+Tiếp nhận cặn bã từ tiểu tràng xuống hấp thu 1 phần nước
+:::
+kém (hư hàn): sôi bụng, đau bụng, phân nát lỏng; nhiệt thực: quá mức táo
+kết nhiệt kết bàng lưu (lâu ngày, phân tròn rắn có nhày bao quanh)\
+Tống thải cặn bã ra ngoài\
+Kinh đại trường liên quan phế bệnh phế đại tràng: đoản hơi táo bón; phế
+đoản khí tiết tả\
+>Thuốc liên quan: thanh nhiệt táo\
+
+
+## Phủ bàng quang 
+::: {.callout-important title="Tạng tâm"}
+Chứa đựng và thải trừ nước tiểu: Thủy dịch qua thận phân thanh trọc (thanh trở lại cơ thể, trọc đi vào bàng quang thành nước tiểu
+khí hóa thận dương)
+:::
+
+Bệnh: bàng quang thấp nhiệt, tiểu tiện vàng đỏ, buốt rắt, sỏi bàng
+quang
+Thuốc liên quan: lợi thủy thẩm thấp , thanh nhiệt táo thấp\
+
+
+## Phủ tam tiêu 
+**Khái quát tạng phủ** 
+
+- Thượng tiêu (tâm, phế): Phân bố tông khí (dinh, vệ) Trung tiêu (tỳ, vị): Vận hóa thủy cốc
+- Hạ tiêu (thận, bàng quang): Bài tiết tổng hợp khí lục phủ ngũ tạng, kinh
+lạc, dinh vệ nội ngoại tả hữu thượng hạ thông suốt tả hữu thượng hạ đều
+thông Biệt sứ của nguyên khí, đường thủy cốc, đầu nguồn và cuối nguồn
+Dương khí
+- Thượng tiêu: Thu nạp thủy cốc, phân bố khí thủy cốc đến toàn thân Ôn
+dưỡng bì phu, cơ nhục, xương khớp
+- Trung tiêu: Làm nhừ thủy cốc, chưng tân dịch
+- Hạ tiêu: chủ phân biệt thanh trọc
+
+**Hải thượng lãn ông**
+- Thượng tiêu: từ miệng trên dạ dày đến cuống họng
+- Trung tiêu: từ miệng trên đến miệng dưới dạ dày
+- Hạ tiêu: miệng dưới dạ dày đến đến hậu môn
+- Tam tiêu là phủ Dương nơi tiếp giáp Dương khí của thận phân bố đi toàn
+thân
+- Tam tiêu liên quan đến nhiều chức năng của nhiều tạng phủ không phải là
+cơ quan độc lập
+
+
+## Phủ kỳ hằng
+
+> Não: Trong hộp so thông với tủy não vi tủy chi hải. liên quan mật thiết
+xương tủy não tủy tốt sinh lực dồi dào. không tốt đau đầu, ù tai hoa
+mắt, mệt mỏi vô lực. 
+
+> tủy: Sinh ra do thận, tàng trong xương là chất dinh
+dưỡng của chát dinh dưỡng của xương. Não tủy chứa trong khoa xương nhưng
+liên quan toàn thân chất dinh dưỡng vào nuôi não Tủy Tổn thương dịch ảnh
+hưỡng dịch não tủy Thương tân vong dịch co duỗi gân cốt khó khăn ù tai,
+tủy thiếu 
+> Cốt/xương: Bộ khung cơ thể giữ hình thế khỏe đẹp được nuôi bởi
+tủy tủy quyết định tính bền chắc tủy hư hao xương thiếu dinh dưỡng. Còi
+xương giòn xương 
+> Mạch: Đường vận hành khí huyết tâm phế Phân bố toàn
+thân 2 công năng Khí huyết tuần hoàn theo 1 chiều hướng nhất định Vận
+chuyển tinh hoa thủy cốc dinh Dương toàn thân Vận hành bởi khí Mạch là
+phủ của huyết, lấy khí làm gốc 
+> Bào cung:Chủ về kinh nguyệt và Dưỡng dục
+thai nhi Quan hệ mật thiết với thận, nhâm mạch, xung mạch khởi nguồn từ
+bào cung Thận khí vượng bào cung phát dục tốt kinh nguyệt tốt thụ thai
+tốt Thận khí, mạch xung nhâm kém bế kinh, khả năng sinh con kém, vô sinh
+Liên quan thận: thận sinh tủy tủy dưỡng cốt cốt tàng tủy tủy thông não
+thận
+
+# Kết hợp các học thuyết trong một sơ đồ chung
+
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide5.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide6.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide7.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide8.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide9.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide10.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide11.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide12.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide13.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide14.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide15.SVG" background-size="80%" background-position="center"}
+## {background-color="white" background-image="../VTM/Images/FuZang/Slide16.SVG" background-size="80%" background-position="center"}
+

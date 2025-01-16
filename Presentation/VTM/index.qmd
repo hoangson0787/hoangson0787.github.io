@@ -7,6 +7,16 @@ format:
         toc-depth: 3
         lightbox: true
 ---
+## Lời giới thiệu
+
+![Biết chơi cờ vua khá dễ nhưng để giỏi sẽ không đơn giản.](../VTM/Images/FuZang/Slide1.SVG){width="90%"}
+
+Cơ sở nền tảng để xây dựng y học cổ truyền Phương Đông giống như một người chưa từng chơi cờ vua nhìn hai người đang đánh cờ để đoán xem cách thức vận hành của trò chơi. Sau thời gian quan sát, bạn cũng có thể đúc kết ra quy luật quân xe đi dọc, quân tượng đi chéo nhưng để nhìn hết các nước đi có lẽ bằng chính tổng số các ngôi sao trên thế giới này. Y học cổ truyền phương Trung quốc cũng như vậy, quy luật có vẻ đơn giản nhưng thành thạo không dễ. Dựa trên công cụ thô sơ của người thầy thuốc với đôi mắt để nhìn, đôi tai để nghe, trí thông minh để hỏi đáp, sờ mạch của người thầy thuốc cộng thêm cái lưỡi để thử vị thuốc đã tạo ra một hệ thống chăm sóc sức khỏe tinh vi và hoạt động hiệu quả trong thời gian dài hàng ngàn năm. Minh chứng chính là dân số Trung Hoa thời nhà Đường cách đây khoảng 1400 năm đã từng đạt mức 70 triệu dân dựa chính vào hệ thống này để chăm sóc sức khỏe cộng đồng trong khi đến giờ này nước Pháp hiện đại dân số mới dừng khoảng 66 triệu dân. Khi so sánh vậy, vừa nhằm tôn vinh cũng như có lẽ nền y học cổ truyền Trung Hoa cũng đáng giá để chúng ta dành thời gian tìm hiểu và khai thác vốn quý nhằm phục vụ công tác dược sau này.
+
+::: {.callout-important title="Y học thực chứng"}
+Dược cổ truyền ứng dụng trong phát triên thuốc phải luôn dựa trên y học thực chứng. Phương pháp chữa bệnh luôn luôn đặt lợi ích cao nhất của người bệnh. Với sinh viên Dược, dược cổ truyền có thể xem đây chỉ là một nhánh trong học phần rộng hơn chính là Dược dân tộc học.  
+:::
+
 ## Tài liệu tham khảo học phần 
 
 1.  Giáo trình Dược học cổ truyền, Trường Đại học Dược Hà nội.
@@ -17,12 +27,42 @@ format:
 6.  Combining Western Herbs and Chinese Medicine: Principles, Practice
     and Materia Medica
 7.  The foundations of Chinese Medicine: A comprehensive text
-
+8.  Thông tư [14-2024/BYT-TT](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-14-2024-TT-BYT-huong-dan-phuong-phap-che-bien-duoc-lieu-va-vi-thuoc-co-truyen-623411.aspx) về chế biến dược liệu và vị thuốc cổ truyền
 ## Slide bài giảng 
 
-- [Part A-Các lý thuyết trong y học cổ truyền](../VTM/Part_A_Ly_Luan.qmd)
-- [Part B Các vị thuốc trong y học cổ truyền](../VTM/Part_B_Dai%20cuong%20v%C3%A8%20thuoc%20YHCT.qmd)
-- [Part C-Chế biến thuốc theo nguyen lý y học cổ truyền](../VTM/Part_C_Bai%20Che%20bien.qmd)
+### Bài 1:
+[Bài 1: Khí (Qi) trong y học cổ truyền?](../VTM/Bai1.qmd)
+
+Bài này đề cập tới cách vận dụng quan niệm Khí (Qi) từ triết học Phương Đông vào trong y học cổ truyền Trung Hoa. Qi trong triết học phương Đông giúp hợp nhất các mặt đối lập nhau như linh hồn và thế xác vào làm một về quan niệm nhất nguyên. Điều này hoàn toàn khác với triết học phương Tây theo quan điểm nhị nguyên phân định rõ linh hồn và thể xác. Khí (Qi) trong cơ thể chia thành tam bảo gồm Tinh (ESSENCE) - Khí (Qi) - Thần (SHEN) sẽ kết hợp với Huyết (BLOOD) - Tân dịch (FLUID)để tạo thành nguyên liệu cơ bản tạo ra sự sống.
+
+### Bài 2: 
+[Bài 2: Tứ chuẩn và bát cương](../VTM/Bai2.qmd)
+
+Tôi hơi đảo ngược về trình tự khi mà tứ chuẩn và bát cương được đưa ra trước bài học thuyết tạng tượng. Tứ chuẩn và bát cương là các công cụ để chuẩn đoán bệnh trong y học cổ truyền Trung hoa. Điều này giống như việc các bạn muốn tìm hiểu hạt nhân trong Vật lý. Chúng ta sẽ bắn phá các hạt nhân và sau đó tìm các mảnh vụn bắn ra từ đó dự đoán cấu trúc phía trong của hạt nhân. Với học thuyết tạng phủ sẽ dựa trên sự thay đổi sinh lý bình thường và đoán cách hoạt động bên trong. Đó là lý do, bài này được đặt trước. 
+
+### Bài 3:
+[Bài 3: Học thuyết tạng tượng](../VTM/Bai3.qmd)
+
+Đây là học thuyết quan trọng trong y học cổ truyền Trung Hoa. Các cơ quan trong cơ thể người có thể trùng với phương Tây nhưng do sợ tồn tại của Qi tạo các giải thích về chức năng cũng như cách vận hành. Phần này tôi sẽ sơ đồ hóa tạo mối liên hệ giữa Khí, Huyết và lục phủ ngũ tạng. 
+
+### Bài 4
+[Bài 4: Nguyên nhân gây bệnh và nguyên tắc trị bệnh trong y học cổ truyền](../VTM/Bai4.qmd)
+
+Khác biệt cơ bản trong y học cổ truyền Trung hoa đối với phương Tây chính là nhận thức về việc ý thức tác động và cũng là nguyên nhân gây bệnh. Phần này ngoài đề cập tới nguyên nhân gây bệnh trong y học cổ truyền trung hoa còn đề cập tới việc phiên dịch các bệnh trong y học cổ truyền sang các bệnh trong y học phương Tây. Về nguyên tắc trị bệnh sẽ dựa theo một số 
+
+### Bài 5
+[Bài 5: Các vị thuốc cổ truyền](../VTM/Bai5.qmd)
+
+::: {.callout-note title="Vị thuốc"}
+Theo luật dược mới nhất, khái niệm dược liệu đã chính thức được gộp với vị thuốc cổ truyền. 
+:::
+
+Người thầy thuốc xưa có hai công cụ để phân loại thuốc gồm vị (dựa vào lưỡi) và tính (dựa vào khả năng điều trị theo triệu chứng). Y học cổ truyền phương Tây cũng phân loại thuốc theo tính và vị. Phần này sẽ giải thích sơ lược về cách phân loại thuốc theo y học cổ truyền, khác biệt giữa phương Tây, Trung Hoa và Việt nam. Bên cạnh đó, hệ thống hóa lại cách thức thuốc tác động theo nguyên lý y học cổ truyền dựa trên xâm nhập của ngoại tà từ ngoài (dùng ngoài, trừ giun sán, an thai) vào trong với hai mức độ tác động nông (biểu) và tác động sâu (lý). Bên cạnh đó thuốc tác động vào phần Khí và Huyết. 
+
+### Bài 6
+[Bài 6: Chế biến các vị thuốc cổ truyền](../VTM/Bai6.qmd)
+
+Chế biến các vị thuốc cổ truyền hiện tại đã có thông tư hướng dẫn chi tiết tại TT14/2024-BYT-TT. Các bạn có thể tải về để tham khảo. 
 
 ## Bài tập 
 
