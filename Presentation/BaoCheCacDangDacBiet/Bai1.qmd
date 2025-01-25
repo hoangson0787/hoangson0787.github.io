@@ -33,13 +33,13 @@ title-slide-attributes:
 
 # Giới thiệu chung
 ## Nội dung bài học
-
+- Khái niệm chung
 - Viên sủi bọt Effervescent tablets
 - Viên nhai Chewable tablets
 - Viên ngậm Buccal tablets
 - Viên đặt dưới lưỡi Sublingual tablets
 
-## Tài liệu tham khảo
+Tài liệu tham khảo
 
 1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
 2. Công nghệ nano và ứng dụng trong sản xuất thuốc, Bộ môn công nghiệp dược- Đại học Dược Hà nội (2019), Nhà xuất bản Y học Hà nội.
@@ -499,4 +499,40 @@ Viên kết dính niêm mạc miệng là viên được giữ ở má và nư�
 
 ::::
 
+## Tá dược điều hương
 
+| Nguyên liệu | độ ngọt tương đối|
+|-------------|------------------|
+| Aspartam    | 200              |
+|Cyclamat     | 30-50            |
+|glycyrrhizin | 50               |
+|Saccarin     |450               |
+|Dextrose (glucose)|0.7           |
+|Fructose (levulose) |  1.7       |
+|Lactose      | 0.2             |
+|Maltose      |0.3            |
+|Mannitol     | 0.5-0.7       |
+|Sorbitol     |0.5-0.6        |
+|Sucrose      |1.0            |
+
+## Tá dược điều vị
+
+| Vị          | Hương         |
+|-------------|---------------|
+| Ngọt | Vanilin, nho, các loại quả hạch, quả mọng, hương là phong, mật ong|
+| Chua | Cam, cherry, quả mâm xôi, dâu tây, rễ cây, hồi, cam thảo|
+| Mặn  | Quả hạch, bơ, bơ đường, gia vị, hương lá phong, dưa, mâm xôi, cam chanh, hoa quả |
+| Đắng | Cam thảo, hồi, coffee, rượu, bạc hà, nho, cherry, đào, mâm xôi, quả hạch, thì là, gia vị|
+| Kiềm | Bạc hà, Chocolate, cream, vanillin|
+| Kim loại| Nho, burgundy, Chanh-Cam|
+
+| antacid | Cảm/ho | vitamins|
+|---------|--------|----------|
+|Chocolate| Bạch dương- hồi | dứa tươi|
+| Bạc hà | Nho đen | Nho|
+| Hồi-bạc hà| rum đào | chanh leo|
+| Cam | vanilin | Mâm xôi |
+| Kem bavarinan | Đinh hương | quả hạch |
+| Bơ đường | Mật ong-Chanh | Việt quất |
+| Kem cherry| Menthol- eucalyptus| Quả hạt nướng |
+## Tá dược màu

@@ -33,7 +33,8 @@ title-slide-attributes:
 # Hệ thuốc màng bao không tan kiểm soát giải phóng hoạt chất
 
 ## Đặc điểm thành phần, cấu trúc hệ
-**Cấu trúc hệ thuốc:** được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày crua màng khi tiếp xúc trực tiếp với môi trường sinh học.
+
+**Cấu trúc hệ thuốc:** Được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày crua màng khi tiếp xúc trực tiếp với môi trường sinh học.
 
 **Thành phần hệ thuốc:**
 *Dược chất:* dạng muối dễ tan trong nước hoặc được cải thiện độ tan nhờ tạo hệ phân tán rắn, tạo dẫn chất, thêm chất diện hoạt
@@ -50,7 +51,7 @@ title-slide-attributes:
 ## Cơ chế và mô hình động học giải phóng dược chất từ màng bao không tan
 
 Nước từ môi trường sinh học thẩm thấu qua màng vào trong hệ thuốc có chứa dược chất, dược chất trong hệ được hòa tan, dược chất đã hòa tan trong hệ khuyếch tán qua màng bao ra môi trường
-Mô hình bậc 0
+Mô hình bậc 0: 
 
 ## Ví dụ 
 # Hệ màng bao hòa tan ăn mòn kiểm soát giải phóng dược chất

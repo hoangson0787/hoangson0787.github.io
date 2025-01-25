@@ -31,6 +31,7 @@ title-slide-attributes:
 ---
 
 # Đại cương
+
 ## Khái niệm
 ::: {.callout-important title="Khái niệm"}
 Hệ thuống giải phóng kiểm soát là các dạng bào chế có áp dụng biện pháp kỹ thuật cải biên sinh khả dụng nhằm kiểm soát chặt chẽ quá trình giải phóng dược chất trong khoảng liều có tác dụng điều trị, kiểm soát thời gian, không gian vùng giải phóng dược chất trong cơ thể, nâng cao hiệu quả điều trị của thuốc
@@ -53,13 +54,85 @@ Hệ thuống giải phóng kiểm soát là các dạng bào chế có áp dụ
 :::
 
 ::::
+## Lịch sử phát triển ^[The Controlled Drug Delivery Systems: Past Forward and Future Back, Kinam Park, *2015*]
+:::: {.columns}
+:::{.column width="40%"}
+Lịch sử phát triển của dạng bào chế kiểm soát giải phóng bắt đầu từ năm 1952 với 3 thế hệ. Dextroamphetamine (A) với tên thương mại Dexedrine là thuốc đầu tiên ở dạng bào chế hiện đại thế hệ thứ nhất. Goserelin acetate (B) với tên thương mại Zoladex® Depot là thuốc đầu tiên ở dạng bào chế hiện đại thế hệ thứ hai vào năm 1989. Đây là một peptid với thời gian tác dụng kéo dài từ 1-3 tháng. Nhận thức thế hệ ban đầu làm sao cho nồng độ thuốc hằng định trong máu nhất có thể nhưng thế hệ thứ hai thay đổi sao cho nồng độ trong máu trên nồng độ có tác dụng
+```{python include=false}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+from rdkit import Chem
+from rdkit.Chem import Draw
+
+# Tên SMILES của morphin
+smiles1 = "C[C@@H](CC1=CC=CC=C1)N"
+smiles2 = "CC(C)C[C@@H](C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NNC(=O)N)NC(=O)[C@@H](COC(C)(C)C)NC(=O)[C@H](CC2=CC=C(C=C2)O)NC(=O)[C@H](CO)NC(=O)[C@H](CC3=CNC4=CC=CC=C43)NC(=O)[C@H](CC5=CN=CN5)NC(=O)[C@@H]6CCC(=O)N6.CC(=O)O"
+# Tạo đối tượng Mol từ tên SMILES
+mol1 = Chem.MolFromSmiles(smiles1)
+mol2 = Chem.MolFromSmiles(smiles2)
+# Vẽ cấu trúc hóa học và lưu thành tệp ảnh
+img1 = Draw.MolToImage(mol1)
+img2 = Draw.MolToImage(mol2)
+img1.save("../BaoCheCacDangDacBiet/Images/dextroamphetamine.png")
+img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
+```
+
+:::
+
+:::{.column width="20%"}
+::: {layout="[1,1]"}
 
 
-# Phân loại
-## Phân loại theo mô hình giải phóng
+![A](../BaoCheCacDangDacBiet/Images/dextroamphetamine.png)
+
+![B](../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png)
+
+
+:::
+
+
+
+:::
+
+
+:::{.column width="40%"}
+
+![C](../BaoCheCacDangDacBiet/Images/Gen1.png)
+
+
+:::
+
+::::
+
+::::{.columns}
+:::{.column width="50%"}
+![3 thế hệ của thuốc giải phóng đặc biệt](../BaoCheCacDangDacBiet/Images/Evolution.png){width="80%"}
+:::
+:::{.column width="50%"}
+
+![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](../BaoCheCacDangDacBiet/Images/Classification.png){width="70%"}
+:::
+::::
+
+
+
+## Phân loại
+:::: {.columns}
+::: {.column width="30%"}
+![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](../BaoCheCacDangDacBiet/Images/Classification.png){width="70%"}
+
+
+**Phân loại theo cách thiết kế**
+ 
+
+:::
+::: {.column width="40%"}
+**Phân loại theo mô hình giải phóng**
+
 | Mô hình giải phóng | Thời gian giải phóng | tên gọi dạng thuốc  |
 |--------------------|----------------------|---------------------|
-|giải phóng ngay     | trong vòng 30 phút   | Thuốc quy ước       |
+|Giải phóng ngay     | trong vòng 30 phút   | Thuốc quy ước       |
 |Giải phóng nhanh    | Trong vòng 1 phút    | thuốc giải phóng nhanh|
 |Giải phóng muộn     | Trong vòng 1-2 giờ   | Bao tan tại ruột    |
 |                    | Giải phóng sau 3-5 giờ| Giải phóng theo nhịp sinh học|
@@ -67,37 +140,37 @@ Hệ thuống giải phóng kiểm soát là các dạng bào chế có áp dụ
 | Giải phóng kiểm soát nồng độ dược chất trong máu hằng định trong khoảng điều trị| Hàng ngày (12-24 giờ)| thuốc giải phóng kiểm soát|
 | Giải phóng theo chương trình| Hàng tuần, hàng năm| Hệ điều trị, hệ trị liệu|
 | Giải phóng tại đích| Hàng ngày, hàng tháng |Thuốc giải phóng tại đích|
+:::
+::: {.column width="30%"}
+**Phân loại theo cấu trúc**
 
-## Phân loại theo cách thiết kế
 
-- Thuốc giải phóng theo chương trình
-- Thuốc giải phóng có module kích hoạt
-- Thuốc giải phóng theo cơ chế đáp ứng cho-nhận
-- Thuốc giải phóng tại đích  
+*Hệ màng bao kiếm soát giải phóng*
 
-## Phân loại theo cấu trúc
-**Hệ màng bao kiếm soát giải phóng**
+- Hệ màng bao không tan trong dịch sinh học, kiêm soát sự giải phóng dược chất dựa nhờ kênh khuyếch tán có trong cấu trúc màng
+- Hệ màng bao hòa tan ăn mòn trong dịch sinh học, kiểm soát sự giải phóng dược chất nhờ lớp gel do màng bao tạo ra có mạng lưới polymer trương nở hòa tan, có độ nhớt cao và bị ăn mòn dần
 
-  - Hệ màng bao không tan trong dịch sinh học, kiêm soát sự giải phóng dược chất dựa nhờ kênh khuyeesch tán có trong cấu trúc màng
-  - Hệ màng bao hòa tan ăn mòn trong dịch sinh học, kiểm soát sự giải phóng dược chất nhờ lớp gel do màng bao tạo ra có mạng lưới polymer trương nở hòa tan, có độ nhớt cao và bị ăn mòn dần
-
-**Hệ cố kiếm soát giải phóng:** hệ thuốc dược chất phân tán đồng nhất trong cáu trúc cốt
+*Hệ cố kiếm soát giải phóng:* Hệ thuốc dược chất phân tán đồng nhất trong cấu trúc cốt
 
   - Hệ cốt không tan trong dịch sinh học
   - Hệ cố hòa tan ăn mòn trong dịch sinh học
 
-**Hệ kết hợp cột- màng, hệ nhiều vi hệ**
+*Hệ kết hợp cột- màng, hệ nhiều vi hệ*
 
-**Thuốc kiểm soát giải phóng có cấu bơm thẩm thấu**
+*Thuốc kiểm soát giải phóng có cấu bơm thẩm thấu*
   - Hệ thuốc chứa dược chất được bao màng bán thấm
 
-**Thuốc giải phóng dược chất theo nhịp sinh học**
+*Thuốc giải phóng dược chất theo nhịp sinh học*
+:::
+::::
 
-# Mô hình cấu trúc của hệ thuốc giải phóng kiểm soát
 
-![Mô hình](../BaoCheCacDangDacBiet/Images/TypeOfRelease.png)
 
-## Ưu nhược điểm
+## Mô hình cấu trúc của hệ thuốc giải phóng kiểm soát
+
+![Phân loại theo cách thiết kế:  Thuốc giải phóng theo chương trình (a), Thuốc giải phóng có module kích hoạt (b), Thuốc giải phóng theo cơ chế đáp ứng cho-nhận (c), Thuốc giải phóng tại đích (d)](../BaoCheCacDangDacBiet/Images/TypeOfRelease.png)
+
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -135,3 +208,16 @@ Hệ thuống giải phóng kiểm soát là các dạng bào chế có áp dụ
 
 - Mô hình động học giải phóng dược chất từ chế phẩm bào chế là tư liệu kỹ thuật để kiểm soát đảm bảo chất lượng các lô thuốc, phân biệt chế phẩm bào chế của các nhà sản xuất khác nhau
 - Xây dựng đường cong hòa tan, thiết lập mối liên hệ giữa mô hình *in vitro* và *in vivo*. Chọn phép thử độ hòa tan
+
+
+## Lựa chọn hoạt chất ^[Fundamentals Applications of Controlled Release Drug Delivery] 
+- Khối lượng phân tử: 150-400
+- Dạng không ion hóa chiếm từ 0.1 -1% thuốc
+- Hệ số phân bố biểu kiến 
+- Cơ chế hấp thu
+- Thời gian bán hủy: tt1/2 =8 giờ là phù hợp, nếu t1/2 nhỏ hơn 1h là quá khó có thể làm được. còn t1/2 lớn hơn thì không cần thiết.
+- độ thanh thải 
+- Thể tích phân bố biểu kiến 
+- Sinh khả dụng tuyệt đối (F) 
+- hằng số tỷ lệ hấp thu nội tại Ka
+- Nồng độ điều trị

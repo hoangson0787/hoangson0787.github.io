@@ -267,10 +267,10 @@ The IR spectra of all the flavonoids and isoflavonoids show absorption bands in 
 
 ## Phương pháp định tính Flavonoid ^[Chromatographic Fingerprint Analysis of Herbal Medicines]
     
-        -  Chiết bằng MeOH
-        -  Silica gel/HPTLC Silica gel
-        -  Ethyl acetate-Formic acid-Glacial acetic acid- Water (10 + 1.1 + 1.1 + 2.6)
-        -  Thuốc thử hiện màu
+-  Chiết bằng MeOH
+-  Silica gel/HPTLC Silica gel
+-  Ethyl acetate-Formic acid-Glacial acetic acid- Water (10 + 1.1 + 1.1 + 2.6)
+-  Thuốc thử hiện màu
     
 
 
