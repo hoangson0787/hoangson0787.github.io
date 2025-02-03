@@ -4,3 +4,6 @@ Allow: /
 
 User-agent: *
 Disallow: /private/
+User-agent: Mediapartners-Google
+
+User-agent: Google-Display-Ads-Bot
