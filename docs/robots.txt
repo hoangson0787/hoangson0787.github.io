@@ -1,3 +1,9 @@
-Sitemap: https://hoangson0787.github.io/sitemap.xml
 User-agent: Mediapartners-Google
+<<<<<<< HEAD
 User-agent: Google-Display-Ads-Bot
+=======
+Allow: /
+
+User-agent: *
+Disallow: /private/
+>>>>>>> 39e44b77fe36c0de0fbc1248ae237a297cfccff7
