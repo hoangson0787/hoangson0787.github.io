@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="TS. Hoàng Lê Sơn">
+
+<title>Chương 6: Một số quy trình chiết suất – Tài liệu dược liệu</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../Book/KyThuatChietXuat/references/references.html" rel="next">
+<link href="../../../Book/KyThuatChietXuat/part_2/chapter_5.html" rel="prev">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1440105407870599" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Chương 6: Một số quy trình chiết suất – Tài liệu dược liệu">
+<meta property="og:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
+<meta property="og:site_name" content="Tài liệu dược liệu">
+<meta name="twitter:title" content="Chương 6: Một số quy trình chiết suất – Tài liệu dược liệu">
+<meta name="twitter:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Tài liệu dược liệu</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../Book/index.qmd"> 
+<span class="menu-text">Sách</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../../Presentation/index.html" aria-current="page"> 
+<span class="menu-text">Bài giảng</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hoangson0787/"> <i class="bi bi-github" role="img" aria-label="Github">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../Book/DuocLyMang/index.html">Book</a></li><li class="breadcrumb-item"><a href="../../../Book/KyThuatChietXuat/index.html">Sách: Tài liệu các kỹ thuật chiết suất các hợp chất từ tự nhiên</a></li><li class="breadcrumb-item"><a href="../../../Book/KyThuatChietXuat/part_2/index.html">Phần 2: Các chuyên đề nâng cao</a></li><li class="breadcrumb-item"><a href="../../../Book/KyThuatChietXuat/part_2/chapter_6.html">Chương 6: Một số quy trình chiết suất</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Book</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Book/DuocLyMang/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sách: Tin dược</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/DuocLyMang/chapter_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 1: Đại cương về Tin Dược</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/DuocLyMang/chapter_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 1: Cơ sở dữ liệu trong phát triển thuốc</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/DuocLyMang/chapter_3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 3: Phát triển thuốc dựa trên target</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/DuocLyMang/chapter_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 4: Phát triển thuốc dựa trên protein</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/DuocLyMang/chapter_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 5: Dược lý mạng</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">References</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/DuocLyMang/references/references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Book/KyThuatChietXuat/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sách: Tài liệu các kỹ thuật chiết suất các hợp chất từ tự nhiên</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Book/KyThuatChietXuat/part_1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phần 1: Đại cương về chiết xuất</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/KyThuatChietXuat/part_1/chapter_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 1: Đại cương về kỹ thuật chiết suất</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/KyThuatChietXuat/part_1/chapter_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 2: Phương pháp chiết xuất thường quy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/KyThuatChietXuat/part_1/chapter_3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 3: Các phương pháp chiết xuất mới</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Book/KyThuatChietXuat/part_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phần 2: Các chuyên đề nâng cao</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth3 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/KyThuatChietXuat/part_2/chapter_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 4: Dung môi mới ứng dụng trong chiết suất</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/KyThuatChietXuat/part_2/chapter_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chương 5: Kỹ thuật làm khô dược liệu và cô đặc cao dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/KyThuatChietXuat/part_2/chapter_6.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Chương 6: Một số quy trình chiết suất</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">References</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Book/KyThuatChietXuat/references/references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Presentation/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bài giảng các học phần liên quan</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Presentation/BaoCheCacDangDacBiet/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bài giảng các dạng bào chế đặc biệt</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/BaoCheCacDangDacBiet/Bai1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Các dạng bào chế đặc biệt</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/BaoCheCacDangDacBiet/Bai2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Các dạng bào chế đặc biệt</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/BaoCheCacDangDacBiet/Bai3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Các dạng bào chế đặc biệt</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/BaoCheCacDangDacBiet/Bai4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Các dạng bào chế đặc biệt</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Presentation/Chiet_xuat/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bài giảng chiết xuất</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Chiet_xuat/presentation_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nội dung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Chiet_xuat/presentation_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Chiet_xuat/presentation_3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Chiet_xuat/presentation_4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Chiet_xuat/presentation_5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Presentation 5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Chiet_xuat/slide-template.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Slide Template</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Presentation/Duoc_lieu/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bài giảng dược liệu</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/alkaloid.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/flavonoids.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/saponin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/Tinhdau.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../Presentation/VTM/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bài giảng dược cổ truyền</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/VTM/Bai0.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược học cổ truyền</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/VTM/Bai1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược học cổ truyền</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/VTM/Bai2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược học cổ truyền</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/VTM/Bai3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược học cổ truyền</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/VTM/Bai4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược học cổ truyền</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/VTM/Bai5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược học cổ truyền</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/VTM/Ebook_WHO.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Các thuật ngữ trong y dược học cổ truyền Trung Quốc theo WHO</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true">
+ <span class="menu-text">Scripts</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../scripts/builds website from database.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Giới thiệu về dự án</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tóm-tắt" id="toc-tóm-tắt" class="nav-link active" data-scroll-target="#tóm-tắt">Tóm tắt</a></li>
+  <li><a href="#chiết-suất-catechin-từ-thực-vật-sử-dụng-màng" id="toc-chiết-suất-catechin-từ-thực-vật-sử-dụng-màng" class="nav-link" data-scroll-target="#chiết-suất-catechin-từ-thực-vật-sử-dụng-màng">6.1 Chiết suất catechin từ thực vật sử dụng màng</a></li>
+  <li><a href="#chiết-gừng-và-ứng-dụng" id="toc-chiết-gừng-và-ứng-dụng" class="nav-link" data-scroll-target="#chiết-gừng-và-ứng-dụng">6.2 Chiết gừng và ứng dụng</a></li>
+  <li><a href="#chiết-carotenoids-từ-nguồn-thực-vật" id="toc-chiết-carotenoids-từ-nguồn-thực-vật" class="nav-link" data-scroll-target="#chiết-carotenoids-từ-nguồn-thực-vật">6.3 Chiết carotenoids từ nguồn thực vật</a></li>
+  <li><a href="#thành-phần-hỗn-hợp-catechin-flavonoids" id="toc-thành-phần-hỗn-hợp-catechin-flavonoids" class="nav-link" data-scroll-target="#thành-phần-hỗn-hợp-catechin-flavonoids">6.4 Thành phần hỗn hợp catechin flavonoids</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/hoangson0787/hoangson0787/edit/main/Book/KyThuatChietXuat/part_2/chapter_6.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/blob/main/Book/KyThuatChietXuat/part_2/chapter_6.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="chapter_6.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../Book/DuocLyMang/index.html">Book</a></li><li class="breadcrumb-item"><a href="../../../Book/KyThuatChietXuat/index.html">Sách: Tài liệu các kỹ thuật chiết suất các hợp chất từ tự nhiên</a></li><li class="breadcrumb-item"><a href="../../../Book/KyThuatChietXuat/part_2/index.html">Phần 2: Các chuyên đề nâng cao</a></li><li class="breadcrumb-item"><a href="../../../Book/KyThuatChietXuat/part_2/chapter_6.html">Chương 6: Một số quy trình chiết suất</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Chương 6: Một số quy trình chiết suất</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>TS. Hoàng Lê Sơn </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="tóm-tắt" class="level2">
+<h2 class="anchored" data-anchor-id="tóm-tắt">Tóm tắt</h2>
+</section>
+<section id="chiết-suất-catechin-từ-thực-vật-sử-dụng-màng" class="level2">
+<h2 class="anchored" data-anchor-id="chiết-suất-catechin-từ-thực-vật-sử-dụng-màng">6.1 Chiết suất catechin từ thực vật sử dụng màng</h2>
+<p>Mục tiêu của sáng chế này là phát triển một kỹ thuật dựa trên màng để tinh chế và cô đặc các hóa chất flavonoid như flavon, flavanone, flavanol, flavonol, isoflavone và flavon-3-ol từ các nguồn tự nhiên. Trong vương quốc thực vật, flavonoid là chất chuyển hóa thứ cấp được tìm thấy rất nhiều. Người ta đã chứng minh rằng flavonoid có đặc tính chống oxy hóa và chống viêm cũng như kích thích hoạt động của enzyme giải độc và ức chế hoạt hóa yếu tố phiên mã cũng như gây ra quá trình chết theo chương trình trong chu kỳ tế bào, cũng như điều hòa sự xâm lấn của tế bào và sự hình thành mạch và cản trở sự gắn kết với thụ thể. Các thành phần flavonoid đã trở nên nổi bật trong kinh doanh dược phẩm dưới dạng chất phụ gia do lợi ích y tế của chúng. Lá trà xanh, vỏ cam quýt, quả mọng, bạch quả, rau mùi tây, đậu, trà, hắc mai biển và hành tây đều là những nguồn flavonoid tuyệt vời. Lá tre, nho, táo và vô số nguồn tự nhiên khác cũng chứa một lượng nhỏ chúng. Camellia sinensis được sử dụng ở đây như một nguồn cho nghiên cứu thực nghiệm này. Hóa chất catechin đã được chiết xuất bởi một số nghiên cứu. Quy trình xử lý các thành phần kem trà có chứa trà đen trong nước nóng ngay lập tức và sau đó xử lý phần chiết xuất cô đặc bằng catechin được bảo hộ bởi bằng sáng chế US4680193A. EP1767097A2 là bằng sáng chế cho phương pháp chiết xuất epigallocatechin gallate từ trà xanh. Chiết xuất trà được tạo ra bằng cách đun nóng chiết xuất trà xanh từ 25 đến 60 C trước khi đưa nó qua màng lọc nano. Catechin và polyphenol, hai hóa chất có hoạt tính sinh lý, được chiết xuất bằng kỹ thuật được mô tả trong bằng sáng chế WO1999008693. Các 254 Những tiến bộ trong chiết xuất và ứng dụng của hóa chất thực vật có hoạt tính sinh học hợp chất chiết xuất sau đó được sử dụng trong chế biến thực phẩm hoặc sản xuất dược phẩm. Quá trình chiết xuất polyphenol từ lá C. Sinensis đã được thực hiện bằng phương pháp chiết xuất có hỗ trợ vi sóng, mặc dù quy trình này không ảnh hưởng đến chất lượng của sản phẩm được sản xuất. Cloroform, axeton, axetonitril và etyl axetat đã được sử dụng trong một số nghiên cứu để chiết xuất catechin từ lá của C. Sinensis, đây là chất rất không mong muốn. Một kỹ thuật chiết xuất hai bước đối với phần tăng cường C. Sinensis EGC và EGCG màu xanh lục cũng được mô tả. Catechin từ C. Sinensis có thể được chiết xuất bằng lignocellulose làm chất hấp phụ; tuy nhiên, điều này chỉ được báo cáo bởi một vài nghiên cứu. Việc chiết xuất catechin đã được báo cáo là sử dụng nhiều phương pháp khác nhau. Tuy nhiên, những phương pháp này không mang lại một quy trình khai thác hiệu quả. Cần phải nghĩ ra một cách tiếp cận mới để vượt qua những trở ngại hiện đang cản trở các thủ tục này. Hỗn hợp catechin cô đặc trong nước có thể được sản xuất từ các nguồn thực vật và được sử dụng trong các chất bổ sung cấp dược phẩm như được mô tả trong nghiên cứu này. Có một phương pháp chiết xuất catechin không cần sử dụng dung môi hóa học và thay vào đó dựa vào nước. Một số lợi ích, bao gồm giảm tiêu thụ năng lượng, kiểm soát chất lượng sản phẩm bằng cách sử dụng màng phù hợp, tách ở nhiệt độ làm việc vừa phải, v.v., làm cho quy trình này được khuyên dùng nhiều nhất. Sự đổi mới này liên quan đến một phương pháp độc đáo và thân thiện với môi trường để chiết xuất catechin từ các nguồn giàu catechin bằng công nghệ màng. Quá trình này liên quan đến việc sử dụng các tế bào màng để xử lý dòng chảy chéo hoặc hàng loạt và thu thập chất thấm giàu catechin của tế bào màng cho các ứng dụng khác nhau [15].</p>
+</section>
+<section id="chiết-gừng-và-ứng-dụng" class="level2">
+<h2 class="anchored" data-anchor-id="chiết-gừng-và-ứng-dụng">6.2 Chiết gừng và ứng dụng</h2>
+<p>Zingiberaceae, bao gồm gừng, là những loại thảo mộc lâu năm với thân rễ mập mạp, có mùi thơm và mùi thơm cay nồng. Gừng là một loại gia vị thiết yếu, một phần quan trọng trong y học cổ truyền Trung Quốc và là một loại cây đa năng có thể được sử dụng cho mục đích y học cũng như ẩm thực. Theo các nghiên cứu, gừng có đặc tính chống oxy hóa, có thể loại bỏ các gốc tự do và bảo vệ cơ thể con người khỏi bị tổn hại bởi các gốc tự do. Sáng chế liên quan đến lĩnh vực y sinh học, và cụ thể hơn, nó liên quan đến chất chiết xuất từ gừng, cũng như phương pháp điều chế và sử dụng chất này trong y học. Thân rễ tươi của Rhizoma Zingiberis Recens (Zingiber officinale) được sử dụng trong y học Trung Quốc để hỗ trợ tiêu hóa và điều trị chứng khó chịu ở dạ dày, Bằng sáng chế về dược phẩm có nguồn gốc tự nhiên 255 tiêu chảy, và khó chịu nói chung, trong số các triệu chứng khác. Việc sử dụng Rhizoma Zingiberis Recens này đã được ghi nhận từ năm 2000 và kể từ đó nó đã vượt qua các kỷ lục trước đó. Nghiên cứu dược lý hiện đại của Rhizoma Zingiberis Recens cho thấy rằng nó có đặc tính chống oxy hóa, kháng khuẩn, chống viêm, giảm cholesterol, chống xơ vữa, tăng cường miễn dịch, chống nôn, chống dị ứng và chống nhiễm trùng, cũng như hạ đường huyết và chống dị ứng, và có một chiết xuất ethanol của Thân rễ Zingiberis Recens. Rhizoma Zingiberis Recens được sử dụng trong điều trị đau thấp khớp, đau thắt lưng và đau xương, đau khớp do ẩm ướt, viêm quanh khớp vai, sốt rét và lỵ trực khuẩn cấp tính, bệnh thấp khớp, viêm khớp dạng thấp, gây tê vùng thắt lưng và gây tê ngoài màng cứng. Rhizoma Zingiberis Recens đã được chứng minh là có các chức năng như tăng chuyển hóa cơ thể con người, đặc tính chống viêm và giảm đau, cũng như điều chỉnh chức năng của tuyến tiền liệt nam và điều trị rối loạn tuyến tiền liệt và rào cản chức năng tình dục. Do đó, Rhizoma Zingiberis Recens thường được sử dụng trong điều trị các vấn đề về sức khỏe nam giới. Rhizoma Zingiberis Recens bao gồm nghiên cứu dược lý về hệ thống sinh sản: dịch chiết nước của Rhizoma Zingiberis Recens đưa tinh trùng chuột biến dạng thành cyclophosphamide để có tác dụng ức chế đáng kể. Việc chiết xuất ethanol theo toa của Rhizoma Zingiberis Recens và Rhizoma Curcumae Longue tương thích có thể làm giảm hiệu quả chất lượng của tuyến tiền liệt chuột. Dịch chiết Rhizoma Zingiberis Recens với liều lượng phù hợp có tính ổn định nhất định. Một trong những thách thức trong lĩnh vực loại bỏ các gốc tự do là làm thế nào để tạo ra một sản phẩm tự nhiên tinh khiết có khả năng loại bỏ các gốc tự do. Chiết xuất gừng và kỹ thuật sản xuất cũng như cách sử dụng nó chủ yếu được đề cập trong sáng chế này (Bằng sáng chế số: CN106924707B). Chiết xuất gừng có thể được sử dụng để tạo ra chiết xuất gừng tự nhiên loại bỏ gốc tự do. Sáng chế đề xuất một phương pháp điều chế chiết xuất gừng, bao gồm làm khô Rhizoma Zingiberis Recens và nghiền thành lưới 70-90 để tạo ra bột khô Rhizoma Zingiberis Recens để giải quyết các vấn đề kỹ thuật. Một phương pháp khác bao gồm việc bổ sung xenlulaza đã nghiền, pectinaza và cetyl trimetyl amoni bromua (CTAB) vào nước cất và trộn đều, trong đó tỷ lệ chất lỏng của bột gừng khô với nước cất là 1 g:50e60 mL, và tỷ lệ khối lượng bột gừng khô so với các chất đã nghiền là 1 g:6e10 mg. Phương pháp này được thực hiện bằng cách đặt chất lỏng hỗn hợp vào nồi cách thủy ở nhiệt độ 55–65 C trong 20–40 phút, khuấy và làm đông khô; thêm ether dầu hỏa vào hỗn hợp; và sấy khô ở nhiệt độ thấp [16].</p>
+</section>
+<section id="chiết-carotenoids-từ-nguồn-thực-vật" class="level2">
+<h2 class="anchored" data-anchor-id="chiết-carotenoids-từ-nguồn-thực-vật">6.3 Chiết carotenoids từ nguồn thực vật</h2>
+<p>Sáng chế này phát triển một phương pháp chiết xuất caroten từ các loại sinh khối khác nhau, bao gồm men Phaffia Rhodozyma. Việc chiết xuất carotenoid từ các sinh khối này được thực hiện bằng cách đun nóng nguồn caroten ở nhiệt độ cao với hỗn hợp dung môi bao gồm nước, dung môi caroten kỵ nước như dầu thực vật và đồng dung môi hòa tan trong nước như ethanol. Dễ dàng tích hợp vào chế độ ăn uống, cải thiện khả dụng sinh học và ổn định chống lại quá trình oxy hóa chỉ là một số lợi thế. Năm 2004, Michael Kagan và Sergei Braun đã được trao bằng sáng chế này. Phương pháp và thiết bị để chiết carotenoit từ sinh khối có trong tự nhiên hoặc được trồng đặc biệt, như sinh khối giàu sắc tố carotenoit, được bộc lộ ở đây. Có một số ứng dụng kinh tế cho các carotenoit này, bao gồm sắc tố và chất chống oxy hóa cho cả người và động vật. Vì chúng thường xuyên ăn vi giáp xác có chứa sắc tố đỏ astaxanthin nên cá hồi nuôi trong tự nhiên có màu hồng. Astaxanthin được bổ sung nhân tạo được sử dụng để mang lại màu hồng mong muốn cho thịt cá hồi khi chúng được nuôi nhốt. Astaxanthin cần thiết với số lượng 60 mg mỗi kg thức ăn cho cá để có được màu xanh lam này. Nó cũng được sử dụng để tăng cường màu sắc của cá nuôi như cá tráp biển và tôm, cũng như trong nuôi trồng thủy sản. Màu cá hồi đã đạt được bằng cách sử dụng cả astaxanthin tổng hợp và tự nhiên. Để giảm chi phí, các công thức tổng hợp hầu hết đã thay thế các nguồn tự nhiên. Sinh khối giàu astaxanthin như nấm men P. rhodozyma, tảo Haematococcus pluvalis và các sản phẩm giáp xác đã được đưa trực tiếp vào chế độ ăn của cá hồi trong các công thức có nguồn gốc tự nhiên. Mặc dù astaxanthin có thể được kết hợp trực tiếp, nhưng nó không hiệu quả về mặt chi phí so với sản phẩm tổng hợp vì hệ thống tiêu hóa của cá không có khả năng chiết xuất astaxanthin từ các tế bào sinh khối; nói cách khác, nguồn này có khả dụng sinh học kém đối với astaxanthin. Các nguồn lycopene và carotene tự nhiên, hai loại carotenoid có ý nghĩa kinh tế khác, hiện nay cũng đắt hơn so với các nguồn tổng hợp của chúng. Astaxanthin và các carotenoid khác rất quan trọng về mặt kinh tế và một số chiến lược đã 258 Những tiến bộ trong chiết xuất và ứng dụng của hóa chất thực vật có hoạt tính sinh học đã được phát triển để tối ưu hóa việc sản xuất sinh khối giàu caroten và cải thiện quá trình chiết xuất caroten từ chúng. Sử dụng sáng chế hiện tại, một phương pháp chiết xuất caroten từ nguồn caroten, bao gồm làm nóng nguồn caroten, hỗn hợp dung môi đa pha bao gồm nước, dung môi caroten kỵ nước và đồng dung môi hòa tan trong nước, được trình bày. Có thể nguồn caroten có chứa nước, dưới dạng chất bổ sung hoặc thành phần tự nhiên. Hỗn hợp nhiều pha thường có hai pha riêng biệt, một pha nước và pha còn lại không chứa nước hoặc dầu; Tuy nhiên, đây không phải là luôn luôn như vậy. Trong quá trình xử lý, sinh khối được khuấy trộn tốt nhất, ví dụ như xoáy. Quá trình chiết được thực hiện trong khoảng thời gian ít nhất là 30 phút, nhưng tốt nhất là từ 30 phút đến 3 giờ. Các dung môi kỵ nước, chẳng hạn như dầu ăn, metyl axetat, etyl axetat, butyl axetat, ankan có số cacbon từ 5 trở lên và chloroform, được ưu tiên sử dụng vì chúng kết hợp đặc tính kỵ nước với khả năng dung môi chấp nhận được đối với sắc tố caroten. Carotenoid tốt nhất được chọn để có ít nhất một số khả năng hạn chế để hòa tan dung môi đồng, trong khi dung môi đồng khả năng chuyển carotenoid hòa tan trong nó sang dung môi được xác định bởi hệ số của dung môi đồng phân vùng. Rượu, ketone hoặc ether có thể được sử dụng làm đồng dung môi. Este monoalkyl của ethylene glycol (Cellosolve) hoặc 1,3-dioxane hoặc 1,4-dioxane được ưu tiên làm đồng dung môi hòa tan trong nước, cũng như metanol, etanol, n-propanol và iso-propanol. Dung dịch caroten trong dầu ăn có thể được tạo ra trực tiếp bằng cách sử dụng dầu ăn làm dung môi; tuy nhiên, trong một số trường hợp, sẽ có lợi khi sử dụng dung môi kỵ nước và sau đó kết hợp dung môi kỵ nước với dầu ăn và làm bay hơi dầu từ đó. Tốt hơn là, dung môi kỵ nước đã bay hơi trong quá trình chiết xuất sẽ được sử dụng lại. Dung dịch caroten trong dầu ăn có thể được điều chế bằng cách kết hợp dung dịch caroten trong dung môi không thể trộn lẫn với nước với dầu và sau đó làm bay hơi dung môi khỏi hỗn hợp, theo một khía cạnh khác của sáng chế này. Theo sáng chế, quá trình chiết xuất carotenoid được thực hiện như mô tả trước đây để tạo ra dung dịch caroten trong dầu ăn, sau đó được bổ sung vào các thành phần thức ăn chăn nuôi để sản xuất nguyên liệu thức ăn chăn nuôi [18].</p>
+</section>
+<section id="thành-phần-hỗn-hợp-catechin-flavonoids" class="level2">
+<h2 class="anchored" data-anchor-id="thành-phần-hỗn-hợp-catechin-flavonoids">6.4 Thành phần hỗn hợp catechin flavonoids</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/hoangson0787\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="hoangson0787/hoangson0787.github.io" data-repo-id="R_kgDONbMRNA" data-category="General" data-category-id="DIC_kwDONbMRNM4ClkiJ" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../Book/KyThuatChietXuat/part_2/chapter_5.html" class="pagination-link" aria-label="Chương 5: Kỹ thuật làm khô dược liệu và cô đặc cao dược liệu">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Chương 5: Kỹ thuật làm khô dược liệu và cô đặc cao dược liệu</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../Book/KyThuatChietXuat/references/references.html" class="pagination-link" aria-label="References">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../../about.html">
+<p>Về tôi</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/hoangson0787/hoangson0787/edit/main/Book/KyThuatChietXuat/part_2/chapter_6.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/blob/main/Book/KyThuatChietXuat/part_2/chapter_6.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ Y học thực chứng
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

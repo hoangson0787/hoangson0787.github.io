@@ -11,3 +11,4 @@ Mục lục
 
 - [Học phần chiết xuất](../Presentation/Chiet_xuat/index.qmd)
 - [Học phần dược cổ truyền](../Presentation/VTM/index.qmd)
+- [Học phần các dạng bào chế đặc biêt](../Presentation/BaoCheCacDangDacBiet/index.qmd)

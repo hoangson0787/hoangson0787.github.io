@@ -1,0 +1,301 @@
+---
+title: "Dược liệu "
+subtitle: "Alkaloids và Các dược liệu chứa Alkaloids"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 2
+lightbox: true
+format: 
+  revealjs:
+    slide-number: true
+    logo: "../../images/9.png"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: "../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../../images/9.png"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+
+
+
+# Đại cương
+## Lịch sử
+:::: {.columns}
+::: {.column width="60%" .nonincremental}
+
+![Nhóm hợp chất khai sinh ra thuật ngữ dược liệu.](../Duoc_lieu/Images/History_Alkaloid.png)
+
+:::
+::: {.column width="40%" .nonincremental}
+
+![Cây thuốc phiện, một dược liệu quan trọng nhất trong lịch sử loài người.](../Duoc_lieu/Images/Opium_Illustration.jpg)
+
+:::
+::::
+
+
+## Khái niệm
+::: {.callout-important title="Khái niệm ALKALOIDS"}
+Alkaloid là hợp chất hữu cơ có chứa nitrogen với tác dụng dược lý đối với con người và động vật.
+:::
+:::: {.columns}
+::: {.column width="60%" .nonincremental}
+
+
+- Về cấu trúc hóa hợp thường là vòng phức tạp có chứa nitrogen.
+- Thường được tìm thấy trong hạt của thực vật nhưng cũng có thể phân lập trong vỏ, quả,rễ hoặc lá.
+- Có thể tìm thấy ở một số động vật và nấm. 
+- Alkaloids thường là dẫn xuất của các acid amin.
+- Nhiều Alkaloids có độc tính cao nhưng cũng có nhiều Alkaloid được sử dụng làm thuốc giảm đau hoặc an thần. 
+- Hầu hết alkaloids có vị đắng 
+
+:::
+
+::: {.column width="40%" .nonincremental}
+
+![Tetraodotoxin từ cá nóc](../Duoc_lieu/Images/Tetrodotoxin.png)
+
+:::
+::::
+
+**Danh pháp**
+
+Các alkaloids thường có cấu tạo phức tạp nên không gọi theo danh pháp và gọi theo tên riêng. Tên của alkaloids luôn có đuôi in và xuất phát từ:
+
+- Tên chi hoặc tên loài cây + in (ví dụ: Papaverin từ  *Papaver somniferum; Palmatin từ  *Jatrorrhiza palmata; Cocain từ  *Erythroxylum coca).
+- Dựa vào tác dụng sinh học của alkaloids: Emetin do từ  = gây nôn; Morphin từ morpheus = gây ngủ.
+- Có thể từ tên người + in: Pelletirin từ Pelletier; Nicotin từ J. Nicot.
+- Những alkaloids phụ tìm ra sau, thêm tiếp đầu ngữ, hoặc biến đổi vĩ ngữ chính: ví dụ như in thành idin, -anin, -alin. 
+
+## Phân loại 
+
+:::: {.columns}
+::: {.column width="65%" .nonincremental}
+**Cách 1:** 
+
+- True Alkaloids: Là dẫn xuất của các acid amin kết hợp với dị vòng thơm chứa Nito. Thường có vị đắng bột màu trắng trừ Nicotine dạng lỏng màu nâu. Chúng thường ở dạng muối tan trong nước. Trong thực vật có thể tồn tại ở dạng tự do, muối và N-Oxides.
+- Protoalkaloids: là dẫn xuất của các acid amin nhưng không có dị vòng thơm chứa Nito.
+- Pseudoalkaloids: với cơ bản khung carbon nhưng không phải dẫn xuất của acid amin. 
+
+**Cách 2:** Dựa vào dị vòng
+
+- Atypical alkaloids: Không dị vòng và chứa nito ở mạch nhánh: Phenul ethyl amine, Tropolone , Modified diterpene
+- Typical Alkaloids: Chứa dị vòng và chứa nito ở hệ thống vòng. Mono-nuclear Heterocyclic Alkaloids (Pyridine, Piperidine,Pyrrole,Pyrrolidine, Imidazole ) và Poly-nuclear Heterocyclic alkaloids (Isoquinoline, Quinoline, Indole, Quinazoline, Tropane, Purine, Steroid, Terpenoid )
+
+:::
+
+::: {.column width="30%" .nonincremental}
+
+![Cách 1](../Duoc_lieu/Images/class_alkaloids.png)
+
+![Cách 2](../Duoc_lieu/Images/class_cach2.png)
+:::
+::::
+
+## Cấu trúc hóa học 
+
+Những alkaloids của cùng một cây thường có cấu tạo tương tự nhau, chúng có chung một nhân cơ bản.
+
+- Các alkaloids ở trong cùng một họ thực vật thường có cấu tạo rất gần nhau. Ví dụ như alkaloids trong các cây họ Cà như  *Atropa belladonna* L.,  *Hyoscyamus niger* L.,  *Datura metel* L.,  *Datura stramonium* L.,  *Datura tatula* L. đều có chung nhân tropan.
+- Có khi trong cùng 1 họ nhưng cấu trúc hóa học lại rất khác nhau. Ví dụ một số cây trong họ cà phê như cây càfé có cafein (nhân purin), cây canhkina (nhân quinolin).
+- Có alkaloids gặp ở nhiều họ khác nhau như Berberin có trong cây 
+- Hoàng liên (họ Hoàng liên), 
+- Hoàng bá (họ Cam chanh), 
+- Vàng đắng (họ Tiết dê),
+- Berberis spp. (họ Berberidaceae).
+
+**Hàm lượng**
+
+- Hàm lượng alkaloids trong cây rất thấp. Một dược liệu chứa từ 1 – 3\% alkaloids đã được coi là khá cao. Trừ một vài trường hợp đặc biệt như alkaloids trong vỏ cây Canhkina (6 – 10\%), alkaloids trong nhựa thuốc phiện (20 – 30\%).
+- Trong cây alkaloids ít khi tồn tại dạng tự do (dạng alkaloids base) mà ở dạng muối của các acid hữu cơ như citrat, tactat, malat, oxalat, acetat (đôi khi của acid vô cơ) tan trong dịch tế bào. 
+- Một số alkaloids kết hợp với tanin, hoặc kết hợp với acid đặc biêt của cây đó ví dụ acid meconic trong thuốc phiện, acid tropic trong một số cây họ Cà, acid aconitic trong cây Ô đầu.
+
+
+## Phân bố trong thiên nhiên
+
+- Alkaloids phổ biến trong thực vật, 6000 alkaloids từ 5000 loài, hầu hết ở thực vật bậc cao (15-10\% tổng số loài cây).
+- Họ Trúc đào 800 alkaloids, Họ Thuốc phiện 400 alkaloids, Họ Cam chanh gần 400 alkaloids, Họ Đậu 350 alkaloids, Họ hành, họ Cà, họ Tiết dê, họ Cà phê, họ Mã tiền, họ Hoàng dương, họ Cúc, họ Thầu dầu
+- Họ Rannunculaceae, Berberidaceae, Papaveraceae, Buxaceae, Cactaceae có tới 50\% loài chứa alkaloids.
+- Ở Nấm có alkaloids trong nấm cựa khoả mạch.
+- Ở động vật, alkaloids nhóm samandarin/tuyến da của loài kỳ nhông; bufotenin từ nhựa cóc.
+
+
+Trong cây, alkaloids thường tập trung ở một số bộ phận nhất định. Ví dụ như alkaloids ở 
+
+- **Hạt** Mã tiền, cà phê, tỏi độc;  
+- **Quả** như Ớt, hồ tiêu, thuốc phiện;  
+- **Lá** như Belladon, coca, thuốc lá, chè; 
+- **Hoa** như Cà độc dược;  
+- **Thân** như Ma hoàng;  
+- **Vỏ thân** như Canhkina, mức hoa trắng, hoàng bá;  
+- **Rễ** như ba gạc, lựu;  
+- **Củ** như Ô đầu, bình vôi, Bách bộ.
+
+## Tính chất hóa lý
+:::: {.columns}
+::: {.column width="50%" .nonincremental}
+::: {.callout-important title="Lý tính"}
+
+- Thể chất: Thể rắn, công thức cấu tạo có C, H, N và O. Ví dụ: Morphin (C17H19NO3), Codein (C18H21NO3), Strychnin, quinin ..
+- Thể lỏng, CTCT không có oxi  Ví dụ: Coniin (C8H17N), Nicotin (C10H14N2), spartein (C15H26N2) … 
+tuy nhiên có 1 vài alkaloids không có oxi vẫn ở thể rắn như sempecvirin (C19H16N2)
+- Mùi vị: Không mùi 
+- Có vị đắng nhưng một số ít có vị cay (piperin)
+- Màu sắc: Không màu, trừ một số có màu vàng như Berberin, palmatin
+:::
+
+**Năng suất quay cực**
+
+- Phần lớn alkaloids có khả năng quay cực vì có Carbon bất đối. 
+- Một số alkaloids là hỗn hợp đồng phân tả tuyền và hữu tuyền (racemic). Ví dụ Atropin là racemic của hyoscyamin.
+- Có 2 dạng đồng phân D và L thì alkaloids dạng L có tác dụng sinh học mạnh hơn dạng D. Ví dụ L-ephedrin.
+
+
+
+:::
+
+::: {.column width="50%" .nonincremental}
+::: {.callout-important title="Hóa tính"}
+
+- Tính base yếu (ngoại lệ có chất có tính base mạnh – Nicotin; không có phản ứng kiềm – Theobromin, ricinin, colchicin; phản ứng acid yếu – arecaidin, guvacin).
+- Do tính base yếu nên có thể giải phóng alkaloids ra khỏi muối bằng kiềm trung bình và kiềm mạnh (NH4OH, NaOH, Na2CO3)
+- Tác dụng với acid cho muối tương ứng.
+- alkaloids kết hợp với kim loại nặng tạo phức
+- alkaloids cho phản ứng với TT gọi là TT chung, được chia làm 2 loại: TT tạo tủa và TT tạo màu.
+
+:::
+**Độ tan:**
+
+- alkaloids base không tan trong nước, dễ tan trong các dung môi hữu cơ như MeOH, EtOH, Ether, CHCl3.
+- alkaloids dạng muối tan trong nước và không tan trong dung môi hữu cơ.
+:::
+
+::::
+
+##  Thuốc thử đặc trưng
+
+:::: {.columns}
+::: {.column width="30%" .nonincremental}
+
+**Thuốc thử tạo tủa rất nhạy**
+
+- TT Mayer (K2HgI4): tủa màu trắng
+- TT Bouchardat (Iodo-Iodid): tủa màu nâu
+- TT Dragendorff (KBiI4): tủa vàng cam đến đỏ.
+
+**TT tạo màu** 
+ 
+ 
+- Acid sulfuric đậm đặc
+- Acid nitơric đậm đặc
+- Acid sulfonitric (TT Edrdmann)
+:::
+::: {.column width="70%" .nonincremental}
+{{< video https://www.youtube.com/embed/njQgrPixU48 width="100%" height="600">}}
+
+:::
+
+::::
+
+
+
+## Chiết xuất, tinh chế và phân lập
+:::: {.columns}
+::: {.column width="30%" .nonincremental}
+**Nguyên tắc chiết xuất** dựa vào tính chất của alkaloids
+
+- tính base yếu
+- tồn tại trong cây ở dạng muối 
+
+
+2 phương pháp chính
+
+- Chiết xuất bằng dung môi hữu cơ trong môi trường kiềm
+- Chiết bằng dung dịch acid loãng trong cồn hoặc nước
+
+
+
+**Tinh chế và phân lập**
+
+- Phương pháp trao đổi ion
+- Phương pháp sắc ký cột
+- Phương pháp sắc ký điều chế
+:::
+::: {.column width="70%" .nonincremental}
+{{< video https://www.youtube.com/embed/DJURCOIH5s0 width="100%" height="600">}}
+:::
+
+::::
+
+
+## Định tính và định lượng
+**Định tính:** Thuốc thử chung của alkaloids gồm
+
+- TT tạo tủa: Mayer, Bouchardat, Dragendorff.
+Chú ý: dạng alkaloids để làm phản ứng với TT tạo tủa luôn luôn đưa về dạng muối (môi trường acid).
+- TT tạo màu: mỗi nhóm alkaloids có phản ứng màu (phản ứng đặc hiệu) khác nhau. Ví dụ phản ứng Vitalli cho alkaloids nhân tropan; 
+
+**Định lượng:**
+
+- Phương pháp cân
+- Phương pháp trung hòa
+- Phương pháp so màu (ví dụ định lượng alkaloids vỏ canhkina bằng TT Reinecker tạo tủa màu, hòa tan tủa trong aceton).
+
+
+
+## Tác dụng dược lý
+:::: {.columns}
+::: {.column width="50%" .nonincremental}
+**Hệ thần kinh trung ương (CNS)**
+
+- ức chế TKTƯ như morphin, scopolamin; 
+- kích thích TKTƯ như strychnin, cafein.
+
+**Hệ thần kinh thực vật**
+
+- giống TK giao cảm (hưng phấn giao cảm) như ephedrin;
+- liệt giao cảm như yohimbin hay một vài alkaloids cựa khỏa mạch; 
+- giống TK phó giao cảm như pilocarpin; 
+- kháng cholin như atropin, hyoscyamin; 
+- liệt hạch và TK giao cảm như spartein, nicotin.
+
+:::
+::: {.column width="50%" .nonincremental}
+**Ngoài ra, alkaloids còn có một số tác dụng quan trọng như:**
+
+-  gây tê tại chỗ: cocain
+- Điều trị rung tâm thất: quinidin
+- Hóa trị liệu ung thư: vinblastin, ellipticine
+- Sốt rét: quinin
+- Kháng khuẩn: berberin
+:::
+::::
+
+# Dược liệu chứa Alkaloid
+## Danh sách dược liệu chứa alkaloids
+| Tên dược liệu   | Dược điển Việt nam | Dược điển Hồng Kông | Tên dược liệu         | Dược điển Việt nam | Dược điển Hồng Kông |
+|-----------------|--------------------|---------------------|-----------------------|--------------------|---------------------|
+| ích mẫu         | X                  | X                   | Vàng đắng             | X                  |                     |
+| Cau             | X                  | X                   | Hoàng đằng            | X                  |                     |
+| Hồ tiêu         | X                  |                     | Vông nem              | X                  | X                   |
+| Hoàng bá        | X                  | X                   | Thuốc phiện           | X                  | X                   |
+| Canhkina        |                    |                     | Trinh nữ hoàng cung   | X                  |                     |
+| Bình vôi        | X                  |                     | Ba gạc                |                    |                     |
+| Hoàng liên      | X                  |                     | Mã tiền               | X                  | X                   |
+| Lạc tiên        | X                  | X                   | Chè xanh              |                    |                     |
+| Ô đầu           | X                  | X                   | Mực hoa trắng         | X                  | X                   |
+| Bách bộ         | X                  | X                   | Tỏi độc               |                    |                     |
+| Ớt              |                    |                     |                       |                    |                     |
+

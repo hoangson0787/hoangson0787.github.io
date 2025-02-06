@@ -127,5 +127,80 @@
   },
   "Presentation/BaoCheCacDangDacBiet/Bai4.qmd": {
     "Bai4.html": "596b7323"
+  },
+  "Book/KyThuatChietXuat/index.qmd": {
+    "index.html": "281d63b3"
+  },
+  "Book/KyThuatChietXuat/part_1/chapter_1.qmd": {
+    "chapter_1.html": "6e0fad94",
+    "chapter_1.docx": "505db53c"
+  },
+  "Book/KyThuatChietXuat/part_1/chapter_2.qmd": {
+    "chapter_2.html": "a9eafc01",
+    "chapter_2.docx": "52625ec2"
+  },
+  "Book/KyThuatChietXuat/part_1/chapter_3.qmd": {
+    "chapter_3.html": "9916bf6b",
+    "chapter_3.docx": "ffbe9caa"
+  },
+  "Book/KyThuatChietXuat/part_1/index.qmd": {
+    "index.html": "5be29658",
+    "index.docx": "aef05220"
+  },
+  "Book/KyThuatChietXuat/part_2/chapter_4.qmd": {
+    "chapter_4.html": "1c8a1f1a",
+    "chapter_4.docx": "46ba6fc4"
+  },
+  "Book/KyThuatChietXuat/part_2/chapter_5.qmd": {
+    "chapter_5.html": "9e582da2",
+    "chapter_5.docx": "6424be67"
+  },
+  "Book/KyThuatChietXuat/part_2/chapter_6.qmd": {
+    "chapter_6.html": "4c3e94f4",
+    "chapter_6.docx": "e051f360"
+  },
+  "Book/KyThuatChietXuat/part_2/index.qmd": {
+    "index.html": "510d9aca"
+  },
+  "Book/KyThuatChietXuat/references/references.qmd": {
+    "references.html": "69006981"
+  },
+  "Presentation/Duoc_lieu/alkaloid.qmd": {
+    "alkaloid.html": "37f765e7"
+  },
+  "Presentation/Duoc_lieu/saponin.qmd": {
+    "saponin.html": "39c75efd"
+  },
+  "Presentation/VTM/Bai0.qmd": {
+    "Bai0.html": "d2c49a3d"
+  },
+  "Book/DuocLyMang/chapter_1.qmd": {
+    "chapter_1.html": "be72ccff",
+    "chapter_1.docx": "863d78c1"
+  },
+  "Book/DuocLyMang/chapter_2.qmd": {
+    "chapter_2.html": "1d9afa59",
+    "chapter_2.docx": "2b3a7eb0"
+  },
+  "Book/DuocLyMang/chapter_3.qmd": {
+    "chapter_3.html": "2afc6c60",
+    "chapter_3.docx": "a3a74f2b"
+  },
+  "Book/DuocLyMang/chapter_4.qmd": {
+    "chapter_4.html": "433fa732",
+    "chapter_4.docx": "cdd3ce74"
+  },
+  "Book/DuocLyMang/chapter_5.qmd": {
+    "chapter_5.html": "9bb41960",
+    "chapter_5.docx": "ecbf729a"
+  },
+  "Book/DuocLyMang/index.qmd": {
+    "index.html": "eac3dde3"
+  },
+  "Book/DuocLyMang/references/references.qmd": {
+    "references.html": "521f3c7b"
+  },
+  "Presentation/Duoc_lieu/alkaloids_1.qmd": {
+    "alkaloids_1.html": "b18acf86"
   }
 }

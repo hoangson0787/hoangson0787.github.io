@@ -1,0 +1,104 @@
+---
+title: "Chương 1: Đại cương về Tin Dược "
+author: "TS. Hoàng Lê Sơn"
+toc: true
+
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+  docx: default
+---
+## Tóm tắt
+Tin dược là một nhánh mới nổi trong phát triển thuốc với thuật ngữ tiếng Anh là Pharmacoinformatics. Đây là giao thoa một số lĩnh vực như tin sinh, tin hóa, di truyền học để phát triển thuốc sử dụng trên lâm sàng.  
+## Đại cương về tin dược 
+Dược tin học và các nhánh của chúng trong khám phá thuốc
+Dược tin học còn được gọi là giao diện của công nghệ với thực hành dược (Hình 1) [14-16]. Đây là một lĩnh vực mới nổi, trong đó chúng tôi sử dụng một số lĩnh vực như Dược học di truyền, Tin sinh học và Hóa học để phát minh ra các loại thuốc để sử dụng thuốc lâm sàng ở các cá nhân và quần thể. Trong dược, lĩnh vực này giúp chúng tôi phát triển các ứng cử viên thuốc mới bằng cách sử dụng các công nghệ khác nhau [17-22].
+
+dược phẩm-Công nghệ nano-Phân loại-Dược tin học
+Hình 1: Phân loại dược tin học.
+
+Dược lý gen
+
+Dược lý gen lần đầu tiên được phát minh bởi Pythagoras. Khi anh ấy đang thực hiện các nghiên cứu khoa học về việc tiêm đậu fava với thiếu máu tán huyết và stress oxy hóa, anh ấy vô tình phát hiện ra về các gen chịu trách nhiệm cho favism và anh ấy nhận ra nó có một nghiên cứu bộ gen [23-30]. Tuy nhiên, thuật ngữ dược lý gen lần đầu tiên được đặt ra bởi Frienrich Vogel vào năm 1959. Sau đó, vào năm 1960, các nghiên cứu song sinh đã hỗ trợ chúng tôi nhận ra sự tham gia của bộ gen trong quá trình chuyển hóa của các ứng cử viên thuốc. Dược học là nghiên cứu về vai trò của bộ gen trong phản ứng thuốc.
+
+Bản thân cái tên chỉ ra rằng sự kết hợp giữa dược lý và bộ gen. Các nghiên cứu giúp chúng ta nhận ra các hoạt động sinh học của thuốc (Dược lực học và Dược động học). Thuật ngữ dược lý học bắt đầu được sử dụng từ những năm 1990 và các nghiên cứu về dược lý gen giúp phát triển dược phẩm của các ứng cử viên thuốc mới để chữa bệnh cho những người bị ảnh hưởng. Bằng cách sử dụng các nghiên cứu này, chúng tôi có thể dự đoán sự biến đổi di truyền về phản ứng thuốc ở bệnh nhân bằng cách so sánh biểu hiện gen tương quan của họ hoặc các hành động sinh học như tác động dược lực học hoặc tác dụng dược lực học bao gồm hấp thụ, phân phối, trao đổi chất và đào thải cũng như tác dụng thụ thể thuốc nhắm mục tiêu [31-35]. Dược lý gen bao gồm một cách tiếp cận liên kết trên toàn bộ bộ gen hơn, kết hợp bộ gen và di truyền biểu sinh để đáp ứng thuốc.
+
+Sự chấp thuận mới đầu tiên của FDA về xét nghiệm dược di truyền đã được thực hiện trên các alen trong CYP2D6 và CYP2C19 vào năm 2005.
+
+Tin sinh học
+
+Tin sinh học là một lĩnh vực thịnh hành, kết hợp các nghiên cứu sinh học với kỹ thuật tin học để phát triển các ứng cử viên dược phẩm hiệu quả [36-42]. Thuật ngữ tin sinh học xuất hiện vào những năm 1990 và nó được phát minh lần đầu tiên bởi Paulien Hogeweg và Ben Hesper vào những năm 1970. Đây là một lĩnh vực mới nổi trong khoa học dược phẩm để phát triển các phân tử thuốc mới bằng cách thực hiện các phương pháp in silico khác nhau (Hình 2). Các công cụ tính toán khác nhau đã được sử dụng để thiết kế và phát triển thuốc. Ngày nay, thuật ngữ tin sinh học đã mở rộng và kết hợp quá nhiều lĩnh vực khác của khoa học sinh học như biểu hiện gen, nghiên cứu tương tác protein-protein và vi mảng, phân tích chức năng của các phân tử sinh học và các thực thể thuốc mới [43-51]. Các lĩnh vực được đề cập ở trên sẽ sử dụng các loại cơ sở dữ liệu, thuật toán và phương pháp thống kê khác nhau để thực hiện các chức năng của chúng.
+
+dược phẩm-công nghệ nano-khám phá thuốc
+Hình 2: Tin sinh học trong quá trình khám phá thuốc.
+
+Có ba phân ngành quan trọng trong Tin sinh học: phát triển các thuật toán mới và các phương pháp thống kê mới, giúp chúng ta đánh giá mối quan hệ giữa các thành viên của các tập dữ liệu lớn; phân tích và giải thích nhiều loại dữ liệu có chứa trình tự nucleotide và axit amin, miền protein và cấu trúc protein; và sự phát triển và thực hiện các công cụ mới cho phép truy cập và quản lý hiệu quả các loại thông tin khác nhau" [52-58].
+
+Tin học hóa trị
+
+Tin học hóa trị là kỹ thuật tin học để giải quyết các vấn đề hóa học với sự trợ giúp của các công cụ tin học. Nó giúp ích trong tất cả các loại lĩnh vực liên quan đến hóa học như hóa học từ hóa học phân tích để phát triển các phân tử thuốc mới. Hiện tại, chúng ta đang phải đối mặt với một số vấn đề và vẫn còn nhiều thách thức hóa học đang chờ đợi các giải pháp rõ ràng bằng cách sử dụng Hóa học (Hình 3) [59-65].
+
+dược phẩm-công nghệ nano-khám phá thuốc
+Hình 3: Dòng chảy của Cheminformatics trong khám phá thuốc.
+
+Thuật ngữ Hóa học được Frank Brown đề cập lần đầu tiên vào năm 1998.
+
+Dữ liệu hóa học →Lưu trữ trong cơ sở dữ liệu →Thông tin dữ liệu →Truy xuất dữ liệu →Phân tích
+
+Tin học hóa trị là sự sắp xếp các nguồn thông tin để chuyển đổi dữ liệu thành thông tin và thông tin thành tri thức nhằm mục đích đưa ra quyết định tốt hơn nhanh hơn trong lĩnh vực xác định và tổ chức dẫn dắt thuốc. Vì vậy, tin học hóa trị rất hữu ích trong thiết kế thuốc, Greg Paris đã đưa ra một định nghĩa rộng hơn nhiều [66-72].
+
+Sơ đồ hiện tại của Hóa học trong thiết kế thuốc được đưa ra dưới đây: Phân tích dự đoán tính chất cấu trúc cấu trúc thuốc được thiết kế sẵn (QSAR) dự đoán tính chất bằng định dạng nụ cười thực hiện một số sửa đổi trong thuốc trước đó một lần nữa dự đoán tính chất của thuốc nếu sự thay đổi xảy ra trong cấu trúc mới lưu cấu trúc đó và thiết kế một thư viện mảnh [73-81]. Hóa học là một thuật ngữ chung bao gồm thiết kế, sáng tạo, tổ chức, quản lý, truy xuất, phân tích, phổ biến, trực quan hóa và sử dụng thông tin hóa học.
+
+Mối quan hệ hoạt động cấu trúc định lượng (QSAR)
+
+Các phương pháp quan hệ cấu trúc-hoạt động định lượng được sử dụng để chỉ ra mối quan hệ của các mô tả cấu trúc và / hoặc tính chất của các hợp chất với các hoạt động sinh học của chúng (Hình 4) [82]. Những mô tả này giải thích các tính chất như steric, tôpô, điện tử và kỵ nước của nhiều phân tử, đã được xác định thông qua các phương pháp thực nghiệm, và chỉ gần đây hơn bằng các phương pháp tính toán [83-91].
+
+pharmaceutics-nanotechnology-biological-activities
+Hình 4: Mô tả các hợp chất với các hoạt động sinh học của chúng.
+
+QSAR thường có dạng phương trình tuyến tính:
+
+{Hoạt động sinh học = const + (C1 P1) + (C2 P2) + (C3 P3) + ...}
+
+Discovery Studio là một bộ ứng dụng mô phỏng và mô phỏng khoa học đời sống toàn diện tập trung vào việc tối ưu hóa quá trình khám phá thuốc [92-94]. Các khả năng bao gồm mô phỏng phân tử, cơ học lượng tử / cơ học phân tử, mô hình hóa dược lý, QSAR, kết nối protein-phối tử, mô hình tương đồng protein, phân tích trình tự, nghiên cứu kết nối và mô hình kháng thể, v.v.
+
+Kết thúc
+Sau khi xem xét kỹ lưỡng nhiều chủ đề, chúng tôi đã thảo luận về một số công nghệ thông tin đã nỗ lực cho ngành dược phẩm giúp khám phá thuốc mới [95-101]. Trong tương lai, những nỗ lực này dự kiến sẽ phát triển cả về độ tin cậy và phạm vi của chúng. Dược tin học sẽ là một lĩnh vực công nghệ mới nổi và nó trở thành một thành phần thiết yếu của khoa học dược phẩm và công nghiệp cho những khám phá mới.
+
+
+## Ngôn ngữ lập trình python
+### Lịch sử phát triển của python
+Python (phát âm tiếng Anh: /ˈpaɪθɑːn/) là ngôn ngữ lập trình bậc cao đa năng. Triết lý thiết kế của nó nhấn mạnh khả năng đọc mã bằng cách sử dụng thụt lề đáng kể.
+
+Python có kiểu động và thu gom rác. Ngôn ngữ này hỗ trợ nhiều mô hình lập trình, bao gồm lập trình cấu trúc (đặc biệt là lập trình thủ tục), lập trình hướng đối tượng và lập trình chức năng. Nó thường được mô tả là ngôn ngữ "bao gồm pin" do có thư viện tiêu chuẩn toàn diện.
+
+Guido van Rossum bắt đầu nghiên cứu Python vào cuối những năm 1980 với tư cách là ngôn ngữ kế thừa cho ngôn ngữ lập trình ABC và phát hành nó lần đầu tiên vào năm 1991 với tên gọi Python 0.9.0.[33]
+
+Python 2.0 được ra mắt vào năm 2000. Python 3.0 được ra mắt vào năm 2008, là bản sửa đổi lớn không hoàn toàn tương thích ngược với các phiên bản trước đó. Python 2.7.18, được phát hành vào năm 2020, là bản phát hành cuối cùng của Python 2.[34]
+
+Python liên tục được xếp hạng là một trong những ngôn ngữ lập trình phổ biến nhất và được sử dụng rộng rãi trong cộng đồng học máy.[35][36][37][38]
+
+Lịch sử
+Bài chi tiết: Lịch sử Python
+Python đã được Guido van Rossum tạo ra vào những năm 1980[39] tại Trung tâm Toán học – Tin học (Centrum Wiskunde & Informatica, CWI) ở Hà Lan như là một ngôn ngữ kế tục ngôn ngữ ABC – một ngôn ngữ được lấy cảm hứng từ SETL,[40] có khả năng xử lí ngoại lệ và giao tiếp với hệ điều hành Amoeba.[41] Nó bắt đầu được triển khai vào tháng 12 năm 1989.[42] Van Rossum đã tự mình gánh vác trách nhiệm cho dự án, với vai trò là nhà phát triển chính, cho đến ngày 12 tháng 7 năm 2018, khi ông thông báo rằng ông sẽ rời bỏ trách nhiệm của ông và cả danh hiệu "Nhà độc tài nhân từ cho cuộc sống" của Python, một danh hiệu mà cộng đồng Python đã trao tặng cho ông vì sự tận tụy lâu dài của ông với vai trò là người ra quyết định chính cho dự án.[43] Vào tháng 1 năm 2019, các nhà phát triển phần lõi Python đã bầu ra một "Hội đồng chèo lái" gồm năm thành viên để dẫn dắt dự án.[44][45]
+
+Python 2.0 được ra mắt vào ngày 16 tháng 10 năm 2000, với nhiều tính năng mới mẻ, bao gồm một bộ dọn rác phát hiện theo chu kỳ và khả năng hỗ trợ Unicode.[46]
+
+Python 3.0 được ra mắt vào ngày mùng 3 tháng 12 năm 2008. Đây là một phiên bản lớn của Python không tương thích ngược hoàn toàn.[47] Nhiều tính năng lớn của nó đã được chuyển mã ngược (backport) về loạt phiên bản Python 2.6.x và 2.7.x.[48] Các bản phát hành của Python 3 có đi kèm với công cụ 2to3, có tác dụng tự động hoá việc dịch mã Python 2 sang Python 3.[49]
+
+Python 3.9.2 và 3.8.8 được xúc tiến[50] vì tất cả các phiên bản trước của Python (bao gồm cả 2.7)[51] gặp một số vấn đề bảo mật, có thể dẫn đến thực thị mã từ xa[52] và "đầu độc" bộ nhớ đệm.[53]
+
+Trong năm 2022, Python 3.10.4 và 3.9.12 được xúc tiến[54] cùng với 3.8.13 và 3.7.13, nguyên nhân là do một vài vấn đề về bảo mật.[55] Khi Python 3.9.13 được phát hành vào tháng Năm năm 2022, loạt phiên bản 3.9 (cùng với loạt 3.8 và 3.7) được thông báo rằng sẽ chỉ nhận được các bản vá bảo mật trong tương lai.[56] Vào ngày 7 tháng Chín năm 2022, bốn bản cập nhật mới được phát hành do có khả năng xảy ra một cuộc tấn công từ chối dịch vụ: 3.10.7, 3.9.14, 3.8.14 và 3.7.14.[57][58]
+
+Tính đến tháng 11 năm 2024, Python 3.13 là bản phát hành ổn định mới nhất. Một số thay đổi đáng chú ý từ bản 3.12 bao gồm các thay đổi về ngôn ngữ và thư viện chuẩn.[59]
+### Cài đặt
+### Dòng lệnh đầu tiên 
+### Một số gói phần mềm cần thiết cho tin dược
+## Ngôn ngữ R-base
+### Giới thiệu về R-base
+### Cài đặt 
+### Một số gói phần mềm cần thiết cho tin dược
+## Knime - nocode
+### Giới thiệu về Knime
+### Cài đặt 

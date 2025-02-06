@@ -1,0 +1,16 @@
+---
+title: "Chương 1: Cơ sở dữ liệu trong phát triển thuốc"
+author: "TS. Hoàng Lê Sơn"
+toc: true
+
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+  docx: default
+---
+## Đại cương về cơ sở dữ liệu
+
+## Cơ sở dữ liệu hóa tin
+
+## Cơ sở dữ liệu tin sinh

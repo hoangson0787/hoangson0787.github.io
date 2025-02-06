@@ -1,0 +1,21 @@
+---
+title: "Sách: Tin dược"
+author: "TS. Hoàng Lê Sơn"
+format: 
+    html: 
+        toc: true
+        toc-depth: 3
+        lightbox: true
+---
+
+## Lời giới thiệu
+
+## [Chương 1: Đai cương tin dược](../DuocLyMang/chapter_1.qmd)
+
+## [Chương 2: Cơ sở dữ liệu trong phát triển thuốc](../DuocLyMang/chapter_2.qmd)
+
+## [Chương 3: Phát triển thuốc dựa trên target](../DuocLyMang/chapter_3.qmd)
+
+## [Chương 4: Phát triển thuốc dựa trên protein](../DuocLyMang/chapter_4.qmd)
+
+## [Chương 5: Dược lý mạng](../DuocLyMang/chapter_5.qmd)

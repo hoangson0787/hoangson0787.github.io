@@ -1,6 +1,6 @@
 ---
 title: "Dược liệu "
-subtitle: "Dược liệu chứa tinh dầu"
+subtitle: "Flavonoid và Dược liệu chứa flavonoids"
 author:
   - name: TS. Hoàng Lê Sơn
     email: sonhoang.ump@vnu.edu.vn

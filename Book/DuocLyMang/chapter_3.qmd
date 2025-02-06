@@ -1,0 +1,11 @@
+---
+title: "Chương 3: Phát triển thuốc dựa trên target"
+author: "TS. Hoàng Lê Sơn"
+toc: true
+
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+  docx: default
+---

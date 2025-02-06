@@ -10,7 +10,7 @@ Với mục tiêu cung cấp nội dung liên quan đến dược liệu dành c
 Hiện tại nội dung trên wesite này gồm:
 
 - Sách (dự thảo):
-    - [Sách kỹ thuật chiết suất](Book/index.qmd)
+    - [Sách kỹ thuật chiết suất](Book/KyThuatChietXuat/index.qmd)
 - Bài giảng: 
     - [Bài giảng dược liệu](Presentation/Duoc_lieu/index.qmd)
     - [Bài giảng kỹ thuật chiết suất](Presentation/Chiet_xuat/index.qmd)

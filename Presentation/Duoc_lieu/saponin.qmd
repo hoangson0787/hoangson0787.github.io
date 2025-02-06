@@ -1,0 +1,134 @@
+---
+title: "Dược liệu "
+subtitle: "Saponin và Các dược liệu chứa Saponin"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 2
+lightbox: true
+format: 
+  revealjs:
+    slide-number: true
+    logo: "../../images/9.png"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: "../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../../images/9.png"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+
+# Đại cương
+## Khái niệm
+::: {.callout-important title="Khái niệm"}
+Saponin là những hợp chất glycoside mà phần genin có nguồn gốc terpen có thể 30C (triterpenoid) hoặc 27 C(steroid).\
+Có khả năng tạo bọt và phó vỡ hồng câu.
+Trong thực vật (500-800 loài) và một số động vật (hải sẩm, sao biển)
+:::
+:::: {.columns}
+::: {.column width="50%" .nonincremental}
+**Tính chất**
+
+- Làm tăng sức căng bề mặt tạo bọt
+- Làm vỡ hồng cầu
+- Độc với cá
+- Kinh ứng niêm mạc
+- Tạo phức với cholesterol hoặc dẫn chất $3- \beta -hydroxysteroid$
+:::
+
+::: {.column width="50%" .nonincremental}
+**Tính chất**
+- Đa số có vị đắng
+- Tan trong nước, còn, rất ít trong aceton, ether, hexan
+- Khó bị thẩm tích
+- Phần genin dễ kết tinh
+:::
+
+::::
+
+::: {.callout-important title="Chú ý"}
+Saponin từ chi Panax chứa nhiều saponin???
+:::
+## Phân loại
+
+**Saponin triterpenoid**
+
+- Saponin triterpenoid tetracyclic
+    - Thường gặp trong tự nhiên
+    - là dẫn xuất của $\beta - amyrin$
+- Saponin triterpenoid pentacyclic
+    - urusan
+    - Lanostan
+- Saponin triterpenoid tetracyclic
+
+**Saponin steroid**
+
+- spirostan: Nhóm spirotan là nguyên liệu bán tổng hợp các thuốc steroid ví dụ diosgenin từ chi Dioscorea, hecogenin từ chi Agave
+    - Có 27 C như cholesertol
+    - Có 3 đồng phân 
+        - Sarasapogenin
+        - Smilagenin
+        - Tigogenin
+- Furostan: Giống spirostan chỉ khác vòng F
+- Aminofurostan: Giống furostan nhưng khác vòng F và có nhóm NH2-C
+- Spirosolan: Giống spirotan ở nguyên tử oxy vòng F thay bằng NH
+- Solanidan
+
+## Tính chất Hóa lý
+
+1. Phản ứng tạo màu
+
+    - Phản ứng Salkowwski (H2SO4 đặc): Màu thay đổi
+    - Phản ứng Rosenthler (Valinin 1%HCl): Màu hoa cà
+    - Phản ứng phân biệt giữa saponin triterpenoid và saponin steroid
+        - Lerberman-burchardt: Triterpenoid màu hồng tía, steroid màu lơ xanh lá
+        - $SbCl_3/CHCl_3$: UV Saponin triterpenoid huynh quanh vàng, steroid chco huỳnh quang xanh
+
+2. Sắc ký lớp mỏng
+
+## Định tính 
+- Tính chất tạo bọt: Phân biệt saponin triterpenoid và steroid (môi trường acid/base) với chỉ số tạo bọt
+- Tính chất phá huyết 
+- Độc tính với cá
+- Tạo phức với cholesterol đặc biệt saponin steroid
+- Các phản ứng tạo màu 
+- Sắc ký lớp mỏng
+
+## Định lượng 
+- Định lượng
+- Phương pháp UV-Vis
+
+## Chiết xuất và tinh chế 
+- Không có phương pháp chung 
+
+## Tác dụng và công dụng 
+1. Saponin có tác dụng long đờm, chữa ho: Viễn chí, cát cánh, cam thảo, thiên môn, mạch môn
+2. Saponin có tác dụng bổ như nhân sâm, tam thất 
+3. Saponin tăng tính thấm của tế bào 
+4. Saponin có tác dụng chống viêm, kháng khuẩng, kháng nấm và ức chế virus
+5. Saponin diệt các loại thân mềm
+6. Saponin làm nguyên liệu bán tổng hợp các thuốc steroid
+7. Saponin làm chất diện hoạt 
+
+# Các dược liệu chứa saponin
+
+## Danh sách các dược liệu chứa saponin 
+1. Cam thảo
+2. Nhân sâm
+3. Nhân sâm Việt nam
+4. Tam thất
+5. Đảng sâm
+6. Ngưu tất
+7. Viêm chí
+8. Cát cánh
+9. Mạch môn

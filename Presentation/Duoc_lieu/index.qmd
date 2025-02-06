@@ -20,12 +20,28 @@ format:
 
 ## Slide bài giảng 
 
-- [Tinh dầu và các dược liệu chứa tinh dầu](../Duoc_lieu/Tinhdau.qmd)
+
 - [Flavonoid và các dược liệu chứa flavonoid](../Duoc_lieu/flavonoids.qmd)
+- [Saponin và các dược liệu chứa Saponin](../Duoc_lieu/saponin.qmd)
+- [Alkaloid và các dược liệu chứa Alkaloids](../Duoc_lieu/alkaloid.qmd)
+- [Tinh dầu và các dược liệu chứa tinh dầu](../Duoc_lieu/Tinhdau.qmd)
 
 ## Bài tập 
+### Dành cho học phần dược liệu 
+Tiểu luận cá nhân
+**Mục tiêu:** Thu thập được thông tin khoa học của một dược liệu tại Việt nam
+**Hướng dẫn thực hiện:**
 
-### Tiểu luận theo nhóm- một nhóm 4 người
+- Chọn một dược liệu có trong dược điển việt nam V.
+- Thực hiện các thông tin theo form yêu cầu gồm tên khoa học, thành phần hóa học, tác dụng dược lý, công dụng và chỉ định.
+**Sản phẩm cần nộp**
+- Nộp theo form google theo hướng dẫn
+- Mỗi học viên làm một slide duy nhất để báo cáo trong vòng 5-10 phút
+
+### Dành cho học phần dược liệu II:
+
+Tiểu luận theo nhóm- một nhóm 4 người
+
 **Mục tiêu:** Phân tích được tiềm năng phát triển sản phẩm chăm sóc sức khỏe của một dược liệu tại Việt nam
 **Hướng dẫn thực hiện:**
 
@@ -33,9 +49,13 @@ format:
 - Truy cập vào pubmed, nghiên cứu abstract các nghiên cứu liên quan đến tác dụng dược lý của thành phần hóa học hoặc cao chiết của dược liệu.
     - Xây dựng cơ sở dữ liệu về dược lý: 
         Bệnh- Mô hình dược lý đã thực hiện- Hoạt chất/Cao chiết- Kết luận tác dụng dược lý
-- Truy cập vào https://clinicaltrials.gov/ để tìm kiếm các nghiên cứu liên quan đến hiệu quả điều trị trên lâm sàng của dược liệu
+- Truy cập vào https://clinicaltrials.gov/ để tìm kiếm các nghiên cứu liên quan đến hiệu quả điều trị trên lâm sàng của các sản phẩm chứa dược liệu: đơn độc, bài thuốc hoặc hoạt chất
     - Xây dựng cơ sở dữ liệu về dược lâm sàng: 
         Bệnh- Mô tả đối tượng nghiên cứu (chấp nhận và không chấp nhận) - Mô tả dạng bào chế - Đơn độc hay phối hợp - Đơn vị liều- Cách dùng - Kết quả thu được  
-
-- Truy cập vào website: www.duoclieu.github.io phân tích thông tin đã có gồm tên khoa học, phân bố trên thế giới và việt nam, thành phần hóa học, tiêu chuẩn dược điển. Hiệu chỉnh lại thông tin: Đăng nhập, nhập tên sinh viên, MSV. Các lỗi phát hiện dược. 
+- Truy cập vào website: www.duoclieu.github.io phân tích thông tin đã có gồm tên khoa học, phân bố trên thế giới và việt nam, thành phần hóa học, tiêu chuẩn dược điển. Từ đó dựa trên phương pháp đã có của dược liệu I, hãy hiệu chỉnh là thông tin. 
 - Phân tích thông tin thu được viết tóm tắt các hướng nghiên cứu dược lý và dược lâm sàng đã có. Từ đó đưa đến kết luận có sử dụng hoạt chất hoặc cao chiết để phát triển dạng sản phẩm điều trị bệnh.
+
+**Sản phẩm cần nộp**
+- Mỗi nhóm nộp 1 báo cáo dài từ 5-10 trang, cỡ chữ 12, cách dòng 1.5, cách lề trên, dưới, phải 2cm, cách lề bên phải 3cm. Gửi cho lớp trưởng để gửi vào hòm thư sonhoang.ump@vnu.edu.vn
+- Mỗi nhóm sẽ báo cáo trong vòng 10 phút. 
+*Chú ý:* Ngôn ngữ sử dụng có thể là tiếng Việt hoặc tiếng Anh

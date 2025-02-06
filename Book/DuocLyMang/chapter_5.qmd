@@ -1,0 +1,11 @@
+---
+title: "Chương 5: Dược lý mạng"
+author: "TS. Hoàng Lê Sơn"
+toc: true
+
+format: 
+  html: 
+    code-fold: true
+    html-math-method: katex
+  docx: default
+---

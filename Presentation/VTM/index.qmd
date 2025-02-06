@@ -28,7 +28,15 @@ Dược cổ truyền ứng dụng trong phát triên thuốc phải luôn dựa
     and Materia Medica
 7.  The foundations of Chinese Medicine: A comprehensive text
 8.  Thông tư [14-2024/BYT-TT](https://thuvienphapluat.vn/van-ban/The-thao-Y-te/Thong-tu-14-2024-TT-BYT-huong-dan-phuong-phap-che-bien-duoc-lieu-va-vi-thuoc-co-truyen-623411.aspx) về chế biến dược liệu và vị thuốc cổ truyền
+
 ## Slide bài giảng 
+
+![Tóm tắt về Dược cổ truyền.](../VTM/Images/Zin-Zang/page9.jpg){width="70%"}
+
+
+### Bài 0:
+[Bài 0: Học thuyết Âm Dương-Ngũ Hành](../VTM/Bai0.qmd)
+Bài này đề cập tới quan niệm triết học phương Đông về Âm Dương và Ngũ Hành Sinh Khắc. Với quan niệm này vận dụng vào trong chăm sóc sức khỏe cũng như điều trị bệnh của y học Trung hoa. 
 
 ### Bài 1:
 [Bài 1: Khí (Qi) trong y học cổ truyền?](../VTM/Bai1.qmd)
@@ -66,24 +74,30 @@ Chế biến các vị thuốc cổ truyền hiện tại đã có thông tư h�
 
 ## Bài tập 
 
-### Tiểu luận theo nhóm 
+**Thành viên tham gia:** Tiểu luận theo nhóm khoáng 10-15 người
 
-**Mục tiêu:** Quan điểm đông y về một bệnh theo tây y, cách trị bệnh và các dược liệu
+**Đặt vấn đề:** Trong một thế giới xê dịch, sinh viên trường Đại học Y Dược sẽ được chắp cánh bay đi khắp các vùng trời trên thế giới có thể lên tận sao Hỏa. Trong bối cảnh này, để đảm bảo kiến thức môn Dược cổ truyền vẫn có thể đồng hành suốt quãng đời còn lại, bài tập này giúp thiết kế để các bạn có thể vẫn hành nghề Dược cổ truyền được ở nơi xa lạ. Điều này đồng nghĩa với việc các bạn sẽ phải tìm được các dược liệu tại địa phương thay thế các dược liệu trong các bài thuốc cổ phương. Vì vậy, bài tập này sẽ có hai mục tiêu như sau.
+
+**Mục tiêu:** 
+
+1. Hiểu được quan điểm đông y về một bệnh theo tây y, cách trị bệnh và các dược liệu điều trị.
+2. Hiểu được về cách sử dụng một vị thuốc thay thế giữa phương Tây, Trung Hoa và Việt nam.
 
 **Các nội dung cần có**
 
+*Tuần 1:* Cả nhóm sẽ tìm hiểu giải quyết mục tiêu 1. 
+ 
 1. Định nghĩa bệnh theo Bộ Y tế Việt Nam
 2. Dịch nghĩa bệnh theo Đông Y: *Chinese Herbal Formulas: Treatment Principles and Composition Strategies*
 3. Giải thích các thuật ngữ xuất hiện: *The foundations of Chinese Medicine: A comprehensive text*
 4. Các dược liệu chữa bệnh này: Chinese Herbal Formulas: *Treatment Principles and Composition Strategies*
 
 
-### Tiểu luận cá nhân 
+*Tuần 2:* Dựa trên nội dung 4 ở trên, các bạn sẽ có danh sách các dược liệu. Tùy các bạn phân chia sao cho mỗi dược liệu thu thập được ở mục 4 ở trên sẽ có đầy đủ các thông tin trong các tài liệu sau:
 
-**Mục tiêu** Cung cấp thông tin về cách sử dụng một vị thuốc giữa phương Tây, Trung Hoa và Việt nam
+1. Trong Dược điển Việt Nam V
+2. *Combining Western Herbs and Chinese Medicine: Principles, Practice and Materia Medica*
+3. *Chinese Herbal Formulas: Treatment Principles and Composition Strategies*
 
-**Các nội dung cần có**
-
--   Trong Dược điển Việt Nam V
--   *Combining Western Herbs and Chinese Medicine: Principles, Practice and Materia Medica*
--   *Chinese Herbal Formulas: Treatment Principles and Composition Strategies*
+**Sản phầm phải nộp**
+Một báo cáo gồm nội dung thu được từ tuần 1 và tuần 2. Cỡ chữ 12, cách dòng 1.5. Căn lề trên dưới, phải là 2cm, lề bên trái là 3 cm. 
