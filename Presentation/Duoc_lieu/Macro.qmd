@@ -1,0 +1,655 @@
+---
+title: "Dược liệu "
+subtitle: "Hợp chất tự nhiên có khối lượng phân tử lớn"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 2
+lightbox: true
+format: 
+  revealjs:
+    slide-number: true
+    logo: "../../images/9.png"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: "../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../../images/9.png"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+
+## Mục tiêu học tập
+
+-  Phân biệt cấu trúc hóa học của tinh bột, cellulose, gôm, chất nhày và pectin
+-  Ứng dụng tính chất lý, hóa học trong kiểm nghiệm dược liệu chứa các thành phần nói trên
+-  Dược liệu chứa tinh bột, cellulose, gôm, chất nhày: Tên KH, BPD
+-  Mô tả đặc điểm thực vật
+-  Thành phần hóa học
+-  Ứng dụng
+
+# Đại cương về carbohydrates
+## Khái niệm
+::: {.callout-important title="Khái niệm"}
+Carbohydrates are now defined chemically as **polyhydroxy aldehyde** or **polyhydroxy ketones** or compound that on hydrolyses produce either of the above.
+
+:::
+:::: {.columns}
+::: {.column width="15%" .nonincremental}
+> Tinh bột 
+
+> Cellulose 
+
+> Chất nhầy- gôm- pectin
+:::
+
+::: {.column width="85%" .nonincremental}
+
+::: {layout-ncol=2 layout-valign="bottom"}
+
+![A](../Duoc_lieu/Images/monossachrides.png){width="500"}
+
+![B](../Duoc_lieu/Images/dissachrides.png){width="500" }
+
+![C](../Duoc_lieu/Images/olygosaccharide.png){width="500" }
+
+![D](../Duoc_lieu/Images/polysaccharide.png){width="500" }
+
+Phân loại cấu trúc hóa học của carbonhydrates gồm Monosaccharides (A), Dissaccharides (B), Olygosaccharides (C), Polysaccharides (D).
+:::
+
+:::
+::::
+
+# Tá dược của ngành dược
+
+## Strach-Tinh bột
+:::: {.columns}
+
+::: {.column width="15%" .nonincremental}
+ngô *Zea mays* Linn. 
+
+gạo *Oryza sativa* Linn. 
+
+lúa mì *Triticum aestivum* Linn. 
+
+![](../Duoc_lieu/Images/Starch.png)
+
+
+:::
+
+
+
+::: {.column width="30%" .nonincremental}
+::: {layout="[[1,1], [1]]" layout-valign="bottom"}
+
+![](../Duoc_lieu/Images/The_structure_of_a_grain_of_wheat.jpg)
+
+![](../Duoc_lieu/Images/Structure_of_gluten.jpg)
+
+![](../Duoc_lieu/Images/Enzyme_tinhbot.png)
+::: 
+:::
+
+
+
+::: {.column width="30%" .nonincremental}
+**Cấu trúc hóa học:**
+
+Gồm loại polysaccharide gồm amylose ($\beta-amylose$) và amylopectin ($\alpha-amylose$) với tỷ lệ 1:2. Amylose tan trong nước còn amylopectin không tan không nước nhưng trương nở và tạo ra hồ hóa của tinh bột.
+
+Phân biệt: Amylose cho màu xanh với iodine trong khi amylopectin cho màu xanh đen. 
+
+- Thủy phân bằng acid
+- Thủy phân bằng Enzyme: 2 loại chính $\alpha-$amylase$ và $\beta$-amylase$
+
+:::
+
+::: {.column width="25%" .nonincremental}
+**Kiểm nghiệm**
+
+- **Định tính** Sử dụng dung dịch iodine để phát hiện ra tổ chức chứa tinh bột
+
+- **Định lượng** Có thể áp dụng các phương pháp sau
+   - Thủy phân bằng acid HCL để định lượng 
+   - Thủy phân bằng Enzyme sau đó bằng acid 
+   - Dung phân cực kế: tạo phức vào $CaCl_2$ đo góc quay cực 
+   - Tạo phức với iodine để so màu.
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="60%" .nonincremental}
+
+**Sản xuất**
+
+|                    | Khoai tây                       | Gạo    | Ngô                                                | Lúa Mỳ |
+|--------------------|---------------------------------|--------|----------------------------------------------------|--------|
+| Thành phần khác    | Thành phần trong tế bào         | gluten | Vỏ, Chất khoáng, Protein, dầu ngô, Gluten          | gluten |
+| Cách loại bỏ tạp   | Sử dụng nước                    | NaOH 0.5% | Tách vỏ (ngâm trong nước sulphur dioxide); Germ đươc tách để ép lấy dầu ngô |        |
+| Các loại bỏ gluten | Không có                        | NaOH 0.5% | Sử dụng phương pháp nhồi và lọc |        |
+**Ứng dụng**
+
+- Công nghiệp thực phẩm: Sử dụng trong thực phẩm  hoặc sản xuất cồn EtOH
+- Công nghiệp dược: Sử dụng làm tá dược như độn, tá dược dính  
+:::
+::: {.column width="40%" .nonincremental}
+
+*Các dược liệu giàu tinh bột sử dụng trong y học cổ truyền*
+
+-  Thuốc thanh nhiệt: Cát căn
+-  Thuốc kiện tỳ: Hoài sơn, Mạch nha
+-  Thuốc trừ thấp: Ý dĩ, Thổ phục linh, Trạch tả
+-  Thuốc dưỡng tâm an thần: Liên nhục
+:::
+::::
+
+
+## Gôm-Chất nhày-Pectin
+
+
+::: {.callout-important title="Khái niệm"}
+
+::: {.panel-tabset}
+
+### Cấu trúc hóa học chung
+
+Thuộc nhóm heteropolysaccharid, có cấu tạo phức tạp:
+
+- Các đường đơn thông thường: glucose, mannose, galactose, arabinose…
+- Các dẫn xuất uronic: acid glucuronic, acid mannuronic, acid galacturonic…
+- Các đường có nhóm OH được sulfat hóa
+
+### Cấu trúc pectin hòa tan
+Acid pectic: gồm khoảng 100 đơn vị acid D-galacturonic nối với nhau, dây nối $\alpha 1-4$
+
+Pectin (acid pectinic): vài trăm đơn vị acid D-galacturonic nối với nhau, dây nối $\alpha 1-4$ nhưng một phần hoặc toàn bộ các nhóm carboxyl đã được methyl ester hóa.
+
+Phân loại theo mức độ ester hóa: 
+
+- pectin có nhiều nhóm methoxy
+- pectin có ít nhóm methoxy (< 40% số nhóm carboxyl bị ester hóa) 
+
+### Cấu trúc pectin không hòa tan
+
+- Cấu tạo: các phân tử pectin liên kết với nhau qua cầu calci, phosphat. Ngoài ra còn kết hợp với cellulose, với ose và một số thành phần khác của vách tế bào 
+- Vai trò: giúp quả xanh có độ cứng nhất định. Khi quả chín, dưới tác động của protopectinase thì protopectin chuyển thành pectin hòa tan nên quả chín thì mềm ra, tuy nhiên chưa có chứng minh đầy đủ về sự tồn tại của một enzym đặc trưng như vậy. 
+
+### Pectin và enzyme 
+
+Enzym thủy phân nhóm ester pectinesterase (PE): cắt nhóm ester methylic của acid pectinic tạo acid pectic
+Enzym cắt nhỏ phân tử enzym depolymer hóa
+- Polymethygalacturonase (PMG): cắt thành galacturonic. 2 loại: cắt ngẫu nhiên + cắt từ đầu mạch.
+- Pectinlyase (PL): cắt dây nối 1-4, tạo sản phẩm chưa no.
+
+:::
+::: 
+
+::: {.panel-tabset}
+
+### So sánh
+
+|           | Gôm                            | Chất nhầy                         | Nhựa                              | Pectin                            |
+|--------|-----------------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| Nguồn gốc | Sản phẩm bệnh lý của thực vật. | Sản phẩm sinh lý bình thường của thực vật.| Sản phẩm chuyền hóa bậc 2 | Cấu tạo lên tế bào                |
+|Vai trò    | Bảo vệ cây trước điều kiện không thuận lợi | Sản phầm sinh lý      | Sản phầm sinh lý                  | Pectin hòa tan có trong dịch tế bào còn pectin không hòa tan nằm trong thành tế bào, lớp gian bào đóng vai trò cốt và liên kết tế bào |  
+| Cấu trúc  |thường có acid uronic           | thường có pentose                 | Nhóm terpenoids                   |Phân tử cấu tạo bởi acid polygalacturonic |
+| Độ tan    | Tạo dung dịch keo trong nước có độ nhớt cao có tính dính, không tan/DMHC, không tan trong cồn cao độ | Tan trong nước tạo dung dịch có độ nhớt cao | Không tan trong nước, tan trong dung môi hữu cơ | Tan/nước, formamid, glycerin nóng, phân tử càng lớn độ tan càng giảm. Pectin không tan/EtOH, isopropanol, aceton. Dd pectin 0,2-1,5% + saccharose pH 3,1-3,5 tạo thành chất đông |
+| Hóa học   | Tạo tủa với chì acetat trung tính hoặc kiềm | Bắt màu xanh với xanh methylen | | Kết tủa bởi các muối đa hoá trị như đồng sunfat, chì nitrat hoặc acetat, sắt chlorid. Kết tủa màu vàng lục với muối nhôm ở pH 4. Tinh chế lại bằng cách rửa tủa với EtOH hoặc aceton đã acid hóa. |
+| Phân bố   | Chỉ có trong 1 số loại cây gỗ  | rộng rãi trong thực vật           |rộng rãi trong thực vật            | trong cây và một số tảo. Ðặc biệt cùi (vỏ quả giữa) của một số cây họ Citrus (30%)|
+
+### Kiểm nghiệm pectin
+
+**Định tính**
+
+- Dựa vào phản ứng tạo thành pectin hydroxamic acid, cho tác dụng tiếp với sắt (III) chlorid → phức kết tủa màu đỏ. 
+- Dựa vào sự có mặt của acid galacturonic 
+- Dựa vào sự tạo thành chất đông 
+
+**Định lượng**
+
+- Xác định hàm lượng anhydrouronic acid bằng phương pháp so màu 
+- định lượng pectin bằng phương pháp cân (sau khi tủa pectin bằng các dung mội hữu cơ), phương pháp đo độ quay cực, phương pháp đo độ nhớt. 
+
+:::
+
+
+
+## Tác dụng công dụng và ví dụ
+
+:::: {.columns}
+
+::: {.column width="50%" .nonincremental}
+
+::: {.callout-tip title="Acacia Gum làm chất nhũ hóa, tá dược"}
+Nhựa từ thân và cành của *Acacia arabica* L. Will Họ Leguminosae
+{{< video src="https://www.youtube.com/embed/bwTqBRzs3RQ" width="100%">}}
+Thành phần: calcium, magnesium và potassium salts của arabic acid, Arabic acid. Larabinose, Dgalactose, Dglucuronic acid và Lrhamnose, 3-Linked D-galactopyranose units form the backbone chain of the molecule and the terminal residues of the 1, 6-linked side chains are primarily uronic acids.
+:::
+
+::: {.callout-tip title="Sodium Alginate là tá dược tạo gel"}
+Chất nhày thu được từ Macrocystis pyrifera, Laminaria hyperborea, Laminaria digitata, Ascophyllum nodosum and Durvillaea lessonia thuộc họ Phaeophyceae
+{{< video src="https://www.youtube.com/embed/4RadX7mgDOg" width="100%">}}
+Thành phần: calcium, magnesium và potassium salts của arabic acid, Arabic acid. Larabinose, Dgalactose, Dglucuronic acid và Lrhamnose, 3-Linked D-galactopyranose units form the backbone chain of the molecule and the terminal residues of the 1, 6-linked side chains are primarily uronic acids.
+:::
+
+:::
+
+::: {.column width="50%" .nonincremental}
+
+::: {.callout-tip title="Guar Gum làm chất nhũ hóa, tá dược"}
+Gôm thu được từ hạt của *Cyamopsis tetragonolobus* Linn Họ Leguminosae
+
+{{< video src="https://www.youtube.com/embed/tuu3b9puPWE" width="100%">}}
+
+Thành phần: The water-soluble part of guar gum contains mainly a high molecular weight hydrocolloidal polysaccharide, known as galactomannan, commonly called guaran. Guaran consists of linear chains of (1$\rightarrow$4)—$\beta$—D—mannopyranosyl units with $\alpha$—D—galactopyranosyl units attached by (1$\rightarrow$6) linkages. However, the ratio of D-galactose to D-mannose is 1:2. The gum also contains about 5-7% of proteins.
+:::
+
+::: {.callout-tip title="Pectin"}
+{{< video src="https://www.youtube.com/embed/Ix0ymV80rOA" width="100%">}}
+
+[Sản xuất pecton](https://www.youtube.com/embed/XuOYTWkAi10)
+Thuốc cầm máu đường ruột, uống dd 1-2%, 40-80ml/24h  Tác nhân nhũ hóa tốt khi kết hợp với gôm arabic. Dung dịch pectin ổn định ở môi trường acid nhưng không ổn định ở môi trường kiềm. Khi dùng pectin nên làm ẩm với nước và nên trộn với đường hoặc glycerin để hòa tan được dễ dàng, tránh vón cục. 
+:::
+
+:::
+
+::::
+
+## Chitin và chitosan
+
+::: {.panel-tabset}
+
+### Khái niệm
+
+Chitosan là polysaccharide mạch thẳng cấu tạo bởi các đơn vị $D-glucosamin$ và N-actyl-D-glucosamin qua dây nối $\beta$ (1-4)
+
+```{python include=false}
+from rdkit import Chem
+from rdkit.Chem.Draw import rdMolDraw2D
+from rdkit.Chem import PandasTools
+# PandasTools ~ rdDepictor
+from rdkit import DataStructs
+import re
+
+pattern = re.compile("<\?xml.*\?>")
+
+
+def DrawMol(mol, molSize=(450,150), kekulize=True):
+    mc = Chem.MolFromSmiles(mol)
+    if kekulize:
+        try:
+            Chem.Kekulize(mc)
+        except:
+            mc = Chem.Mol(mol.ToBinary())
+    if not mc.GetNumConformers():
+        Chem.rdDepictor.Compute2DCoords(mc)
+
+    drawer = rdMolDraw2D.MolDraw2DSVG(*molSize)
+    drawer.DrawMolecule(mc)
+    drawer.FinishDrawing()
+    svg = drawer.GetDrawingText().replace('svg:', '')
+    svg = re.sub(pattern, '', svg)
+    #svg = "<div>" + svg + "</div>"
+    return svg
+
+svg_chitosan=DrawMol("COC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)N)O[C@@H]3[C@H](O[C@H]([C@@H]([C@H]3O)N)O)CO)CO)CO)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)N)O)N)O)N)O)N)O)N)O)N)O")
+path_chitosan= r"../Duoc_lieu/Images/chitosan.svg"
+with open(path_chitosan, 'w') as f:
+    f.write(svg_chitosan)
+
+svg_chitin=DrawMol("CC(=O)NC1[C@@H](OC(C(C1O)O)CO)O")
+path_chitin= r"../Duoc_lieu/Images/chitin.svg"
+with open(path_chitin, 'w') as f:
+    f.write(svg_chitin)
+
+svg_glucosamin=DrawMol("C([C@@H]1[C@H]([C@@H]([C@H](C(O1)O)N)O)O)O")
+path_glucosamin= r"../Duoc_lieu/Images/glucosamin.svg"
+with open(path_glucosamin, 'w') as f:
+    f.write(svg_glucosamin)
+
+svg_NactylDglucosamin=DrawMol("CC(=O)N[C@@H]1[C@H]([C@@H]([C@H](O[C@H]1O)CO)O)O")
+path_svg_NactylDglucosamin= r"../Duoc_lieu/Images/N-actyl-D-glucosamin.svg"
+with open(path_svg_NactylDglucosamin, 'w') as f:
+    f.write(svg_NactylDglucosamin)
+
+svg_glucan=DrawMol("C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)OC2[C@H](O[C@H]([C@@H]([C@H]2O)O)OC3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O)CO)CO)O)O)O)O ")
+path_glucan= r"../Duoc_lieu/Images/glucan.svg"
+with open(path_glucan, 'w') as f:
+    f.write(svg_glucan)
+
+svg_glycerol=DrawMol("C(C(CO)O)O")
+path_glycerol= r"../Duoc_lieu/Images/glycerol.svg"
+with open(path_glycerol, 'w') as f:
+    f.write(svg_glycerol)
+
+svg_lanolin=DrawMol("CCCCCCCCCCCCCCCCCCOC(=O)CCCCCCCCCCCCCCC")
+path_lanolin= r"../Duoc_lieu/Images/lanolin.svg"
+with open(path_lanolin, 'w') as f:
+    f.write(svg_lanolin)
+    
+svg_cholesterol=DrawMol("C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C")
+path_cholesterol= r"../Duoc_lieu/Images/cholesterol.svg"
+with open(path_cholesterol, 'w') as f:
+    f.write(svg_cholesterol)
+
+svg_ergosterol=DrawMol("C[C@H](/C=C/[C@H](C)C(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3C2=CC=C4[C@@]3(CC[C@@H](C4)O)C)C")
+path_ergosterol= r"../Duoc_lieu/Images/ergosterol.svg"
+with open(path_ergosterol, 'w') as f:
+    f.write(svg_ergosterol)
+
+svg_Monostearin=DrawMol("CCCCCCCCCCCCCCCCCC(=O)OCC(CO)O")
+path_Monostearin= r"../Duoc_lieu/Images/Monostearin.svg"
+with open(path_Monostearin, 'w') as f:
+    f.write(svg_Monostearin)
+
+
+svg_Glyceryl2distearate=DrawMol("CCCCCCCCCCCCCCCCCC(=O)OCC(COC(=O)CCCCCCCCCCCCCCCCC)O")
+path_Glyceryl2distearate= r"../Duoc_lieu/Images/Glyceryl2distearate.svg"
+with open(path_Glyceryl2distearate, 'w') as f:
+    f.write(svg_Glyceryl2distearate)
+
+```
+
+:::: {.columns}
+
+:::{.column width="80%"}
+
+![Cấu trúc hóa học của chitosan](../Duoc_lieu/Images/chitosan.svg){width="100%" .center}
+:::
+
+:::{.column width="20%"}
+
+::: {layout-ncol=1}
+
+![Cấu trúc hóa học của glucosamin](../Duoc_lieu/Images/glucosamin.svg){.center}
+
+![Cấu trúc hóa học của N-actyl-D-glucosamin](../Duoc_lieu/Images/N-actyl-D-glucosamin.svg)
+
+:::
+:::
+::::
+
+### Tính chất và sản xuất
+
+
+
+:::: {.columns}
+
+::: {.column width="40%"}
+**Tính chất**
+
+-  Chitosan có nhóm amin, pKa=6.5 
+-  Chitosan mang điện tích dương dẫn tới dễ tan trong dung dịch có tính acid hoặc trung tính 
+-  Chitosan có khả năng liên kết hoặc kết dính bề mặt có điện tích âm như màng nhày 
+-  Có thể dùng chitosan làm tăng quá trình vận chuyển những thuốc phân cực qua bề mặt biểu mô
+
+**Sản xuất** 
+-  Chitin được chiết xuất từ vỏ tôm và một số loài thân giáp ở biển
+-  Từ chitin sau khi deactyl hóa thu được chitosan
+-  Mức độ acetyl hóa (%DA) có thể xác định bằng phổ NMR
+-  Thương phẩm chitosan có \%DA từ 60-100\%
+:::
+
+::: {.column width="60%"}
+{{< video src="https://www.youtube.com/embed/ZjMmE6_QXhE" width="100%" height="800">}}
+:::
+
+::::
+### Ứng dụng
+:::: {.columns}
+
+::: {.column width="40%"}
+*Trong nông nghiệp:* kích thích tăng trưởng cho cây, diệt nấm
+
+*Trong công nghiệp:* Tạo tủa casein từ sữa bò và format
+
+*Trong y sinh:* Tá dược
+
+Tác dụng hạ cholesterol
+Ngăn ngừa hấp thu chất béo ở hệ thống tiêu hóa
+Cầm máu nhanh 
+:::
+::: {.column width="60%"}
+{{< video src="https://www.youtube.com/embed/oxPnzny5RXw" width="100%" height="800">}}
+:::
+
+::::
+
+
+:::
+
+# Hoạt chất với cấu trúc phân tử lớn <br> tác dụng sinh học
+
+
+
+## Beta-glucan
+
+::: {.panel-tabset}
+
+### Khái niệm
+
+::: {.callout-important title="Khái niệm"}
+
+$\beta$-glucan là hợp chất đường liên kết phân tử được tạo nên từ các đường đơn phân tử $D-glycose$ gắn với nhau qua liên kết $\beta-D-glycoside$. 
+
+Các $\beta-glucan$ là nhóm các phân tử được phân biệt dựa trên phân tử khối, độ hòa tan, độ nhớt và cấu trúc không gian 3 chiều. 
+
+Cấu trúc chất này thường tồn tại dưới dạng phổ biến là cellulose thực vật, vỏ cám của hạt ngũ cốc, thành tế bào của nấm men, nấm và vi khuẩn. Chúng có thể bị biến đổi trong quá trình bị đun sôi. 
+:::
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+**Tính chất**
+
+-  Có độ nhớt cao
+-  Có tính chất tạo gel
+-  $1-3 \beta-glucan$ tan trong nước nóng
+
+:::
+::: {.column width="80%"}
+![Cấu trúc hóa học của beta-glucan](../Duoc_lieu/Images/glucan.svg){width="100%" .center}
+:::
+::::
+
+
+### Tác dụng và sản xuất 
+:::: {.columns}
+
+::: {.column width="40%"}
+**Tác dụng**
+
+-  Có tác dụng kích thích miễn dịch đặc hiệu 
+-  Tăng hoạt tính chức năng của đại thực bào 
+-  Tăng sản xuất đại thực bào, bạch cầu và các tế bào tiêu diệt ung thư tự nhiên của cơ thể 
+-  Hạ cholesterol máu 
+-  Giảm sự tăng của đường huyết
+
+**Nguồn trong thiên nhiên**
+
+-  Nấm phục linh *Porica cocos*
+-  Linh chi *Ganoderma lucidum*
+-  Nấm đông cô *Lentinus edodes*
+-  Nấm tọa kê *Grifola fromdosa*
+
+:::
+::: {.column width="60%"}
+{{< video src="https://www.youtube.com/embed/X2olfKmwK-A" width="100%" height="800">}}
+
+
+:::
+::::
+
+
+:::
+
+## Inulin Fructan
+
+::: {.panel-tabset}
+### Khái niệm
+Fructan là những oly hay polysaccharide được cấu tạo từ những đơn vị fructofuranosyl (F) nối với nhau qua dây nối $\beta$ 2- 1 với số lượng phân từ từ 2-60 monomer trong phân tử
+
+
+### Tính chất
+
+-  Tan tốt trong nước
+-  Bị thủy phân bởi các enzyem inulinaese trong thực vật
+
+
+
+### Tác dụng và công dụng
+
+-  Fructan chất xơ trong nước sử dụng trong dinh dưỡng tăng hấp thu một số muối khoáng như Ca, Mg, Vitamin nhóm B
+-  Tăng tần xuất bài tiết và tăng lượng phân 
+-  Giảm hấp thu cholesterol và lipid trong huyết tương 
+-  Giảm đường hấp thu nhưng không ảnh hưởng đến đường huyết 
+-  Ngăn ngừa và ức chế ung thư ruột kết và ung thư vú 
+
+
+### Nguồn gốc fructan thiên nhiên
+
+- Một số cây họ cúc như actiso, bồ công anh, thược dược, thổ mộc hương 
+- Chi Alliumn 
+- Chi asparagus 
+- Củ đậu
+
+:::
+
+
+
+# Lipid
+
+## Lipid (1)
+
+::: {.callout-important title="Khái niệm"}
+Lipid hay chất béo là sản phẩm tự nhiên có trong động vật và thực vật với thành phần cấu tạo khác nhau thương là ester của acid béo với các alcol, không tan trong nước, tan trong dung môi hữu cơ như benzen, ehter, chloroform. Chúng thường bay hơi ở nhiệt độ thường và có độ nhớt cao
+:::
+
+::: {.panel-tabset}
+### Phân loại
+Dựa trên phần algycon
+
+- Alcol là glycerol
+- Alcol có phân tử lượng cao (sáp ong, lanolin) 
+- Alcol à hợp chất sterol (động vật có cholesterol còn thực vật có ergosterol)
+- Alcol có nhóm cyanur 
+
+::: {layout-ncol=4 layout-valign="bottom"}
+
+![glycerol](../Duoc_lieu/Images/glycerol.svg)
+
+
+![lanolin](../Duoc_lieu/Images/lanolin.svg)
+
+![cholesterol](../Duoc_lieu/Images/cholesterol.svg)
+
+![ergosterol](../Duoc_lieu/Images/ergosterol.svg)
+
+:::
+### Glyceride
+::: {.callout-important}
+Glyceride là ester của glycerol với các acid béo gồm Acid béo no (4-24C) và Acid béo chưa no (16-18C có 1 hay nhiều nối đôi)
+:::
+
+Gốc $R_1$, $R_2$, $R_3$ thường khác nhau trong đó $R_2$ thường acid béo không no, mạch ngắn (18C) trong khi $R_1$, $R_3$ là acid béo no, không no và mạch dài hơn.
+
+Dầu (acid béo chưa no- lỏng) và mỡ (acid béo no, đặc- rắn) là hỗn hợp nhiều acylglycerol.
+
+Dầu mỡ động vật chứa cholesterol còn dầu mỡ thực vật chứa phytosterol
+
+
+::: {layout-ncol=2 layout-valign="bottom"}
+
+![Monostearin](../Duoc_lieu/Images/Monostearin.svg)
+
+
+![Glyceryl2distearate](../Duoc_lieu/Images/Glyceryl2distearate.svg)
+
+:::
+
+
+
+### Tính chất lý học
+
+- Nhiệt độ nóng chảy phụ thuộc vào cấu tạo acid béo. Aci béo no có nhiệt độ nóng chảy cao hơn acid béo chưa no. Càng nhiều nối đôi nhiệt độ nóng chảy càng thấp
+- Trạng thái dầu mỡ quy định $t^o=15^oC$
+- Độ tan: không tan trong nước, tan trong dung môi hữu cơ, ít tan trong cồn
+- Độ sôi dầu mỡ cao hơn $300^oC$
+- Tỷ trọng nhỏ hơn 1
+- Độ nhớt cao
+
+
+### Tính chất hóa học
+
+- Dầu mỡ phân hủy nhiệt độ cao, glycerol biến thành aldehyd alylic có mùi khét
+- Dễ bị phân hủy bởi enzyme hay môi trường acid, nhiệt độ và áp suất
+- Xà phòng hóa cho glycerol và muối kiềm của acid béo tan trong nước
+- Hydrogen hóa dầu tạo mỡ
+- phản ứng cộng halogen
+- Dễ bị oxy hóa tạo aldehyd có mùi ôi
+
+:::
+## Lipid (2)
+::: {.panel-tabset}
+### Kiểm nghiệm 
+
+:::: {.columns}
+::: {.column width=40%}
+
+**Định tính**
+
+- Cảm quan: Màu sắc, mùi vị, thể chất
+- Xác định thông số vật lý như độ tan, độ nhớt, độ sôi, tỷ trọng
+- Xác định chỉ số hóa học như chỉ số acid, chỉ số ester, chỉ số xà phòng, chỉ số acetyl, chỉ số idod
+
+
+**Định lượng**
+
+- Chiết xuất bằng dung môi hữu cơ, bốc hơi dung môi, sau đó cân cắn
+- Dụng cụ chiết xuất 
+- Shoxhlet 
+- Zaisenco
+- Kumaganwa 
+:::
+::: {.column width=60%}
+::: {.callout-tip title="Định lượng vừng đen"}
+Hạt già phơi khô của cây Vừng đen (*Sesanum indicum* DC.), họ Vừng (Pedaliaceae).
+Không ít hơn 30,0 % tính theo dược liệu khô kiệt.
+Cân chính xác khoảng 10 g dược liệu (bột nửa thô), đặt vào dụng cụ Soxhlel, thêm 100 ml ether ethylic (TT), đun trên cách thủy sôi 5 h. Chuyển dịch chiết vào bình thủy tinh đã cân bì trước, cô trên cách thủy đến cạn. Sấy cạn ở 105 °C trong 3 h, lấy ra để nguội trong bình hút ẩm 60 min, cân xác định khối lượng cắn.
+Tính phần trăm lượng cắn thu được theo dược liệu khô kiệt.
+:::
+:::
+::::
+
+### Chiết xuất
+
+- Dầu mỡ thực vật: Ép hay dùng dung môi 
+- Dầu mỡ động vật: Nóng chảy (ướt hay khô)
+
+
+### Ứng dụng
+
+- Nguồn dinh dưỡng giàu năng lượng 
+- Xà phòng, sơn, chất dẻo 
+- Bảo vệ niêm mạc da, làm mềm da, làm lành vết thương, vết bỏng
+- Vitamin F cấu tạo thành mạch, tổng hợp prostagladin
+- Dầu thầu dầu và ba đạu dùng nhuận tẩy, tá dược thuốc mỡ, đạn
+
+### Dược liệu chứa lipids
+
+Thầu dầu  *Ricinus communis* L., Họ đại kích Euphobiaceae
+Vừng đen *Sesanum indicum* DC., họ Vừng (Pedaliaceae).
+:::

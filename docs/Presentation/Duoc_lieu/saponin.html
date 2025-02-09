@@ -7,11 +7,14 @@
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="TS. Hoàng Lê Sơn">
-  <meta name="dcterms.date" content="2025-02-06">
+  <meta name="dcterms.date" content="2025-02-09">
   <title>Tài liệu dược liệu – Dược liệu</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -353,7 +356,7 @@ TS. Hoàng Lê Sơn
     </div>
 </div>
 
-  <p class="date">2025-02-06</p>
+  <p class="date">2025-02-09</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Table of contents</h2>
@@ -378,7 +381,29 @@ TS. Hoàng Lê Sơn
 <section>
 <section id="đại-cương" class="title-slide slide level1 center">
 <h1>Đại cương</h1>
+<div>
 
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../Duoc_lieu/Images/Panax_Vietnamses_Majonoside_R1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Cấu trúc hóa học của Majonoside R1, một hoạt chất chính từ Sâm Việt nam"><img data-src="../Duoc_lieu/Images/Panax_Vietnamses_Majonoside_R1.png" alt="Cấu trúc hóa học của Majonoside R1, một hoạt chất chính từ Sâm Việt nam"></a></p>
+<figcaption>Cấu trúc hóa học của Majonoside R1, một hoạt chất chính từ Sâm Việt nam</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT0610000/BRIT610502.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Hình ảnh mẫu vật loài Panax vietnamensis Ha &amp; Grushv. thu thập ở việt nam"><img data-src="https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT0610000/BRIT610502.jpg" style="width:20.0%" alt="Hình ảnh mẫu vật loài Panax vietnamensis Ha &amp; Grushv. thu thập ở việt nam"></a></p>
+<figcaption>Hình ảnh mẫu vật loài <strong>Panax vietnamensis</strong> Ha &amp; Grushv. thu thập ở việt nam</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="khái-niệm" class="slide level2">
 <h2>Khái niệm</h2>
@@ -942,6 +967,38 @@ Có khả năng tạo bọt và phó vỡ hồng câu. Trong thực vật (500-8
     </script>
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

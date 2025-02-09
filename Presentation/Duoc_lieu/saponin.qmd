@@ -29,6 +29,31 @@ title-slide-attributes:
 ---
 
 # Đại cương
+```{python include=false}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+from rdkit import Chem
+from rdkit.Chem import Draw
+import os
+# Tên SMILES của morphin
+smiles = "CC1(C(CCC2(C1C(CC3(C2CC(C4C3(CCC4C5(CCC(O5)C(C)(C)O)C)C)O)C)OC6C(C(C(C(O6)CO)O)O)OC7C(C(C(C(O7)CO)O)O)O)C)O)C"
+
+# Tạo đối tượng Mol từ tên SMILES
+mol = Chem.MolFromSmiles(smiles)
+# Vẽ cấu trúc hóa học và lưu thành tệp ảnh
+img = Draw.MolToImage(mol)
+img.save("../Duoc_lieu/Images/Panax_Vietnamses_Majonoside_R1.png")
+```
+
+::: {layout-ncol=2}
+
+![Cấu trúc hóa học của Majonoside R1, một hoạt chất chính từ Sâm Việt nam](../Duoc_lieu/Images/Panax_Vietnamses_Majonoside_R1.png)
+
+![Hình ảnh mẫu vật loài **Panax vietnamensis** Ha & Grushv. thu thập ở việt nam](https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT0610000/BRIT610502.jpg){width="20%"}
+
+:::
+
 ## Khái niệm
 ::: {.callout-important title="Khái niệm"}
 Saponin là những hợp chất glycoside mà phần genin có nguồn gốc terpen có thể 30C (triterpenoid) hoặc 27 C(steroid).\
