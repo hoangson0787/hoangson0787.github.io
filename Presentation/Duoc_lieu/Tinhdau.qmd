@@ -1,43 +1,46 @@
 ---
 title: "Dược liệu "
-subtitle: "Dược liệu chứ tinh dầu"
+subtitle: "Dược liệu chứa tinh dầu"
 author:
   - name: TS. Hoàng Lê Sơn
     email: sonhoang.ump@vnu.edu.vn
     affiliations: UMP
 date: last-modified
 toc: true
-toc-depth: 1
+toc-depth: 3
 lightbox: true
 format: 
   revealjs:
     slide-number: true
     css: "../styles.css"
-    logo: "../VTM/Images/kanagawa.jpg"
+    logo: "../../images/logo_dl_hl.png"
     footer: "Bộ môn Dược liệu- Dược cổ truyền"
     width: 100%
     height: 100%
-    incremental: true
+    incremental: false
     smaller: false
     auto-stretch: false
     chalkboard: true
     highlight-style: github-dark
-    theme: "../coeos.scss"
+    theme: "../coeos_tinhdau.scss"
 title-slide-attributes: 
-  data-background-image: "../VTM/Images/kanagawa.jpg"
-  data-background-size: 15%
-  data-background-position: 2% 2%
+  data-background-image: "../Duoc_lieu/Images/tinhdau_theme.jpeg"
+  data-background-size: 100%
+  data-background-position: 0% 0%
 ---
 
 ## Tinh dầu <br> Volatile oils or Essentail oils
+::: {.panel-tabset}
 
+### Tinh dầu
 
 ::: {.callout-important title="Tinh dầu"}
 Tinh dầu là hỗn hợp của nhiều thành phần, thường có mùi thơm, không tan
 trong nước, tan trong dung môi hữu cơ, bay hơi ở nhiệt độ phòng và có
 thể điều chế từ thảo dược bằng phương pháp cất kéo hơi nước.
 :::
-Tinh dầu nguyên chất **Tinh dầu nguyên chất:**
+
+**Tinh dầu nguyên chất:**
 
 -   Là thành phần chưa pha chế với thành phần hóa học khác
 -   Được chiết xuất 100% từ tự nhiên
@@ -52,7 +55,7 @@ tinh khiết.
 dầu được tạo thành từ phương pháp tổng hợp hóa học còn gọi là dầu thơm
 
 
-## Volatile oils or Essentail oils
+### Volatile oils or Essentail oils
 
 ::: {.callout-important title="Volatile oils" .nonincremental}
 Volatile oils are odorous volatile principles of plant and animal source, evaporate when exposed to air at ordinary temperature, and hence known as volatile or etheral oils. These represent essence of active constituents of the plant and hence also known as essential oils. In most instances the volatile oil preexists in the plant and is usually contained in some special secretory tissues, for example, the oil ducts of umbelliferous fruits, the oil cells, or oil glands occurring in the sub-epidermal tissue of the lemon and orange, mesophyll of eucalyptus leaves, trichomes of several plants, etc.
@@ -62,24 +65,30 @@ Volatile oils are odorous volatile principles of plant and animal source, evapor
 In few cases the volatile oil does not preexist, but is formed by the decomposition of a glycoside. For example, whole black mustard seeds are odourless, but upon crushing the seeds and adding water to it a strong odour is evolved. This is due to allyl isothiocyanate (the main constituent of essential oil of mustard) formed by decomposition of a glycoside, sinigrin, by an enzyme, myrosin. Glycoside and enzyme are contained in different cells of the seed tissue and are unable to react until the seeds are crushed with water present, so that the cell contents can intermingle.
 :::
 
-## Phân bố
+
+### Phân bố
 
 **Thực vật**
-    - Lá: Bạc hà, tràm
-    - Trên mặt đất: Hương như trắng, hương nhu tía
-    - Hoa: Hoa hồng, hoa nhài, hoa bưởi
-    - Nụ hoa: Đinh Hương
-    - Quả: Sa nhân, thảo quả, hồi
-    - Vỏ quả: Cam, chanh
-    - Vỏ thân: Quế
-    - Lõi gỗ: Long não, vù hương
-    - Rễ: Thiên niên kiện, thạch xương bồ
-    - Thân rễ: Gừng, Nghệ
+
+- Lá: Bạc hà, tràm
+- Trên mặt đất: Hương như trắng, hương nhu tía
+- Hoa: Hoa hồng, hoa nhài, hoa bưởi
+- Nụ hoa: Đinh Hương
+- Quả: Sa nhân, thảo quả, hồi
+- Vỏ quả: Cam, chanh
+- Vỏ thân: Quế
+- Lõi gỗ: Long não, vù hương
+- Rễ: Thiên niên kiện, thạch xương bồ
+- Thân rễ: Gừng, Nghệ
+
 **Động vật:** cà cuống, hươu xạ
 
 -   Vai trò trong thực vật là bảo vệ cây, thu hút côn trùng tới thụ phấn
 
-## Bộ phân chứa tinh dầu
+### Bộ phân chứa tinh dầu
+
+:::: {.columns}
+:::{.column width="20%"}
 
 -   Nằm sâu trong mô
 -   Túi tiết
@@ -87,14 +96,18 @@ In few cases the volatile oil does not preexist, but is formed by the decomposit
 -   Biểu bì cánh hoa
 -   Lông tiết
 -   Ống tiết
+:::
 
-![image](../Duoc_lieu/Images/hinh%20anh%20bo%20phan%20tinh%20dau.001.jpeg){width="100%"}
+:::{.column width="80%"}
+![Một số bộ phận chứa tinh dầu trong thực vật.](../Duoc_lieu/Images/hinh%20anh%20bo%20phan%20tinh%20dau.001.jpeg){width="80%"}
+:::
+::::
 
+### Cấu trúc hóa học của tinh dầu
 
-
-# Cấu trúc hóa học của tinh dầu
-
-Nhóm cấu trúc
+:::: {.columns}
+::: {.column width="25%"}
+**Nhóm cấu trúc**
 
 -   Monoterpen 10C
     -   Chứa Oxy
@@ -105,19 +118,28 @@ Nhóm cấu trúc
     -   Sesquiterpen lacton
 -   Nhóm chất chứa vòng thơm
 -   Nhóm chất chứa N và S
+![](../Duoc_lieu/Images/Terpenoid%20in%20valatile%20oils.png)
+:::
+::: {.column width="25%"}
 
-![image](../Duoc_lieu/Images/Terpenoid%20in%20valatile%20oils.png){width="textwidth"}
-
-Phân loại theo nhóm chức
-
-![image](../Duoc_lieu/Images/Table%2017.1%20Classification%20of%20volatile%20oil.png){width="textwidth"}
-
-![image](../Duoc_lieu/Images/Essential%20oils%20chemical%20structure.png)
+**Phân loại theo nhóm chức**
+![](../Duoc_lieu/Images/Table%2017.1%20Classification%20of%20volatile%20oil.png)
+:::
+::: {.column width="45%"}
 
 
-## Tính chất lý hóa
 
-*Tính vất vật lý*
+![](../Duoc_lieu/Images/Essential%20oils%20chemical%20structure.png)
+:::
+::::
+
+:::
+
+
+
+## Tính chất
+::: {.panel-tabset}
+### *Tính vất vật lý*
 
 -   Đa số thể lỏng ở nhiệt độ thường trừ Menthol, borneol và camphor
 -   Màu sắc: không màu hoặc vàng nhạt đặc biệt hợp chất azulen màu xanh mực
@@ -130,15 +152,18 @@ Phân loại theo nhóm chức
 -   Năng suất quay cực: thường là lớn
 -   Chỉ số khúc xạ từ 1.45 đến 1.56
 
-*Tính chất hóa học*
+### *Tính chất hóa học*
 
 -   Rất dễ bị oxy hóa
 -   Phản ứng đặc biệt của nhóm chức
     -   Phản ứng của nhớm OH alcol hoặc OH phenol
     -   Phản cứng của nhóm aldehyd và ceton
 
+:::
+## Chiết xuất, phân lập, kiểm nghiệm
+::: {.panel-tabset}
 
-## Phương pháp chiết xuất tinh dầu
+### Chiết xuất
 
 
 -   Phương pháp cất kéo hơi nước (Extraction by Distillation)
@@ -155,8 +180,6 @@ Phân loại theo nhóm chức
 -   Phương pháp chiết siêu tới hạn
 
 
-## Định tính và định lượng
-
 ### Định tính
 -   Phương pháp TLC
 -   Phương pháp GC
@@ -165,6 +188,8 @@ Phân loại theo nhóm chức
 
 ### Định lượng
 
+:::: {.columns}
+::: {.column width="30%"}
 -   Phương pháp thể tích
 -   Phương pháp cân
 -   Định lượng thành phần chính trong tinh dầu
@@ -174,8 +199,19 @@ Phân loại theo nhóm chức
         -   Aldehyde
         -   Oxy
         -   Phenol
+:::
+::: {.column width="70%"}
 
-## Xác định tạp chất trong tinh dầu
+::: {.callout-tip title="Định lượng đương quy"}
+A. Định lượng tinh dầu (Phụ lục 12.7).
+
+Dùng 50 g bột dược liệu (qua rây số 355), thêm 250 ml nước, một ít đá bột và 75 ml glycerin (TT), cất trong 4 h (khi cất phải tăng nhiệt độ dần dần để tránh bị trào do tạo bọt). Hàm lượng tinh dầu trong dược liệu không được ít hơn 0,4 % tính theo dược liệu khô kiệt.
+:::
+:::
+::::
+
+
+### Xác định tạp chất trong tinh dầu
 
 -   Nước: Lắc tinh dầu với CaCl2 khan, CuSO4 và Na2SO4 khan
 -   Kim loại nặng: Lắc TD với nước, lớp nước được sục $H2S$ cho tủa màu
@@ -193,9 +229,13 @@ Phân loại theo nhóm chức
     -   Dâu hỏa, xăng, parafin: Không tan và nổi trên bề mặt alcol 80
     -   Tinh dầu thông: Phân tích GC-MS, SKLM, nhỏ từng giọt alcol 70
         vào ống nhiện có TD chuyền sang đục
+:::
 
 ## Tác dụng sinh học và ứng dụng
 
+::: {.panel-tabset}
+
+### Tác dụng
 -   Kích thích tiêu hóa, lợi mật, thông mật: Quế, hồi, đinh hương, thảo
     quả, sa nhân
 -   Kháng khuẩn: Bạch đàn, bạc hà, tràm, sả, lavender
@@ -205,7 +245,9 @@ Phân loại theo nhóm chức
 -   Chống viêm, liền vết thương: TD tràm
 -   Chống ung thư: TD vỏ cam, chanh, bưởi
 
-## Dược liệu chứa tinh dầu
+### Ứng dụng
+**Dược phẩm**
+
 
 -   Chữa cảm mạo: Tác dụng tân ôn giải biểu như quế chi, sinh khương,
     hương nhu, bạch chỉ. Tác dụng tân lương giải biểu như Bạc hà, cúc
@@ -216,44 +258,38 @@ Phân loại theo nhóm chức
 -   Hành huyết và bổ huyết như xuyên khung, đương quy
 -   Trừ thấp như độc hoạt, thiên niên kiện
 
-## Thực phẩm và mỹ phẩm
+**Thực phẩm**
+-   Gia vị: Quế, hồi, thảo quả, sa nhân, thì là, gừng, tỏi
+-   Bách kẹo; chất mùi
 
--   Thực phẩm
-    -   Gia vị: Quế, hồi, thảo quả, sa nhân, thì là, gừng, tỏi
-    -   Bách kẹo; chất mùi
--   Mỹ phẩm: hương liệu, mỹ phẩm
+**Mỹ phẩm** hương liệu, mỹ phẩm
+
+:::
 
 ## Dược liệu chứa tinh dầu 
 
-Chứa Monoterpen
+**Chứa Monoterpen**
 
-	Các loài thuộc chi Citrus
-	Sả, thảo quả, mùi, bạc hà, thông
-	Long não, sa nhân, tràm, bạch đàn
-	Dầu giun
+- Các loài thuộc chi Citrus
+- Sả, thảo quả, mùi, bạc hà, thông
+- Long não, sa nhân, tràm, bạch đàn
+- Dầu giun
 
-Chứa Sesquiterpen
+**Chứa Sesquiterpen**
 
-	Gừng
-	Hoắc Hương
-	Thanh cao hoa vàng
-	Nghệ
+- Gừng
+- Hoắc Hương
+- Thanh cao hoa vàng
+- Nghệ
 
-Chứa dẫn chất nhân thơm
+**Chứa dẫn chất nhân thơm**
 
-	Đinh Hương
-	Hương nhu trắng, hương nhu tía
-	Đại hồi
-	quế
+- Đinh Hương
+- Hương nhu trắng, hương nhu tía
+- Đại hồi
+- quế
 
-VOLATILE OILS CONTAINING HYDROCARBONS: TURPENTINE OIL (Dầu thông)
-VOLATILE OILS CONTAINING ALCOHOLS: PEPPERMINT, PUDINA, SANDALWOOD OIL, 
-VOLATILE OILS CONTAINING ALDEHYDES: LEMONGRASS OIL, LEMON PEEL, BITTER ORANGE PEEL, CINNAMON, CASSIA BARK, CITRONELLA OIL, SAFFRON
-VOLATILE OILS CONTAINING KETONES: CAMPHOR, CARAWAY, CORIANDER, DILL, FENNEL, JATAMANSI, ANISE, CUMMIN/CUMIN, 
-VOLATILE OIL CONTAINING PHENOL: AJOWAN, TULSI, CLOVE
-VOLATILE OIL CONTAINING ETHER: NUTMEG, CALAMUS
-VOLATILE OIL CONTAINING OXIDES: CHENOPODIUM OIL, EUCALYPTUS OIL, CARDAMOM
-VOLATILE OIL CONTAINING ESTER: GARLIC, ROSEMARY OIL, GAULTHERIA OIL, VALERIAN
+
 
 
 

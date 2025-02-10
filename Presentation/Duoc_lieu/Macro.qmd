@@ -12,7 +12,7 @@ lightbox: true
 format: 
   revealjs:
     slide-number: true
-    logo: "../../images/9.png"
+    logo: "../../images/logo_dl_hl.png"
     footer: "Bộ môn Dược liệu- Dược cổ truyền"
     width: 100%
     height: 100%
@@ -72,7 +72,7 @@ Phân loại cấu trúc hóa học của carbonhydrates gồm Monosaccharides (
 
 # Tá dược của ngành dược
 
-## Strach-Tinh bột
+## Starch-Tinh bột (1)
 :::: {.columns}
 
 ::: {.column width="15%" .nonincremental}
@@ -98,6 +98,8 @@ lúa mì *Triticum aestivum* Linn.
 
 ![](../Duoc_lieu/Images/Enzyme_tinhbot.png)
 ::: 
+
+{{< video src="https://www.youtube.com/embed/7-2LULtEaOQ" width="100%" height="200">}}
 :::
 
 
@@ -124,9 +126,14 @@ Phân biệt: Amylose cho màu xanh với iodine trong khi amylopectin cho màu 
    - Thủy phân bằng Enzyme sau đó bằng acid 
    - Dung phân cực kế: tạo phức vào $CaCl_2$ đo góc quay cực 
    - Tạo phức với iodine để so màu.
+
+
+
+
 :::
 
 ::::
+## Starch-Tinh bột (2)
 
 :::: {.columns}
 
@@ -135,16 +142,22 @@ Phân biệt: Amylose cho màu xanh với iodine trong khi amylopectin cho màu 
 **Sản xuất**
 
 |                    | Khoai tây                       | Gạo    | Ngô                                                | Lúa Mỳ |
-|--------------------|---------------------------------|--------|----------------------------------------------------|--------|
+|-------------|---------------------------------|---------------------------------|---------------------------------|---------------------------------|
 | Thành phần khác    | Thành phần trong tế bào         | gluten | Vỏ, Chất khoáng, Protein, dầu ngô, Gluten          | gluten |
 | Cách loại bỏ tạp   | Sử dụng nước                    | NaOH 0.5% | Tách vỏ (ngâm trong nước sulphur dioxide); Germ đươc tách để ép lấy dầu ngô |        |
 | Các loại bỏ gluten | Không có                        | NaOH 0.5% | Sử dụng phương pháp nhồi và lọc |        |
-**Ứng dụng**
+
+
+{{< video src="https://www.youtube.com/embed/gqvIKTRNAf0" width="400" height="300">}}
+{{< video src="https://www.youtube.com/embed/rPD-BEf7RJQ" width="400" height="300">}}
+:::
+::: {.column width="40%" .nonincremental}
+
+
+*Ứng dụng*
 
 - Công nghiệp thực phẩm: Sử dụng trong thực phẩm  hoặc sản xuất cồn EtOH
 - Công nghiệp dược: Sử dụng làm tá dược như độn, tá dược dính  
-:::
-::: {.column width="40%" .nonincremental}
 
 *Các dược liệu giàu tinh bột sử dụng trong y học cổ truyền*
 

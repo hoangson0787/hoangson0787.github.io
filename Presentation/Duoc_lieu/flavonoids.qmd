@@ -12,7 +12,7 @@ lightbox: true
 format: 
   revealjs:
     slide-number: true
-    logo: "../VTM/Images/kanagawa.jpg"
+    logo: "../../images/logo_dl_hl.png"
     footer: "Bộ môn Dược liệu- Dược cổ truyền"
     width: 100%
     height: 100%
