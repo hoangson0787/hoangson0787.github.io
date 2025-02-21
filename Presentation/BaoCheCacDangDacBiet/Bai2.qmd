@@ -30,14 +30,13 @@ title-slide-attributes:
   data-background-position: 0% 0%
 ---
 
-# Đại cương
-
 ## Khái niệm
 ::: {.callout-important title="Khái niệm"}
 Hệ thuống giải phóng kiểm soát là các dạng bào chế có áp dụng biện pháp kỹ thuật cải biên sinh khả dụng nhằm kiểm soát chặt chẽ quá trình giải phóng dược chất trong khoảng liều có tác dụng điều trị, kiểm soát thời gian, không gian vùng giải phóng dược chất trong cơ thể, nâng cao hiệu quả điều trị của thuốc
 :::
 ::::{.columns}
 :::{.column width="70%"}
+
 
 ![Dạng thường quy](../BaoCheCacDangDacBiet/Images/Normal.png)
 
@@ -118,17 +117,23 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 
 
 ## Phân loại
-:::: {.columns}
-::: {.column width="30%"}
-![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](../BaoCheCacDangDacBiet/Images/Classification.png){width="70%"}
 
 
-**Phân loại theo cách thiết kế**
- 
 
-:::
-::: {.column width="40%"}
-**Phân loại theo mô hình giải phóng**
+
+::: {.panel-tabset}
+
+### Mối liên hệ
+
+![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](../BaoCheCacDangDacBiet/Images/Classification.png){width="60%"}
+
+
+### theo cách thiết kế
+![Phân loại theo cách thiết kế:  Thuốc giải phóng theo chương trình (a), Thuốc giải phóng có module kích hoạt (b), Thuốc giải phóng theo cơ chế đáp ứng cho-nhận (c), Thuốc giải phóng tại đích (d)](../BaoCheCacDangDacBiet/Images/TypeOfRelease.png)
+
+
+
+### theo mô hình giải phóng
 
 | Mô hình giải phóng | Thời gian giải phóng | tên gọi dạng thuốc  |
 |--------------------|----------------------|---------------------|
@@ -140,9 +145,8 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 | Giải phóng kiểm soát nồng độ dược chất trong máu hằng định trong khoảng điều trị| Hàng ngày (12-24 giờ)| thuốc giải phóng kiểm soát|
 | Giải phóng theo chương trình| Hàng tuần, hàng năm| Hệ điều trị, hệ trị liệu|
 | Giải phóng tại đích| Hàng ngày, hàng tháng |Thuốc giải phóng tại đích|
-:::
-::: {.column width="30%"}
-**Phân loại theo cấu trúc**
+
+### theo cấu trúc
 
 
 *Hệ màng bao kiếm soát giải phóng*
@@ -161,63 +165,241 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
   - Hệ thuốc chứa dược chất được bao màng bán thấm
 
 *Thuốc giải phóng dược chất theo nhịp sinh học*
+
 :::
-::::
-
-
 
 ## Mô hình cấu trúc của hệ thuốc giải phóng kiểm soát
 
-![Phân loại theo cách thiết kế:  Thuốc giải phóng theo chương trình (a), Thuốc giải phóng có module kích hoạt (b), Thuốc giải phóng theo cơ chế đáp ứng cho-nhận (c), Thuốc giải phóng tại đích (d)](../BaoCheCacDangDacBiet/Images/TypeOfRelease.png)
+::: {.panel-tabset}
 
 
+### Thuốc giải phóng kéo dài
 
-:::: {.columns}
-::: {.column width="50%"}
-**Thuốc giải phóng kéo dài**
-**Ưu điểm:** Nồng độ máu được duy trì trong khoảng liều có tác dụng với thời gian dài, giảm số lần dùng thuốc cho người bệnh, giảm tác dụng không mong muốn, nâng cao hiệu quả điều trị của thuốc\
+**Ưu điểm:** Nồng độ máu được duy trì trong khoảng liều có tác dụng với thời gian dài, giảm số lần dùng thuốc cho người bệnh, giảm tác dụng không mong muốn, nâng cao hiệu quả điều trị của thuốc.
 
   - Thuốc giải phóng thời gian dài: hơn 60 phút do với dạng quy dược
   - Thuốc giải phóng kéo dài: 8h, 12h,24h
   - Thuốc giải phóng duy trì: giải phóng nhanh có tác dụng ban đầu, sau đó duy trì nồng độ hoạt chất trong máu
 
 **Nhược điểm:** Định đỉnh và đáy không hằng định
-:::
-::: {.column width="50%"}
-**Thuốc giải phóng nhắc lại**
+
+### Thuốc giải phóng nhắc lại
+
 **Ưu điểm:** Nồng độ giải phóng ngắt quãng sau khoảng thời gian nhất định, duy trì trong máu nhưng không hằng định
 
 **Nhược điểm:** Thuốc được giải phóng ngắt quáng, nống độ duy trì trong máu nhưng không hằng định tạo ra đỉnh và đáy theo chu kỳ. Tạo cảm giác khó chịu
-:::
-::::
 
 
-**Thuốc giải phóng kiểm soát**
+### Thuốc giải phóng kiểm soát
 
 **Ưu điểm:** Nồng độ dược chất hằng định trong máu tại liều điều trị tối ưu trong thời gian dài, không tạo hiện tượng đỉnh và đáy
 
+:::
+
 ## Mô hình động học
-- Mô hình bậc 0
-- Mô hình bậc 1
-- Mô hình higuchi
-- Mô hình khác cho hệ có hình khối giữ nguyên theo thời gian
+::: {.panel-tabset}
+### Các khái niệm
 
-**Chỉ số hiệu chỉnh** $R^2$
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="Giải phóng thuốc"}
+"Giải phóng thuốc" đề cập đến quá trình trong đó các chất tan thuốc di chuyển từ vị trí ban đầu trong hệ thống polyme đến bề mặt bên ngoài của polyme và sau đó đến môi trường giải phóng. Mục tiêu tập trung vào thuốc giải phóng một cách hiệu quả.
+:::
 
+::: {.callout-note title="Động học phóng thuốc Drug release kinetics"}
+Đây là một phần dược động học, nghiên cứu chi tiết về tốc độ và cơ chế thuốc giải phóng từ dạng bào chế. Nghiên cứu động học giải phóng thuốc bao gồm cả mô hình hóa.
+:::
+
+::: {.callout-note title="Mô hình toán học giải phóng Mathematical modeling"}
+Mô hình động học là một hàm toán học mô tả quá trình giải phóng hoạt chất ra khỏi hệ thống. Mục đích của mô hình toán học là đơn giản hóa quá trình giải phóng phức tạp và hiểu rõ hơn về cơ chế giải phóng của một hệ thống vật liệu cụ thể.
+:::
+
+:::
+::: {.column width="50%"}
+![Yếu tố ảnh hưởng đến mô hình giải phóng thuốc](../BaoCheCacDangDacBiet/Images/drugreleasekinetics.png)
+:::
+::::
+
+### Về động học giải phóng
+::: {.panel-tabset}
+#### non-degradable polymeric matrices
+
+| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
+|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
+| Segmented PU (Cardiomat 610) | Drug-eluting stent          | 1,3-Dipropyl-8-cyclopentyl xanthine     | 1 d           | Near linear release (~ 20 d)            | Non-Fickian diffusion |
+| Elast-Eon™                | Drug-eluting stent          | Dexamethasone acetate                  | w/            | Biphasic pattern                        | Fickian diffusion   |
+| Polyurethane (Walopur®)   | Disk-shaped matrices        | Flucloxacillin-Na, Fosfomycin, Gentamicin-base | 1 d           | Near linear (2 ~ 5 d)                  | Matrix-controlled    |
+| Poly(urea-urethane)       | Microcapsule                | Auramine (Oil-soluble dye)             | w/o           | Near linear (~20 min)                  | Non-Fickian Diffusion |
+| PEG modified polyurethane | Dermal patch                | Thiamazole, diclofenac sodium, ibuprofen | 12 h          | Biphasic pattern (~ 48 h)              | -                   |
+| PDMS                      | Rod (matrix vs. reservoir)  | Ivermectin                             | w/o           | Matrix: first order, 50 d; Reservoir: zero order, 84 d | Matrix: diffusion, Reservoir: case II transport |
+| PDMS                      | Intravaginal ring (reservoir) | TMC120                                 | 1–2 d         | Biphasic; near zero order release for 30 d | Case II transport  |
+| PDMS                      | Intravaginal ring (core-type) | TMC120                                 | w/o           | Zero order, 71 d                       | Case II transport   |
+| PDMS                      | Strip (10×20 mm)            | Metronidazole                          | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| PEVA (VA content, 40%)    | Membrane                    | Quinupramine                           | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| PEVA                      | Thin film                   | Acyclovir, Chlorhexidine diacetate     | w/o           | Near zero-order (~ 8 d)                | Non-Fickian diffusion |
+| PEVA                      | Drug-eluting stent coating  | 5-Fluorouracil                         | w/            | Biphasic pattern (~20 d)               | Fickian diffusion   |
+| PEVA (VA content, 40%)    | Disk-shape Film             | Chlorhexidine diacetate                | w/            | Near-zero order (~ 7 d)                | Non-Fickian diffusion |
+| PEVA (VA content, 40%)    | Membrane                    | Furosemide                             | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| Dextran sulfate           | Microcapsule                | Insulin                                | w/            | Biphasic pattern (~12 h)               | Fickian diffusion   |
+| Methacrylated dextran     | Hydrogel                    | Vitamin E                              | ~3 h          | Biphasic                                | Swelling            |
+| HPMC with β-CD            | Tablet                      | Difunisal                              | w/o           | Zero-order for nonsoluble β-CD; First-order for soluble β-CD | Non-Fickian diffusion |
+
+
+
+#### Biodegradable polymeric matrices
+
+
+| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
+|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
+| PLGA/PLA                  | Microparticle               | Diltiazem hydrochloride                | 2h            | Triphasic pattern                       | Diffusion and erosion |
+| PLGA                      | Nanoparticle                | Estradiol                              | w/o           | Zero order up to 31 ~54 d               | Diffusion-cum-degradation |
+| PLGA                      | Microcapsule                | Insulin                                | 20%, 24h      | Triphasic pattern                       | Diffusion and erosion |
+| p(FAD-SA) 50:50           | Implantable disk            | Cefazolin sodium                       | w/o           | 100%, 14 d                              | Diffusion             |
+|                           |                             | Bupivacaine free base                  | w/o           | 90%, 35 d                               | Diffusion and degradation |
+|                           |                             | Taxol                                  | w/o           | 15%, 77d                                | Degradation          |
+| PEG hydrogel with degradable crosslinks | Disk                  | Bovine serum albumin                    | w/o           | Zero order in the presence of human neutrophil elastase | Triggered degradation |
+| Poly(ortho ester amide) copolymer | NA                        | FITC-dextran                           | w/o           | Near zero order                         | Erosion              |
+| HPMC                      | Tablet                      | Adinazolam mesylate                    | w/            | Near zero order, 10h                    | Swelling and dissolution |
+
+
+:::
+
+
+### Về mô hình toán học
+::: {.panel-tabset}
+#### Mô hình bậc 0
+
+:::: {.columns}
+
+::: {.column width="40"}
+
+::: {.callout-tip title="Mô hình toán học"}
+
+$$C_t= \frac{K_0 t 100}{W_0}$$
+
+Trong đó:
+
+- $C_t$: phần trăm dược chất giải phóng tại thời điểm t.
+- $W_0$: tổng lượng dược chất có trong dạng thuốc.
+- $K_0$: hằng số tốc độ giải phóng bậc 0.
+
+Tốc độ giải phóng dược chất trong quá trình không thay đổi theo thời gian, không phụ thuộc vào sự suy giảm hàm lượng dược chất trong dạng bào chế.
+
+Ứng dụng: hệ điều trị qua da, hệ bơm thẩm thấu, họ cốt chứa dược chất tan chậm, hệ màng bao.
+:::
+:::
+::: {.column width="60"}
+
+::: {layout-ncol="2"}
+
+![](../BaoCheCacDangDacBiet/Images/zero-order.png)
+
+![](../BaoCheCacDangDacBiet/Images/rero-order-plasma.png)
+:::
+
+:::
+
+::::
+
+#### Mô hình bậc 1
+:::: {.columns}
+
+::: {.column width="40"}
+
+::: {.callout-tip title="Mô hình toán học"}
+$$\frac{d_c}{d_t}=\frac{A(C_s - C_t)D}{h}$$
+Trong đó:
+
+- $\frac{d_c}{d_t}$: tốc độ giải phóng dược chất.
+- A: diện tích bề mặt tiếp xúc của hệ với môi trường hòa tan.
+- $C_s$: nồng độ dược chất bão hòa.
+- $C_t$: nồng độ dược chất trong môi trường tại thời điểm t.
+- D: hệ số khuếch tán của dược chất trong môi trường hòa tan.
+- h: bề dày lớp khuếch tán.
+:::
+Mô tả giải phóng dược chất từ hệ cốt thân nước, tốc độ giải phóng phụ thuộc vào lượng dược chất còn trong hệ thuốc, tốc độ giải phóng dược chất giảm dần theo thời gian.
+:::
+::: {.column width="60"}
+![](../BaoCheCacDangDacBiet/Images/First-order.png)
+:::
+::::
+
+#### Mô hình Higuchi
+
+:::: {.columns}
+
+::: {.column width="40"}
+
+::: {.callout-tip title="Mô hình toán học"}
+$$M= [C_s D_m (2C_0 - C_t)t]^\frac{1}{2}$$
+Trong đó:
+
+- M: lượng dược chất giải phóng trên 1 đơn vị diện tích cốt có hình trụ dẹt.
+- $C_s$: nồng độ dược chất bão hòa.
+- $C_0$: lượng dược chất có trong một đơn vị thể tích cốt.
+- $D_m$: hệ số khuếch tán của dược chất trong cốt.
+
+
+
+:::
+Hệ số $D_m$ được quyết định bởi bản chất (cấu trúc lý, hóa) của dược chất, đặc tính lý hóa của nguyên liệu tạo cốt.
+
+Tốc độ giải phóng phụ thuộc vào hình dạng, kích thước, khối lượng hệ cốt.
+:::
+::: {.column width="40"}
+![](../BaoCheCacDangDacBiet/Images/higuchi.png)
+
+::: {.callout-tip title="Nếu có sẵn cốt"}
+
+Nếu hệ cốt có sẵn, có thể viết lại thành:
+$$C_t = \frac{K_H t^\frac{1}{2} 100}{W_0}$$
+Trong đó: $C_t$: phần trăm dược chất giải phóng ở thời điểm t, $K_H$: hằng số tốc độ hòa tan Higuchi, t: thời gian hòa tan, $W_0$: tổng lượng dược chất có trong hệ thuốc.
+:::
+:::
+::::
+#### Mô hình khác cho hệ có hình khối giữ nguyên theo thời gian
+::: {.panel-tabset}
+
+##### Mô hình Hixon-Crowell
+$$K t = W^\frac{1}{3}_0 - W^\frac{1}{3}_t$$
+Trong đó:
+
+- $W_0$: lượng dược chất có trong hệ thuốc tại thời điểm ban đầu.
+- $W_t$: lượng dược chất có trong hệ thuốc tại thời điểm t.
+- K: hằng số biểu thị tỷ lệ diện tích bề mặt thể tích.
+
+##### Mô hình Korsmeyer-Peppas
+$$K n= \frac{M_t}{M_0}$$
+Trong đó:
+
+- $M_t, M_0$: lượng dược chất có trong hệ ở thời gian t và thời điểm ban đầu.
+- K: hằng số tốc độ giải phóng.
+- n: tham số, với n= 0.5 nếu theo khuếch tán Fick, n= 0.45 không theo khuếch tán Fick, 0.89 với t theo động học bậc 0, >0.89 với $t^{n-1}$.
+
+:::
+:::
+### Đánh giá mô hình
+- Theo chỉ số hiệu chỉnh $R_{hc}^2 = 1 - \frac{n-1}{n-p} (1-R^2)$ với $R^2 = 1 - \frac{\sum^n_{i-1} (c^l_i - c_i)^2}{\sum^n_{i-1} (c_i - \text{c})^2}$
+- Theo tiêu chuẩn AIC = $n \ln (\text{WSSR}) + 2P$ với $\text{WSSR} = \sum^n_{j=1} [w_j (y_j - \hat{y}_j)]$
+
+
+### Vai trò
 **Tầm quan trọng của các mô hình**
 
-- Mô hình động học giải phóng dược chất từ chế phẩm bào chế là tư liệu kỹ thuật để kiểm soát đảm bảo chất lượng các lô thuốc, phân biệt chế phẩm bào chế của các nhà sản xuất khác nhau
-- Xây dựng đường cong hòa tan, thiết lập mối liên hệ giữa mô hình *in vitro* và *in vivo*. Chọn phép thử độ hòa tan
+- Mô hình động học giải phóng dược chất từ chế phẩm bào chế là tư liệu kỹ thuật để kiểm soát đảm bảo chất lượng các lô thuốc, phân biệt chế phẩm bào chế của các nhà sản xuất khác nhau.
+- Xây dựng đường cong hòa tan, thiết lập mối liên hệ giữa mô hình *in vitro* và *in vivo*. 
+- Chọn phép thử độ hòa tan.
 
 
-## Lựa chọn hoạt chất ^[Fundamentals Applications of Controlled Release Drug Delivery] 
-- Khối lượng phân tử: 150-400
-- Dạng không ion hóa chiếm từ 0.1 -1% thuốc
-- Hệ số phân bố biểu kiến 
-- Cơ chế hấp thu
-- Thời gian bán hủy: tt1/2 =8 giờ là phù hợp, nếu t1/2 nhỏ hơn 1h là quá khó có thể làm được. còn t1/2 lớn hơn thì không cần thiết.
-- độ thanh thải 
-- Thể tích phân bố biểu kiến 
-- Sinh khả dụng tuyệt đối (F) 
-- hằng số tỷ lệ hấp thu nội tại Ka
-- Nồng độ điều trị
+### Lựa chọn hoạt chất ^[Fundamentals Applications of Controlled Release Drug Delivery]
+- Khối lượng phân tử: 150-400.
+- Dạng không ion hóa chiếm từ 0.1 -1% thuốc.
+- Hệ số phân bố biểu kiến.
+- Cơ chế hấp thu.
+- Thời gian bán hủy: $t_{1/2} = 8$ giờ là phù hợp, nếu $t_{1/2}$ nhỏ hơn 1 giờ là quá khó có thể làm được, còn $t_{1/2}$ lớn hơn thì không cần thiết.
+- Độ thanh thải.
+- Thể tích phân bố biểu kiến.
+- Sinh khả dụng tuyệt đối (F).
+- Hằng số tỷ lệ hấp thu nội tại Ka.
+- Nồng độ điều trị.
+:::

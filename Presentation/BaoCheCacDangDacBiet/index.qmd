@@ -9,6 +9,7 @@ format:
 ---
 ## Lời giới thiệu
 Thật kỳ lạ tại sao một website về dược liệu lại có phần bào chế. Một nhược điểm cố hữu của thuốc từ dược liệu (cao chiết và cả hoạt chất tự nhiên) đó chính là vấn đề sinh khả dụng. Việc áp dụng các phương pháp bào chế hiện đại để cải thiện sinh khả dụng là cần thiết. Trong phần này, tôi có cung cấp các nội dung xung quanh liên quan đến bào chế các dạng đặc biệt nói chung. Việc áp dụng trong dược liệu tùy thuộc vào sức sáng tạo của các bạn. 
+
 ## Tài liệu tham khảo học phần 
 
 1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
@@ -24,21 +25,29 @@ Thật kỳ lạ tại sao một website về dược liệu lại có phần b�
     - Viên đặt dưới lưỡi
     - Các viên nén đặc biệt khác
 
-- [Đại cương về các hệ thuốc giải phóng kiểm soát](../BaoCheCacDangDacBiet/Bai2.qmd)
+- Đại cương về các hệ thuốc giải phóng kiểm soát
+
+[Phần 1](../BaoCheCacDangDacBiet/Bai2.qmd)
+
     - Định nghĩa, phân loại
     - Ưu nhược điểm 
     - Mô hình giải phóng dược chất
+
+[Phần 2](../BaoCheCacDangDacBiet/Bai3.qmd)
+
     - Hệ màng bao không tan
     - Hệ màng bao hòa tan
     - Hệ cốt không tan
     - Hệ cốt thân nước hòa tan
     - Hệ bơm thẩm thấu
     - Đánh giá một số tính chất đặc trưng của hệ thuốc
-- [Hệ thuốc giải phong theo nhịp](../BaoCheCacDangDacBiet/Bai3.qmd)
+    
+- [Hệ thuốc giải phong theo nhịp](../BaoCheCacDangDacBiet/Bai4.qmd)
     - Đại cương
     - Các hệ thuốc giải phóng theo nhịp
     - Đánh giá một số chỉ tiêu đặc trưng của thuốc giải phóng theo nhịp
-- [Hệ thuốc giải phóng tại đích](../BaoCheCacDangDacBiet/Bai4.qmd)
+    
+- [Hệ thuốc giải phóng tại đích](../BaoCheCacDangDacBiet/Bai5.qmd)
     - Hệ thuốc nano
     - Hệ thuốc liposome
     - Một số kỹ thuật áp dụng trong bào chế hệ nano và liposome

@@ -1,6 +1,6 @@
 ---
 title: "Các dạng bào chế đặc biệt"
-subtitle: "Các hệ thuốc giải phóng kiểm soát nồng độ dược chất theo thời gian"
+subtitle: "Các hệ thuốc giải phóng theo nhịp sinh học"
 author:
   - name: TS. Hoàng Lê Sơn
     email: sonhoang.ump@vnu.edu.vn
@@ -29,3 +29,387 @@ title-slide-attributes:
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
+# Đại cương
+## Đồng hồ sinh học, bệnh học thời khắc và bào chế thời khắc
+::: {.panel-tabset}
+
+### Chu kỳ sinh học chronobiology
+
+:::: {.columbns}
+
+::: {.column width="20%"}
+
+- Nhịp thở, nhịp đập tim
+- Chu kỳ kinh nguyệt
+- Chy kỳ ngày đêm
+
+:::
+::: {.column width="80%"}
+![](../BaoCheCacDangDacBiet/Images/Biological_clock_human.svg){width="90%"}
+:::
+
+
+::::
+### Bệnh học thời khắc
+Các bệnh có nhịp ngày đêm
+
+- Bệnh đường hô hấp
+- Bệnh tim mạch
+- Bệnh loét dạy dày - tá tràng
+- Bệnh viêm xương khớp
+
+Dược lý thời khắc Chronopharmacologie
+
+- 
+### Bào chế thời khắc 
+
+::: {.callout-important "Khái niệm"}
+Bào chế thời khắc là khoa học dựa trên cơ sở bệnh học thời khắc và dược động học thời khắc bào chế ra dạng thuốc giải phóng theo nhịp sinh học, cung cấp dược chất cho cơ thể theo nhịp diễn biến của bệnh, tối ưu đỉnh của nhịp giải phóng và hấp thu dược chất từ dạng thuốc phù hợp với đỉnh của nhịp bùng phát bệnh. 
+:::
+
+:::
+
+## Thuốc giải phóng theo nhịp
+
+::: {.panel-tabset}
+
+### Khái niệm 
+
+::: {.callout-important "Khái niệm"}
+Thuốc giải phóng theo nhịp sinh học là hệ thuốc giải phóng có kiểm soát, dược chất được giải phóng đúng thời điểm, đúng liều lượng, đúng nơi nhịp diễn biến của bệnh sau một khoảng thời gian tiềm tàng nhất định.
+:::
+
+Thời gian tiềm tàng là thời gian từ khi chế phẩm thuốc tiếp xúc với môi trường hòa tan cho đến khi dược chất bắt đầu giải phóng khỏi dạng thuốc trong phép thử hòa tan. 
+
+### Phân loại
+
+::: {.panel-tabset}
+
+#### Hệ đơn nhịp: 
+toàn bộ dược chất trong hệ giải phóng cùng một lúc. Thời gian tiềm tàng của thuốc giải phóng nhanh dược chất trong cùng lúc như trong điều trị các bệnh cao huyết áp, chứa hen. Hoặc giải phỏng toàn bộ thuốc trong một vùng cần thiết như ruột non hoặc đại tràng. 
+#### Hệ đa nhịp 
+
+dược chất trong hệ được giải phóng thành nhiều lần ngắt quãng nhằm giảm tác dụng không mong muốn, cải thiện sự tuân thủ của người bệnh hoặc giải phóng dược chất tại các vùng khác nhau trong đường tiêu hóa
+  - Hệ đơn đơn vị: hệ chỉ chứa một đơn vị bào chế duy nhất như viên nén, viên nang thuốc bao kháng vị. Hệ đơn đơn vị thường là hệ giải phòng một nhịp, giải phóng nhanh sau thời gian tiềm tàng.
+  - Hệ đa đơn vị: Hệ này chưa đa tiểu phân, chứa nhiều tiểu đơn vị trong một liều dùng như nang chứa hạt, pellet, vi cầu, viên nén mini. Các tiểu đơn vị có thể được bao với các loại màng bao khác nhau hoặc độ dày màng khác nhau để giải phóng dược chất thành nhiều nhịp
+    - Ưu điểm so với hệ đơn đơn vị
+      - Dễ thiết kế dạng bào chế có mô hình giải phóng phức tạp theo yêu cầu điều trị, do có sự phối hợp mô hình giải phóng các nhóm tiểu đơn vị
+      - Sinh khả dụng ổn định, tính lặp lại cao: dạng đa đơn vị chưa các tiểu đơn vị có đường kính nhỏ dễ đi qua môn vị, làm tăng tháo rỗng dạ dày và trải đều trên ruột non, tạo được bề mặt hòa tan và hấp thu lớn, dảm bảo ổn định và đồng nhất cho chế phẩm
+      - Hệ đa đơn vị tránh được hiện tường chồng liều, giảm kích ứng tại chỗ, tăng khả năng hòa tan dược chất, đảm bảo sự đồng nhất giữa các lô mẻ sản xuất
+:::
+### Ưu nhược điểm
+
+**Ưu điểm**
+
+- Giảm số lần dùng thuốc và liều trong ngày
+- Cải thiện sự tuân thủ của bệnh nhân
+- Nâng cao sinh khả dụng cho thuốc có sinh khả dụng thấp
+
+**Nhược điểm**
+
+- Bệnh diễn biến theo ngày đêm chưa nhiều
+- Thuốc dùng theo đường tiêu hóa có nhiều yếu tố ảnh hưởng
+- Khó kiểm soát được thời gian tiềm tàng
+- Kỹ thuật bào chế phức tạp
+- Giá thành cao
+:::
+
+# Một số hệ giải phóng
+
+## Hệ giải phóng theo nhịp hệ màng bao
+
+::: {.panel-tabset}
+
+### Hệ màng bao nứt vớ 
+::: {.panel-tabset}
+
+#### Cấu tạo hệ thuốc
+Hoạt chất: 
+
+Tá dược:
+
+- Tá dược tạo nhân
+  - Nhân trương nở là các tá dược siêu rã: Natri starch glycolat, crospovidon, croscarmelose, avicel... giúp trương nở mạnh
+  - Nhân tạo áp suất thẩm thấu có dược chất và các tá dược dễ tan như NaCl, KCl, mannitol, sorbitol, lactose
+  - Nhân sinh khí: acid citric, natri carbonat
+- Tá dược màng bao: Ethyl cellulose, eudragti RL 
+  - EC thường kết hợp một tỷ lệ thích hợp HPMC và TEC
+  - Eudragit dẻo dai hơn EC, thường sẽ nứt vỡ từ từ
+
+Dạng bào chế: là viên nén, pellet
+#### Cơ chế giải phóng
+Màng bao nứt vỡ sau thời gian tiềm tàng bộc lộ nhân. Môi trường sẽ thấm ướt vào nhân giải phóng ra hoạt chất theo các cơ chế như nhân trương nở, nhân tạo áp suất thẩm thấu, nhân sinh khí.
+
+Thời gian tiềm tàng phụ thuộc vào 
+
+- Thành phần và độ dày màng bao
+- Thành phần và tỷ lệ tá dược trong viên nhân
+#### Nguyên tắc bào chế
+Dập viên nhân 
+
+- Dập thẳng
+- Xát hạt khô
+- Xát hạt ướt 
+
+chú ý: tá dược sinh khí nếu bào chế xát hạt ướt cần chọn tá dược dính là dung môi khan nước.
+
+Màng bao
+
+- Màng bao thông thường hoặc dập bao 
+- Trong viên nhân có tá dược sinh khí cần chú ý tới màng dung môi pha màng khan nước
+
+
+
+#### Ví dụ 
+
+| thành phần       |        |
+|------------------|--------|
+| Viên natri diclofenac     |
+| Viên nhân                 |
+| Natri diclofenac | 100 mg |
+| Acivel           | 100 mg |
+| Lactose          | 50 mg  | 
+| Màng bao                  |
+| Natri croscarmelose | 21.5 $mg/cm^2$ |
+| EC (thêm TEC)       | 2.4  $mg/cm^2$ |
+
+| thành phần       |        |
+|------------------|--------|
+| Viên Terbutalin            |
+| Viên nhân                 |
+| Terbutalin sulfat| 10%     |
+| Natri clorid     | 30%   |
+| Cellulose vi tinh thể          | 20%  |
+| Natri carboxyl methyl starch   |20% 
+| HPMC E5 | vd |
+| Eudragit RS/RL      | vđ |
+
+
+
+Hệ chứa dược chất diltiazem, tá dược sinh khí (acid citric và natri bicarbonat) kết hợp với tá dược trương nở (natri starch glycolat). Viên nhân được bao màng EC có tá dược hóa dẻo và tạo kênh dẫn nước (PEG, HPMC). Ngoài vỏ bao được bao lớp CAP (Cellulose acetat phtalat) tan ở ruột để hạn chế tác động của môi trường đầu ruột non. Tlag 2.5-3.0 giờ, Tmax 4 giờ.
+
+
+
+:::
+
+
+### Hệ màng bao trương nở ăn mòn
+::: {.panel-tabset}
+
+#### Cấu tạo hệ thuốc
+
+Hệ thuốc là cốt mang dược chất dạng viên nén, pellet, viêng nang gelatin... giải phóng nhanh dược chất hoặc giải phóng có kiểm soát.
+
+Màng bao là hệ thuốc có chứa các tá dược trương nở hòa tan hoặc ăn mòn trong đường tiêu hóa như CMC, HPC, HPMC, carbopol, PVP...
+
+
+
+#### Cơ chế giải phóng
+Khi tiếp xúc với môi trường nước, polyme thân nước được hydrat hóa, chuyển thể sol-gel trương nở, sau đó bị ăn mòn hoặc hòa tan hoàn toàn (thời điểm Ting) để giải phóng dược chất.
+
+Ting được kiểm soát chủ yếu bằng thời gian hòa tan hay ăn mòn của lớp vỏ bao, ít phụ thuộc và các yếu tố trong viên nhân.
+
+Polyme hòa tan, ăn mòn có 2 nhóm theo 2 cơ chế: ăn mòn theo bậc thang pH như Eudragit... hoặc ăn mòn do men esterase với các tá dược có cấu trúc ester như sáp, dầu hydrogen hóa, CAP, HPMCP... các polysaccharid không tan trong ruột non nhưng bị các enzym của hệ vì cơ ở đại tràng phân hủy như pectin, dextrin...
+
+
+
+#### Nguyên tắc bào chế
+Viên nhân được bào chế theo các phương pháp áp dụng cho viên nén, nang cứng, nang mềm, pellet...
+
+Màng bao có thể áp dụng phương pháp bao dập hoặc bao bồi. Bao dập khô định vị viên nhân ở trung tâm, dẫn đến độ dày vỏ bao không đều, Tag dễ sai lệch, vỏ bao thường dày, dễ thấm nước, khó kéo dài Ting. Bao bồi có quy trình kéo dài nhưng dễ kiểm soát giải phóng được chất hơn bao dập.
+#### Ví dụ 
+
+Viên Time Clock Sal 45
+
+Viên nén chứa 4mg salbutamol được bao màng thân dầu (sáp carnauba, sáp ong được phân tán trong nước nhờ Tween). Màng chiếm 45% khối lượng viên. Sau thời gian tiềm tàng salbutamol được hấp thu không khác biệt so với viên quy ước.
+
+
+:::
+
+### Một số hệ khác
+::: {.panel-tabset}
+
+#### Hệ màng bao thay đổi tính thấm
+
+Cấu trúc hệ thuốc có nhân thường là pellet, viên nén, vỏ bao polyme có khả năng thay đổi tính thẩm. Trong quá trình thay đổi tính thẩm, dược chất hầu như không được giải phóng. Khi tính thấm của màng tăng lên và biến đổi hoàn toàn, các kênh dẫn nước xuất hiện trong màng bắt đầu hoạt động tạo điều kiện giải phóng nhanh dược chất vào môi trường.
+
+Thành phần của màng thường là các polyme sơ nước như các acrylat nhưng có nhóm amoni bậc 4 -N(CH3)3 và các acid hữu cơ (citric, fumaric, succinic...). Khi tiếp xúc với môi trường hòa tan, nước thấm qua màng vào nhân hòa tan acid hữu cơ RCOO làm tác nhân phân ly base amin trong polyme, làm tăng quá trình hydrat hóa, tăng tính thẩm của màng. Quá trình giải phóng dược chất xảy ra theo cơ chế tạo kênh dẫn nước như đã nêu ở phần trên.
+#### Hệ màng bao phối hợp
+
+Trong thực tế, khi thiết kế thuốc giải phóng theo nhịp phải kết hợp nhiều loại màng bao khác nhau. Các màng này được phối hợp trên một đơn vị (pellet, viên nén míni...) như mô tả trong hình 4.9, hoặc trên nhiều tiều đơn vị (hình 4.10).
+
+#### Ví dụ 
+
+:::
+
+
+:::
+
+
+## Hệ nắp nút kiểm soát giải phóng
+
+::: {.panel-tabset}
+
+### Hệ nút trương nỏ ăn mòn 
+
+::: {.panel-tabset}
+#### Cấu tạo hệ thuốc
+
+
+- Hệ thuốc là thân nang không tan chứa dược chất. Vỏ thân nang được formol hóa hoặc bao polyme không tan (EC. cellulose acetat...) hoặc polyethylen oxyd.
+
+Nút kiểm soát giải phóng trương nơ dùng dẫn chất cellulose, gôm. natri alginat... hoặc nút ăn mòn dùng sáp, cellulose acetat... nút được đồng khít chặt trên miệng thân nang.
+
+- Nắp nang là vò gelatin tan trong nước như nắp nang cứng quy ước.
+
+#### Cơ chế giải phóng
+
+Khi tiếp xúc với dịch tiêu hóa, nắp nang nhanh chóng hòa tan, tạo điều kiện cho Đức thấm vào nút làm nút trương nữ bật khỏi nắp hoặc bị ăn mòn để giải phóng được Bát. Hình 4.12 mở từ các bước giải phóng dược chất của nang có nút trương nở và g có mút ăn mòn.
+
+#### Nguyên tắc bào chế
+
+Bào chế vỏ nang cứng
+
+#### Ví dụ 
+Hệ nang thuốc có cấu trúc nêu trên có tên hệ pulsincap chứa các dược chất chứa hen phế quản, tim mạch, thấp khớp.
+
+
+
+:::
+
+
+### Hệ nút không tan
+
+::: {.panel-tabset}
+#### Cấu tạo hệ thuốc
+
+
++ Hệ thuốc là thân nang gelatin bao màng bán thẩm (cellulose acetat...), thân nang chứa dược chất cùng với tá dược tạo áp suất thẩm thấu.
+
++ Tiếp đó thuốc được đậy bằng 1 nắp thân dầu không tan. liều dược chất giải phóng nhanh (thường là viên quy ước) được đặt lên nắp nút trên thân nang. Cuối cũng hệ thuốc trong thân nang được đóng nắp nang gelatin hỏa tan (hình 4.13).
+#### Cơ chế giải phóng
+
+
+Nang thuốc tiếp xúc môi trường dịch tiêu hóa, nắp nang hòa tan nhanh giải phóng liều thứ nhất. Tiếp đó nước thấm qua mảng bán thẩm, hòa tan tá dược tạo áp suất thẩm thấu đầy nút nắp bật khỏi thân nang để giải phóng liều thứ 2 (hình 4.14).
+
+Tụng phụ thuộc vào áp suất thẩm thấu được tạo ra trong hệ thân nang và khối lượng của nút không tan, thời gian tạo ra áp suất thẩm thấu đù lớn đầy bật nút.
+
+- Áp suất thẩm thấu phụ thuộc vào loại và lượng tá được thẩm thấu, phụ thuộc thành phần màng bao thẩm thấu tạo lưu lượng nước qua màng.
+
+#### Nguyên tắc bào chế
+
+#### Ví dụ 
+
+
+
+Ví dụ: hệ chưa được chất methylphenidat điều trị chứng mất tập trung ở trẻ đi học
+:::
+
+
+### Hệ thuốc viên nén dạng cố đậy nắp trương nỏ ăn mòn 
+::: {.panel-tabset}
+#### Cấu tạo hệ thuốc
++ Hệ thuốc bao gồm viên nhân chứa dược chất đặt trong viên to dạng cốc, trên
+
+đậy nắp trương nở hoa tan hay ăn mòn
+
++ Đáy cốc và thành cốc cùng loại tá dược không tan.
+
+Bào chế viên qua nhiều bước như quy trình bao dập: Đáy cốc được dập, sau đặt viên lên. Thêm tá dược ngập xung quanh viên rồi dập viên tạo cốc chứa v nhân. Thêm tá dược trương nở lên trên cốc và dập viên đậy nắp. Cấu tạo vi dạng cốc đậy nắp được mô tả trên hình 4.15.
+#### Cơ chế giải phóng
+
+
++ Viên nén dạng cốc đậy nắp giải phóng được chất giống như nang đậy nút trương
+
+nơ hòa tan: Sau khi nắp trương nở hòa tan hay ăn mòn sẽ bộc lộ viên nhân, nhân hút nước, trương nở hòa tan giải phóng dược chất.
+
++ Ting phụ thuộc vào loại tá dược và độ dày của nắp đậy.
+
+
+
+#### Nguyên tắc bào chế
+
+#### Ví dụ 
+
+Vì dụ: Viên cốc có nắp chứa metoprolol lớp day 100mg cellulose acetat propionat, viên nhân chứa 100mg dược chất rà nhanh, thành cốc 65mg cellulose acetat propionat, nắp cốc là hỗn hợp 2 loại natri alginat 500 và 2000 cps (tỷ lệ 7 mg và 50 mg). Tag 5 giờ. Giải phóng gần hết dược chất sau 10.5 giờ.
+
+:::
+### Một số hệ khác 
+
+Microchip: Là hệ cấy dưới da có kích thước siêu nhỏ
+
++ Cấu tạo gồm: giả mang hình trụ dẹt (đường kinh 1.2 cm, dày 500 µm) chế từ polyme tương đồng sinh học cao như poly-L-glycolic acid, poly-L-lactic acid. Trên giả mang có nhiều bình chứa hình nón cụt chứa dược chất (Hình 4.16). Mỗi bình chứa 100 nanolit dung dịch thuốc.
+
++ Nắp kiểm soát giải phóng: có bản chất polyme phân giải sinh học dán kín miệng bình đã có dược chất. Polyme được hydrat hóa, trương nở và phân giải sau khi cấy tiếp xúc với dịch mô để giải phóng dược chất. Tug in vivo có thể từ 2-5 ngày.
+
++ Cấu tạo viên có 1 lớp dược chất tiếp xúc môi trường hòa tan giải phóng được chất. Lớp tả dược ở giữa che kín bề mặt của lớp dược chất còn lại tạo ra Ting. Sau khi bị ăn mòn sẽ giải phóng được chất. Lớp tá dược ở giữa có thể có cấu trúc kép một lớp trương nở, một lớp ăn mòn để tạo Tug theo thiết kế yêu cầu...
+
+:::
+
+## Hệ giải phóng theo nhịp 
+
+::: {.panel-tabset}
+
+### Cấu tạo
+
+Hệ nổi là dạng thuốc có tỉ trọng thấp hơn tỉ trọng dịch vị, sau khi uống thuốc nổi trên bề mặt dịch vị trong một khoảng thời gian nhất định. Thời gian nổi là Tag trước khi giải phóng nhanh được chất.
+Hệ thuốc dạng viên nén, nang cứng, hạt, vì cầu... chứa dược chất, các tà dược tạo sự nổi của viên là loại trương nở, tạo cốt xốp hoặc là tả được sủi bọt, tả được có tỉ trọng thấp.
+
+### Thành phần hệ thuốc
+
+Tá dược trương nở, tạo cốt xốp là các polyme trương nở mạnh trong dịch vị như CMC, HPC, HPMC, PVP, natri alginat, natri starch glycolat.
+
+Tá dược sủi bọt là cặp muối kiểm – acid hữu cơ.
+
+Tá dược tỉ trọng thấp như dầu thực vật hydrogen hóa.
+
+### ví dụ
+
+Nhiều được chất nhóm NSAIDs đã được bào chế dưới dạng hệ nói giải phóng theo nhịp.
+
+Viên nôi aceclofenac: Hệ thuốc là dạng nang chứa hạt calci pectinat chứa aceclofenac được bào chế bằng phương pháp gel hóa nhũ tương. Gel hóa pectin có tỷ lệ methoxy hóa thấp tạo thành các hạt có cấu trúc xốp tỉ trọng nhỏ hơn 1. Dầu parafin trong nhũ tương bao quanh hạt giúp hạt nổi trong dung dịch HCI 0.1N trên 20 giờ, Tăng 6 giờ, giải phóng dược chất trong môi trường đệm pH 6,8 sau 2 giờ.
+
+Viên nổi sủi bọt meloxicam: Hệ thuốc có dạng viên nén kép (Hình 4.17A). Viên nhân chứa 30mg meloxicam với tá dược siêu rã crospovidon và avicel nhằm giải phóng nhanh dược chất sau Thg. Vỏ bao trương nở HPMC E24 vừa gây nổi, vừa kiểm soát hạn chế giải phóng được chất khi nổi. Lớp nổi sủi bọt chứa NaHCO3 phân tán trong HPMC. Vỏ bao sau khi trương nở ăn mòn giải phóng viên nhân.
+
+Sau khi uống dịch vị thấm vào viên làm HPMC trương nở và tác dụng với NaHCO3 tạo bọt, bọt lồng vào lớp polyme trương nó độ nhớt cao, khó thoát ra ngoài, kéo dài thời gian nổi. Viên nổi trong môi trường thử sau 4 phút, thời gian nổi 8 giờ, bắt đầu giải phóng dược chất sau 6 giờ (Hình 4.17B).
+
+:::
+
+
+## Hệ cảm ứng giải phóng theo nhịp 
+
+::: {.panel-tabset}
+
+### Hệ cảm ứng sinh học
+
+Hệ thuốc có thành phần cấu tạo cảm hiến với các chất hóa học sinh ra khi cơ thể phát sinh bệnh, còn gọi là cảm ứng hóa sinh. Vị dụ như cảm ứng do men hoạt động thay đổi pH, cảm ứng với gốc tự do sinh ra do tổ chức cơ thể bị viêm
+
+Hệ cảm ứng enzym: Hệ siêu vi nang chứa insulin bao màng polyme dimethylamino ethyl methacrylat, dạng thuốc tiêm truyền đưa thuốc vào hệ tuần hoàn. Khi nồng độ glucose trong máu tăng cao men glucose oxidase khứ glucose tạo ra acid gluconic với nồng độ đủ lớn làm thay đổi pH lớp dung dịch trên bề mặt màng. Màng polyme không trương nở không cho nước thấm qua khi môi trường kiểm hoặc trung tính nên không giải phóng insulin. Khi có mặt acid gluconic lám acid hóa môi trường, cấu trúc nhóm -NR: được proton hóa thành HN Re thân nước, làm cho màng có khả năng thấm nước trương nở cho phép insulin hỏa tan khuếch tán qua màng giải phóng ra khỏi hệ thuốc vào hệ tuần hoàn, tạo đáp ứng sinh học điều trị bệnh (Hình 4.18).
+
+Khi nồng độ glucose giam, nồng độ acid gluconic giảm, môi trường trở về trung tình làm cho hệ trở về trạng thái không trương nở ban đầu, giảm giải phóng insulin.
+
+- Hệ cảm ứng gốc tự do:
+
+Hệ thuốc chứa được chất chống viêm trong gel hyaluronic dạng thuốc cây dưới da. Trong cơ thể bình thường men hyaluronic phân giải hyaluronic chậm, khi bị viêm, tổ chức viêm tăng tiết gốc tự do hydroxyl, các gốc tự do hydroxyl phân giải nhanh và manh gel hyaluronic. dược chất được giải phóng phát huy tác dụng điều trị.
+
+
+
+### Hệ cảm ứng vật lý
+
+- [Hệ cảm ứng nhiệt]: Hệ thuốc có thành phần có khả năng hấp thu nhiệt vào chất mang, sau đó hệ được làm nóng bằng nguồn nhiệt bên ngoài cơ thể để giải phóng dược chất.
+
+- [Hệ cảm ứng điện trường]: Hệ thuốc có cất polyme tích điện, sau đó tác động bằng điện trường để phân giải chất mang giải phóng được chất. Cốt polyme có thể là polyme thiên nhiên hoặc polyme tổng hợp.
+
+- [Hệ cảm ứng từ trường]: Hệ thuốc có giá mang dược chất và tác nhân từ tỉnh như oxyd sắt từ. Từ trường tạo ra từ thiết bị thích hợp dẫn các tiểu phân giả mang thuốc đến cơ quan tổ chức cần điều trị và tăng cường độ từ trường đê phân giải cốt giải phóng được chất.
+
+- [Hệ cảm ứng siêu âm]: Hệ thuốc chứa dược chất trong cốt polyme dạng tiêu phân nano, sau khi đã thâm nhập vào tổ chức cần điều trị đúng siêu âm tác động để giải phóng được chất.
+
+:::
+
+# Phương pháp đánh giá 
+
+## Đánh giá thời gian tiền tàng in vitro
+
+## Đánh giá giải phóng in vitro
+
+## Đánh giá hấp thu in vivo

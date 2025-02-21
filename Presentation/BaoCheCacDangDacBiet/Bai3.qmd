@@ -32,13 +32,19 @@ title-slide-attributes:
 
 # Hệ thuốc màng bao không tan kiểm soát giải phóng hoạt chất
 
-## Đặc điểm thành phần, cấu trúc hệ
+## Khái niệm
 
-**Cấu trúc hệ thuốc:** Được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày crua màng khi tiếp xúc trực tiếp với môi trường sinh học.
+::: {.panel-tabset}
+
+### Đặc điểm thành phần
+
+**Cấu trúc hệ thuốc:** Được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày của màng khi tiếp xúc trực tiếp với môi trường sinh học.
 
 **Thành phần hệ thuốc:**
+
 *Dược chất:* dạng muối dễ tan trong nước hoặc được cải thiện độ tan nhờ tạo hệ phân tán rắn, tạo dẫn chất, thêm chất diện hoạt
 *Tá dược:* Avicel, lactose hay muối carbonat không tan tạo kênh dẫn nước. Dược chất có thể tạo pellet, hạt
+
 *Màng bao:* 
 
 -polymer tạo màng thường không tan trong nước 
@@ -48,12 +54,26 @@ title-slide-attributes:
 - Chất màu
 - Chất tạo đục TiO2, talc
 
-## Cơ chế và mô hình động học giải phóng dược chất từ màng bao không tan
+### Cơ chế và mô hình động học
 
-Nước từ môi trường sinh học thẩm thấu qua màng vào trong hệ thuốc có chứa dược chất, dược chất trong hệ được hòa tan, dược chất đã hòa tan trong hệ khuyếch tán qua màng bao ra môi trường
+Nước từ môi trường sinh học thẩm thấu qua màng vào trong hệ thuốc có chứa dược chất, dược chất trong hệ được hòa tan, dược chất đã hòa tan trong hệ khuyếch tán qua màng bao ra môi trường.
+
 Mô hình bậc 0: 
 
-## Ví dụ 
+:::
+
+## Ứng dụng
+
+::: {.panel-tabset}
+### Thuốc diltiazem 
+
+### Thuốc pseuopherin-loratadin
+
+### Thuốc đặt nhãn khoa
+
+### Hệ trị liệu qua da
+
+:::
 # Hệ màng bao hòa tan ăn mòn kiểm soát giải phóng dược chất
 ## Đặc điểm thành phần cấu trúc của hệ 
 Cấu trúc hệ thuốc: Hệ thuốc chứa dược chất được bao màng polymer chậm hòa tan bị mòn dân trong môi trường dịch sinh học, màng polymer thân nước trương nở gel tạo ra hàng rao kiểm soát làm chậm và kéo dài quá trình giải phóng. Màng bao có thể có độ dày mỏng khác nhau: 1 lớp bao ngoài hệ chưa dược chất hoặc bao từng lớp màng xen kẽ lớp dược chất tọa ra sự giải phóng ngắt quãng.

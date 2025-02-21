@@ -20,12 +20,20 @@ format:
 
 ## Slide bài giảng 
 
-
+**Dược liệu I**
 - [Flavonoid và các dược liệu chứa Flavonoid](../Duoc_lieu/flavonoids.qmd)
 - [Saponin và các dược liệu chứa Saponin](../Duoc_lieu/saponin.qmd)
-- [Alkaloid và các dược liệu chứa Alkaloids](../Duoc_lieu/alkaloid.qmd)
-- [Tinh dầu và các dược liệu chứa Tinh dầu](../Duoc_lieu/Tinhdau.qmd)
-- [Hợp chất cao phân tử](../Duoc_lieu/Macro.qmd)
+
+**Dược liệu II**
+
+Bài 1: [Alkaloid và các dược liệu chứa Alkaloids](../Duoc_lieu/alkaloid.qmd)
+Bài 2: [Tinh dầu và các dược liệu chứa Tinh dầu](../Duoc_lieu/Tinhdau.qmd)
+
+Tóm tắt: Bài này đề cập tới khái niệm, cách phân loại, tác dụng dược lý của dược liệu chứa tinh dầu. Bên cạnh đó các phương pháp chiết suất, định tính, định lượng các tinh dầu có trong dược liệu. 
+
+Bài 3: [Hợp chất cao phân tử](../Duoc_lieu/Macro.qmd)
+
+Tóm tắt: Bài này đề cập tới hai nhóm chất có khối lượng phân tử lớn trong dược liệu bao gồm các hydrocarbon, các lipid. Với mỗi nhóm chất sẽ tìm hiểu về khái niệm, phân loại, cách thức chiết xuất và phân lập, định tính, định lượng và tác dụng dược lý. Khác biệt chủ yếu với các nhóm hoạt chất tự nhiên khác đó là một số sản phẩm thuộc nhóm này có vai trò làm tá dược phục gia trong lĩnh vực dược phẩm và mỹ phẩm. 
 
 ## Bài tập
 
@@ -47,22 +55,29 @@ Tiểu luận cá nhân
 
 ### Dành cho học phần dược liệu II:
 
-Tiểu luận theo nhóm- một nhóm 4 người
+Tiểu luận cá nhân dành cho dược liệu II
+**I. Mục tiêu:** Phân tích được tiềm năng phát triển sản phẩm chăm sóc sức khỏe của một dược liệu tại Việt nam
 
-**Mục tiêu:** Phân tích được tiềm năng phát triển sản phẩm chăm sóc sức khỏe của một dược liệu tại Việt nam
+**II. Thời gian hoàn thành:** Trước 12h đêm trước thời hạn quy định
+Mỗi sinh viên chọn một loài thực vật (không phải chuyên luận) trong dược điển Việt Nam V. Lớp trưởng gửi danh sách phân chia về hòm thư sonhoang.ump@vnu.edu.vn trước ngày 24/02/2025. 
+Mỗi cá nhân sẽ tìm hiểu các thông tin và phân tích theo hướng dẫn sau. Chú ý: Ngôn ngữ sử dụng có thể là tiếng Việt hoặc tiếng Anh
 
-**Sản phẩm cần nộp**
+**III. Sản phẩm cần nộp**
+1. 01 file excel chứa thông tin liên quan theo hướng dẫn sau:
+    - Sheet đầu tiên với tên "Dược lý": Thông tin về tác dụng dược lý
+    Truy cập vào pubmed, nghiên cứu abstract các nghiên cứu liên quan đến tác dụng dược lý của thành phần hóa học hoặc cao chiết của dược liệu. Từ đó, tổng hợp được thông tin về tác dụng dược lý của dược liệu dạng bảng: 
+    *Dược liệu - Bộ phận dùng - Cao chiết/hoạt chất - Bệnh - Mô hình dược lý đã thực hiện- Kết luận tác dụng dược lý - Tên bài báo- DOI- Tóm tắt*
+    - Sheet thứ hai với tên "Thử lâm sàng": Thông tin về các thử nghiệm lâm sàng
+    Truy cập vào https://clinicaltrials.gov/ để tìm kiếm các nghiên cứu liên quan đến hiệu quả điều trị trên lâm sàng của các sản phẩm chứa dược liệu: đơn độc, bài thuốc hoặc hoạt chất. Từ đó, xây dựng cơ sở dữ liệu dạng bảng về dược lâm sàng: 
+    *Phase nghiên cứu - Trạng thái kết quả - Mô tả dạng bào chế - Đơn độc hay phối hợp - Hàm lượng hoạt chất- Đơn vị liều- Số lượng đối tượng nghiên cứu-  Cách dùng - Bệnh/bệnh liên hệ - Các chỉ tiêu đánh giá - Kết quả thu được (nếu có)*.
+2. 01 báo cáo dài từ 1-2 mặt giấy cỡ chữ 12, cách dòng 1.5, cách lề trên, dưới, phải 2cm, cách lề bên phải 3cm. Lớp trưởng tập hợp để gửi vào hòm thư sonhoang.ump@vnu.edu.vn. Các nội dung trong báo cáo 
+    - Phần 1: Thông tin chung Truy cập vào website www.duoclieu.github.io để lấy thông tin gồm Tên khoa học loài, Tên khoa học dược liệu, Bộ phận dùng, Nhóm thành phần hóa học, chất chuẩn (nếu có). 
+    - Phần 2: Phân tích về mối liên hệ giữa tác dụng dược lý và thử nghiệm lâm sàng dựa trên thông tin thu thập được. Nguyên tắc phân tích dựa trên trục tác dụng dược lý - bệnh - thử nghiệm lâm sàng (các chỉ tiêu đánh giá). Trong trường hợp không tìm thấy thử nghiệm lâm sàng hãy phân tích xem tác dụng dược lý đang nghiên cứu sẽ hướng tới điều trị các bệnh gì. Trong trường hợp không thấy cả tác dụng dược lý, thử nghiệm lâm sàng, hãy gi: Không tìm thấy thông tin.
+    - Phần 3: Viết đoạn văn ngắn 100-200 từ về những điều đạt được trong tác dụng dược lý và tiềm năng trong phát triển sản phẩm trên lâm sàng.
+3. Slide báo cáo chỉ có 01 trang để thuyết trình trong vòng 5 phút. 
 
-- Mỗi nhóm nộp 01 báo cáo dài từ 5-10 trang, cỡ chữ 12, cách dòng 1.5, cách lề trên, dưới, phải 2cm, cách lề bên phải 3cm.Lớp trưởng tập hợp để gửi vào hòm thư sonhoang.ump@vnu.edu.vn. Các nội dung báo cáo 
-    - Phần 1: Thông tin chung
-    Truy cập vào website: www.duoclieu.github.io để lấy thông tin gồm Tên khoa học loài, Tên khoa học dược liệu, Bộ phận dùng, Nhóm thành phần hóa học, chất chuẩn (nếu có).
-    - Phần 2: Thông tin về tác dụng dược lý
-    Truy cập vào pubmed, nghiên cứu abstract các nghiên cứu liên quan đến tác dụng dược lý của thành phần hóa học hoặc cao chiết của dược liệu. Từ đó, tổng hợp được thông tin về tác dụng dược lý của dược liệu dạng bảng: *Dược liệu- Bộ phận dùng- Cao chiết/hoạt chất -Bệnh- Mô hình dược lý đã thực hiện- Kết luận tác dụng dược lý*.
-    - Phần 3: Thông tin về các thử nghiệm lâm sàng
-    Truy cập vào https://clinicaltrials.gov/ để tìm kiếm các nghiên cứu liên quan đến hiệu quả điều trị trên lâm sàng của các sản phẩm chứa dược liệu: đơn độc, bài thuốc hoặc hoạt chất. Từ đó, xây dựng cơ sở dữ liệu dạng bảng về dược lâm sàng: *Phase nghiên cứu - Trạng thái kết quả - Mô tả dạng bào chế - Đơn độc hay phối hợp - Hàm lượng hoạt chất- Đơn vị liều- Số lượng đối tượng nghiên cứu-  Cách dùng - Bệnh/bệnh liên hệ - Các chỉ tiêu đánh giá - Kết quả thu được (nếu có)*.
-    - Phần 4: Phân tích về mối liên hệ giữa tác dụng dược lý và thử nghiệm lâm sàng
-    Nguyên tắc phân tích: tác dụng dược lý - bệnh - thử nghiệm lâm sàng (các chỉ tiêu đánh giá)
-    - Phần 5: Viết đoạn văn ngắn 200-400 câu về những điều đạt được trong tác dụng dược lý và tiền năng trong phát triển sản phẩm trên lâm sàng.
-- Mỗi nhóm sẽ báo cáo trong vòng 10 phút. 
+Sau khi hoàn thiện xong, các file được nộp có tên là mã sinh viên- tên latin của loài sẽ được nộp cho lớp trưởng. Ví dụ tên: 00000236 – Panax notoginseng.docx Lớp trưởng sẽ tập hợp và gửi vào hòm thư sonhoang.ump@vnu.edu.vn trước thời gian quy định. 
+Báo cáo trong các buổi học tinh dầu và các hợp chất có khối lượng phân tử lớn. 
 
-*Chú ý:* Ngôn ngữ sử dụng có thể là tiếng Việt hoặc tiếng Anh
+
+

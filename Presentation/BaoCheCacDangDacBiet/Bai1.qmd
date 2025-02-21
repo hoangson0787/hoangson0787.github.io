@@ -32,6 +32,7 @@ title-slide-attributes:
 
 
 # Giới thiệu chung
+
 ## Nội dung bài học
 - Khái niệm chung
 - Viên sủi bọt Effervescent tablets
@@ -46,8 +47,9 @@ Tài liệu tham khảo
 3. Viên nén đặc biệt và dạng bào chế hiện đại, Bộ môn bào chế- công nghệ Dược- Trường Đại học Đại nam (2022), Nhà xuất bản Y học Hà nội.
 
 
-# Viên nén đặc biệt <br> Các khái niệm
-## Khái niệm viên nén <br> Viên nén đặc biệt
+# Đại cương
+
+## Các khái niệm
 :::: {.columns}
 ::: {.column width="40%"}
 ::: {.callout-warning title="Viên nén"}
@@ -68,25 +70,173 @@ Viên nén là dạng thuốc rắn, mỗi viên là một đơn vị phân li�
 
 ::: {.column width="60%"}
 
-> Trừ viên sủi bọt có thể dành cho đường dùng khác, các dạng viên nén đặc biệt này đều giải phóng tại khoang miệng. Vấn đề mùi và vị cần phải được xem xét.
+> Vấn đề mùi và vị cần phải được xem xét
+
+::: {.panel-tabset}
+
+### Viên sủi bọt 
 
 ::: {.callout-important title="Viên sủi bọt Effervescent tablets"}
 Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi bọt gồm các acid hữu cơ và muối carbonat hoặc  hydrocarbonat, phản ứng khi có nước giải phóng khí carbon dioxyd. Viên được hòa tan hoặc phân tán trong nước trước khi dùng.
 :::
+![Viên efferalgan](./Images/efferalgan.png){width="40%"}
+
+### ngậm 
 
 ::: {.callout-important title="Viên ngậm Buccal tablets"}
 Viên ngậm thường là viên nén không bao được điều chế để dược chất giải phóng tại khoang miệng gây tác dụng tại chỗ hay hấp thu qua niêm mạc dưới lưỡi.
 :::
+
+![Viên ngậm](./Images/BuccalTablets.png){width="40%"}
+
+### nhai
+
 ::: {.callout-important title="Viên nhai Chewable tablets"}
 Theo dược điển việt nam V- Viên nén không bao 
 > Viên nhai không phải thử độ rã 
 Theo dược điển Mỹ, Viên nhai là dạng viên được nhai hoạc nghiền nát trong miệng trước khi nuốt. Viên nhai thường chứa các dược chất tác dụng tại chỗ ở dạ dày (antacid) hoặc các dược chất hấp thu để gây tác dụng toàn thân (vitamin, aspirin)
 :::
+![Viên Fugacar](./Images/Fugacar.png){width="40%"}
+
+
+
+### đặt dưới lưỡi
 ::: {.callout-important title="Viên đặt dưới lưỡi Sublingual tablets"}
 Viên đặt dưới lưỡi
 :::
+
+![Viên mecobalamin](./Images/mecobalamin.png){width="40%"}
+
+### đặt 
+::: {.callout-important title="Viên đặt dưới lưỡi Sublingual tablets"}
+Thuốc đặt là dạng thuốc rắn, chứa một hoặc nhiều dược chất, dùng để đặt vào các hốc tự nhiên của cơ thể. Thuốc có thể có tác dụng tại chỗ hoặc toàn thân.
+Khi đặt vào vị trí trên cơ thể, thuốc đặt thường chảy ra, mềm ở thân nhiệt hoặc **hòa tan dần** trong niêm dịch để giải phóng dược chất.
+:::
+
+![Viên nén ab intimus](./Images/intimus.png){width="40%"}
+:::
+
+
 :::
 ::::
+
+## Xung quanh vấn đề lựa chọn tá dược
+
+::::: {.panel-tabset}
+
+### Lợi ích bệnh nhân
+
+:::: {.columns}
+::: {.column width="50%"}
+
+> Đặt lợi ích của bệnh nhân lên hàng đầu trong phát triển công thức bào chế
+
+- Lợi ích và hiệu quả điều trị 
+- Dễ sử dụng cho bệnh nhân
+- Khả năng sản xuất 
+
+**Các vấn đề**
+
+- 60% các hoạt chất đang phát triển làm thuốc được phân loại vào nhóm có vị đắng
+- Dự đoán thị hiếu của người sử dụng vẫn dựa trên khảo sát trên người
+  - BitterDB dự đoán được mùi vị của khoảng 1000 hoạt chất tự nhiên và bán tổng hợp
+  - Lưỡi điện tử vấn thiếu chính xác cũng như đắt đỏ 
+  - Người tình nguyện thử nghiệm vẫn là người khỏe mạnh nhưng yếu tố tác dụng phụ phải xem xét.
+
+:::
+
+::: {.column width="50%"}
+
+**Yếu tố cần xem xét**
+
+- Đặc điểm Hoạt chất: Hoạt chất hòa tan trong nước khó che mùi vị hơn hoạt chất kém hòa tan
+- Hình dạng hạt và kích thước hạt: Hạt dạng cầu dễ bao che mùi vị hơn hạt có hình dạng bất thường
+- Đảm bảo hòa tan hấp thu thuốc hoàn toàn nếu bao để che dấu mùi vị
+- Màu sắc và hình dạng có thể tạo ra nhận diện thương hiệu phù hợp với người cao tuổi nhưng với trẻ nhỏ cần xem xét.
+
+**Các kỹ thuật cải thiện hương vị**
+- Vị chua có thể giúp che lấp vị đắng nhưng nếu dùng acid có thể ảnh hưởng đến men răng
+- Vị ngọt như đường có thể làm tăng vấn đề răng miệng
+- Bao xung quanh hạt cần xem xét việc không tan tại pH dịch vị 6.2-7.4 nhưng phải giải phóng hoạt chất tại pH dạ dày. Methacrylate như Kollicoat Smartseal hoặc Eudragit E-PO thường được xem xét.
+:::
+
+::::
+
+### Tá dược điều vị
+
+| Nguyên liệu | độ ngọt tương đối|
+|-------------|-------------------|
+| Aspartam    | 200               |
+| Cyclamat    | 30-50             |
+| Glycyrrhizin | 50               |
+| Saccarin    | 450               |
+| Dextrose (glucose) | 0.7        |
+| Fructose (levulose) | 1.7       |
+| Lactose     | 0.2               |
+| Maltose     | 0.3               |
+| Mannitol    | 0.5-0.7           |
+| Sorbitol    | 0.5-0.6           |
+| Sucrose     | 1.0               |
+
+### Tá dược điều hương
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+Điều hương theo vị tương ứng
+
+| Vị   | Hương |
+|------|--------------------------------------------------------------------|
+| Ngọt | Vanilin, nho, các loại quả hạch, quả mọng, hương lá phong, mật ong |
+| Chua | Cam, cherry, quả mâm xôi, dâu tây, rễ cây, hồi, cam thảo           |
+| Mặn  | Quả hạch, bơ, bơ đường, gia vị, hương lá phong, dưa, mâm xôi, cam chanh, hoa quả |
+| Đắng | Cam thảo, hồi, coffee, rượu, bạc hà, nho, cherry, đào, mâm xôi, quả hạch, thì là, gia vị |
+| Kiềm | Bạc hà, Chocolate, cream, vanillin                                 |
+| Kim loại | Nho, burgundy, Chanh-Cam                                       |
+
+:::
+
+::: {.column width="40%"}
+
+Điều hương theo nhóm hoạt chất
+
+| Antacid    | Cảm/ho          | Vitamins            |
+|------------|-----------------|---------------------|
+| Chocolate  | Bạch dương - hồi | Dứa tươi            |
+| Bạc hà     | Nho đen         | Nho                 |
+| Hồi-bạc hà | Rum đào         | Chanh leo           |
+| Cam        | Vanilin         | Mâm xôi             |
+| Kem bavarinan | Đinh hương   | Quả hạch            |
+| Bơ đường   | Mật ong-Chanh   | Việt quất           |
+| Kem cherry | Menthol-eucalyptus | Quả hạt nướng   |
+
+:::
+
+::::
+
+### Tá dược màu 
+
+| Màu          | Hương                                                         |
+|--------------|---------------------------------------------------------------|
+| Hồng đến đỏ  | Cherry, cherry dại, mứt hoa quả, mâm xôi, dâu, táo           |
+| Nâu          | Chocolate, thông, mật ong, mật đường, bơ đường, óc chó, burgundy, quả hạch, caramel |
+| Vàng đến cam | Chanh, cam, hoa quả hỗn hợp, trứng, chuối, cherry, bơ đường  |
+| Xanh         | Chanh, bạc hà, menthol, peppermint, bạc hà lục, pistachio    |
+| Trắng ngà – trắng | Vanillin, trứng, bạc hà, bạc hà lục, peppermint, quả hạch, chuối, caramel |
+| Tím          | Nho, mận, cam thảo                                            |
+| Xanh dương   | Bạc hà, việt quất, mận, cam thảo, hoa quả hỗn hợp             |
+
+### Cảm giác miệng 
+
+- Cảm giác không tốt: cảm giác sạn (calci carbonat) hay dính (gôm)
+- Cảm giác tốt: cảm giác mát như manitol, mềm và mượt 
+
+> Khả năng nhai của viên nhai là dạng bào chế mà có thể nhai một cách dễ dàng không bị dẻo, dính, phấn hoặc sạn nhưng kèm cảm giác dễ chịu trong miệng. 
+
+> Dự vị: cảm giác còn lại sau khi nuốt. ví dụ sắt để cảm giác "ri", lựng lớn saccarin tọa dư vị đắng. Ngoài ra tê cũng loại hậu vị khá phổ biến của các histamin như pyribenzamin HCl và promethazin HCl
+
+:::::
 
 
 # Viên sủi bọt
@@ -98,10 +248,12 @@ Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi 
 :::: {.columns}
 ::: {.column width="50%"}
 ::: {.callout-note title="Ưu điểm"}
+
 - Thích hợp cho người khó nuốt viên nén
 - Giảm kích ứng niêm mạc
 - Tăng sinh khả dụng (giải phóng, hòa tan trước, CO2 làm tăng nhu động ruột)
 - Ché dấu mùi vị của dược chất
+
 :::
 Phân loại:
 
@@ -165,8 +317,13 @@ Nguyên tắc: Giống như bào chế quy ước nhưng phải đảm bảo:
 {{< video https://www.youtube.com/embed/SLPDTeFtbJc width="70%" height="70%">}}
 
 ## Kiểm soát chất lượng 
+*Dược điển Việt Nam V*
 
+**Độ rã**
+Cho một viên vào cốc chứa 200 ml nước ở 15 °C đến 25 °C phải có nhiều bọt khí bay ra. Viên được coi là rã hết nếu hòa tan hoặc phân tán hết trong nước, không còn các hạt kết vón. Thử với 6 viên, chế phẩm đạt yêu cầu phép thử nếu mỗi viên rã trong vòng 5 min, trừ khi có các chỉ dẫn khác trong chuyên luận riêng.
 
+**Các yêu cầu kỹ thuật khác**
+Theo yêu cầu kỹ thuật chung của thuốc viên nén và theo chuyên luận riêng.
 
 # Viên ngậm Lozenges
 ## Khái niệm
@@ -203,15 +360,15 @@ Phân loại:
 
 **Tá dược**
 
-Tinh bột sắn
-Glucose
-calci carbonat
-natri clorid
-acid citric
-aspartam
-aerosil 
-magnesi stearat
-đường trắng
+- Tinh bột sắn
+- Glucose
+- calci carbonat
+- natri clorid
+- acid citric
+- aspartam
+- aerosil 
+- magnesi stearat
+- đường trắng
 
 ## Kỹ thuật sản xuất <br> Viên ngậm cứng
 
@@ -232,12 +389,22 @@ magnesi stearat
 
 
 ## Kiểm soát chất lượng
+Dược điển Việt Nam V
 
+**Độ rã**
+
+Viên ngậm phải rã trong vòng 4 h, thử theo chuvên luận Phép thử độ rã của viên nén và nang (Phụ lục 11.6). Nếu không có chỉ dẫn khác, dùng nước làm môi trường thử, cho đĩa vào mỗi ống thử.
+
+**Các yêu cầu kỹ thuật**
+
+Theo yêu cầu kỹ thuật chung của thuốc viên nén và theo chuyên luận riêng.
 
 # Viên nhai <br> Chewable tablets
 :::{.callout-important title="Khái niệm"}
 Theo dược điển việt nam V- Viên nén không bao 
 > Viên nhai không phải thử độ rã 
+
+
 Theo dược điển Mỹ, Viên nhai là dạng viên được nhai hoạc nghiền nát trong miệng trước khi nuốt. Viên nhai thường chứa các dược chất tác dụng tại chỗ ở dạ dày (antacid) hoặc các dược chất hấp thu để gây tác dụng toàn thân (vitamin, aspirin)
 :::
 :::: {.columns}
@@ -327,6 +494,7 @@ Phân loại:
 Viên đặt dưới lưỡi và viên kết dính niêm mạc cũng là các dạng thuốc dùng ở khoang miệng.\
 Viên đặt dưới lưỡi là dạng viên được đặt ở mặt dưới của lưỡi, bên trên thềm miệng nhanh chóng đưa dược chất thấm qua niêm mạc nhờ lưỡi và niêm mạc thềm miệng vào tuần hoàn, không qua gan.\
 Viên kết dính niêm mạc miệng là viên được giữ ở má và nướu cho dược chất hấp thu từ từ vào tuần hoàn qua niêm mạc miệng.
+
 :::
 ::::{.columns}
 :::{.column width="40%"}
@@ -464,75 +632,3 @@ Viên kết dính niêm mạc miệng là viên được giữ ở má và nư�
 
 >For pediatric medicines, factors to be considered include the fat and water content along with relevant genetic information. It is a tricky area from a regulatory standpoint, but it does help guide the selection of excipients by taking into consideration their potential impacts on young developing bodies,” observes Guy.
 
-## Xung quanh vấn đề lựa chọn tá dược
-::::{.columns}
-::: {.column width="40%"}
-**Các lợi ích**
-
-- Lợi ích và hiệu quả điều trị 
-- Dễ sử dụng cho bệnh nhân
-- Khả năng sản xuất 
-
-**Các vấn đề**
-
-- 60% các hoạt chất đang phát triển làm thuốc được phân loại vào nhóm có vị đắng
-- Dự đoán thị hiếu của người sử dụng vẫn dựa trên khảo sát trên người
-  - BitterDB dự đoán được mùi vị của khoảng 1000 hoạt chất tự nhiên và bán tổng hợp
-  - Lưỡi điện tử vấn thiếu chính xác cũng như đắt đỏ 
-  - Người tình nguyện thử nghiệm vẫn là người khỏe mạnh nhưng yếu tố tác dụng phụ phải xem xét.
-
-:::
-
-::: {.column width="60%"}
-**Yếu tố cần xem xét**
-
-- Đặc điểm Hoạt chất: Hoạt chất hòa tan trong nước khó che mùi vị hơn hoạt chất kém hòa tan
-- Hình dạng hạt và kích thước hạt: Hạt dạng cầu dễ bao che mùi vị hơn hạt có hình dạng bất thường
-- Đảm bảo hòa tan hấp thu thuốc hoàn toàn nếu bao để che dấu mùi vị
-- Màu sắc và hình dạng có thể tạo ra nhận diện thương hiệu phù hợp với người cao tuổi nhưng với trẻ nhỏ cần xem xét.
-
-**Các kỹ thuật cải thiện hương vi**
-- Vị chua có thể giúp che lấp vị đắng như nếu dùng acid có thể ảnh hưởng đến men răng
-- Vị ngọt như đường có thể làm tăng vấn đề răng miệng
-- Bao xung quanh hạt cần xem xét việc không tan tại pH dịch vị 6.2-7.4 nhưng phải giải phóng hoạt chất tại pH dạ dày. methacrylate như Kollicoat Smartseal hoặc Eudragit E-PO thường được xem xét.
-:::
-
-::::
-
-## Tá dược điều hương
-
-| Nguyên liệu | độ ngọt tương đối|
-|-------------|------------------|
-| Aspartam    | 200              |
-|Cyclamat     | 30-50            |
-|glycyrrhizin | 50               |
-|Saccarin     |450               |
-|Dextrose (glucose)|0.7           |
-|Fructose (levulose) |  1.7       |
-|Lactose      | 0.2             |
-|Maltose      |0.3            |
-|Mannitol     | 0.5-0.7       |
-|Sorbitol     |0.5-0.6        |
-|Sucrose      |1.0            |
-
-## Tá dược điều vị
-
-| Vị          | Hương         |
-|-------------|---------------|
-| Ngọt | Vanilin, nho, các loại quả hạch, quả mọng, hương là phong, mật ong|
-| Chua | Cam, cherry, quả mâm xôi, dâu tây, rễ cây, hồi, cam thảo|
-| Mặn  | Quả hạch, bơ, bơ đường, gia vị, hương lá phong, dưa, mâm xôi, cam chanh, hoa quả |
-| Đắng | Cam thảo, hồi, coffee, rượu, bạc hà, nho, cherry, đào, mâm xôi, quả hạch, thì là, gia vị|
-| Kiềm | Bạc hà, Chocolate, cream, vanillin|
-| Kim loại| Nho, burgundy, Chanh-Cam|
-
-| antacid | Cảm/ho | vitamins|
-|---------|--------|----------|
-|Chocolate| Bạch dương- hồi | dứa tươi|
-| Bạc hà | Nho đen | Nho|
-| Hồi-bạc hà| rum đào | chanh leo|
-| Cam | vanilin | Mâm xôi |
-| Kem bavarinan | Đinh hương | quả hạch |
-| Bơ đường | Mật ong-Chanh | Việt quất |
-| Kem cherry| Menthol- eucalyptus| Quả hạt nướng |
-## Tá dược màu
