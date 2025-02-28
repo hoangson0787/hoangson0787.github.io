@@ -1,0 +1,22 @@
+/* css styles */
+.justify {
+    text-align: justify !important
+  }
+.right {
+    text-align: right !important
+  }
+.left {
+    text-align: left !important
+  }
+body {
+    text-align: justify;
+}
+
+
+.title {
+  font-size: 30pt !important;
+}
+.subtitle {
+  font-size: 35pt !important;
+}
+

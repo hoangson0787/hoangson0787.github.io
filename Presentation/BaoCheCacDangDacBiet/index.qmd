@@ -1,56 +1,66 @@
 ---
 title: "Bài giảng các dạng bào chế đặc biệt"
 author: "TS. Hoàng Lê Sơn"
-format: 
-    html: 
-        toc: true
-        toc-depth: 3
-        lightbox: true
 ---
-## Lời giới thiệu
-Thật kỳ lạ tại sao một website về dược liệu lại có phần bào chế. Một nhược điểm cố hữu của thuốc từ dược liệu (cao chiết và cả hoạt chất tự nhiên) đó chính là vấn đề sinh khả dụng. Việc áp dụng các phương pháp bào chế hiện đại để cải thiện sinh khả dụng là cần thiết. Trong phần này, tôi có cung cấp các nội dung xung quanh liên quan đến bào chế các dạng đặc biệt nói chung. Việc áp dụng trong dược liệu tùy thuộc vào sức sáng tạo của các bạn. 
+## Vài lời dẫn
 
-## Tài liệu tham khảo học phần 
+Sau một thời gian làm việc, nhiều bạn sinh viên phản ánh rằng các bạn khó có thể mở được file ppt, pptx hay pdf do quá lớn hoặc mở Clips không được. Kỳ này trở đi, tôi quyết định sử dụng phần mềm Quarto để xuất ra file *.html* để các bạn có thể dễ dàng đọc trên các chương trình duyệt web ví dụ như chrome, firefox. Điều này cũng tạo ra các bài giảng sinh động hơn khi tích hợp được nhiều tiện ích như youtube, file pdf. 
+
+Tôi hi vọng với cải tiến này, các bạn học viên có thể dễ dàng tiếp cận với bài giảng và có thể học tại mọi lúc mọi nơi.
+
+Mọi góp ý xin gửi về hòm thư hoangson.med@gmail.com
+
+Chúc các bạn hoàn thành tốt khóa học! 
+
+## Tài liệu tham khảo
 
 1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
 2. Công nghệ nano và ứng dụng trong sản xuất thuốc, Bộ môn công nghiệp dược- Đại học Dược Hà nội (2019), Nhà xuất bản Y học Hà nội.
 3. Viên nén đặc biệt và dạng bào chế hiện đại, Bộ môn bào chế- công nghệ Dược- Trường Đại học Đại nam (2022), Nhà xuất bản Y học Hà nội
+4. https://pmc.ncbi.nlm.nih.gov/articles/PMC8512302/#sec4-molecules-26-05905
 
-## Slide bài giảng 
+## Tiến trình học tập và Slide bài giảng 
 
-- [Viên nén đặc biệt](../BaoCheCacDangDacBiet/Bai1.qmd)
-    - Viên sủi bọt
-    - Viên nhai
-    - Viên ngậm
-    - Viên đặt dưới lưỡi
-    - Các viên nén đặc biệt khác
 
-- Đại cương về các hệ thuốc giải phóng kiểm soát
 
-[Phần 1](../BaoCheCacDangDacBiet/Bai2.qmd)
+**Buổi 1** [Viên nén đặc biệt](../BaoCheCacDangDacBiet/Bai1.qmd) 
 
-    - Định nghĩa, phân loại
-    - Ưu nhược điểm 
-    - Mô hình giải phóng dược chất
+- Viên sủi bọt
+- Viên nhai
+- Viên ngậm
+- Viên đặt dưới lưỡi
+- Các viên nén đặc biệt khác
 
-[Phần 2](../BaoCheCacDangDacBiet/Bai3.qmd)
+**Buổi 2**  [Đại cương các dạng thuốc giải phóng kiểm soát](../BaoCheCacDangDacBiet/Bai2.qmd)
 
-    - Hệ màng bao không tan
-    - Hệ màng bao hòa tan
-    - Hệ cốt không tan
-    - Hệ cốt thân nước hòa tan
-    - Hệ bơm thẩm thấu
-    - Đánh giá một số tính chất đặc trưng của hệ thuốc
+- Định nghĩa, phân loại
+- Ưu nhược điểm 
+- Mô hình giải phóng dược chất
+
+**Buổi 3, 4** [Các hệ thuốc giải phóng kiểm soát](../BaoCheCacDangDacBiet/Bai3.qmd)
+
+- Hệ màng bao
+- Hệ cốt
+- Hệ bơm thẩm thấu
+
+**Buổi 5** [Dạng thuốc giải phóng theo nhịp](../BaoCheCacDangDacBiet/Bai4.qmd)
+
+- Đại cương
+- Các hệ thuốc giải phóng theo nhịp
+
+**Buổi 6** – Kiểm tra, giải đáp thắc mắc (tự luận)
+
+**Buổi 7** [Dạng thuốc giải phóng theo nhịp (Tiếp)](../BaoCheCacDangDacBiet/Bai4.qmd)
+
+- Đánh giá một số chỉ tiêu đặc trưng của thuốc giải phóng theo nhịp
+
+**Buổi 8** [Dạng thuốc giải phóng tại đích](../BaoCheCacDangDacBiet/Bai5.qmd)
+
+- Hệ thuốc nano
+- Hệ thuốc liposome
+- Một số kỹ thuật áp dụng trong bào chế hệ nano và liposome
+- Đánh giá một số chỉ tiêu đặc trưng của hệ thuốc nano và liposome
+
     
-- [Hệ thuốc giải phong theo nhịp](../BaoCheCacDangDacBiet/Bai4.qmd)
-    - Đại cương
-    - Các hệ thuốc giải phóng theo nhịp
-    - Đánh giá một số chỉ tiêu đặc trưng của thuốc giải phóng theo nhịp
-    
-- [Hệ thuốc giải phóng tại đích](../BaoCheCacDangDacBiet/Bai5.qmd)
-    - Hệ thuốc nano
-    - Hệ thuốc liposome
-    - Một số kỹ thuật áp dụng trong bào chế hệ nano và liposome
-    - Đánh giá một số chỉ tiêu đặc trưng của hệ thuốc nano và liposome
 
-## Bài tập 
+

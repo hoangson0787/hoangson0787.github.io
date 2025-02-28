@@ -1,10 +1,8 @@
 ---
-title: "Các dạng bào chế đặc biệt"
+title: "Viên nén đặc biệt và dạng bào chế hiện đại"
 subtitle: "Các hệ thuốc giải phóng kiểm soát nồng độ dược chất theo thời gian"
 author:
   - name: TS. Hoàng Lê Sơn
-    email: sonhoang.ump@vnu.edu.vn
-    affiliations: UMP
 date: last-modified
 toc: true
 toc-depth: 1
@@ -13,9 +11,10 @@ format:
   #pptx: default
   revealjs:
     slide-number: true
-    css: "../styles.css"
-    logo: "../../images/9.png"
-    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    preview-links: auto
+    css: "styles.css"
+    logo: "../BaoCheCacDangDacBiet/Images/LogoDaiNam.svg"
+    footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
     incremental: false
@@ -23,121 +22,699 @@ format:
     auto-stretch: false
     chalkboard: true
     highlight-style: github-dark
-    theme: [default, ../custom.scss] #"../coeos.scss"
+    theme: [default, custom.scss] #"../coeos.scss"
+
 title-slide-attributes: 
-  data-background-image: "../../images/9.png"
+  data-background-image: "../BaoCheCacDangDacBiet/Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
 
-# Hệ thuốc màng bao không tan kiểm soát giải phóng hoạt chất
 
-## Khái niệm
+## MỤC TIÊU:
+
+1. Trình bày được đặc điểm thành phần, cấu trúc kỳ thuật bào chế, cơ chế giải phóng dược chất từ các hệ thuốc màng bao, hệ cốt, hệ bơm thẩm thấu.
+2. Phân tích và so sánh được đặc điểm động học quá trình giải phóng được chất từ các hệ thuốc, các yếu tố ảnh hưởng.
+3. Vận dụng được kiến thức để giải thích vai trò từng thành phần trong công thức thuốc của một số chế phẩm thuộc hệ giải phóng kiểm soát, nguyên tắc bào chế, cơ chế giải phóng dược chất tir hệ thuốc có công thức tương ứng.
+
+:::: {.columns}
+
+::: {.column width="60%"}
+```{mermaid}
+flowchart LR
+  A[Drug delivery systems] --> B(Diffusion Controlled Delivery Devices)
+  B --> B1[Monolithic Devices ]
+  B --> B2[Membrane Controlled Devices ]
+  B --> B3[Swelling-Controlled Devices]
+  B --> B4[Osmotic Pressure Devices]
+  B2 --> C1[Biodegradable polymeric matrices]
+  B2 --> C2[Biodegradable polymeric matrices]
+  B1 --> C1
+  B1 --> C2
+```
+![](../BaoCheCacDangDacBiet/Images/Kiemsoathoatan.jpg)
+
+::: 
+::: {.column width="40%"}
+![](../BaoCheCacDangDacBiet/Images/Kiemsoatgiaiphong.jpg)
+:::
+::::
+
+### Polymer 
+
+::: {.panel-tabset}
+### non-degradable polymeric matrices
+
+| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
+|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
+| Segmented PU (Cardiomat 610) | Drug-eluting stent          | 1,3-Dipropyl-8-cyclopentyl xanthine     | 1 d           | Near linear release (~ 20 d)            | Non-Fickian diffusion |
+| Elast-Eon™                | Drug-eluting stent          | Dexamethasone acetate                  | w/            | Biphasic pattern                        | Fickian diffusion   |
+| Polyurethane (Walopur®)   | Disk-shaped matrices        | Flucloxacillin-Na, Fosfomycin, Gentamicin-base | 1 d           | Near linear (2 ~ 5 d)                  | Matrix-controlled    |
+| Poly(urea-urethane)       | Microcapsule                | Auramine (Oil-soluble dye)             | w/o           | Near linear (~20 min)                  | Non-Fickian Diffusion |
+| PEG modified polyurethane | Dermal patch                | Thiamazole, diclofenac sodium, ibuprofen | 12 h          | Biphasic pattern (~ 48 h)              | -                   |
+| PDMS                      | Rod (matrix vs. reservoir)  | Ivermectin                             | w/o           | Matrix: first order, 50 d; Reservoir: zero order, 84 d | Matrix: diffusion, Reservoir: case II transport |
+| PDMS                      | Intravaginal ring (reservoir) | TMC120                                 | 1–2 d         | Biphasic; near zero order release for 30 d | Case II transport  |
+| PDMS                      | Intravaginal ring (core-type) | TMC120                                 | w/o           | Zero order, 71 d                       | Case II transport   |
+| PDMS                      | Strip (10×20 mm)            | Metronidazole                          | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| PEVA (VA content, 40%)    | Membrane                    | Quinupramine                           | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| PEVA                      | Thin film                   | Acyclovir, Chlorhexidine diacetate     | w/o           | Near zero-order (~ 8 d)                | Non-Fickian diffusion |
+| PEVA                      | Drug-eluting stent coating  | 5-Fluorouracil                         | w/            | Biphasic pattern (~20 d)               | Fickian diffusion   |
+| PEVA (VA content, 40%)    | Disk-shape Film             | Chlorhexidine diacetate                | w/            | Near-zero order (~ 7 d)                | Non-Fickian diffusion |
+| PEVA (VA content, 40%)    | Membrane                    | Furosemide                             | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| Dextran sulfate           | Microcapsule                | Insulin                                | w/            | Biphasic pattern (~12 h)               | Fickian diffusion   |
+| Methacrylated dextran     | Hydrogel                    | Vitamin E                              | ~3 h          | Biphasic                                | Swelling            |
+| HPMC with β-CD            | Tablet                      | Difunisal                              | w/o           | Zero-order for nonsoluble β-CD; First-order for soluble β-CD | Non-Fickian diffusion |
+
+
+
+### Biodegradable polymeric matrices
+
+
+| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
+|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
+| PLGA/PLA                  | Microparticle               | Diltiazem hydrochloride                | 2h            | Triphasic pattern                       | Diffusion and erosion |
+| PLGA                      | Nanoparticle                | Estradiol                              | w/o           | Zero order up to 31 ~54 d               | Diffusion-cum-degradation |
+| PLGA                      | Microcapsule                | Insulin                                | 20%, 24h      | Triphasic pattern                       | Diffusion and erosion |
+| p(FAD-SA) 50:50           | Implantable disk            | Cefazolin sodium                       | w/o           | 100%, 14 d                              | Diffusion             |
+|                           |                             | Bupivacaine free base                  | w/o           | 90%, 35 d                               | Diffusion and degradation |
+|                           |                             | Taxol                                  | w/o           | 15%, 77d                                | Degradation          |
+| PEG hydrogel with degradable crosslinks | Disk                  | Bovine serum albumin                    | w/o           | Zero order in the presence of human neutrophil elastase | Triggered degradation |
+| Poly(ortho ester amide) copolymer | NA                        | FITC-dextran                           | w/o           | Near zero order                         | Erosion              |
+| HPMC                      | Tablet                      | Adinazolam mesylate                    | w/            | Near zero order, 10h                    | Swelling and dissolution |
+
+
+:::
+
+
+# Membrane Controlled Devices
+
+## Hệ thuốc màng bao không tan kiểm soát giải phóng hoạt chất
 
 ::: {.panel-tabset}
 
 ### Đặc điểm thành phần
+
+:::: {.columns}
+::: {.column width="50%"}
 
 **Cấu trúc hệ thuốc:** Được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày của màng khi tiếp xúc trực tiếp với môi trường sinh học.
 
 **Thành phần hệ thuốc:**
 
 *Dược chất:* dạng muối dễ tan trong nước hoặc được cải thiện độ tan nhờ tạo hệ phân tán rắn, tạo dẫn chất, thêm chất diện hoạt
-*Tá dược:* Avicel, lactose hay muối carbonat không tan tạo kênh dẫn nước. Dược chất có thể tạo pellet, hạt
 
-*Màng bao:* 
+*Tá dược:* [Avicel](PDF/abc.pdf#page=158), [lactose](PDF/abc.pdf#page=388) hay muối carbonat không tan tạo kênh dẫn nước. Dược chất có thể tạo pellet, hạt
 
--polymer tạo màng thường không tan trong nước 
-  - EC(Ethyl cellulose): EC thường phối hợp với HPMC, PEG. Pha sẵn như Aquacoat ECD
-  - Polymethacrylat: Eudragit RS, Eudragit RL, eudragit NE
+*Màng bao:* non-degradable polymeric matrices
+
+- polymer tạo màng thường không tan trong nước 
+  - [EC(Ethyl cellulose)](PDF/abc.pdf#page=191): EC thường phối hợp với HPMC, PEG. Pha sẵn như Aquacoat ECD
+  - [Polymethacrylat](PDF/abc.pdf#page=554): Eudragit RS, Eudragit RL, eudragit NE
 - Chất hóa dẻo
 - Chất màu
 - Chất tạo đục TiO2, talc
+
+:::
+::: {.column width="50%"}
+
+![Drug release is controlled by a semi-permeable membrane. Diffusion through membrane limits the release rate](../BaoCheCacDangDacBiet/Images/Semi.png)
+:::
+
+::::
 
 ### Cơ chế và mô hình động học
 
 Nước từ môi trường sinh học thẩm thấu qua màng vào trong hệ thuốc có chứa dược chất, dược chất trong hệ được hòa tan, dược chất đã hòa tan trong hệ khuyếch tán qua màng bao ra môi trường.
 
+![Drug release is controlled by a semi-permeable membrane. Diffusion through membrane limits the release rate](../BaoCheCacDangDacBiet/Images/Semi.png)
+
 Mô hình bậc 0: 
 
-:::
 
-## Ứng dụng
+### Ví dụ
 
 ::: {.panel-tabset}
-### Thuốc diltiazem 
 
-### Thuốc pseuopherin-loratadin
+#### Thuốc diltiazem 
 
-### Thuốc đặt nhãn khoa
+:::: {.columns}
 
-### Hệ trị liệu qua da
+::: {.column width="50%"}
+
+| Tá dược                   | Khối lượng (mg/ml) |
+|---------------------------|--------------------|
+| Diltiazem hydroclorid     | 200 mg             |
+| Avicel pH 102             | 27 mg              |
+| Lactose monohydrat        | 21 mg              |
+| HPMC E6                   | 4 mg               |
+| Khí dung                  | 2 mg               |
+| Nước tinh khiết           | 0,12 ml            |
 
 :::
-# Hệ màng bao hòa tan ăn mòn kiểm soát giải phóng dược chất
-## Đặc điểm thành phần cấu trúc của hệ 
-Cấu trúc hệ thuốc: Hệ thuốc chứa dược chất được bao màng polymer chậm hòa tan bị mòn dân trong môi trường dịch sinh học, màng polymer thân nước trương nở gel tạo ra hàng rao kiểm soát làm chậm và kéo dài quá trình giải phóng. Màng bao có thể có độ dày mỏng khác nhau: 1 lớp bao ngoài hệ chưa dược chất hoặc bao từng lớp màng xen kẽ lớp dược chất tọa ra sự giải phóng ngắt quãng.
+::: {.column width="50%"}
+
+Thành phần màng bao pellet giải phóng kiểm soát
+
+| Tá dược                   | Khối lượng (mg/ml) |
+|---------------------------|--------------------|
+| Eudragit RS 100           | 334,7 mg           |
+| Magnesi stearat           | 5,8 mg             |
+| Trietyl citrat            | 2,0 mg             |
+| Titan dioxyd              | 14,4 mg            |
+| Talc                      | 12,0 mg            |
+| Ethanol                   | 0,87 ml            |
+
+Vỏ nang cứng
+
+| Tá dược                   | Khối lượng         |
+|---------------------------|--------------------|
+| Vỏ nang cứng              | 1 vò               |
+
+:::
+::::
+
+#### Thuốc pseuopherin-loratadin
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+| Tá dược                        | Khối lượng (mg) |
+|--------------------------------|-----------------|
+| Pseudoephedrin hydroclorid     | 60              |
+| Tinh bột mỳ                    | 30              |
+| Lactose                        | 190             |
+| PVP K30                        | 10              |
+| Ethanol 70%                    | 50              |
+| Magnesi stearat                | 1.5             |
+| Bột talc                       | 3               |
+| Aerosil                       | 1.5             |
+
+:::
+::: {.column width="30%"}
+
+Công thức màng bao nhân (kiểm soát giải phóng kéo dài)
+
+| Tá dược            | Khối lượng      |
+|--------------------|-----------------|
+| Zein               | 2,7 mg          |
+| Dietyl phtalat     | 1 mg            |
+| Bột talc           | 2,5 mg          |
+| TiO2               | 1 mg            |
+| Isopropanol - nước (8:2) | 400 ml    |
+
+:::
+::: {.column width="30%"}
+
+Công thức lớp bao ngoài cùng giải phóng ngay
+
+| Tá dược                        | Khối lượng (mg/ml) |
+|--------------------------------|--------------------|
+| Pseudoephedrin hydroclorid     | 60.0 mg            |
+| Loratadin                      | 5.0 mg             |
+| HPMC E6                        | 25.0 mg            |
+| Khí dung                       | 4.5 mg             |
+| Talc                           | 4.5 mg             |
+| Ethanol 90%                    | 450 ml             |
+:::
+
+::::
+
+#### Thuốc đặt nhãn khoa
+
+Màng đặt nhãn khoa giải phòng kiểm soát (Ousert)
+
+Thành phần lớp giữa – hệ chứa dược chất (dày 305 µm)
+
+| Tá dược          | Khối lượng (mg) |
+|------------------|-----------------|
+| Pilocarpin       | 38              |
+| Titan dioxyd     | 5               |
+| Alginat Natri    | 200             |
+
+
+Thành phần 2 lớp màng kiểm soát giải phóng (lớp trên và lớp dưới mỗ μm)
+
+| Tá dược               | Khối lượng (mg) |
+|-----------------------|-----------------|
+| Ethylen vinyl axetat  | 80              |
+
+
+Màng hình oval rông 5.7 m dài 13.4 mm tốc độ giải phóng dược chất 20 ug trong một giờ kéo dài trong 7 ngày
+
+:::
+
+:::
+
+## Hệ màng bao hòa tan ăn mòn kiểm soát giải phóng dược chất
+::: {.panel-tabset}
+
+### Đặc điểm thành phần cấu trúc của hệ 
+
+::: {.callout-important title="Cấu trúc hệ thuốc"}
+ Hệ thuốc chứa dược chất được bao màng polymer chậm hòa tan bị mòn dân trong môi trường dịch sinh học, màng polymer thân nước trương nở gel tạo ra hàng rao kiểm soát làm chậm và kéo dài quá trình giải phóng. Màng bao có thể có độ dày mỏng khác nhau: 1 lớp bao ngoài hệ chứa dược chất hoặc bao từng lớp màng xen kẽ lớp dược chất tọa ra sự giải phóng ngắt quãng.
+:::
+
 Thành phần hệ thuốc
+
 Tá dược bao hòa tan mòn dần:
-    - polymer thân nước: HPMC, HPC
-    - Tá dược rắn không tan như tio2, Talc, Megnesi stearat
-## Cơ chế và mô hình động học giải phóng dược chất 
-Cơ chế giải phóng dược chất
+
+  - polymer thân nước: HPMC, HPC
+  - Tá dược rắn không tan như tio2, Talc, Megnesi stearat
+
+### Cơ chế và mô hình động học giải phóng dược chất 
+
 Nước trương nở màng bao tạo lớp gel và lớp dịch polymer có độ nhớt cao.
-Phần phần dược chất trong lớp màng gel được hòa tan khuy ếch tán chậm qua hàng rào gel và lớp dịch có độ nhớt cao và được giải phóng ra môi trường cùng sự hòa tan dần của lớp gel, lớp dịch đậm đặc polymer
+
+Phần phần dược chất trong lớp màng gel được hòa tan khuếch tán chậm qua hàng rào gel và lớp dịch có độ nhớt cao và được giải phóng ra môi trường cùng sự hòa tan dần của lớp gel, lớp dịch đậm đặc polymer
+
 Dược chất được hòa tan ở giai đoạn cuối cùng lớp dịch polymer đã hòa tan khuyêsch tán vào môi trường sin học
+
+![Nonporous semi-permeable membranes:  Drug diffusion through swollen polymer membrane](../BaoCheCacDangDacBiet/Images/swollen.png)
+
 Mô hình động học
+
 Mô hình bậc 1 hoặc bậc khác, không theo bậc 0
 
-# Hệ thuốc cốt không tan kiểm soát giải phóng dược chất
-## Đặc điểm thành phần cấu trúc hệ thuốc
-Cấu trúc hệ thuốc: Dược chất phân tán trong cốt không tan trong môi trường sinh học. Cốt đóng vai trò như khung giá mang thuốc. Sau khi tiếp xúc với nước của môi trường. dược chất được hòa tan trong các kênh nước được tạo ra trong cốt và khuyếch tán giải phóng ra khỏi hệ thuosc. Cốt sơ nước có thể bị ăn mòn trong đường tiêu hóa để giải phóng dược chất. 
-Thành phần
+### Một số ví dụ 
+
+:::
+
+# Monolithic Devices
+
+## Hệ thuốc cốt không tan kiểm soát giải phóng dược chất
+
+::: {.panel-tabset}
+
+### Đặc điểm thành phần cấu trúc hệ thuốc
+::: {.callout-important title="Cấu trúc hệ thuốc"}
+
+Dược chất phân tán trong cốt không tan trong môi trường sinh học. Cốt đóng vai trò như khung giá mang thuốc. Sau khi tiếp xúc với nước của môi trường. dược chất được hòa tan trong các kênh nước được tạo ra trong cốt và khuyếch tán giải phóng ra khỏi hệ thuosc. Cốt sơ nước có thể bị ăn mòn trong đường tiêu hóa để giải phóng dược chất. 
+:::
+
+**Thành phần**
+
 Dược chất là dẫn chất hoặc muối dễ tan. Dược chất có thể hòa tan trong dung môi thích hợp trước khi phân tán vào cốt.
-GTas dược là polymer không tan trong nước như ethyl cellulose, poly vinyl chlorid 
+
+Tá dược là polymer không tan trong nước như ethyl cellulose, poly vinyl chlorid 
 Một số tá dược vô cơ như dicalci phosphat, calci sulphat. 
-Tá dược sơ nước bị ăn mòn trong đường tiêu hóa dưới tác dụng của hệ enzyme, ph bao gồm saps, alcol béo, các acid béo
-## Cơ chế và mô hình động học giải phóng dược chất
-Cơ chế giả phóng dược chất
+
+Tá dược sơ nước bị ăn mòn trong đường tiêu hóa dưới tác dụng của hệ enzyme bao gồm sáp, alcol béo, các acid béo
+
+### Cơ chế và mô hình động học giải phóng dược chất
+
+
+[](../BaoCheCacDangDacBiet/Images/Case1.png)
+
 Hệ polymer không tan: nước thâm nhập vào hệ theo các kênh khuyếch tán có trong cốt, dược chất hòa tan trong nước có trong kênh, sau đó khuyếch tán ra môi trường từ bề mặt cốt.
+
 Hệ cố sơ nước ăn mòn, dược chất hòa tan trên bề mặt cốt cùng với quá trình ăn mòn cốt trong đường tiêu hóa.
+
 Mô hình dược chất: Mô hình higuchi
-# Hệ thuốc giải phóng kiểm soát cốt thân nước hòa tan 
-## Đặc điểm thành phần cáu trúc hệ thuốc
-Cấu trúc hệ thuốc: Dược chất được phân tán trong cốt thân nước, trương nở hòa tan mòn dần trong môi trường sinh học trong quá trình giải phóng dược chất
-thành phần
-dược chất: dệ tan trong nước 
-Tá dược: HPMC hoặc kết  hợp
-HPMC dòng K và E 
-## Cơ chế và mô hình giải phóng dược chất
-Cơ chế giải phóng dược chất
+
+### Ví dụ 
+
+Nang cứng salbutamol giải phóng kéo dài
+
+| Tá dược             | Khối lượng (mg/%) |
+|---------------------|--------------------|
+| Salbutamol sunfat   | 9.6 mg             |
+| Sáp ong             | 44.0 mg            |
+| Sáp carnauba        | 22.0 mg            |
+| Avicel PH 101       | 17.0 mg            |
+| Dicalci photphat    | 60.0 mg            |
+| Magnesi stearat     | 1%                 |
+
+
+:::
+
+
+
+
+## Hệ thuốc giải phóng kiểm soát cốt thân nước hòa tan 
+
+::: {.panel-tabset}
+
+### Đặc điểm thành phần cáu trúc hệ thuốc
+
+::: {.callout-important title="Cấu trúc hệ thuốc"}
+Dược chất được phân tán trong cốt thân nước, trương nở hòa tan mòn dần trong môi trường sinh học trong quá trình giải phóng dược chất thành phần
+:::
+Thành phần 
+
+Dược chất: dệ tan trong nước 
+
+Tá dược: HPMC hoặc kết  hợp, HPMC dòng K và E 
+
+### Cơ chế và mô hình giải phóng dược chất
+
+
 Nước trong môi trường thấm vào hệ cốt làm trương nở cốt gel, sau đó dược chất hòa tan trong nước có trong hệ cốt đã trương nở, khuyêch tán ra môi trường qua hàng rào kiểm soát là lớp gel, đồng thời giải phóng ra môi trường khi lớp gel bị hòa tan ăn mòn dân
 Mô hình động học giải phóng dược chất
 Động học bậc 1 theo phương trình Noyes-Whitney
+
+### Ví dụ 
+
+::: {.panel-tabset}
+
+#### Viên nén felodipin 5mg giải phóng kéo dài
+
+:::: {.columns}
+::: {.column width="50%"}
+
+Công thức viên chưa bao (cho 1 viên) :
+
+| Tá dược                              | Khối lượng (mg) |
+|-------------------|-----------------|
+| Hệ phân tán rằn Felodipin 10% (Felodipin 10%, PEG 4000 20%, PVP K30 40%, poloxamer 30%) | 50            |
+| HPMC E4M                             | 58              |
+| HPMC E151V                           | 17              |
+| Lactose                              | 87              |
+| Magnesi stearat                      | 2               |
+| Bột talc                             | 1               |
+:::
+::: {.column width="50%"}
+Công thức màng bao bảo vệ (cho 2,15 kg viên = 1000 viên):
+
+| Tá dược           | Khối lượng (g)  |
+|-------------------|-----------------|
+| HPMC E6           | 43.0            |
+| HPMC E15          | 43.0            |
+| PEG4000           | 12.9            |
+| Titan dioxyd      | 10.8            |
+| Câu chuyện        | 32.3            |
+| Ethanol 96%       | 1176            |
+| Nước tinh khiết   | 392             |
+:::
+::::
+
+
+#### Viên nén Glipizid 10mg giải phóng kéo dài
+
+Công thức viên (cho 1 viên):
+
+| Tá dược         | Khối lượng (mg) |
+|-----------------|-----------------|
+| Glipizid        | 10              |
+| HPMC K4M        | 32              |
+| HPMC K100LV     | 47              |
+| Lactose         | 78              |
+| Aerosil         | 1               |
+| PVP             | 14              |
+| Ethanol 90%     | vừa đủ          |
+
+Màng bao bảo vệ:
+
+| Tá dược                 | Khối lượng (mg) |
+|-------------------------|-----------------|
+| HPMC E15                | 8.0             |
+| PEG6000                 | 1.2             |
+| Axit stearic            | 0.8             |
+| Bột talc                | 1.2             |
+| Ethanol: Nước (2:1)     | vừa đủ          |
+
+
+#### Viên nén Indapamid 1,5mg giải phóng kéo dài
+
+Công thức viên (cho 1 viên):
+
+| Tá dược               | Khối lượng (mg) |
+|-----------------------|-----------------|
+| Indapamid             | 1.5             |
+| HPMC K15M             | 98              |
+| HPMC E15LV            | 10              |
+| Poloxamer             | 15              |
+| Lactose               | 33              |
+| Dicalci photphat      | 30              |
+| Magnesi stearat       | 2               |
+| Khí dung              | 1               |
+| PVP K30               | 10              |
+| Ethanol 96%           | vừa đủ          |
+
+
+Công thức màng bao bảo vệ (cho 2,0 kg viên):
+
+| Tá dược           | Khối lượng (g)  |
+|-------------------|-----------------|
+| HPMC E6           | 40              |
+| HPMC E15          | 40              |
+| PEG4000           | 12              |
+| Titan dioxyd      | 10              |
+| Bột talc          | 30              |
+| Ethanol 96%       | 1094            |
+| Nước tinh khiết   | 364             |
+
+:::
+
+:::
+
+# Osmotic Pressure Devices
+![](../BaoCheCacDangDacBiet/Images/OsmoticDrug.png)
+
 ## Hệ thuốc bơm thẩm thấu giải phóng kiểm soát 
-Cấu trúc hệ thuốc
+
+::: {.panel-tabset}
+
+### Khái niệm 
+
+::: {.callout-important title="Cấu trúc hệ thuốc"}
 Dược chất được bao trong một màng bao bán thấm có lỗ giải phóng dược chất. Màng này chỉ cho dung môi thấm vào hòa tan dược chất. áp suất thẩm thấu tạo ra trong hệ là động lực đẩy dung dịch dược chất qua miệng giếng giải phóng dược chất.
-Phân loại
+:::
+
+**Phân loại**
+
 - Hệ bơm thẩm thấu 1 ngăn: Hệ bơm thẩm thấu quy ước, hệ bơm thẩm thấu tự tạo lỗ xốp, hệ bơm thẩm thấu đơn thành phần, hệ bơm thẩm thấu tự nhũ hóa
 - Hệ bơm thẩm thấu 2 ngăn: hệ bơm thẩm thấu đẩy kéo, hệ bơm thẩm thấu đẩy dính, hệ bơm thẩm thấu kiểu sandwich, hệ bởm thảm thấu chất lỏng.
-Thành phần
-Dược chất: bệnh mạn tính như nifedipin, glipzid, famotidin, tramadol, carbamazepin, diliazem, metoprolol
-Tá dược thẩm thấu: muối vô cơ như natri clorid, kali clorid, muối natri kali sulfat hoặc carbonat, các loại đường như glucose, sorbitol, sucrose
-Tá dược trương nở: polymer hút nước như tinh bột biến tính, crossarmelose, cellulose vi tinh thể, carbopol, HPLC, NaCMC
-Tá dược trơn: Magesi stearat, titan dioxd, aerosil, bột talcs
-Tá dược tạo kênh: có thể trương nở hoặc không trương nỏ: kaolin, silic dioxyd, natri lauryl sulfat, polyvinyl pryrrrolidon, bentonit, polyester, 
-Thành phần tạo màng:
-màng bán thấm: cellulose acetatm cellulose acetat butylra, cellulose triacetat
-tá dược tạo lỗ xốp: tự tạo lỗ xốp hoặc hệ nhiều bơm thẩm thấu: NaCl, NaBr, KCl, KHSO4, CaCl2, CaNitrat, manitol, lactose, sorbitol
-Dung môi bao: Dung mỗi hưu cơ như aceton, methanol, ethanol, 
-Chất hóa dẻo: PG, triethyl citrat, diethyl tartarat, deiacetin,
-## Cơ chế giải phóng dược chất
-- Hệ bơm thẩm thấu quy ước:
-nước qua màng bán thấm vào trong thuốc, dược chất hòa tan tạo ra dung dịch có áp suát thẩm thấu lớn trong hệ, dung dịch dược chất được bơm đẩy ra môi trường sinh học dựa trên các lô giải phóng dược chất đến khi cân bằng áp suất trong ngoài màng
-- Hệ thơm thẩm thấy tự tạo lỗ xốp:
-Nươc tieeos xuasc màng bao, hòa tan các chất tan là tá dược tạo lỗ xốp trong bằng bao, tạo hệ vi lỗ. Nước qua màng bán thấm và vi lỗ xốp vào trong hệ hòa tan dược chất và chất tan có trong hệ thuốc tạo áp suất thẩm thấu lớn. Dung dịch được bơm đẩy ra môi trường qua hệ vi miệng lỗ giải phóng đên skhi cần 
-- Hệ bơm thẩm thấu kéo-đẩy:
-Nước thẩm thấu, hòa tan dược chất tạo dịch, gây trương nở tá dược polymer làm lớp đẩy. Dung dịch thuốc giải phóng ra khỏi thuốc dựa trên áp suất tạo ra trong hệ do trương nở polymer và áp suất thẩm thấu
+
+### Thành phần
+
+1. Dược chất: bệnh mạn tính như nifedipin, glipzid, famotidin, tramadol, carbamazepin, diliazem, metoprolol
+
+2. Tá dược cốt 
+
+- Tá dược thẩm thấu: muối vô cơ như natri clorid, kali clorid, muối natri kali sulfat hoặc carbonat, các loại đường như glucose, sorbitol, sucrose
+- Tá dược trương nở: polymer hút nước như tinh bột biến tính, crossarmelose, cellulose vi tinh thể, carbopol, HPLC, NaCMC
+- Tá dược trơn: Magesi stearat, titan dioxd, aerosil, bột talcs
+- Tá dược tạo kênh: có thể trương nở hoặc không trương nỏ: kaolin, silic dioxyd, natri lauryl sulfat, polyvinyl pryrrrolidon, bentonit, polyester, 
+
+3. Thành phần tạo màng:
+
+- màng bán thấm: cellulose acetatm cellulose acetat butylra, cellulose triacetat
+- tá dược tạo lỗ xốp: tự tạo lỗ xốp hoặc hệ nhiều bơm thẩm thấu: NaCl, NaBr, KCl, KHSO4, CaCl2, CaNitrat, manitol, lactose, sorbitol
+- Dung môi bao: Dung mỗi hưu cơ như aceton, methanol, ethanol, 
+- Chất hóa dẻo: PG, triethyl citrat, diethyl tartarat, deiacetin,
+
+### Cơ chế giải phóng dược chất
+
+- Hệ bơm thẩm thấu quy ước: nước qua màng bán thấm vào trong thuốc, dược chất hòa tan tạo ra dung dịch có áp suát thẩm thấu lớn trong hệ, dung dịch dược chất được bơm đẩy ra môi trường sinh học dựa trên các lô giải phóng dược chất đến khi cân bằng áp suất trong ngoài màng
+- Hệ thơm thẩm thấy tự tạo lỗ xốp: Nươc tieeos xuasc màng bao, hòa tan các chất tan là tá dược tạo lỗ xốp trong bằng bao, tạo hệ vi lỗ. Nước qua màng bán thấm và vi lỗ xốp vào trong hệ hòa tan dược chất và chất tan có trong hệ thuốc tạo áp suất thẩm thấu lớn. Dung dịch được bơm đẩy ra môi trường qua hệ vi miệng lỗ giải phóng đên skhi cần 
+- Hệ bơm thẩm thấu kéo-đẩy: Nước thẩm thấu, hòa tan dược chất tạo dịch, gây trương nở tá dược polymer làm lớp đẩy. Dung dịch thuốc giải phóng ra khỏi thuốc dựa trên áp suất tạo ra trong hệ do trương nở polymer và áp suất thẩm thấu
 - Hệ bơm thẩm thấu kiểu sandwich; tương tự kiểu kéo đẩy
 - Hệ bơm thẩm thấu lỏng: hệ thuốc dược chất lỏng thân dầu hoặc dung dịch dầu có thêm chất như hóa đóng trong nang mềm hoặc nang cứng
 Nước thấm thấm qua màng vào trong, nước hòa tan dược chất dễ tan tạo ra áp suất thẩm thấu. dược chất lỏng hoặc dung dịch đẩy nhờ áp suất tring hệ qua miện lỗ giải phóng. 
+
+
+### Ví dụ 
+::: {.panel-tabset}
+
+#### Viên nên Venlafaxin 75mg giải phóng kéo dài
+
+:::: {.columns}
+::: {.column width="30%"}
+
+Công thức viên nhân (cho 1 viên):
+
+| Tá dược                        | Khối lượng (mg)  |
+|--------------------------------|-----------------|
+| Venlafaxin hydroclorid         | 86              |
+| HPMC K4M                       | 70              |
+| Natri clorid                   | 20              |
+| Manitol                        | 50              |
+| Lactose                        | 75              |
+| Avicel PH 101                  | 45              |
+| Magnesi stearat                | 2               |
+| Bột talc                       | 2               |
+| PVP K30 10% trong ethanol 96%  | vừa đủ          |
+
+:::
+::: {.column width="30%"}
+
+Công thức màng bao bán thấm cellulose acetat (Cho 100 viên):
+
+| Tá dược                | Khối lượng (g/ml) |
+|------------------------|-------------------|
+| Opadry® chứa CA/PEG 3350 | 14 g             |
+| (tỷ lệ 9:1)            | 12 g              |
+| PVP K30                | 6.7 ml            |
+| Nước tinh khiết        | 300 ml            |
+| Aceton                 | vừa đủ            |
+
+:::
+::: {.column width="30%"}
+
+Công thức màng bao bảo vệ (Cho 100 viên):
+
+| Tá dược             | Khối lượng (g/ml) |
+|---------------------|--------------------|
+| HPMC E6             | 10 g               |
+| PEG 400             | 5 g                |
+| Câu chuyện          | 2 g                |
+| Titan dioxyd        | 1 g                |
+| Ethanol 70%         | 200 ml             |
+
+:::
+::::
+
+#### Trên nên Glipizid 4.5mg giải phóng kéo dài
+
+Công thức viên nhân (cho 100 viên):
+
+:::: {.columns}
+::: {.column width="30%"}
+Hệ thuốc giải phóng
+
+| Tá dược           | Khối lượng (g)  |
+|-------------------|-----------------|
+| Glipizid          | 4.5             |
+| PEG 200,000       | 90              |
+| Natri clorid      | 15              |
+| Lactose           | 70              |
+| Magnesi stearat   | 1.5             |
+| Aerosil          | 3.5             |
+:::
+::: {.column width="30%"}
+Công thức lớp đây.
+
+| Tá dược           | Khối lượng (g)  |
+|-------------------|-----------------|
+| PEG 5,000,000     | 50              |
+| Natri clorid      | 15              |
+| Avicel            | 30              |
+| Lactose           | 25              |
+| Sắt oxyd          | 0.2             |
+| Magnesi stearat   | 1.0             |
+| Aerosil          | 0.5             |
+:::
+::: {.column width="30%"}
+
+Công thức màng bao bán thâm:
+
+| Tá dược                        | Khối lượng (g/ml) |
+|--------------------------------|-------------------|
+| Cellulose acetat (Opadry CA)    | 19.7 g            |
+| Nước tinh khiết                 | 9.0 ml            |
+| Aceton                          | 420 ml            |
+
+
+(Đường kính lỗ khoan 0.8 mm)
+
+Công thức mảng bao bảo vệ:
+
+| Tá dược               | Khối lượng (g/ml) |
+|-----------------------|-------------------|
+| HPMC E6               | 7.14 g            |
+| Glipizid              | 0.5 g             |
+| PEG4000               | 0.71 g            |
+| Titan dioxyd          | 0.71 g            |
+| Câu chuyện            | vừa đủ            |
+| Sắt oxyd              | 0.71 g            |
+| Ethanol 96%           | 140 ml            |
+:::
+::::
+
+:::
+
+
+# Đánh giá một số tính chất đặc trưng của hệ thuốc 
+
+## Đánh giá độ hòa tan huặc khả năng khuếch tán giải phóng được chất từ hệ thuốc
+
+Độ hòa tan, khuếch tán giải phóng được chất từ hệ thuộc được đánh giá theo thời gian kéo đài ở các thời điểm (2 giờ, 4 giờ, 6 giờ. 8 giờ... 24 giờ) với các thiết bị và điều kiện thử cụ thể cho từng chế phẩm.
+
+Vì dụ: Viên Clarinase repetabs của Singapore có hàm lượng ghi trên nhân Pseudoephedrin sulfat 120mg (giải phóng kéo dãi) và Loratadin 5mg (có thời gian bán thai 24 giờ) có tiêu chuẩn về độ hòa tan: đối với pseudoephedrin sulfat ≤ 60% sau 1 giờ ở môi trường dịch vị, ≤ 65% sau 2 giờ. ≥ 65% sau 5 giờ, ≥ 80% sau 6 giờ ở mỗi trường dịch ruột so với hàm lượng ghi trên nhân.
+
+Viên Herbesser R200 (Nhật Bản) có tiêu chuẩn thử đỡ hòa tan trong 900 ml nước: 5-30% sau 2 giờ, 25-55% sau 6 giờ, ≥ 85% sau 24 giờ.
+
+## Đánh giá so sánh độ hòa tan (sinh khả dụng in vitro) của mẫu thuốc thứ với mẫu đôi chứng
+
+Xác định sự khác nhau và giống nhau giữa 2 mẫu như sau:
+
+Xác định đó hòa tan của 2 mẫu thuốc (thủ và đối chiếu) mỗi mẫu 12 đơn vị.
+
+Từ dữ liệu độ hòa tan tỉnh chỉ số khác nhau (fl) và chỉ số giống nhau (12) theo công thức:
+
+f = 50. logarit +(1/n) (RT) 100
+
+Trong đó: n là số điểm lấy mẫu, Ri là giá trị hóa tan của lô đổi chiếu ở thời gian t và Ti là giá trị độ hòa tan của lô thư ở thời gian t
+
+Hai mẫu được xác định trong cùng điều kiện, các thời điểm lấy mẫu như nhau.
+
+Điểm lây mẫu cuối nên có giá trị độ hòa tan > 85%. Điểm lấy mẫu sớm nhất cho phép có CV < 20%. Ở các thời điểm khác không nên cỏ CV > 10%.
+
+Hai đường cong trong đồ thị độ hòa tan được cho là giống nhau khi fi gần về 0 và f: gần về 100. Thông thường tì từ 0-15 và 12 > 50 đảm bảo sự giống nhau giữa 2 đường cong về độ hòa tan giữa mẫu thử và mẫu đối chiếu.
+
+
+## Đánh giá sinh khả dụng in vivo và tương đương sinh học
+
+Thường dùng phương pháp xác định các thông số được động học (Coax. Tmax.
+
+AUC) để đánh giá sinh khả dụng in vivo. Các cơ quan quản lý FDA (Hoa Kỳ) hoặc ASEAN, Châu Âu... đã đưa ra các quy định hướng dẫn cụ thể về các nội dung:
+
+Lựa chọn đối tượng thủ (động vật, người tình nguyên).
+
+Chế phẩm đối chiếu, chế phẩm thư.
+
+Thiết kế nghiên cứu, thời điểm lấy mẫu.
+
+Thẩm định phương pháp phân tích...
+
+::: {.panel-sidebar}
+
+### Đành giả sinh khả dụng
+
+Xác định các thông số dược động học cơ bản:
+
+Cmax và Tmax : số liệu thu được trực tiếp từ kết quả thí nghiệm.
+
+AUCo-tu (diện tích dưới đường cong nồng độ - thời gian từ thời điểm 0 đền thời điểm t) được tỉnh theo phương pháp hình thang, với ta là thời điểm lấy mẫu cuối cùng có thẻ định lượng được.
+
+AUCox (diện tích dưới đường cong nồng độ - thời gian từ điểm 0 đến vô cùng) được tỉnh toán theo công thức:
+
+AUCO-AUCO-tn + Con/z
+
+Trong đó:
+
+Ca - Nồng độ của thuốc tại thời điểm lấy mẫu cuối cùng
+
+12 – Hằng số tốc độ thải trừ (hệ số góc đường hồi qui giữa 1g(nồng độ] và thời gian)
+
+### Đánh giá tương đương sinh học
+
+Nghiên cứu chèo, đơn liễu, hai thuốc, hai giai đoạn, hai trình tự thử thuốc với
+
+Cmax. AUC và MRT (số liệu có thể chuyển logarit):
+
+Phân tích phương sai đánh giá ảnh hưởng của các yếu tố như trình tự, giai đoạn, thuốc, cả thể tới kết qua thư nghiệm.
+
+Tỉnh khoảng tin cậy 90% của sự chênh lệch giữa giá trị trung bình của thuốc thửvà thuốc đối chiếu. Nếu giới hạn khoảng tin cậy nằm trong khoảng 80-125% thi
+
+hai chế phẩm được coi như là tương đương sinh học (khi tỉnh dạng logarit).
+
+Với Tmux : đánh giá theo phương pháp thống kê phi tham số. Yêu cầu giá trị Tmax của thuốc thử và thuốc đổi chứng sai khác không có ý nghĩa thống kẻ.
+:::
+
+## Xác định mô hình động học giải phóng được chất từ hệ thuốc
+
+Dựa trên dữ liệu độ hòa tan, đánh giá các số liệu tính theo phương trình toán học của mô hình và của mẫu thực tại các thời điểm. Sau đó căn cứ vào giá trị của các chỉ
+
+
+
+# Câu hỏi lượng giá
+
+## Lượng giá
+
+> Hãy dành 15 phút để tìm hiểu vấn đề xung quanh. 02 bạn lên phân tích. 
+
+
+1. Phân tích ưu nhược điểm của hệ thuốc giải phóng kéo dài với thuốc quy ước dựa 
+trên cơ sở phân tích đặc điểm giải phóng dược chất. 

@@ -1,10 +1,8 @@
 ---
-title: "Các dạng bào chế đặc biệt"
+title: "Viên nén đặc biệt và dạng bào chế hiện đại"
 subtitle: "Viên nén đặc biệt"
 author:
   - name: TS. Hoàng Lê Sơn
-    email: sonhoang.ump@vnu.edu.vn
-    affiliations: UMP
 date: last-modified
 toc: true
 toc-depth: 1
@@ -13,9 +11,10 @@ format:
   #pptx: default
   revealjs:
     slide-number: true
-    css: "../styles.css"
-    logo: "../../images/9.png"
-    footer: "Các dạng bào chế đặc biệt"
+    preview-links: true
+    css: "styles.css"
+    logo: "../BaoCheCacDangDacBiet/Images/LogoDaiNam.svg"
+    footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
     incremental: false
@@ -23,9 +22,9 @@ format:
     auto-stretch: false
     chalkboard: true
     highlight-style: github-dark
-    theme: [default, ../custom.scss] #"../coeos.scss"
+    theme: [default, custom.scss] #"../coeos.scss"
 title-slide-attributes: 
-  data-background-image: "../../images/9.png"
+  data-background-image: "../BaoCheCacDangDacBiet/Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
@@ -33,18 +32,67 @@ title-slide-attributes:
 
 # Giới thiệu chung
 
-## Nội dung bài học
-- Khái niệm chung
-- Viên sủi bọt Effervescent tablets
-- Viên nhai Chewable tablets
-- Viên ngậm Buccal tablets
-- Viên đặt dưới lưỡi Sublingual tablets
+## Mục tiêu và tài liệu
+
+1. Trình bày được khái niệm, đặc điểm dạng bào chế, cách sử dụng các dạng viên nén đặc biệt: viên sủi, viên nhai, viên ngậm, viên đặt.
+2. Trình bày được nguyên tắc lựa chọn các thành phần trong công thức thuốc viên nén đặc biệt: viên sủi, viên nhai, viên ngậm, viên đặt.
+3. Trình bày được nguyên tắc bào chế các dạng viên nén đặc biệt: viên sủi, viên nhai, viên ngậm, viên đặt.
+4. Trình bày được tiêu chuẩn và nguyên tắc đánh giá các chỉ tiêu chất lượng của thành phẩm các dạng viên nén đặc biệt: viên sủi, viên nhai, viên ngậm, viên đặt.
 
 Tài liệu tham khảo
 
 1. Dược điển Việt Nam V, Bộ Y tế (2017), Nhà xuất bản Y học Hà nội
 2. Công nghệ nano và ứng dụng trong sản xuất thuốc, Bộ môn công nghiệp dược- Đại học Dược Hà nội (2019), Nhà xuất bản Y học Hà nội.
 3. Viên nén đặc biệt và dạng bào chế hiện đại, Bộ môn bào chế- công nghệ Dược- Trường Đại học Đại nam (2022), Nhà xuất bản Y học Hà nội.
+
+# Nhắc lại kiến thức 
+
+## Các loại tá dược dùng trong viên nén
+:::: {.columns}
+::: {.column width="50%"}
+**Tá dược viên nhân**
+
+- Tá dược độn 
+- Tá dược rã
+- Tá dược dính
+- Tá dược đệm
+- Tá dược hút
+- Tá dược làm ẩm
+- Tá dược màu 
+- Tá dược điều hương, vị
+- Tá dược kiểm soát giải phóng dược chất
+:::
+
+::: {.column width="50%"}
+**Tá dược màng bao**
+
+- Viên bao đường
+- Viên bao phim
+
+:::
+
+::::
+
+## Quy trình sản xuất viên nén
+
+![Quy trình](../BaoCheCacDangDacBiet/Images/Quy%20trinh.png){width="100%"}
+
+## Chất lượng viên nén
+
+**Tính chất**: Viên rắn, mặt viên nhẵn hoặc lồi, trên mặt có thể có rãnh, chữ hoặc ký hiệu, cạnh và thành viên lành lặn. Viên không bị gãy vỡ, bở vụn trong quá trình bảo quản, phân phối và vận chuyển.
+
+**Độ rã**: Nếu không có chỉ dẫn gì khác, viên nén phải đạt yêu cầu về độ rã qui định, được thử theo Phụ lục 11.6 Phép thử độ rã của viên nén và nang.
+Viên nén và viên bao đã thử độ hòa tan với tất cả các dược chất có trong thành phần thì không phải thử độ rã.
+
+**Độ đồng đều khối lượng** Thử theo Phụ lục 11.3 Phép thử độ đồng đều khối lượng. Viên nén và viên bao đã thử độ đồng đều về hàm lượng với tất cả các dược chất có trong thành phần thì không phải thử độ đồng đều khối lượng.
+
+**Độ đồng đều hàm lượng (Phụ lục 11.2)**: Nếu không có chỉ dẫn khác, viên nén có hàm lượng dược chất dưới 2 mg hoặc dưới 2 % (kl/kl) phải thử độ đồng đều hàm lượng. Đối với viên nén có từ 2 dược chất trở lên, chỉ áp dụng yêu cầu này với thành phần có hàm lượng nhỏ như qui định ở trên.
+
+**Độ hòa tan**: Yêu cầu được chỉ ra trong chuyên luận riêng. Phương pháp thử được ghi trong chuyên luận. Phép thử độ hòa tan của dạng thuốc rắn phân liều (Phụ lục 11.4).
+
+**Định lượng và các yêu cầu kỹ thuật khác:** Thử theo qui định trong chuyên luận riêng.
+
+**Bảo quản – ghi nhãn** Thuốc viên nén phải đựng trong bao bì kín, chống ẩm và chống va chạm cơ học. Ghi nhãn theo qui định. Nếu là viên bao cần phải ghi rõ: Bao đường, bao phim hay bao tan trong ruột.
 
 
 # Đại cương
@@ -79,165 +127,47 @@ Viên nén là dạng thuốc rắn, mỗi viên là một đơn vị phân li�
 ::: {.callout-important title="Viên sủi bọt Effervescent tablets"}
 Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi bọt gồm các acid hữu cơ và muối carbonat hoặc  hydrocarbonat, phản ứng khi có nước giải phóng khí carbon dioxyd. Viên được hòa tan hoặc phân tán trong nước trước khi dùng.
 :::
-![Viên efferalgan](./Images/efferalgan.png){width="40%"}
 
-### ngậm 
+![Viên efferalgan](../BaoCheCacDangDacBiet/Images/efferalgan.png){width="40%"}
+
+### Ngậm 
 
 ::: {.callout-important title="Viên ngậm Buccal tablets"}
 Viên ngậm thường là viên nén không bao được điều chế để dược chất giải phóng tại khoang miệng gây tác dụng tại chỗ hay hấp thu qua niêm mạc dưới lưỡi.
 :::
 
-![Viên ngậm](./Images/BuccalTablets.png){width="40%"}
+![Viên ngậm](../BaoCheCacDangDacBiet/Images/BuccalTablets.png){width="40%"}
 
-### nhai
+### Nhai
 
 ::: {.callout-important title="Viên nhai Chewable tablets"}
 Theo dược điển việt nam V- Viên nén không bao 
 > Viên nhai không phải thử độ rã 
 Theo dược điển Mỹ, Viên nhai là dạng viên được nhai hoạc nghiền nát trong miệng trước khi nuốt. Viên nhai thường chứa các dược chất tác dụng tại chỗ ở dạ dày (antacid) hoặc các dược chất hấp thu để gây tác dụng toàn thân (vitamin, aspirin)
 :::
-![Viên Fugacar](./Images/Fugacar.png){width="40%"}
+![Viên Fugacar](../BaoCheCacDangDacBiet/Images/Fugacar.png){width="40%"}
 
 
 
-### đặt dưới lưỡi
+### Đặt dưới lưỡi
 ::: {.callout-important title="Viên đặt dưới lưỡi Sublingual tablets"}
 Viên đặt dưới lưỡi
 :::
 
-![Viên mecobalamin](./Images/mecobalamin.png){width="40%"}
+![Viên mecobalamin](../BaoCheCacDangDacBiet/Images/mecobalamin.png){width="40%"}
 
-### đặt 
+### Đặt 
 ::: {.callout-important title="Viên đặt dưới lưỡi Sublingual tablets"}
 Thuốc đặt là dạng thuốc rắn, chứa một hoặc nhiều dược chất, dùng để đặt vào các hốc tự nhiên của cơ thể. Thuốc có thể có tác dụng tại chỗ hoặc toàn thân.
 Khi đặt vào vị trí trên cơ thể, thuốc đặt thường chảy ra, mềm ở thân nhiệt hoặc **hòa tan dần** trong niêm dịch để giải phóng dược chất.
 :::
 
-![Viên nén ab intimus](./Images/intimus.png){width="40%"}
+![Viên nén ab intimus](../BaoCheCacDangDacBiet/Images/intimus.png){width="40%"}
 :::
 
 
 :::
 ::::
-
-## Xung quanh vấn đề lựa chọn tá dược
-
-::::: {.panel-tabset}
-
-### Lợi ích bệnh nhân
-
-:::: {.columns}
-::: {.column width="50%"}
-
-> Đặt lợi ích của bệnh nhân lên hàng đầu trong phát triển công thức bào chế
-
-- Lợi ích và hiệu quả điều trị 
-- Dễ sử dụng cho bệnh nhân
-- Khả năng sản xuất 
-
-**Các vấn đề**
-
-- 60% các hoạt chất đang phát triển làm thuốc được phân loại vào nhóm có vị đắng
-- Dự đoán thị hiếu của người sử dụng vẫn dựa trên khảo sát trên người
-  - BitterDB dự đoán được mùi vị của khoảng 1000 hoạt chất tự nhiên và bán tổng hợp
-  - Lưỡi điện tử vấn thiếu chính xác cũng như đắt đỏ 
-  - Người tình nguyện thử nghiệm vẫn là người khỏe mạnh nhưng yếu tố tác dụng phụ phải xem xét.
-
-:::
-
-::: {.column width="50%"}
-
-**Yếu tố cần xem xét**
-
-- Đặc điểm Hoạt chất: Hoạt chất hòa tan trong nước khó che mùi vị hơn hoạt chất kém hòa tan
-- Hình dạng hạt và kích thước hạt: Hạt dạng cầu dễ bao che mùi vị hơn hạt có hình dạng bất thường
-- Đảm bảo hòa tan hấp thu thuốc hoàn toàn nếu bao để che dấu mùi vị
-- Màu sắc và hình dạng có thể tạo ra nhận diện thương hiệu phù hợp với người cao tuổi nhưng với trẻ nhỏ cần xem xét.
-
-**Các kỹ thuật cải thiện hương vị**
-- Vị chua có thể giúp che lấp vị đắng nhưng nếu dùng acid có thể ảnh hưởng đến men răng
-- Vị ngọt như đường có thể làm tăng vấn đề răng miệng
-- Bao xung quanh hạt cần xem xét việc không tan tại pH dịch vị 6.2-7.4 nhưng phải giải phóng hoạt chất tại pH dạ dày. Methacrylate như Kollicoat Smartseal hoặc Eudragit E-PO thường được xem xét.
-:::
-
-::::
-
-### Tá dược điều vị
-
-| Nguyên liệu | độ ngọt tương đối|
-|-------------|-------------------|
-| Aspartam    | 200               |
-| Cyclamat    | 30-50             |
-| Glycyrrhizin | 50               |
-| Saccarin    | 450               |
-| Dextrose (glucose) | 0.7        |
-| Fructose (levulose) | 1.7       |
-| Lactose     | 0.2               |
-| Maltose     | 0.3               |
-| Mannitol    | 0.5-0.7           |
-| Sorbitol    | 0.5-0.6           |
-| Sucrose     | 1.0               |
-
-### Tá dược điều hương
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
-Điều hương theo vị tương ứng
-
-| Vị   | Hương |
-|------|--------------------------------------------------------------------|
-| Ngọt | Vanilin, nho, các loại quả hạch, quả mọng, hương lá phong, mật ong |
-| Chua | Cam, cherry, quả mâm xôi, dâu tây, rễ cây, hồi, cam thảo           |
-| Mặn  | Quả hạch, bơ, bơ đường, gia vị, hương lá phong, dưa, mâm xôi, cam chanh, hoa quả |
-| Đắng | Cam thảo, hồi, coffee, rượu, bạc hà, nho, cherry, đào, mâm xôi, quả hạch, thì là, gia vị |
-| Kiềm | Bạc hà, Chocolate, cream, vanillin                                 |
-| Kim loại | Nho, burgundy, Chanh-Cam                                       |
-
-:::
-
-::: {.column width="40%"}
-
-Điều hương theo nhóm hoạt chất
-
-| Antacid    | Cảm/ho          | Vitamins            |
-|------------|-----------------|---------------------|
-| Chocolate  | Bạch dương - hồi | Dứa tươi            |
-| Bạc hà     | Nho đen         | Nho                 |
-| Hồi-bạc hà | Rum đào         | Chanh leo           |
-| Cam        | Vanilin         | Mâm xôi             |
-| Kem bavarinan | Đinh hương   | Quả hạch            |
-| Bơ đường   | Mật ong-Chanh   | Việt quất           |
-| Kem cherry | Menthol-eucalyptus | Quả hạt nướng   |
-
-:::
-
-::::
-
-### Tá dược màu 
-
-| Màu          | Hương                                                         |
-|--------------|---------------------------------------------------------------|
-| Hồng đến đỏ  | Cherry, cherry dại, mứt hoa quả, mâm xôi, dâu, táo           |
-| Nâu          | Chocolate, thông, mật ong, mật đường, bơ đường, óc chó, burgundy, quả hạch, caramel |
-| Vàng đến cam | Chanh, cam, hoa quả hỗn hợp, trứng, chuối, cherry, bơ đường  |
-| Xanh         | Chanh, bạc hà, menthol, peppermint, bạc hà lục, pistachio    |
-| Trắng ngà – trắng | Vanillin, trứng, bạc hà, bạc hà lục, peppermint, quả hạch, chuối, caramel |
-| Tím          | Nho, mận, cam thảo                                            |
-| Xanh dương   | Bạc hà, việt quất, mận, cam thảo, hoa quả hỗn hợp             |
-
-### Cảm giác miệng 
-
-- Cảm giác không tốt: cảm giác sạn (calci carbonat) hay dính (gôm)
-- Cảm giác tốt: cảm giác mát như manitol, mềm và mượt 
-
-> Khả năng nhai của viên nhai là dạng bào chế mà có thể nhai một cách dễ dàng không bị dẻo, dính, phấn hoặc sạn nhưng kèm cảm giác dễ chịu trong miệng. 
-
-> Dự vị: cảm giác còn lại sau khi nuốt. ví dụ sắt để cảm giác "ri", lựng lớn saccarin tọa dư vị đắng. Ngoài ra tê cũng loại hậu vị khá phổ biến của các histamin như pyribenzamin HCl và promethazin HCl
-
-:::::
-
 
 # Viên sủi bọt
 ## Khái niệm 
@@ -265,6 +195,7 @@ Yêu cầu chất lượng
 - Phải rã trong thời gian 5 phút với lượng nước nhỏ 200 ml, nhiệt độ phòng $15-25^oC$.
 - Khi rã sinh ra bọt
 - Sau khi sủi bọt cần thu được dạng dung dịch hoặc hỗn dịch đồng nhất.
+
 :::
 ::: {.column width="1%"}
 :::
@@ -282,7 +213,6 @@ Yêu cầu chất lượng
 
 
 
-
 ## Thành phần 
 
 **Hoạt chất**
@@ -293,21 +223,20 @@ Yêu cầu chất lượng
 
 1. Tá tạo sủi bọt
   - Acid hữu cơ
-    - acid thực phẩm: acid citric, acid tartaric, acid malic, acid fumaric, acid succinic và acid adipic
-    - acid anhydrid: Anhudride succinic
-    - Các muối acid: Natri dihydrophosphat, dinatri dihydro pyrophoisphate, muối của acid citric, natri sulfit
-  - Các carbonat: Natri bicarrbonate, Natri carbonate, Kali Bicarrbonate, Natri sesquicarbonate, Natri glycine carbonate, L-lysince, Arginin carbonat, calci carbonate
+    - acid thực phẩm: [acid citric](/PDF/abc.pdf#page=210), [acid tartaric](/PDF/abc.pdf#page=760) , [acid malic](/PDF/abc.pdf#page=440), [acid fumaric](/PDF/abc.pdf#page=305), [acid succinic](https://en.wikipedia.org/wiki/Succinic_acid) và [acid adipic](/PDF/abc.pdf#page=40)
+    - acid anhydrid: Anhydride succinic
+    - Các muối acid: [Natri dihydrophosphat](/PDF/abc.pdf#page=685), dinatri dihydro pyrophoisphate, muối của acid citric, natri sulfit
+  - Các carbonat: [Natri bicarrbonate, Natri carbonate, Kali Bicarrbonate, Natri sesquicarbonate, Natri glycine carbonate, L-lysince, Arginin carbonat, calci carbonate](/PDF/abc.pdf#page=658)
   - Nguồn sửi bọt khác: Natri perborate khan 
-2. Tá dược dính: Tá dược dính khô như lactose, dextrose, manitol dùng ít.Polyvinyl pyrolidone thường được sử dụng.
-3. Tá dược độn: Tá dược đợn hay sử dụng là natri bicarbonate, NaCl, NS2SO4
+2. Tá dược dính: Tá dược dính khô như [Lactose](/PDF/abc.pdf#page=388) , dextrose, manitol dùng ít. [Polyvinyl pyrolidone](/PDF/abc.pdf#page=610) thường được sử dụng.
+3. Tá dược độn: Tá dược độn hay sử dụng là [natri bicarbonate](/PDF/abc.pdf#page=658), [NaCl](/PDF/abc.pdf#page=666), $Na_2SO_4$
 4. Tá dược trơn: 
-  - Không tan trong nước: Magnesi stearate, calci stearate, kẽm sterate, talc, polytetrafloroethylene
-  - Tan trong nước: natri benoate, PEG8000, chất diện hoạt như natri laurisulfat, magensi laurifulfat
+  - Không tan trong nước: [Magnesi stearate](/PDF/abc.pdf#page=433), [calci stearate](/PDF/abc.pdf#page=132), [kẽm sterate](/PDF/abc.pdf#page=822), [talc](/PDF/abc.pdf#page=757), polytetrafloroethylene
+  - Tan trong nước: [natri benoate](/PDF/abc.pdf#page=656), [PEG8000](/PDF/abc.pdf#page=587), chất diện hoạt như [natri laurisulfat](/PDF/abc.pdf#page=680), magensi laurifulfat
 5. Thành phần khác:
   - Chất màu, chất thơm
 
 ## Kỹ thuật sản xuất 
-
 
 Nguyên tắc: Giống như bào chế quy ước nhưng phải đảm bảo:
 
@@ -324,6 +253,75 @@ Cho một viên vào cốc chứa 200 ml nước ở 15 °C đến 25 °C phải
 
 **Các yêu cầu kỹ thuật khác**
 Theo yêu cầu kỹ thuật chung của thuốc viên nén và theo chuyên luận riêng.
+
+
+## Ví dụ 
+
+::: {.panel-tabset}
+
+### Viên sủi Antacid
+
+
+| Tá dược                     | Khối lượng (g) |
+|-----------------------------|----------------|
+| Acid citric, khan (hạt)     | 1180           |
+| Natri bicarbonate (hạt)     | 1700           |
+| Natri bicarbonate (bột)     | 175            |
+| Hương cam (phun sấy)        | 50             |
+| Nước                        | 30             |
+
+
+### Viên sửi Kali clorid
+
+| Tá dược                           | Khối lượng (g) |
+|-----------------------------------|----------------|
+| Glycine hydroclorid               | 1338           |
+| Clorid kali                       | 597            |
+| Kali bicarbonate                  | 1001           |
+| Kali citrat                       | 216            |
+| Polyvinyl pyrrolidon              | 77             |
+| Polyethylene glycol 8000 (bột)    | 115            |
+| Saccarin                          | 20             |
+| Silica gel (dạng khói hóa)        | 5              |
+| L-leucine (bột)                   | 30             |
+| Màu cam                           | 3              |
+| Hương cam (phun sấy)              | 5              |
+| Rượu isopropyl                    | 6              |
+
+
+### Viên sủi vệ sinh răng miệng
+| Tá dược                        | Khối lượng (g) |
+|--------------------------------|----------------|
+| Kali monopersulfate            | 800            |
+| Acid citric khan (hạt)         | 575            |
+| Natri bicarbonate (hạt)        | 800            |
+| Natri clorid                   | 320            |
+| Natri perborat monohydrat      | 320            |
+| Natri sunfat                   | 225            |
+| Polyvinyl pyrrolidon           | 100            |
+| Rượu isopropyl                 | 170            |
+| Natri lauryl sunfat            | 10             |
+| Chất màu                      | 2              |
+| Tinh dầu bạc hà                | 16             |
+| Magnesi stearat                | 20             |
+
+
+### Viên cảm trẻ em 
+
+
+| Tá dược                          | Khối lượng (g) |
+|----------------------------------|----------------|
+| Aspirin (USP, tinh thể)          | 81             |
+| Pseudoephedrin HCl               | 30             |
+| Hương hoa quả (phun sấy)         | 20             |
+| Chất màu hoa quả                 | 2              |
+| Natri bicarbonate (hạt)          | 550            |
+| Acid citric khan (hạt)           | 325            |
+| Acid citric khan (bột)           | 325            |
+| Nước                             | 170            |
+
+:::
+
 
 # Viên ngậm Lozenges
 ## Khái niệm
@@ -360,13 +358,13 @@ Phân loại:
 
 **Tá dược**
 
-- Tinh bột sắn
+- [Tinh bột sắn](/PDF/abc.pdf#page=714)
 - Glucose
 - calci carbonat
 - natri clorid
 - acid citric
 - aspartam
-- aerosil 
+- [aerosil](/PDF/abc.pdf#page=214)
 - magnesi stearat
 - đường trắng
 
@@ -398,6 +396,60 @@ Viên ngậm phải rã trong vòng 4 h, thử theo chuvên luận Phép thử �
 **Các yêu cầu kỹ thuật**
 
 Theo yêu cầu kỹ thuật chung của thuốc viên nén và theo chuyên luận riêng.
+
+## Ví dụ 
+
+::: {.panel-tabset}
+
+### Viên ngậm gây tê, giảm ho
+
+| Tá dược                                       | Khối lượng (%) |
+|-----------------------------------------------|----------------|
+| Dextromethorphan HBr (bột bám hút 10%)        | 4.0            |
+| Benzocain                                     | 2.0            |
+| Đường dùng để sản xuất bánh kẹo (3% tinh bột ngô) | 58.0           |
+| Polyethylene glycol 8000 (bột)                | 15.0           |
+| Tinh bột ngô USP                              | 12.0           |
+| Gelatin USP                                   | 3.0            |
+| Chất thơm (bột phun sấy)                      | vừa đủ         |
+| Chất màu (màu không tan)                      | vừa đủ         |
+| Magnesi stearat                               | 0.5            |
+| Polyethylene glycol 8000 (bột)                | 1.0            |
+
+
+### Viên ngậm 2 lớp giảm đau – kháng histamin
+
+| Tá dược                             | Khối lượng (%) |
+|-------------------------------------|----------------|
+| Clorpheniramin                      | 0.25           |
+| Phenylpropanolamin HCl              | 0.93           |
+| Đường dùng sx bánh kẹo (3% tinh bột ngô) | 15.0      |
+| Polyethylen glycol 8000 (bột)       | 20.0           |
+| Manitol (hạt)                       | 45.0           |
+| Cellulose vi tinh thể               | 10.0           |
+| Chất thơm (bột phun sấy)            | vừa đủ         |
+| Chất màu (màu lake)                 | vừa đủ         |
+| Magnesi stearat                     | 0.5            |
+| Polyethylene glycol 8000 (bột)      | 3.0            |
+| Acid stearic (bột)                  | 0.25           |
+| Cab-O-Sil M-5                       | 0.1            |
+
+### Kẹo ngậm Strepsils
+
+| Tá dược                            | Khối lượng (mg) |
+|------------------------------------|-----------------|
+| Amyl metacresol                    | 0.6             |
+| Dicloro benzylic                   | 1.2             |
+| Dung dịch glucose và Siro          | vừa đủ          |
+| Tá dược khác                       | vừa đủ          |
+
+
+
+
+
+:::
+
+
 
 # Viên nhai <br> Chewable tablets
 :::{.callout-important title="Khái niệm"}
@@ -472,20 +524,85 @@ Phân loại:
 ::: {.column width="59%"}
 **Tá dược**
 
-- Độn: lactose, cellulose vi tinh thể, mannitol
-- Dính: gelatin, glucose, acaia, ethyl cellulose, hydroxypropulmethyl cellulose, tinh bột
-- Siêu rã: Crosmaellose sodium, crospovidone, sodium starch glycolate, starch
-- Trơn: magenisi stearat, talc, paraffin, natri lauryl sulfate
+- Độn: lactose, [cellulose vi tinh thể](/PDF/abc.pdf#page=168), mannitol
+- Dính: [gelatin](/PDF/abc.pdf#page=307), glucose, [acaia](/PDF/abc.pdf#page=30), [ethyl cellulose](/PDF/abc.pdf#page=291), [hydroxypropylmethyl cellulose](/PDF/abc.pdf#page=343), tinh bột
+- Siêu rã: [Crosmaellose sodium](/PDF/abc.pdf#page=235), [crospovidone](/PDF/abc.pdf#page=237), [sodium starch glycolate](/PDF/abc.pdf#page=692), starch
+- Trơn: magenisi stearat, talc, [paraffin](/PDF/abc.pdf#page=504), natri lauryl sulfate
 - Điều hòa sự chảy: Aerosil, tinh bột ngô
 - Điều vị: sucros, saccharin, aspartame
 - Điều hương: bạc hà, vanilla, cam, quế, xoài, cherry
 - Màu: sunset yellow, sắt oxyd
+
 :::
 ::::
 
 ## Kỹ thuật sản xuất <br> Viên nhai
 
 {{< video https://www.youtube.com/embed/_AMmtwaR51c width="90%" height="900">}}
+
+
+## Ví dụ 
+
+::: {.panel-tabset}
+
+### Viên nhai antacid 
+
+| Tá dược                                | Khối lượng (mg) |
+|----------------------------------------|-----------------|
+| Gel khô nhôm hydroxyd và magnesi carbonat (Reheis FMA-11) | 400            |
+| Syloid 244                             | 50              |
+| Emdex                                  | 1100            |
+| Bột dược phẩm (Crompton và Knowles)    | 20              |
+| Magnesi stearat                        | 16              |
+
+### Viên nhai giảm đau hạ sốt 
+
+| Tá dược                        | Khối lượng (mg) |
+|--------------------------------|-----------------|
+| Manitol, USP                   | 720.0           |
+| Natri saccharin                | 6.0             |
+| Paracetamol (hạt thô)          | 120.0           |
+| Dung dịch tá dược dính*        | 21.6            |
+| Dầu bạc hà                     | 0.5             |
+| Syloid 244                     | 0.5             |
+| Hương chuối                    | 2.0             |
+| Hương hồi                      | 2.0             |
+| Natri clorid (bột)             | 6.0             |
+| Magnesi stearat                | 27.5            |
+
+
+
+### Viên nhai chống dị ứng 
+
+
+| Tá dược                        | Khối lượng (mg) |
+|--------------------------------|-----------------|
+| Phenyl propanolamin HCl        | 9.375           |
+| Clorpheniramin                 | 1.000           |
+| Emdex                          | 363.365         |
+| Magna Ngọt 165                 | 0.960           |
+| Điều hương                     | 1.900           |
+| Chất màu cherry                | 0.560           |
+| Magnesi stearat                | 2.840           |
+
+;
+
+### Viên nhai vitamin C
+
+| Tá dược                              | Khối lượng (mg) |
+|--------------------------------------|-----------------|
+| Acid ascorbic (dư 10%)               | 275.0           |
+| Ethocel 7 cps, 10% trong isopropanol | vừa đủ          |
+| NuTab                                | 275.0           |
+| Thuốc Sta-Rx 1500                    | 50.0            |
+| Natri saccharin                      | 1.0             |
+| hồ FD&C                              | vừa đủ          |
+| Chất điều hương                      | vừa đủ          |
+| Magnesi stearat                      | 5.0             |
+
+
+:::
+
 
 
 # Viên nén đặt dưới lưỡi Sublingual tablets
@@ -518,7 +635,7 @@ Viên kết dính niêm mạc miệng là viên được giữ ở má và nư�
 :::
 
 :::{.column width="30%"}
-![Viên đặt dính niêm mạc miệng](./Images/Mucoadhesive.png)
+![Viên đặt dính niêm mạc miệng](../BaoCheCacDangDacBiet/Images/Mucoadhesive.png)
 :::
 :::{.column width="30%"}
 {{< video https://www.youtube.com/embed/AUpyrvsCPv8 width="90%" height="600">}}
@@ -576,6 +693,112 @@ Viên kết dính niêm mạc miệng là viên được giữ ở má và nư�
 ::::
 
 
+## Ví dụ 
+
+::: {.panel-tabset}
+
+
+### Viên đặt dưới lưỡi nitroglycerin (Đổ khuôn)
+
+Công thức
+
+| Tá dược                               | Khối lượng (mg) |
+|---------------------------------------|-----------------|
+| Bột nghiền Nitroglycerin (10% trong lactose) | 4.40          |
+| Lactose                               | 32.25           |
+| Polyethylen glycol 4000               | 0.35            |
+| Ethanol 60%                           | vừa đủ          |
+
+Hướng dẫn sản xuất:
+
+1. Rây và trộn bột kép nitroglycerin, lactose
+2. Hòa tan PEG 4000 vào ethanol 60% rồi trộn đều với bột kép thành khối ẩm.
+3. Lên khối âm vào khuôn
+4. Lấy viên ra và làm khô
+
+### Viên đặt dưới lưỡi nitroglycerin (Dập thẳng)
+
+| Tá dược                                | Khối lượng (mg) |
+|----------------------------------------|-----------------|
+| Nitroglycerin (10% trong cellulose vi tinh thể) | 3.0     |
+| Manitol                                | 2.0             |
+| Cellulose vi tinh thể                  | 29.0            |
+| Chất thơm                              | vừa đủ          |
+| Chất làm ngọt                          | vừa đủ          |
+| Chất màu                               | vừa đủ          |
+
+
+Rây và trộn bột kép các thành phần. Dập viên
+
+### Viên đặt dưới lưỡi nitroglycerin (Tạo hạt ướt)
+
+Công thức
+
+| Tá dược                        | Khối lượng (mg) |
+|--------------------------------|-----------------|
+| Cellulose vi tinh thể          | 21.00           |
+| Lactose khan                   | 5.25            |
+| Tinh bột                       | 3.00            |
+| Chất màu                       | vừa đủ          |
+| Povidone                       | 0.30            |
+| Nitroglycerin                  | 0.30            |
+| Canxi stearat                  | 0.15            |
+
+
+Hướng dẫn sản xuất:
+
+1. Trộn các tá dược và chất màu thành bột kép
+2. Hòa tan povidone và nitroglycerin trong ethanol
+3. Tạo hạt
+4. Sấy và sửa hạt
+5. Trộn hạt với calci stearate và dập viên.
+
+### Viên kết dính niêm mạc miệng nitroglycerin
+
+Công thức
+
+| Tá dược                             | Khối lượng (mg) |
+|-------------------------------------|-----------------|
+| Nitroglycerin trong lactose (1:9)   | 20.0            |
+| HPMC E50                            | 16.0            |
+| HPMC E4M                            | 10.0            |
+| HPC                                 | 2.0             |
+| Axit stearic                        | 0.4             |
+| Lactose khan phun sấy               | vừa đủ (70.0)   |
+
+
+Hướng dẫn sản xuất
+
+1. Trộn các cellulose với lactose
+2. Trộn tiếp với nitroglycerin trong lactose
+3. Trộn tá dược trơn acid stearic
+4. Dập viên
+
+### Viên kết dính niêm mạc miệng Methyltestosteron
+
+
+| Tá dược            | Khối lượng (mg) |
+|--------------------|-----------------|
+| Metyl testosteron  | 10              |
+| Lactose            | 86              |
+| Sucrose            | 87              |
+| Cây keo            | 10              |
+| Bột talc           | 6               |
+| Magnesi stearat    | 1               |
+| Nước               | vừa đủ          |
+
+
+Hướng dẫn sản xuất
+
+1. Rây dược chất và các tá dược qua rây 60 mesh, trộn đều.
+2. Trộn ướt với nước cho tới khi thu được khối ẩm đồng nhất.
+3. Xát hạt qua rây 8 mesh.
+4. Sấy hạt ở 40°C.
+5. Sửa hạt qua rây 10 mesh.
+6. Trộn với tá dược trơn và dập viên.
+
+:::
+
 # Viên nén đặt trực tràng
 
 ## Khái niệm
@@ -618,6 +841,9 @@ Viên kết dính niêm mạc miệng là viên được giữ ở má và nư�
 
 ::::
 
+
+
+
 # Taste and Appearance: Selecting the Right Excipients
 
 [Lựa chọn tá dược chính xác](https://www.pharmtech.com/view/taste-and-appearance-selecting-the-right-excipients)
@@ -632,3 +858,214 @@ Viên kết dính niêm mạc miệng là viên được giữ ở má và nư�
 
 >For pediatric medicines, factors to be considered include the fat and water content along with relevant genetic information. It is a tricky area from a regulatory standpoint, but it does help guide the selection of excipients by taking into consideration their potential impacts on young developing bodies,” observes Guy.
 
+## Giải phóng tại khoang miệng
+
+::::: {.panel-tabset}
+
+### Lợi ích bệnh nhân
+
+:::: {.columns}
+::: {.column width="50%"}
+
+> Đặt lợi ích của bệnh nhân lên hàng đầu trong phát triển công thức bào chế
+
+- Lợi ích và hiệu quả điều trị 
+- Dễ sử dụng cho bệnh nhân
+- Khả năng sản xuất 
+
+**Các vấn đề**
+
+- 60% các hoạt chất đang phát triển làm thuốc được phân loại vào nhóm có vị đắng
+- Dự đoán thị hiếu của người sử dụng vẫn dựa trên khảo sát trên người
+  - BitterDB dự đoán được mùi vị của khoảng 1000 hoạt chất tự nhiên và bán tổng hợp
+  - Lưỡi điện tử vấn thiếu chính xác cũng như đắt đỏ 
+  - Người tình nguyện thử nghiệm vẫn là người khỏe mạnh nhưng yếu tố tác dụng phụ phải xem xét.
+
+:::
+
+::: {.column width="50%"}
+
+**Yếu tố cần xem xét**
+
+- Đặc điểm Hoạt chất: Hoạt chất hòa tan trong nước khó che mùi vị hơn hoạt chất kém hòa tan
+- Hình dạng hạt và kích thước hạt: Hạt dạng cầu dễ bao che mùi vị hơn hạt có hình dạng bất thường
+- Đảm bảo hòa tan hấp thu thuốc hoàn toàn nếu bao để che dấu mùi vị
+- Màu sắc và hình dạng có thể tạo ra nhận diện thương hiệu phù hợp với người cao tuổi nhưng với trẻ nhỏ cần xem xét.
+
+**Các kỹ thuật cải thiện hương vị**
+- Vị chua có thể giúp che lấp vị đắng nhưng nếu dùng acid có thể ảnh hưởng đến men răng
+- Vị ngọt như đường có thể làm tăng vấn đề răng miệng
+- Bao xung quanh hạt cần xem xét việc không tan tại pH dịch vị 6.2-7.4 nhưng phải giải phóng hoạt chất tại pH dạ dày. Methacrylate như Kollicoat Smartseal hoặc Eudragit E-PO thường được xem xét.
+:::
+
+::::
+
+### Tá dược điều vị
+
+| Nguyên liệu | độ ngọt tương đối|
+|-------------|-------------------|
+| [Aspartam](/PDF/abc.pdf#page=77){preview-link="true"}    | 200               |
+| Cyclamat    | 30-50             |
+| Glycyrrhizin | 50               |
+| [Saccarin](/PDF/abc.pdf#page=643)   | 450               |
+| [Dextrose (glucose)](/PDF/abc.pdf#page=251) | 0.7        |
+| [Fructose (levulose)](/PDF/abc.pdf#page=302) | 1.7       |
+| [Lactose](/PDF/abc.pdf#page=388)     | 0.2               |
+| [Maltose](/PDF/abc.pdf#page=451)      | 0.3               |
+| [Mannitol](/PDF/abc.pdf#page=443)     | 0.5-0.7           |
+| [Sorbitol](/PDF/abc.pdf#page=708)     | 0.5-0.6           |
+| [Sucrose](/PDF/abc.pdf#page=732)      | 1.0               |
+
+### Tá dược điều hương
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+Điều hương theo vị tương ứng
+
+| Vị   | Hương |
+|------|--------------------------------------------------------------------|
+| Ngọt | [Vanilin](/PDF/abc.pdf#page=789) , nho, các loại quả hạch, quả mọng, hương lá phong, mật ong |
+| Chua | Cam, cherry, quả mâm xôi, dâu tây, rễ cây, hồi, cam thảo           |
+| Mặn  | Quả hạch, bơ, bơ đường, gia vị, hương lá phong, dưa, mâm xôi, cam chanh, hoa quả |
+| Đắng | Cam thảo, hồi, coffee, rượu, bạc hà, nho, cherry, đào, mâm xôi, quả hạch, thì là, gia vị |
+| Kiềm | Bạc hà, Chocolate, cream, vanillin                                 |
+| Kim loại | Nho, burgundy, Chanh-Cam                                       |
+
+:::
+
+::: {.column width="40%"}
+
+Điều hương theo nhóm hoạt chất
+
+| Antacid    | Cảm/ho          | Vitamins            |
+|------------|-----------------|---------------------|
+| Chocolate  | Bạch dương - hồi | Dứa tươi            |
+| Bạc hà     | Nho đen         | Nho                 |
+| Hồi-bạc hà | Rum đào         | Chanh leo           |
+| Cam        | Vanilin         | Mâm xôi             |
+| Kem bavarinan | Đinh hương   | Quả hạch            |
+| Bơ đường   | Mật ong-Chanh   | Việt quất           |
+| Kem cherry | Menthol-eucalyptus | Quả hạt nướng   |
+
+:::
+
+::::
+
+### Tá dược màu 
+
+| Màu          | Hương                                                         |
+|--------------|---------------------------------------------------------------|
+| Hồng đến đỏ  | Cherry, cherry dại, mứt hoa quả, mâm xôi, dâu, táo           |
+| Nâu          | Chocolate, thông, mật ong, mật đường, bơ đường, óc chó, burgundy, quả hạch, caramel |
+| Vàng đến cam | Chanh, cam, hoa quả hỗn hợp, trứng, chuối, cherry, bơ đường  |
+| Xanh         | Chanh, bạc hà, menthol, peppermint, bạc hà lục, pistachio    |
+| Trắng ngà – trắng | Vanillin, trứng, bạc hà, bạc hà lục, peppermint, quả hạch, chuối, caramel |
+| Tím          | Nho, mận, cam thảo                                            |
+| Xanh dương   | Bạc hà, việt quất, mận, cam thảo, hoa quả hỗn hợp             |
+
+### Cảm giác miệng 
+
+- Cảm giác không tốt: cảm giác sạn (calci carbonat) hay dính (gôm)
+- Cảm giác tốt: cảm giác mát như manitol, mềm và mượt 
+
+> Khả năng nhai của viên nhai là dạng bào chế mà có thể nhai một cách dễ dàng không bị dẻo, dính, phấn hoặc sạn nhưng kèm cảm giác dễ chịu trong miệng. 
+
+> Dự vị: cảm giác còn lại sau khi nuốt. ví dụ sắt để cảm giác "ri", lựng lớn saccarin tọa dư vị đắng. Ngoài ra tê cũng loại hậu vị khá phổ biến của các histamin như pyribenzamin HCl và promethazin HCl
+
+
+
+### Tá dược 
+
+A: Viên sủi B: Viên ngậm C: Viên nhai D: Viên đặt dưỡi lưỡi ^[Handbook of Pharmaceutical Excipients]
+
+:::: {.columns}
+::: {.column width="25%"}
+
+| Tá dược                              | A | B | C | D |
+|-------------------------|---|---|---|---|
+| [Acid citric](/PDF/abc.pdf#page=210) | x            |           |           |                   |
+| [Aspartame](/PDF/abc.pdf#page=77)    | x            |           | x         |                   |
+| [Citric Acid Monohydrate](/PDF/abc.pdf#page=210) | x |       |           |                   |
+| [Sodium Citrate Dihydrate](/PDF/abc.pdf#page=669) | x |       |           |                   |
+| [Dextrates](/PDF/abc.pdf#page=247)   | x            |           | x         |                   |
+| [Fumaric Acid](/PDF/abc.pdf#page=305) | x            |           |           |                   |
+| [Isomalt](/PDF/abc.pdf#page=371)     | x            | x         | x         |                   |
+| [Lactose, Monohydrate and Povidon](/PDF/abc.pdf#page=402) | x | x | x       | x                 |
+| [Lactose, Anhydrous](/PDF/abc.pdf#page=388) |      |           |           | x                 |
+| [Malic Acid](/PDF/abc.pdf#page=440)   | x            |           |           |                   |
+| [Maltodextrin](/PDF/abc.pdf#page=447) |             | x         | x         |                   |
+| [Polydextrose](/PDF/abc.pdf#page=542) |             | x         |           |                   |
+| [Sucrose](/PDF/abc.pdf#page=732)     |              | x         | x         |                   |
+
+:::
+::: {.column width="25%"}
+| Tá dược                              | A | B | C | D |
+|-------------------------|---|---|---|---|
+| [Ascorbic Acid](/PDF/abc.pdf#page=72) |             |           | x         |                   |
+| [Dextrose](/PDF/abc.pdf#page=252)    |              |           | x         |                   |
+| [Maltose](/PDF/abc.pdf#page=451)     |              |           | x         |                   |
+| [Mannitol](/PDF/abc.pdf#page=453)    |              |           | x         | x                 |
+| [Saccharin](/PDF/abc.pdf#page=634)   |              |           | x         |                   |
+| [Sodium Cyclamate](/PDF/abc.pdf#page=672) |          |           | x         |                   |
+| [Sorbitol](/PDF/abc.pdf#page=708)    |              |           | x         |                   |
+| [Sugar, Compressible](/PDF/abc.pdf#page=738) |      |           | x         |                   |
+| [Xylitol](/PDF/abc.pdf#page=815)     |              |           | x         |                   |
+| [Acesulfame Potassium](/PDF/abc.pdf#page=32) |      |           | x         | x                 |
+| [Tartaric Acid](/PDF/abc.pdf#page=760) | x            |           |           | x                 |
+| [Fructose](/PDF/abc.pdf#page=302)    |              | x         | x         |                   |
+| [Maltitol Solution](/PDF/abc.pdf#page=445) |        | x         |           |                   |
+
+
+
+:::
+::: {.column width="25%"}
+| Tá dược                              | A | B | C | D |
+|-------------------------|---|---|---|---|
+| [Potassium Bicarbonate](/PDF/abc.pdf#page=599) | x | x | x       |                   |
+| [Potassium Chloride](/PDF/abc.pdf#page=601) | x     |           |           |                   |
+| [Sodium Bicarbonat](/PDF/abc.pdf#page=658) | x    |           | x         |                   |
+| [Sodium Carbonat](/PDF/abc.pdf#page=664) | x      | x         |           |                   |
+| [Calcium Silicate](/PDF/abc.pdf#page=131) | x        |           |           |                   |
+| [Polyethylene Glycol](/PDF/abc.pdf#page=546) |      | x         |           |                   |
+| [Sodium Alginate](/PDF/abc.pdf#page=651) |          | x         |           |                   |
+| [Sodium Borate](/PDF/abc.pdf#page=662) |            | x         |           |                   |
+| [Soybean Oil](/PDF/abc.pdf#page=711) |              | x         | x         |                   |
+| [Polycarbophil](/PDF/abc.pdf#page=538) |           |           | x         | x                 |
+| [Cetylpyridinium Chlorid](/PDF/abc.pdf#page=186) |  | x       |           |                   |
+:::
+
+::: {.column width="25%"}
+| Tá dược                              | A | B | C | D |
+|-------------------------|---|---|---|---|
+| [Butylated Hydroxyanisole](/PDF/abc.pdf#page=102) |  |           |           | x                 |
+| [CastorOil, Hydrogenated](/PDF/abc.pdf#page=157) |  |           |           | x                 |
+| [CottonseedOil](/PDF/abc.pdf#page=231) |           |           |           | x                 |
+| [Croscarmellose Sodium](/PDF/abc.pdf#page=235) |   |           |           | x                 |
+| [Methylcellulose](/PDF/abc.pdf#page=467) |         |           |           | x                 |
+| [Polyoxyl glycerides](/PDF/abc.pdf#page=586) |      |           |           | x                 |
+| [Povidone](/PDF/abc.pdf#page=610)    |              |           |           | x                 |
+| [Stearic Acid](/PDF/abc.pdf#page=726) |              |           |           | x                 |
+| [Tragacanth](/PDF/abc.pdf#page=773)  |              |           |           | x                 |
+| [Erythritol](/PDF/abc.pdf#page=280)  |              | x         |           |                   |
+| [Acacia](/PDF/abc.pdf#page=30)       |              | x         |           | x                 |
+| [Carrageenan](/PDF/abc.pdf#page=151) |              |           | x         |                   |
+| [Cellulose, Microcrystalline](/PDF/abc.pdf#page=158) |  |       | x         |                   |
+| [Cellulose Acetate](/PDF/abc.pdf#page=170) |       |           | x         |                   |
+:::
+
+::::
+
+
+:::::
+
+# Câu hỏi lượng giá
+
+## Lượng giá
+
+> Hãy dành 15 phút để tìm hiểu vấn đề xung quanh. 02 bạn lên phân tích. 
+
+
+1. So sánh viên nhai và viên sủi về đặc điểm thành phần và các chỉ tiêu chất lượng
+2. So sánh viên sủi và viên ngậm về đặc điểm thành phần và các chỉ tiêu chất lượng

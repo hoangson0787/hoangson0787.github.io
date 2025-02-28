@@ -1,10 +1,8 @@
 ---
-title: "Các dạng bào chế đặc biệt"
+title: "Viên nén đặc biệt và dạng bào chế hiện đại"
 subtitle: "Các hệ thuốc giải phóng tại đích"
 author:
   - name: TS. Hoàng Lê Sơn
-    email: sonhoang.ump@vnu.edu.vn
-    affiliations: UMP
 date: last-modified
 toc: true
 toc-depth: 1
@@ -13,9 +11,10 @@ format:
   #pptx: default
   revealjs:
     slide-number: true
-    css: "../styles.css"
-    logo: "../../images/9.png"
-    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    preview-links: auto
+    css: "styles.css"
+    logo: "../BaoCheCacDangDacBiet/Images/LogoDaiNam.svg"
+    footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
     incremental: false
@@ -23,24 +22,22 @@ format:
     auto-stretch: false
     chalkboard: true
     highlight-style: github-dark
-    theme: [default, ../custom.scss] #"../coeos.scss"
-    simplemenu:
-            menubarclass: "menubar"
-            menuclass: "menu"
-            activeclass: "active"
-            activeelement: "li"
-            barhtml:
-                header: ""
-                footer: ""
-            flat: false
-            scale: 0.67
-revealjs-plugins:
-    - simplemenu
+    theme: [default, custom.scss] #"../coeos.scss"
+
 title-slide-attributes: 
-  data-background-image: "../../images/9.png"
+  data-background-image: "../BaoCheCacDangDacBiet/Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
+
+
+
+## MỤC TIÊU:
+
+1. Trình bày được đặc điểm thành phần, cấu trúc của các hệ thuốc: hệ mang được chất có cấu trúc nano, liposome.
+2. Trình bày được nguyên tắc các phương pháp bào chế hệ thuốc nano và liposome.
+3. Giải thích được cơ chế giải phóng hướng đích của hệ thuốc nano và liposome, phân tích được các yếu tố ảnh hưởng.
+4. Trình bày được một số chỉ tiêu chất lượng của hệ thuốc nano, liposome cần đánh giá, phương pháp đánh giá.
 
 # Hệ Nano giải phóng hướng đích 
 
@@ -63,6 +60,7 @@ Hệ thuốc nano giải phóng tại đích là hệ chứa các tiểu phân c
 ### Thành phần  
 
 Dược chất: Thuốc điều trị tại đích như ung thư, đái tháo đường, HIV-AIDS
+
 Tá dược:  
 
 ::: {.panel-tabset}
@@ -227,9 +225,6 @@ hữu cơ ở nhiệt độ thích hợp. Dung môi hữu cơ dễ trộn lẫn 
 :::
 
 ### Một số ví dụ 
-
-
-
 
 :::
 

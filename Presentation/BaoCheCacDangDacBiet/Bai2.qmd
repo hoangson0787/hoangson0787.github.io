@@ -1,10 +1,8 @@
 ---
-title: "Các dạng bào chế đặc biệt"
-subtitle: "Đại cương các hệ thuốc giải phóng kiếm soát"
+title: "Viên nén đặc biệt và dạng bào chế hiện đại"
+subtitle: "Hệ giải phóng kiểm soát"
 author:
-  - name: TS. Hoàng Lê Sơn
-    email: sonhoang.ump@vnu.edu.vn
-    affiliations: UMP
+- name: TS. Hoàng Lê Sơn
 date: last-modified
 toc: true
 toc-depth: 1
@@ -13,9 +11,10 @@ format:
   #pptx: default
   revealjs:
     slide-number: true
-    css: "../styles.css"
-    logo: "../../images/9.png"
-    footer: "Các dạng bào chế đặc biệt"
+    preview-links: auto
+    css: "styles.css"
+    logo: "Images/LogoDaiNam.svg"
+    footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
     incremental: false
@@ -23,22 +22,32 @@ format:
     auto-stretch: false
     chalkboard: true
     highlight-style: github-dark
-    theme: [default, ../custom.scss] #"../coeos.scss"
+    theme: [default, custom.scss] #"../coeos.scss"
+
 title-slide-attributes: 
-  data-background-image: "../../images/9.png"
+  data-background-image: "Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
 
+## Mục tiêu 
+
+1. Trình bày được định nghĩa, phân loại và mô hình cấu trúc cơ bản của các hệ thuốc giải phóng kiểm soát.
+2. So sánh được ưu, nhược điểm của hệ thuốc giải phóng kiểm soát với hệ thuốc giải phóng kéo dài, giải phóng nhắc lại, thuốc quy ước.
+3. Phân tích được mô hình động học giải phóng dược chất từ dạng bào chế: mô hình động học bậc 0, bậc 1, và một số mô hình toàn học thường áp dụng.
+4. Giải thích được ý nghĩa của các mô hình giải phóng được chất.
+
 ## Khái niệm
+
+::: {.panel-tabset}
+
+### Khái niệm
+
 ::: {.callout-important title="Khái niệm"}
-Hệ thuống giải phóng kiểm soát là các dạng bào chế có áp dụng biện pháp kỹ thuật cải biên sinh khả dụng nhằm kiểm soát chặt chẽ quá trình giải phóng dược chất trong khoảng liều có tác dụng điều trị, kiểm soát thời gian, không gian vùng giải phóng dược chất trong cơ thể, nâng cao hiệu quả điều trị của thuốc
+Hệ thuống giải phóng kiểm soát (Controlled release) là các dạng bào chế có áp dụng biện pháp kỹ thuật cải biên sinh khả dụng nhằm kiểm soát chặt chẽ quá trình giải phóng dược chất trong khoảng liều có tác dụng điều trị, kiểm soát thời gian, không gian vùng giải phóng dược chất trong cơ thể, nâng cao hiệu quả điều trị của thuốc
 :::
-::::{.columns}
-:::{.column width="70%"}
 
-
-![Dạng thường quy](../BaoCheCacDangDacBiet/Images/Normal.png)
+![Nồng độ thuốc trong huyết tương và mô hình giải phóng.](Images/drugplasma.jpg)
 
 | Đặc điểm | Dạng bào chế quy ước | Dạng bào chế hiện đại |
 |----------|----------------------|-----------------------|
@@ -46,14 +55,24 @@ Hệ thuống giải phóng kiểm soát là các dạng bào chế có áp dụ
 |Sinh khả dụng | SKD của thuốc gần như không cải biển| SKD cải biến như dạng giải phóng kéo dài, giải phóng kiểm soát theo chương trình, hướng đích|
 | Biện pháp kỹ thuật| Áp dụng tăng độ hòa tan, tăng tính thấm | Kiểm soát giải phóng và hấp thu dược chất một cách tối ưu tạo hiệu quả điều trị cao nhất|
 
+### Vị trí giải phóng
+
+![Vị trí thuốc giải phóng theo đường.](Images/ViTriGiaiPhong.png)
+
+### Dạng bào chế
+
+![Vị trí thuốc giải phóng theo đường.](Images/DangDung.png)
+
+### Thuốc trong máu 
+
+![Vị trí thuốc giải phóng theo đường.](Images/pattent.png)
+
 :::
 
-:::{.column width="30%"}
-![Dạng kiểm soát giải phóng](../BaoCheCacDangDacBiet/Images/Control.png)
-:::
-
-::::
 ## Lịch sử phát triển ^[The Controlled Drug Delivery Systems: Past Forward and Future Back, Kinam Park, *2015*]
+
+[Lịch sử phát triển](PDF/DDS-history-9-12.pdf)
+
 :::: {.columns}
 :::{.column width="40%"}
 Lịch sử phát triển của dạng bào chế kiểm soát giải phóng bắt đầu từ năm 1952 với 3 thế hệ. Dextroamphetamine (A) với tên thương mại Dexedrine là thuốc đầu tiên ở dạng bào chế hiện đại thế hệ thứ nhất. Goserelin acetate (B) với tên thương mại Zoladex® Depot là thuốc đầu tiên ở dạng bào chế hiện đại thế hệ thứ hai vào năm 1989. Đây là một peptid với thời gian tác dụng kéo dài từ 1-3 tháng. Nhận thức thế hệ ban đầu làm sao cho nồng độ thuốc hằng định trong máu nhất có thể nhưng thế hệ thứ hai thay đổi sao cho nồng độ trong máu trên nồng độ có tác dụng
@@ -116,9 +135,45 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 
 
 
+## Ưu nhược điểm 
+::: {.panel-tabset}
+
+### Trên lâm sàng
+
+- Giảm tần suất sử dụng thuốc
+- Cải thiện sự tuân thủ của bệnh nhân
+- Giảm dao động nồng độ thuốc trong máu
+- Giảm tổng mức sử dụng thuốc khi so sánh với liệu pháp thông thường
+- Giảm tích tụ thuốc với liệu pháp mãn tính
+- Giảm (cục bộ / toàn thân)
+- Ổn định tình trạng độc tính y tế của thuốc (do mức độ thuốc đồng đều hơn)
+- Improvement in bioavailability of some drugs because of spatial control
+- Economical to the health care providers and the patient
+
+
+### Lợi thế thương mại / công nghiệp 
+
+- Minh họa về sự dẫn đầu sáng tạo / công nghệ
+- Mở rộng vòng đời sản phẩm
+- Sự khác biệt hóa sản phẩm
+- Mở rộng thị trường
+- Mở rộng bằng sáng chế
+
+
+### Những hạn chế tiềm ẩn 
+
+- Sự chậm trễ trong việc bắt đầu hoạt động của thuốc
+- Khả năng bán phá giá liều trong trường hợp chiến lược công thức kém
+- Tăng khả năng chuyển hóa lần đầu tiên
+- Phụ thuộc nhiều hơn vào thời gian cư trú đường tiêu hóa của dạng bào chế
+- Khả năng điều chỉnh liều kém chính xác hơn trong một số trường hợp
+- Chi phí trên mỗi đơn vị liều cao hơn khi so sánh với liều thông thường
+- Không phải tất cả các loại thuốc đều phù hợp để pha chế thành dạng bào chế ER
+
+
+:::
+
 ## Phân loại
-
-
 
 
 ::: {.panel-tabset}
@@ -127,6 +182,23 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 
 ![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](../BaoCheCacDangDacBiet/Images/Classification.png){width="60%"}
 
+### Theo đường dùng
+[hiện tại và kỳ vọng ](https://www.pharmtech.com/view/an-evolving-approach-to-drug-delivery)
+
+
+Thế hệ đầu tiên 1950 đến 1980 sử dụng cơ chế kiểm soát hòa tan, khuếch tán, áp suất thẩm thấu và trao đổi ion dùng dạng đường uống và hệ trị liệu qua da
+
+Thế hệ thứ hai sử dụng qua đường tiêm: Với công thức vi hạt sử dụng [poly(lactic-co-glycolic acid) (PLGA)](/PDF/abc.pdf#page=544) nhằm cung cấp giải phóng peptide và protein trong vòng 1 tháng. Thuốc có thể kéo dài trong 6 tháng nếu điều chỉnh tỷ lệ và protein. Một cách tiếp nữa chính là [poly (ethylene glycol) (PEG)](/PDF/abc.pdf#page=546) vào các phân tử protein — PEGylation. Điều này giúp protein tồn tại lâu hơn trong cơ thể. Tuy nhiên nhược điểm cơ thể sẽ sinh ra kháng thể chống lại phân tử PEG dẫn đến quá trình thanh thải nhanh hơn. 
+
+[PEGylation](https://en.wikipedia.org/wiki/PEGylation)
+
+{{< video https://www.youtube.com/embed/W0Gn6YsOGm8 width="400" height="400">}}
+
+
+{{< video https://www.youtube.com/embed/mfjwKUxenuA width="400" height="400">}}
+
+
+Tiến bộ gần đây: 2021, GlaxoSmithKline và ViiV Healthcare công bố phát triển thuốc điều trị HIV siêu dài dựa trên enzyme hyaluronidase PH20 tái tổ hợp ở người (rHuPH20). Johnson & Johnson, và Bioasis Technologies, đã được hình thành để phát triển các loại thuốc có thể vượt qua hàng rào máu não (BBB). 
 
 ### theo cách thiết kế
 ![Phân loại theo cách thiết kế:  Thuốc giải phóng theo chương trình (a), Thuốc giải phóng có module kích hoạt (b), Thuốc giải phóng theo cơ chế đáp ứng cho-nhận (c), Thuốc giải phóng tại đích (d)](../BaoCheCacDangDacBiet/Images/TypeOfRelease.png)
@@ -137,90 +209,49 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 
 | Mô hình giải phóng | Thời gian giải phóng | tên gọi dạng thuốc  |
 |--------------------|----------------------|---------------------|
-|Giải phóng ngay     | trong vòng 30 phút   | Thuốc quy ước       |
-|Giải phóng nhanh    | Trong vòng 1 phút    | thuốc giải phóng nhanh|
-|Giải phóng muộn     | Trong vòng 1-2 giờ   | Bao tan tại ruột    |
+|Giải phóng ngay (Immediate release)    | trong vòng 30 phút   | Thuốc quy ước       |
+|Giải phóng nhanh    | Trong vòng 1 phút    | Thuốc giải phóng nhanh|
+|Giải phóng muộn (delay release)    | Trong vòng 1-2 giờ   | Bao tan tại ruột    |
 |                    | Giải phóng sau 3-5 giờ| Giải phóng theo nhịp sinh học|
-| Giải phóng kéo dài | trên 60 phút         | Thuốc giải phóng kéo dài|
-| Giải phóng kiểm soát nồng độ dược chất trong máu hằng định trong khoảng điều trị| Hàng ngày (12-24 giờ)| thuốc giải phóng kiểm soát|
-| Giải phóng theo chương trình| Hàng tuần, hàng năm| Hệ điều trị, hệ trị liệu|
-| Giải phóng tại đích| Hàng ngày, hàng tháng |Thuốc giải phóng tại đích|
+| Giải phóng kéo dài (Extended release) | trên 60 phút         | Thuốc giải phóng kéo dài|
+| Giải phóng kiểm soát nồng độ dược chất trong máu hằng định trong khoảng điều trị (Timed release)| Hàng ngày (12-24 giờ)| thuốc giải phóng kiểm soát|
+| Giải phóng theo chương trình | Hàng tuần, hàng năm| Hệ điều trị, hệ trị liệu|
+| Giải phóng tại đích (targeted release)| Hàng ngày, hàng tháng |Thuốc giải phóng tại đích|
 
 ### theo cấu trúc
 
-
-*Hệ màng bao kiếm soát giải phóng*
-
-- Hệ màng bao không tan trong dịch sinh học, kiêm soát sự giải phóng dược chất dựa nhờ kênh khuyếch tán có trong cấu trúc màng
-- Hệ màng bao hòa tan ăn mòn trong dịch sinh học, kiểm soát sự giải phóng dược chất nhờ lớp gel do màng bao tạo ra có mạng lưới polymer trương nở hòa tan, có độ nhớt cao và bị ăn mòn dần
-
-*Hệ cố kiếm soát giải phóng:* Hệ thuốc dược chất phân tán đồng nhất trong cấu trúc cốt
-
-  - Hệ cốt không tan trong dịch sinh học
-  - Hệ cố hòa tan ăn mòn trong dịch sinh học
-
-*Hệ kết hợp cột- màng, hệ nhiều vi hệ*
-
-*Thuốc kiểm soát giải phóng có cấu bơm thẩm thấu*
-  - Hệ thuốc chứa dược chất được bao màng bán thấm
-
-*Thuốc giải phóng dược chất theo nhịp sinh học*
-
-:::
-
-## Mô hình cấu trúc của hệ thuốc giải phóng kiểm soát
-
-::: {.panel-tabset}
-
-
-### Thuốc giải phóng kéo dài
-
-**Ưu điểm:** Nồng độ máu được duy trì trong khoảng liều có tác dụng với thời gian dài, giảm số lần dùng thuốc cho người bệnh, giảm tác dụng không mong muốn, nâng cao hiệu quả điều trị của thuốc.
-
-  - Thuốc giải phóng thời gian dài: hơn 60 phút do với dạng quy dược
-  - Thuốc giải phóng kéo dài: 8h, 12h,24h
-  - Thuốc giải phóng duy trì: giải phóng nhanh có tác dụng ban đầu, sau đó duy trì nồng độ hoạt chất trong máu
-
-**Nhược điểm:** Định đỉnh và đáy không hằng định
-
-### Thuốc giải phóng nhắc lại
-
-**Ưu điểm:** Nồng độ giải phóng ngắt quãng sau khoảng thời gian nhất định, duy trì trong máu nhưng không hằng định
-
-**Nhược điểm:** Thuốc được giải phóng ngắt quáng, nống độ duy trì trong máu nhưng không hằng định tạo ra đỉnh và đáy theo chu kỳ. Tạo cảm giác khó chịu
-
-
-### Thuốc giải phóng kiểm soát
-
-**Ưu điểm:** Nồng độ dược chất hằng định trong máu tại liều điều trị tối ưu trong thời gian dài, không tạo hiện tượng đỉnh và đáy
-
-:::
-
-## Mô hình động học
-::: {.panel-tabset}
-### Các khái niệm
-
 :::: {.columns}
-::: {.column width="50%"}
-::: {.callout-note title="Giải phóng thuốc"}
-"Giải phóng thuốc" đề cập đến quá trình trong đó các chất tan thuốc di chuyển từ vị trí ban đầu trong hệ thống polyme đến bề mặt bên ngoài của polyme và sau đó đến môi trường giải phóng. Mục tiêu tập trung vào thuốc giải phóng một cách hiệu quả.
-:::
+::: {.column width="60%"}
 
-::: {.callout-note title="Động học phóng thuốc Drug release kinetics"}
-Đây là một phần dược động học, nghiên cứu chi tiết về tốc độ và cơ chế thuốc giải phóng từ dạng bào chế. Nghiên cứu động học giải phóng thuốc bao gồm cả mô hình hóa.
-:::
 
-::: {.callout-note title="Mô hình toán học giải phóng Mathematical modeling"}
-Mô hình động học là một hàm toán học mô tả quá trình giải phóng hoạt chất ra khỏi hệ thống. Mục đích của mô hình toán học là đơn giản hóa quá trình giải phóng phức tạp và hiểu rõ hơn về cơ chế giải phóng của một hệ thống vật liệu cụ thể.
-:::
 
+**Hệ cốt kiểm soát giải phóng:** Hệ thuốc dược chất phân tán đồng nhất trong cấu trúc cốt
+
+- Hệ cốt không tan trong dịch sinh học
+- Hệ cốt hòa tan ăn mòn trong dịch sinh học
+
+**Hệ màng bao kiểm soát giải phóng**
+
+- Hệ màng bao không tan trong dịch sinh học, kiểm soát sự giải phóng dược chất nhờ kênh khuếch tán có trong cấu trúc màng
+- Hệ màng bao hòa tan ăn mòn trong dịch sinh học, kiểm soát sự giải phóng dược chất nhờ lớp gel do màng bao tạo ra, có mạng lưới polymer trương nở hòa tan, có độ nhớt cao và bị ăn mòn dần
+
+
+**Hệ kết hợp cốt-màng, hệ nhiều vi hệ**
+
+**Thuốc kiểm soát giải phóng có cấu bơm thẩm thấu**
+
+- Hệ thuốc chứa dược chất được bao màng bán thấm
+
+**Thuốc giải phóng dược chất theo nhịp sinh học**
 :::
-::: {.column width="50%"}
-![Yếu tố ảnh hưởng đến mô hình giải phóng thuốc](../BaoCheCacDangDacBiet/Images/drugreleasekinetics.png)
+::: {.column width="40%"}
+
+![Cấu trúc](Images/Cau%20truc.png)
 :::
 ::::
 
-### Về động học giải phóng
+### Polymer 
+
 ::: {.panel-tabset}
 #### non-degradable polymeric matrices
 
@@ -264,6 +295,139 @@ Mô hình động học là một hàm toán học mô tả quá trình giải p
 
 :::
 
+### Cơ chế 
+
+![Cơ chế giải phóng dược chất ra khỏi cốt gồm khuếch tán, khuếch tán qua polymer, bơm thẩm thấu và xói mòn](Images/CoChe.png){width="60%"}
+
+
+:::
+
+## Ưu nhược điểm
+
+
+::: {.panel-tabset}
+
+### Bào chế quy ước
+::: { layout-ncol=2}
+
+![Hiệu chỉnh cách sử dụng](Images/ChienThuatSuDunglieu.jpg){width="65%"}
+
+![Giới hạn bào chế quy ước](Images/HanCheBaoCheQuyUoc.jpg)
+
+:::
+| Ưu điểm           | Nhược điểm            |
+|---------------------------------------|-------------------------------------------|
+| Thuận tiện trong quản trị             | Hấp thu kém từ vị trí dùng                |
+| IVIVC không xâm lấn và tốt hơn        | Không có đích tác dụng         |
+| Dạng bào chế đơn vị chính xác và đo lường | Bài tiết sớm ra khỏi cơ thể              |
+| Thời hạn sử dụng cao hơn              | Chuyển hóa thuốc sớm                      |
+| Thích ứng với sự thay đổi của bệnh nhân | Sinh khả dụng kém                        |
+| Linh hoạt để bác sĩ điều chỉnh liều lượng | Liều lượng lặp lại                    |
+| Chi phí thấp                          | Tuân thủ bệnh nhân kém                    |
+
+
+
+### Dạng kiểm soát
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+
+![Hiệu chỉnh cách sử dụng](Images/MoHinhNongDoTHuocTrongMau.jpg){width="90%"}
+
+:::
+
+::: {.column width="60%"}
+
+![Lợi thế của dạng bào chế kiểm soát](Images/SuDungThuocKiemSoat.jpg){width="40%"}
+
+| Ưu điểm           | Nhược điểm          |
+|------------------------------------------|---------------------------------------------|
+| hoạt chất giải phóng ra có kiểm soát hoặc xác định | Độc tính có thể xảy ra với tá dược được sử dụng |
+| Tính đặc hiệu của mục tiêu               | Có quá liều                       |
+| Thời gian giải phóng kéo dài                | Có thể có hiện tượng sinh ra kháng thể đào thải tá dược|
+| Bảo vệ khỏi sự trao đổi chất bằng enzyme/hóa chất | Sự hấp thụ của RES làm giảm hiệu quả         |
+| Cải thiện sinh khả dụng                  | IVIVC kém hơn                                |
+| Tần suất sử dụng thuốc giảm                | Hạn chế các hoạt chất chuyển sang dạng này                          |
+| Tuân thủ bệnh nhân tốt hơn               | Chi phí sản xuất cao hơn                    |
+
+:::
+::::
+### So sánh hai dạng
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+![Nồng độ thuốc trong huyết tương và mô hình giải phóng.](Images/drugplasma.jpg)
+
+> Nhược điểm của thuốc quy ước chỉ tạo 1 liều điều trị trong khoảng thời gian có tác dụng và nồng độ trong máu có thể vượt ngưỡng gây độc. Phải dùng nhiều lần trong ngày. 
+
+>Nhược điểm của GPKG người bệnh phải tuân thủ theo phác đồ không chia viên, không nghiền vỡ viên. Kỹ thuật sản xuất cao đòi hỏi tính chính xác. Chỉ một số dược chất có thể sản xuất được.
+
+:::
+::: {.column width="60%"}
+
+![IR- Thuốc giải phóng ngay, ER-Thuốc giải phóng kéo dài, DR-Thuốc giải phóng chậm. ](Images/ThuocGiaiphongvaNongDoHuyetTuong.png){width="50% "}
+:::
+::::
+
+
+### Thuốc giải phóng kéo dài
+extended-release (ER)
+
+**Ưu điểm:** Nồng độ máu được duy trì trong khoảng liều có tác dụng với thời gian dài, giảm số lần dùng thuốc cho người bệnh, giảm tác dụng không mong muốn, nâng cao hiệu quả điều trị của thuốc.
+
+- Thuốc giải phóng thời gian dài: hơn 60 phút do với dạng quy dược
+- Thuốc giải phóng kéo dài: 8h, 12h,24h
+- Thuốc giải phóng duy trì: giải phóng nhanh có tác dụng ban đầu, sau đó duy trì nồng độ hoạt chất trong máu
+
+**Nhược điểm:** Định đỉnh và đáy không hằng định
+
+### Thuốc giải phóng nhắc lại
+
+**Ưu điểm:** Nồng độ giải phóng ngắt quãng sau khoảng thời gian nhất định, duy trì trong máu nhưng không hằng định
+
+**Nhược điểm:** Thuốc được giải phóng ngắt quáng, nống độ duy trì trong máu nhưng không hằng định tạo ra đỉnh và đáy theo chu kỳ. Tạo cảm giác khó chịu
+
+
+### Thuốc giải phóng kiểm soát
+Sustained Drug Delivery System
+**Ưu điểm:** Nồng độ dược chất hằng định trong máu tại liều điều trị tối ưu trong thời gian dài, không tạo hiện tượng đỉnh và đáy
+
+:::
+
+## Mô hình động học
+
+::: {.panel-tabset}
+
+### Các khái niệm
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.callout-note title="Giải phóng thuốc"}
+"Giải phóng thuốc" đề cập đến quá trình trong đó các chất tan thuốc di chuyển từ vị trí ban đầu trong hệ thống polyme đến bề mặt bên ngoài của polyme và sau đó đến môi trường giải phóng. Mục tiêu tập trung vào thuốc giải phóng một cách hiệu quả.
+:::
+
+::: {.callout-note title="Động học phóng thuốc Drug release kinetics"}
+Đây là một phần dược động học, nghiên cứu chi tiết về tốc độ và cơ chế thuốc giải phóng từ dạng bào chế. Nghiên cứu động học giải phóng thuốc bao gồm cả mô hình hóa.
+:::
+
+::: {.callout-note title="Mô hình toán học giải phóng Mathematical modeling"}
+Mô hình động học là một hàm toán học mô tả quá trình giải phóng hoạt chất ra khỏi hệ thống. Mục đích của mô hình toán học là đơn giản hóa quá trình giải phóng phức tạp và hiểu rõ hơn về cơ chế giải phóng của một hệ thống vật liệu cụ thể.
+:::
+
+:::
+::: {.column width="50%"}
+![Yếu tố ảnh hưởng đến mô hình giải phóng thuốc](../BaoCheCacDangDacBiet/Images/drugreleasekinetics.png)
+
+::: {.callout-note title="Polymer trong dạng bào chế hiện đại ^[Polymer vai trò dạng bào chế quy ước: Tá dược dính, Tá dược treo, thay đổi độ nhớt, Tá dược màng bao]"}
+Phân phối thuốc có kiểm soát (CDD) xảy ra khi một polyme, dù là tự nhiên hay tổng hợp, được kết hợp một cách thận trọng với thuốc hoặc tác nhân hoạt tính khác theo cách mà tác nhân hoạt tính được giải phóng khỏi vật liệu theo cách được thiết kế sẵn. Việc giải phóng tác nhân hoạt tính có thể không đổi trong một thời gian dài, nó có thể theo chu kỳ trong một thời gian dài hoặc nó có thể được kích hoạt bởi môi trường hoặc các sự kiện bên ngoài khác. Trong mọi trường hợp, mục đích đằng sau việc kiểm soát việc phân phối thuốc là để đạt được các liệu pháp hiệu quả hơn đồng thời loại bỏ khả năng thiếu và quá liều.
+:::
+
+:::
+::::
 
 ### Về mô hình toán học
 ::: {.panel-tabset}
@@ -283,7 +447,9 @@ Trong đó:
 - $W_0$: tổng lượng dược chất có trong dạng thuốc.
 - $K_0$: hằng số tốc độ giải phóng bậc 0.
 
-Tốc độ giải phóng dược chất trong quá trình không thay đổi theo thời gian, không phụ thuộc vào sự suy giảm hàm lượng dược chất trong dạng bào chế.
+Tốc độ giải phóng dược chất trong quá trình không thay đổi theo thời gian, giải phóng chậm
+
+Không phụ thuộc vào sự suy giảm hàm lượng dược chất trong dạng bào chế.
 
 Ứng dụng: hệ điều trị qua da, hệ bơm thẩm thấu, họ cốt chứa dược chất tan chậm, hệ màng bao.
 :::
@@ -292,7 +458,7 @@ Tốc độ giải phóng dược chất trong quá trình không thay đổi th
 
 ::: {layout-ncol="2"}
 
-![](../BaoCheCacDangDacBiet/Images/zero-order.png)
+![$f_t=K_0 t với f_t là thuốc giải phóng trong thời gian t với K_0 là hằng số giải phóng$](../BaoCheCacDangDacBiet/Images/zero-order.png)
 
 ![](../BaoCheCacDangDacBiet/Images/rero-order-plasma.png)
 :::
@@ -391,15 +557,92 @@ Trong đó:
 - Chọn phép thử độ hòa tan.
 
 
+
 ### Lựa chọn hoạt chất ^[Fundamentals Applications of Controlled Release Drug Delivery]
-- Khối lượng phân tử: 150-400.
-- Dạng không ion hóa chiếm từ 0.1 -1% thuốc.
-- Hệ số phân bố biểu kiến.
-- Cơ chế hấp thu.
-- Thời gian bán hủy: $t_{1/2} = 8$ giờ là phù hợp, nếu $t_{1/2}$ nhỏ hơn 1 giờ là quá khó có thể làm được, còn $t_{1/2}$ lớn hơn thì không cần thiết.
-- Độ thanh thải.
-- Thể tích phân bố biểu kiến.
-- Sinh khả dụng tuyệt đối (F).
-- Hằng số tỷ lệ hấp thu nội tại Ka.
-- Nồng độ điều trị.
+- (Molecular weight or size) Khối lượng phân tử: 150-400.
+- (Solubility) Dạng không ion hóa chiếm từ 0.1 -1% thuốc.
+- Apparent partition coefficient (APC)  Hệ số phân bố biểu kiến.
+- (General absorption mechanism) Cơ chế hấp thu.
+- (Pharmacokinetic parameters Elimination half life (t ½)) Thời gian bán hủy: $t_{1/2} = 8$ giờ là phù hợp, nếu $t_{1/2}$ nhỏ hơn 1 giờ là quá khó có thể làm được, còn $t_{1/2}$ lớn hơn thì không cần thiết.
+- (Total clearance (CL)) Độ thanh thải.
+- (Apparent volume of distribution (Vz) ) Thể tích phân bố biểu kiến.
+- (Absolute bioavailability (F) ) Sinh khả dụng tuyệt đối (F) F gần 100
+- (Intrinsic absorption rate constant (Ka) ) Hằng số tỷ lệ hấp thu nội tại Ka.
+- (Therapeutic concentration (Css) ) Nồng độ điều trị.
 :::
+
+## Lựa chọn Polymer
+
+::: {.panel-tabset}
+### Dựa trên đặc tính vật lý
+
+- Poly(urethanes) for elasticity.  
+- Poly(siloxanes) or silicones for insulating ability.  
+- Poly(methyl methacrylate) for physical strength and transparency.  
+- Poly(vinyl alcohol) for hydrophilicity and 
+strength.  
+- Poly(ethylene) for toughness and lack of swelling.  
+- Poly(vinyl pyrrolidone) for suspension capabilities.
+
+
+### Không phân hủy
+
+- Poly(2-hydroxy ethyl methacrylate)  
+- Poly(N-vinyl pyrrolidone).  
+- Poly(methyl methacrylate).  
+- Poly(vinyl alcohol).  
+- Poly(acrylic acid).  
+- Polyacrylamide.  
+- Poly(ethylene-co-vinyl acetate).  
+- Poly(ethylene glycol).  
+- Poly(methacrylic acid). 
+
+### Phân hủy
+
+- Polylactides (PLA).  
+- Polyglycolides (PGA).  
+- Poly(lactide-co-glycolides) (PLGA).  
+- Polyanhydrides.  
+- Polyorthoesters. 
+
+### Các yếu tố cần quan tâm
+:::: {.columns}
+
+::: {.column width="50%"}
+- Cấu trúc hóa học
+- Thành phần hóa học
+- Phân bố các đơn vị lặp lại trong đa phân
+- Sự hiện diện của các nhóm ion
+- Sự hiện diện của các đơn vị bất ngờ hoặc khuyết tật chuỗi
+- Cấu trúc cấu hình
+- Trọng lượng phân tử
+- Phân bố trọng lượng mô
+- Hình thái (vô định hình/bán tinh thể, cấu trúc vi mô, ứng suất dư)
+- Hợp chất hiện diện của trọng lượng phân tử thấp
+- Điều kiện xử lý
+:::
+::: {.column width="50%"}
+- Ủ
+- Quy trình khử trùng
+- Lịch sử lưu trữ
+- Hình dạng
+- Vị trí cấy ghép
+- Các hợp chất hấp phụ và hấp thụ (nước, lipid, ion, v.v.)
+- Các yếu tố hóa lý (trao đổi ion, cường độ ion, pH)
+- Các yếu tố vật lý (thay đổi hình dạng và kích thước, sự thay đổi của hệ số khuếch tán, ứng suất cơ học, nứt do ứng suất và dung môi, v.v.)
+- Cơ chế thủy phân (enzyme so với nước)
+:::
+::::
+### 
+
+:::
+
+# Câu hỏi lượng giá
+
+## Lượng giá
+
+> Hãy dành 15 phút để tìm hiểu vấn đề xung quanh. 02 bạn lên phân tích. 
+
+
+1. Phân tích ưu nhược điểm của hệ thuốc giải phóng kéo dài với thuốc quy ước dựa 
+trên cơ sở phân tích đặc điểm giải phóng dược chất. 

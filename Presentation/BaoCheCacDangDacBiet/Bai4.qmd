@@ -1,10 +1,8 @@
 ---
-title: "Các dạng bào chế đặc biệt"
+title: "Viên nén đặc biệt và dạng bào chế hiện đại"
 subtitle: "Các hệ thuốc giải phóng theo nhịp sinh học"
 author:
   - name: TS. Hoàng Lê Sơn
-    email: sonhoang.ump@vnu.edu.vn
-    affiliations: UMP
 date: last-modified
 toc: true
 toc-depth: 1
@@ -13,9 +11,10 @@ format:
   #pptx: default
   revealjs:
     slide-number: true
-    css: "../styles.css"
-    logo: "../../images/9.png"
-    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    preview-links: auto
+    css: "styles.css"
+    logo: "../BaoCheCacDangDacBiet/Images/LogoDaiNam.svg"
+    footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
     incremental: false
@@ -23,17 +22,23 @@ format:
     auto-stretch: false
     chalkboard: true
     highlight-style: github-dark
-    theme: [default, ../custom.scss] #"../coeos.scss"
+    theme: [default, custom.scss] #"../coeos.scss"
+
 title-slide-attributes: 
-  data-background-image: "../../images/9.png"
+  data-background-image: "../BaoCheCacDangDacBiet/Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
-# Đại cương
-## Đồng hồ sinh học, bệnh học thời khắc và bào chế thời khắc
-::: {.panel-tabset}
 
-### Chu kỳ sinh học chronobiology
+##  MỤC TIÊU:
+
+1. Trình bày được định nghĩa, phân loại, ưu nhược điểm của hệ thuộc giải phóng theo nhịp sinh học.
+2. Giải thích được thành phần, cấu trúc, cơ chế giải phóng dược chất, nguyên tắc bào chế. Ví dụ minh họa về chế phẩm thuốc giải phóng theo nhịp sinh học.
+3. Trình bày được các chỉ tiêu chất lượng đặc trưng của thuốc giải phòng theo nhịp sinh học và cách đánh giá
+
+# Đại cương
+
+## Chronotherapy <br> Chronopharmacologie
 
 :::: {.columbns}
 
@@ -41,16 +46,8 @@ title-slide-attributes:
 
 - Nhịp thở, nhịp đập tim
 - Chu kỳ kinh nguyệt
-- Chy kỳ ngày đêm
+- Chu kỳ ngày đêm
 
-:::
-::: {.column width="80%"}
-![](../BaoCheCacDangDacBiet/Images/Biological_clock_human.svg){width="90%"}
-:::
-
-
-::::
-### Bệnh học thời khắc
 Các bệnh có nhịp ngày đêm
 
 - Bệnh đường hô hấp
@@ -58,22 +55,29 @@ Các bệnh có nhịp ngày đêm
 - Bệnh loét dạy dày - tá tràng
 - Bệnh viêm xương khớp
 
-Dược lý thời khắc Chronopharmacologie
+[Dược lý thời khắc](https://en.wikipedia.org/wiki/Chronotherapy_(treatment_scheduling))
 
-- 
-### Bào chế thời khắc 
+:::
+::: {.column width="80%"}
+![Chu kỳ sinh học - [chronobiology](https://en.wikipedia.org/wiki/Chronobiology)](../BaoCheCacDangDacBiet/Images/Biological_clock_human.svg){width="90%"}
+:::
+::::
+> Chronotherapy có thể dịch là phân phối thuốc với chu kỳ sinh học theo thời gian để tối ưu hóa hiệu quả điều trị và giảm tác dụng phụ.  
 
-::: {.callout-important "Khái niệm"}
+
+
+# Bào chế thời khắc 
+
+
 Bào chế thời khắc là khoa học dựa trên cơ sở bệnh học thời khắc và dược động học thời khắc bào chế ra dạng thuốc giải phóng theo nhịp sinh học, cung cấp dược chất cho cơ thể theo nhịp diễn biến của bệnh, tối ưu đỉnh của nhịp giải phóng và hấp thu dược chất từ dạng thuốc phù hợp với đỉnh của nhịp bùng phát bệnh. 
-:::
 
-:::
+
 
 ## Thuốc giải phóng theo nhịp
 
 ::: {.panel-tabset}
 
-### Khái niệm 
+### Khái niệm
 
 ::: {.callout-important "Khái niệm"}
 Thuốc giải phóng theo nhịp sinh học là hệ thuốc giải phóng có kiểm soát, dược chất được giải phóng đúng thời điểm, đúng liều lượng, đúng nơi nhịp diễn biến của bệnh sau một khoảng thời gian tiềm tàng nhất định.
@@ -85,33 +89,25 @@ Thời gian tiềm tàng là thời gian từ khi chế phẩm thuốc tiếp x�
 
 ::: {.panel-tabset}
 
-#### Hệ đơn nhịp: 
-toàn bộ dược chất trong hệ giải phóng cùng một lúc. Thời gian tiềm tàng của thuốc giải phóng nhanh dược chất trong cùng lúc như trong điều trị các bệnh cao huyết áp, chứa hen. Hoặc giải phỏng toàn bộ thuốc trong một vùng cần thiết như ruột non hoặc đại tràng. 
+#### Hệ đơn nhịp
+
+Toàn bộ dược chất trong hệ giải phóng cùng một lúc. Thời gian tiềm tàng của thuốc giải phóng nhanh dược chất trong cùng lúc như trong điều trị các bệnh cao huyết áp, chứa hen. Hoặc giải phỏng toàn bộ thuốc trong một vùng cần thiết như ruột non hoặc đại tràng. 
+
 #### Hệ đa nhịp 
 
-dược chất trong hệ được giải phóng thành nhiều lần ngắt quãng nhằm giảm tác dụng không mong muốn, cải thiện sự tuân thủ của người bệnh hoặc giải phóng dược chất tại các vùng khác nhau trong đường tiêu hóa
-  - Hệ đơn đơn vị: hệ chỉ chứa một đơn vị bào chế duy nhất như viên nén, viên nang thuốc bao kháng vị. Hệ đơn đơn vị thường là hệ giải phòng một nhịp, giải phóng nhanh sau thời gian tiềm tàng.
-  - Hệ đa đơn vị: Hệ này chưa đa tiểu phân, chứa nhiều tiểu đơn vị trong một liều dùng như nang chứa hạt, pellet, vi cầu, viên nén mini. Các tiểu đơn vị có thể được bao với các loại màng bao khác nhau hoặc độ dày màng khác nhau để giải phóng dược chất thành nhiều nhịp
-    - Ưu điểm so với hệ đơn đơn vị
-      - Dễ thiết kế dạng bào chế có mô hình giải phóng phức tạp theo yêu cầu điều trị, do có sự phối hợp mô hình giải phóng các nhóm tiểu đơn vị
-      - Sinh khả dụng ổn định, tính lặp lại cao: dạng đa đơn vị chưa các tiểu đơn vị có đường kính nhỏ dễ đi qua môn vị, làm tăng tháo rỗng dạ dày và trải đều trên ruột non, tạo được bề mặt hòa tan và hấp thu lớn, dảm bảo ổn định và đồng nhất cho chế phẩm
-      - Hệ đa đơn vị tránh được hiện tường chồng liều, giảm kích ứng tại chỗ, tăng khả năng hòa tan dược chất, đảm bảo sự đồng nhất giữa các lô mẻ sản xuất
+Dược chất trong hệ được giải phóng thành nhiều lần ngắt quãng nhằm giảm tác dụng không mong muốn, cải thiện sự tuân thủ của người bệnh hoặc giải phóng dược chất tại các vùng khác nhau trong đường tiêu hóa
+
+- Hệ đơn đơn vị: Hệ chỉ chứa một đơn vị bào chế duy nhất như viên nén, viên nang thuốc bao kháng vị. Hệ đơn đơn vị thường là hệ giải phòng một nhịp, giải phóng nhanh sau thời gian tiềm tàng.
+- Hệ đa đơn vị: Hệ này chưa đa tiểu phân, chứa nhiều tiểu đơn vị trong một liều dùng như nang chứa hạt, pellet, vi cầu, viên nén mini. Các tiểu đơn vị có thể được bao với các loại màng bao khác nhau hoặc độ dày màng khác nhau để giải phóng dược chất thành nhiều nhịp
+
+### Ưu điểm hệ đa nhịp
+
+- Dễ thiết kế dạng bào chế có mô hình giải phóng phức tạp theo yêu cầu điều trị, do có sự phối hợp mô hình giải phóng các nhóm tiểu đơn vị
+- Sinh khả dụng ổn định, tính lặp lại cao: dạng đa đơn vị chưa các tiểu đơn vị có đường kính nhỏ dễ đi qua môn vị, làm tăng tháo rỗng dạ dày và trải đều trên ruột non, tạo được bề mặt hòa tan và hấp thu lớn, dảm bảo ổn định và đồng nhất cho chế phẩm
+- Hệ đa đơn vị tránh được hiện tường chồng liều, giảm kích ứng tại chỗ, tăng khả năng hòa tan dược chất, đảm bảo sự đồng nhất giữa các lô mẻ sản xuất
+
 :::
-### Ưu nhược điểm
 
-**Ưu điểm**
-
-- Giảm số lần dùng thuốc và liều trong ngày
-- Cải thiện sự tuân thủ của bệnh nhân
-- Nâng cao sinh khả dụng cho thuốc có sinh khả dụng thấp
-
-**Nhược điểm**
-
-- Bệnh diễn biến theo ngày đêm chưa nhiều
-- Thuốc dùng theo đường tiêu hóa có nhiều yếu tố ảnh hưởng
-- Khó kiểm soát được thời gian tiềm tàng
-- Kỹ thuật bào chế phức tạp
-- Giá thành cao
 :::
 
 # Một số hệ giải phóng
@@ -119,7 +115,6 @@ dược chất trong hệ được giải phóng thành nhiều lần ngắt qu�
 ## Hệ giải phóng theo nhịp hệ màng bao
 
 ::: {.panel-tabset}
-
 ### Hệ màng bao nứt vớ 
 ::: {.panel-tabset}
 
@@ -137,13 +132,16 @@ Tá dược:
   - Eudragit dẻo dai hơn EC, thường sẽ nứt vỡ từ từ
 
 Dạng bào chế: là viên nén, pellet
+
 #### Cơ chế giải phóng
+
 Màng bao nứt vỡ sau thời gian tiềm tàng bộc lộ nhân. Môi trường sẽ thấm ướt vào nhân giải phóng ra hoạt chất theo các cơ chế như nhân trương nở, nhân tạo áp suất thẩm thấu, nhân sinh khí.
 
 Thời gian tiềm tàng phụ thuộc vào 
 
 - Thành phần và độ dày màng bao
 - Thành phần và tỷ lệ tá dược trong viên nhân
+
 #### Nguyên tắc bào chế
 Dập viên nhân 
 
@@ -186,7 +184,7 @@ Màng bao
 
 
 
-Hệ chứa dược chất diltiazem, tá dược sinh khí (acid citric và natri bicarbonat) kết hợp với tá dược trương nở (natri starch glycolat). Viên nhân được bao màng EC có tá dược hóa dẻo và tạo kênh dẫn nước (PEG, HPMC). Ngoài vỏ bao được bao lớp CAP (Cellulose acetat phtalat) tan ở ruột để hạn chế tác động của môi trường đầu ruột non. Tlag 2.5-3.0 giờ, Tmax 4 giờ.
+Hệ chứa dược chất diltiazem, tá dược sinh khí (acid citric và natri bicarbonat) kết hợp với tá dược trương nở (natri starch glycolat). Viên nhân được bao màng EC có tá dược hóa dẻo và tạo kênh dẫn nước (PEG, HPMC). Ngoài vỏ bao được bao lớp CAP (Cellulose acetat phtalat) tan ở ruột để hạn chế tác động của môi trường đầu ruột non. $T_{lag}$ 2.5-3.0 giờ, $T_{max}$ 4 giờ.
 
 
 
@@ -205,9 +203,9 @@ Màng bao là hệ thuốc có chứa các tá dược trương nở hòa tan ho
 
 
 #### Cơ chế giải phóng
-Khi tiếp xúc với môi trường nước, polyme thân nước được hydrat hóa, chuyển thể sol-gel trương nở, sau đó bị ăn mòn hoặc hòa tan hoàn toàn (thời điểm Ting) để giải phóng dược chất.
+Khi tiếp xúc với môi trường nước, polyme thân nước được hydrat hóa, chuyển thể sol-gel trương nở, sau đó bị ăn mòn hoặc hòa tan hoàn toàn (thời điểm $T_{ing}$) để giải phóng dược chất.
 
-Ting được kiểm soát chủ yếu bằng thời gian hòa tan hay ăn mòn của lớp vỏ bao, ít phụ thuộc và các yếu tố trong viên nhân.
+$T_{ing}$ được kiểm soát chủ yếu bằng thời gian hòa tan hay ăn mòn của lớp vỏ bao, ít phụ thuộc và các yếu tố trong viên nhân.
 
 Polyme hòa tan, ăn mòn có 2 nhóm theo 2 cơ chế: ăn mòn theo bậc thang pH như Eudragit... hoặc ăn mòn do men esterase với các tá dược có cấu trúc ester như sáp, dầu hydrogen hóa, CAP, HPMCP... các polysaccharid không tan trong ruột non nhưng bị các enzym của hệ vì cơ ở đại tràng phân hủy như pectin, dextrin...
 
@@ -216,7 +214,7 @@ Polyme hòa tan, ăn mòn có 2 nhóm theo 2 cơ chế: ăn mòn theo bậc than
 #### Nguyên tắc bào chế
 Viên nhân được bào chế theo các phương pháp áp dụng cho viên nén, nang cứng, nang mềm, pellet...
 
-Màng bao có thể áp dụng phương pháp bao dập hoặc bao bồi. Bao dập khô định vị viên nhân ở trung tâm, dẫn đến độ dày vỏ bao không đều, Tag dễ sai lệch, vỏ bao thường dày, dễ thấm nước, khó kéo dài Ting. Bao bồi có quy trình kéo dài nhưng dễ kiểm soát giải phóng được chất hơn bao dập.
+Màng bao có thể áp dụng phương pháp bao dập hoặc bao bồi. Bao dập khô định vị viên nhân ở trung tâm, dẫn đến độ dày vỏ bao không đều, Tag dễ sai lệch, vỏ bao thường dày, dễ thấm nước, khó kéo dài $T_{ing}$. Bao bồi có quy trình kéo dài nhưng dễ kiểm soát giải phóng được chất hơn bao dập.
 #### Ví dụ 
 
 Viên Time Clock Sal 45
@@ -260,7 +258,7 @@ Trong thực tế, khi thiết kế thuốc giải phóng theo nhịp phải k�
 
 Nút kiểm soát giải phóng trương nơ dùng dẫn chất cellulose, gôm. natri alginat... hoặc nút ăn mòn dùng sáp, cellulose acetat... nút được đồng khít chặt trên miệng thân nang.
 
-- Nắp nang là vò gelatin tan trong nước như nắp nang cứng quy ước.
+- Nắp nang là vỏ gelatin tan trong nước như nắp nang cứng quy ước.
 
 #### Cơ chế giải phóng
 
@@ -323,7 +321,7 @@ Bào chế viên qua nhiều bước như quy trình bao dập: Đáy cốc đư
 
 nơ hòa tan: Sau khi nắp trương nở hòa tan hay ăn mòn sẽ bộc lộ viên nhân, nhân hút nước, trương nở hòa tan giải phóng dược chất.
 
-+ Ting phụ thuộc vào loại tá dược và độ dày của nắp đậy.
++ $T_{ing}$ phụ thuộc vào loại tá dược và độ dày của nắp đậy.
 
 
 
@@ -342,7 +340,7 @@ Microchip: Là hệ cấy dưới da có kích thước siêu nhỏ
 
 + Nắp kiểm soát giải phóng: có bản chất polyme phân giải sinh học dán kín miệng bình đã có dược chất. Polyme được hydrat hóa, trương nở và phân giải sau khi cấy tiếp xúc với dịch mô để giải phóng dược chất. Tug in vivo có thể từ 2-5 ngày.
 
-+ Cấu tạo viên có 1 lớp dược chất tiếp xúc môi trường hòa tan giải phóng được chất. Lớp tả dược ở giữa che kín bề mặt của lớp dược chất còn lại tạo ra Ting. Sau khi bị ăn mòn sẽ giải phóng được chất. Lớp tá dược ở giữa có thể có cấu trúc kép một lớp trương nở, một lớp ăn mòn để tạo Tug theo thiết kế yêu cầu...
++ Cấu tạo viên có 1 lớp dược chất tiếp xúc môi trường hòa tan giải phóng được chất. Lớp tả dược ở giữa che kín bề mặt của lớp dược chất còn lại tạo ra $T_{ing}$. Sau khi bị ăn mòn sẽ giải phóng được chất. Lớp tá dược ở giữa có thể có cấu trúc kép một lớp trương nở, một lớp ăn mòn để tạo Tug theo thiết kế yêu cầu...
 
 :::
 
@@ -363,7 +361,7 @@ Tá dược sủi bọt là cặp muối kiểm – acid hữu cơ.
 
 Tá dược tỉ trọng thấp như dầu thực vật hydrogen hóa.
 
-### ví dụ
+### Ví dụ
 
 Nhiều được chất nhóm NSAIDs đã được bào chế dưới dạng hệ nói giải phóng theo nhịp.
 
@@ -408,8 +406,49 @@ Hệ thuốc chứa được chất chống viêm trong gel hyaluronic dạng th
 
 # Phương pháp đánh giá 
 
-## Đánh giá thời gian tiền tàng in vitro
 
-## Đánh giá giải phóng in vitro
+## Đánh giá $T_{ing}$ in vitro
+
+Tăng in vitro của thuốc giải phóng theo nhịp có thể được đánh giá bằng cách quan sát hình ảnh nứt vỡ mảng bao trong những trường hợp có thể quan sát được bằng mắt thường hoặc chụp ảnh. Đây là thời điểm kết thúc thời gian tiềm tàng và bắt đầu giải phóng được chất. Cách đánh giá đơn giản này áp dụng cho khảo sát sơ bộ xây dựng công thức thuốc.
+
+Tug in vitro được đánh giá bằng thử nghiệm hòa tan. Nếu không có quy định cụ thể thì ít nhất phải thử hỏa tan trong 2 môi trường: HC1 0,1N pH 1,2: sau đó chuyển sang hệ đệm phosphat pH 6,8 và thử cho đến lúc giải phóng trên 90% dược chất có trong hệ thuốc.
+
+Thông số hòa tan thuốc giải phóng theo nhịp thường được tỉnh theo T10, T50. T90 tương ứng với thời điểm hệ giải phóng 10, 50, 90% dược chất. Trong đó Tạo chính là Tag của hệ. Hệ thuốc giải phóng theo nhịp thường có $T_{ing}$ từ 4-6 giờ.
+
+## Đánh giá giải phóng in vivo
+
+Đánh giá bằng hình ảnh X-quang:
+
+Thử trên người tỉnh nguyện đã nhịn đói qua đêm, uống thuốc nhuận tây 12 giờ trước khi uống thuốc. Mẫu thuốc thứ có thêm chất cản quang như BaSO4. Chụp X-quang quan sát ở thời điểm 2.3,5 và 8 giờ sau khi uống thuốc tương ứng với vị trí của thuốc ở dạ dày, ruột non và đại tràng.
+
+Đánh giá bằng đo độ tắt tỉa gamma:
+
+Hệ thuốc chứa dược chất phối hợp với chất đồng vị phóng xạ. Sau đó cho động vật hoặc người tình nguyện nhịn đói qua đêm uống thuốc. Chụp ảnh dạng thuốc nhờ máy ảnh gamma cứ sau 30 phút đến 1 giờ. Theo dõi khoảng 5-8 giờ cho đến lúc dạng thuốc biến dạng, giải phóng dược chất.
 
 ## Đánh giá hấp thu in vivo
+
+Thực hiện trên động vật hoặc người tình nguyện khỏe mạnh theo quy định chung. Nhiều thuốc giải phóng theo nhịp có Tag hấp thu từ 5-8 giờ. Đối với thuốc uống vào giờ đi ngủ để ngăn cơn bệnh vào đầu giờ sáng hôm sau cần $T_{ing}$ dài hơn, thường từ 6-10 giờ, như vậy Tmax có thể lên tới 10-15 giờ.
+
+Cần đánh giá T10, T50. T90 để xác định tương quan in vitro – in vivo khi so sánh với kết quả thử hòa tan. Đồ thị nồng độ dược chất trong máu của thuốc giải phóng theo nhịp thưởng là sự tịnh tiến so với thuốc quy ước, các giá trị Cmax, AUC có thể không khác nhiều so với thuốc đối chiếu là loại thuốc quy ước, biểu thị trên hình 4.19.
+
+# Câu hỏi lượng giá
+
+## Lượng giá
+
+> Hãy dành 15 phút để tìm hiểu vấn đề xung quanh. 01 bạn lên phân tích. 
+
+
+Phân tích vai trò của từng thành phần trong công thức và nguyên tắc bào chế 
+nang cứng Salbutamol GPKD 24 giờ có công thức như sau:
+
+Công thức hạt đóng nang cứng: 
+
+| Tá dược           | Khối lượng         |
+|-------------------|--------------------|
+| Salbutamol sulfat | 9.6 mg             |
+| Sáp ong           | 44 mg              |
+| Sáp Carnauba      | 22 mg              |
+| Avicel PH101      | 17 mg              |
+| Dicalci phosphat  | 60 mg              |
+| Magnesi stearat   | 1%                 |
+| Vỏ nang cứng      | 1 vỏ               |
