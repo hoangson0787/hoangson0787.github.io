@@ -13,7 +13,7 @@ format:
     slide-number: true
     preview-links: auto
     css: "styles.css"
-    logo: "../BaoCheCacDangDacBiet/Images/LogoDaiNam.svg"
+    logo: "Images/LogoDaiNam.svg"
     footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
@@ -25,7 +25,7 @@ format:
     theme: [default, custom.scss] #"../coeos.scss"
 
 title-slide-attributes: 
-  data-background-image: "../BaoCheCacDangDacBiet/Images/Bia1.png"
+  data-background-image: "Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
@@ -35,8 +35,13 @@ title-slide-attributes:
 
 1. Trình bày được đặc điểm thành phần, cấu trúc kỳ thuật bào chế, cơ chế giải phóng dược chất từ các hệ thuốc màng bao, hệ cốt, hệ bơm thẩm thấu.
 2. Phân tích và so sánh được đặc điểm động học quá trình giải phóng được chất từ các hệ thuốc, các yếu tố ảnh hưởng.
-3. Vận dụng được kiến thức để giải thích vai trò từng thành phần trong công thức thuốc của một số chế phẩm thuộc hệ giải phóng kiểm soát, nguyên tắc bào chế, cơ chế giải phóng dược chất tir hệ thuốc có công thức tương ứng.
+3. Vận dụng được kiến thức để giải thích vai trò từng thành phần trong công thức thuốc của một số chế phẩm thuộc hệ giải phóng kiểm soát, nguyên tắc bào chế, cơ chế giải phóng dược chất từ hệ thuốc có công thức tương ứng.
 
+# Đại cương
+
+::: {.panel-tabset}
+
+### Phân loại
 :::: {.columns}
 
 ::: {.column width="60%"}
@@ -52,55 +57,224 @@ flowchart LR
   B1 --> C1
   B1 --> C2
 ```
-![](../BaoCheCacDangDacBiet/Images/Kiemsoathoatan.jpg)
+![](Images/Kiemsoathoatan.jpg)
 
 ::: 
 ::: {.column width="40%"}
-![](../BaoCheCacDangDacBiet/Images/Kiemsoatgiaiphong.jpg)
+![](Images/Kiemsoatgiaiphong.jpg)
 :::
 ::::
 
-### Polymer 
+### Thành phần
 
-::: {.panel-tabset}
-### non-degradable polymeric matrices
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6swu{background-color:#f38630;border-color:#fd6864;font-size:medium;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-tbqi{border-color:inherit;font-size:large;text-align:left;vertical-align:top}
+.tg .tg-oo5l{border-color:inherit;font-size:large;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-nqny{background-color:#f38630;border-color:#fd6864;color:#ffffff;font-size:medium;font-weight:bold;text-align:center;
+  vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-tbqi"></th>
+    <th class="tg-oo5l" colspan="2">Màng bao </th>
+    <th class="tg-oo5l" colspan="2">Cốt</th>
+    <th class="tg-oo5l">Bơm thẩm thấu</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-6swu" colspan="6"><span style="color:#EFEFEF"> Kỹ thuật sản xuất liên quan</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Viên nén</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Viên nang</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">X</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Pellet</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Hỗ dịch</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Nhũ tương </td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Hệ trị liệu qua da </td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Vi nang</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow">X</td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-nqny" colspan="6">Hoạt chất</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Đô tan trong nước</td>
+    <td class="tg-0pky">Dạng muối dễ tan nước hoặc đã làm tăng độ tan</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Dễ tan và ít tan</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Độ tan hoạt chất trong polymer</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Phân tán</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-nqny" colspan="6">Polymer </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Trong dịch sinh học</td>
+    <td class="tg-0pky">Không phân hủy sinh học</td>
+    <td class="tg-0pky">Phân hủy sinh học</td>
+    <td class="tg-0pky">Không phân hủy sinh học</td>
+    <td class="tg-0pky">Phân hủy sinh học</td>
+    <td class="tg-0pky">Kết hợp</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Độ tan trong nước</td>
+    <td class="tg-0pky">Không tan trong nước, <br>tan trong dun mỗi hữu cơ</td>
+    <td class="tg-0pky">Polymer thân nước, <br>trương nở trong nước tạo gel</td>
+    <td class="tg-0pky">Không tan trong nước</td>
+    <td class="tg-0pky">Trương nở trong nước</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="6">Ví dụ </td>
+    <td class="tg-0pky">EC</td>
+    <td class="tg-0pky">HPMC</td>
+    <td class="tg-0pky">EC</td>
+    <td class="tg-0pky">HPMC</td>
+    <td class="tg-0pky">CAB</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">polymethacrylat</td>
+    <td class="tg-0pky">HPC</td>
+    <td class="tg-0pky">PVC</td>
+    <td class="tg-0pky">agar</td>
+    <td class="tg-0pky">CTA</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Zein</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">sáp</td>
+    <td class="tg-0pky">gôm</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">alcol béo</td>
+    <td class="tg-0pky">alginat</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">aci béo</td>
+    <td class="tg-0pky">chitosan</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Tinh bột biến tính</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-nqny" colspan="6">Tá dược khác</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Tá dược dành cho nhân</td>
+    <td class="tg-0pky">Nhân đạt tiêu chuẩn để bao</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Vô cơ: dicalci phosphat, calci sulphat <br>Sơ nước bị ăn mòn sáp, alcol béo, các acid béo</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Tá dược thẩm thấu, <br>Tá dược trương nở, <br>Tá dược trơn, <br>Tá dược tạo kênh</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Tá dược bào <br>ngoài polymer</td>
+    <td class="tg-0pky">Chất hóa dẻo, chất tạo màu, tạo đục</td>
+    <td class="tg-0pky">Tá dược rắn không tan như TiO2, <br>Talc, Megnesi stearat</td>
+    <td class="tg-0pky" colspan="2">Không có</td>
+    <td class="tg-0pky">màng bán thấm, <br>tá dược tạo lỗ xốp, <br>Dung môi bao, chất hóa dẻo</td>
+  </tr>
+  <tr>
+    <td class="tg-nqny" colspan="6">Giải phóng</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Cơ chế giải phóng</td>
+    <td class="tg-0pky">Khuếch tán qua màng</td>
+    <td class="tg-0pky">Khuếch tán trong màng sau đó là hòa tan</td>
+    <td class="tg-0pky">Khuếch tán hoặc ăn mòn</td>
+    <td class="tg-0pky">Khuếch tán với hợp chất dễ tan <br>và ăn mòn với hợp chất khó tan</td>
+    <td class="tg-0pky"></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="3">Mô hình giải phóng</td>
+    <td class="tg-0pky" rowspan="3">Bậc 0</td>
+    <td class="tg-0pky" rowspan="3">Không theo bậc 0</td>
+    <td class="tg-0pky" rowspan="3">Mô hình higuchi</td>
+    <td class="tg-0pky" rowspan="3">Mô hình noyes-whitney</td>
+    <td class="tg-0pky" rowspan="3"></td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  </tr>
+</tbody></table>                                                        
 
-| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
-|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
-| Segmented PU (Cardiomat 610) | Drug-eluting stent          | 1,3-Dipropyl-8-cyclopentyl xanthine     | 1 d           | Near linear release (~ 20 d)            | Non-Fickian diffusion |
-| Elast-Eon™                | Drug-eluting stent          | Dexamethasone acetate                  | w/            | Biphasic pattern                        | Fickian diffusion   |
-| Polyurethane (Walopur®)   | Disk-shaped matrices        | Flucloxacillin-Na, Fosfomycin, Gentamicin-base | 1 d           | Near linear (2 ~ 5 d)                  | Matrix-controlled    |
-| Poly(urea-urethane)       | Microcapsule                | Auramine (Oil-soluble dye)             | w/o           | Near linear (~20 min)                  | Non-Fickian Diffusion |
-| PEG modified polyurethane | Dermal patch                | Thiamazole, diclofenac sodium, ibuprofen | 12 h          | Biphasic pattern (~ 48 h)              | -                   |
-| PDMS                      | Rod (matrix vs. reservoir)  | Ivermectin                             | w/o           | Matrix: first order, 50 d; Reservoir: zero order, 84 d | Matrix: diffusion, Reservoir: case II transport |
-| PDMS                      | Intravaginal ring (reservoir) | TMC120                                 | 1–2 d         | Biphasic; near zero order release for 30 d | Case II transport  |
-| PDMS                      | Intravaginal ring (core-type) | TMC120                                 | w/o           | Zero order, 71 d                       | Case II transport   |
-| PDMS                      | Strip (10×20 mm)            | Metronidazole                          | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
-| PEVA (VA content, 40%)    | Membrane                    | Quinupramine                           | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
-| PEVA                      | Thin film                   | Acyclovir, Chlorhexidine diacetate     | w/o           | Near zero-order (~ 8 d)                | Non-Fickian diffusion |
-| PEVA                      | Drug-eluting stent coating  | 5-Fluorouracil                         | w/            | Biphasic pattern (~20 d)               | Fickian diffusion   |
-| PEVA (VA content, 40%)    | Disk-shape Film             | Chlorhexidine diacetate                | w/            | Near-zero order (~ 7 d)                | Non-Fickian diffusion |
-| PEVA (VA content, 40%)    | Membrane                    | Furosemide                             | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
-| Dextran sulfate           | Microcapsule                | Insulin                                | w/            | Biphasic pattern (~12 h)               | Fickian diffusion   |
-| Methacrylated dextran     | Hydrogel                    | Vitamin E                              | ~3 h          | Biphasic                                | Swelling            |
-| HPMC with β-CD            | Tablet                      | Difunisal                              | w/o           | Zero-order for nonsoluble β-CD; First-order for soluble β-CD | Non-Fickian diffusion |
+### Tại dạ dày 
 
-
-
-### Biodegradable polymeric matrices
-
-
-| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
-|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
-| PLGA/PLA                  | Microparticle               | Diltiazem hydrochloride                | 2h            | Triphasic pattern                       | Diffusion and erosion |
-| PLGA                      | Nanoparticle                | Estradiol                              | w/o           | Zero order up to 31 ~54 d               | Diffusion-cum-degradation |
-| PLGA                      | Microcapsule                | Insulin                                | 20%, 24h      | Triphasic pattern                       | Diffusion and erosion |
-| p(FAD-SA) 50:50           | Implantable disk            | Cefazolin sodium                       | w/o           | 100%, 14 d                              | Diffusion             |
-|                           |                             | Bupivacaine free base                  | w/o           | 90%, 35 d                               | Diffusion and degradation |
-|                           |                             | Taxol                                  | w/o           | 15%, 77d                                | Degradation          |
-| PEG hydrogel with degradable crosslinks | Disk                  | Bovine serum albumin                    | w/o           | Zero order in the presence of human neutrophil elastase | Triggered degradation |
-| Poly(ortho ester amide) copolymer | NA                        | FITC-dextran                           | w/o           | Near zero order                         | Erosion              |
-| HPMC                      | Tablet                      | Adinazolam mesylate                    | w/            | Near zero order, 10h                    | Swelling and dissolution |
+![](Images/Thuocgiaiphongdaday.png)
 
 
 :::
@@ -112,15 +286,35 @@ flowchart LR
 
 ::: {.panel-tabset}
 
-### Đặc điểm thành phần
+### Đặc điểm
 
 :::: {.columns}
 ::: {.column width="50%"}
+::: {.callout-important title="Cấu trúc hệ thuốc"}
+Được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày của màng khi tiếp xúc trực tiếp với môi trường sinh học.
+:::
 
-**Cấu trúc hệ thuốc:** Được bao lớp màng kiểm soát giải phóng. Lớp màng polymer không tan trong dịch sinh học kiểm soát giải phóng dược chất dựa trên các kênh khuyếch tán được tạo ra trong lớp bề dày của màng khi tiếp xúc trực tiếp với môi trường sinh học.
+![**Cơ chế: ** Nước từ môi trường sinh học thẩm thấu qua màng vào trong hệ thuốc có chứa dược chất, dược chất trong hệ được hòa tan, dược chất đã hòa tan trong hệ khuyếch tán qua màng bao ra môi trường.](Images/Semi.png)
 
-**Thành phần hệ thuốc:**
 
+
+::: {.callout-warning title="Tốc độ giải phóng"}
+$$\frac{Q}{t}=\frac{K_{m/h} K_{n/m} D_d D_m}{K_{m/h} D_m h_d + K_{n/m} D_d h_m} C_h$$
+Trong đó: 
+
+  - $K_{m/h}$ Hệ số phân bố phân tử dược chất tử hệ thuốc vào màng kiểm soát
+  - $K_{n/m}$ Hệ số phân bố phân tử dược chất tử màng kiểm soát vào lớp khuếch tán trong môi trường nước
+  - $D_d$ Hệ số khuếch tán trong lớp khuếch tán ở vùng môi trường nước bên ngoài bao quanh màng 
+  - D_m Hệ số khuếch tán dược chất trong mảng
+  - h_d Bề dày lớp khuếch tán
+  - h_m Bề dày mảng kiểm soát
+  - C_h Nồng độ được chất trong hệ thuốc
+:::
+
+:::
+::: {.column width="50%"}
+
+::: {.callout-important title="Thành phần hệ thuốc"}
 *Dược chất:* dạng muối dễ tan trong nước hoặc được cải thiện độ tan nhờ tạo hệ phân tán rắn, tạo dẫn chất, thêm chất diện hoạt
 
 *Tá dược:* [Avicel](PDF/abc.pdf#page=158), [lactose](PDF/abc.pdf#page=388) hay muối carbonat không tan tạo kênh dẫn nước. Dược chất có thể tạo pellet, hạt
@@ -133,23 +327,25 @@ flowchart LR
 - Chất hóa dẻo
 - Chất màu
 - Chất tạo đục TiO2, talc
-
 :::
-::: {.column width="50%"}
 
-![Drug release is controlled by a semi-permeable membrane. Diffusion through membrane limits the release rate](../BaoCheCacDangDacBiet/Images/Semi.png)
+::: {.callout-warning title="Mô hình giải phóng"}
+
+Theo định luật Fick:
+
+$$\frac{d_Q}{d_t}= \frac{D(C_-C_t)S}{h_m}$$
+Trong đó:
+
+
+  - $C_t$ Là nồng độ dược chất trong môi trường sinh học được cơ thể hấp thu lấy đi tạo nồng độ tối thiểu hằng định
+  - $S$ Diện tích bề mặt màng bao không tan sau khi đã trương nở tạo kênh khuếch tán không thay đổi
+  - $h_m$ Bề dày màng bao không tan khi đạt cân bằng (cũng như diện tích màng) không thay đồi
+  - D Hệ số khuếch tán phụ thuộc vào bản chất của dược chất và của màng không thay đổi
+:::
+
 :::
 
 ::::
-
-### Cơ chế và mô hình động học
-
-Nước từ môi trường sinh học thẩm thấu qua màng vào trong hệ thuốc có chứa dược chất, dược chất trong hệ được hòa tan, dược chất đã hòa tan trong hệ khuyếch tán qua màng bao ra môi trường.
-
-![Drug release is controlled by a semi-permeable membrane. Diffusion through membrane limits the release rate](../BaoCheCacDangDacBiet/Images/Semi.png)
-
-Mô hình bậc 0: 
-
 
 ### Ví dụ
 
@@ -269,34 +465,41 @@ Màng hình oval rông 5.7 m dài 13.4 mm tốc độ giải phóng dược ch�
 ## Hệ màng bao hòa tan ăn mòn kiểm soát giải phóng dược chất
 ::: {.panel-tabset}
 
-### Đặc điểm thành phần cấu trúc của hệ 
+### Đặc điểm
 
+:::: {.columns}
+::: {.column width="50%"}
 ::: {.callout-important title="Cấu trúc hệ thuốc"}
- Hệ thuốc chứa dược chất được bao màng polymer chậm hòa tan bị mòn dân trong môi trường dịch sinh học, màng polymer thân nước trương nở gel tạo ra hàng rao kiểm soát làm chậm và kéo dài quá trình giải phóng. Màng bao có thể có độ dày mỏng khác nhau: 1 lớp bao ngoài hệ chứa dược chất hoặc bao từng lớp màng xen kẽ lớp dược chất tọa ra sự giải phóng ngắt quãng.
+Hệ thuốc chứa dược chất được bao màng polymer chậm hòa tan bị mòn dần trong môi trường dịch sinh học, màng polymer thân nước trương nở gel tạo ra hàng rao kiểm soát làm chậm và kéo dài quá trình giải phóng. Màng bao có thể có độ dày mỏng khác nhau: 1 lớp bao ngoài hệ chứa dược chất hoặc bao từng lớp màng xen kẽ lớp dược chất tọa ra sự giải phóng ngắt quãng.
 :::
 
-Thành phần hệ thuốc
-
+::: {.callout-note title="Thành phần"}
 Tá dược bao hòa tan mòn dần:
 
   - polymer thân nước: HPMC, HPC
   - Tá dược rắn không tan như tio2, Talc, Megnesi stearat
 
-### Cơ chế và mô hình động học giải phóng dược chất 
+:::
 
-Nước trương nở màng bao tạo lớp gel và lớp dịch polymer có độ nhớt cao.
+:::
 
-Phần phần dược chất trong lớp màng gel được hòa tan khuếch tán chậm qua hàng rào gel và lớp dịch có độ nhớt cao và được giải phóng ra môi trường cùng sự hòa tan dần của lớp gel, lớp dịch đậm đặc polymer
+::: {.column width="50%"}
 
-Dược chất được hòa tan ở giai đoạn cuối cùng lớp dịch polymer đã hòa tan khuyêsch tán vào môi trường sin học
 
-![Nonporous semi-permeable membranes:  Drug diffusion through swollen polymer membrane](../BaoCheCacDangDacBiet/Images/swollen.png)
+![Nước trương nở màng bao tạo lớp gel và lớp dịch polymer có độ nhớt cao. Phần phần dược chất trong lớp màng gel được hòa tan khuếch tán chậm qua hàng rào gel và lớp dịch có độ nhớt cao và được giải phóng ra môi trường cùng sự hòa tan dần của lớp gel, lớp dịch đậm đặc polymer. Dược chất được hòa tan ở giai đoạn cuối cùng lớp dịch polymer đã hòa tan khuếch tán vào môi trường sinh học](Images/swollen.png)
 
-Mô hình động học
+Mô hình dược động học ảnh hưởng bởi độ dày, hệ số phân bố, hệ số khuếch tán.
 
-Mô hình bậc 1 hoặc bậc khác, không theo bậc 0
+Mô hình thường bậc 1 hoặc mô hình khác trừ bậc 0
 
-### Một số ví dụ 
+:::
+
+::::
+
+
+### Ví dụ 
+
+Chủ yếu thuốc giải phóng liều nhắc lại, không dùy trì được nồng độ thuốc hằng định trong máu, có hiện tượng đỉnh và đáy.
 
 :::
 
@@ -306,13 +509,17 @@ Mô hình bậc 1 hoặc bậc khác, không theo bậc 0
 
 ::: {.panel-tabset}
 
-### Đặc điểm thành phần cấu trúc hệ thuốc
+### Đặc điểm 
+
+:::: {.columns}
+::: {.column width="50%"}
 ::: {.callout-important title="Cấu trúc hệ thuốc"}
 
-Dược chất phân tán trong cốt không tan trong môi trường sinh học. Cốt đóng vai trò như khung giá mang thuốc. Sau khi tiếp xúc với nước của môi trường. dược chất được hòa tan trong các kênh nước được tạo ra trong cốt và khuyếch tán giải phóng ra khỏi hệ thuosc. Cốt sơ nước có thể bị ăn mòn trong đường tiêu hóa để giải phóng dược chất. 
+Dược chất phân tán trong cốt không tan trong môi trường sinh học. Cốt đóng vai trò như khung giá mang thuốc. Sau khi tiếp xúc với nước của môi trường, dược chất được hòa tan trong các kênh nước được tạo ra trong cốt và khuyếch tán giải phóng ra khỏi hệ thuốc. Cốt sơ nước có thể bị ăn mòn trong đường tiêu hóa để giải phóng dược chất. 
 :::
 
-**Thành phần**
+::: {.callout-important title="Thành phần"}
+
 
 Dược chất là dẫn chất hoặc muối dễ tan. Dược chất có thể hòa tan trong dung môi thích hợp trước khi phân tán vào cốt.
 
@@ -321,16 +528,26 @@ Một số tá dược vô cơ như dicalci phosphat, calci sulphat.
 
 Tá dược sơ nước bị ăn mòn trong đường tiêu hóa dưới tác dụng của hệ enzyme bao gồm sáp, alcol béo, các acid béo
 
-### Cơ chế và mô hình động học giải phóng dược chất
+Trong cả 2 hệ cốt nêu trên có thể có các tà dược rắn không tan nhưng thân nước, thấm nước để tạo kênh dẫn nước vào hệ, tham gia điều chỉnh tốc độ giải phóng được chất như Avicel, calci carbonat, dicalci phosphat...
+:::
+::: {.callout-important title="Mô hình higuchi"}
+$$W = (2.C_s.D_m.C_0.t)^{1/2}$$
+
+Trong đó:
+  
+  - W – Lượng dược chất khuếch tán qua 1 đơn vị diện tích màng tại thời điểm
+  - $C_s$ - Độ tan của dược chất
+  - $C_0$ – Tổng lượng dược chất có trong 1 đơn vị thể tích cốt
+  - $D_m$ – Hệ số khuếch tán trong cốt
+:::
+:::
+::: {.column width="50%"}
+![Hệ polymer không tan: nước thâm nhập vào hệ theo các kênh khuyếch tán có trong cốt, dược chất hòa tan trong nước có trong kênh, sau đó khuyếch tán ra môi trường từ bề mặt cốt. Hệ cố sơ nước ăn mòn, dược chất hòa tan trên bề mặt cốt cùng với quá trình ăn mòn cốt trong đường tiêu hóa.](Images/Case1.png)
+:::
+
+::::
 
 
-[](../BaoCheCacDangDacBiet/Images/Case1.png)
-
-Hệ polymer không tan: nước thâm nhập vào hệ theo các kênh khuyếch tán có trong cốt, dược chất hòa tan trong nước có trong kênh, sau đó khuyếch tán ra môi trường từ bề mặt cốt.
-
-Hệ cố sơ nước ăn mòn, dược chất hòa tan trên bề mặt cốt cùng với quá trình ăn mòn cốt trong đường tiêu hóa.
-
-Mô hình dược chất: Mô hình higuchi
 
 ### Ví dụ 
 
@@ -355,23 +572,45 @@ Nang cứng salbutamol giải phóng kéo dài
 
 ::: {.panel-tabset}
 
-### Đặc điểm thành phần cáu trúc hệ thuốc
+### Đặc điểm
 
+:::: {.columns}
+::: {.column width="50%"}
 ::: {.callout-important title="Cấu trúc hệ thuốc"}
 Dược chất được phân tán trong cốt thân nước, trương nở hòa tan mòn dần trong môi trường sinh học trong quá trình giải phóng dược chất thành phần
 :::
-Thành phần 
+::: {.callout-important title="Thành phần"}
 
-Dược chất: dệ tan trong nước 
+Dược chất: dễ tan trong nước 
 
 Tá dược: HPMC hoặc kết  hợp, HPMC dòng K và E 
+:::
+:::
 
-### Cơ chế và mô hình giải phóng dược chất
+::: {.column width="50%"}
+
+Sự giải phóng được chất xảy ra qua các giai đoạn: nước trong môi trường thẩm vào hệ cốt làm cốt trương nở tạo gel, sau đó dược chất hòa tan trong nước có trong hệ cốt đã trương nở, khuếch tán ra môi trường qua hàng rào kiểm soát là lớp gel, đồng thời được giải phóng ra môi trường khi lớp gel bị hòa tan ăn mòn dần.
+
+::: {.callout-important title="phương trình Noyes-Whitney"}
+
+$$ \frac{d_c}{d_t}=\frac{A(C_s-C_t)D}{h}$$
+de A. (CC). D d h$$
+
+Trong đó:
+  
+  - $d_c$ – Tốc độ giải phóng dược chất
+  - A - Diện tích bề mặt tiếp xúc của hệ với môi trường hòa tan
+  - $C_s$ – Nồng độ được chất bão hỏa
+  - $C_t$ Nồng độ được chất trong môi trường tại thời điểm t
+  - D – Hệ số khuếch tán của dược chất trong môi trường hòa tan
+  - h – Bề dày lớp khuếch tán
+
+:::
 
 
-Nước trong môi trường thấm vào hệ cốt làm trương nở cốt gel, sau đó dược chất hòa tan trong nước có trong hệ cốt đã trương nở, khuyêch tán ra môi trường qua hàng rào kiểm soát là lớp gel, đồng thời giải phóng ra môi trường khi lớp gel bị hòa tan ăn mòn dân
-Mô hình động học giải phóng dược chất
-Động học bậc 1 theo phương trình Noyes-Whitney
+:::
+::::
+
 
 ### Ví dụ 
 
@@ -469,7 +708,7 @@ Công thức màng bao bảo vệ (cho 2,0 kg viên):
 :::
 
 # Osmotic Pressure Devices
-![](../BaoCheCacDangDacBiet/Images/OsmoticDrug.png)
+
 
 ## Hệ thuốc bơm thẩm thấu giải phóng kiểm soát 
 
@@ -477,20 +716,59 @@ Công thức màng bao bảo vệ (cho 2,0 kg viên):
 
 ### Khái niệm 
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
 ::: {.callout-important title="Cấu trúc hệ thuốc"}
+
 Dược chất được bao trong một màng bao bán thấm có lỗ giải phóng dược chất. Màng này chỉ cho dung môi thấm vào hòa tan dược chất. áp suất thẩm thấu tạo ra trong hệ là động lực đẩy dung dịch dược chất qua miệng giếng giải phóng dược chất.
+
 :::
 
-**Phân loại**
+::: {.callout-important title="Hệ bơm thẩm thấu 1 ngăn"}
 
-- Hệ bơm thẩm thấu 1 ngăn: Hệ bơm thẩm thấu quy ước, hệ bơm thẩm thấu tự tạo lỗ xốp, hệ bơm thẩm thấu đơn thành phần, hệ bơm thẩm thấu tự nhũ hóa
-- Hệ bơm thẩm thấu 2 ngăn: hệ bơm thẩm thấu đẩy kéo, hệ bơm thẩm thấu đẩy dính, hệ bơm thẩm thấu kiểu sandwich, hệ bởm thảm thấu chất lỏng.
+- Hệ bơm thẩm thấu quy ước: Nước qua màng bán thấm vào trong thuốc, dược chất hòa tan tạo ra dung dịch có áp suát thẩm thấu lớn trong hệ, dung dịch dược chất được bơm đẩy ra môi trường sinh học dựa trên các lô giải phóng dược chất đến khi cân bằng áp suất trong ngoài màng.
+- Hệ thơm thẩm thấy tự tạo lỗ xốp: Nước tiếp xúc màng bao, hòa tan các chất tan là tá dược tạo lỗ xốp trong bằng bao, tạo hệ vi lỗ. Nước qua màng bán thấm và vi lỗ xốp vào trong hệ hòa tan dược chất và chất tan có trong hệ thuốc tạo áp suất thẩm thấu lớn. Dung dịch được bơm đẩy ra môi trường qua hệ vi miệng lỗ giải phóng đên skhi cần.
+
+:::
+
+::: {.callout-important title="Hệ bơm thẩm thấu 2 ngăn"}
+
+- Hệ bơm thẩm thấu kéo-đẩy: Nước thẩm thấu, hòa tan dược chất tạo dịch, gây trương nở tá dược polymer làm lớp đẩy. Dung dịch thuốc giải phóng ra khỏi thuốc dựa trên áp suất tạo ra trong hệ do trương nở polymer và áp suất thẩm thấu
+- Hệ bơm thẩm thấu kiểu sandwich: tương tự kiểu kéo đẩy nhưng lớp đẩy nằm giữa hai lớp hoạt chất.
+- Hệ bơm thẩm thấu lỏng: hệ thuốc dược chất lỏng thân dầu hoặc dung dịch dầu có thêm chất như hóa đóng trong nang mềm hoặc nang cứng. Nước thấm thấm qua màng vào trong, nước hòa tan dược chất dễ tan tạo ra áp suất thẩm thấu. dược chất lỏng hoặc dung dịch đẩy nhờ áp suất trong hệ qua miện lỗ giải phóng. 
+
+:::
+
+:::
+
+::: {.column width="50%"}
+![Hệ bơm thẩm thấu 1 ngăn (a) và Hệ bơm thẩm thấu 2 ngăn (b)](Images/OsmoticDrug.png)
+
+::: {.callout-note title="Cơ chế với hệ thuốc lỏng"}
+
+$$\frac{Q}{t} = \frac{P_n A_m}{h_m} (\delta\pi - \delta P)$$
+
+Trong đó:
+
+  - $P_n$ - Độ thấm nước qua màng.
+  - $A_m$ – Diện tích bề mặt màng thẩm thấu hiệu dụng (có hiệu qua thâm thầu).
+  - $h_m$ - Độ dày của màng.
+  - $\delta\pi$ và $\delta P$ – chênh lệch áp suất thẩm thấu và chênh lệch áp suất thủy động trong và ngoài màng.
+  - $C_s$ - Độ tan trong nước của dược chất chứa trong hệ thuốc răn.
+:::
+:::
+
+::::
+
+
 
 ### Thành phần
 
 1. Dược chất: bệnh mạn tính như nifedipin, glipzid, famotidin, tramadol, carbamazepin, diliazem, metoprolol
 
-2. Tá dược cốt 
+2. Tá dược cốt:
 
 - Tá dược thẩm thấu: muối vô cơ như natri clorid, kali clorid, muối natri kali sulfat hoặc carbonat, các loại đường như glucose, sorbitol, sucrose
 - Tá dược trương nở: polymer hút nước như tinh bột biến tính, crossarmelose, cellulose vi tinh thể, carbopol, HPLC, NaCMC
@@ -504,14 +782,11 @@ Dược chất được bao trong một màng bao bán thấm có lỗ giải ph
 - Dung môi bao: Dung mỗi hưu cơ như aceton, methanol, ethanol, 
 - Chất hóa dẻo: PG, triethyl citrat, diethyl tartarat, deiacetin,
 
-### Cơ chế giải phóng dược chất
+### Bào chế
 
-- Hệ bơm thẩm thấu quy ước: nước qua màng bán thấm vào trong thuốc, dược chất hòa tan tạo ra dung dịch có áp suát thẩm thấu lớn trong hệ, dung dịch dược chất được bơm đẩy ra môi trường sinh học dựa trên các lô giải phóng dược chất đến khi cân bằng áp suất trong ngoài màng
-- Hệ thơm thẩm thấy tự tạo lỗ xốp: Nươc tieeos xuasc màng bao, hòa tan các chất tan là tá dược tạo lỗ xốp trong bằng bao, tạo hệ vi lỗ. Nước qua màng bán thấm và vi lỗ xốp vào trong hệ hòa tan dược chất và chất tan có trong hệ thuốc tạo áp suất thẩm thấu lớn. Dung dịch được bơm đẩy ra môi trường qua hệ vi miệng lỗ giải phóng đên skhi cần 
-- Hệ bơm thẩm thấu kéo-đẩy: Nước thẩm thấu, hòa tan dược chất tạo dịch, gây trương nở tá dược polymer làm lớp đẩy. Dung dịch thuốc giải phóng ra khỏi thuốc dựa trên áp suất tạo ra trong hệ do trương nở polymer và áp suất thẩm thấu
-- Hệ bơm thẩm thấu kiểu sandwich; tương tự kiểu kéo đẩy
-- Hệ bơm thẩm thấu lỏng: hệ thuốc dược chất lỏng thân dầu hoặc dung dịch dầu có thêm chất như hóa đóng trong nang mềm hoặc nang cứng
-Nước thấm thấm qua màng vào trong, nước hòa tan dược chất dễ tan tạo ra áp suất thẩm thấu. dược chất lỏng hoặc dung dịch đẩy nhờ áp suất tring hệ qua miện lỗ giải phóng. 
+1. Bào chế viên nhân: Xát hạt ướt hay dập thẳng
+2. Bao màng bán thấm: bao film, bao nhúng, bao dập
+3. Tạo miệng giải phóng: Máy khoan cơ học hoặc khoan laser hoặc tá dược tạo lỗ xốp.
 
 
 ### Ví dụ 
@@ -623,15 +898,18 @@ Công thức mảng bao bảo vệ:
 ::::
 
 :::
+:::
+
+
 
 
 # Đánh giá một số tính chất đặc trưng của hệ thuốc 
 
 ## Đánh giá độ hòa tan huặc khả năng khuếch tán giải phóng được chất từ hệ thuốc
 
-Độ hòa tan, khuếch tán giải phóng được chất từ hệ thuộc được đánh giá theo thời gian kéo đài ở các thời điểm (2 giờ, 4 giờ, 6 giờ. 8 giờ... 24 giờ) với các thiết bị và điều kiện thử cụ thể cho từng chế phẩm.
+Độ hòa tan, khuếch tán giải phóng được chất từ hệ thuộc được đánh giá theo thời gian kéo đài ở các thời điểm (2 giờ, 4 giờ, 6 giờ, 8 giờ, 24 giờ) với các thiết bị và điều kiện thử cụ thể cho từng chế phẩm.
 
-Vì dụ: Viên Clarinase repetabs của Singapore có hàm lượng ghi trên nhân Pseudoephedrin sulfat 120mg (giải phóng kéo dãi) và Loratadin 5mg (có thời gian bán thai 24 giờ) có tiêu chuẩn về độ hòa tan: đối với pseudoephedrin sulfat ≤ 60% sau 1 giờ ở môi trường dịch vị, ≤ 65% sau 2 giờ. ≥ 65% sau 5 giờ, ≥ 80% sau 6 giờ ở mỗi trường dịch ruột so với hàm lượng ghi trên nhân.
+Ví dụ: Viên Clarinase repetabs của Singapore có hàm lượng ghi trên nhân Pseudoephedrin sulfat 120mg (giải phóng kéo dãi) và Loratadin 5mg (có thời gian bán thai 24 giờ) có tiêu chuẩn về độ hòa tan: đối với pseudoephedrin sulfat ≤ 60% sau 1 giờ ở môi trường dịch vị, ≤ 65% sau 2 giờ. ≥ 65% sau 5 giờ, ≥ 80% sau 6 giờ ở mỗi trường dịch ruột so với hàm lượng ghi trên nhân.
 
 Viên Herbesser R200 (Nhật Bản) có tiêu chuẩn thử đỡ hòa tan trong 900 ml nước: 5-30% sau 2 giờ, 25-55% sau 6 giờ, ≥ 85% sau 24 giờ.
 
@@ -641,10 +919,11 @@ Xác định sự khác nhau và giống nhau giữa 2 mẫu như sau:
 
 Xác định đó hòa tan của 2 mẫu thuốc (thủ và đối chiếu) mỗi mẫu 12 đơn vị.
 
-Từ dữ liệu độ hòa tan tỉnh chỉ số khác nhau (fl) và chỉ số giống nhau (12) theo công thức:
+Từ dữ liệu độ hòa tan tỉnh chỉ số khác nhau (fl) và chỉ số giống nhau (f2) theo công thức:
 
-f = 50. logarit +(1/n) (RT) 100
+$$f_1=\frac{\sum^n_{t=1}|R_t-T_t|}{\sum^n_{t=1}R_t}100 $$
 
+$$f_2=50 log(1+\frac{1}{n}\sum^n_{t=1}(R_t - T_t)^2)^{-0.5}100 $$
 Trong đó: n là số điểm lấy mẫu, Ri là giá trị hóa tan của lô đổi chiếu ở thời gian t và Ti là giá trị độ hòa tan của lô thư ở thời gian t
 
 Hai mẫu được xác định trong cùng điều kiện, các thời điểm lấy mẫu như nhau.
@@ -656,56 +935,78 @@ Hai đường cong trong đồ thị độ hòa tan được cho là giống nha
 
 ## Đánh giá sinh khả dụng in vivo và tương đương sinh học
 
-Thường dùng phương pháp xác định các thông số được động học (Coax. Tmax.
+Thường dùng phương pháp xác định các thông số được động học ($C_{max}$ $T_{max}$.AUC) để đánh giá sinh khả dụng *in vivo*. Các cơ quan quản lý FDA (Hoa Kỳ) hoặc ASEAN, Châu Âu... đã đưa ra các quy định hướng dẫn cụ thể về các nội dung:
 
-AUC) để đánh giá sinh khả dụng in vivo. Các cơ quan quản lý FDA (Hoa Kỳ) hoặc ASEAN, Châu Âu... đã đưa ra các quy định hướng dẫn cụ thể về các nội dung:
+- Lựa chọn đối tượng thủ (động vật, người tình nguyên).
+- Chế phẩm đối chiếu, chế phẩm thư.
+- Thiết kế nghiên cứu, thời điểm lấy mẫu.
+- Thẩm định phương pháp phân tích...
 
-Lựa chọn đối tượng thủ (động vật, người tình nguyên).
+**Đánh giá sinh khả dụng**
 
-Chế phẩm đối chiếu, chế phẩm thư.
+- $C_{max}$ và $T_{max}$ 
+- $AUC_{0-\infty}= AUC_{0-t} + $C_{tn}/\lambda_z$$
 
-Thiết kế nghiên cứu, thời điểm lấy mẫu.
 
-Thẩm định phương pháp phân tích...
+**Đánh giá tương đương sinh học**
 
-::: {.panel-sidebar}
+Nghiên cứu chèo, đơn liễu, hai thuốc, hai giai đoạn, hai trình tự thử thuốc với Cmax. AUC và MRT (số liệu có thể chuyển logarit):
 
-### Đành giả sinh khả dụng
-
-Xác định các thông số dược động học cơ bản:
-
-Cmax và Tmax : số liệu thu được trực tiếp từ kết quả thí nghiệm.
-
-AUCo-tu (diện tích dưới đường cong nồng độ - thời gian từ thời điểm 0 đền thời điểm t) được tỉnh theo phương pháp hình thang, với ta là thời điểm lấy mẫu cuối cùng có thẻ định lượng được.
-
-AUCox (diện tích dưới đường cong nồng độ - thời gian từ điểm 0 đến vô cùng) được tỉnh toán theo công thức:
-
-AUCO-AUCO-tn + Con/z
-
-Trong đó:
-
-Ca - Nồng độ của thuốc tại thời điểm lấy mẫu cuối cùng
-
-12 – Hằng số tốc độ thải trừ (hệ số góc đường hồi qui giữa 1g(nồng độ] và thời gian)
-
-### Đánh giá tương đương sinh học
-
-Nghiên cứu chèo, đơn liễu, hai thuốc, hai giai đoạn, hai trình tự thử thuốc với
-
-Cmax. AUC và MRT (số liệu có thể chuyển logarit):
-
-Phân tích phương sai đánh giá ảnh hưởng của các yếu tố như trình tự, giai đoạn, thuốc, cả thể tới kết qua thư nghiệm.
-
-Tỉnh khoảng tin cậy 90% của sự chênh lệch giữa giá trị trung bình của thuốc thửvà thuốc đối chiếu. Nếu giới hạn khoảng tin cậy nằm trong khoảng 80-125% thi
-
-hai chế phẩm được coi như là tương đương sinh học (khi tỉnh dạng logarit).
-
-Với Tmux : đánh giá theo phương pháp thống kê phi tham số. Yêu cầu giá trị Tmax của thuốc thử và thuốc đổi chứng sai khác không có ý nghĩa thống kẻ.
-:::
+- Phân tích phương sai đánh giá ảnh hưởng của các yếu tố như trình tự, giai đoạn, thuốc, cả thể tới kết qua thư nghiệm.
+- Tỉnh khoảng tin cậy 90% của sự chênh lệch giữa giá trị trung bình của thuốc thửvà thuốc đối chiếu. Nếu giới hạn khoảng tin cậy nằm trong khoảng 80-125% thi hai chế phẩm được coi như là tương đương sinh học (khi tỉnh dạng logarit).
+- Với Tmux : đánh giá theo phương pháp thống kê phi tham số. Yêu cầu giá trị Tmax của thuốc thử và thuốc đổi chứng sai khác không có ý nghĩa thống kẻ.
 
 ## Xác định mô hình động học giải phóng được chất từ hệ thuốc
 
 Dựa trên dữ liệu độ hòa tan, đánh giá các số liệu tính theo phương trình toán học của mô hình và của mẫu thực tại các thời điểm. Sau đó căn cứ vào giá trị của các chỉ
+
+
+
+# Polymer 
+
+## Polymer
+::: {.panel-tabset}
+### non-degradable polymeric matrices
+
+| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
+|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
+| Segmented PU (Cardiomat 610) | Drug-eluting stent          | 1,3-Dipropyl-8-cyclopentyl xanthine     | 1 d           | Near linear release (~ 20 d)            | Non-Fickian diffusion |
+| Elast-Eon™                | Drug-eluting stent          | Dexamethasone acetate                  | w/            | Biphasic pattern                        | Fickian diffusion   |
+| Polyurethane (Walopur®)   | Disk-shaped matrices        | Flucloxacillin-Na, Fosfomycin, Gentamicin-base | 1 d           | Near linear (2 ~ 5 d)                  | Matrix-controlled    |
+| Poly(urea-urethane)       | Microcapsule                | Auramine (Oil-soluble dye)             | w/o           | Near linear (~20 min)                  | Non-Fickian Diffusion |
+| PEG modified polyurethane | Dermal patch                | Thiamazole, diclofenac sodium, ibuprofen | 12 h          | Biphasic pattern (~ 48 h)              | -                   |
+| PDMS                      | Rod (matrix vs. reservoir)  | Ivermectin                             | w/o           | Matrix: first order, 50 d; Reservoir: zero order, 84 d | Matrix: diffusion, Reservoir: case II transport |
+| PDMS                      | Intravaginal ring (reservoir) | TMC120                                 | 1–2 d         | Biphasic; near zero order release for 30 d | Case II transport  |
+| PDMS                      | Intravaginal ring (core-type) | TMC120                                 | w/o           | Zero order, 71 d                       | Case II transport   |
+| PDMS                      | Strip (10×20 mm)            | Metronidazole                          | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| PEVA (VA content, 40%)    | Membrane                    | Quinupramine                           | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| PEVA                      | Thin film                   | Acyclovir, Chlorhexidine diacetate     | w/o           | Near zero-order (~ 8 d)                | Non-Fickian diffusion |
+| PEVA                      | Drug-eluting stent coating  | 5-Fluorouracil                         | w/            | Biphasic pattern (~20 d)               | Fickian diffusion   |
+| PEVA (VA content, 40%)    | Disk-shape Film             | Chlorhexidine diacetate                | w/            | Near-zero order (~ 7 d)                | Non-Fickian diffusion |
+| PEVA (VA content, 40%)    | Membrane                    | Furosemide                             | w/            | Higuchi (linear vs. t1/2)               | Fickian diffusion   |
+| Dextran sulfate           | Microcapsule                | Insulin                                | w/            | Biphasic pattern (~12 h)               | Fickian diffusion   |
+| Methacrylated dextran     | Hydrogel                    | Vitamin E                              | ~3 h          | Biphasic                                | Swelling            |
+| HPMC with β-CD            | Tablet                      | Difunisal                              | w/o           | Zero-order for nonsoluble β-CD; First-order for soluble β-CD | Non-Fickian diffusion |
+
+
+
+### Biodegradable polymeric matrices
+
+
+| Type of material          | Type of device              | Loaded drug                            | Burst release | Release kinetics                        | Transport mechanism |
+|---------------------------|-----------------------------|----------------------------------------|---------------|-----------------------------------------|---------------------|
+| PLGA/PLA                  | Microparticle               | Diltiazem hydrochloride                | 2h            | Triphasic pattern                       | Diffusion and erosion |
+| PLGA                      | Nanoparticle                | Estradiol                              | w/o           | Zero order up to 31 ~54 d               | Diffusion-cum-degradation |
+| PLGA                      | Microcapsule                | Insulin                                | 20%, 24h      | Triphasic pattern                       | Diffusion and erosion |
+| p(FAD-SA) 50:50           | Implantable disk            | Cefazolin sodium                       | w/o           | 100%, 14 d                              | Diffusion             |
+|                           |                             | Bupivacaine free base                  | w/o           | 90%, 35 d                               | Diffusion and degradation |
+|                           |                             | Taxol                                  | w/o           | 15%, 77d                                | Degradation          |
+| PEG hydrogel with degradable crosslinks | Disk                  | Bovine serum albumin                    | w/o           | Zero order in the presence of human neutrophil elastase | Triggered degradation |
+| Poly(ortho ester amide) copolymer | NA                        | FITC-dextran                           | w/o           | Near zero order                         | Erosion              |
+| HPMC                      | Tablet                      | Adinazolam mesylate                    | w/            | Near zero order, 10h                    | Swelling and dissolution |
+
+
+:::
 
 
 

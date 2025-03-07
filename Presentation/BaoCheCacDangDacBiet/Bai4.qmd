@@ -13,7 +13,7 @@ format:
     slide-number: true
     preview-links: auto
     css: "styles.css"
-    logo: "../BaoCheCacDangDacBiet/Images/LogoDaiNam.svg"
+    logo: "Images/LogoDaiNam.svg"
     footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
@@ -25,7 +25,7 @@ format:
     theme: [default, custom.scss] #"../coeos.scss"
 
 title-slide-attributes: 
-  data-background-image: "../BaoCheCacDangDacBiet/Images/Bia1.png"
+  data-background-image: "Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
@@ -59,7 +59,7 @@ Các bệnh có nhịp ngày đêm
 
 :::
 ::: {.column width="80%"}
-![Chu kỳ sinh học - [chronobiology](https://en.wikipedia.org/wiki/Chronobiology)](../BaoCheCacDangDacBiet/Images/Biological_clock_human.svg){width="90%"}
+![Chu kỳ sinh học - [chronobiology](https://en.wikipedia.org/wiki/Chronobiology)](./Images/Biological_clock_human.svg){width="90%"}
 :::
 ::::
 > Chronotherapy có thể dịch là phân phối thuốc với chu kỳ sinh học theo thời gian để tối ưu hóa hiệu quả điều trị và giảm tác dụng phụ.  
@@ -68,6 +68,11 @@ Các bệnh có nhịp ngày đêm
 
 # Bào chế thời khắc 
 
+pulsatile drug deliver
+
+Timing release drug
+
+INTELLIGENT DRUG DELIVERY SYSTEMS
 
 Bào chế thời khắc là khoa học dựa trên cơ sở bệnh học thời khắc và dược động học thời khắc bào chế ra dạng thuốc giải phóng theo nhịp sinh học, cung cấp dược chất cho cơ thể theo nhịp diễn biến của bệnh, tối ưu đỉnh của nhịp giải phóng và hấp thu dược chất từ dạng thuốc phù hợp với đỉnh của nhịp bùng phát bệnh. 
 
@@ -79,28 +84,32 @@ Bào chế thời khắc là khoa học dựa trên cơ sở bệnh học thời
 
 ### Khái niệm
 
-::: {.callout-important "Khái niệm"}
+::: {.callout-important title="pulsatile drug deliver"}
 Thuốc giải phóng theo nhịp sinh học là hệ thuốc giải phóng có kiểm soát, dược chất được giải phóng đúng thời điểm, đúng liều lượng, đúng nơi nhịp diễn biến của bệnh sau một khoảng thời gian tiềm tàng nhất định.
 :::
 
 Thời gian tiềm tàng là thời gian từ khi chế phẩm thuốc tiếp xúc với môi trường hòa tan cho đến khi dược chất bắt đầu giải phóng khỏi dạng thuốc trong phép thử hòa tan. 
 
+![So sánh giữa giải phóng theo nhịp, giải phóng quy ước và giải phóng kéo dài.](Images/baochethoikhac.jpg)
+
+
 ### Phân loại
 
-::: {.panel-tabset}
 
-#### Hệ đơn nhịp
+::: {.callout-important title="Hệ đơn nhịp"}
 
 Toàn bộ dược chất trong hệ giải phóng cùng một lúc. Thời gian tiềm tàng của thuốc giải phóng nhanh dược chất trong cùng lúc như trong điều trị các bệnh cao huyết áp, chứa hen. Hoặc giải phỏng toàn bộ thuốc trong một vùng cần thiết như ruột non hoặc đại tràng. 
+:::
 
-#### Hệ đa nhịp 
-
+::: {.callout-important title="Hệ đa nhịp"}
 Dược chất trong hệ được giải phóng thành nhiều lần ngắt quãng nhằm giảm tác dụng không mong muốn, cải thiện sự tuân thủ của người bệnh hoặc giải phóng dược chất tại các vùng khác nhau trong đường tiêu hóa
 
 - Hệ đơn đơn vị: Hệ chỉ chứa một đơn vị bào chế duy nhất như viên nén, viên nang thuốc bao kháng vị. Hệ đơn đơn vị thường là hệ giải phòng một nhịp, giải phóng nhanh sau thời gian tiềm tàng.
 - Hệ đa đơn vị: Hệ này chưa đa tiểu phân, chứa nhiều tiểu đơn vị trong một liều dùng như nang chứa hạt, pellet, vi cầu, viên nén mini. Các tiểu đơn vị có thể được bao với các loại màng bao khác nhau hoặc độ dày màng khác nhau để giải phóng dược chất thành nhiều nhịp
+:::
 
-### Ưu điểm hệ đa nhịp
+
+::: {.callout-note title="Ưu điểm hệ đa nhịp"}
 
 - Dễ thiết kế dạng bào chế có mô hình giải phóng phức tạp theo yêu cầu điều trị, do có sự phối hợp mô hình giải phóng các nhóm tiểu đơn vị
 - Sinh khả dụng ổn định, tính lặp lại cao: dạng đa đơn vị chưa các tiểu đơn vị có đường kính nhỏ dễ đi qua môn vị, làm tăng tháo rỗng dạ dày và trải đều trên ruột non, tạo được bề mặt hòa tan và hấp thu lớn, dảm bảo ổn định và đồng nhất cho chế phẩm
@@ -108,9 +117,46 @@ Dược chất trong hệ được giải phóng thành nhiều lần ngắt qu�
 
 :::
 
+
 :::
 
 # Một số hệ giải phóng
+
+:::: {.columns}
+
+::: {.column width="50%"}
+```{mermaid}
+flowchart LR
+  A[INTELLIGENT DRUG DELIVERY SYSTEMS] --> B1(Pulsatile Systems)
+  B1 --> C1(System based on osmosis)
+  B1 --> C2(System based on capsule)
+  B1 --> C3(System with erodible, soluble or rupturable membrane)
+  B1 --> C4(System with change in membrane permeabilit)
+```
+
+:::
+::: {.column width="50%"}
+```{mermaid}
+flowchart LR
+  A[INTELLIGENT DRUG DELIVERY SYSTEMS] --> B1(Pulsatile Systems)
+  B1 --> C1(Magnetically Modulated Systems)
+  B1 --> C2(Ultrasonically Modulated Systems)
+  B1 --> C3(Electrically Regulated System)
+  B1 --> C4(Photoresponsive Systems)
+  A --> B2(Responsive Systems)
+  B2 --> D1(Temperature-Sensitive Systems)
+  B2 --> D2(Systems Sensitive to pH)
+  B2 --> D3(Inflammation-Responsive Systems)
+  B2 --> D4(Glucose and Other Saccharide-Sensitive Polymers)
+  A --> B3(Systems Utilizing Enzymes)
+  B3 --> E1( Urea Responsive Delivery)
+  B3 --> E2( Glucose-Responsive Insulin Delivery)
+  B3 --> E3(Morphine-Triggered Naltrexone Delivery Systems)
+  A --> B4(Systems Utilizing Antibody Interactions)
+  A --> B5(Systems Utilizing Chelation)
+```
+:::
+::::
 
 ## Hệ giải phóng theo nhịp hệ màng bao
 

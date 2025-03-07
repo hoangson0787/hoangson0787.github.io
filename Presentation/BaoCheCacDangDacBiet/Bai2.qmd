@@ -92,8 +92,8 @@ mol2 = Chem.MolFromSmiles(smiles2)
 # Vẽ cấu trúc hóa học và lưu thành tệp ảnh
 img1 = Draw.MolToImage(mol1)
 img2 = Draw.MolToImage(mol2)
-img1.save("../BaoCheCacDangDacBiet/Images/dextroamphetamine.png")
-img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
+img1.save("./Images/dextroamphetamine.png")
+img2.save("./Images/GoserelinAcetate.png")
 ```
 
 :::
@@ -102,9 +102,9 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 ::: {layout="[1,1]"}
 
 
-![A](../BaoCheCacDangDacBiet/Images/dextroamphetamine.png)
+![A](./Images/dextroamphetamine.png)
 
-![B](../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png)
+![B](./Images/GoserelinAcetate.png)
 
 
 :::
@@ -116,7 +116,7 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 
 :::{.column width="40%"}
 
-![C](../BaoCheCacDangDacBiet/Images/Gen1.png)
+![C](./Images/Gen1.png)
 
 
 :::
@@ -125,11 +125,11 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 
 ::::{.columns}
 :::{.column width="50%"}
-![3 thế hệ của thuốc giải phóng đặc biệt](../BaoCheCacDangDacBiet/Images/Evolution.png){width="80%"}
+![3 thế hệ của thuốc giải phóng đặc biệt](./Images/Evolution.png){width="80%"}
 :::
 :::{.column width="50%"}
 
-![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](../BaoCheCacDangDacBiet/Images/Classification.png){width="70%"}
+![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](./Images/Classification.png){width="70%"}
 :::
 ::::
 
@@ -180,7 +180,7 @@ img2.save("../BaoCheCacDangDacBiet/Images/GoserelinAcetate.png")
 
 ### Mối liên hệ
 
-![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](../BaoCheCacDangDacBiet/Images/Classification.png){width="60%"}
+![Có nhiều cách để phân loại phản ánh sự đa dạng về cách tiếp cận nhưng không thể phù nhận mỗi cách phân loại sẽ có mối liên hệ chặt chẽ với nhau.](./Images/Classification.png){width="60%"}
 
 ### Theo đường dùng
 [hiện tại và kỳ vọng ](https://www.pharmtech.com/view/an-evolving-approach-to-drug-delivery)
@@ -201,7 +201,7 @@ Thế hệ thứ hai sử dụng qua đường tiêm: Với công thức vi hạ
 Tiến bộ gần đây: 2021, GlaxoSmithKline và ViiV Healthcare công bố phát triển thuốc điều trị HIV siêu dài dựa trên enzyme hyaluronidase PH20 tái tổ hợp ở người (rHuPH20). Johnson & Johnson, và Bioasis Technologies, đã được hình thành để phát triển các loại thuốc có thể vượt qua hàng rào máu não (BBB). 
 
 ### theo cách thiết kế
-![Phân loại theo cách thiết kế:  Thuốc giải phóng theo chương trình (a), Thuốc giải phóng có module kích hoạt (b), Thuốc giải phóng theo cơ chế đáp ứng cho-nhận (c), Thuốc giải phóng tại đích (d)](../BaoCheCacDangDacBiet/Images/TypeOfRelease.png)
+![Phân loại theo cách thiết kế:  Thuốc giải phóng theo chương trình (a), Thuốc giải phóng có module kích hoạt (b), Thuốc giải phóng theo cơ chế đáp ứng cho-nhận (c), Thuốc giải phóng tại đích (d)](./Images/TypeOfRelease.png)
 
 
 
@@ -396,7 +396,70 @@ extended-release (ER)
 Sustained Drug Delivery System
 **Ưu điểm:** Nồng độ dược chất hằng định trong máu tại liều điều trị tối ưu trong thời gian dài, không tạo hiện tượng đỉnh và đáy
 
+
+### Lựa chọn hoạt chất ^[Fundamentals Applications of Controlled Release Drug Delivery]"
+
+[Chi tiết về các thông số](https://www.intechopen.com/chapters/88768)
+
+:::: {.columns}
+::: {.column width="35%"}
+::: {.callout-note title="Khối lượng phân tử: 150-400"}
+**Molecular weight or size**: Phân tử cần đi qua khe màng; khối lượng 150 sẽ ở dạng hình cầu, trong khi 400 sẽ ở dạng chuỗi.
 :::
+
+::: {.callout-note title="Dạng không ion hóa chiếm từ 0.1 - 1% thuốc"}
+**Solubility**: Cần thử độ tan của hoạt chất ở các pH khác nhau. Hoạt chất có độ hòa tan dưới 0.1 $\mu g/ml$ ở pH acid có sinh khả dụng không ổn định và giảm. Khi độ hòa tan dưới 0.01 $\mu g/ml$, sự hấp thu sẽ bị ảnh hưởng mạnh bởi khả năng hòa tan. 
+:::
+
+::: {.callout-note title="Hệ số phân bố biểu kiến"}
+[Apparent partition coefficient (APC)](https://redbcm.com/en/true-vs-apparent-partition-coefficient/): Cần đánh giá ảnh hưởng của pH trong hệ tiêu hóa với phân bố giữa hai pha nước - ion-octanol.
+:::
+
+::: {.callout-note title="Cơ chế hấp thu"}
+**General absorption mechanism**: Thuốc hấp thu qua cơ chế khuếch tán qua màng hoặc di chuyển qua các kênh chứa nước trong hệ tiêu hóa.
+:::
+:::
+
+::: {.column width="35%"}
+::: {.callout-note title="Thời gian bán hủy"}
+**Pharmacokinetic parameters (t½)**: 
+- $t_{1/2} = 8$ giờ là phù hợp.
+- $t_{1/2} < 1$ giờ rất khó sử dụng.
+- $t_{1/2} > 8$ giờ thì không cần thiết.
+:::
+
+::: {.callout-note title="Độ thanh thải"}
+**Total clearance (CL)**: Quyết định liều lượng sử dụng và dự đoán nồng độ thuốc trong máu.
+:::
+
+::: {.callout-note title="Thể tích phân bố biểu kiến"}
+[Apparent volume of distribution (Vz)](https://vi.wikipedia.org/wiki/Th%E1%BB%83_t%C3%ADch_ph%C3%A2n_ph%E1%BB%91i): Thiết lập mối quan hệ giữa nồng độ thuốc trong máu và tổng lượng thuốc. Liên quan mật thiết với độ thanh thải và thời gian bán thải.
+:::
+:::
+
+::: {.column width="30%"}
+::: {.callout-note title="Sinh khả dụng tuyệt đối (F)"}
+**Absolute bioavailability (F)**: Hệ số gần 100% là lý tưởng khi so sánh với đường tiêm.
+:::
+
+::: {.callout-note title="Hằng số tỷ lệ hấp thu nội tại Ka"}
+**Intrinsic absorption rate constant (Ka)**: So sánh khả năng hấp thụ với các thuốc đường uống dạng dung dịch, thường hấp thu nhanh hơn.
+:::
+
+::: {.callout-note title="Nồng độ điều trị"}
+**Therapeutic concentration (Css)**: 
+- Cần duy trì trong khoảng điều trị.
+- Nếu \( Css \) giảm, thể tích phân bố giảm, dẫn đến cần tăng thời gian bán thải.
+:::
+:::
+::::
+
+
+:::
+
+
+
+
 
 ## Mô hình động học
 
@@ -420,7 +483,7 @@ Mô hình động học là một hàm toán học mô tả quá trình giải p
 
 :::
 ::: {.column width="50%"}
-![Yếu tố ảnh hưởng đến mô hình giải phóng thuốc](../BaoCheCacDangDacBiet/Images/drugreleasekinetics.png)
+![Yếu tố ảnh hưởng đến mô hình giải phóng thuốc](./Images/drugreleasekinetics.png)
 
 ::: {.callout-note title="Polymer trong dạng bào chế hiện đại ^[Polymer vai trò dạng bào chế quy ước: Tá dược dính, Tá dược treo, thay đổi độ nhớt, Tá dược màng bao]"}
 Phân phối thuốc có kiểm soát (CDD) xảy ra khi một polyme, dù là tự nhiên hay tổng hợp, được kết hợp một cách thận trọng với thuốc hoặc tác nhân hoạt tính khác theo cách mà tác nhân hoạt tính được giải phóng khỏi vật liệu theo cách được thiết kế sẵn. Việc giải phóng tác nhân hoạt tính có thể không đổi trong một thời gian dài, nó có thể theo chu kỳ trong một thời gian dài hoặc nó có thể được kích hoạt bởi môi trường hoặc các sự kiện bên ngoài khác. Trong mọi trường hợp, mục đích đằng sau việc kiểm soát việc phân phối thuốc là để đạt được các liệu pháp hiệu quả hơn đồng thời loại bỏ khả năng thiếu và quá liều.
@@ -429,8 +492,33 @@ Phân phối thuốc có kiểm soát (CDD) xảy ra khi một polyme, dù là t
 :::
 ::::
 
+### Yếu tố ảnh hướng mô hình giải phóng
+
+- **Liên quan đến hoạt chất**
+  - Độ tan của thuốc
+  - Liều lượng
+  - Khối lượng & kích thước phân tử
+  - Đặc tính hạt thuốc (Kích thước & hình dạng)
+  - Trạng thái vật lý
+  - Khả năng khuếch tán trong polymer & môi trường
+- **Liên quan đến polymer**
+  - Độ nhớt
+  - Khả năng tạo gel
+  - Tỷ lệ ngậm nước
+  - Nhiệt chuyển trạng thái hóa rắn
+- **Liên quan đến công thức thuốc**
+  - Hình dạng thuốc
+  - Kỹ thuật sản xuất
+  - Tá dược & vai trò tá dược
+
+
+
+
+
 ### Về mô hình toán học
+
 ::: {.panel-tabset}
+
 #### Mô hình bậc 0
 
 :::: {.columns}
@@ -439,28 +527,37 @@ Phân phối thuốc có kiểm soát (CDD) xảy ra khi một polyme, dù là t
 
 ::: {.callout-tip title="Mô hình toán học"}
 
-$$C_t= \frac{K_0 t 100}{W_0}$$
+$$Q_t= Q_0 - K_0 t$$ 
 
 Trong đó:
 
-- $C_t$: phần trăm dược chất giải phóng tại thời điểm t.
+- $Q_t$: Tổng lượng thuốc giải phóng theo tại thời điểm t
 - $W_0$: tổng lượng dược chất có trong dạng thuốc.
 - $K_0$: hằng số tốc độ giải phóng bậc 0.
+
+Đơn vị là mg/min
+
+Thời gian thuốc giải phóng còn một nửa có thể xác định là 0.5*$\frac{Q_0}{K_0}$: tức là thời gian thuốc giải phóng còn một nửa phụ thuộc vào nồng độ thuốc ban đâu.
 
 Tốc độ giải phóng dược chất trong quá trình không thay đổi theo thời gian, giải phóng chậm
 
 Không phụ thuộc vào sự suy giảm hàm lượng dược chất trong dạng bào chế.
 
-Ứng dụng: hệ điều trị qua da, hệ bơm thẩm thấu, họ cốt chứa dược chất tan chậm, hệ màng bao.
+Ứng dụng: hệ điều trị qua da, hệ bơm thẩm thấu, viên nén cốt chứa dược chất tan chậm, hệ màng bao.
+
+Hoạt chất: Kháng sinh, hạ đường huyết, hạ huyết áp, chống trầm cảm
 :::
+
+
 :::
+
 ::: {.column width="60"}
 
 ::: {layout-ncol="2"}
 
-![$f_t=K_0 t với f_t là thuốc giải phóng trong thời gian t với K_0 là hằng số giải phóng$](../BaoCheCacDangDacBiet/Images/zero-order.png)
+![$f_t=K_0 t với f_t là thuốc giải phóng trong thời gian t với K_0 là hằng số giải phóng$](./Images/zero-order.png)
 
-![](../BaoCheCacDangDacBiet/Images/rero-order-plasma.png)
+![](./Images/rero-order-plasma.png)
 :::
 
 :::
@@ -473,20 +570,26 @@ Không phụ thuộc vào sự suy giảm hàm lượng dược chất trong d�
 ::: {.column width="40"}
 
 ::: {.callout-tip title="Mô hình toán học"}
-$$\frac{d_c}{d_t}=\frac{A(C_s - C_t)D}{h}$$
-Trong đó:
+$$\frac{dC}{dt}=-Kc$$
 
-- $\frac{d_c}{d_t}$: tốc độ giải phóng dược chất.
-- A: diện tích bề mặt tiếp xúc của hệ với môi trường hòa tan.
-- $C_s$: nồng độ dược chất bão hòa.
-- $C_t$: nồng độ dược chất trong môi trường tại thời điểm t.
-- D: hệ số khuếch tán của dược chất trong môi trường hòa tan.
-- h: bề dày lớp khuếch tán.
+Trong đó K là hằng số giải phóng bậc 1
+
+Biểu thức có thể viết lại thành 
+
+$$logC = logC_0 - \frac{K_t}{2.303}$$
+
+Với $C_0$ là nồng độ thuốc ban đầu,  là là hằng số giải phóng và t là thời gian.
 :::
+Tốc độ giải phóng thuốc tuyến tính với nồng độ thuốc.
+
+Thời gian thuốc giải phóng còn một nửa có thể tính toán 0.693/K tức là thời gian thuốc giải phóng còn một nửa độc lập. 
+
 Mô tả giải phóng dược chất từ hệ cốt thân nước, tốc độ giải phóng phụ thuộc vào lượng dược chất còn trong hệ thuốc, tốc độ giải phóng dược chất giảm dần theo thời gian.
+
+
 :::
 ::: {.column width="60"}
-![](../BaoCheCacDangDacBiet/Images/First-order.png)
+![](./Images/First-order.png)
 :::
 ::::
 
@@ -513,7 +616,7 @@ Hệ số $D_m$ được quyết định bởi bản chất (cấu trúc lý, h�
 Tốc độ giải phóng phụ thuộc vào hình dạng, kích thước, khối lượng hệ cốt.
 :::
 ::: {.column width="40"}
-![](../BaoCheCacDangDacBiet/Images/higuchi.png)
+![](./Images/higuchi.png)
 
 ::: {.callout-tip title="Nếu có sẵn cốt"}
 
@@ -545,97 +648,77 @@ Trong đó:
 :::
 :::
 ### Đánh giá mô hình
-- Theo chỉ số hiệu chỉnh $R_{hc}^2 = 1 - \frac{n-1}{n-p} (1-R^2)$ với $R^2 = 1 - \frac{\sum^n_{i-1} (c^l_i - c_i)^2}{\sum^n_{i-1} (c_i - \text{c})^2}$
-- Theo tiêu chuẩn AIC = $n \ln (\text{WSSR}) + 2P$ với $\text{WSSR} = \sum^n_{j=1} [w_j (y_j - \hat{y}_j)]$
 
+::: {.panel-tabset}
+
+#### Dựa vào hệ số tương quan
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.callout-important title="Hệ số tương quan"}
+Hệ tương quan là giá trị nằm giữa -1 và 1 đề để cập về mức độ và liên hệ trực tiếp giữa các giá trị. 
+$$R^2 = 1 - \frac{\sum^n_{i-1} (c'_i - c_i)^2}{\sum^n_{i-1} (c_i - \text{c})^2}$$
+
+Trong đó: 
+
+  - c'_i là số liệu tính toán từ hàm số đo tại thời điểm t
+  - c_i là số liệu thực đo tại thời điểm t
+  - \text{c} là giá trị trung bình
+
+:::
+
+:::
+::: {.column width="50%"}
+
+::: {.callout-important title="Hệ số hiệu chỉnh- Coefficient of Determination"}
+Hệ số hiệu chỉnh được sử dụng do các mô hình toán học sẽ khác nhau về các tham số bất chấp đóng góp các tham số vào mô hình. 
+Hệ số hiệu chỉnh giúp giải quyết vấn đề này.
+$$R_{hc}^2 = 1 - \frac{n-1}{n-p} (1-R^2)$$
+Trong đó: 
+
+  - n là số điểm dữ liệu quan sát được
+  - p là số điểm trong mô hình 
+
+:::
+
+:::
+::::
+
+![Hệ số tương quan Pearson khi là phân phối chuẩn](Images/HeSoTuongQuanPearson.png)
+
+
+#### Dựa vào AIC
+
+::: {.callout-important title="Hệ số hiệu chỉnh- Coefficient of Determination"}
+Akaike info criterion (AIC) là một phương pháp toán học để đánh giá mức độ phù hợp của một mô hình với dữ liệu được tạo ra từ mô hình đó. AIC được sử dụng trong thống kê để so sánh các mô hình khác nhau và xác định mô hình nào phù hợp nhất với dữ liệu. Điểm AIC càng thấp thì mô hình càng phù hợp
+
+$$AIC = n \ln (\text{WSSR}) + 2P$ với $\text{WSSR} = \sum^n_{j=1} [w_j (y_j - \hat{y}_j)]$$
+
+Trong đó:
+
+  - n là số điểm dữ liệu 
+  - p là tham số mô hình
+  - WSSR: tổng bình phương phần dư của trọng số
+  - $w_j$ là trọng số tùy chọn
+  - $y_j$ là giá trị thực tại thời điểm j
+  - $\hat{y}_j$ là giá trị tính toàn tại thời điểm j
+  - n số điểm lấy mẫu
+:::
+
+:::
 
 ### Vai trò
 **Tầm quan trọng của các mô hình**
+
 
 - Mô hình động học giải phóng dược chất từ chế phẩm bào chế là tư liệu kỹ thuật để kiểm soát đảm bảo chất lượng các lô thuốc, phân biệt chế phẩm bào chế của các nhà sản xuất khác nhau.
 - Xây dựng đường cong hòa tan, thiết lập mối liên hệ giữa mô hình *in vitro* và *in vivo*. 
 - Chọn phép thử độ hòa tan.
 
-
-
-### Lựa chọn hoạt chất ^[Fundamentals Applications of Controlled Release Drug Delivery]
-- (Molecular weight or size) Khối lượng phân tử: 150-400.
-- (Solubility) Dạng không ion hóa chiếm từ 0.1 -1% thuốc.
-- Apparent partition coefficient (APC)  Hệ số phân bố biểu kiến.
-- (General absorption mechanism) Cơ chế hấp thu.
-- (Pharmacokinetic parameters Elimination half life (t ½)) Thời gian bán hủy: $t_{1/2} = 8$ giờ là phù hợp, nếu $t_{1/2}$ nhỏ hơn 1 giờ là quá khó có thể làm được, còn $t_{1/2}$ lớn hơn thì không cần thiết.
-- (Total clearance (CL)) Độ thanh thải.
-- (Apparent volume of distribution (Vz) ) Thể tích phân bố biểu kiến.
-- (Absolute bioavailability (F) ) Sinh khả dụng tuyệt đối (F) F gần 100
-- (Intrinsic absorption rate constant (Ka) ) Hằng số tỷ lệ hấp thu nội tại Ka.
-- (Therapeutic concentration (Css) ) Nồng độ điều trị.
 :::
 
-## Lựa chọn Polymer
-
-::: {.panel-tabset}
-### Dựa trên đặc tính vật lý
-
-- Poly(urethanes) for elasticity.  
-- Poly(siloxanes) or silicones for insulating ability.  
-- Poly(methyl methacrylate) for physical strength and transparency.  
-- Poly(vinyl alcohol) for hydrophilicity and 
-strength.  
-- Poly(ethylene) for toughness and lack of swelling.  
-- Poly(vinyl pyrrolidone) for suspension capabilities.
-
-
-### Không phân hủy
-
-- Poly(2-hydroxy ethyl methacrylate)  
-- Poly(N-vinyl pyrrolidone).  
-- Poly(methyl methacrylate).  
-- Poly(vinyl alcohol).  
-- Poly(acrylic acid).  
-- Polyacrylamide.  
-- Poly(ethylene-co-vinyl acetate).  
-- Poly(ethylene glycol).  
-- Poly(methacrylic acid). 
-
-### Phân hủy
-
-- Polylactides (PLA).  
-- Polyglycolides (PGA).  
-- Poly(lactide-co-glycolides) (PLGA).  
-- Polyanhydrides.  
-- Polyorthoesters. 
-
-### Các yếu tố cần quan tâm
-:::: {.columns}
-
-::: {.column width="50%"}
-- Cấu trúc hóa học
-- Thành phần hóa học
-- Phân bố các đơn vị lặp lại trong đa phân
-- Sự hiện diện của các nhóm ion
-- Sự hiện diện của các đơn vị bất ngờ hoặc khuyết tật chuỗi
-- Cấu trúc cấu hình
-- Trọng lượng phân tử
-- Phân bố trọng lượng mô
-- Hình thái (vô định hình/bán tinh thể, cấu trúc vi mô, ứng suất dư)
-- Hợp chất hiện diện của trọng lượng phân tử thấp
-- Điều kiện xử lý
-:::
-::: {.column width="50%"}
-- Ủ
-- Quy trình khử trùng
-- Lịch sử lưu trữ
-- Hình dạng
-- Vị trí cấy ghép
-- Các hợp chất hấp phụ và hấp thụ (nước, lipid, ion, v.v.)
-- Các yếu tố hóa lý (trao đổi ion, cường độ ion, pH)
-- Các yếu tố vật lý (thay đổi hình dạng và kích thước, sự thay đổi của hệ số khuếch tán, ứng suất cơ học, nứt do ứng suất và dung môi, v.v.)
-- Cơ chế thủy phân (enzyme so với nước)
-:::
-::::
-### 
-
-:::
 
 # Câu hỏi lượng giá
 

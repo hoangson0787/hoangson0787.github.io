@@ -23,7 +23,7 @@ Chúc các bạn hoàn thành tốt khóa học!
 
 
 
-**Buổi 1** [Viên nén đặc biệt](../BaoCheCacDangDacBiet/Bai1.qmd) 
+**Buổi 1** [Viên nén đặc biệt](Bai1.qmd) 
 
 - Viên sủi bọt
 - Viên nhai
@@ -31,30 +31,30 @@ Chúc các bạn hoàn thành tốt khóa học!
 - Viên đặt dưới lưỡi
 - Các viên nén đặc biệt khác
 
-**Buổi 2**  [Đại cương các dạng thuốc giải phóng kiểm soát](../BaoCheCacDangDacBiet/Bai2.qmd)
+**Buổi 2**  [Đại cương các dạng thuốc giải phóng kiểm soát](Bai2.qmd)
 
 - Định nghĩa, phân loại
 - Ưu nhược điểm 
 - Mô hình giải phóng dược chất
 
-**Buổi 3, 4** [Các hệ thuốc giải phóng kiểm soát](../BaoCheCacDangDacBiet/Bai3.qmd)
+**Buổi 3, 4** [Các hệ thuốc giải phóng kiểm soát](Bai3.qmd)
 
 - Hệ màng bao
 - Hệ cốt
 - Hệ bơm thẩm thấu
 
-**Buổi 5** [Dạng thuốc giải phóng theo nhịp](../BaoCheCacDangDacBiet/Bai4.qmd)
+**Buổi 5** [Dạng thuốc giải phóng theo nhịp](Bai4.qmd)
 
 - Đại cương
 - Các hệ thuốc giải phóng theo nhịp
 
 **Buổi 6** – Kiểm tra, giải đáp thắc mắc (tự luận)
 
-**Buổi 7** [Dạng thuốc giải phóng theo nhịp (Tiếp)](../BaoCheCacDangDacBiet/Bai4.qmd)
+**Buổi 7** [Dạng thuốc giải phóng theo nhịp (Tiếp)](Bai4.qmd)
 
 - Đánh giá một số chỉ tiêu đặc trưng của thuốc giải phóng theo nhịp
 
-**Buổi 8** [Dạng thuốc giải phóng tại đích](../BaoCheCacDangDacBiet/Bai5.qmd)
+**Buổi 8** [Dạng thuốc giải phóng tại đích](Bai5.qmd)
 
 - Hệ thuốc nano
 - Hệ thuốc liposome

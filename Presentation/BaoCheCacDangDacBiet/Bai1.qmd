@@ -13,7 +13,7 @@ format:
     slide-number: true
     preview-links: true
     css: "styles.css"
-    logo: "../BaoCheCacDangDacBiet/Images/LogoDaiNam.svg"
+    logo: "Images/LogoDaiNam.svg"
     footer: "https://dainam.edu.vn"
     width: 100%
     height: 100%
@@ -24,7 +24,7 @@ format:
     highlight-style: github-dark
     theme: [default, custom.scss] #"../coeos.scss"
 title-slide-attributes: 
-  data-background-image: "../BaoCheCacDangDacBiet/Images/Bia1.png"
+  data-background-image: "Images/Bia1.png"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---
@@ -75,7 +75,7 @@ Tài liệu tham khảo
 
 ## Quy trình sản xuất viên nén
 
-![Quy trình](../BaoCheCacDangDacBiet/Images/Quy%20trinh.png){width="100%"}
+![Quy trình](./Images/Quy%20trinh.png){width="100%"}
 
 ## Chất lượng viên nén
 
@@ -128,7 +128,7 @@ Viên nén là dạng thuốc rắn, mỗi viên là một đơn vị phân li�
 Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi bọt gồm các acid hữu cơ và muối carbonat hoặc  hydrocarbonat, phản ứng khi có nước giải phóng khí carbon dioxyd. Viên được hòa tan hoặc phân tán trong nước trước khi dùng.
 :::
 
-![Viên efferalgan](../BaoCheCacDangDacBiet/Images/efferalgan.png){width="40%"}
+![Viên efferalgan](./Images/efferalgan.png){width="40%"}
 
 ### Ngậm 
 
@@ -136,7 +136,7 @@ Viên sủi bọt là viên nén không bao, thường chứa tá dược sủi 
 Viên ngậm thường là viên nén không bao được điều chế để dược chất giải phóng tại khoang miệng gây tác dụng tại chỗ hay hấp thu qua niêm mạc dưới lưỡi.
 :::
 
-![Viên ngậm](../BaoCheCacDangDacBiet/Images/BuccalTablets.png){width="40%"}
+![Viên ngậm](./Images/BuccalTablets.png){width="40%"}
 
 ### Nhai
 
@@ -145,7 +145,7 @@ Theo dược điển việt nam V- Viên nén không bao
 > Viên nhai không phải thử độ rã 
 Theo dược điển Mỹ, Viên nhai là dạng viên được nhai hoạc nghiền nát trong miệng trước khi nuốt. Viên nhai thường chứa các dược chất tác dụng tại chỗ ở dạ dày (antacid) hoặc các dược chất hấp thu để gây tác dụng toàn thân (vitamin, aspirin)
 :::
-![Viên Fugacar](../BaoCheCacDangDacBiet/Images/Fugacar.png){width="40%"}
+![Viên Fugacar](./Images/Fugacar.png){width="40%"}
 
 
 
@@ -154,7 +154,7 @@ Theo dược điển Mỹ, Viên nhai là dạng viên được nhai hoạc nghi
 Viên đặt dưới lưỡi
 :::
 
-![Viên mecobalamin](../BaoCheCacDangDacBiet/Images/mecobalamin.png){width="40%"}
+![Viên mecobalamin](./Images/mecobalamin.png){width="40%"}
 
 ### Đặt 
 ::: {.callout-important title="Viên đặt dưới lưỡi Sublingual tablets"}
@@ -162,7 +162,7 @@ Thuốc đặt là dạng thuốc rắn, chứa một hoặc nhiều dược ch�
 Khi đặt vào vị trí trên cơ thể, thuốc đặt thường chảy ra, mềm ở thân nhiệt hoặc **hòa tan dần** trong niêm dịch để giải phóng dược chất.
 :::
 
-![Viên nén ab intimus](../BaoCheCacDangDacBiet/Images/intimus.png){width="40%"}
+![Viên nén ab intimus](./Images/intimus.png){width="40%"}
 :::
 
 
@@ -635,7 +635,7 @@ Viên kết dính niêm mạc miệng là viên được giữ ở má và nư�
 :::
 
 :::{.column width="30%"}
-![Viên đặt dính niêm mạc miệng](../BaoCheCacDangDacBiet/Images/Mucoadhesive.png)
+![Viên đặt dính niêm mạc miệng](./Images/Mucoadhesive.png)
 :::
 :::{.column width="30%"}
 {{< video https://www.youtube.com/embed/AUpyrvsCPv8 width="90%" height="600">}}
