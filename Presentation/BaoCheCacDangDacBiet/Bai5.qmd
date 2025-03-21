@@ -39,45 +39,87 @@ title-slide-attributes:
 3. Giải thích được cơ chế giải phóng hướng đích của hệ thuốc nano và liposome, phân tích được các yếu tố ảnh hưởng.
 4. Trình bày được một số chỉ tiêu chất lượng của hệ thuốc nano, liposome cần đánh giá, phương pháp đánh giá.
 
+# Lịch sử
+
+## Quá trình phát triển
+![Năm 1959, Feynman nhà vật lý hàng đầu lần đầu tiên đề cập về công nghệ nano tạo ra kỷ nguyên mới cho loài người khi đề cập tới cấu trúc ở kích thước 1-100nm. Năm 2015, FDA Hoa kỳ đã chấp thuận thuốc điều trị ung thư trên lâm sàng với onivyde ](./Images/nano1.png){width="150%"}
+
+
 # Hệ Nano giải phóng hướng đích 
 
 ## Đặc điểm thành phần cấu trúc hệ thuốc
 
 ::: {.panel-tabset}
 ### Cấu trúc 
-:::: {.columns}
-::: {.column width="50%"}
+
 ::: {.callout-important title="Khái niệm"}
 Hệ thuốc nano giải phóng tại đích là hệ chứa các tiểu phân có kích thước nanomet, trong đó dược chất dược phân tán vào chất mang polyme có cấu trúc cốt, cấu trúc màng bao hoặc gắn vào chất mang bằng liên kết hóa học. Bề mặt của tiểu phân nano có thể được gắn kết các chất chức năng hóa bề mặt, thay đổi các đặc tính bề mặt nhằm tăng cường sự bám dính sinh học, giảm sự bắt giữ của đại thức bảo, gắn kết đặc hiệu với kháng nguyên trên bề mặt tế bào, từ đó tăng cường khả năng giải phóng được chất hướng đích.
 :::
-:::
+
+:::: {.columns}
 ::: {.column width="50%"}
-![Cấu trúc của một số dạng nano. (a) Micelle, (b) liposome, (c) solid lipid nanoparticle, (d) polymeric nanoparticle, and (e) nano-emulsion.](./Images/TypeOfNano.png)
+![Nồng độ thuốc sau khi tiêm.](./Images/Huongdich1.png){width="70%"}
 :::
+
+::: {.column width="50%"}
+![Nồng độ thuốc sau khi tiêm dạng nano hướng đích.](./Images/Huongdich2.png){width="70%"}
+:::
+
+
 ::::
 
+### Phân loại 
+
+:::: {.columns}
+::: {.column width="50%"}
+**Cấu trúc nano thế hệ đầu tiên**
+
+![](./Images/The%20he%20dau%20tien.png)
+
+:::
+
+
+::: {.column width="50%"}
+
+**Cấu trúc nano thế hệ mới**
+
+::: {layout-nrow=2}
+
+![Tự nắp ráp](./Images/Nanomoi1.png)
+
+![Tự lắp ráp](./Images/Nanomoi2.png)
+
+![Ống nano carbon](./Images/Nanomoi3.png)
+
+![Thêm đuôi gai](./Images/Nanomoi4.png)
+
+
+
+:::
+
+
+:::
+::::
 
 ### Thành phần  
 
 Dược chất: Thuốc điều trị tại đích như ung thư, đái tháo đường, HIV-AIDS
 
-Tá dược:  
-
 ::: {.panel-tabset}
 
 #### Tá dược tạo cốt 
 ::: {.callout-important title="Khái niệm"}
-
+Chất mang có vai trò vận chuyển, bảo vệ và đưa thuốc tới đích
 :::
 :::: {.columns}
 ::: {.column width="30%"}
-::: {.callout-note title="Poly lactic-co-glycolic acid (PLCGA):"}
-là một trong những polyme tổng hợp có khả năng phân hủy sinh học được sử dụng phổ biến do có khả năng kiểm soát, duy trì giải phóng dược chất và có độc tính thấp, tương thích sinh học với nhiều mô và tế bào. Các loại PLCGA trên thị trường được đặc trung bởi độ nhớt, tỷ lệ các nhóm monome (độ nhớt thay đổi phụ thuộc khối lượng phân tử của polyme).
+::: {.callout-note title="Poly lactic-co-glycolic acid (PLCGA)"}
+một trong những polyme tổng hợp có khả năng phân hủy sinh học được sử dụng phổ biến do có khả năng kiểm soát, duy trì giải phóng dược chất và có độc tính thấp, tương thích sinh học với nhiều mô và tế bào. Các loại PLCGA trên thị trường được đặc trung bởi độ nhớt, tỷ lệ các nhóm monome (độ nhớt thay đổi phụ thuộc khối lượng phân tử của polyme).
 :::
 :::
 ::: {.column width="30%"}
 ::: {.callout-note title="Poly glycolic acid (PGA)"}
-Poly glycolic acid (PGA), poly lactic acid (PLA), poly caprolacton (PCL)... là các polyme có tỉnh tương thích sinh học. Do có độ tan kém trong các dung môi hữu cơ và phân hủy nhanh nên ít được sử dụng trong bào chế hệ nano.
+Poly glycolic acid (PGA), poly lactic acid (PLA), poly caprolacton (PCL) là các polyme có tỉnh tương thích sinh học. Do có độ tan kém trong các dung môi hữu cơ và phân hủy nhanh nên ít được sử dụng trong bào chế hệ nano.
 :::
 :::
 
@@ -97,7 +139,7 @@ Các chất biến đồi bề mặt, chức năng hòa bề mặt tiểu phân 
 
 ::: {.column width="30%"}
 ::: {.callout-note title="Acid hyaluronic (HA)"}
-- Acid hyaluronic (HA): là một poly saccharid - polyme tự nhiên có trong các cơ thể sống, là một polyme tiềm năng đối với việc thiết kế thuốc hướng đích do có khả năng gắn kết đặc hiệu vào CD44, một thụ thể nằm trên bề mặt tế bào bộc lộ nhiều ở tế bào khối u như tế bào ung thư phổi, ung thư dạ dày, ung thư vú, ung thư đại tràng. HA có thể liên kết trên bề mặt tiểu phân nano bằng gắn kết vật lý hoặc hóa học khỉ tương tác với vật liệu polyme (chất mang).
+Acid hyaluronic (HA): là một poly saccharid - polyme tự nhiên có trong các cơ thể sống, là một polyme tiềm năng đối với việc thiết kế thuốc hướng đích do có khả năng gắn kết đặc hiệu vào CD44, một thụ thể nằm trên bề mặt tế bào bộc lộ nhiều ở tế bào khối u như tế bào ung thư phổi, ung thư dạ dày, ung thư vú, ung thư đại tràng. HA có thể liên kết trên bề mặt tiểu phân nano bằng gắn kết vật lý hoặc hóa học khỉ tương tác với vật liệu polyme (chất mang).
 :::
 
 
@@ -105,7 +147,7 @@ Các chất biến đồi bề mặt, chức năng hòa bề mặt tiểu phân 
 
 ::: {.column width="30%"}
 ::: {.callout-note title="Poly ethylen glycol"}
-- Poly ethylen glycol và các chất tương tự: Polyethylen glycol (PEG) được gần lên bề mặt tiểu phân nano bằng liên kết cộng hóa trị, bao bọc hoặc hấp phụ. Các chuỗi PEG tạo ra lớp hàng rào ngăn cản sự kết dính của các opsonin trong huyết tương, từ đó các tiểu phân được ngụy trang tránh sự bắt giữ của các thực bảo. có điều kiện tồn tại lâu trong tuần hoàn để hướng đích và phát huy tác dụng.
+Poly ethylen glycol và các chất tương tự: Polyethylen glycol (PEG) được gần lên bề mặt tiểu phân nano bằng liên kết cộng hóa trị, bao bọc hoặc hấp phụ. Các chuỗi PEG tạo ra lớp hàng rào ngăn cản sự kết dính của các opsonin trong huyết tương, từ đó các tiểu phân được ngụy trang tránh sự bắt giữ của các thực bảo. có điều kiện tồn tại lâu trong tuần hoàn để hướng đích và phát huy tác dụng.
 :::
 :::
 
@@ -124,49 +166,28 @@ Các chất biến đồi bề mặt, chức năng hòa bề mặt tiểu phân 
 
 ::: {.panel-tabset}
 #### Cách 1
+Thụ động
 
 *Cấu trúc bất thường của lớp lót nội mạc của các mạch máu tổ chức bị tổn thương dẫn đến hiệu ứng tăng tính thấm và lưu giữ*
 
 
-Hệ tuần hỏa hoạt động tạo ra sự đề kháng thuốc thông qua bơm tháo rỗng dẫn thuốc đến các cơ quan thanh thái. Khoảng cách liên bảo của thành vì mao quản đã bị nứt ở tổ chức bị tổn thương rộng 300 - 700 nm làm cho tính thẩm của hệ mạch tăng lên đáng kể. Các tiều phần nhỏ hơn 250 nm tự do đi qua thành mạch, tránh bị thực bào cũng như bơm thảo rồng, được lưu giữ trong tổ chức tế bào, minh họa quá trình trên hình 5.2.
+![Enhanced perpeability and rêtntion](./Images/EPR.png)
 
-
-Sau khi qua được thành mạch, tùy theo cấu trúc và kích thước hệ nano được phân bỏ ở 3 vị trí khác nhau:
-
-Tới nội bào, do có kích thước ở mức độ phân từ, nhỏ hơn khe hở liên bảo và nhiều liên kết lỏng lẻo trên màng tế bào nên hệ nano có khả năng xuyên qua màng tế bào để vào nội bào, tiêu phân lớn hơn 300 nm có thể thâm nhập vào nội bào nhờ quá trình đại thực bào. nội nhập bào (hình 5.2), từ đó có thể chữa bệnh về gen, diệt vị khuẩn nội bào, gây độc nội bào...
-
-
-Hệ nano dẫn thuốc tới đích một cách thụ động dựa vào cơ chế bao vệ của cơ thể, theo con đường thực bào. Tổ chức ung thư cũng như tổ chức viêm là những nơi có quá trình thực bảo xay ra mạnh nhất, vô tình trở thành cơ quan đích của hệ tiêu phân nano. Băng con đường này, tiểu phân nano không bao là tốt nhất cho quá trình thực bảo.
-
-Hệ nano dẫn thuốc một cách chủ động nhớ giải pháp chức năng hóa bề mặt tiêu phân: bao hay gắn lên bề mặt các thành phần cảm biến (sensor) dẫn đường liên kết với các thụ thể (receptor) đặc trưng có nhiều trong khối u như acid folic với thu thể folat, nhóm aldehyd với nhóm amin, bề mặt tiểu phân tích điện dương với bề mặt tiểu phân tích điện âm của tế bào...
-
-Bề mặt tiều phân được bao hoặc gân các phân từ polyme thân nước có câu trúc cồng kềnh ngụy trang để tránh sự bắt giữ của các đại thực bào, có thời gian tồn tại trong tuần hoàn lâu hơn, tạo điều kiến tới địch tác dụng.
+Các tế bào khối u có xu hướng hấp thụ các hạt có kích thước nhất định ở mức độ lớn hơn các tế bào khỏe mạnh do sự kết hợp của các mạch máu khối u bị rò rỉ và sàng lọc hạt bị lỗi.
 
 
 #### Cách 2
 
 *Vi môi trường xung quanh tổ chức bị tổn thương thay đổi*
+Hơn 95% NP nhắm mục tiêu thụ động không đến được khối u khi tiêm tĩnh mạch
 
-
-pH của các mô bệnh lý như các khu vực quanh vị trị viêm, nhiễm trùng, ung thư khác biệt với pH tại các mô thường do tốc độ chuyển hóa cao. pH ở đó có thể thấp đến 6.2. Các thuốc chống ung thư hoặc các hệ mang thuốc nhạy cảm với vùng phí thấp, dưới điều kiện acid nhẹ, thuốc sẽ bị tích tụ trong khối u, tăng cường giải phóng được chất. Tổ chức bị viêm nhiễm, ung thư có nhiệt độ cao hơn các vùng, mô khác. Các hệ nano có chất mang polyme nhạy cam với nhiệt sẽ hỏa lòng tạo điều kiện phá vỡ cầu trúc hệ để giải phóng được chất. Có thể dùng siêu âm hoặc laser để tăng nhiệt ở tỏ chức cần điều trị để tăng nồng độ thuốc tại tổ chức.
+![pH in cancer cell](./Images/pH%20in%20cancer%20cell.jpeg)
 
 #### Cách 3
 
 *Các kháng nguyên đặc hiệu của tổ chức viêm nhiễm, khối u*
 
-
-Các kháng thể đơn dông có khả năng gần với các kháng nguyên đặc hiệu của khối u, Các kháng thể này có thể phân biệt được tế bào thường và tế bào ung thư. Các
-HÀNH ĐỘNG
-
-trong cơ sở dữ liệu NI M không
-
-Hệ thuốc giải phóng kiểm soát
-
-kháng thể được đưa vào các hệ mang thuốc để tăng tính chọn lọc và hướng đích tế bào trong điều trị bệnh.
-
-Các thụ thể được tiết ra quá mức ở các tế bào khối u, sử dụng các phối từ đặc hiệu với các thụ thể gắn trên bề mặt của hệ mang thuốc là biện pháp tăng khả năng hướng đích của hệ thuốc nano. Ví dụ: acid folic hướng đến các thụ thể folat.
-
-Các peptid thâm nhập tế bào được sử dụng kết hợp với bề mặt tiểu phân nano, tăng khả năng xảm nhập khối u của nhiều thuốc khác nhau...
+![target in cancer cell](./Images/target%20in%20cancer%20cell.png)
 
 :::
 
@@ -174,21 +195,12 @@ Các peptid thâm nhập tế bào được sử dụng kết hợp với bề m
 ### Nguyên tắc bào chế
 
 
-Hệ thuốc nano giải phóng tại đích thường có cấu trúc là hệ nano polyme mang được chất. Các cấu trúc hệ nano lipid rắn hoặc hệ nano polyme – lipid ít được áp dụng để thiết kế thuốc.
-
-Các phương pháp phổ biến được áp dụng trong kỹ thuật báo chế hệ nano polyme mang dược chất như sau:
-
-Phương pháp bốc hơi dung môi từ nhũ tương (tạo ra hệ thuốc có cấu trúc siêu vi cầu).
-
-Phương pháp polyme hỏa (tạo ra hệ thuốc có cấu trúc siêu vì nang, siêu vì cầu).
-
-Phương pháp kết tủa do thay đổi dung môi (tạo ra hệ thuốc có cấu trúc micell, siêu vì cầu).
-
-Ngoài ra còn có các phương pháp khác ít được áp dụng hơn như:
-
-Phương pháp phun sấy dùng để bao tiểu phân nano dược chất với chất mang hưởng đích hoặc biển tính bề mặt để tránh nhận biết của thực bào. Phối hợp polyme hoặc chất bao vào hỗn dịch tiểu phân nano rồi phun sấy. Phương pháp này hiệu suất thu được tiểu phân kích thước nano không cao.
-
-Phương pháp tách pha đông tụ, phun trong điện trường... các phương pháp này ít được áp dụng.
+- Phương pháp bốc hơi dung môi từ nhũ tương (tạo ra hệ thuốc có cấu trúc siêu vi cầu).
+- Phương pháp polyme hỏa (tạo ra hệ thuốc có cấu trúc siêu vì nang, siêu vì cầu).
+- Phương pháp kết tủa do thay đổi dung môi (tạo ra hệ thuốc có cấu trúc micell, siêu vì cầu).
+- Ngoài ra còn có các phương pháp khác ít được áp dụng hơn như:
+  - Phương pháp phun sấy dùng để bao tiểu phân nano dược chất với chất mang hưởng đích hoặc biển tính bề mặt để tránh nhận biết của thực bào. Phối hợp polyme hoặc chất bao vào hỗn dịch tiểu phân nano rồi phun sấy. Phương pháp này hiệu suất thu được tiểu phân kích thước nano không cao.
+  - Phương pháp tách pha đông tụ, phun trong điện trường... các phương pháp này ít được áp dụng.
 
 
 ### Phương pháp bào chế
@@ -197,48 +209,105 @@ Phương pháp tách pha đông tụ, phun trong điện trường... các phư�
 
 #### Phương pháp bốc hơi dung mới từ nhũ tương
 
-Nguyên tắc của phương pháp: Dược chất và polyme đồng tan trong dung môi hữu cơ (tạo ra pha dầu). Sau đó phối hợp vào pha nước có chất diện hoạt, dùng lực gây phần tăn mạnh (như siêu âm) tạo ra vì nhũ tương. Bốc hơi dung mỗi từ pha dầu trong nhũ tương với thiết bị đồng nhất hóa khuấy tốc độ cao kết hợp siêu âm, thu được các tiêu phân nano. Các giai đoạn bảo chế được mô tả trong hình 5.3.
+
+
+Dược chất và polyme đồng tan trong dung môi hữu cơ (tạo ra pha dầu). Sau đó phối hợp vào pha nước có chất diện hoạt, dùng lực gây phần tăn mạnh (như siêu âm) tạo ra vì nhũ tương. Bốc hơi dung mỗi từ pha dầu trong nhũ tương với thiết bị đồng nhất hóa khuấy tốc độ cao kết hợp siêu âm, thu được các tiêu phân nano
+
+
+{{< video https://www.youtube.com/embed/kk8gVE8nBwk width="90%" height="600">}}
 
 
 
-#### Phương pháp polyme hoa
 
-Nguyên tắc của phương pháp:
-
-Polyme hóa tạo siêu vi nang – được chất và chất diện hoạt được hòa tan trong nước ở nồng độ micell tới hạn, sau đó nhũ hóa vào dung môi hữu cơ. Thêm polyme tạo và vào nhũ tương và tiến hành polyme hỏa bằng các tác nhận vật lý hay hóa học. Polyme sẽ trùng hợp tạo vỏ bao quanh micell. Tách siêu vi nang bằng siêu lì tâm, siêu lọc hay thầm tích và rửa lại bằng dung môi thích hợp. Các giai đoạn bảo chế được mô tả bằng hình 5.4.
-#### Phương pháp polymer hóa 
+#### Phương pháp polyme hóa
 
 
-Trong phương pháp polyme hóa sử dụng tác nhân vật lý như tia xạ có thể anh hưởng đến độ bề của được chất cần xác định cường độ và thời gian thích hợp.
-
-Polyme hóa tạo siêu vì cầu: Sử dụng tác nhân hóa học đề polyme hóa như dùng acid chỉnh pH về khoảng 2-3. polyme sẽ trùng hợp từ tử ở nhiệt độ thường tạo cầu trúc mạng lưới, cốt của siêu vi cầu tiêu phân nano. Cần trung tính hòa môi trường sau khi tạo nano. Các dược chất được gắn vào chất mang polyme bằng cách hấp phụ hoặc liên kết hóa học. Ví dụ veramil, insulin có nhóm amin liên kết với nhóm carboxylic của polyme poly alkylcyanoacrylat. Các giai đoạn bào chế siêu vi cầu bằng phương pháp polyme hóa được mô tả trên hình 5.5.
+![](./Images/Kettuataonano.png){width="150%"}
 
 
 #### Phương pháp kết tủa do thay đổi dung môi 
 
+:::: {.columns}
 
-Nguyên tắc của phương pháp: Dược chất và polyme đồng tan trong dung môi
-
-hữu cơ ở nhiệt độ thích hợp. Dung môi hữu cơ dễ trộn lẫn hóa tan trong nước như chanol, aceton hay hỗn hợp aceton ethanol. Khi thay đổi từ từ dung môi bằng cách Pha loãng với nước polyme sẽ kết tụ tạo ra các micell chứa các phân từ dược chất phân án trong micell. Trên bề mặt micell thường có các nhóm biển đối bề mặt, chức năng hóa bề mặt đã được gắn vào polyme nguyên liệu ban đâu làm nhiệm vụ ngụy trang bảo Vị tiêu phân nano hoặc hướng địch tổ chức tế bào cần điều trị.
-
-
+::: {.column width="35%"}
+![a](./Images/Nanokettuadungmoi1.png)
+:::
+::: {.column width="35%"}
+![b](./Images/Nanoketuacongnghiep.png)
+:::
+::: {.column width="30%"}
+![c](./Images/Nanoketua2.png)
+:::
+::::
 :::
 
-### Một số ví dụ 
+
+
+
+### Một số sản phẩm
+
+<table>
+    <thead>
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Hoạt chất chính</th>
+            <th>Ứng dụng</th>
+            <th>Cơ chế/Đặc điểm</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Doxil</td>
+            <td>Doxorubicin</td>
+            <td>Điều trị ung thư vú, buồng trứng, Kaposi</td>
+            <td>Liposome giúp nhắm mục tiêu vào tế bào ung thư và giảm tác dụng phụ.</td>
+        </tr>
+        <tr>
+            <td>Abraxane</td>
+            <td>Paclitaxel</td>
+            <td>Ung thư vú, phổi, tuyến tụy</td>
+            <td>Dạng nano giúp cải thiện khả năng phân phối thuốc.</td>
+        </tr>
+        <tr>
+            <td>Onivyde</td>
+            <td>Irinotecan</td>
+            <td>Ung thư tuyến tụy</td>
+            <td>Nano giúp tối ưu hóa giải phóng và nhắm mục tiêu tại khối u.</td>
+        </tr>
+        <tr>
+            <td>ThermoDox</td>
+            <td>Doxorubicin</td>
+            <td>Các loại ung thư nhạy nhiệt</td>
+            <td>Liposome nhạy nhiệt giải phóng thuốc khi gặp nhiệt độ cao tại vị trí khối u.</td>
+        </tr>
+        <tr>
+            <td>Nanoparticle Albumin-Bound (nab) Paclitaxel</td>
+            <td>Paclitaxel</td>
+            <td>Nhiều loại ung thư</td>
+            <td>Công nghệ liên kết albumin giúp thuốc dễ dàng đến đích.</td>
+        </tr>
+    </tbody>
+</table>
 
 :::
 
 
 # Hệ lyposome hướng đích
-## Đặc điểm thành phần cấu trúc hệ thuốc
+
+## Cấu trúc hệ thuốc
 
 ::: {.panel-tabset}
 
-### Cấu trúc 
+### Khái niệm
 
 :::: {.columns}
+
 ::: {.column width="50%"}
+
+::: {.callout-note title="Khái niệm"}
 Hệ thuốc liposome giải phóng tại đích là các tiểu phân hình cầu có cấu trúc một lớp hay nhiều lớp vo lipid kép đồng tâm, có đầu thân nước hướng ra ngoài, bao bọc khoang nước ở giữa tâm hoặc ngăn cách khoang nước ở giữa các lớp lipid kép, kích - thước tiểu phân thay đổi từ hàng chục đến hàng ngàn nanomet. Hệ thuốc chứa được chất thân nước trong khoang nước, dược chất thân dầu được phân bố trong lớp lipid đẹp ở phần thân dầu. Trên bề mặt liposome còn có các nhóm chức năng, cũng như Trong thành phần cấu trúc có đặc tính riêng giúp cho tiêu phân liposome hưởng đích, giải phóng được chất tại đích.
+:::
+
 :::
 ::: {.column width="50%"}
 ![](./Images/Lyposome.png)
@@ -248,70 +317,61 @@ Hệ thuốc liposome giải phóng tại đích là các tiểu phân hình c�
 
 ### Thành phần  
 
-::: {.panel-tabset}
-
-#### Dược chất
-
-- Dược chất được bào chế dưới dạng liposome tương đối đa dạng, thường là dược chất có tác dụng đặc trưng, cần tập trung tại đích, khó thấm như thuốc chữa ung thư, kháng sinh, enzym, protein...
-
-- Dược chất được gắn thụ động trong quá trình tạo liposome, trong đó dược chất sơ nước thân dầu được hòa tan trong lớp lipid, còn dược chất thân nước được hòa tan trong pha nước. Dược chất được gắn chủ động vào liposome sau khi liposome trơ đã hình thành bằng các biện pháp như thay đổi pH, tạo liên kết tình điện...
-
-#### Lớp vỏ liposome
+Thuốc chữa ung thư, kháng sinh, enzym, protein
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-::: {.callout-tip title="Phospholipid tự nhiên"}
-Thường dùng phosphatidyl cholin có nguồn gốc tự nhiên là lecithin của trúmg hoặc đậu tương, trong đó đâu phản cực thân nước là phosphocholin kiên kết với 2 đuôi hydrocarbon sơ nước là oleyl và palmityl thông qua cầu glycerin.
 
-Ngoài ra còn dùng phosphatidyl ethanolamin, phosphatidyl serin, phosphatidyl glycerol...
+
+::: {.callout-tip title="Lớp vỏ lyposome"}
+Phospholipid tự nhiên: Thường dùng phosphatidyl cholin có nguồn gốc tự nhiên là lecithin của trưng hoặc đậu tương, ngoài ra phosphatidyl ethanolamin, phosphatidyl serin, phosphatidyl glycerol
+Phospholipid tổng hợp: Dioclyl phosphatidylcholin, distearoyl phosphatidylcholin, dioleyl phosphatidyl ethanolamin, một số lipid khác như sphingolipdi
+Lựa chọn
+
+- Khả năng tích điện
+- Mức độ bão hòa no hóa các dây nối đôi
+- Nhiệt độ chảy lòng chuyển dạng (chuyển pha) của phospholipid 
+- Mức độ tinh khiết của phospholipid 
+
 :::
-:::
-::: {.column width="50%"}
-::: {.callout-tip title="Phospholipid tổng hợp"}
-Dioclyl phosphatidylcholin, distearoyl phosphatidylcholin, dioleyl phosphatidyl ethanolamin, một số lipid khác như sphingolipdi...
-:::
-:::
-:::: 
 
-- Khả năng tích điện: bề mặt tích điện của liposome do tính chất của phospholipid tạo nên có thể làm tăng ái lực với các thụ thể, do đó, có thể thúc đẩy quá trình thực bào.
-
-- Mức độ bão hòa no hóa các dây nối đôi: Các phospholipid không no dễ bị oxy hóa dẫn đến hỏng màng, gây rò rỉ dược chất, cần phải cho vào thành phần các chất chống oxy hóa như tocoferol, BHA, BHT...
-
-- Nhiệt độ chảy lòng chuyển dạng (chuyển pha) của phospholipid liên quan đến sự chuyển thể gel sang sol, ảnh hưởng đến sự bảo quản liposome, rò ri dược chất hoặc ngược lại, khó thấm giải phóng dược chất.
-
-- Mức độ tinh khiết của phospholipid liên quan đến các yêu cầu chất lượng khi bào chế liposome dùng ở các dạng thuốc khác nhau.
-
-#### Cholesterol và dẫn chất
-
+::: {.callout-tip title="Cholesterol và dẫn chất"}
 Cholesterol có vai trò hệ đệm lòng để điều chỉnh thể chất của lớp lipid kép làm giảm tính thấm nước của liposome. Nếu không có cholesterol lớp phospholipid của liposome sẽ dễ dàng tương tác với protein huyết tương như albumin, transferin, macroglobulin dẫn tới giảm độ ổn định của liposome.
 
-Các dẫn chất khác của sterol như hydroxycholesterol, acid cholestenoic... có thể được sử dụng kết hợp với phospholipid để bào chế liposome.
-
-#### Chất chức năng hóa bề mặt liposome
-
-Các chất chức năng hóa bề mặt vỏ liposome có nhiều vai trò khác nhau như:
-
-1. Polyme thân nước cấu trúc cồng kềnh (ví dụ PEG) ngụy trang, bảo vệ, polyme kết dính sinh học tăng tính thẩm; polyme tích điện, polyme tạo gel nhạy cảm với nhiệt, với pH; nhôm hướng đích đặc hiệu với thụ thê hoặc liên kết với kháng nguyên của tế bảo u... 
-
-::: {.callout-tip title="Ví dụ"}
-
-Doxorubicin bào chế dạng liposome với dipalmitoyl phosphatidyl cholin, monostearoyl phosphatidylcholin và polyethylen glycol 2000 distearoyl phosphatidylethanolamin. Do polyme thành phần chính có nhiệt độ chuyển pha 41,5°C, khi phối hợp với các polyme còn lại lớp màng võ liposome sẽ bị rò rỉ giải phóng được chất ở 39,5 – 42°C. Dược chất tập trung trong khối u cao hơn 30 lần so với dùng thuốc tiêm quy ước và hơn 3-5 lần so với lipossome quy ước.
+Các dẫn chất khác của sterol như hydroxycholesterol, acid cholestenoic. có thể được sử dụng kết hợp với phospholipid để bào chế liposome.
 :::
+
+
+
+:::
+
+
+::: {.column width="50%"}
+
+![](./Images/Cautruclyposome.png){width="50%"}
+
+::: {.callout-tip title="Chất chức năng hóa"}
+1. Polyme thân nước cấu trúc cồng kềnh (ví dụ PEG) ngụy trang, bảo vệ, polyme kết dính sinh học tăng tính thẩm; polyme tích điện, polyme tạo gel nhạy cảm với nhiệt, với pH; nhôm hướng đích đặc hiệu với thụ thê hoặc liên kết với kháng nguyên của tế bảo u.
 
 2. Gần nhóm hướng địch liên kết như liposome actinomycin gắn paraaminopheny! - a -D mannoryranozid và transferin tăng tỷ lệ qua hàng rào máu não lên 29,4% dần đến tăng ức chế tế bào u não lên 64% (in vivo trên chuột)
-
-#### Các thành phần khác
-
-Chất điện hoạt không ion hóa, các acid béo có vai trò làm tăng tỉnh linh động, tăng tính thấm qua da, bảo vệ được chất...
-
 :::
+
+::: {.callout-tip title="Chất khác"}
+Chất điện hoạt không ion hóa, các acid béo có vai trò làm tăng tỉnh linh động, tăng tính thấm qua da, bảo vệ được chất...
+:::
+:::
+
+::::
+
+
+
+
+
 
 ### Cơ chế 
 
-Hệ thuốc liposome chủ yếu được dùng để tiêm tĩnh mạch. Sau khi tiêm truyền để phân bỏ đến cơ quan đích, liposome phải đi qua được thành mạch. Ở gan. nội mạc thành mạch tương đối lòng lẻo, liposome dễ đi qua hơn ở các cơ quan khác.
-
-Có nhiều cách liposome đi qua thành mạch như sau:
+![](./Images/Cochelyposome.png)
 
 - Đi qua khe hở thành mạch.
 - Trao đổi hoặc chuyển nhượng lipid với thành mạch, chủ yếu là trao đổi cholesterol.
@@ -319,266 +379,35 @@ Có nhiều cách liposome đi qua thành mạch như sau:
 - Hợp nhất với thanh mạch, sau đó hợp nhất với màng tế bào và giải phóng được chất vào môi trường nội bảo.
 - Thực bảo là quá trình vận chuyển liposome nguyên vẹn qua thành tế bào.
 
-Sau khi tiêm tĩnh mạch, liposome bị các đại thực bào thanh thải và tập trung chủ yếu tại gan và lách. 
-
-Liposome là một dạng đặc biệt của cấu trúc nano, có thể coi là cấu trúc siêu vì bang nhưng ưu điểm khi hấp thu là do tính linh hoạt và tỉnh tương thích sinh học của máng bao phospholipid kép, để biến dạng lọt qua kẽ hở của thành mạch, dễ hợp nhất trao đổi cholesterol chuyển nhượng lipid với thành mạch để thâm nhập vào tổ chức tế bão. Ngoài ra liposome cũng có các cơ chế giải phóng được chất tại đích như hệ thuộc nano nói chung đã nêu trong mục 5.1.2.
-
-Thoát khỏi thành mạch nhờ hiệu ứng tăng tỉnh thăm và tính lưu giữ của thành mạch bị tổn thương nứt vỡ.
-
-
-
-Hướng địch nhờ các nhóm chức năng cảm ứng với các tác nhân như nhiệt, điện từ trường. pH. men, kháng nguyên đặc hiệu của khối u.
-
-Sau khi đã đi qua thành mạch, tiểu phân liposome giải phóng được chất trong nội bào theo cơ chế thực bào như sau: tiêu phân mang thuốc tiếp cận màng tế bào, màng tế bào biến dạng bọc lấy tiêu phân chuyển vào nối bảo, màng tế bào hàn liền lại nguyên vẹn nhut ban đầu, liposome bị phân hủy và giải phóng được chất trong nội bào.
-
 
 ### Nguyên tắc bào chế
 
+{{< video https://www.youtube.com/embed/hfnWwjCtdyQ width="90%" height="600">}}
 
 Có nhiều phương pháp bào chế liposome: Phương pháp hydrat hóa mảng mông lipid, phương pháp thay đổi dung môi, phương pháp bốc hơi pha đáo, phương pháp dùng chất diện hoạt. Thường được áp dụng nhất là phương pháp hydrat hóa màng mong lipid
 
-### Phương pháp bào chế
+### Kỹ thuật quan trọng
 
-::: {.panel-tabset}
-#### Phương pháp hydat hóa màng mỏng lipid 
-Phương pháp hydrat hỏa màng mỏng lipid (phương pháp Bangham)
+- Kỹ thuật giảm kích thước tiểu phân và đồng nhất hóa 
+  - Phương pháp đồng nhất hòa ở áp suất cao
+  - Phương pháp đùn ép (nén) qua màng lọc
+  - Phương pháp siêu âm
+- Kỹ thuật tiệt khuẩn, kỹ thuật đông khô
+- Đa chức năng hóa bề mặt tiều phân nano
 
-Nguyên tắc bào chế: Tao liposome tro qua các bước như sau
+### Ví dụ 
 
-Tạo dung dịch phospholipid: Hòn tan phospholipid trong dung môi hữu cơ như chloroform. chloroform methanol, dichloromethan...
 
-Tạo màng mông phospholipid: Bóc hơi dung môi hữu cơ trên thiết bị cắt quay ở nhiệt độ cách thủy thích hợp, áp suất giảm (400-700 mmHg), phospholipid sẽ tạo mảng móng trên thành bình
-
-Hydrat hóa màng mỏng tạo liposome: Cho môi trường hydrat hóa vào bình (mới trường có thể là nước cất, hệ đệm phosphat, dung dịch NaCl, glucose dăng trương...). Quay lạc bình, màng phospholipdi nhanh chóng bị hydrat hóa tạo thành các tiểu phân liposome.
-
-Tình chế liposome Bằng cách là tăm, lọc gel hay thâm tịch thu được liposome.
-
-Cơ chế hình thành liposome. Sau khi bốc hơi dung môi, phospholipid tạo thanh màng mong trên thành bình. Khi phân tán trong mỗi trường nước, theo nguyên tác nhiệt động lực học hệ đạt tới cân bằng và ổn định phải có năng lượng tự do trên các bể mặt riêng trong hệ đạt cục tiêu, như vậy, các tiêu phân được tạo ra trong hệ phải là hình câu, có cấu trúc đảm bảo cân bằng ái lực giữa các tiêu phân trên bề mặt và trong lớp kép, máng phải bỏ cọng cuộn lại thành hình cầu. Các phân từ bên ngoài phải xỏe ra, dân rộng để giảm mặt đó phân bố của phần thân nước, các phân từ lớp bên trong cơ lại để tăng mật độ phản thân nước. Kết quả, ái lực trên bề mặt ngoài với số lượng lớn phân tử nước trong môi trường sẽ cân bằng với ai lực của bề mặt bên trong với số lượng phân tử mước ít hơn. Sự cân bằng này làm cho các tiêu phân có dạng hình cầu và
-
-
-Đưa dược chất vào liposome: Tùy theo đặc tỉnh thân dầu, thân nước của dược chất, có 2 cách đưa dược chất vào trong cấu trúc của liposome.
-
-Dược chất thân dầu: Dược chất sẽ được hòa tan ngay cùng phospholipid trong dung môi hữu cơ ở giai đoạn đầu. Trong quá trình tạo màng, hydrat hóa, dược chất được phân tán vào trong cấu trúc lớp lipid của võ lipid kép.
-
-Mức độ dung nạp dược chất vào trong cấu trúc liposome được gọi là hiệu suất liposome hóa. Hiệu suất liposome hóa các dược chất thân dầu như trên thường cao hơn 90%. Ví dụ bào chế liposome chứa spironolacton đạt 93%.
-
-Trong quá trình bào chế cần chú ý chọn các thông số kỹ thuật để đảm bảo hiệu suất liposome hóa như sau:
-
-Loại phospholipid thích hợp với đặc tính dược chất.
-
-Tỷ lệ pha nước, pha dung môi hữu cơ.
-
-Nhiệt độ, thời gian tạo màng mỏng.
-
-Nhiệt độ, thời gian, tốc độ khuấy lắc trong quá trình hydrat hóa.
-
-Thành phần tả được điều chỉnh pH, đằng trương, ion hóa tăng khả năng tích điện của lớp vỏ liposome...
-
-Dược chất thân nước: Liposome khi hình thành có thể tích khoang nước rất nhỏ, nên nếu hòa tan được chất vào môi trường nước sẽ cho hiệu suất liposome hóa rất thấp. Cần phải áp dụng phương pháp chủ động vận chuyển dược chất từ bên ngoài vào trong liposome sau khi tỉnh chế tạo được liposome trơ, như phương pháp đổi hệ đệm tạo sự chênh lệch pH. Nguyên tắc vận chuyển dược chất thân nước từ môi trường vào trong liposome trơ như sau:
-
-
-
-
-Sau giai đoạn hydrat hóa, thu được các liposome trở (chưa có được chất) ở trạng thái đa phân tán. Cần phải đồng nhất hóa bằng cách ép đùn ở áp suất cao qua màng lọc có lỗ lọc thích hợp (200-400 nm), sau đó có thể đùn ép tiếp qua các màng lọc kích thước nhỏ hơn (100 nm), thu được liposome có kích thước khoảng 110-120 nm. Môi trường hydrat hóa (dung dịch đệm (NH4)2SO4 125 mM có pH 5.5) tạo ra khoang nước trong liposome (cũng là dung dịch (NH4)2SO4 pH 5.5).
-
-Trước khi đổi hệ đệm có thể lọc tiệt khuẩn liposome trơ bằng cách lọc qua màng có lỗ lọc 0,22 µm.
-
-Ở giai đoạn này liposome trơ đang ở trong hệ đệm (NH4)2SO4 pH 5,5 (hệ đệm A).
-
-Cần đồi hệ đệm A môi trường bên ngoài liposome, sang hệ đệm B là dung dịch HEPES (N-2-hydroxy ethyl piperazin N-2-ethan sulfonic acid) 20 mM có pH 7.4 bằng phương pháp lọc tiếp tuyến qua các bước dưới đây:
-
-Liposome trong hệ đệm A được pha loãng bằng hệ đệm B.
-
-+ Sau đó, bơm tuần hoàn nhiều lần qua các ống có cấu tạo là các màng thẩm tích, do dòng chảy tạo chênh lệch áp suất hai bên thành ổng nên nước và chất tan phân từ nhỏ sẽ thấm qua thành ống. Thành phần chất tan của hệ đệm B có phân tử lớn không qua màng thẩm tích.
-
-+ Kết quả nhiều lần bơm hỗn dịch liposome đi qua ống sẽ loại được thành phần chất tan của hệ đệm A và mẫu hỗn dịch liposome cũng sẽ bị cô đặc. Trong ống chỉ còn liposome trong môi trường hệ đệm HEPES có pH 7.4 (thay cho hệ đệm A pH 5,5). Khoang nước trong liposome giữ nguyên hệ đệm cũ có pH 5,5 chênh lệch với hệ đệm bên ngoài pH 7.4.
-
-+ Sau khi đã đổi môi trường bên ngoài liposome trơ từ hệ đệm là dung dịch (NH4)2SO4 pH 5,5 sang hệ đệm HEPES pH 7,4, dược chất dễ tan trong nước được hòa tan vào hệ. Thường dược chất là muối của các base hữu cơ với acid (vídụ như Doxorubicin hydrochlorid).
-
-+ Khuấy hệ liên tục ở nhiệt độ khoảng 50-55°C trong khoảng thời gian thích hợp để thực hiện sự vận chuyển dược chất vào trong liposome theo nguyên lý sau:
-
-Ở môi trường bên ngoài có pH 7,4 dược chất dạng muoois có sự cân bằng với dạng base. Dược chất base yếu (doxorubicin) ở dạng phân từ tiếp cận với lớp vỏ lipid của liposome, dễ dàng thấm qua vỏ vào khoang nước bên trong liposome. gặp pH acid (5,5) của hệ đệm cũ được chất bị proton hóa và tua lại, bản chất ion hóa không thấm qua màng lipid ra ngoài. Sự vận chuyển dược chất ở dạng phân từ vào liposome một chuyề làm giảm nồng độ dạng base, dạng ion tiếp tục chuyển về dạng base để đảm bảo cân bằng phân li ở môi trường bên ngoài màng. Phân tử dược chất dạng base tiếp tục được vận chuyển qua vỏ vào trong liposome.
-
-#### Phương pháp thay đổi dung môi 
-
-Phương pháp bơm ethanol (phương pháp Batzri và Kom) và phương pháp bơm ether (phương pháp Deamer và Bangham) đều có nguyên tắc chung là phospholipid và các thành phần tạo màng được hòa tan trong dung môi hữu cơ (ethanol hoặc ether), sau đó bơm nhanh dung dịch này vào môi trường nước hoặc hệ đệm ngự thay đổi nhanh dung mới làm cho các phân từ phospholipid kết tụ tập hợp lại tạo màng lipid kép và co tròn lại thành tiêu chaan hình cầu theo nguyên lý cân bằng ái lực của bề mặt và năng lượng bề mặt riêng cực tiểu trong hệ. Phương pháp này có hiệu suất liposome bóc thấp.
-
-Kỹ thuật đưa được chất vào liposome, đồng nhất hỏa, tiệt khuẩn, theo nguyên thờ như đã nêu trong phương pháp 1
-
-#### Phương pháp bốc hơi pha đảo
-
-Nguyên tắc bảo chể liposome qua các bước sau (nêu trên hình 5.13):
-
-Tạo dung dịch phospholipid trong dung môi hữu cơ: ether, hỗn hợp ether chloroform (A).
-
-Thêm pha nước hệ đệm (B) siêu âm để tạo nhũ tương (C), pha nội là hệ đệm (pha mước), pha ngoại là ether.
-
-Bốc hơi dung hết pha ngoại ether (D), tạo ra sự đào pha. pha nội chuyên thánh pha ngoại, phospholipid tạo màng lipid kép hình thành liposome (E và F).
-
-Phương pháp này cho hiệu suất tạo liposome cao. siêu âm có thể ảnh hưởng tới bên của phospholipid. Nhược điểm sử dụng dung môi hữu cơ có thể cải thiện nếu tay dung môi hữu cơ bằng CO2 siêu tới hạn. Với cai tiến này có thể bào chế liposome các dược chất kém bền như peptid.
-
-
-#### Phương pháp đông khô 
-Nguyên tắc bào chế liposome qua các bước sau:
-
-Tạo dung dịch phospholipid (và được chất thân dầu) trong dung môi hữu cơ.
-Tạo dung dịch nước chứa tà dược tạo khung đông khó (như glucose, mannitol...) và dược chất thân nước.
-
-Phối hợp 2 dung dịch, lọc qua mảng 0,22 µm.
-
-Đóng lọ, đông khô theo kỹ thuật chung. Khi sử dụng, thêm nước vào lọ đóng khô và lắc nhẹ để tái hydrat hóa phospholidid tạo lại hỗn dịch liposome.
-
-Cơ chế hình thành liposome (minh họa trên hình 5.14)
-
-Phospholipid hòa tan trong dung môi hữu cơ (như ter-butanol) dạng đơn phân từ tự do trong dung dịch (A).
-
-Khi làm lạnh (trong quá trình đông lạnh) dung môi hữu cơ hóa rắn tách khỏi hệ tạo liên bề mặt với nước. Phospholipid dỉnh vào liên bề mặt rắn làm giảm sức căng liên bề mặt (B).
-
-Nhiệt độ tiếp tục giảm, đường kết tình tạo khung rắn. Trong điều kiện hút chân không (áp suất giảm) dung môi thăng hoa, phospholipid trên bề mặt được sắp xếp lại tạo thành các mảnh lipid kép (C).
-
-Khi thêm nước vào hệ thuốc đông khô các mảnh phospholipid kéo uốn cong và khép kín lại tạo liposome theo nguyên lý nhiệt động học đã nêu ở các phần trên (D).
-
-
-#### Phương pháp sử dụng chất diện hoạt 
-
-Nguyên tắc của phương pháp: Đừng chức điệu hoạt ở nồng độ micell tới hạn để hòa tan phospholipid, sau đó loại bỏ chất điện hoạt để làm giàu phospholipid trong micell tập hợp thành liposome. Chất điệu hoạt được loại bỏ bằng cách thẳm tích, sắc kỳ gel, trao đổi ion ... Nhược điểm của phương pháp này là khô loại bỏ hết chất điện hoạt, nên hạn chế, ít được áp dụng.
-:::
-
-### Một số ví dụ 
-4. Thuốc tiêm liposome Doxorubicin 20mg/10m
-
-Thành phần (Cho 1 le):
-
-Phosphatidyl cholin đậu nành 100 mg hydro hóa (HSPC) Cholesterol Đặm amoni sulfat 125 mM pH 5,5 Đệm HEPES pH 7,4 Doxorubicin hydrochlorid Distearoyl ethanolamin glycero phospho N 30 mg 10 mg Vd 20 mg methoxy 31,9 mg
-
-polyethylen glycol (DSPE-PEG)
-
-Thuốc tiêm liposome Amphotericin B (50mg/10ml)
-
-Công thức (Cho 1 mẻ 2000 ml)
-
-Amphotericin B (AMB)
-
-2,77 gam
-
-Distearoyl phosphatidyl glycerin (DSPG) 4,47 g
-
-Phosphatidyl cholin đậu nành hydrogen hóa (HSPC) 11.31 g
-
-Cholesterol
-
-5,11 g
-
-Metanol
-
-2750ml
-
-Cloroform
-
-1250ml
-:::
-
-# Một số kỹ thuật 
-
-## Kỹ thuật giảm kích thước tiểu phân và đồng nhất hóa 
-
-::: {.panel-tabset}
-
-### Phương pháp đồng nhất hòa ở áp suất cao
-
-Nguyên tắc: nên hỗn dịch nano qua khe hẹp kích cỡ vài µm dưới áp suất 100 2000 bar, thường nên tuần hoàn nhiều vòng cho đến khi thu được hệ có kích thước 50 - 150 nm. Phương pháp để áp dụng trong sản xuất, có thể nên ở nhiệt độ thích hợp
-Hệ thuốc giải phóng kiểm soût
-
-hoặc nhiệt độ phòng. Đối với liposome có thể bị vỡ cấu trúc vỡ cần có thiết bị làm lạnh bề mặt để tăng độ bền vỏ liposome.
-
-### Phương pháp đùn ép (nén) qua màng lọc
-
-Nguyên tắc: Nên ép hỗn dịch nano qua mang lọc polycarbonat có đường kính tổ lọc từ 100 – 400 nm. Để tăng tốc độ (và giảm nứt vỡ liposome) người ta dùn tuần tự nhiều lần từ màng lọc thô đến màng lọc mịn: trước hết qua lọc 1 um, sau đó qua mạng 400 - 200 nm 5 lần, sau đó qua máng 100 nm 5-10 lần, sẽ thu được hệ có tiêu phân 110-120 nm. Nếu cần kích thước nhỏ hơn tiếp tục qua màng 80 - 50 nm. Thường đăn ép dưới áp suất khí trơ nitrogen.
-
-### Phương pháp siêu âm
-
-Nguyên tắc: Xử lý hỗn dịch nano với siêu âm ở tần số khoảng 20 KHz trong khoảng thời gian thích hợp sẽ cho hỗn dịch nano có kích thước đồng nhất hơn.
-
-Nhược điểm siêu âm có thể làm tăng oxy hóa và thủy phân phân hủy thành phần polyme, phospholipid cũng như một số dược chất.
-
-:::
-
-## Kỹ thuật tiệt khuẩn, kỹ thuật đông khô
-
-Thường áp dụng phương pháp tiệt khuẩn lọc võ khuân qua mũng lọc Kỹ thuật đông khỏ đối với quy trình bào chế thuốc bột pha tiêm thông thường, làm tăng độ ổn định của hệ thuốc có cấu trúc tiêu phân nano.
-
-## Đa chức năng hóa bề mặt tiều phân nano
-
-Đa chức năng hóa (biến tính bề mặt tiêu phân) nhằm mục đích đẫn thuốc trị ch và tránh thanh thải của hệ thực bào.
-
-Đhể dẫn thuốc tới đích có thể gần các nhóm hướng đích đặc trưng lên bàn phần như:
-
-Gần chất điện hoạt cation làm cho tiêu phân tích điện dương độ biên là AND nội bào tích điện âm
-
-Gian acid folic, sat de dua thuốc tới khối u trong có nhiều transferase De tránh thục bạo thương gân lên hệ mật tiêu phân các polyme than s PED (polyethylen oxyd), PEG (polyethylen glycol) hoặc các protem hay Các chất nay có khả năng liên kết đồng hóa trị với phospholiput Trong polythe landang dous chit trong he nano có cau true mell polyme can dược tòng họp gần PEG vào chuỗi phân tu polyme bang The học xong hợp
-
-
-
-# ĐÁNH GIÁ MỘT SỐ CHỈ TIÊU ĐẠC TRƯNG CỦA HỆ THUỐC NANO, LIPOSOME
-
-## Phương pháp đánh giá
-
-::: {.panel-sidebar}
-
-### Phân bố kích thước tiểu phân
-
-Phân bố kích thước tiểu phân trong hệ thuốc nano. liposome là thông số cơ bản tác định khả năng phân bổ, lưu giữ các tiểu phân ở cơ quan đích. Phương pháp phố biển để xác định kích thước tiểu phân nano là phương pháp tán xạ ánh sáng động
-
-ISC Nguyên tắc của phương pháp là dựa vào mối quan hệ giữa cường độ tản xạ với 1 cốc độ khuếch tán do chuyển động Brown của các tiểu phân nano. Các tiểu phân có kích thước nhỏ có cường độ tản xạ biến động nhiều hơn so với tiểu phân kích thước lớn. Mối tương quan giữa cường độ tản xạ ánh sáng với kích thước tiểu phân cho phép trị xác định được phân bỏ kích thước theo cường độ
-
-Phân bố kích thước tiêu phân theo thể tích tiêu phân được suy ra từ phân bổ cường độ dựa trên thuyết Mic (trong trường hợp các tiểu phân có kích thước lớn hơn bước sóng laser 7/10). Phân bổ này tương đương với phân bố theo khối lượng tiêu phân.
-
-Ngoài ra còn có phân bố kích thước theo số lượng tiêu phản, cũng được suy ra từ phân bố cường độ tán xạ ánh sáng dựa trên thuyết Mie, mối quan hệ gián tiếp, kèm chính xác hơη.
-
-
-### Điện thế Zeta
-
-Thể Zeta là điện thế trên bề mặt trượt của tiểu phân nano, quyết định độ bền trạng thái tập hợp của hệ nano, giúp cho các tiểu phân luôn đấy nhau, không bị tập hợp lại làm tăng kích thước tiểu phân trong hệ trong thời gian bảo quản.
-
-Nguyên tắc xác định thể Zeta dựa trên phép đo tốc độ di chuyển của tiểu phân tích điện dưới tác động của điện trường:
-
-Zeta-EE
-
-Trong đó:
-
-- v- Tốc độ di chuyển của tiểu phân (cm/s)
-- E- Cường độ điện trường (vol/cm)
-- 2- Hằng số điện môi (statcoulomb²/dyn.cm²)
-- - Độ nhớt cảu môi trường (dyn.s/cm²)
-
-Thường sử dụng thiết bị Zetasizernano ZS900 để đo thế Zeta.
-
-### Hình thái bề mặt và cấu trúc tiểu phân, tương tác giữa các thành phần
-
-Hình thái bề mặt tiểu phân nano được xác định bằng kính hiển vi điện tử quét (SEM).
-
-Cấu trúc 3D bên trong của tiểu phân được xác định bằng kính hiển vi điện tửtruyền qua (TEM).
-
-Tương tác hóa học giữa các thành phần trong tiểu phân được xác định bằng các phương pháp vậy lý hiện đại như phổ hồng ngoại FT – IR, phố tia X. phân tích nhiệt vì sai (DSC)
-
-### Hiệu suất nano hóa, liposome hóa
-
-Hiệu suất nano hóa (cũng như liposome hóa) được tính bằng tỉ lệ (%) khối lượng được chất được phân tán trong cấu trúc nano (hoặc liposome) so với tổng lượng được chất ban đầu đưa vào hệ trong quy trình bảo chế.
-
-Để xác định hiệu suất nano hỏa hoặc liposome hóa, cần xacsd định hàm lượng được chất trong cấu trúc của tiểu phản hoặc phần dược chất không được dung nạp vào tiểu phân bằng phương pháp thâm tích hoặc phương pháp siêu li tâm.
-
-### Khả năng giải phóng dược chất
-
-Đánh giá khả năng giải phóng dược chất ra khỏi tiểu phân nano bằng thử nghiệm hòa tan hoặc thử nghiệm khuếch tán qua màng thẩm tích. Quá trình thầm tích thực hiện qua các tùi hay ống thấm tích đặt trong hệ đệm thích hợp có khuấy liên tục. Định lượng được chất giải phóng khuếch tán qua màng.
-
-Nhược điểm của phương pháp khuếch tán qua màng thẩm tích là làm giảm khả năng giải phóng được chất vốn có của hệ tiều phân.
 
 :::
 
 
-# Câu hỏi lượng giá
+# Đánh giá chất lượng 
 
-## Lượng giá
+## Các chỉ tiêu quan trọng 
 
-> Hãy dành 15 phút để tìm hiểu vấn đề xung quanh. 01 bạn lên phân tích. 
-
+- Phân bố kích thước tiểu phân
+- Điện thế Zeta
+- Hình thái bề mặt và cấu trúc tiểu phân, tương tác giữa các thành phần
+- Hiệu suất nano hóa, liposome hóa
+- Khả năng giải phóng dược chất
