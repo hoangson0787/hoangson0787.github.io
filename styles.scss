@@ -1,0 +1,77 @@
+/*-- scss:defaults --*/
+$background: #ffffff;
+$foreground: #2E5283;
+$primary: #A47864;
+$secondary: #A66E4A;
+$tertiary: #655D4B;
+$light: #F7F7F7;
+$dark: #1C1F24;
+$success: #33373D;
+$danger: #E2552D;
+$info: #56B3FA;
+$warning: #FF7575;
+
+
+/*-- scss:rules --*/
+$navbar-bg: $primary; // navbar
+$navbar-fg: $secondary; // navbar foreground elements
+$navbar-hl: #005871; // highlight color when hovering over navbar links
+$footer-bg: $primary; // footer 
+$link-color: $primary; // hyperlinks 
+
+.justify {
+    text-align: justify !important
+  }
+.right {
+    text-align: right !important
+  }
+.left {
+    text-align: left !important
+  }
+  
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: $background;
+  color: #343148;
+  text-align: justify;
+}
+
+
+.reveal .slides .logo {
+  width: 500px; /* Đặt kích thước mong muốn */
+  height: auto; /* Giữ tỷ lệ khung hình */
+}
+
+
+h1, h2, h3 {
+  color: #005871;
+}
+
+h4, h5, h6 {
+  color: #2E5283;
+  font-weight: bold;
+}
+
+blockquote {
+  background-color: #2E6490; /* added background color */
+  border-color: $dark;
+  color: $danger !important;
+}
+
+code {
+  background-color: $success;
+  color: $info;
+}
+
+.sourceCode {
+  background-color: $success;
+  color: $info;
+}
+
+.sourceCode pre.code-with-copy{
+  padding: 0;
+}
+
+.callout-title-container.flex-fill {
+  color: $danger;
+}

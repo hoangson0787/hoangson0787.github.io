@@ -133,15 +133,19 @@
   },
   "Book/KyThuatChietXuat/part_1/chapter_1.qmd": {
     "chapter_1.html": "6e0fad94",
-    "chapter_1.docx": "505db53c"
+    "chapter_1.docx": "505db53c",
+    "chapter_1.typ": "3403de7d"
   },
   "Book/KyThuatChietXuat/part_1/chapter_2.qmd": {
     "chapter_2.html": "a9eafc01",
-    "chapter_2.docx": "52625ec2"
+    "chapter_2.docx": "52625ec2",
+    "chapter_2.tex": "64545c99",
+    "chapter_2.typ": "249ac017"
   },
   "Book/KyThuatChietXuat/part_1/chapter_3.qmd": {
     "chapter_3.html": "9916bf6b",
-    "chapter_3.docx": "ffbe9caa"
+    "chapter_3.docx": "ffbe9caa",
+    "chapter_3.typ": "58efc88b"
   },
   "Book/KyThuatChietXuat/part_1/index.qmd": {
     "index.html": "5be29658",
@@ -149,11 +153,13 @@
   },
   "Book/KyThuatChietXuat/part_2/chapter_4.qmd": {
     "chapter_4.html": "1c8a1f1a",
-    "chapter_4.docx": "46ba6fc4"
+    "chapter_4.docx": "46ba6fc4",
+    "chapter_4.typ": "45c4e778"
   },
   "Book/KyThuatChietXuat/part_2/chapter_5.qmd": {
     "chapter_5.html": "9e582da2",
-    "chapter_5.docx": "6424be67"
+    "chapter_5.docx": "6424be67",
+    "chapter_5.typ": "fc77a68c"
   },
   "Book/KyThuatChietXuat/part_2/chapter_6.qmd": {
     "chapter_6.html": "4c3e94f4",
@@ -208,5 +214,23 @@
   },
   "Presentation/BaoCheCacDangDacBiet/Bai5.qmd": {
     "Bai5.html": "e89089a0"
+  },
+  "Presentation/BaoChe/Bai1.qmd": {
+    "Bai1.html": "be6ee8de"
+  },
+  "Presentation/BaoChe/Bai2.qmd": {
+    "Bai2.html": "b90fd254"
+  },
+  "Presentation/BaoChe/Bai3.qmd": {
+    "Bai3.html": "60752f18"
+  },
+  "Presentation/BaoChe/Bai4.qmd": {
+    "Bai4.html": "84574630"
+  },
+  "Presentation/BaoChe/Bai5.qmd": {
+    "Bai5.html": "3713bc47"
+  },
+  "Presentation/BaoChe/index.qmd": {
+    "index.html": "e92ee4d6"
   }
 }

@@ -1,0 +1,32 @@
+---
+title: "Viên nén đặc biệt và dạng bào chế hiện đại"
+subtitle: "Các hệ thuốc giải phóng kiểm soát nồng độ dược chất theo thời gian"
+author:
+  - name: TS. Hoàng Lê Sơn
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+format:
+  #pptx: default
+  revealjs:
+    slide-number: true
+    preview-links: auto
+    css: "styles.css"
+    logo: "Images/LogoDaiNam.svg"
+    footer: "https://dainam.edu.vn"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: [default, custom.scss] #"../coeos.scss"
+
+title-slide-attributes: 
+  data-background-image: "Images/Bia1.png"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+

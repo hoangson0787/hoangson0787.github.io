@@ -1,5 +1,5 @@
 ---
-title: "Các tài liệu tham khảo đang được triển khai viết"
+title: "Tài liệu tham khảo"
 author: "TS. Hoàng Lê Sơn"
 format: 
     html: 
@@ -7,7 +7,11 @@ format:
         toc-depth: 3
         lightbox: true
 ---
+
+
+
 Mục lục
 
 - [Dược lý mạng ứng dụng trong phát triển thuốc](../Book/DuocLyMang/index.qmd)
-- [Học phần chiết xuất](../Book/KyThuatChietXuat/index.qmd)
+
+- [Kỹ thuật chiết xuất](../Book/KyThuatChietXuat/index.qmd)

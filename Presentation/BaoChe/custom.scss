@@ -1,0 +1,110 @@
+/*-- scss:defaults --*/
+$jet: #131516;
+$accent: #107895;
+$accent2: #9a2515;
+// $accent2: #e64173;
+//$right-arrow: "\2192"; // Unicode character for right arrow
+$presentation-font-size-root: 30px;
+
+/*-- scss:rules --*/
+// Custom colours and variables
+
+#title-slide {
+  text-align: center;
+  .title {
+    color: $body-color;
+    font-size: 60px !important;
+    // font-weight: 350;
+    font-weight: lighter;
+  }
+
+  .subtitle {
+    color: $accent;
+    font-size: 80pt !important;
+    font-style: italic;
+    margin-top: 0em;
+    font-weight: lighter;
+  }
+
+  .institute,
+  .quarto-title-affiliation,
+  .quarto-title-author-email {
+    font-style: italic;
+    // font-size: 80%;
+    // color: #7F7F7F;
+  }
+
+  .author,
+  .quarto-title-author-name {
+    color: $body-color;
+  }
+
+  .quarto-title-authors {
+    display: flex;
+    justify-content: right;
+
+    .quarto-title-author {
+      padding-left: 0em;
+      padding-right: 0em;
+      width: 100%;
+    }
+  }
+}
+
+.slides .slide .title {
+  text-align: center; /* Đặt tiêu đề ở giữa tất cả các slide */
+}
+.slides .slide h1 {
+  display: flex;
+  text-align: center; /* Căn giữa văn bản */
+}
+$aubergine90: #664272;
+$ruby90: #A42B28;
+$sky90: #195387;
+$green90: #4E7242;
+$russet90: #874E19;
+
+$callout-color-note: $sky90;
+$callout-color-important: $ruby90;
+$callout-color-tip: $green90;
+$callout-color-caution: $aubergine90;
+$callout-color-warning: $russet90;
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  padding: 16px;
+  margin: 8px;
+  flex-basis: calc(33.333% - 16px); /* Chia đều không gian cho 3 cột */
+  box-sizing: border-box;
+  font-size: 18pt;
+}
+
+.card-title {
+  font-size: 20pt;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100px !important;
+  width: 100px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+/* Ẩn logo trên slide tiêu đề */
+.title-slide .slide-logo {
+  display: none !important;
+}

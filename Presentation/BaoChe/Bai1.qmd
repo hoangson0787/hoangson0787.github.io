@@ -1,0 +1,406 @@
+---
+title: "Bào chế và sinh khả dụng"
+subtitle: "Thuốc mền dùng trên da và thuốc dán thấm qua da"
+author:
+  - name: TS. Hoàng Lê Sơn
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+format:
+  #pptx: default
+  revealjs:
+    slide-number: true
+    preview-links: true
+    css: "styles.css"
+    logo: "Images/LogoDaiNam.svg"
+    footer: "https://dainam.edu.vn"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: [default, custom.scss] #"../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "Images/Bia1.png"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+
+
+
+<!-- Slide number: 2 -->
+## MỘT SỐ QUY ĐỊNH TRÊN GIỜ HỌC
+
+1. Đề nghị các bạn ngồi đúng theo sơ đồ để giảng viên tiện theo dõi và đánh giá điểm chuyên cần mà nhà trường yêu cầu.
+2. Thời gian điểm danh từ sáng 8.15-8.30 am, chiều 1.45-2h pm.
+3. Hạn chế sử dụng điện thoại.
+4. Giữ trật tự trong giờ giảng.
+5. Đến muộn tự động vào chỗ ngồi, tuyệt đối không làm ảnh hưởng đến mọi người.
+6. Tuyệt đối không đi học hộ, làm bài hộ.
+7. Có thái độ nghiêm túc, hợp tác tích cực với giáo viên trên lớp.
+
+<!-- Slide number: 3 -->
+## MỤC TIÊU MÔN HỌC
+
+1. Hướng dẫn đúng cách dùng các dạng thuốc.
+2. Bào chế được một số dạng thuốc thông thường ở qui mô nhỏ (bệnh viện): Xây dựng công thức, thiết kế dạng thuốc.
+3. Tham gia được vào 1 số dây chuyền SX ở qui mô công nghiệp (XNDP).
+
+<!-- Slide number: 4 -->
+## CHƯƠNG I. ĐẠI CƯƠNG VỀ BÀO CHẾ VÀ SINH DƯỢC HỌC
+
+1. Một số KN hay dùng trong BC.
+2. Một số KN hay dùng trong SDH.
+3. Cách đánh giá SKD.
+4. Bài tập-Kiểm tra.
+
+<!-- Slide number: 5 -->
+## MỤC TIÊU HỌC TẬP
+
+1. Trình bày được 5 khái niệm hay dùng trong Bào chế:  Dạng thuốc, bán thành phẩm, chế phẩm, biệt dược, đơn thuốc.
+2.  Trình bày được 4 khái niệm hay dùng trong Sinh dược học Bào chế:
+  - Sinh dược học (SDH)
+  - Sinh khả dụng (SKD)
+  - Tương đương bào chế
+  - Tương đương sinh học
+3. Trình bày được cách đánh giá và ý nghĩa của SKD in vitro.
+3.  Trình bày được cách đánh giá và ý nghĩa của SKD in vivo.
+
+<!-- Slide number: 6 -->
+DẠNG THUỐC--DOSAGE FORM
+
+| Căn cứ | Khái niệm |
+| -------| ---------------------------------------------------------------------------------- |
+| Hình thức phân liều | Dạng phân liều của DC để đưa DC vào cơ thể nhằm phòng và chữa bệnh ( 1 lần và 1 liệu trình). |
+| Công đoạn BC | Là thành phẩm của một quy trình BC: - Đạt TCCL quy định - Cấp phát cho người bệnh |
+| Quan điểm SHD | Là hệ đưa thuốc: -DDS (Drug Delivery Systems) - TS (Therapeutic Systems) |
+
+<!-- Slide number: 7 -->
+
+![The image displays two sets of medical vials against a blue background, with the top set containing white powders and the bottom set showing empty glass vials with stoppers. The text "Bọt tiêm đông khô" is written in red at the top.](imagetif.jpg)
+
+![The image shows two packets of medication: Efferalgan, containing paracetamol at 80 mg, and Clamoxyl, containing amoxicillin at 250 mg in oral powder form. The packets are displayed against a blue background with the Vietnamese phrase "Thuốc bột dừng túi" meaning "Powdered medicine packets."](imagetif.jpg)
+
+<!-- Slide number: 8 -->
+DẠNG THUỐC
+
+![The image shows an orange circular diagram with three sections connected by arrows, labeled "DC, Td, Bb," "Đang thước," and "Người bệnh." The final section has two bullet points: "Hiệu quả" and "TDKMM." This appears to be a flowchart or process diagram in Vietnamese.](imagepng.jpg)
+      Kt.bào chế
+
+<!-- Slide number: 9 -->
+# DẠNG THUỐC  (DOSAGE FORM)
+THÀNH PHẦN
+ Dược chất/ Hoạt chất (active ingredient):
+Vai trò: là TP chính.
+Nguồn gốc: Hóa dược, dược liệu, chế phẩm sinh học.
+Tiêu chuẩn: Dược dụng (TCDĐ, TCCS của NSX).
+1 DC có thể có nhiều cấp TC cho các dạng BC khác nhau (viên, tiêm), các dạng muối khác nhau.
+
+<!-- Slide number: 10 -->
+# DẠNG THUỐC  (DOSAGE FORM)
+THÀNH PHẦN
+Tá dược (non-active ingredient, Additive ingredient, excipients):
+Vai trò: Thuận lợi cho BC, tăng HQ và tuổi thọ của thuốc tiện dùng.
+Nguồn gốc: Tổng hợp, bán tổng hợp hoặc tách chiết từ tự nhiên.
+Tiêu chuẩn: TCDĐ, TCCS.
+Yêu cầu: Ít tác dụng riêng (trơ), ít tương tác, bền, kinh tế.
+(DĐVN V) Tá dược và chất phụ gia đem dùng không phương hại tới tính an toàn và tính hiệu quả của thuốc.
+CN tá dược: SX riêng cho từng dạng, từng chế phẩm.
+
+<!-- Slide number: 11 -->
+# DẠNG THUỐC  (DOSAGE FORM)
+THÀNH PHẦN
+Bao bì (recipient):
+Vai trò: Bảo vệ DC, tiện dùng, giới thiệu thuốc (tác động trực tiếp đến độ ổn định của DC).
+Yêu cầu: Không độc (1 số uống với DC vd. Vỏ nang cứng), ít tương tác.
+KTBC:
+Vô hình
+Tác động trực tiếp đến chất lượng dạng thuốc
+
+<!-- Slide number: 12 -->
+
+![The image shows a diagram with three smaller circles connected to a larger central circle by lines. The smaller circles contain the Vietnamese words "Hiệu quả," "An toàn," and "Kinh tế" in blue text, while the large central circle is pink.](imagepng.jpg)
+Chất lượng thuốc
+
+<!-- Slide number: 13 -->
+# DẠNG THUỐC
+CHẤT LƯỢNG
+TC Dược điển
+Cảm quan: Hình dạng, màu sắc, mùi vị,…
+Cơ lý: Thể chất, độ bền cơ học, độ trong,…
+Hoá học: Định tính, định lượng (hàm lượng DC)
+Sinh học: Độ vô khuẩn, giới hạn vi cơ,…
+Bào chế: Đồng nhất về khối lượng, hàm lượng.
+Thông tư số 11/2018/TT-BYT
+Dược điển tham chiếu
+Dược điển châu Âu
+Anh
+Hoa Kỳ
+Quốc tế
+Nhật bản
+
+<!-- Slide number: 14 -->
+# CHẾ PHẨM
+DRUG PRODUCT
+Sản phẩm (product) của quy trình BC:
+ Sản phẩm cuối cùng là Thành phẩm (final, finished product): Dạng thuốc
+Sản phẩm trung gian: Bán thành phẩm (semi-product)
+Thành phẩm (TP) của Quá trình (QT) này là bán TP của QT khác:
+ Dược liệu ích mẫu        Cao lỏng       Cao đặc      Nang
+
+<!-- Slide number: 15 -->
+# BIỆT DƯỢC
+SPECIALTY PRODUCT
+Sản phẩm độc quyền thương mại với kí hiệu:Ⓡ
+Hiện có quá nhiều biệt dược
+Paracetamol     : 419 loại
+Clopheniramin : 198 loại
+Vitamin C          : 167 loại
+VitaminB1         : 145 loại
+
+<!-- Slide number: 16 -->
+# ĐƠN THUỐC
+Rp     Aspirin                     0,5 g           Bơ cacao  vđ           1,5 g      	 M.f. supp. D.t.d. No 6           Ds: đặt 1 viên khi đau
+	- Mệnh lệnh	- Công thức: thp + khlg	- Dạng BC	- Số lượng cần pha: 2 cách ghi (1 liều, tổng liều)	- Hướng dẫn cách dùng
+
+<!-- Slide number: 17 -->
+# DƯỢC ĐỘNG HỌC, DƯỢC LỰC HỌC, SINH DƯỢC HỌC
+Dược động học là: Môn khoa học nghiên cứu các tác dụng của thuốc đối với cơ thể thông qua 4 quá trình: Hấp thu, phân bố, chuyển hóa, thải trừ thuốc trong cơ thể.
+Dược lực học là: Môn nghiên cứu các tác động sinh lý của thuốc trên cơ thể hay trên cơ quan và các sinh vật ký sinh bên trong hoặc bên ngoài cơ thể.
+Sinh dược học là: Môn nghiên cứu ảnh hưởng của những yếu tố trong con người đến tác dụng của thuốc.
+
+<!-- Slide number: 18 -->
+KHÁI NIỆM: SINH DƯỢC HỌC
+Sinh dược học là môn học nghiên cứu về các yếu tố thuộc về lĩnh vực bào chế và thuộc về người dùng thuốc ảnh hưởng đến quá trình hấp thu dược chất trong cơ thể
+
+![The image shows two blue ovals connected by a pink plus sign and arrow, indicating a relationship between "Yếu tố được học" ("KT Bảo che") and "Yếu tố sinh học" ("người bệnh"), leading to the outcome "Sinh được học." This suggests a combination of educational factors and biological factors results in learning outcomes.](imagepng.jpg)
+
+<!-- Slide number: 19 -->
+# QUÁ TRÌNH SDH
+Giải phóng (Liberation): Mở đầu giải phóng LDA
+Yếu tố ảnh hưởng: Tương tác DC-Td, KTBC, môi trường giải phóng
+Hoà tan (Dissolution): Tạo điều kiện cho hấp thu
+Yếu tố ảnh hưởng: GP, độ tan, KTTP, KTBC, môi trường hoà tan
+Hấp thu (Absorption): Bảo đảm HQ
+Yếu tố ảnh hưởng: GP-hoà, đặc tính hấp thu, vùng hấp thu
+
+![The diagram illustrates the process of drug delivery, starting from drug formulation and release into the body through the portal vein. It shows how solid drugs dissolve in solution before entering the bloodstream, where they can be absorbed or degraded/adsorbed.](Image.jpg)
+Fredrik Johansson and Ronnie Paterson
+
+<!-- Slide number: 20 -->
+
+![The image shows a diagram of a cell membrane with labeled components A through G, depicting the apical and basolateral sides. Lipid molecules are indicated between layers on the basolateral side. Arrows suggest directional movement across the membrane.](Image.jpg)
+(Yihong Qiu, 2016)
+
+<!-- Slide number: 21 -->
+
+![A black background with the text "TABLE 12.4" at the top left corner, followed by several horizontal lines suggesting an incomplete or placeholder table layout.](Image.jpg)
+
+![A black background with the text "TABLE 12.3" at the top, followed by three horizontal lines suggesting the presence of a table that is not visible in the image.](Image.jpg)
+# Hấp thu Theo đường uống Tính thấm
+(Yihong Qiu, 2016)
+The term permeability is defined as the rate (cm/second) at which a solute is transported across the intestinal membrane, irrespective of transport mecha- nism. Various methodologies can be used for evaluation of intestinal permeability and drug absorption; each has its advantages and disadvantages.
+
+<!-- Slide number: 22 -->
+# CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN SKD
+ Các  yếu tố thuộc về người bệnh (Sinh học):
+Các yếu tố sinh lý
+Các yếu tố bệnh lý
+Đường dùng thuốc
+
+<!-- Slide number: 23 -->
+# SKD
+BIOAVAILABILITY (BA)
+Tốc độ và mức độ hấp thu DC từ chế phẩm BC vào tuần hoàn chung và gây ra tác dụng tại đích mong muốn.
+ Nơi tác dụng ? Thuốc không hấp thu ?
+ Biểu thị = % DC được hấp thu/ liều trên nhãn
+ Tiêm tĩnh mạch SKD = 100%, đường dùng khác: <1
+ 2 loại SKD: in vitro, in vivo (tuyệt đối, tương đối)
+
+<!-- Slide number: 24 -->
+# CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN SKD
+ĐẶC TÍNH HOÁ LÝ CỦA THUỐC GỒM:
+ĐẶC TÍNH HOÁ LÝ CỦA DƯỢC CHẤT
+Lí - hoá tính: Độ tan, độ ổn định, dạng kết tinh, hiện tượng hydrat húa, dạng muối, KTTP, tạo phức,
+Đặc tính DĐH: Tính thấm, hấp thu,..
+BC tác động chủ yếu vào tốc độ hoà tan, ↘ KTTP.
+TÁ DƯỢC: 	      Loại tá dược         Tương tác DC-TD
+KỸ THUẬT BÀO CHẾ:  Ph/pháp, quy trình BC, thiết bị,…
+YẾU TỐ LIỀU
+YẾU TỐ SINH HỌC (vd. pH hệ tiêu hoá)
+
+<!-- Slide number: 25 -->
+# QUÁ TRÌNH SINH DƯỢC HỌC:
+GIẢI PHÓNG – HÒA TAN – HẤP THU
+Tương quan giữa 3 bước
+	GP >>> Hoà tan >> Hấp thu (Ít có vấn đề SDH)	GP<<<  Hoà tan << Hấp thu (Hạn chế về SDH)	GP ~ Hoà tan ~ Hấp thu
+
+<!-- Slide number: 26 -->
+# QUÁ TRÌNH SINH DƯỢC HỌC:
+GIẢI PHÓNG – HÒA TAN – HẤP THU
+Bào chế: Tác động vào GP nhằm điều tiết Hấp thu
+FR (fast release)
+IR (Immediate)
+MR (Modified R): SR, CR, PR,……
+CD - controlled delivery, CR - controlled release
+LA - long acting, SR - sustained release,
+TR - timed release, XL - extended release, XR - extended release
+Các dạng thuốc khác nhau có Q/Tr SDH khác nhau
+
+<!-- Slide number: 27 -->
+#
+ TƯƠNG ĐƯƠNG BÀO CHẾ(Pharmaceutical equivalents) là 2 CPBC:
+ Cùng DC
+ Cùng dạng thuốc
+ Cùng hàm lượng
+ Cùng đạt TCCL
+ Khác tá dược, hình dạng
+THẾ PHẨM BÀO CHẾ (Pharmaceutical alternatives) là 2 CPBC:
+ Cùng DC
+ Khác dạng thuốc
+ Khác dạng muối, ester hoặc phức
+ Khác hàm lượng
+
+<!-- Slide number: 28 -->
+# TƯƠNG ĐƯƠNG SINH HỌC (TĐSH)BIOEQUIVALENCE: BE
+ Là 2 CPBC: Tương Đương BC hoặc Thế phẩm BC.
+ Cùng SKD (ở giới hạn cho phép).
+ Cùng 1 liều (quy đổi).
+ Cùng 1 đk thực nghiệm (SKD tương đối như nhau).
+ Nghiên cứu TĐSH nhằm so sánh 2 CPBC (biệt dược - thuốc generic) để dùng thay thế nhau trong lâm sàng đảm bảo an toàn, hiệu quả.
+
+<!-- Slide number: 29 -->
+# SKD IN VITRO: THÍ NGHIỆM HOÀ TAN(DISSOLUTION TEST): theo DĐVN
+ Thiết bị (diss. tester)
+ Môi trường: + Bản chất		            + Lượng		            + Nhiệt độ
+ Tốc độ khuấy
+ Điểm lấy mẫu
+ Phương pháp định lượng
+ Cách đánh giá kết quả (sẽ học kỹ ở thuốc viên )
+
+<!-- Slide number: 30 -->
+# SKD IN VITRO
+
+![The diagram illustrates the components of an aquarium setup, including heating elements, water circulation systems, and temperature control mechanisms. Labels in Vietnamese identify parts such as heater, thermometer, filter, and flow controls.](Hinh1.jpg)
+
+<!-- Slide number: 31 -->
+# SKD IN VITRO
+Ý NGHĨA
+Chưa phải là SKD thực sự.
+Công cụ để kiểm soát chất lượng (đảm bảo đồng nhất).
+ Công cụ để xây dựng công thức, thiết kế các dạng thuốc.
+Công cụ sàng lọc, thay thế SKD in vivo.
+
+<!-- Slide number: 32 -->
+# SKD IN VIVO
+Phương pháp đánh giá: Trên động vật, người tình nguyện
+Định lượng DC trong máu: Cho động vật (người) uống thuốc, lấy mẫu, định lượng DC/máu, vẽ đồ thị nồng độ/Liều: chính xác, đắt, ảnh SK (người)
+Định lượng DC trong nước tiểu:  Không chính xác
+Đánh giá in vitro: rẻ, nhanh
+Đo tác dụng dược lý
+PP thích hợp khác
+
+<!-- Slide number: 33 -->
+Trong đánh giá Tương Đương Sinh Học (TĐSH) in vivo thuốc generic thì khái niệm sinh khả dụng dược định nghĩa là tốc độ và mức độ hấp thu dược chất từ chế phẩm thuốc vào hệ tuần hoàn chung.
+Dược điển Việt Nam V
+
+<!-- Slide number: 34 -->
+# SKD IN VIVO
+ Đối tượng thử:
+Động vật: Trong NC, thuốc độc kg dùng/người, so sánh SKD, NC yếu tố ảnh hưởng SKD.
+Người TN: Đánh giá TĐSH— pháp lý (tốn kém)— tình nguyện, khỏe mạnh, khoảng 24 người (15 mẫu máu).Thuốc dành cho trẻ em???
+Thiết kế: Đơn liều, chéo (đôi)
+PP định lượng: HPLC, thẩm định
+
+<!-- Slide number: 35 -->
+# SKD IN VIVO
+Thuốc đối chứng
+- Thuốc phát minh đang lưu hành tại Việt Nam;
+- Thuộc danh mục thuốc đổi chứng của tổ chức Y tế thế giới;
+- Thuốc phát minh đang được lưu hành tại một trong các nước thành viên của Hội nghị hòa hợp quốc tế và các nước liên kết (gồm các nước thuộc EU, Mỹ, Nhật Bản, Canada, Úc, Thụy Sỹ);
+- Trong trường hợp không xác định được thuốc phát minh, lựa chọn thuốc đối chứng là thuốc đã được cấp phép và đang được lưu hành tại một trong các nước thành viên của Hội nghị hòa hợp quốc tế và các nước liên kết hoặc thuốc đã được đánh giá chất lượng bởi Tổ chức Y tế Thế giới.
+
+<!-- Slide number: 36 -->
+# SKD IN VIVO
+Thông số đánh giá
+Mức độ và tốc độ hấp thu
+Cmax: Nồng độ hấp thu tối đa
+Tmax: Thời gian hấp thu tối đa
+AUC0-∞ = AUC0-t +AUCt-∞
+AUC0-t:Quy tắc hình thang: mg*h/ml
+
+![The graph shows plasma concentration over time, with a peak around 2 hours and a gradual decline. The shaded area represents the total drug exposure up to infinity, labeled as AUC_t-∞.](ExtrapolatedAUCpng.jpg)
+tmax
+t1/2
+Ít nhất bằng 3 lần thời gian bán thải
+AUCt-∞ nhỏ hơn 20% giá trị của AUC0-∞
+Tiêu chuẩn Âu mỹ
+
+![The image shows an equation representing the area under the curve (AUC) from time \( t \) to negative infinity, denoted as \( AUC_{t-\infty} \). The formula is given by \( C_{last}/k_{el} \), where \( C_{last} \) represents the concentration at the last time point and \( k_{el} \) is the elimination rate constant.](latexpng.jpg)
+Từ 3-5 lần thời gian bán thải
+Nồng độ thuốc bằng 1/10-1/20
+nồng độ đỉnh
+DĐVN V
+Ít nhất 12 điểm
+   điểm số 0
+   3-4 điểm trước
+   3 điểm xung quanh đỉnh
+   3-6 điểm sau
+
+<!-- Slide number: 37 -->
+SKD IN VIVO Giới hạn chấp nhận
+
+![Image](Image.jpg)
+AUC0-t, Cmax: 80-125%
+Riêng Mỹ yêu cầu thêm thông số AUCt-∞
+(Tại sao là 125%????)
+Thời điểm
+dừng quan sát
+
+<!-- Slide number: 38 -->
+# SKD IN VIVO
+Các loại SKD
+SKD tuyệt đối: AUCthử/AUCtiêmtĩnhmạch (viên nén, nang/tiêm tĩnh mạch)
+SKD tương đối: AUCthử/AUCuống thử/đối chiếu (hay dùng trong đánh giá TĐSH)
+
+<!-- Slide number: 39 -->
+# SKD
+Ý NGHĨA
+ Nâng cao, Hiệu quả, An toàn (tác dụng sinh học # tác dụng điều trị).
+ Cơ sở để lựa chọn thuốc điều trị thay thế.
+ Đảm bảo đồng nhất về chất lượng.
+ Buộc nhà SX nâng cao CL thuốc.
+
+<!-- Slide number: 40 -->
+# Chủ đề báo cáo hàng tuần
+1 nhóm x 30 phút
+Các chủ đề
+Gelatin và gelatin vỏ nang cứng
+Tinh bột gạo, khoai tây, lúa mì, ngô, sắn và tinh bột thuỷ phân (Stach)
+Kaolin nặng, nhẹ và kaolin nhẹ thiên nhiên
+PROPYLEN GLYCOL
+Carbomer
+Tinh bột biến tính Natri glycolate A, B, C
+Polysorbat 20, 60, 80
+Hydroxyethylcelulose  và Hydroxyethylcelulose
+Nội dung báo cáo:
+Tên tiếng anh, tên tương tự
+Công thức hoá học
+Các đặc trưng hoá lý
+Nguồn gốc
+Áp dụng trong dạng bào chế gì?
+Khoảng nồng độ dùng mỗi dạng bào chế?
+Tác dụng dược lý riêng
+Tương kỵ
+Độc tính
+Độ ổn định và điều kiện bảo quản
+
+<!-- Slide number: 41 -->
+# Tài liệu tham khảo
+Dược điển việt nam V, Bộ y tế, 2017.
+Handbook of Pharmaceutical Excipients, Raymond C Rowe et al , 2009.
+Handbook of Pharmaceutical Manufacturing Formulations, Sarfaraz K. Niazi, 2009
+Kỹ thuật bào chế và sinh dược học các dạng thuốc, Võ Xuân Minh et al, 2006.
