@@ -1,4 +1,4 @@
 # Phần 2: Các chuyên đề nâng cao
-[Chương 4: Dung môi trong chiết suất](../part_2/chapter_4.qmd)
+[Chương 4: Dung môi trong chiết xuất](../part_2/chapter_4.qmd)
 [Chương 5: Kỹ thuật làm khô](../part_2/chapter_5.qmd)
-[Chương 6: Một số quy trình chiết suất](../part_2/chapter_6.qmd)
+[Chương 6: Một số quy trình chiết xuất](../part_2/chapter_6.qmd)

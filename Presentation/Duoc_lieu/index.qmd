@@ -32,7 +32,7 @@ Bài 1: [Alkaloid và các dược liệu chứa Alkaloids](../Duoc_lieu/alkaloi
 
 Bài 2: [Tinh dầu và các dược liệu chứa Tinh dầu](../Duoc_lieu/Tinhdau.qmd)
 
-Tóm tắt: Bài này đề cập tới khái niệm, cách phân loại, tác dụng dược lý của dược liệu chứa tinh dầu. Bên cạnh đó các phương pháp chiết suất, định tính, định lượng các tinh dầu có trong dược liệu. 
+Tóm tắt: Bài này đề cập tới khái niệm, cách phân loại, tác dụng dược lý của dược liệu chứa tinh dầu. Bên cạnh đó các phương pháp chiết xuất, định tính, định lượng các tinh dầu có trong dược liệu. 
 
 Bài 3: [Hợp chất cao phân tử](../Duoc_lieu/Macro.qmd)
 

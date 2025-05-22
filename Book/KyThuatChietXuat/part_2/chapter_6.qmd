@@ -1,5 +1,5 @@
 ---
-title: "Chương 6: Một số quy trình chiết suất"
+title: "Chương 6: Một số quy trình chiết xuất"
 author: "TS. Hoàng Lê Sơn"
 toc: true
 bibliography: ../references/BookExtraction.bib
@@ -14,12 +14,12 @@ format:
 ## Tóm tắt 
 
 
-## Chiết suất cao từ địa liền bằng phương pháp chiết shoxlet
+## chiết xuất cao từ địa liền bằng phương pháp chiết shoxlet
 
 
-## Chiết suất cao từ địa liền bằng phương pháp siêu âm 
+## chiết xuất cao từ địa liền bằng phương pháp siêu âm 
 
-## Chiết suất tinh dầu từ địa liền
+## chiết xuất tinh dầu từ địa liền
 
 ## Định lượng hàm lượng ethyl-p-methoxycinnamate trong mẫu bằng HPLC
 

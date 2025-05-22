@@ -27,11 +27,11 @@ format:
 - Điểm chính thứ ba
 
 ---
-## Quá trình chiết suất
+## Quá trình chiết xuất
 
 
 ---
-## Một số dung môi dùng trong chiết suất
+## Một số dung môi dùng trong chiết xuất
 
 ---
 ## Phân doạn bằng phương pháp chiết lỏng-lỏng

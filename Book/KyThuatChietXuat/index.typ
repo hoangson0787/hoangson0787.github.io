@@ -266,7 +266,7 @@
   stroke: none
 )
 #show: doc => article(
-  title: [Sách: Tài liệu các kỹ thuật chiết suất các hợp chất từ tự nhiên],
+  title: [Sách: Tài liệu các kỹ thuật chiết xuất các hợp chất từ tự nhiên],
   authors: (
     ( name: [TS. Hoàng Lê Sơn],
       affiliation: [],
@@ -320,7 +320,7 @@ Danh mục các thuật ngữ
 
 = Tóm tắt các chương
 <tóm-tắt-các-chương>
-== Phần 1: Đại cương về chiết suất
+== Phần 1: Đại cương về chiết xuất
 <phần-1-đại-cương-về-chiết-suất>
 === #link("part_1/chapter_1.qmd")[Chương 1: Đại cương về cao chiết và hợp chất tự nhiên]
 <chương-1-đại-cương-về-cao-chiết-và-hợp-chất-tự-nhiên>
@@ -328,7 +328,7 @@ Danh mục các thuật ngữ
 #callout(
 body: 
 [
-Hoạt chất có hoạt tính sinh học có thể tìm thấy rộng rãi trong các thực vật và thường được xếp vào nhóm các hợp chất chuyển hóa bậc hai. Dựa trên cấu trúc hóa học, các hoạt chất này có thể thuộc một số nhóm flavonoide, tannin, terpene, ligand, alkaloid, peptide hoặc một số nhóm khác. Việc chiết suất được các hợp chất này ngày càng quan trọng trong công nghiệp dược do tiềm năng tác dụng sinh học của chúng như khả năng chống oxy hóa, kháng viêm để áp dụng trong các liệu pháp điều trị như ngăn ngừa các rối loạn tim mạch hoặc ức chế phát triển tế bào ung thư. Mặc dù, các kỹ thuật sắc ký kết hợp với phân tích các loại phổ như khối phổ, phổ hồng ngoại-tử ngoại và phổ cộng hưởng tử hạt nhân có thể đóng vai trò đáng kể trong phát hiện các hợp chất này nhưng một dự án phát triển sản phẩm từ tự nhiên thành công phần lớn phụ thuộc vào phương pháp chiết xuất để có thể thu được cao chiết giàu. Sản phẩm của quá trình chiết xuất có thể tiếp tục để làm giàu hoặc phân lập các hợp chất đích hoặc cũng có thể đạt chất lượng để bào chế thành phẩm. Do đó, chương này sẽ đề cập tới các nhóm hoạt chất có tác dụng sinh học và vai trò cao chiết từ thực vật trong lĩnh vực Dược - Mỹ phẩm.
+Hoạt chất có hoạt tính sinh học có thể tìm thấy rộng rãi trong các thực vật và thường được xếp vào nhóm các hợp chất chuyển hóa bậc hai. Dựa trên cấu trúc hóa học, các hoạt chất này có thể thuộc một số nhóm flavonoide, tannin, terpene, ligand, alkaloid, peptide hoặc một số nhóm khác. Việc chiết xuất được các hợp chất này ngày càng quan trọng trong công nghiệp dược do tiềm năng tác dụng sinh học của chúng như khả năng chống oxy hóa, kháng viêm để áp dụng trong các liệu pháp điều trị như ngăn ngừa các rối loạn tim mạch hoặc ức chế phát triển tế bào ung thư. Mặc dù, các kỹ thuật sắc ký kết hợp với phân tích các loại phổ như khối phổ, phổ hồng ngoại-tử ngoại và phổ cộng hưởng tử hạt nhân có thể đóng vai trò đáng kể trong phát hiện các hợp chất này nhưng một dự án phát triển sản phẩm từ tự nhiên thành công phần lớn phụ thuộc vào phương pháp chiết xuất để có thể thu được cao chiết giàu. Sản phẩm của quá trình chiết xuất có thể tiếp tục để làm giàu hoặc phân lập các hợp chất đích hoặc cũng có thể đạt chất lượng để bào chế thành phẩm. Do đó, chương này sẽ đề cập tới các nhóm hoạt chất có tác dụng sinh học và vai trò cao chiết từ thực vật trong lĩnh vực Dược - Mỹ phẩm.
 
 ]
 , 
@@ -347,7 +347,7 @@ icon:
 fa-info()
 )
 ]
-== #link("part_1/chapter_2.qmd")[Chương 2: Phương pháp chiết suất thường quy]
+== #link("part_1/chapter_2.qmd")[Chương 2: Phương pháp chiết xuất thường quy]
 <chương-2-phương-pháp-chiết-suất-thường-quy>
 #block[
 #callout(
@@ -372,13 +372,13 @@ icon:
 fa-info()
 )
 ]
-== #link("part_1/chapter_3.qmd")[Chương 3: Các phương pháp chiết suất mới]
+== #link("part_1/chapter_3.qmd")[Chương 3: Các phương pháp chiết xuất mới]
 <chương-3-các-phương-pháp-chiết-suất-mới>
 #block[
 #callout(
 body: 
 [
-Các phương pháp chiết xuất thông thường đang dần được thay thế bằng các phương pháp mới do một số nhược điểm như chí phí cao, thời gian chiết xuất dài, ảnh hưởng tới các hợp chất không bền với nhiệt, độ chọn lọc thấp, dung môi cần tinh khiết. Các phương pháp chiết xuất mới được phát triển hơn 50 năm qua hứa hẹn khác phục các vấn đề của phương pháp truyền thống. Một số nhược điểm đã được cải thiện như thời gian chiết xuất ngắn hơn, chất lượng đồng nhất, hiệu suất cao hơn. Đặc biệt, dung môi hữu cơ và tổng hợp sử dụng ít hơn. Các phương pháp chiết mới của hợp chất tự nhiên được đề xuất trong tài liệu này gồm siêu âm, gia nhiệt, chiết bằng gia nhiệt bằng điện trở, gia nhiệt bằng vi sóng, điện trường xung, chiết suất có sự hỗ trợ bằng áp suất, chất lỏng siêu tới hạn, và hộ trợ chiết bằng enzym. Đích tới của các phương pháp này thường sẽ hướng tới giảm thiểu ô nhiễm môi trường và tốn phí năng lượng trong tổng quá trình thấp.
+Các phương pháp chiết xuất thông thường đang dần được thay thế bằng các phương pháp mới do một số nhược điểm như chí phí cao, thời gian chiết xuất dài, ảnh hưởng tới các hợp chất không bền với nhiệt, độ chọn lọc thấp, dung môi cần tinh khiết. Các phương pháp chiết xuất mới được phát triển hơn 50 năm qua hứa hẹn khác phục các vấn đề của phương pháp truyền thống. Một số nhược điểm đã được cải thiện như thời gian chiết xuất ngắn hơn, chất lượng đồng nhất, hiệu suất cao hơn. Đặc biệt, dung môi hữu cơ và tổng hợp sử dụng ít hơn. Các phương pháp chiết mới của hợp chất tự nhiên được đề xuất trong tài liệu này gồm siêu âm, gia nhiệt, chiết bằng gia nhiệt bằng điện trở, gia nhiệt bằng vi sóng, điện trường xung, chiết xuất có sự hỗ trợ bằng áp suất, chất lỏng siêu tới hạn, và hộ trợ chiết bằng enzym. Đích tới của các phương pháp này thường sẽ hướng tới giảm thiểu ô nhiễm môi trường và tốn phí năng lượng trong tổng quá trình thấp.
 
 ]
 , 
@@ -399,13 +399,13 @@ fa-info()
 ]
 = Phần 2: Các chuyên đề nâng cao
 <phần-2-các-chuyên-đề-nâng-cao>
-== #link("part_2/chapter_4.qmd")[Chương 4: Dung môi trong chiết suất]
+== #link("part_2/chapter_4.qmd")[Chương 4: Dung môi trong chiết xuất]
 <chương-4-dung-môi-trong-chiết-suất>
 #block[
 #callout(
 body: 
 [
-Dung môi rất cần thiết trong việc chiết xuất các hợp chất từ tự nhiên. Chiết xuất Soxhlet, chiết ngâm và lắc phân đoạn lỏng-lỏng là các ví dụ về sử dụng dung môi để thu được hoạt chất từ các mô thực vật. Sử dụng các phương pháp chiết xuất xanh như vi sóng, siêu âm giúp giảm lượng dung môi sử dụng, giảm thời gian chiết xuất và nâng cao hiệu quả chiết xuất. Các phương pháp này đều đỏi hỏi sử dụng dung môi để hòa tan hoạt chất, tách ra khỏi tế bào thực vật. Sự đa dạng của thành phần hóa học trong thảo dược cũng như phức tạp về tính chất hóa lý do tương tác giữa các thành phần dẫn đến khó khăn lựa chọn dung môi. Mong muốn một dung môi hiệu quả trong quá trình chiết xuất nhất định cần quan tâm tới các đặc tính như tính phân cực, khả năng truyền nhiệt, khả năng hòa tan, độc tính và các thông số hóa lý, bao gồm nhiệt độ sôi, độ nhớt và mật độ phân tử. Chương này đề cập tới các loại dung môi đang được nghiên cứu phát triển ứng dụng trong quá trình chiết suất.
+Dung môi rất cần thiết trong việc chiết xuất các hợp chất từ tự nhiên. Chiết xuất Soxhlet, chiết ngâm và lắc phân đoạn lỏng-lỏng là các ví dụ về sử dụng dung môi để thu được hoạt chất từ các mô thực vật. Sử dụng các phương pháp chiết xuất xanh như vi sóng, siêu âm giúp giảm lượng dung môi sử dụng, giảm thời gian chiết xuất và nâng cao hiệu quả chiết xuất. Các phương pháp này đều đỏi hỏi sử dụng dung môi để hòa tan hoạt chất, tách ra khỏi tế bào thực vật. Sự đa dạng của thành phần hóa học trong thảo dược cũng như phức tạp về tính chất hóa lý do tương tác giữa các thành phần dẫn đến khó khăn lựa chọn dung môi. Mong muốn một dung môi hiệu quả trong quá trình chiết xuất nhất định cần quan tâm tới các đặc tính như tính phân cực, khả năng truyền nhiệt, khả năng hòa tan, độc tính và các thông số hóa lý, bao gồm nhiệt độ sôi, độ nhớt và mật độ phân tử. Chương này đề cập tới các loại dung môi đang được nghiên cứu phát triển ứng dụng trong quá trình chiết xuất.
 
 ]
 , 
@@ -449,13 +449,13 @@ icon:
 fa-info()
 )
 ]
-== #link("part_2/chapter_6.qmd")[Chương 6: Một số quy trình chiết suất]
+== #link("part_2/chapter_6.qmd")[Chương 6: Một số quy trình chiết xuất]
 <chương-6-một-số-quy-trình-chiết-suất>
 #block[
 #callout(
 body: 
 [
-Chương này đề cập tới một số quy trình chiết suất các hợp chất từ tự nhiên.
+Chương này đề cập tới một số quy trình chiết xuất các hợp chất từ tự nhiên.
 
 ]
 , 
