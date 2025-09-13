@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +71,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="../../scss/styles.css">
 <meta property="og:title" content="Bài giảng các dạng bào chế đặc biệt – Tài liệu dược liệu">
 <meta property="og:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
 <meta property="og:site_name" content="Tài liệu dược liệu">
@@ -481,6 +483,18 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../Presentation/Duoc_lieu/saponin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/Duoc_lieu/Tanin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/Duoc_lieu/Terpen.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Dược liệu</span></a>
   </div>
 </li>
@@ -918,6 +932,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1232,10 +1253,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="hoangson0787/hoangson0787.github.io" data-repo-id="R_kgDONbMRNA" data-category="General" data-category-id="DIC_kwDONbMRNM4ClkiJ" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+<script src="https://giscus.app/client.js" data-repo="duoclieu/duoclieu.github.io" data-repo-id="R_kgDONkJDTw" data-category="General" data-category-id="DIC_kwDONkJDT84Clny1" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_high_contrast" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+<input type="hidden" id="giscus-base-theme" value="light_high_contrast">
+<input type="hidden" id="giscus-alt-theme" value="dark_dimmed">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../../Presentation/index.html" class="pagination-link" aria-label="Bài giảng các học phần liên quan">
@@ -1276,4 +1297,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -74,8 +74,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="../../scss/styles.css">
 <meta property="og:title" content="Bài giảng dược cổ truyền – Tài liệu dược liệu">
 <meta property="og:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
 <meta property="og:site_name" content="Tài liệu dược liệu">
@@ -489,6 +491,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../Presentation/Duoc_lieu/Tanin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/Duoc_lieu/Terpen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../Presentation/Duoc_lieu/Tinhdau.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Dược liệu</span></a>
   </div>
@@ -754,7 +768,7 @@ Thuốc cổ truyền Luật dược 2024
 <p>Tiểu luận theo nhóm khoáng 10-15 người. Nhóm hãy bầu ra 01 nhóm trưởng để nộp bài theo form google (Chú ý sử dụng email do nhà trường cung cấp.)</p>
 <p><em>Sản phẩm cần nộp</em></p>
 <ul>
-<li>01 phiếu điền theo hướng dẫn cùa google form tại địa chỉ: https://forms.gle/1oH49yvt4C4oscxt8</li>
+<li>01 phiếu điền theo hướng dẫn cùa google form tại địa chỉ: https://forms.gle/znn2rGmLp9efYTdX9</li>
 <li>01 file docx Cỡ chữ 12, cách dòng 1.5. Căn lề trên dưới, phải là 2cm, lề bên trái là 3 cm. trên google drive có chia sẻ</li>
 <li>01 file ppt từ 15-30 slide<br>
 </li>
@@ -762,7 +776,7 @@ Thuốc cổ truyền Luật dược 2024
 </ul>
 <p><strong>Tiểu luận cá nhân:</strong> Thời hạn 2 tuần từ ngày nhận đầu bài</p>
 <ul>
-<li>01 phiếu điền theo hướng dẫn tại google form tại địa chỉ: https://docs.google.com/forms/d/e/1FAIpQLSfXek_7vY0hxnmEG3Pu0pKSZ3byoN53EiX5xrRhnOVW_Ki5kQ/viewform?usp=header</li>
+<li>01 phiếu điền theo hướng dẫn tại google form tại địa chỉ: https://forms.gle/deDPcNgKnsJkRyAh9</li>
 </ul>
 
 
@@ -1019,6 +1033,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1333,10 +1354,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="hoangson0787/hoangson0787.github.io" data-repo-id="R_kgDONbMRNA" data-category="General" data-category-id="DIC_kwDONbMRNM4ClkiJ" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+<script src="https://giscus.app/client.js" data-repo="duoclieu/duoclieu.github.io" data-repo-id="R_kgDONkJDTw" data-category="General" data-category-id="DIC_kwDONkJDT84Clny1" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_high_contrast" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+<input type="hidden" id="giscus-base-theme" value="light_high_contrast">
+<input type="hidden" id="giscus-alt-theme" value="dark_dimmed">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../../Presentation/Duoc_lieu/Tinhdau.html" class="pagination-link" aria-label="Dược liệu">
@@ -1373,7 +1394,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {
@@ -1409,4 +1430,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

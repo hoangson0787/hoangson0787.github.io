@@ -1,0 +1,167 @@
+---
+title: "Dược liệu "
+subtitle: "Tanin và Dược liệu chứa Tanin"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+format: 
+  revealjs:
+    slide-number: true
+    logo: "../../images/logo.png"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: "../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../../images/theme1.jpg"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+
+
+## Đại cương về Tanin
+
+- Tanin là những hợp chất polyphenol có trong thực vật, có vị chát, được phát hiện dương tính với phản ứng thuộc da và được định lượng dựa trên độ hấp phụ trên bột da sống chuẩn.
+- Pseudotanin: Một trong các phenol đơn giản (Catechin, acid gallic, acid chlorgenic) hấp phụ trên mặt da sống do kết tủa với gelatin.
+
+![Tanin](../Duoc_lieu/Images/Tanin.png){width=50%}
+
+---
+
+## Thí nghiệm thuộc da
+
+- Lấy một miếng da sống chế sẵn, ngâm vào dung dịch HCl 2%
+- Rửa nước cất
+- Ngâm vào dịch chiết (5 phút)
+- Rửa với nước cất
+- Nhúng vào dung dịch FeSO₄ 1%
+- Miếng da màu nâu hay đen chứng tỏ dương tính với tanin
+
+**Cơ chế:** Do phenol tạo liên kết hydro đôi với các polypeptid của protein.
+
+---
+
+## Phân loại
+
+- **Tanin thủy phân được**: Tanin pyrogallic - gallctanin
+  - Gallotannins: chứa các đơn vị galloyl liên kết depsidic
+  - Ellagitannins: chứa đơn vị HHDP (hexahydroxydiphenoyl)
+    - Group A
+    - Group B
+    - Group C
+- **Tanin ngưng tụ**: Tanin pyrocatechic - proanthocyan
+
+---
+
+## Hydrolyzable tannins
+
+![Hydrolyzable tannins](../Duoc_lieu/Images/hydrolyzable%20tannins.png){width=40%}
+
+---
+
+## Tanin thủy phân được
+
+- Thủy phân bằng acid hoặc enzyme thu đường mono và các acid
+- Acid: gallic, digallic, trigallic, ellagic, lutelic
+- Đường và acid nối nhau qua cầu ester
+- Khi nâng nhiệt độ ở 180–200°C chủ yếu thu được progallol
+- Dễ tan trong nước
+- Cho tủa với chì acetat 10%
+- Cho tủa xanh đen với FeCl₃
+
+![Tanin thủy phân được](../Duoc_lieu/Images/Tanin%20thuy%20phan%20duoc.png){width=40%}
+
+---
+
+## Tanin ngưng tụ
+
+- Là các polyflavonoid. Ngưng tụ giữa các đơn vị flavan-3-ol hoặc flavan-3,4-diol
+- Không thủy phân được bằng acid hay enzyme, tạo phlobaphen không tan
+- Nhiệt khô cho catechol
+- Khó tan trong nước
+- Cho tủa bông với nước brom
+- Tủa xanh đậm với FeCl₃
+
+![Tanin ngưng tụ](../Duoc_lieu/Images/Tanin%20ngung%20tu.png){width=40%}
+
+---
+
+## Tính chất
+
+1. **Lý tính**
+   - Vị chát, làm săn da
+   - Tan trong nước, không tan trong dung môi hữu cơ
+
+2. **Hóa tính**
+   - Đặc trưng của nhóm OH phenol
+
+---
+
+## Định tính
+
+- Phản ứng thuộc da
+- Phản ứng tủa với dung dịch gelatin 1%
+- Phản ứng tủa với phenazon  
+  ![Phenazon](../Duoc_lieu/Images/phenazon.png){width=30%}
+- Phản ứng tủa với alkaloid
+- Phản ứng tủa với kim loại nặng như Pb, Hg, Zn, Fe
+- Cho màu xanh với thuốc thử Folin
+- Phản ứng Stiasny:
+  - DD tanin + 10ml Formal + 5ml HCl
+  - Đun nóng
+  - Tanin thủy phân không tủa, tanin ngưng tụ tủa
+
+---
+
+## Định lượng
+
+1. Phản ứng thuộc da: Dựa trên tanin hấp thụ trên bề mặt da
+2. Phương pháp oxy hóa với KMnO₄
+3. Tạo tủa với đồng acetat
+4. Đo màu với thuốc thử Folin
+5. Đo màu với thuốc thử Phophomolibotungstic
+6. Sắc ký lỏng hiệu năng cao
+
+---
+
+## Tác dụng và công dụng
+
+- Làm săn da
+- Kháng khuẩn: súc miệng, họng đau, rửa chỗ loét
+- Dùng trong chữa tiêu chảy, viêm ruột
+- Giải độc kim loại hoặc alkaloid
+- Cầm máu do làm đông máu
+- Chống oxy hóa và gốc tự do
+- Công nghiệp: thuộc da, mực bút máy
+
+---
+
+## Dược liệu chứa Tanin
+
+### Ổi (*Psidium guajava*)
+
+![Psidium guajava](../Duoc_lieu/Images/Psidium%20guajava.png){width=40%}
+
+---
+
+### Ngũ bội tử (*Galla chinensis*)
+
+Loài sâu sống trên cây Muối (*Rhus chinensis*), tạo tổ ở cành non hoặc cuống lá.
+
+![Galla chinensis](../Duoc_lieu/Images/Galla%20chinensis.png){width=40%}
+
+> *Rhus chinensis* chứa nhiều hợp chất phenolic như acid gallic và methyl gallate. *Galla chinensis* có khoảng 20% acid gallic và 7% methyl gallate.
+
+---
+
+### Măng cụt (*Garcinia mangostana*)

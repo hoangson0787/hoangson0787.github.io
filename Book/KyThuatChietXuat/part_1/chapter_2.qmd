@@ -3,7 +3,7 @@ title: "Chương 2: Phương pháp chiết xuất thường quy"
 author: "TS. Hoàng Lê Sơn"
 toc: true
 bibliography: ../references/BookExtraction.bib
-csl: ../references/natural-product-reports.csl
+csl: ../references/elsevier-harvard.csl
 format: 
   html: 
     code-fold: true
@@ -123,6 +123,7 @@ Phương pháp chiết Soxhlet có sự trợ giúp bởi vi sóng là kỹ thu�
 
 ## 2.2 Chiết ngâm
 
+
 ### 2.2.1 Khái quát về chiết ngâm
 
 *Thuật ngữ tiếng Anh:* Maceration 
@@ -150,6 +151,8 @@ Với hợp chất nhạy cảm với nhiệt, phương pháp này hiệu quả 
 Phương pháp này có thể hình dung giống như pha cafe phin truyền thống của Việt nam khi quá trình chiết xuất giống như quá trình ngâm nhưng có thêm bộ phận lọc. Mẫu được nghiền mịn cho vào thiết bị, sau đó bổ sung nước sôi ngâm trong 2 giờ. Quá trình này diễn ra với tốc độ vừa phải (thường 6 giọt trên phút) cho đến khi chiết xuất hoàn toàn. Dịch lọc cuối cùng sẽ được bay hơi để thu được cao dịch chiết dạng cô đặc. [@rathi_evaluation_2006] Kỹ thuật này sử dụng thiết bị độc đáo được gọi là máy lọc màu và tuân theo cùng một nguyên tắc cơ bản của quá trình ngâm. Mẫu đã nghiền mịn được đổ vào máy lọc màu; sau đó, nước sôi được cho vào và ngâm trong 2 giờ. Quá trình này được thực hiện với tốc độ vừa phải (sáu giọt mỗi phút) cho đến khi chiết xuất hoàn toàn. Cuối cùng, quá trình bay hơi được thực hiện để thu được dịch chiết ở dạng cô đặc.
 
 ## 2.3 Phương pháp cất kéo hơi nước
+
+*Thuật ngữ tiếng Anh:* Hydrodistillation
 
 ### 2.3.1 Khái quát về phương pháp cất kéo hơi nước
 
@@ -232,4 +235,3 @@ Câu 4: Phân tích ưu và nhược điểm phương pháp cất kéo hơi nư�
 
 
 
-# Bibliography {-}

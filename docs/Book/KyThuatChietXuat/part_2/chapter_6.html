@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,11 +71,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
+<link rel="stylesheet" href="../../../scss/styles.css">
 <meta property="og:title" content="Chương 6: Một số quy trình chiết xuất – Tài liệu dược liệu">
+<meta property="og:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
 <meta property="og:site_name" content="Tài liệu dược liệu">
 <meta name="twitter:title" content="Chương 6: Một số quy trình chiết xuất – Tài liệu dược liệu">
+<meta name="twitter:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -484,6 +488,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/Tanin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/Terpen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../../Presentation/Duoc_lieu/Tinhdau.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Dược liệu</span></a>
   </div>
@@ -573,7 +589,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#tóm-tắt" id="toc-tóm-tắt" class="nav-link active" data-scroll-target="#tóm-tắt">Tóm tắt</a></li>
-  <li><a href="#chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet" id="toc-chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet" class="nav-link" data-scroll-target="#chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet">chiết xuất cao từ địa liền bằng phương pháp chiết shoxlet</a></li>
+  <li><a href="#chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet" id="toc-chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet" class="nav-link" data-scroll-target="#chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet">Chiết xuất cao từ địa liền bằng phương pháp chiết shoxlet</a></li>
   <li><a href="#chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-siêu-âm" id="toc-chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-siêu-âm" class="nav-link" data-scroll-target="#chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-siêu-âm">chiết xuất cao từ địa liền bằng phương pháp siêu âm</a></li>
   <li><a href="#chiết-xuất-tinh-dầu-từ-địa-liền" id="toc-chiết-xuất-tinh-dầu-từ-địa-liền" class="nav-link" data-scroll-target="#chiết-xuất-tinh-dầu-từ-địa-liền">chiết xuất tinh dầu từ địa liền</a></li>
   <li><a href="#định-lượng-hàm-lượng-ethyl-p-methoxycinnamate-trong-mẫu-bằng-hplc" id="toc-định-lượng-hàm-lượng-ethyl-p-methoxycinnamate-trong-mẫu-bằng-hplc" class="nav-link" data-scroll-target="#định-lượng-hàm-lượng-ethyl-p-methoxycinnamate-trong-mẫu-bằng-hplc">Định lượng hàm lượng ethyl-p-methoxycinnamate trong mẫu bằng HPLC</a></li>
@@ -613,7 +629,10 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="tóm-tắt">Tóm tắt</h2>
 </section>
 <section id="chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet" class="level2">
-<h2 class="anchored" data-anchor-id="chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet">chiết xuất cao từ địa liền bằng phương pháp chiết shoxlet</h2>
+<h2 class="anchored" data-anchor-id="chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-chiết-shoxlet">Chiết xuất cao từ địa liền bằng phương pháp chiết shoxlet</h2>
+<p> Nguyên liệu, hóa chất: - Thân rễ sấy khô của cây Địa liền - n-hexane  Thiết bị, dụng cụ sử dụng: - Bể rửa siêu âm - Máy cô quay chân không thu hồi dung môi - Tủ lạnh - Phễu lọc, giấy lọc, bông - Cốc có mỏ 1000mL, 500mL, đũa thủy tinh  Quy trình: 1 kg thân rễ khô của cây Địa liền được nghiền thành bột, sau đó chiết xuất với sự hỗ trợ siêu âm bằng bể rửa siêu âm (220W) ở nhiệt độ 50oC với dung môi n-hexane trong 1 giờ (chiết 3 – 4 lần, tỷ lệ rắn/lỏng khoảng 1/8 – 1/10). Dịch chiết được lọc, cô thu hồi dung môi dưới áp suất giảm, thu được dịch màu vàng nâu (khoảng 30 – 40 mL). Để kết tinh qua đêm ở nhiệt độ 2 - 8oC. Gạn dịch, thu tinh thể và rửa bằng n-hexane lạnh. Tinh chế bằng cách kết tinh lại trong 30 – 40 mL n-hexane. Quy trình phân lập, tinh chế được mô tả như Hình 1.</p>
+<p>Hình 1. Sơ đồ phân lập, tinh chế ethyl p-methoxycinnamate từ thân rễ Địa liền</p>
+<p> Lưu ý: - Do dịch chiết sau kết tinh, dịch rửa tinh thể vẫn còn tinh thể EPMC nên có thể cô giảm thể tích dịch còn khoảng 10 - 15mL rồi để tủ lạnh  thu được thêm tinh thể EPMC  tăng hiệu suất chiết. - Rửa bằng n-hexane lạnh nhiều lần tinh thể càng sạch tạp chất, hàm lượng càng cao.</p>
 </section>
 <section id="chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-siêu-âm" class="level2">
 <h2 class="anchored" data-anchor-id="chiết-xuất-cao-từ-địa-liền-bằng-phương-pháp-siêu-âm">chiết xuất cao từ địa liền bằng phương pháp siêu âm</h2>
@@ -881,6 +900,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1195,10 +1221,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="hoangson0787/hoangson0787.github.io" data-repo-id="R_kgDONbMRNA" data-category="General" data-category-id="DIC_kwDONbMRNM4ClkiJ" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+<script src="https://giscus.app/client.js" data-repo="duoclieu/duoclieu.github.io" data-repo-id="R_kgDONkJDTw" data-category="General" data-category-id="DIC_kwDONkJDT84Clny1" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_high_contrast" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+<input type="hidden" id="giscus-base-theme" value="light_high_contrast">
+<input type="hidden" id="giscus-alt-theme" value="dark_dimmed">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../../../Book/KyThuatChietXuat/part_2/chapter_5.html" class="pagination-link" aria-label="Chương 5: Kỹ thuật làm khô dược liệu và cô đặc cao dược liệu">
@@ -1239,4 +1265,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

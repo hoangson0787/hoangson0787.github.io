@@ -16,17 +16,119 @@ format:
 5. Fundamentals of Pharmacognosy and phytotherapy
 6. https://www.ipni.org (Tra mã dược liệu- tên loài, tên họ)
 7. https://lotus.naturalproducts.net
-8. pubchem
+8. Pubchem
 
-## Slide bài giảng 
 
-**Dược liệu I**
 
-- [Flavonoid và các dược liệu chứa Flavonoid](../Duoc_lieu/flavonoids.qmd)
 
-- [Saponin và các dược liệu chứa Saponin](../Duoc_lieu/saponin.qmd)
 
-**Dược liệu II**
+## I. Học phần dược liệu I
+
+### 1.1 Slide bài giảng 
+
+
+Bài 1: [Flavonoid và các dược liệu chứa Flavonoid](../Duoc_lieu/flavonoids.qmd)
+
+Bài 2: [Terpen và tanin](../Duoc_lieu/Terpen_Tanin.qmd)
+
+
+
+### 1.2 Tiểu luận cá nhân
+
+1. **Mục tiêu:** Thu thập được thông tin khoa học của một dược liệu tại Việt nam
+2. **Hướng dẫn thực hiện:**
+	- Chọn một dược liệu có trong dược điển việt nam V.
+	- Thực hiện các thông tin theo form yêu cầu gồm tên khoa học, thành phần hóa học, tác dụng dược lý, công dụng và chỉ định.
+3. **Sản phẩm cần nộp**
+
+- Nộp theo form google theo hướng dẫn (Vào ngày giảng terpen và tannin)
+- Mỗi học viên làm duy nhất 01 slide để báo cáo trong vòng 5-10 phút (Vào buổi cuối cùng)
+
+### 1.3 Thực tập 
+
+**Chia nhóm:** Học viên chia làm 4 nhóm.  Trong một buổi thực tập, hai nhóm chọn một bài để thực hiện. Chuẩn bị bài theo hướng dẫn dưới dây.
+
+**Hoạt động của học viên:**
+
+- Chuẩn bị nội dung thực hành  
+- Kiểm tra đầu giờ: Gọi sinh viên ngẫu nhiên lên bảng làm theo yêu cầu xung quanh các nội dung sau
+    
+    - *Về nhóm chất*: Khái niệm, phân loại cấu trúc hóa học, tính chất hóa lý, phương pháp chiết xuất
+    - *Về dược liệu*: Tên latin dược liệu, bộ phận sử dụng, tiêu chuẩn chất lượng theo dược điển việt nam
+    - *Về nội dung thực tập*: danh sách hóa chất dung môi sử dụng, danh sách trang thiết bị, sơ đồ thí nghiệm, cơ chế liên quan đến phản ứng hóa học - chiết tách - phản ứng định lượng,  kết quả dự kiến, kết luận dự kiến
+    - *Về an toàn phòng thí nghiệm*: Tìm hiểu về quy định an toàn phòng thí nghiệm
+
+
+#### ĐỊNH TÍNH RUTIN TRONG HOA HÒE
+
+
+::: {.callout-note title="Tài liệu tham khảo"}
+
+[1]. Vũ Đức Lợi và Lê Thị Thu Hường. Giáo trình thực hành: Thực vật, dược liệu, dược học cổ truyền, NXB Đại học Quốc gia Hà Nội, Hà Nội.
+
+[2]. Bộ Y tế (2024). Dược điển Việt Nam V Tập 2, NXB Y học, Hà Nội.
+
+:::
+
+Nụ hoa đã phơi hay sấy nhẹ đến khô của cây Hòe (*Sophora japonica* L.), họ Đậu (Fabaceae).
+
+Nội dung thực tập:
+
+1. *Chuẩn bị mẫu:* Cân 0,5 g bột nụ hoa hòe rồi cho vào một ống nghiệm lớn. Thêm 5 mL (thay bằng 7 mL) ethanol $90^o$. Đun cách thủy sôi trong vài phút. Lọc nóng. Dịch lọc thu được tiến hành các phản ứng định tính.
+2. *Phản ứng Cianidin:* Cho vào ống nghiệm nhỏ 1 mL dịch chiết. Thêm một ít bột magnesi kim loại (khoảng 10mg). Nhỏ từng giọt HCl đậm đặc (3-5 giọt). Để yên 1 vài phút, dung dịch sẽ chuyển từ màu vàng sang màu đỏ.
+3. *Phản ứng với kiềm*
+
+    - Cho vào ống nghiệm nhỏ 1 mL dịch chiết. Thêm vài giọt dung dịch NaOH 10% sẽ thấy kết tủa vàng. Thêm 1 mL nước cất tủa sẽ tan và màu vàng của dung dịch sẽ được tăng thêm.
+    - Nhỏ một giọt dịch chiết lên giấy lọc. Hơ khô rồi để lên miệng lọ amoniac đặc đã được mở nút sẽ thấy màu vàng của dịch chiết tăng lên.
+
+4. *Phản ứng với $FeCl_3$:* Cho vào ống nghiệm nhỏ 1 mL dịch chiết. Thêm vài giọt dung dịch FeCl3 5% sẽ xuất hiện tủa xanh đen.
+5. *Sắc ký lớp mỏng:* Cô đặc dịch chiết còn lại rồi dùng mao quản chấm lên bản mỏng silicagel (cỡ kính 2,5 x 7,5 cm)
+
+- Dung môi khai triển: ethyl acetate – acid formic – nước (80:10:10).
+- Thuốc thử hiện màu: Hơi amoniac, dung dịch KOH 5% trong ethanol, dung dịch AlCl3 trong ethanol. Vết rutin sẽ có màu vàng.
+- Soi dưới đèn tử ngoại, vết rutin sẽ có huỳnh quang nâu.
+
+
+
+
+### 1.4 Thực tập ĐỊNH LƯỢNG FLAVONOID TRONG CAO HÒE HOA
+
+::: {.callout-note title="Tài liệu tham khảo"}
+
+[1]. Amjad M. Shraim et al (2021). Determination of total flavonoid content by aluminum chloride assay: A critical evaluation.
+
+:::
+
+**Chuẩn bị cao hoa Hòe:** 10g bột hoa Hòe chiết siêu âm với 100mL ethanol 70o trong 30 phút, lặp lại 3 lần. Lọc dịch chiết, sau đó cô quay thu hồi dung môi và cô thành cao đặc.
+
+**Chuẩn bị mẫu chuẩn gốc:** Cân chất chuẩn rutin hòa tan trong methanol để đạt nồng độ 1,0 mg/mL. 
+
+**Chuẩn bị dãy nồng độ chuẩn:** Lắc đều, siêu âm để chất chuẩn tan hết hoàn toàn. Từ dung dịch chuẩn gốc, pha loãng bằng methanol thành dãy 6 nồng độ theo cấp số nhân (đơn vị mg/mL) bằng bình định mức 5mL hoặc 10mL, các nồng độ như sau: 1; 0.5; 0.25; 0.125; 0.0625; 0.03125. 
+
+**Phản ứng trên chuẩn:** Tại mỗi nồng độ, hút 1,0 mL mẫu chuẩn rutin cho vào bình định mức 10mL. Thêm vào mỗi nồng độ trên 4,0 mL methanol. Sau đó thêm 0,30 mL dung dịch NaNO2 1M. Lắc đều/vortex, để yên. Sau 3 phút, cho thêm vào 0,30 mL dung dịch AlCl3 10%. Lắc đều/vortex, để yên. Sau 3 phút cho tiếp vào 2,0 mL dung dịch NaOH 1M và bổ sung methanol vừa đủ 10mL. Lắc đều, bảo quản tối trong 40 phút. 
+
+
+**Phản ứng trên mẫu thử:** Cân cao chiết Hoè hoa và hòa tan bằng methanol để đạt nồng độ 1 mg/mL. Hút 1,0 mL mẫu cao cho vào bình định mức 10 mL. Thêm vào 4 mL methanol. Sau đó thêm 0,30 mL dung dịch NaNO2 1M. Lắc đều/vortex, để yên. Sau 3 phút, cho thêm vào 0,30 mL dung dịch AlCl3 10%. Lắc đều/vortex, để yên. Sau 3 phút cho tiếp vào 2,0 mL dung dịch NaOH 1M và bổ sung methanol vừa đủ 10mL. Lắc đều, bảo quản tối trong 40 phút. 
+
+
+**Mẫu trắng:** thay 1,0 mL mẫu thử bằng 1,0 mL methanol, các bước còn lại tiến hành tương tự.
+
+**Khảo sát bước sóng:**
+
+- Mục đích: xác định bước sóng cực đại hấp thu của rutin sau khi làm phản ứng màu và xác định được bước sóng phù hợp để tiến hành xây dựng đường chuẩn.
+
+- Tiến hành: Quét phổ UV-VIS ở dải bước sóng 300 - 900 nm với các mẫu sau: mẫu trắng (methanol), mẫu rutin trong methanol, mẫu rutin sau khi làm phản ứng màu, mẫu cao Hòe hoa trong methanol, mẫu cao Hòe hoa sau khi làm phản ứng màu.
+
+**Định lượng:** Độ hấp thu (Abs) của dãy 6 nồng độ mẫu chuẩn và mẫu thử sau khi làm phản ứng màu được đo ở bước sóng 510 nm (với rutin theo các tài liệu tham khảo) ở nhiệt độ phòng. Dãy nồng độ mẫu chuẩn được đo 1 lần ở mỗi nồng độ để xây dựng phương trình đường chuẩn, mẫu thử được đo lặp lại 3 lần. Dựa vào phương trình đường chuẩn rutin xác định được hàm lượng tổng flavonoid trong cao Hòe hoa.
+
+Yêu cầu: R2 ?? 0.995.
+
+
+
+
+## II. Dành cho học phần dược liệu II:
+
+### 2.1 Slide bài giảng
 
 Bài 1: [Alkaloid và các dược liệu chứa Alkaloids](../Duoc_lieu/alkaloid.qmd)
 
@@ -38,32 +140,13 @@ Bài 3: [Hợp chất cao phân tử](../Duoc_lieu/Macro.qmd)
 
 Tóm tắt: Bài này đề cập tới hai nhóm chất có khối lượng phân tử lớn trong dược liệu bao gồm các hydrocarbon, các lipid. Với mỗi nhóm chất sẽ tìm hiểu về khái niệm, phân loại, cách thức chiết xuất và phân lập, định tính, định lượng và tác dụng dược lý. Khác biệt chủ yếu với các nhóm hoạt chất tự nhiên khác đó là một số sản phẩm thuộc nhóm này có vai trò làm tá dược phục gia trong lĩnh vực dược phẩm và mỹ phẩm. 
 
-## Bài tập
 
-### Dành cho học phần Dược liệu I
-
-Tiểu luận cá nhân
-
-**Mục tiêu:** Thu thập được thông tin khoa học của một dược liệu tại Việt nam
-
-**Hướng dẫn thực hiện:**
-
-- Chọn một dược liệu có trong dược điển việt nam V.
-- Thực hiện các thông tin theo form yêu cầu gồm tên khoa học, thành phần hóa học, tác dụng dược lý, công dụng và chỉ định.
-
-**Sản phẩm cần nộp**
-
-- Nộp theo form google theo hướng dẫn
-- Mỗi học viên làm một slide duy nhất để báo cáo trong vòng 5-10 phút
-
-### Dành cho học phần dược liệu II:
-
-Tiểu luận cá nhân dành cho dược liệu II
+### 2.2 Tiểu luận cá nhân
 
 **I. Mục tiêu:** Phân tích được tiềm năng phát triển sản phẩm chăm sóc sức khỏe của một dược liệu tại Việt nam
 
 **II. Thời gian hoàn thành:** Trước 12h đêm trước thời hạn quy định
-Mỗi học viên  chọn một loài thực vật (không phải chuyên luận) trong dược điển Việt Nam V. Lớp trưởng gửi danh sách phân chia về hòm thư sonhoang.ump@vnu.edu.vn trước ngày 24/02/2025. 
+Mỗi học viên  chọn một loài thực vật (không phải chuyên luận) trong dược điển Việt Nam V. Lớp trưởng gửi danh sách phân chia về hòm thư sonhoang.ump@vnu.edu.vn 
 Mỗi cá nhân sẽ tìm hiểu các thông tin và phân tích theo hướng dẫn sau. Chú ý: Ngôn ngữ sử dụng có thể là tiếng Việt hoặc tiếng Anh
 
 **III. Sản phẩm cần nộp**
@@ -86,13 +169,12 @@ Sau khi hoàn thiện xong, các file được nộp có tên là mã học viê
 Báo cáo trong các buổi học tinh dầu và các hợp chất có khối lượng phân tử lớn. 
 
 
-## Thực hành dành cho học viên  đại học
+### 3.1 Thực hành 
 
 Chia nhóm: Học viên chia làm 3 nhóm.  Trong một buổi thực tập, mỗi nhóm chọn một bài để thực hiện. Chuẩn bị bài theo hướng dẫn dưới dây.
 
 
-### Bài thực tập định tính alkaloids
-
+#### Bài thực tập định tính alkaloids
 
 **Yêu cầu trước khi tới thực hành:** Hãy lập kế hoạch để định tính alkaloids trong hạt mã tiền theo hướng dẫn sau. 
 
@@ -114,7 +196,7 @@ Các thông tin cần biết trước khi thực tập
 - Liệt kê các dụng cụ, dung môi hóa chất cần thiết. Tiêu chuẩn.
 - Lưu ý gì trong An toàn phòng thí nghiệm
 
-### Bài thực tập định lượng tinh dầu
+#### Bài thực tập định lượng tinh dầu
 
 
 *Yêu cầu trước khi tới thực hành:* Hãy lập kế hoạch để định lượng tinh dầu trong mẫu đương quy theo dược điển Việt Nam V
@@ -136,7 +218,7 @@ Các thông tin cần biết trước khi thực tập
 
 [*Hướng dẫn lắp bộ chiết tinh dầu*](https://youtu.be/_5vCT-mvGok)
 
-### Bài thực tập định lượng lipid
+#### Bài thực tập định lượng lipid
 
 *Yêu cầu trước khi tới thực hành:* Hãy lập kế hoạch để định lượng lipid trong mẫu vừng đen theo dược điển Việt Nam V
 

@@ -3,7 +3,7 @@ title: "Phần 1: Đại cương về chiết xuất"
 author: "TS. Hoàng Lê Sơn"
 toc: true
 bibliography: ../references/BookExtraction.bib
-csl: ../references/natural-product-reports.csl
+csl: ../references/elsevier-harvard.csl
 format: 
   html: 
     code-fold: true

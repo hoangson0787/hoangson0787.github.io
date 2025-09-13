@@ -3,7 +3,7 @@ title: "Chương 6: Một số quy trình chiết xuất"
 author: "TS. Hoàng Lê Sơn"
 toc: true
 bibliography: ../references/BookExtraction.bib
-csl: ../references/natural-product-reports.csl
+csl: ../references/elsevier-harvard.csl
 format: 
   html: 
     code-fold: true
@@ -14,10 +14,33 @@ format:
 ## Tóm tắt 
 
 
-## chiết xuất cao từ địa liền bằng phương pháp chiết shoxlet
+## Chiết xuất cao từ địa liền bằng phương pháp chiết shoxlet
+	Nguyên liệu, hóa chất:
+- Thân rễ sấy khô của cây Địa liền
+- n-hexane
+	Thiết bị, dụng cụ sử dụng:
+- Bể rửa siêu âm
+- Máy cô quay chân không thu hồi dung môi
+- Tủ lạnh
+- Phễu lọc, giấy lọc, bông
+- Cốc có mỏ 1000mL, 500mL, đũa thủy tinh
+	Quy trình:
+1 kg thân rễ khô của cây Địa liền được nghiền thành bột, sau đó chiết xuất với sự hỗ trợ siêu âm bằng bể rửa siêu âm (220W) ở nhiệt độ 50oC với dung môi n-hexane trong 1 giờ (chiết 3 – 4 lần, tỷ lệ rắn/lỏng khoảng 1/8 – 1/10). Dịch chiết được lọc, cô thu hồi dung môi dưới áp suất giảm, thu được dịch màu vàng nâu (khoảng 30 – 40 mL). Để kết tinh qua đêm ở nhiệt độ 2 - 8oC. Gạn dịch, thu tinh thể và rửa bằng n-hexane lạnh. Tinh chế bằng cách kết tinh lại trong 30 – 40 mL n-hexane. Quy trình phân lập, tinh chế được mô tả như Hình 1.
+
+
+Hình 1. Sơ đồ phân lập, tinh chế ethyl p-methoxycinnamate từ thân rễ Địa liền
+
+	Lưu ý: 
+- Do dịch chiết sau kết tinh, dịch rửa tinh thể vẫn còn tinh thể EPMC nên có thể cô giảm thể tích dịch còn khoảng 10 - 15mL rồi để tủ lạnh  thu được thêm tinh thể EPMC  tăng hiệu suất chiết.
+- Rửa bằng n-hexane lạnh nhiều lần tinh thể càng sạch tạp chất, hàm lượng càng cao.
+
+
+
 
 
 ## chiết xuất cao từ địa liền bằng phương pháp siêu âm 
+
+
 
 ## chiết xuất tinh dầu từ địa liền
 

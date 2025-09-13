@@ -12,7 +12,7 @@ lightbox: true
 format: 
   revealjs:
     slide-number: true
-    logo: "../../images/logo_dl_hl.png"
+    logo: "../../images/logo.png"
     footer: "Bộ môn Dược liệu- Dược cổ truyền"
     width: 100%
     height: 100%
@@ -23,7 +23,7 @@ format:
     highlight-style: github-dark
     theme: "../coeos.scss"
 title-slide-attributes: 
-  data-background-image: "../VTM/Images/kanagawa.jpg"
+  data-background-image: "../../images/theme1.jpg"
   data-background-size: 100%
   data-background-position: 0% 0%
 ---

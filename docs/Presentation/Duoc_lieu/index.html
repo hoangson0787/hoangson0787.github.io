@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,13 +71,42 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../scss/styles.css">
 <meta property="og:title" content="Bài giảng dược liệu – Tài liệu dược liệu">
-<meta property="og:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
 <meta property="og:site_name" content="Tài liệu dược liệu">
 <meta name="twitter:title" content="Bài giảng dược liệu – Tài liệu dược liệu">
-<meta name="twitter:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -486,6 +515,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../Presentation/Duoc_lieu/Tanin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Presentation/Duoc_lieu/Terpen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../Presentation/Duoc_lieu/Tinhdau.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Dược liệu</span></a>
   </div>
@@ -575,17 +616,18 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#tài-liệu-tham-khảo-học-phần" id="toc-tài-liệu-tham-khảo-học-phần" class="nav-link active" data-scroll-target="#tài-liệu-tham-khảo-học-phần">Tài liệu tham khảo học phần</a></li>
-  <li><a href="#slide-bài-giảng" id="toc-slide-bài-giảng" class="nav-link" data-scroll-target="#slide-bài-giảng">Slide bài giảng</a></li>
-  <li><a href="#bài-tập" id="toc-bài-tập" class="nav-link" data-scroll-target="#bài-tập">Bài tập</a>
+  <li><a href="#i.-học-phần-dược-liệu-i" id="toc-i.-học-phần-dược-liệu-i" class="nav-link" data-scroll-target="#i.-học-phần-dược-liệu-i">I. Học phần dược liệu I</a>
   <ul class="collapse">
-  <li><a href="#dành-cho-học-phần-dược-liệu-i" id="toc-dành-cho-học-phần-dược-liệu-i" class="nav-link" data-scroll-target="#dành-cho-học-phần-dược-liệu-i">Dành cho học phần Dược liệu I</a></li>
-  <li><a href="#dành-cho-học-phần-dược-liệu-ii" id="toc-dành-cho-học-phần-dược-liệu-ii" class="nav-link" data-scroll-target="#dành-cho-học-phần-dược-liệu-ii">Dành cho học phần dược liệu II:</a></li>
+  <li><a href="#slide-bài-giảng" id="toc-slide-bài-giảng" class="nav-link" data-scroll-target="#slide-bài-giảng">1.1 Slide bài giảng</a></li>
+  <li><a href="#tiểu-luận-cá-nhân" id="toc-tiểu-luận-cá-nhân" class="nav-link" data-scroll-target="#tiểu-luận-cá-nhân">1.2 Tiểu luận cá nhân</a></li>
+  <li><a href="#thực-tập" id="toc-thực-tập" class="nav-link" data-scroll-target="#thực-tập">1.3 Thực tập</a></li>
+  <li><a href="#thực-tập-định-lượng-flavonoid-trong-cao-hòe-hoa" id="toc-thực-tập-định-lượng-flavonoid-trong-cao-hòe-hoa" class="nav-link" data-scroll-target="#thực-tập-định-lượng-flavonoid-trong-cao-hòe-hoa">1.4 Thực tập ĐỊNH LƯỢNG FLAVONOID TRONG CAO HÒE HOA</a></li>
   </ul></li>
-  <li><a href="#thực-hành-dành-cho-học-viên-đại-học" id="toc-thực-hành-dành-cho-học-viên-đại-học" class="nav-link" data-scroll-target="#thực-hành-dành-cho-học-viên-đại-học">Thực hành dành cho học viên đại học</a>
+  <li><a href="#ii.-dành-cho-học-phần-dược-liệu-ii" id="toc-ii.-dành-cho-học-phần-dược-liệu-ii" class="nav-link" data-scroll-target="#ii.-dành-cho-học-phần-dược-liệu-ii">II. Dành cho học phần dược liệu II:</a>
   <ul class="collapse">
-  <li><a href="#bài-thực-tập-định-tính-alkaloids" id="toc-bài-thực-tập-định-tính-alkaloids" class="nav-link" data-scroll-target="#bài-thực-tập-định-tính-alkaloids">Bài thực tập định tính alkaloids</a></li>
-  <li><a href="#bài-thực-tập-định-lượng-tinh-dầu" id="toc-bài-thực-tập-định-lượng-tinh-dầu" class="nav-link" data-scroll-target="#bài-thực-tập-định-lượng-tinh-dầu">Bài thực tập định lượng tinh dầu</a></li>
-  <li><a href="#bài-thực-tập-định-lượng-lipid" id="toc-bài-thực-tập-định-lượng-lipid" class="nav-link" data-scroll-target="#bài-thực-tập-định-lượng-lipid">Bài thực tập định lượng lipid</a></li>
+  <li><a href="#slide-bài-giảng-1" id="toc-slide-bài-giảng-1" class="nav-link" data-scroll-target="#slide-bài-giảng-1">2.1 Slide bài giảng</a></li>
+  <li><a href="#tiểu-luận-cá-nhân-1" id="toc-tiểu-luận-cá-nhân-1" class="nav-link" data-scroll-target="#tiểu-luận-cá-nhân-1">2.2 Tiểu luận cá nhân</a></li>
+  <li><a href="#thực-hành" id="toc-thực-hành" class="nav-link" data-scroll-target="#thực-hành">3.1 Thực hành</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/hoangson0787/hoangson0787/edit/main/Presentation/Duoc_lieu/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/blob/main/Presentation/Duoc_lieu/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -628,45 +670,127 @@ ul.task-list li input[type="checkbox"] {
 <li>Fundamentals of Pharmacognosy and phytotherapy</li>
 <li>https://www.ipni.org (Tra mã dược liệu- tên loài, tên họ)</li>
 <li>https://lotus.naturalproducts.net</li>
-<li>pubchem</li>
+<li>Pubchem</li>
 </ol>
 </section>
-<section id="slide-bài-giảng" class="level2">
-<h2 class="anchored" data-anchor-id="slide-bài-giảng">Slide bài giảng</h2>
-<p><strong>Dược liệu I</strong></p>
+<section id="i.-học-phần-dược-liệu-i" class="level2">
+<h2 class="anchored" data-anchor-id="i.-học-phần-dược-liệu-i">I. Học phần dược liệu I</h2>
+<section id="slide-bài-giảng" class="level3">
+<h3 class="anchored" data-anchor-id="slide-bài-giảng">1.1 Slide bài giảng</h3>
+<p>Bài 1: <a href="../../Presentation/Duoc_lieu/flavonoids.html">Flavonoid và các dược liệu chứa Flavonoid</a></p>
+<p>Bài 2: <a href="../Duoc_lieu/Terpen_Tanin.qmd">Terpen và tanin</a></p>
+</section>
+<section id="tiểu-luận-cá-nhân" class="level3">
+<h3 class="anchored" data-anchor-id="tiểu-luận-cá-nhân">1.2 Tiểu luận cá nhân</h3>
+<ol type="1">
+<li><strong>Mục tiêu:</strong> Thu thập được thông tin khoa học của một dược liệu tại Việt nam</li>
+<li><strong>Hướng dẫn thực hiện:</strong>
 <ul>
-<li><p><a href="../../Presentation/Duoc_lieu/flavonoids.html">Flavonoid và các dược liệu chứa Flavonoid</a></p></li>
-<li><p><a href="../../Presentation/Duoc_lieu/saponin.html">Saponin và các dược liệu chứa Saponin</a></p></li>
+<li>Chọn một dược liệu có trong dược điển việt nam V.</li>
+<li>Thực hiện các thông tin theo form yêu cầu gồm tên khoa học, thành phần hóa học, tác dụng dược lý, công dụng và chỉ định.</li>
+</ul></li>
+<li><strong>Sản phẩm cần nộp</strong></li>
+</ol>
+<ul>
+<li>Nộp theo form google theo hướng dẫn (Vào ngày giảng terpen và tannin)</li>
+<li>Mỗi học viên làm duy nhất 01 slide để báo cáo trong vòng 5-10 phút (Vào buổi cuối cùng)</li>
 </ul>
-<p><strong>Dược liệu II</strong></p>
+</section>
+<section id="thực-tập" class="level3">
+<h3 class="anchored" data-anchor-id="thực-tập">1.3 Thực tập</h3>
+<p><strong>Chia nhóm:</strong> Học viên chia làm 4 nhóm. Trong một buổi thực tập, hai nhóm chọn một bài để thực hiện. Chuẩn bị bài theo hướng dẫn dưới dây.</p>
+<p><strong>Hoạt động của học viên:</strong></p>
+<ul>
+<li><p>Chuẩn bị nội dung thực hành<br>
+</p></li>
+<li><p>Kiểm tra đầu giờ: Gọi sinh viên ngẫu nhiên lên bảng làm theo yêu cầu xung quanh các nội dung sau</p>
+<ul>
+<li><em>Về nhóm chất</em>: Khái niệm, phân loại cấu trúc hóa học, tính chất hóa lý, phương pháp chiết xuất</li>
+<li><em>Về dược liệu</em>: Tên latin dược liệu, bộ phận sử dụng, tiêu chuẩn chất lượng theo dược điển việt nam</li>
+<li><em>Về nội dung thực tập</em>: danh sách hóa chất dung môi sử dụng, danh sách trang thiết bị, sơ đồ thí nghiệm, cơ chế liên quan đến phản ứng hóa học - chiết tách - phản ứng định lượng, kết quả dự kiến, kết luận dự kiến</li>
+<li><em>Về an toàn phòng thí nghiệm</em>: Tìm hiểu về quy định an toàn phòng thí nghiệm</li>
+</ul></li>
+</ul>
+<section id="định-tính-rutin-trong-hoa-hòe" class="level4">
+<h4 class="anchored" data-anchor-id="định-tính-rutin-trong-hoa-hòe">ĐỊNH TÍNH RUTIN TRONG HOA HÒE</h4>
+<div class="callout callout-style-default callout-note callout-titled" title="Tài liệu tham khảo">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tài liệu tham khảo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>[1]. Vũ Đức Lợi và Lê Thị Thu Hường. Giáo trình thực hành: Thực vật, dược liệu, dược học cổ truyền, NXB Đại học Quốc gia Hà Nội, Hà Nội.</p>
+<p>[2]. Bộ Y tế (2024). Dược điển Việt Nam V Tập 2, NXB Y học, Hà Nội.</p>
+</div>
+</div>
+<p>Nụ hoa đã phơi hay sấy nhẹ đến khô của cây Hòe (<em>Sophora japonica</em> L.), họ Đậu (Fabaceae).</p>
+<p>Nội dung thực tập:</p>
+<ol type="1">
+<li><p><em>Chuẩn bị mẫu:</em> Cân 0,5 g bột nụ hoa hòe rồi cho vào một ống nghiệm lớn. Thêm 5 mL (thay bằng 7 mL) ethanol <span class="math inline">\(90^o\)</span>. Đun cách thủy sôi trong vài phút. Lọc nóng. Dịch lọc thu được tiến hành các phản ứng định tính.</p></li>
+<li><p><em>Phản ứng Cianidin:</em> Cho vào ống nghiệm nhỏ 1 mL dịch chiết. Thêm một ít bột magnesi kim loại (khoảng 10mg). Nhỏ từng giọt HCl đậm đặc (3-5 giọt). Để yên 1 vài phút, dung dịch sẽ chuyển từ màu vàng sang màu đỏ.</p></li>
+<li><p><em>Phản ứng với kiềm</em></p>
+<ul>
+<li>Cho vào ống nghiệm nhỏ 1 mL dịch chiết. Thêm vài giọt dung dịch NaOH 10% sẽ thấy kết tủa vàng. Thêm 1 mL nước cất tủa sẽ tan và màu vàng của dung dịch sẽ được tăng thêm.</li>
+<li>Nhỏ một giọt dịch chiết lên giấy lọc. Hơ khô rồi để lên miệng lọ amoniac đặc đã được mở nút sẽ thấy màu vàng của dịch chiết tăng lên.</li>
+</ul></li>
+<li><p><em>Phản ứng với <span class="math inline">\(FeCl_3\)</span>:</em> Cho vào ống nghiệm nhỏ 1 mL dịch chiết. Thêm vài giọt dung dịch FeCl3 5% sẽ xuất hiện tủa xanh đen.</p></li>
+<li><p><em>Sắc ký lớp mỏng:</em> Cô đặc dịch chiết còn lại rồi dùng mao quản chấm lên bản mỏng silicagel (cỡ kính 2,5 x 7,5 cm)</p></li>
+</ol>
+<ul>
+<li>Dung môi khai triển: ethyl acetate – acid formic – nước (80:10:10).</li>
+<li>Thuốc thử hiện màu: Hơi amoniac, dung dịch KOH 5% trong ethanol, dung dịch AlCl3 trong ethanol. Vết rutin sẽ có màu vàng.</li>
+<li>Soi dưới đèn tử ngoại, vết rutin sẽ có huỳnh quang nâu.</li>
+</ul>
+</section>
+</section>
+<section id="thực-tập-định-lượng-flavonoid-trong-cao-hòe-hoa" class="level3">
+<h3 class="anchored" data-anchor-id="thực-tập-định-lượng-flavonoid-trong-cao-hòe-hoa">1.4 Thực tập ĐỊNH LƯỢNG FLAVONOID TRONG CAO HÒE HOA</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Tài liệu tham khảo">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tài liệu tham khảo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>[1]. Amjad M. Shraim et al (2021). Determination of total flavonoid content by aluminum chloride assay: A critical evaluation.</p>
+</div>
+</div>
+<p><strong>Chuẩn bị cao hoa Hòe:</strong> 10g bột hoa Hòe chiết siêu âm với 100mL ethanol 70o trong 30 phút, lặp lại 3 lần. Lọc dịch chiết, sau đó cô quay thu hồi dung môi và cô thành cao đặc.</p>
+<p><strong>Chuẩn bị mẫu chuẩn gốc:</strong> Cân chất chuẩn rutin hòa tan trong methanol để đạt nồng độ 1,0 mg/mL.</p>
+<p><strong>Chuẩn bị dãy nồng độ chuẩn:</strong> Lắc đều, siêu âm để chất chuẩn tan hết hoàn toàn. Từ dung dịch chuẩn gốc, pha loãng bằng methanol thành dãy 6 nồng độ theo cấp số nhân (đơn vị mg/mL) bằng bình định mức 5mL hoặc 10mL, các nồng độ như sau: 1; 0.5; 0.25; 0.125; 0.0625; 0.03125.</p>
+<p><strong>Phản ứng trên chuẩn:</strong> Tại mỗi nồng độ, hút 1,0 mL mẫu chuẩn rutin cho vào bình định mức 10mL. Thêm vào mỗi nồng độ trên 4,0 mL methanol. Sau đó thêm 0,30 mL dung dịch NaNO2 1M. Lắc đều/vortex, để yên. Sau 3 phút, cho thêm vào 0,30 mL dung dịch AlCl3 10%. Lắc đều/vortex, để yên. Sau 3 phút cho tiếp vào 2,0 mL dung dịch NaOH 1M và bổ sung methanol vừa đủ 10mL. Lắc đều, bảo quản tối trong 40 phút.</p>
+<p><strong>Phản ứng trên mẫu thử:</strong> Cân cao chiết Hoè hoa và hòa tan bằng methanol để đạt nồng độ 1 mg/mL. Hút 1,0 mL mẫu cao cho vào bình định mức 10 mL. Thêm vào 4 mL methanol. Sau đó thêm 0,30 mL dung dịch NaNO2 1M. Lắc đều/vortex, để yên. Sau 3 phút, cho thêm vào 0,30 mL dung dịch AlCl3 10%. Lắc đều/vortex, để yên. Sau 3 phút cho tiếp vào 2,0 mL dung dịch NaOH 1M và bổ sung methanol vừa đủ 10mL. Lắc đều, bảo quản tối trong 40 phút.</p>
+<p><strong>Mẫu trắng:</strong> thay 1,0 mL mẫu thử bằng 1,0 mL methanol, các bước còn lại tiến hành tương tự.</p>
+<p><strong>Khảo sát bước sóng:</strong></p>
+<ul>
+<li><p>Mục đích: xác định bước sóng cực đại hấp thu của rutin sau khi làm phản ứng màu và xác định được bước sóng phù hợp để tiến hành xây dựng đường chuẩn.</p></li>
+<li><p>Tiến hành: Quét phổ UV-VIS ở dải bước sóng 300 - 900 nm với các mẫu sau: mẫu trắng (methanol), mẫu rutin trong methanol, mẫu rutin sau khi làm phản ứng màu, mẫu cao Hòe hoa trong methanol, mẫu cao Hòe hoa sau khi làm phản ứng màu.</p></li>
+</ul>
+<p><strong>Định lượng:</strong> Độ hấp thu (Abs) của dãy 6 nồng độ mẫu chuẩn và mẫu thử sau khi làm phản ứng màu được đo ở bước sóng 510 nm (với rutin theo các tài liệu tham khảo) ở nhiệt độ phòng. Dãy nồng độ mẫu chuẩn được đo 1 lần ở mỗi nồng độ để xây dựng phương trình đường chuẩn, mẫu thử được đo lặp lại 3 lần. Dựa vào phương trình đường chuẩn rutin xác định được hàm lượng tổng flavonoid trong cao Hòe hoa.</p>
+<p>Yêu cầu: R2 ?? 0.995.</p>
+</section>
+</section>
+<section id="ii.-dành-cho-học-phần-dược-liệu-ii" class="level2">
+<h2 class="anchored" data-anchor-id="ii.-dành-cho-học-phần-dược-liệu-ii">II. Dành cho học phần dược liệu II:</h2>
+<section id="slide-bài-giảng-1" class="level3">
+<h3 class="anchored" data-anchor-id="slide-bài-giảng-1">2.1 Slide bài giảng</h3>
 <p>Bài 1: <a href="../../Presentation/Duoc_lieu/alkaloid.html">Alkaloid và các dược liệu chứa Alkaloids</a></p>
 <p>Bài 2: <a href="../../Presentation/Duoc_lieu/Tinhdau.html">Tinh dầu và các dược liệu chứa Tinh dầu</a></p>
 <p>Tóm tắt: Bài này đề cập tới khái niệm, cách phân loại, tác dụng dược lý của dược liệu chứa tinh dầu. Bên cạnh đó các phương pháp chiết xuất, định tính, định lượng các tinh dầu có trong dược liệu.</p>
 <p>Bài 3: <a href="../../Presentation/Duoc_lieu/Macro.html">Hợp chất cao phân tử</a></p>
 <p>Tóm tắt: Bài này đề cập tới hai nhóm chất có khối lượng phân tử lớn trong dược liệu bao gồm các hydrocarbon, các lipid. Với mỗi nhóm chất sẽ tìm hiểu về khái niệm, phân loại, cách thức chiết xuất và phân lập, định tính, định lượng và tác dụng dược lý. Khác biệt chủ yếu với các nhóm hoạt chất tự nhiên khác đó là một số sản phẩm thuộc nhóm này có vai trò làm tá dược phục gia trong lĩnh vực dược phẩm và mỹ phẩm.</p>
 </section>
-<section id="bài-tập" class="level2">
-<h2 class="anchored" data-anchor-id="bài-tập">Bài tập</h2>
-<section id="dành-cho-học-phần-dược-liệu-i" class="level3">
-<h3 class="anchored" data-anchor-id="dành-cho-học-phần-dược-liệu-i">Dành cho học phần Dược liệu I</h3>
-<p>Tiểu luận cá nhân</p>
-<p><strong>Mục tiêu:</strong> Thu thập được thông tin khoa học của một dược liệu tại Việt nam</p>
-<p><strong>Hướng dẫn thực hiện:</strong></p>
-<ul>
-<li>Chọn một dược liệu có trong dược điển việt nam V.</li>
-<li>Thực hiện các thông tin theo form yêu cầu gồm tên khoa học, thành phần hóa học, tác dụng dược lý, công dụng và chỉ định.</li>
-</ul>
-<p><strong>Sản phẩm cần nộp</strong></p>
-<ul>
-<li>Nộp theo form google theo hướng dẫn</li>
-<li>Mỗi học viên làm một slide duy nhất để báo cáo trong vòng 5-10 phút</li>
-</ul>
-</section>
-<section id="dành-cho-học-phần-dược-liệu-ii" class="level3">
-<h3 class="anchored" data-anchor-id="dành-cho-học-phần-dược-liệu-ii">Dành cho học phần dược liệu II:</h3>
-<p>Tiểu luận cá nhân dành cho dược liệu II</p>
+<section id="tiểu-luận-cá-nhân-1" class="level3">
+<h3 class="anchored" data-anchor-id="tiểu-luận-cá-nhân-1">2.2 Tiểu luận cá nhân</h3>
 <p><strong>I. Mục tiêu:</strong> Phân tích được tiềm năng phát triển sản phẩm chăm sóc sức khỏe của một dược liệu tại Việt nam</p>
-<p><strong>II. Thời gian hoàn thành:</strong> Trước 12h đêm trước thời hạn quy định Mỗi học viên chọn một loài thực vật (không phải chuyên luận) trong dược điển Việt Nam V. Lớp trưởng gửi danh sách phân chia về hòm thư sonhoang.ump@vnu.edu.vn trước ngày 24/02/2025. Mỗi cá nhân sẽ tìm hiểu các thông tin và phân tích theo hướng dẫn sau. Chú ý: Ngôn ngữ sử dụng có thể là tiếng Việt hoặc tiếng Anh</p>
+<p><strong>II. Thời gian hoàn thành:</strong> Trước 12h đêm trước thời hạn quy định Mỗi học viên chọn một loài thực vật (không phải chuyên luận) trong dược điển Việt Nam V. Lớp trưởng gửi danh sách phân chia về hòm thư sonhoang.ump@vnu.edu.vn Mỗi cá nhân sẽ tìm hiểu các thông tin và phân tích theo hướng dẫn sau. Chú ý: Ngôn ngữ sử dụng có thể là tiếng Việt hoặc tiếng Anh</p>
 <p><strong>III. Sản phẩm cần nộp</strong></p>
 <ol type="1">
 <li>01 file excel chứa thông tin liên quan theo hướng dẫn sau:</li>
@@ -689,12 +813,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Sau khi hoàn thiện xong, các file được nộp có tên là mã học viên - tên latin của loài sẽ được nộp cho lớp trưởng. Ví dụ tên: 00000236 – Panax notoginseng.docx Lớp trưởng sẽ tập hợp và gửi vào hòm thư sonhoang.ump@vnu.edu.vn trước thời gian quy định.</p>
 <p>Báo cáo trong các buổi học tinh dầu và các hợp chất có khối lượng phân tử lớn.</p>
 </section>
-</section>
-<section id="thực-hành-dành-cho-học-viên-đại-học" class="level2">
-<h2 class="anchored" data-anchor-id="thực-hành-dành-cho-học-viên-đại-học">Thực hành dành cho học viên đại học</h2>
+<section id="thực-hành" class="level3">
+<h3 class="anchored" data-anchor-id="thực-hành">3.1 Thực hành</h3>
 <p>Chia nhóm: Học viên chia làm 3 nhóm. Trong một buổi thực tập, mỗi nhóm chọn một bài để thực hiện. Chuẩn bị bài theo hướng dẫn dưới dây.</p>
-<section id="bài-thực-tập-định-tính-alkaloids" class="level3">
-<h3 class="anchored" data-anchor-id="bài-thực-tập-định-tính-alkaloids">Bài thực tập định tính alkaloids</h3>
+<section id="bài-thực-tập-định-tính-alkaloids" class="level4">
+<h4 class="anchored" data-anchor-id="bài-thực-tập-định-tính-alkaloids">Bài thực tập định tính alkaloids</h4>
 <p><strong>Yêu cầu trước khi tới thực hành:</strong> Hãy lập kế hoạch để định tính alkaloids trong hạt mã tiền theo hướng dẫn sau.</p>
 <p>Cân 50 mg bột hạt Mã tiền, cho vāo bình nón dung tích 50 ml. Thêm 15 ml dung dịch acid sulfuric 1 N. Ðun đến sôi. Ðể nguội. Lọc dịch lọc vāo bình gạn dung tích 100 ml. Kiềm hoá dịch lọc bằng dung dịch amoniac 6 N (khoảng 8 ml) đến phản ứng kiềm (thử bằng giấy quỳ hoặc chỉ thị màu vạn năng). Chiết alcaloid base bằng ether hoặc cloroform (chiết 3 lần, mỗi lần 5 ml). Gộp các dịch chiết ether (hoặc cloroform). Định tính alcaloid bằng thuốc thử chung.</p>
 <p>Ðịnh tính alcaloid bằng thuốc thử chung</p>
@@ -713,8 +836,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Lưu ý gì trong An toàn phòng thí nghiệm</li>
 </ul>
 </section>
-<section id="bài-thực-tập-định-lượng-tinh-dầu" class="level3">
-<h3 class="anchored" data-anchor-id="bài-thực-tập-định-lượng-tinh-dầu">Bài thực tập định lượng tinh dầu</h3>
+<section id="bài-thực-tập-định-lượng-tinh-dầu" class="level4">
+<h4 class="anchored" data-anchor-id="bài-thực-tập-định-lượng-tinh-dầu">Bài thực tập định lượng tinh dầu</h4>
 <p><em>Yêu cầu trước khi tới thực hành:</em> Hãy lập kế hoạch để định lượng tinh dầu trong mẫu đương quy theo dược điển Việt Nam V</p>
 <p><em>Quy trình theo dược điển Việt Nam V như sau</em></p>
 <p>A. Định lượng tinh dầu (Phụ lục 12.7).</p>
@@ -729,8 +852,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><a href="https://youtu.be/_5vCT-mvGok"><em>Hướng dẫn lắp bộ chiết tinh dầu</em></a></p>
 </section>
-<section id="bài-thực-tập-định-lượng-lipid" class="level3">
-<h3 class="anchored" data-anchor-id="bài-thực-tập-định-lượng-lipid">Bài thực tập định lượng lipid</h3>
+<section id="bài-thực-tập-định-lượng-lipid" class="level4">
+<h4 class="anchored" data-anchor-id="bài-thực-tập-định-lượng-lipid">Bài thực tập định lượng lipid</h4>
 <p><em>Yêu cầu trước khi tới thực hành:</em> Hãy lập kế hoạch để định lượng lipid trong mẫu vừng đen theo dược điển Việt Nam V</p>
 <p><em>Quy trình theo dược điển Việt Nam V như sau</em></p>
 <p>Hàm lượng chất béo</p>
@@ -746,6 +869,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://youtu.be/_5vCT-mvGok"><em>Hướng dẫn lắp bộ chiết Sohxlet</em></a></p>
 
 
+</section>
 </section>
 </section>
 
@@ -1000,6 +1124,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1314,10 +1445,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="hoangson0787/hoangson0787.github.io" data-repo-id="R_kgDONbMRNA" data-category="General" data-category-id="DIC_kwDONbMRNM4ClkiJ" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+<script src="https://giscus.app/client.js" data-repo="duoclieu/duoclieu.github.io" data-repo-id="R_kgDONkJDTw" data-category="General" data-category-id="DIC_kwDONkJDT84Clny1" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_high_contrast" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+<input type="hidden" id="giscus-base-theme" value="light_high_contrast">
+<input type="hidden" id="giscus-alt-theme" value="dark_dimmed">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../../Presentation/Chiet_xuat/slide-template.html" class="pagination-link" aria-label="Slide Template">
@@ -1358,4 +1489,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

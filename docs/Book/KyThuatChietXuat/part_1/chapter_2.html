@@ -63,7 +63,7 @@ div.csl-indent {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,6 +91,7 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
   <script>document.addEventListener("DOMContentLoaded", function () {
@@ -136,6 +137,7 @@ window.Quarto = {
 };
 </script>
 
+<link rel="stylesheet" href="../../../scss/styles.css">
 <meta property="og:title" content="Chương 2: Phương pháp chiết xuất thường quy – Tài liệu dược liệu">
 <meta property="og:description" content="Cuốn sách này dành cho sinh viên các chuyên ngành dược học, hóa dược và liên quan tìm hiểu về quá trình chiết xuất các hợp chất từ tự nhiên.">
 <meta property="og:site_name" content="Tài liệu dược liệu">
@@ -549,6 +551,18 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/Tanin.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Presentation/Duoc_lieu/Terpen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dược liệu</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../../Presentation/Duoc_lieu/Tinhdau.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Dược liệu</span></a>
   </div>
@@ -659,7 +673,6 @@ window.Quarto = {
   <li><a href="#giới-hạn-của-các-phương-pháp-thường-quy" id="toc-giới-hạn-của-các-phương-pháp-thường-quy" class="nav-link" data-scroll-target="#giới-hạn-của-các-phương-pháp-thường-quy">2.4 Giới hạn của các phương pháp thường quy</a></li>
   <li><a href="#tổng-kết" id="toc-tổng-kết" class="nav-link" data-scroll-target="#tổng-kết">2.5 Tổng kết</a></li>
   <li><a href="#câu-hỏi-lượng-giá" id="toc-câu-hỏi-lượng-giá" class="nav-link" data-scroll-target="#câu-hỏi-lượng-giá">2.6 Câu hỏi lượng giá</a></li>
-  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/hoangson0787/hoangson0787/edit/main/Book/KyThuatChietXuat/part_1/chapter_2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/blob/main/Book/KyThuatChietXuat/part_1/chapter_2.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/hoangson0787/hoangson0787/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="chapter_2.docx"><i class="bi bi-file-word"></i>MS Word</a></li><li><a href="chapter_2.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li></ul></div></nav>
     </div>
@@ -716,11 +729,11 @@ Figure&nbsp;1: Franz Ritter von Soxhlet (1848 – 1926) là người đã phát 
 <h2 class="anchored" data-anchor-id="chiết-soxhlet-và-một-số-thiết-bị-được-cải-tiến">2.1 Chiết Soxhlet và một số thiết bị được cải tiến</h2>
 <section id="khái-quát-về-chiết-soxhlet" class="level3">
 <h3 class="anchored" data-anchor-id="khái-quát-về-chiết-soxhlet">2.1.1. Khái quát về chiết Soxhlet</h3>
-<p>Chiết xuất bằng Soxhlet là một kỹ thuật thường quy được sử dụng phổ biến nhất để chiết xuất các hợp chất từ thực vật. Đây là quá trình chiết lỏng-rắn. Quy trình này dựa trên sự qua trình trao đổi các nhóm chất mục tiêu từ mẫu chất rắn sang pha lỏng với dung môi lựa chọn phù hợp. Quá trình này yêu cầu dung môi (pha lỏng) tiếp xúc nhiều nhất với dược liệu (pha rắn).<span class="citation" data-cites="castro_bacterial_2012"><sup><a href="#ref-castro_bacterial_2012" role="doc-biblioref">1</a></sup></span> Ban đầu, hệ thống chiết bằng Soxhlet được sử dụng để chiết xuất các lipid nhưng ngày nay được sử dụng với hầu hết các nhóm chất trong thực vật và từ các bộ phận khác nhau của cây cỏ.<span class="citation" data-cites="yang_selective_2013"><sup><a href="#ref-yang_selective_2013" role="doc-biblioref">2</a></sup></span> Một số cái tiến của thiết bị này được phát triển nhưng nhìn chung mô hình chung vẫn được giữa nguyên. Hiệu quả của phương pháp chiết bằng Soxhlet phụ thuộc vào khả năng hòa tan của hoạt chất đích trong dung môi sử dụng với kỳ vọng các tạp chất sẽ không hòa tan.<span class="citation" data-cites="punin_crespo_comparison_2006"><sup><a href="#ref-punin_crespo_comparison_2006" role="doc-biblioref">3</a></sup></span></p>
+<p>Chiết xuất bằng Soxhlet là một kỹ thuật thường quy được sử dụng phổ biến nhất để chiết xuất các hợp chất từ thực vật. Đây là quá trình chiết lỏng-rắn. Quy trình này dựa trên sự qua trình trao đổi các nhóm chất mục tiêu từ mẫu chất rắn sang pha lỏng với dung môi lựa chọn phù hợp. Quá trình này yêu cầu dung môi (pha lỏng) tiếp xúc nhiều nhất với dược liệu (pha rắn). <span class="citation" data-cites="castro_bacterial_2012">(<a href="#ref-castro_bacterial_2012" role="doc-biblioref">Castro et al., 2012</a>)</span> Ban đầu, hệ thống chiết bằng Soxhlet được sử dụng để chiết xuất các lipid nhưng ngày nay được sử dụng với hầu hết các nhóm chất trong thực vật và từ các bộ phận khác nhau của cây cỏ. <span class="citation" data-cites="yang_selective_2013">(<a href="#ref-yang_selective_2013" role="doc-biblioref">Yang et al., 2013</a>)</span> Một số cái tiến của thiết bị này được phát triển nhưng nhìn chung mô hình chung vẫn được giữa nguyên. Hiệu quả của phương pháp chiết bằng Soxhlet phụ thuộc vào khả năng hòa tan của hoạt chất đích trong dung môi sử dụng với kỳ vọng các tạp chất sẽ không hòa tan. <span class="citation" data-cites="punin_crespo_comparison_2006">(<a href="#ref-punin_crespo_comparison_2006" role="doc-biblioref">Punín Crespo and Lage Yusty, 2006</a>)</span></p>
 <p><strong>Mô tả thiết bị và quá trình chiết:</strong></p>
 <p><em>Thuật ngữ tiếng Anh:</em> Soxhlet Extraction (<a href="#fig-sohxlet" class="quarto-xref">Figure&nbsp;2</a>)</p>
-<p><em>Lịch sử:</em> Soxhlet là thiết bị do nhà hóa thực vật và phát minh người Đức phát minh ra vào năm 1879 (<a href="#fig-Franz" class="quarto-xref">Figure&nbsp;1</a>).<span class="citation" data-cites="jensen_origin_2007"><sup><a href="#ref-jensen_origin_2007" role="doc-biblioref">4</a></sup></span>. Thuật ngữ nhầm lẫn có thể nhầm lẫn là <em>Soxtec extraction</em>. Đây là thiết bị cải tiến từ Soxhlet được phát triển khoảng thập niên 1970 sau đó thương mại hóa vào năm 1982. Soxtec là một quy trình hai bước, bao gồm bước đun sôi và bước rửa, giúp giảm đáng kể tổng thời gian chiết xuất. (<a href="#fig-soxtec" class="quarto-xref">Figure&nbsp;3</a>) Thiết bị đã được sử dụng trong một số ứng dụng để chiết xuất các chất organochlorine từ các mẫu rắn.</p>
-<p>Hệ thống chiết xuất Soxhlet gồm một hệ thống đỡ, một bình chưng cất, xi phông hình chữ U ngược (tiếng Hy Lạp viết là syphon ) và sinh hàn. (<a href="#fig-sohxlet" class="quarto-xref">Figure&nbsp;2</a>) Hoạt động của thiết bị khá đơn giản, một lượng mẫu được gói vào trong giấy lọc sau đó đặt ở bình chiết trong khi đó dung môi được đổ vào bình hứng. Quá trình gia nhiệt bắt đầu, dung môi sẽ bốc hơi khi đạt nhiệt độ tại bình hứng sẽ ngưng tụ tại bình chiết do phía trên có sinh hàn. Các hoạt chất trong mẫu sẽ hòa tan vào dung môi tại bình chiết và khi dung môi tại bình chiết đầy sẽ rút xuống bình hứng thông qua syphon. Quá trình dung môi từ bình hứng bốc hơi và ngưng tụ tại bình chiết diễn ra liên tục. Hệ quả là nồng độ của hoạt chất trong bình chiết tại thời điểm ban đầu sẽ cao hơn nồng độ hoạt chất tại thời điểm sau và ngược lại khi xem xét nồng độ của hoạt chất trong bình hứng. Quá trình chiết xuất sẽ dừng lại khi các chất mục tiêu đã chiết kiệt khỏi mẫu. Dung dịch mẫu cuối cùng không cần lọc sau khi quá trình chiết xuất kết thúc.<span class="citation" data-cites="bimakr_comparison_2011 arthur_soxhlet_nodate"><sup><a href="#ref-bimakr_comparison_2011" role="doc-biblioref">5</a>,<a href="#ref-arthur_soxhlet_nodate" role="doc-biblioref">6</a></sup></span></p>
+<p><em>Lịch sử:</em> Soxhlet là thiết bị do nhà hóa thực vật và phát minh người Đức phát minh ra vào năm 1879 (<a href="#fig-Franz" class="quarto-xref">Figure&nbsp;1</a>). <span class="citation" data-cites="jensen_origin_2007">(<a href="#ref-jensen_origin_2007" role="doc-biblioref">Jensen, 2007</a>)</span>. Thuật ngữ nhầm lẫn có thể nhầm lẫn là <em>Soxtec extraction</em>. Đây là thiết bị cải tiến từ Soxhlet được phát triển khoảng thập niên 1970 sau đó thương mại hóa vào năm 1982. Soxtec là một quy trình hai bước, bao gồm bước đun sôi và bước rửa, giúp giảm đáng kể tổng thời gian chiết xuất. (<a href="#fig-soxtec" class="quarto-xref">Figure&nbsp;3</a>) Thiết bị đã được sử dụng trong một số ứng dụng để chiết xuất các chất organochlorine từ các mẫu rắn.</p>
+<p>Hệ thống chiết xuất Soxhlet gồm một hệ thống đỡ, một bình chưng cất, xi phông hình chữ U ngược (tiếng Hy Lạp viết là syphon ) và sinh hàn. (<a href="#fig-sohxlet" class="quarto-xref">Figure&nbsp;2</a>) Hoạt động của thiết bị khá đơn giản, một lượng mẫu được gói vào trong giấy lọc sau đó đặt ở bình chiết trong khi đó dung môi được đổ vào bình hứng. Quá trình gia nhiệt bắt đầu, dung môi sẽ bốc hơi khi đạt nhiệt độ tại bình hứng sẽ ngưng tụ tại bình chiết do phía trên có sinh hàn. Các hoạt chất trong mẫu sẽ hòa tan vào dung môi tại bình chiết và khi dung môi tại bình chiết đầy sẽ rút xuống bình hứng thông qua syphon. Quá trình dung môi từ bình hứng bốc hơi và ngưng tụ tại bình chiết diễn ra liên tục. Hệ quả là nồng độ của hoạt chất trong bình chiết tại thời điểm ban đầu sẽ cao hơn nồng độ hoạt chất tại thời điểm sau và ngược lại khi xem xét nồng độ của hoạt chất trong bình hứng. Quá trình chiết xuất sẽ dừng lại khi các chất mục tiêu đã chiết kiệt khỏi mẫu. Dung dịch mẫu cuối cùng không cần lọc sau khi quá trình chiết xuất kết thúc. <span class="citation" data-cites="bimakr_comparison_2011 arthur_soxhlet_nodate">(<a href="#ref-arthur_soxhlet_nodate" role="doc-biblioref">Arthur et al., n.d.</a>; <a href="#ref-bimakr_comparison_2011" role="doc-biblioref">Bimakr et al., 2011</a>)</span></p>
 <div id="fig-sohxlet" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sohxlet-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -742,9 +755,9 @@ Figure&nbsp;3: Hình ảnh của thiết bị Soxtec của hãng PT Haes Brothre
 </figure>
 </div>
 <p><strong>Ưu điểm và nhược điểm của phương pháp:</strong></p>
-<p>Phương pháp chiết Soxhlet vận hành đơn giản dẫn tới cần ít thời gian đào tạo nhân công hơn so với các phương pháp khác. Phổ ứng dụng của phương pháp rộng do phù hợp với nhiều nhóm hợp chất tự nhiên. Nếu so với phương pháp chiết ngâm, tổng lượng dung môi sử dụng ít hơn trong một mẻ chiết xuất nguyên nhân là thiết bị hồi lưu dung môi. Thêm nữa, quá trình chiết xuất cũng đồng thời quá trình lọc giúp rút ngắn được thời gian sản xuất nếu so với các phương pháp chiết khác như phương pháp ngâm. Mặc dù vậy, quá trình chiết bắt buộc phải có nhiệt để bốc hơi dung môi dẫn tới phương pháp này chỉ phù hợp với các hoạt chất bền với nhiệt. Dung môi sử dụng đòi hỏi tinh khiết cao dẫn tới chi phí lớn.<span class="citation" data-cites="ma_soxhlet-assisted_2015"><sup><a href="#ref-ma_soxhlet-assisted_2015" role="doc-biblioref">7</a></sup></span> Dĩ nhiên, phương pháp này cần gia nhiệt trong quá trình chiết xuất vì vậy tiềm ẩn nguy cơ cháy nổ, kém thân thiện với môi trường nếu so với phương pháp siêu tới hạn.<span class="citation" data-cites="buss_natural_2009 punin_crespo_comparison_2005"><sup><a href="#ref-buss_natural_2009" role="doc-biblioref">8</a>,<a href="#ref-punin_crespo_comparison_2005" role="doc-biblioref">9</a></sup></span> Thời gian chiết xuất dài nếu so với một số phương pháp hiện đại hơn như chiết có sự trợ giúp sóng siêu âm hay chiết xuất có sử dụng áp suất<span class="citation" data-cites="nn_review_2015"><sup><a href="#ref-nn_review_2015" role="doc-biblioref">10</a></sup></span> dẫn tới phương pháp này không phù hợp để nâng cấp tới quy mô công nghiệp.</p>
+<p>Phương pháp chiết Soxhlet vận hành đơn giản dẫn tới cần ít thời gian đào tạo nhân công hơn so với các phương pháp khác. Phổ ứng dụng của phương pháp rộng do phù hợp với nhiều nhóm hợp chất tự nhiên. Nếu so với phương pháp chiết ngâm, tổng lượng dung môi sử dụng ít hơn trong một mẻ chiết xuất nguyên nhân là thiết bị hồi lưu dung môi. Thêm nữa, quá trình chiết xuất cũng đồng thời quá trình lọc giúp rút ngắn được thời gian sản xuất nếu so với các phương pháp chiết khác như phương pháp ngâm. Mặc dù vậy, quá trình chiết bắt buộc phải có nhiệt để bốc hơi dung môi dẫn tới phương pháp này chỉ phù hợp với các hoạt chất bền với nhiệt. Dung môi sử dụng đòi hỏi tinh khiết cao dẫn tới chi phí lớn. <span class="citation" data-cites="ma_soxhlet-assisted_2015">(<a href="#ref-ma_soxhlet-assisted_2015" role="doc-biblioref">Ma et al., 2015</a>)</span> Dĩ nhiên, phương pháp này cần gia nhiệt trong quá trình chiết xuất vì vậy tiềm ẩn nguy cơ cháy nổ, kém thân thiện với môi trường nếu so với phương pháp siêu tới hạn. <span class="citation" data-cites="buss_natural_2009 punin_crespo_comparison_2005">(<a href="#ref-buss_natural_2009" role="doc-biblioref">Buss and Butler, 2009</a>; <a href="#ref-punin_crespo_comparison_2005" role="doc-biblioref">Punín Crespo and Lage Yusty, 2005</a>)</span> Thời gian chiết xuất dài nếu so với một số phương pháp hiện đại hơn như chiết có sự trợ giúp sóng siêu âm hay chiết xuất có sử dụng áp suất <span class="citation" data-cites="nn_review_2015">(<a href="#ref-nn_review_2015" role="doc-biblioref">NN, 2015</a>)</span> dẫn tới phương pháp này không phù hợp để nâng cấp tới quy mô công nghiệp.</p>
 <p><strong>Một số cải tiến trong hệ thống chiết Soxhlet:</strong></p>
-<p>Do hạn chế nhất định, một số cải tiến đã được đề xuất hướng tới cải thiện hiệu quả của quá trình chiết xuất.<span class="citation" data-cites="subramanian_double_2016"><sup><a href="#ref-subramanian_double_2016" role="doc-biblioref">11</a></sup></span> Subramanian và cộng sự đã phát triển một hệ thống mới làm giảm thời gian chiết xuất piperine piperine từ hạt của <em>Piper nigrum</em> (hạt tiêu) xuống so với thiết bị chiết Soxhlet truyền thống khi thêm nhánh dẫn dung môi bốc hơi từ bình hứng tới bình chiết. (<a href="#fig-sohxletSub" class="quarto-xref">Figure&nbsp;4</a>) Shuangqin Ma và cộng sự năm 2015 cũng đã đề xuất kỹ thuật chiết Soxhlet mới trong đó thay vì mẫu được gói trong giấy lọc sẽ được hấp thụ trên bề mặt Silica-gel. Kết quả là có hiệu quả trong chiết xuất flavonoid từ phấn hoa loài <em>Brassica campestris</em> (cây cải dầu). (<a href="#fig-sohxletShu" class="quarto-xref">Figure&nbsp;5</a>)<span class="citation" data-cites="ma_soxhlet-assisted_2015"><sup><a href="#ref-ma_soxhlet-assisted_2015" role="doc-biblioref">7</a></sup></span></p>
+<p>Do hạn chế nhất định, một số cải tiến đã được đề xuất hướng tới cải thiện hiệu quả của quá trình chiết xuất. <span class="citation" data-cites="subramanian_double_2016">(<a href="#ref-subramanian_double_2016" role="doc-biblioref">Subramanian et al., 2016</a>)</span> Subramanian và cộng sự đã phát triển một hệ thống mới làm giảm thời gian chiết xuất piperine piperine từ hạt của <em>Piper nigrum</em> (hạt tiêu) xuống so với thiết bị chiết Soxhlet truyền thống khi thêm nhánh dẫn dung môi bốc hơi từ bình hứng tới bình chiết. (<a href="#fig-sohxletSub" class="quarto-xref">Figure&nbsp;4</a>) Shuangqin Ma và cộng sự năm 2015 cũng đã đề xuất kỹ thuật chiết Soxhlet mới trong đó thay vì mẫu được gói trong giấy lọc sẽ được hấp thụ trên bề mặt Silica-gel. Kết quả là có hiệu quả trong chiết xuất flavonoid từ phấn hoa loài <em>Brassica campestris</em> (cây cải dầu). (<a href="#fig-sohxletShu" class="quarto-xref">Figure&nbsp;5</a>) <span class="citation" data-cites="ma_soxhlet-assisted_2015">(<a href="#ref-ma_soxhlet-assisted_2015" role="doc-biblioref">Ma et al., 2015</a>)</span></p>
 <div id="fig-sohxletSub" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-sohxletSub-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -769,7 +782,7 @@ Figure&nbsp;5: Shuangqin Ma và cộng sự đã phát triển phương pháp ch
 <section id="chiết-soxhlet-áp-suất-cao" class="level3">
 <h3 class="anchored" data-anchor-id="chiết-soxhlet-áp-suất-cao">2.1.2 Chiết Soxhlet áp suất cao</h3>
 <p><em>Thuật ngữ tiếng Anh:</em> High-pressure Soxhlet extraction</p>
-<p>Chiết bằng chất lỏng siêu tới hạn kết hợp với chiết Soxhlet được cung cấp trên thị trường trong phòng thí nghiệm hoặc công nghiệp được thiết kế trong đó bộ chiết xuất lắp đặt trong bình thép không gỉ. (<a href="#fig-HighpressureSoxhletExtractor" class="quarto-xref">Figure&nbsp;6</a>) Mặc dù kết hợp với bộ chiết siêu tới hạn nhưng điều kiện đạt được sẽ không thu được dung môi siêu tới hạn. Các dung môi hoặc chất khí sử dụng sẽ có đặc điểm nhiệt độ sôi thấp ở áp suất và nhiệt độ bình thường, nhưng khi áp suất và nhiệt độ tăng cao sẽ ở thể lỏng (1000-1500 psi). Với thiết bị này, thơi gian và lượng dung môi sử dụng có thể giảm đi khoảng một nửa với phương pháp Soxhlet thuông thường. Thiết bị này này ban đầu được phát triển hướng tới chiết xuất một hoạt chất trừ sâu như organochlorines và polychlorinated biphenyls nhưng sau này mở rộng phổ ứng dụng trên các mẫu có nguồn gốc tự nhiên như cà rốt, khoai tây và dâu ô liu. Dung môi sử dụng phổ biến nhất là Carbon dioxide với nhiệt độ chiết xuất tại <span class="math inline">0^oC</span>. Nhược điểm chính của phương pháp này là quá trình vận hành phức tạp cộng thêm độ bền của thiết bị cần phải nghĩ tới do hoạt động ở áp suất cao.<span class="citation" data-cites="luque_de_castro_soxhlet_2010 bernal_use_1992"><sup><a href="#ref-luque_de_castro_soxhlet_2010" role="doc-biblioref">12</a>,<a href="#ref-bernal_use_1992" role="doc-biblioref">13</a></sup></span></p>
+<p>Chiết bằng chất lỏng siêu tới hạn kết hợp với chiết Soxhlet được cung cấp trên thị trường trong phòng thí nghiệm hoặc công nghiệp được thiết kế trong đó bộ chiết xuất lắp đặt trong bình thép không gỉ. (<a href="#fig-HighpressureSoxhletExtractor" class="quarto-xref">Figure&nbsp;6</a>) Mặc dù kết hợp với bộ chiết siêu tới hạn nhưng điều kiện đạt được sẽ không thu được dung môi siêu tới hạn. Các dung môi hoặc chất khí sử dụng sẽ có đặc điểm nhiệt độ sôi thấp ở áp suất và nhiệt độ bình thường, nhưng khi áp suất và nhiệt độ tăng cao sẽ ở thể lỏng (1000-1500 psi). Với thiết bị này, thơi gian và lượng dung môi sử dụng có thể giảm đi khoảng một nửa với phương pháp Soxhlet thuông thường. Thiết bị này này ban đầu được phát triển hướng tới chiết xuất một hoạt chất trừ sâu như organochlorines và polychlorinated biphenyls nhưng sau này mở rộng phổ ứng dụng trên các mẫu có nguồn gốc tự nhiên như cà rốt, khoai tây và dâu ô liu. Dung môi sử dụng phổ biến nhất là Carbon dioxide với nhiệt độ chiết xuất tại <span class="math inline">0^oC</span>. Nhược điểm chính của phương pháp này là quá trình vận hành phức tạp cộng thêm độ bền của thiết bị cần phải nghĩ tới do hoạt động ở áp suất cao. <span class="citation" data-cites="luque_de_castro_soxhlet_2010 bernal_use_1992">(<a href="#ref-bernal_use_1992" role="doc-biblioref">Bernal et al., 1992</a>; <a href="#ref-luque_de_castro_soxhlet_2010" role="doc-biblioref">Luque de Castro and Priego-Capote, 2010</a>)</span></p>
 <div id="fig-HighpressureSoxhletExtractor" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-HighpressureSoxhletExtractor-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -784,7 +797,7 @@ Figure&nbsp;6: Hệ thống chiết xuất Soxhlet áp suất cao của Walter G
 <section id="chiết-soxhlet-với-trợ-giúp-bởi-siêu-âm" class="level3">
 <h3 class="anchored" data-anchor-id="chiết-soxhlet-với-trợ-giúp-bởi-siêu-âm">2.1.3 Chiết Soxhlet với trợ giúp bởi siêu âm</h3>
 <p><em>Thuật ngữ tiếng Anh</em>: Ultrasound-assisted Soxhlet extraction</p>
-<p>Chiết Soxhlet với trợ giúp bởi siêu âm là hệ thống ban đầu được phát triển để chiết chất béo từ hạt có dầu như hạt hướng dương hay hạt đậu tương. (<a href="#fig-UltraSoxhletExtraction" class="quarto-xref">Figure&nbsp;7</a>) Hệ thống này có sử dụng thiết bị chết Soxhlet truyền thống nhưng bộ phận chiết được đă trong bể điều nhiệt với đầu dò siều âm. Sự khác biệt giữa thiết bị này với thiết bị cổ điển là không đáng kể ngoại trừ siêu âm giúp rút ngắn đáng kể chu kỳ chiết. Sóng siêu âm làm tăng tốc độ giải phóng hoạt chất ra khỏi màng tế bào. Hệ thống này phù hợp với các nhóm hoạt chất không bền dưới tác động của oxy.<span class="citation" data-cites="sporring_comprehensive_2005"><sup><a href="#ref-sporring_comprehensive_2005" role="doc-biblioref">14</a></sup></span></p>
+<p>Chiết Soxhlet với trợ giúp bởi siêu âm là hệ thống ban đầu được phát triển để chiết chất béo từ hạt có dầu như hạt hướng dương hay hạt đậu tương. (<a href="#fig-UltraSoxhletExtraction" class="quarto-xref">Figure&nbsp;7</a>) Hệ thống này có sử dụng thiết bị chết Soxhlet truyền thống nhưng bộ phận chiết được đă trong bể điều nhiệt với đầu dò siều âm. Sự khác biệt giữa thiết bị này với thiết bị cổ điển là không đáng kể ngoại trừ siêu âm giúp rút ngắn đáng kể chu kỳ chiết. Sóng siêu âm làm tăng tốc độ giải phóng hoạt chất ra khỏi màng tế bào. Hệ thống này phù hợp với các nhóm hoạt chất không bền dưới tác động của oxy. <span class="citation" data-cites="sporring_comprehensive_2005">(<a href="#ref-sporring_comprehensive_2005" role="doc-biblioref">Sporring et al., 2005</a>)</span></p>
 <div id="fig-UltraSoxhletExtraction" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-UltraSoxhletExtraction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -799,7 +812,7 @@ Figure&nbsp;7: Hệ thống chiết Soxhlet với sự trợ giúp của thiết
 <section id="chiết-soxhlet-có-sự-trợ-giúp-bởi-vi-sóng" class="level3">
 <h3 class="anchored" data-anchor-id="chiết-soxhlet-có-sự-trợ-giúp-bởi-vi-sóng">2.1.4 Chiết Soxhlet có sự trợ giúp bởi vi sóng</h3>
 <p><em>Thuật ngữ tiếng Anh</em>: Microwave-assisted Soxhlet extraction</p>
-<p>Phương pháp chiết Soxhlet có sự trợ giúp bởi vi sóng là kỹ thuật thu được hiệu quả chiết xuất cao nhất. Sự khác biệt giữa chiết Soxhlet có sự trợ giúp bởi vi sóng và phương pháp chiết Soxhlet thông thường ở các điểm sau: (a) áp suất được giữ bình thường khi bình được mở, (b) vi sóng tập trung tại ngăn chứa dược liệu, (c) như trong chiết Soxhlet thông thường , giai đoạn chiết xuất được hoàn thành toàn bộ hoặc một phần và (d) không bao gồm quá trình lọc. (<a href="#fig-MicrowaveAssistedSoxhletExtraction" class="quarto-xref">Figure&nbsp;8</a>) Kết quả là, các phương pháp này duy trì các ưu điểm của chiết Soxhlet thông thường đồng thời khắc phục các hạn chế. Đáng chú ý các lợi điểm gồm tốc độ, khả năng tự động hóa và cũng như khả năng chiết kiệt hoạt chất cần quan tâm.<span class="citation" data-cites="sporring_comprehensive_2005"><sup><a href="#ref-sporring_comprehensive_2005" role="doc-biblioref">14</a></sup></span></p>
+<p>Phương pháp chiết Soxhlet có sự trợ giúp bởi vi sóng là kỹ thuật thu được hiệu quả chiết xuất cao nhất. Sự khác biệt giữa chiết Soxhlet có sự trợ giúp bởi vi sóng và phương pháp chiết Soxhlet thông thường ở các điểm sau: (a) áp suất được giữ bình thường khi bình được mở, (b) vi sóng tập trung tại ngăn chứa dược liệu, (c) như trong chiết Soxhlet thông thường , giai đoạn chiết xuất được hoàn thành toàn bộ hoặc một phần và (d) không bao gồm quá trình lọc. (<a href="#fig-MicrowaveAssistedSoxhletExtraction" class="quarto-xref">Figure&nbsp;8</a>) Kết quả là, các phương pháp này duy trì các ưu điểm của chiết Soxhlet thông thường đồng thời khắc phục các hạn chế. Đáng chú ý các lợi điểm gồm tốc độ, khả năng tự động hóa và cũng như khả năng chiết kiệt hoạt chất cần quan tâm.<span class="citation" data-cites="sporring_comprehensive_2005">(<a href="#ref-sporring_comprehensive_2005" role="doc-biblioref">Sporring et al., 2005</a>)</span></p>
 <div id="fig-MicrowaveAssistedSoxhletExtraction" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-MicrowaveAssistedSoxhletExtraction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -819,7 +832,7 @@ Figure&nbsp;8: Hệ thống chiết xuất Soxhlet có trợ giúp của vi són
 <p><em>Thuật ngữ tiếng Anh:</em> Maceration</p>
 <p><em>Lịch sử:</em> Chiết ngâm là phương pháp ban đầu để chế rượu thuốc nhưng sau này được sử dụng để chiết dược liệu. Đây là kỹ thuật phổ biến, đơn giản và rẻ tiền để chiết xuất.</p>
 <p><strong>Mô tả thiết bị và quá trình chiết xuất</strong></p>
-<p>Nguyên liệu được nghiền thô cho vật chứa có nắp , sau đó bổ sung thêm dung môi. Quá trình chiết có yêu cầu khuấy trộn thường xuyên và thời gian thường diễn tra trong khoảng 3-4 ngày. (<a href="#fig-LaMaceration" class="quarto-xref">Figure&nbsp;9</a>) Nguyên liệu được nghiền thành bột sẽ tăng diện tích tiếp xúc với dung môi. Ngoài ra, khuấy trộn thường xuyên cũng tăng khuyếch tan do loại bỏ dung môi đậm đặc khỏi bề mặt mẫu và chuyển dung môi mới tới bề mặt mẫu. Bước cuối cùng, quá trình lọc là cần thiết để loại bỏ tạp ra khỏi dung dịch.<span class="citation" data-cites="nabeela_gulbadan_evaluation_2015 farnsworth_medicinal_1985"><sup><a href="#ref-nabeela_gulbadan_evaluation_2015" role="doc-biblioref">15</a>,<a href="#ref-farnsworth_medicinal_1985" role="doc-biblioref">16</a></sup></span> Điều này làm tăng tốc độ chiết xuất.<span class="citation" data-cites="azmir_techniques_2013"><sup><a href="#ref-azmir_techniques_2013" role="doc-biblioref">17</a></sup></span></p>
+<p>Nguyên liệu được nghiền thô cho vật chứa có nắp , sau đó bổ sung thêm dung môi. Quá trình chiết có yêu cầu khuấy trộn thường xuyên và thời gian thường diễn tra trong khoảng 3-4 ngày. (<a href="#fig-LaMaceration" class="quarto-xref">Figure&nbsp;9</a>) Nguyên liệu được nghiền thành bột sẽ tăng diện tích tiếp xúc với dung môi. Ngoài ra, khuấy trộn thường xuyên cũng tăng khuyếch tan do loại bỏ dung môi đậm đặc khỏi bề mặt mẫu và chuyển dung môi mới tới bề mặt mẫu. Bước cuối cùng, quá trình lọc là cần thiết để loại bỏ tạp ra khỏi dung dịch. <span class="citation" data-cites="nabeela_gulbadan_evaluation_2015 farnsworth_medicinal_1985">(<a href="#ref-farnsworth_medicinal_1985" role="doc-biblioref">Farnsworth et al., 1985</a>; <a href="#ref-nabeela_gulbadan_evaluation_2015" role="doc-biblioref">Nabeela Gulbadan et al., 2015</a>)</span> Điều này làm tăng tốc độ chiết xuất. <span class="citation" data-cites="azmir_techniques_2013">(<a href="#ref-azmir_techniques_2013" role="doc-biblioref">Azmir et al., 2013</a>)</span></p>
 <div id="fig-LaMaceration" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-LaMaceration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -832,18 +845,19 @@ Figure&nbsp;9: Chiết ngâm là phương pháp chiết dược liệu đơn gi�
 </div>
 <p><strong>Ưu điểm và giới hạn</strong></p>
 <p>Với hợp chất nhạy cảm với nhiệt, phương pháp này hiệu quả để chiết xuất. Đây cũng là phương pháp đòi hỏi kỹ thuật đơn giản nhất, rẻ tiền khi trang thiết bị không cần đầu tư nhiều và phổ biến. Tuy nhiên, phương pháp này đòi hỏi một lượng lớn dung mỗi dẫn tới nếu dung mỗi hữu cơ sẽ tạo ra vấn đề về môi trường. Trường hợp quá trình chiết xuất có sử dụng nhiệt độ sẽ làm giảm thể tích dung môi chiết xuất. ### 2.2.2 Sắc thuốc và pha trà thảo mộc</p>
-<p>Đây là phương pháp cơ bản để chiết xuất các thành phần có hoạt tính sinh học giống phương pháp chiết ngâm. Nguyên liệu được chiết bằng dung môi nước có gia nhiệt hoặc không. Sự khác biệt duy nhất là thời gian ngắn hơn và lượng dung môi ít hơn. Tỷ lệ rắn lỏng thường khoảng 1:4 đến 1:16. Phương pháp này thích hợp để chiết xuất thành phần ở định với nhiệt và nguyên liệu dạng rắn như cành hay rễ. Thêm nữa, dung môi là nước dẫn tới hoạt chất thu được thuộc nhóm thân nước. Phương pháp này không đòi hỏi thiết bị đắt tiền.<span class="citation" data-cites="nn_review_2015 bimakr_comparison_2011"><sup><a href="#ref-bimakr_comparison_2011" role="doc-biblioref">5</a>,<a href="#ref-nn_review_2015" role="doc-biblioref">10</a></sup></span></p>
+<p>Đây là phương pháp cơ bản để chiết xuất các thành phần có hoạt tính sinh học giống phương pháp chiết ngâm. Nguyên liệu được chiết bằng dung môi nước có gia nhiệt hoặc không. Sự khác biệt duy nhất là thời gian ngắn hơn và lượng dung môi ít hơn. Tỷ lệ rắn lỏng thường khoảng 1:4 đến 1:16. Phương pháp này thích hợp để chiết xuất thành phần ở định với nhiệt và nguyên liệu dạng rắn như cành hay rễ. Thêm nữa, dung môi là nước dẫn tới hoạt chất thu được thuộc nhóm thân nước. Phương pháp này không đòi hỏi thiết bị đắt tiền. <span class="citation" data-cites="nn_review_2015 bimakr_comparison_2011">(<a href="#ref-bimakr_comparison_2011" role="doc-biblioref">Bimakr et al., 2011</a>; <a href="#ref-nn_review_2015" role="doc-biblioref">NN, 2015</a>)</span></p>
 </section>
 <section id="chiết-lọc-có-nhiệt" class="level3">
 <h3 class="anchored" data-anchor-id="chiết-lọc-có-nhiệt">2.2.3 Chiết lọc có nhiệt</h3>
-<p>Phương pháp này có thể hình dung giống như pha cafe phin truyền thống của Việt nam khi quá trình chiết xuất giống như quá trình ngâm nhưng có thêm bộ phận lọc. Mẫu được nghiền mịn cho vào thiết bị, sau đó bổ sung nước sôi ngâm trong 2 giờ. Quá trình này diễn ra với tốc độ vừa phải (thường 6 giọt trên phút) cho đến khi chiết xuất hoàn toàn. Dịch lọc cuối cùng sẽ được bay hơi để thu được cao dịch chiết dạng cô đặc.<span class="citation" data-cites="rathi_evaluation_2006"><sup><a href="#ref-rathi_evaluation_2006" role="doc-biblioref">18</a></sup></span> Kỹ thuật này sử dụng thiết bị độc đáo được gọi là máy lọc màu và tuân theo cùng một nguyên tắc cơ bản của quá trình ngâm. Mẫu đã nghiền mịn được đổ vào máy lọc màu; sau đó, nước sôi được cho vào và ngâm trong 2 giờ. Quá trình này được thực hiện với tốc độ vừa phải (sáu giọt mỗi phút) cho đến khi chiết xuất hoàn toàn. Cuối cùng, quá trình bay hơi được thực hiện để thu được dịch chiết ở dạng cô đặc.</p>
+<p>Phương pháp này có thể hình dung giống như pha cafe phin truyền thống của Việt nam khi quá trình chiết xuất giống như quá trình ngâm nhưng có thêm bộ phận lọc. Mẫu được nghiền mịn cho vào thiết bị, sau đó bổ sung nước sôi ngâm trong 2 giờ. Quá trình này diễn ra với tốc độ vừa phải (thường 6 giọt trên phút) cho đến khi chiết xuất hoàn toàn. Dịch lọc cuối cùng sẽ được bay hơi để thu được cao dịch chiết dạng cô đặc. <span class="citation" data-cites="rathi_evaluation_2006">(<a href="#ref-rathi_evaluation_2006" role="doc-biblioref">Rathi et al., 2006</a>)</span> Kỹ thuật này sử dụng thiết bị độc đáo được gọi là máy lọc màu và tuân theo cùng một nguyên tắc cơ bản của quá trình ngâm. Mẫu đã nghiền mịn được đổ vào máy lọc màu; sau đó, nước sôi được cho vào và ngâm trong 2 giờ. Quá trình này được thực hiện với tốc độ vừa phải (sáu giọt mỗi phút) cho đến khi chiết xuất hoàn toàn. Cuối cùng, quá trình bay hơi được thực hiện để thu được dịch chiết ở dạng cô đặc.</p>
 </section>
 </section>
 <section id="phương-pháp-cất-kéo-hơi-nước" class="level2">
 <h2 class="anchored" data-anchor-id="phương-pháp-cất-kéo-hơi-nước">2.3 Phương pháp cất kéo hơi nước</h2>
+<p><em>Thuật ngữ tiếng Anh:</em> Hydrodistillation</p>
 <section id="khái-quát-về-phương-pháp-cất-kéo-hơi-nước" class="level3">
 <h3 class="anchored" data-anchor-id="khái-quát-về-phương-pháp-cất-kéo-hơi-nước">2.3.1 Khái quát về phương pháp cất kéo hơi nước</h3>
-<p>Cất kéo hơi nước là kỹ thuật chiết xuất thường quy để thu được các tinh dầu (dầu bay hơi) từ thực vật. Đặc trưng của phương pháp này sẽ sử dụng dược liệu trước khi khô và không sử dụng dung môi hữu cơ. (<a href="#fig-Catkeuhoinuoc" class="quarto-xref">Figure&nbsp;10</a>)<span class="citation" data-cites="vankar_essential_2004"><sup><a href="#ref-vankar_essential_2004" role="doc-biblioref">19</a></sup></span> Ba phương pháp cất kéo hơi nước gồm sử dụng chưng cất nước, nước và hơi nước và cất kéo bằng nước trực tiếp.<span class="citation" data-cites="suchan_pressurized_2004 vankar_essential_2004"><sup><a href="#ref-vankar_essential_2004" role="doc-biblioref">19</a>,<a href="#ref-suchan_pressurized_2004" role="doc-biblioref">20</a></sup></span></p>
+<p>Cất kéo hơi nước là kỹ thuật chiết xuất thường quy để thu được các tinh dầu (dầu bay hơi) từ thực vật. Đặc trưng của phương pháp này sẽ sử dụng dược liệu trước khi khô và không sử dụng dung môi hữu cơ. (<a href="#fig-Catkeuhoinuoc" class="quarto-xref">Figure&nbsp;10</a>) <span class="citation" data-cites="vankar_essential_2004">(<a href="#ref-vankar_essential_2004" role="doc-biblioref">Vankar, 2004</a>)</span> Ba phương pháp cất kéo hơi nước gồm sử dụng chưng cất nước, nước và hơi nước và cất kéo bằng nước trực tiếp. <span class="citation" data-cites="suchan_pressurized_2004 vankar_essential_2004">(<a href="#ref-suchan_pressurized_2004" role="doc-biblioref">Suchan et al., 2004</a>; <a href="#ref-vankar_essential_2004" role="doc-biblioref">Vankar, 2004</a>)</span></p>
 <p><strong>Mô tả thiết bị và quá trình chiết xuất</strong></p>
 <p>Với phương pháp cất kéo hơi nước, nguyên liệu được đưa vào một bình sau đó thêm một lượng nước vừa đủ. Quá trình gia nhiệt bắt đầu làm nước sôi và hơi nước dẫn vào dược liệu. Sự tiếp xúc hơi nước và dược liệu tăng tăng giải phóng các hoạt chất từ mô thực vật. Qua trình phân lập tinh dầu cũng được tiến hành với 3 phương pháp đề cập ở trên. Và cuối cùng là tách dầu ra khỏi nước dựa trên quá trình làm mát gián tiếp thông qua sinh hàn. Một cách khác, hỗn hợp ngưng tụ có thể chuyển vào bộ phận chiết lỏng lỏng để tách lấy tinh dầu. Ví dụ nghiên cứu của Ma và cộng sự đã đề xuất tách tinh dầu từ cây trầm hương sử dụng dung môi aceton sẽ cho hiệu suất cao nhất. Cũng trong nghiên cứu này cho thấy không có sự khác biệt giữa quy mô phòng thí nghiệm và công nghiệp. Phương pháp cất kéo hơi nước được so sánh với hai phương pháp thường quy gồm chiết Soxhlet và chiết ngâm được trình bầy trong bảng.</p>
 <div id="fig-Catkeuhoinuoc" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -944,74 +958,71 @@ Figure&nbsp;13: Thiết bị chưng cất tinh dầu trong đó hơi nước đ�
 <p>Câu 2: Phân tích ưu và nhược điểm thiết bị chiết Soxhlet. Các cải tiến cho chiết bị chiết Soxhlet đã được áp dụng</p>
 <p>Câu 3: Phân tích ưu và nhược điểm phương pháp chiết ngâm.</p>
 <p>Câu 4: Phân tích ưu và nhược điểm phương pháp cất kéo hơi nước</p>
-</section>
-<section id="bibliography" class="level1 unnumbered">
-
 
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Bibliography</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-castro_bacterial_2012" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.carbpol.2012.03.045">C. Castro, R. Zuluaga, C. Álvarez, J.-L. Putaux, G. Caro, O. J. Rojas, I. Mondragon and P. Gañán, <em>Carbohydrate Polymers</em>, 2012, <strong>89</strong>, 1033–1037</a>.</div>
-</div>
-<div id="ref-yang_selective_2013" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.jhazmat.2013.03.026">F. Yang, F. Kubota, Y. Baba, N. Kamiya and M. Goto, <em>Journal of Hazardous Materials</em>, 2013, <strong>254–255</strong>, 79–88</a>.</div>
-</div>
-<div id="ref-punin_crespo_comparison_2006" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.ecoenv.2005.04.010">M. O. Punín Crespo and M. A. Lage Yusty, <em>Ecotoxicology and Environmental Safety</em>, 2006, <strong>64</strong>, 400–405</a>.</div>
-</div>
-<div id="ref-jensen_origin_2007" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4 </div><div class="csl-right-inline"><a href="https://doi.org/10.1021/ed084p1913">W. B. Jensen, <em>J. Chem. Educ.</em>, 2007, <strong>84</strong>, 1913</a>.</div>
-</div>
-<div id="ref-bimakr_comparison_2011" class="csl-entry" role="listitem">
-<div class="csl-left-margin">5 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.fbp.2010.03.002">M. Bimakr, R. A. Rahman, F. S. Taip, A. Ganjloo, L. M. Salleh, J. Selamat, A. Hamid and I. S. M. Zaidul, <em>Food and Bioproducts Processing</em>, 2011, <strong>89</strong>, 67–72</a>.</div>
-</div>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-arthur_soxhlet_nodate" class="csl-entry" role="listitem">
-<div class="csl-left-margin">6 </div><div class="csl-right-inline"><a href="https://patents.google.com/patent/EP0747103A1/en">0747103A1, </a>.</div>
-</div>
-<div id="ref-ma_soxhlet-assisted_2015" class="csl-entry" role="listitem">
-<div class="csl-left-margin">7 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.jchromb.2015.09.038">S. Ma, X. Tu, J. Dong, P. Long, W. Yang, X. Miao, W. Chen and Z. Wu, <em>Journal of Chromatography B</em>, 2015, <strong>1005</strong>, 17–22</a>.</div>
-</div>
-<div id="ref-buss_natural_2009" class="csl-entry" role="listitem">
-<div class="csl-left-margin">8 </div><div class="csl-right-inline">A. D. Buss and M. S. Butler, Eds., <em><a href="https://doi.org/10.1039/9781847559890">Natural product chemistry for drug discovery</a></em>, Royal Society of Chemistry, Cambridge, 2009.</div>
-</div>
-<div id="ref-punin_crespo_comparison_2005" class="csl-entry" role="listitem">
-<div class="csl-left-margin">9 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.chemosphere.2004.12.025">M. O. Punín Crespo and M. A. Lage Yusty, <em>Chemosphere</em>, 2005, <strong>59</strong>, 1407–1413</a>.</div>
-</div>
-<div id="ref-nn_review_2015" class="csl-entry" role="listitem">
-<div class="csl-left-margin">10 </div><div class="csl-right-inline">A. NN, <em>Med Aromat Plants</em>, DOI:<a href="https://doi.org/10.4172/2167-0412.1000196">10.4172/2167-0412.1000196</a>.</div>
-</div>
-<div id="ref-subramanian_double_2016" class="csl-entry" role="listitem">
-<div class="csl-left-margin">11 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.arabjc.2011.06.022">R. Subramanian, P. Subbramaniyan, J. Noorul Ameen and V. Raj, <em>Arabian Journal of Chemistry</em>, 2016, <strong>9</strong>, S537–S540</a>.</div>
-</div>
-<div id="ref-luque_de_castro_soxhlet_2010" class="csl-entry" role="listitem">
-<div class="csl-left-margin">12 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.chroma.2009.11.027">M. D. Luque de Castro and F. Priego-Capote, <em>Journal of Chromatography A</em>, 2010, <strong>1217</strong>, 2383–2389</a>.</div>
-</div>
-<div id="ref-bernal_use_1992" class="csl-entry" role="listitem">
-<div class="csl-left-margin">13 </div><div class="csl-right-inline"><a href="https://doi.org/10.1007/BF02290238">J. L. Bernal, M. J. del Nozal and J. J. Jiménez, <em>Chromatographia</em>, 1992, <strong>34</strong>, 468–474</a>.</div>
-</div>
-<div id="ref-sporring_comprehensive_2005" class="csl-entry" role="listitem">
-<div class="csl-left-margin">14 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.chroma.2005.07.008">S. Sporring, S. Bøwadt, B. Svensmark and E. Björklund, <em>Journal of Chromatography A</em>, 2005, <strong>1090</strong>, 1–9</a>.</div>
-</div>
-<div id="ref-nabeela_gulbadan_evaluation_2015" class="csl-entry" role="listitem">
-<div class="csl-left-margin">15 </div><div class="csl-right-inline"><a href="https://doi.org/10.5829/idosi.aejaes.2015.15.4.12604">D. Nabeela Gulbadan, H. Arshad, P. Ghulam Muhayyudin and Saeed, <em>J. Agric. &amp; Environ. Sci.</em>, 2015, <strong>4</strong>, 676–682</a>.</div>
-</div>
-<div id="ref-farnsworth_medicinal_1985" class="csl-entry" role="listitem">
-<div class="csl-left-margin">16 </div><div class="csl-right-inline"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2536466">N. R. Farnsworth, O. Akerele, A. S. Bingel, D. D. Soejarto and Z. Guo, <em>Bull World Health Organ</em>, 1985, <strong>63</strong>, 965–981</a>.</div>
+Arthur, S., Stefan, H., Marco, S., Erwin, B., n.d. <a href="https://patents.google.com/patent/EP0747103A1/en">Soxhlet extractor for solid/liquid extraction</a>. 0747103A1.
 </div>
 <div id="ref-azmir_techniques_2013" class="csl-entry" role="listitem">
-<div class="csl-left-margin">17 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.jfoodeng.2013.01.014">J. Azmir, I. S. M. Zaidul, M. M. Rahman, K. M. Sharif, A. Mohamed, F. Sahena, M. H. A. Jahurul, K. Ghafoor, N. A. N. Norulaini and A. K. M. Omar, <em>Journal of Food Engineering</em>, 2013, <strong>117</strong>, 426–436</a>.</div>
+Azmir, J., Zaidul, I.S.M., Rahman, M.M., Sharif, K.M., Mohamed, A., Sahena, F., Jahurul, M.H.A., Ghafoor, K., Norulaini, N.A.N., Omar, A.K.M., 2013. Techniques for extraction of bioactive compounds from plant materials: A review. Journal of Food Engineering 117, 426–436. <a href="https://doi.org/10.1016/j.jfoodeng.2013.01.014">https://doi.org/10.1016/j.jfoodeng.2013.01.014</a>
+</div>
+<div id="ref-bernal_use_1992" class="csl-entry" role="listitem">
+Bernal, J.L., Nozal, M.J. del, Jiménez, J.J., 1992. Use of a high-pressure soxhlet extractor for the determination of organochlorine residues by gas chromatography. Chromatographia 34, 468–474. <a href="https://doi.org/10.1007/BF02290238">https://doi.org/10.1007/BF02290238</a>
+</div>
+<div id="ref-bimakr_comparison_2011" class="csl-entry" role="listitem">
+Bimakr, M., Rahman, R.A., Taip, F.S., Ganjloo, A., Salleh, L.M., Selamat, J., Hamid, A., Zaidul, I.S.M., 2011. Comparison of different extraction methods for the extraction of major bioactive flavonoid compounds from spearmint (mentha spicata l.) leaves. Food and Bioproducts Processing 89, 67–72. <a href="https://doi.org/10.1016/j.fbp.2010.03.002">https://doi.org/10.1016/j.fbp.2010.03.002</a>
+</div>
+<div id="ref-buss_natural_2009" class="csl-entry" role="listitem">
+Buss, A.D., Butler, M.S. (Eds.), 2009. Natural product chemistry for drug discovery, <span>RSC</span> biomolecular sciences. Royal Society of Chemistry, Cambridge. <a href="https://doi.org/10.1039/9781847559890">https://doi.org/10.1039/9781847559890</a>
+</div>
+<div id="ref-castro_bacterial_2012" class="csl-entry" role="listitem">
+Castro, C., Zuluaga, R., Álvarez, C., Putaux, J.-L., Caro, G., Rojas, O.J., Mondragon, I., Gañán, P., 2012. Bacterial cellulose produced by a new acid-resistant strain of gluconacetobacter genus. Carbohydrate Polymers 89, 1033–1037. <a href="https://doi.org/10.1016/j.carbpol.2012.03.045">https://doi.org/10.1016/j.carbpol.2012.03.045</a>
+</div>
+<div id="ref-farnsworth_medicinal_1985" class="csl-entry" role="listitem">
+Farnsworth, N.R., Akerele, O., Bingel, A.S., Soejarto, D.D., Guo, Z., 1985. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2536466">Medicinal plants in therapy</a>. Bull World Health Organ 63, 965–981.
+</div>
+<div id="ref-jensen_origin_2007" class="csl-entry" role="listitem">
+Jensen, W.B., 2007. The origin of the soxhlet extractor. J. Chem. Educ. 84, 1913. <a href="https://doi.org/10.1021/ed084p1913">https://doi.org/10.1021/ed084p1913</a>
+</div>
+<div id="ref-luque_de_castro_soxhlet_2010" class="csl-entry" role="listitem">
+Luque de Castro, M.D., Priego-Capote, F., 2010. Soxhlet extraction: Past and present panacea. Journal of Chromatography A 1217, 2383–2389. <a href="https://doi.org/10.1016/j.chroma.2009.11.027">https://doi.org/10.1016/j.chroma.2009.11.027</a>
+</div>
+<div id="ref-ma_soxhlet-assisted_2015" class="csl-entry" role="listitem">
+Ma, S., Tu, X., Dong, J., Long, P., Yang, W., Miao, X., Chen, W., Wu, Z., 2015. Soxhlet-assisted matrix solid phase dispersion to extract flavonoids from rape (brassica campestris) bee pollen. Journal of Chromatography B 1005, 17–22. <a href="https://doi.org/10.1016/j.jchromb.2015.09.038">https://doi.org/10.1016/j.jchromb.2015.09.038</a>
+</div>
+<div id="ref-nabeela_gulbadan_evaluation_2015" class="csl-entry" role="listitem">
+Nabeela Gulbadan, D., Arshad, H., Ghulam Muhayyudin, P., Saeed, 2015. Evaluation of different techniques for extraction of antioxidants as bioactive compounds from citrus peels (industrial by products). J. Agric. &amp; Environ. Sci. 4, 676–682. <a href="https://doi.org/10.5829/idosi.aejaes.2015.15.4.12604">https://doi.org/10.5829/idosi.aejaes.2015.15.4.12604</a>
+</div>
+<div id="ref-nn_review_2015" class="csl-entry" role="listitem">
+NN, A., 2015. A review on the extraction methods use in medicinal plants, principle, strength and limitation. Med Aromat Plants 04. <a href="https://doi.org/10.4172/2167-0412.1000196">https://doi.org/10.4172/2167-0412.1000196</a>
+</div>
+<div id="ref-punin_crespo_comparison_2006" class="csl-entry" role="listitem">
+Punín Crespo, M.O., Lage Yusty, M.A., 2006. Comparison of supercritical fluid extraction and soxhlet extraction for the determination of aliphatic hydrocarbons in seaweed samples. Ecotoxicology and Environmental Safety 64, 400–405. <a href="https://doi.org/10.1016/j.ecoenv.2005.04.010">https://doi.org/10.1016/j.ecoenv.2005.04.010</a>
+</div>
+<div id="ref-punin_crespo_comparison_2005" class="csl-entry" role="listitem">
+Punín Crespo, M.O., Lage Yusty, M.A., 2005. Comparison of supercritical fluid extraction and soxhlet extraction for the determination of <span>PCBs</span> in seaweed samples. Chemosphere 59, 1407–1413. <a href="https://doi.org/10.1016/j.chemosphere.2004.12.025">https://doi.org/10.1016/j.chemosphere.2004.12.025</a>
 </div>
 <div id="ref-rathi_evaluation_2006" class="csl-entry" role="listitem">
-<div class="csl-left-margin">18 </div><div class="csl-right-inline">B. S. Rathi, S. L. Bodhankar and A. M. Baheti, <em>Indian J Exp Biol</em>, 2006, <strong>44</strong>, 898–901.</div>
+Rathi, B.S., Bodhankar, S.L., Baheti, A.M., 2006. Evaluation of aqueous leaves extract of moringa oleifera linn for wound healing in albino rats. Indian J Exp Biol 44, 898–901.
 </div>
-<div id="ref-vankar_essential_2004" class="csl-entry" role="listitem">
-<div class="csl-left-margin">19 </div><div class="csl-right-inline"><a href="https://doi.org/10.1007/BF02834854">P. S. Vankar, <em>Reson</em>, 2004, <strong>9</strong>, 30–41</a>.</div>
+<div id="ref-sporring_comprehensive_2005" class="csl-entry" role="listitem">
+Sporring, S., Bøwadt, S., Svensmark, B., Björklund, E., 2005. Comprehensive comparison of classic soxhlet extraction with soxtec extraction, ultrasonication extraction, supercritical fluid extraction, microwave assisted extraction and accelerated solvent extraction for the determination of polychlorinated biphenyls in soil. Journal of Chromatography A 1090, 1–9. <a href="https://doi.org/10.1016/j.chroma.2005.07.008">https://doi.org/10.1016/j.chroma.2005.07.008</a>
+</div>
+<div id="ref-subramanian_double_2016" class="csl-entry" role="listitem">
+Subramanian, R., Subbramaniyan, P., Noorul Ameen, J., Raj, V., 2016. Double bypasses soxhlet apparatus for extraction of piperine from piper nigrum. Arabian Journal of Chemistry 9, S537–S540. <a href="https://doi.org/10.1016/j.arabjc.2011.06.022">https://doi.org/10.1016/j.arabjc.2011.06.022</a>
 </div>
 <div id="ref-suchan_pressurized_2004" class="csl-entry" role="listitem">
-<div class="csl-left-margin">20 </div><div class="csl-right-inline"><a href="https://doi.org/10.1016/j.aca.2004.02.061">P. Suchan, J. Pulkrabová, J. Hajšlová and V. Kocourek, <em>Analytica Chimica Acta</em>, 2004, <strong>520</strong>, 193–200</a>.</div>
+Suchan, P., Pulkrabová, J., Hajšlová, J., Kocourek, V., 2004. Pressurized liquid extraction in determination of polychlorinated biphenyls and organochlorine pesticides in fish samples. Analytica Chimica Acta 520, 193–200. <a href="https://doi.org/10.1016/j.aca.2004.02.061">https://doi.org/10.1016/j.aca.2004.02.061</a>
+</div>
+<div id="ref-vankar_essential_2004" class="csl-entry" role="listitem">
+Vankar, P.S., 2004. Essential oils and fragrances from natural sources. Reson 9, 30–41. <a href="https://doi.org/10.1007/BF02834854">https://doi.org/10.1007/BF02834854</a>
+</div>
+<div id="ref-yang_selective_2013" class="csl-entry" role="listitem">
+Yang, F., Kubota, F., Baba, Y., Kamiya, N., Goto, M., 2013. Selective extraction and recovery of rare earth metals from phosphor powders in waste fluorescent lamps using an ionic liquid system. Journal of Hazardous Materials 254–255, 79–88. <a href="https://doi.org/10.1016/j.jhazmat.2013.03.026">https://doi.org/10.1016/j.jhazmat.2013.03.026</a>
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1264,6 +1275,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1578,10 +1596,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="hoangson0787/hoangson0787.github.io" data-repo-id="R_kgDONbMRNA" data-category="General" data-category-id="DIC_kwDONbMRNM4ClkiJ" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+<script src="https://giscus.app/client.js" data-repo="duoclieu/duoclieu.github.io" data-repo-id="R_kgDONkJDTw" data-category="General" data-category-id="DIC_kwDONkJDT84Clny1" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="light_high_contrast" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
+<input type="hidden" id="giscus-base-theme" value="light_high_contrast">
+<input type="hidden" id="giscus-alt-theme" value="dark_dimmed">
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../../../Book/KyThuatChietXuat/part_1/chapter_1.html" class="pagination-link" aria-label="Chương 1: Đại cương về kỹ thuật chiết xuất">
@@ -1622,4 +1640,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

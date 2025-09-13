@@ -1,0 +1,216 @@
+---
+title: "Dược liệu "
+subtitle: "Terpen và Dược liệu chứa Terpen"
+author:
+  - name: TS. Hoàng Lê Sơn
+    email: sonhoang.ump@vnu.edu.vn
+    affiliations: UMP
+date: last-modified
+toc: true
+toc-depth: 1
+lightbox: true
+format: 
+  revealjs:
+    slide-number: true
+    logo: "../../images/logo.png"
+    footer: "Bộ môn Dược liệu- Dược cổ truyền"
+    width: 100%
+    height: 100%
+    incremental: false
+    smaller: false
+    auto-stretch: false
+    chalkboard: true
+    highlight-style: github-dark
+    theme: "../coeos.scss"
+title-slide-attributes: 
+  data-background-image: "../../images/theme1.jpg"
+  data-background-size: 100%
+  data-background-position: 0% 0%
+---
+
+## Mục tiêu học tập
+
+1. Cấu trúc hóa học nhóm iridoid  
+2. Phân loại nhóm iridoid  
+3. Tính chất, định tính iridoid trong dược liệu  
+4. Dược liệu chứa diterpenoid glycoside: Xuyên tâm liên, hy thiêm và cỏ ngọt  
+
+---
+
+## Terpenoid
+
+![Terpenoid](../Duoc_lieu/Images/terpenoid.png){width=40%}
+
+---
+
+## Phân loại Iridoid
+
+- Iridoid glycosides  
+- Iridoid aglycones or non-glycosidic iridoids  
+- Secoiridoid glycosides  
+- Secoiridoid aglycones  
+- Di- and trimeric iridoid and secoiridoid glycosides  
+
+---
+
+## Iridoid glycosides
+
+![IA](../Duoc_lieu/Images/IA.png){width=70%}
+
+---
+
+![IB](../Duoc_lieu/Images/IB.png){width=40%}
+
+---
+
+![IC1](../Duoc_lieu/Images/IC1.png){width=40%}
+
+---
+
+![IC2](../Duoc_lieu/Images/IC2.png){width=40%}
+
+---
+
+![ID](../Duoc_lieu/Images/ID.png){width=40%}
+
+---
+
+![IE](../Duoc_lieu/Images/IE.png){width=40%}
+
+---
+
+## Iridoid aglycones or non-glycosidic iridoids
+
+![IIA](../Duoc_lieu/Images/IIA.png){width=50%}
+
+---
+
+![IIB](../Duoc_lieu/Images/IIB.png){width=30%}
+
+---
+
+![IIC](../Duoc_lieu/Images/IIC.png){width=60%}
+
+---
+
+## Secoiridoid glycosides
+
+![IIIA](../Duoc_lieu/Images/IIIA.png){width=50%}
+
+---
+
+![IIIB](../Duoc_lieu/Images/IIIB.png){width=50%}
+
+---
+
+![IIIC](../Duoc_lieu/Images/IIIC.png){width=50%}
+
+---
+
+![IIID](../Duoc_lieu/Images/IIID.png){width=60%}
+
+---
+
+## Secoiridoid aglycones
+
+![IV](../Duoc_lieu/Images/IV.png){width=60%}
+
+---
+
+## Di- and trimeric iridoid and secoiridoid glycosides
+
+![V](../Duoc_lieu/Images/V.png){width=40%}
+
+---
+
+## Phân bố trong tự nhiên — Chi tiết
+
+![Iridoid-bearing angiosperm plant families](../Duoc_lieu/Images/Iridoid-bearing%20angiosperm%20plant%20families.png){width=40%}
+
+---
+
+## Phân bố trong tự nhiên — Rút gọn
+
+1. Scrophulariaceae (Digital, sinh địa, huyền sâm)  
+2. Rubiaceae (Mơ lông, dành dành)  
+3. Apocynaceae (Thông thiên, cây bông sứ)  
+4. Loganiaceae (Mã tiền)  
+5. Plataginaceae (Mã đề)  
+6. Rifollaceae (Kim ngân)  
+7. Verbenaceae (Cỏ roi ngựa)  
+
+---
+
+## Tính chất
+
+- Dễ tan trong nước, cồn loãng  
+- Dưới tác dụng của enzyme có sẵn trong cây, iridoid biến đổi thành sản phẩm màu đen  
+- Dễ bị thủy phân bởi acid  
+- Dưới tác dụng của kiềm thì các nhóm ester bị cắt  
+
+---
+
+## Định tính
+
+- **Thuốc thử Trim-Hill**: 10 ml acid acetic + 1 ml CuSO₄ 0.2% + 0.5 ml HCl  
+- Dược liệu tươi 2g cắt nhỏ, thêm 5ml HCl 1%, lắc đều. Sau vài giờ gạn lấy 0.1ml dịch chiết, thêm 1ml thuốc thử, đun nóng → màu xanh dương hoặc tím đỏ  
+- Một số chất iridoid âm tính với thuốc thử trên  
+
+---
+
+## Tác dụng và công dụng
+
+### Kháng viêm và giảm đau  
+*Morinda officinalis* dùng trị viêm khớp, tiểu đường, cao huyết áp  
+![Morinda officinalis](../Duoc_lieu/Images/Morinda%20officinalis.png){width=50%}
+
+---
+
+### Kháng khuẩn và kháng nấm  
+Aucubin, acid genipic, plumericin  
+![iridoid antibacteria](../Duoc_lieu/Images/iridoid%20antibacteria.png){width=50%}
+
+---
+
+### Bảo vệ gan  
+Oleuropein (dầu olive), Loganin, Morroniside, Paederoside  
+![Irridoid Hepatoprotective](../Duoc_lieu/Images/Irridoid%20Hepatoprotective.png){width=50%}
+
+---
+
+### Tác dụng khác
+
+- Bảo vệ tế bào thần kinh  
+- An thần, giảm lo âu  
+- Kích thích miễn dịch  
+- Chữa đau dạ dày  
+- Hỗ trợ đường huyết và béo phì  
+- Chống dị ứng  
+
+---
+
+## Dược liệu chứa Iridoid
+
+- Sinh địa  
+- Dành dành  
+- Lá Mơ  
+- Huyền sâm  
+- Đại  
+- Kim ngân  
+- Cỏ roi ngựa  
+- Mã đề  
+
+---
+
+## Diterpenoid Glycoside
+
+Diterpenoid glycoside có bộ khung aglycon cấu tạo bởi 4 isoprenoid (C20)  
+![Diterpenoid](../Duoc_lieu/Images/Diterpenoid.png){width=50%}  
+Phân loại: Ít nhất thành 45 nhóm  
+
+---
+
+## Dược liệu chứa Diterpenoid Glycoside
+
+- Hy thiêm  
+- Xuyên tâm liên  

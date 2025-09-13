@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   preview:
-    port: 4000
+    port: 4001
     browser: false
 
 
@@ -53,8 +53,25 @@ website:
 format: 
   html: 
     theme: 
-      light: [Materia, styles.scss]
-      dark: Materia
+      light: [flatly, scss/light.scss]
+      dark: [darkly, scss/dark.scss]
     toc: true
     linestretch: 1.5
-
+    css: scss/styles.css
+    code-link: true
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    highlight-style: gruvbox
+    df-print: kable
+    comments:
+      giscus:
+        repo: duoclieu/duoclieu.github.io
+        category: "General"
+        mapping: "pathname"
+        reactions-enabled: true
+        loading: lazy
+        input-position: "bottom"
+        theme:
+          light: light_high_contrast
+          dark: dark_dimmed

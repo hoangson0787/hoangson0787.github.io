@@ -1,0 +1,69 @@
+/* css styles */
+
+
+
+.justify {
+    text-align: justify !important
+  }
+.right {
+    text-align: right !important
+  }
+.left {
+    text-align: left !important
+  }
+body {
+    text-align: justify;
+}
+
+.reveal .slides .logo {
+  width: 500px; /* Đặt kích thước mong muốn */
+  height: auto; /* Giữ tỷ lệ khung hình */
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #e0e0e0;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card h3, .card strong {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+.card p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007acc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+.card-file-modified:before {
+    content: "Updated: ";
+}
