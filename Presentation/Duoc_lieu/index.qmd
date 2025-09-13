@@ -29,9 +29,9 @@ format:
 
 Bài 1: [Flavonoid và các dược liệu chứa Flavonoid](../Duoc_lieu/flavonoids.qmd)
 
-Bài 2: [Terpen và tanin](../Duoc_lieu/Terpen_Tanin.qmd)
+Bài 2: [Terpen và các dược liệu chứa terpen](../Duoc_lieu/Terpen.qmd)
 
-
+Bài 3: [Tannin và các dược liệu chứa Tannin](../Duoc_lieu/Tanin.qmd)
 
 ### 1.2 Tiểu luận cá nhân
 
@@ -126,7 +126,7 @@ Yêu cầu: R2 ?? 0.995.
 
 
 
-## II. Dành cho học phần dược liệu II:
+## II. Dành cho học phần dược liệu II
 
 ### 2.1 Slide bài giảng
 
