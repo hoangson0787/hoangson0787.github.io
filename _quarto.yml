@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - ads.txt
   output-dir: docs
   preview:
     port: 4001
